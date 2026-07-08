@@ -1,0 +1,137 @@
+{
+  "id": "https://w3id.org/iqb/v85/em/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "VerbundFDB - Kontrolliertes Vokabular - Erhebungsmethode",
+    "en": "VerbundFDB - Controlled Vocabulary - Survey Method"
+  },
+  "description": {
+    "de": "Hierbei handelt es sich um ein kontrolliertes Vokabular der Erhebungsmethode, die zur Datenerfassung verwendet wird. Das kontrollierte Vokabular ist als Spezifikation der Interviews im Erhebungsverfahren gedacht; kann also gezielt genutzt werden, um bei Bedarf das DDI-Vokabular zu erweitern.\n\nZitation: VerbundFDB: Erhebungsmethode Bildungsforschung. Version 1.0. Verfügbar unter https://w3id.org/iqb/v85/em/.\n\nProvenienz: Es handelt sich hierbei um ein kontrolliertes Vokabular, welches im Bearbeitergremium des VerbundFDB, bestehend aus Marcus Eisentraut, Karoline Harzenetter, Nadeshda Jung, Claudia Neuendorf, Lisa Pegelow, Maike Porzelt, Jessica Trixa, Dirk Weisbrod, beschlossen wurde.\n\nStand: 11.05.2020\n\nLizenz: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)\n",
+    "en": "This is a controlled vocabulary of the survey method used to obtain data. The controlled vocabulary is intended as a specification of the interviews in the survey procedure (Mode of Collection); it can therefore be used specifically to expand the DDI vocabulary if necessary. \n\nCitation: VerbundFDB: Survey Method Educational Research. Version 1.0. Retrieved from https://w3id.org/iqb/v85/em/.\n\nProvenance: This is a controlled vocabulary developed and used by the VerbundFDB metadata working group (Marcus Eisentraut, Karoline Harzenetter, Nadeshda Jung, Claudia Neuendorf, Lisa Pegelow, Maike Porzelt, Jessica Trixa, Dirk Weisbrod).\n\nAs of: 11.05.2020\n\nLicense: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)"
+  },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v85/em/1",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Interview: Rezeptives Interview",
+        "en": "Interview: Receptive interview"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/em/2",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Interview: Problemzentriertes Interview",
+        "en": "Interview: Problem-centred interview"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/em/3",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Interview: Leitfadeninterview",
+        "en": "Interview: Guide interview"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/em/4",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Interview: Narratives Interview",
+        "en": "Interview: Narrative interview"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/em/5",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Interview: Tiefeninterview",
+        "en": "Interview: In-depth interview"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/em/6",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Interview: Episodisches Interview",
+        "en": "Interview: Episodic interview"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/em/7",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Interview: Halbstandardisiertes Interview",
+        "en": "Interview: Semi-standardised interview"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/em/8",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Interview: Erzählgenerierendes Interview",
+        "en": "Interview: Story-telling interview"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/em/9",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Interview: Ethnografisches Interview",
+        "en": "Interview: Ethnographic interview"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/em/10",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Interview: Fokussiertes Interview",
+        "en": "Interview: Focused interview"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/em/11",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Interview: Ero-episches Gespräch",
+        "en": "Interview: Ero-epic conversation"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/em/12",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Interview: Experteninterview",
+        "en": "Interview: Expert interview"
+      }
+    }
+  ]
+}

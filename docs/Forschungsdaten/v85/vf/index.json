@@ -1,0 +1,57 @@
+{
+  "id": "https://w3id.org/iqb/v85/vf/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "VerbundFDB - Kontrolliertes Vokabular - Verfügbarkeit",
+    "en": "VerbundFDB - Controlled Vocabulary - Availability"
+  },
+  "description": {
+    "de": "Hierbei handelt es sich um ein kontrolliertes Vokabular zur Verfügbarkeit von Forschungsdaten des VerbundFDB.\n\nZitation: VerbundFDB: Verfügbarkeit Bildungsforschung. Version 1.0. Verfügbar unter https://w3id.org/iqb/v85/vf/. \n\nLizenz: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)",
+    "en": "This is a controlled vocabulary for availability for research data of the VerbundFDB.\n\nCitation: VerbundFDB: Availability Educational Research. Version 1.0. Retrieved from https://w3id.org/iqb/v85/vf/.\n\nLicense: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)"
+  },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v85/vf/2",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Download",
+        "en": "download"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/vf/3",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Nach Registrierung",
+        "en": "only registered member"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/vf/4",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Nicht verfügbar",
+        "en": "not available"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/vf/1",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Verfügbar",
+        "en": "available"
+      }
+    }
+  ]
+}

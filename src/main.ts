@@ -1,5 +1,6 @@
 import type { Concept, VocabFile, VocabCategory } from './types';
 import { loadVocabFiles, groupByCategory, getLabel, searchConcepts } from './data';
+import { t } from './i18n';
 
 // ── State ────────────────────────────────────────────────
 let vocabFiles: VocabFile[] = [];
@@ -32,7 +33,7 @@ function buildHeader(): HTMLElement {
   header.className = 'app-header';
 
   const activeFile = activeFileIndex !== null ? vocabFiles[activeFileIndex] : null;
-  const activeLabel = activeFile ? getLabel(activeFile.data.title, lang) : 'Select vocabulary';
+  const activeLabel = activeFile ? getLabel(activeFile.data.title, lang) : t('select_vocab', lang);
   const showControls = activeFileIndex !== null;
 
   // Build two-level dropdown: category → files
@@ -64,7 +65,7 @@ function buildHeader(): HTMLElement {
 
   header.innerHTML = `
     <div class="header-logo-wrap">
-      <button class="header-logo" id="logo-btn" title="Go to Dashboard">
+      <button class="header-logo" id="logo-btn" title="${t('go_to_dashboard', lang)}">
         <img class="iqb-logo-img" src="${lang === 'de' ? 'https://www.iqb.hu-berlin.de/static/Img/Logo/iqb-logos/iqb-logo-red-name.fafaa6b5a6cb.svg' : 'https://www.iqb.hu-berlin.de/static/Img/Logo/iqb-logos/iqb-logo-red-name-en.d4d1e8c4550c.svg'}" alt="IQB Logo" />
       </button>
     </div>
@@ -75,7 +76,7 @@ function buildHeader(): HTMLElement {
         <svg class="logo-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
       </button>
       <div class="vocab-dropdown" id="vocab-dropdown" role="menu">
-        <div class="vocab-dropdown-label">Select vocabulary</div>
+        <div class="vocab-dropdown-label">${t('select_vocab', lang)}</div>
         ${dropdownContent}
       </div>
     </div>
@@ -84,22 +85,22 @@ function buildHeader(): HTMLElement {
 
     ${showControls ? `
     <div class="view-toggle">
-      <button id="btn-tree"  class="${viewMode === 'tree'   ? 'active' : ''}" title="Tree view">
-        ${iconTree()} Tree
+      <button id="btn-tree"  class="${viewMode === 'tree'   ? 'active' : ''}" title="${t('tree_view', lang)}">
+        ${iconTree()} ${t('tree', lang)}
       </button>
-      <button id="btn-cards" class="${viewMode === 'cards'  ? 'active' : ''}" title="Card view">
-        ${iconCards()} Cards
+      <button id="btn-cards" class="${viewMode === 'cards'  ? 'active' : ''}" title="${t('card_view', lang)}">
+        ${iconCards()} ${t('cards', lang)}
       </button>
-      <button id="btn-bubble" class="${viewMode === 'bubble' ? 'active' : ''}" title="Ontology graph">
-        ${iconBubble()} Graph
+      <button id="btn-bubble" class="${viewMode === 'bubble' ? 'active' : ''}" title="${t('ontology_graph', lang)}">
+        ${iconBubble()} ${t('graph', lang)}
       </button>
-      <button id="btn-search" class="${viewMode === 'search' ? 'active' : ''}" title="Search">
-        ${iconSearch()} Search
+      <button id="btn-search" class="${viewMode === 'search' ? 'active' : ''}" title="${t('search', lang)}">
+        ${iconSearch()} ${t('search', lang)}
       </button>
     </div>
     <div class="search-wrap">
       ${iconSearch()}
-      <input id="global-search" type="search" placeholder="Search concepts…" value="${searchQuery}" />
+      <input id="global-search" type="search" placeholder="${t('search_concepts_placeholder', lang)}" value="${searchQuery}" />
     </div>
     ` : ''}
 
@@ -247,7 +248,7 @@ function buildTreeView(concepts: Concept[]): HTMLElement {
     headerEl.innerHTML = `
       <div class="tree-group-number ${depthClass}">${notation}</div>
       <div class="tree-group-label">${getLabel(top.prefLabel, lang)}</div>
-      ${childCount ? `<span class="tree-group-count">${childCount} sub</span>` : ''}
+      ${childCount ? `<span class="tree-group-count">${childCount} ${t('sub', lang)}</span>` : ''}
       ${childCount ? `<svg class="tree-group-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>` : ''}
     `;
 
@@ -315,9 +316,9 @@ function buildCardsView(concepts: Concept[]): HTMLElement {
       ${def ? `<p class="concept-card-def">${def}</p>` : ''}
       <div class="concept-card-footer">
         <span class="concept-card-children">
-          ${childCount ? `${iconChildren()} ${childCount} sub-concepts` : ''}
+          ${childCount ? `${iconChildren()} ${childCount} ${t('sub_concepts', lang)}` : ''}
         </span>
-        <span class="badge accent-1">View →</span>
+        <span class="badge accent-1">${t('view_details', lang)}</span>
       </div>
     `;
 
@@ -340,7 +341,7 @@ function buildSearchView(): HTMLElement {
     wrap.innerHTML = `
       <div class="empty-state">
         <div class="empty-state-icon">🔍</div>
-        <p>Type in the search box above to find concepts.</p>
+        <p>${t('search_prompt', lang)}</p>
       </div>
     `;
     return wrap;
@@ -349,7 +350,7 @@ function buildSearchView(): HTMLElement {
   const hdr = document.createElement('div');
   hdr.className = 'search-results-header';
   hdr.innerHTML = `
-    <span>Results for <strong>"${escapeHtml(searchQuery)}"</strong></span>
+    <span>${t('results_for', lang)} <strong>"${escapeHtml(searchQuery)}"</strong></span>
     <span class="search-count">${results.length}</span>
   `;
   wrap.appendChild(hdr);
@@ -357,7 +358,7 @@ function buildSearchView(): HTMLElement {
   if (results.length === 0) {
     const empty = document.createElement('div');
     empty.className = 'empty-state';
-    empty.innerHTML = `<div class="empty-state-icon">😕</div><p>No concepts matched.</p>`;
+    empty.innerHTML = `<div class="empty-state-icon">😕</div><p>${t('no_results', lang)}</p>`;
     wrap.appendChild(empty);
     return wrap;
   }
@@ -397,8 +398,8 @@ function buildDetailPanel(): HTMLElement {
 
   panel.innerHTML = `
     <div class="detail-panel-header">
-      <div class="detail-panel-title" id="detail-panel-title">Concept Detail</div>
-      <button class="detail-close-btn" id="detail-close-btn" title="Close">
+      <div class="detail-panel-title" id="detail-panel-title">${t('concept_detail', lang)}</div>
+      <button class="detail-close-btn" id="detail-close-btn" title="${t('close', lang)}">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
         </svg>
@@ -425,7 +426,7 @@ function openDetail(concept: Concept) {
   // ID
   const idSection = document.createElement('div');
   idSection.innerHTML = `
-    <div class="detail-section-title">Identifier</div>
+    <div class="detail-section-title">${t('identifier', lang)}</div>
     <div class="detail-id">${concept.id}</div>
   `;
   body.appendChild(idSection);
@@ -433,7 +434,7 @@ function openDetail(concept: Concept) {
   // Label + notation
   const labelSection = document.createElement('div');
   labelSection.innerHTML = `
-    <div class="detail-section-title">Label</div>
+    <div class="detail-section-title">${t('label', lang)}</div>
     ${concept.notation?.length ? `<div style="margin-bottom:8px"><span class="detail-notation">${concept.notation.join(', ')}</span></div>` : ''}
     <div class="detail-label">${label}</div>
   `;
@@ -444,7 +445,7 @@ function openDetail(concept: Concept) {
   if (def) {
     const defSection = document.createElement('div');
     defSection.innerHTML = `
-      <div class="detail-section-title">Definition</div>
+      <div class="detail-section-title">${t('definition', lang)}</div>
       <div class="detail-definition">${def}</div>
     `;
     body.appendChild(defSection);
@@ -453,7 +454,7 @@ function openDetail(concept: Concept) {
   // Children
   if (concept.narrower?.length) {
     const childSection = document.createElement('div');
-    childSection.innerHTML = `<div class="detail-section-title">Sub-concepts (${concept.narrower.length})</div>`;
+    childSection.innerHTML = `<div class="detail-section-title">${t('sub_concepts', lang)} (${concept.narrower.length})</div>`;
     const list = document.createElement('div');
     list.className = 'detail-children-list';
 
@@ -472,16 +473,7 @@ function openDetail(concept: Concept) {
     body.appendChild(childSection);
   }
 
-  // Raw JSON
-  const rawSection = document.createElement('div');
-  rawSection.innerHTML = `
-    <div class="detail-section-title">Raw JSON</div>
-    <details style="background:var(--bg-elevated);border:1px solid var(--border-soft);border-radius:var(--r-md);overflow:hidden">
-      <summary style="padding:10px 14px;cursor:pointer;color:var(--text-secondary);font-size:12px;">Show raw data</summary>
-      <pre style="padding:14px;font-family:var(--font-mono);font-size:11px;color:var(--accent-2);overflow-x:auto;white-space:pre-wrap;word-break:break-all;">${escapeHtml(JSON.stringify(concept, null, 2))}</pre>
-    </details>
-  `;
-  body.appendChild(rawSection);
+
 
   requestAnimationFrame(() => {
     overlay.classList.add('open');
@@ -579,8 +571,8 @@ function buildDashboard(): HTMLElement {
   const hero = document.createElement('div');
   hero.className = 'dashboard-hero';
   hero.innerHTML = `
-    <h1>Vocabulary Explorer</h1>
-    <p>Select a vocabulary category or scheme to view details, explore terms, and visualize hierarchy.</p>
+    <h1>${t('vocab_explorer', lang)}</h1>
+    <p>${t('hero_subtitle', lang)}</p>
   `;
   container.appendChild(hero);
 
@@ -591,7 +583,7 @@ function buildDashboard(): HTMLElement {
     catSection.innerHTML = `
       <div class="dashboard-cat-header">
         <h2>${cat.name}</h2>
-        <span class="badge accent-2">${cat.files.length} Scheme${cat.files.length > 1 ? 's' : ''}</span>
+        <span class="badge accent-2">${cat.files.length} ${cat.files.length > 1 ? t('schemes', lang) : t('scheme', lang)}</span>
       </div>
     `;
 
@@ -605,7 +597,7 @@ function buildDashboard(): HTMLElement {
 
       const topConcepts = f.data.hasTopConcept || [];
       const subConceptsHTML = topConcepts.map((c, cIdx) => `
-        <button class="dashboard-subconcept-pill" data-concept-id="${c.id}" title="Click to view concept in Tree view">
+        <button class="dashboard-subconcept-pill" data-concept-id="${c.id}" title="${t('click_to_view_in_tree', lang)}">
           <span class="subconcept-notation">${c.notation?.[0] ?? (cIdx + 1)}</span>
           <span class="subconcept-label">${getLabel(c.prefLabel, lang)}</span>
         </button>
@@ -623,7 +615,7 @@ function buildDashboard(): HTMLElement {
         
         ${topConcepts.length ? `
         <div class="vocab-card-subconcepts">
-          <div class="subconcepts-title">Top Concepts (${topConcepts.length})</div>
+          <div class="subconcepts-title">${t('top_concepts', lang)} (${topConcepts.length})</div>
           <div class="subconcepts-list">
             ${subConceptsHTML}
           </div>
@@ -632,9 +624,9 @@ function buildDashboard(): HTMLElement {
 
         <div class="vocab-card-footer">
           <span class="vocab-card-count">
-            Total Concepts: <strong>${countConceptsTotal(topConcepts)}</strong>
+            ${t('total_concepts', lang)}: <strong>${countConceptsTotal(topConcepts)}</strong>
           </span>
-          <span class="badge accent-1">Explore Scheme →</span>
+          <span class="badge accent-1">${t('explore_scheme', lang)}</span>
         </div>
       `;
 
@@ -677,7 +669,7 @@ function buildBubbleView(topConcepts: Concept[]): HTMLElement {
   navBar.className = 'bubble-nav-bar';
   navBar.innerHTML = `
     <span class="bubble-path-text">
-      <strong>Ontology Graph</strong> — Drag nodes to arrange. Click nodes to select & toggle expansion.
+      <strong>${t('ontology_graph', lang)}</strong> — ${t('ontology_instructions', lang)}
     </span>
   `;
   container.appendChild(navBar);
@@ -687,7 +679,7 @@ function buildBubbleView(topConcepts: Concept[]): HTMLElement {
   container.appendChild(canvas);
 
   const activeFile = activeFileIndex !== null ? vocabFiles[activeFileIndex] : null;
-  const schemeTitle = activeFile ? getLabel(activeFile.data.title, lang) : 'Vocabulary';
+  const schemeTitle = activeFile ? getLabel(activeFile.data.title, lang) : t('vocabulary', lang);
 
   interface GraphNode {
     id: string;

@@ -1,0 +1,183 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v85/fg/>. 
+
+n0:a6f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Biologie"@de,
+	"Biology"@en.
+n0:f4b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Chemie"@de,
+	"Chemistry"@en.
+n0:r7u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Computer Science"@de,
+	"Informatik"@en.
+n0:c4a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Ethnologie"@de,
+	"Cultural studies / ethnology"@en.
+n0:s2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Fachdidaktik"@de,
+	"Pedagogical content knowledge (PCK)"@en.
+n0:r4u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Geowissenschaften"@de,
+	"Geosciences / earth sciences"@en.
+n0:t5g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Geschichte"@de,
+	"History"@en.
+n0:r5z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kunst"@de,
+	"Applied Arts"@en.
+n0:g9s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Mathematik"@de,
+	"Mathematics"@en.
+n0:c2c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Medizin"@de,
+	"Medicine"@en.
+n0:d4x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Musik"@de,
+	"Music"@en.
+n0:b4f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Pädagogik"@de,
+	"Education"@en.
+n0:s4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Physik"@de,
+	"Physics"@en.
+n0:t6q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Politikwissenschaft"@de,
+	"Political Science"@en.
+n0:p9s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Psychologie"@de,
+	"Psychology"@en.
+n0:p3x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Soziologie"@de,
+	"Sociology"@en.
+n0:y2z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sport"@de,
+	"Physical Education / Sports"@en.
+n0:e2u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sprach- / Literaturwissenschaft"@de,
+	"Languages and literature"@en.
+n0:x9x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Wirtschaftswissenschaften"@de,
+	"Business and Economics"@en.
+n0:z9a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstige (Freitext)"@de,
+	"Other"@en.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de,
+	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
+	dct:title "VerbundFDB - Kontrolliertes Vokabular - Forschungsgebiet"@de,
+	"VerbundFDB - Controlled Vocabulary - Area of Research"@en;
+	dct:description """Hierbei handelt es sich um ein kontrolliertes Vokabular zu Themenbereichen von Forschungsdaten des VerbundFDB.
+
+Zitation: VerbundFDB: Forschungsgebiet Bildungsforschung. Version 1.0. Verfügbar unter https://w3id.org/iqb/v85/fg/.
+
+Lizenz: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)"""@de,
+	"""This is a controlled vocabulary for themes for research data of the VerbundFDB.
+
+Citation: VerbundFDB: Area of Research Educational Research. Version 1.0. Retrieved from https://w3id.org/iqb/v85/fg/. 
+
+License: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)"""@en;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
+	skos:hasTopConcept
+		n0:a6f,
+		n0:f4b,
+		n0:r7u,
+		n0:c4a,
+		n0:s2d,
+		n0:r4u,
+		n0:t5g,
+		n0:r5z,
+		n0:g9s,
+		n0:c2c,
+		n0:d4x,
+		n0:b4f,
+		n0:s4e,
+		n0:t6q,
+		n0:p9s,
+		n0:p3x,
+		n0:y2z,
+		n0:e2u,
+		n0:x9x,
+		n0:z9a.

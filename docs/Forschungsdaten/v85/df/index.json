@@ -1,0 +1,175 @@
+{
+  "id": "https://w3id.org/iqb/v85/df/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "VerbundFDB - Kontrolliertes Vokabular - Datenformat",
+    "en": "VerbundFDB - Controlled Vocabulary - Data Format"
+  },
+  "description": {
+    "de": "Hierbei handelt es sich um ein kontrolliertes Vokabular zu technischen Informationen zum Datensatz und beschreibt die Datenressource.\n\nZitation: VerbundFDB: Datenformat Bildungsforschung. Version 1.0. Verfügbar unter https://w3id.org/iqb/v85/df/.\n\nProvenienz: Es handelt sich hierbei um ein kontrolliertes Vokabular, welches vom VerbundFDB auf Grundlage von da|ra 4.0 (Resource Type) entwickelt wurde.\n\nLizenz: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)",
+    "en": "This is a controlled vocabulary for technical information on the data set and describes the data resource.\n\nCitation: VerbundFDB: Data Format Educational Research. Version 1.0. Retrieved from https://w3id.org/iqb/v85/df/.\n\nProvenance: This is a controlled vocabulary developed by VerbundFDB- on basis of da|ra 4.0 (Resource Type).\n\nLicense: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de) "
+  },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v85/df/1",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Audiovisuell",
+        "en": "Audiovisual"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/df/2",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Datenkollektion",
+        "en": "Collection"
+      },
+      "definition": {
+        "de": "=Sammlung",
+        "en": "=Collection"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/df/3",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "DataPaper",
+        "en": "Data Paper"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/df/4",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Datensatz",
+        "en": "Dataset"
+      },
+      "definition": {
+        "de": "Hierunter fallen auch Logdaten (Hinweis: Im Metadatenschema daIra 4.0 kann bei der Auswahl des Resource Type 'Datensatz' als Spezifizierung bei Resource Tpe Free 'Logdaten' eingetragen werden.).",
+        "en": "This also includes logfiles (Note: In the metadata schema daIra 4.0, when selecting the Resource Type 'Dataset', 'logfiles' can be entered as a specification for Resource Type Free)."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/df/5",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Event",
+        "en": "Event"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/df/6",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Bild",
+        "en": "Image"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/df/7",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Interaktives Objekt",
+        "en": "Interactive Resource"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/df/8",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Modell",
+        "en": "Model"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/df/9",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Physisches Objekt",
+        "en": "Physical Object"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/df/10",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Service",
+        "en": "Service"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/df/11",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Software",
+        "en": "Software"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/df/12",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Audio",
+        "en": "Sound"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/df/13",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Text",
+        "en": "Text"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/df/14",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Workflow",
+        "en": "Workflow"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/df/15",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "andere",
+        "en": "Other"
+      }
+    }
+  ]
+}

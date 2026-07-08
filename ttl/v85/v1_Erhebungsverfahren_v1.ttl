@@ -1,0 +1,432 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v85/v1/>. 
+
+n0:3
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1";
+	skos:broader n0:2;
+	skos:prefLabel "CAPI (Computerunterstützte persönliche Befragung)/CAMI (Computerunterstützte mobile Befragung)"@de,
+	"CAPI (Computer Assisted Personal Interview)/CAMI (Computer Assisted Mobile Interview)"@en; 
+	skos:definition "Computergestützte persönliche Befragung (CAPI). Datenererhebungsmethode, in der der Interviewer Fragen an die Befragten vom Bildschirm eines Computers, Laptops oder mobilen Geräts wie Tablet oder Smartphone abliest und die Antworten in dasselbeGerät eingibt.Die Interviewführung wird durch ein/e speziell entworfene/s Programm/Anwendung geleitet."@de,
+	"Computer-assisted personal interviewing (CAPI), or computer-assisted mobile interviewing (CAMI). Data collection method in which the interviewer reads questions to the respondents from the screen of a computer, laptop, or a mobile device like tablet or smartphone, and enters the answers in the same device. The administration of the interview is managed by a specifically designed program/application. "@en.
+n0:4
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.2";
+	skos:broader n0:2;
+	skos:prefLabel "PAPI (Papierfragebogen)"@de,
+	"PAPI (Paper and Pencil Interview)"@en; 
+	skos:definition "Papier-und-Bleistift-Befragung. Der Interviewer benutzt einen traditionellen Papierfragebogen, um die Fragen vorzulesen und die Antworten einzugeben."@de,
+	"Paper-and-pencil interviewing (PAPI). The interviewer uses a traditional paper questionnaire to read the questions and enter the answers."@en.
+n0:2
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n0:1;
+	skos:prefLabel "Persönliches Interview"@de,
+	"Face-to-face interview"@en; 
+	skos:definition "Datenererhebungsmethode, in der ein Interviewer von Angesicht zu Angesicht ein persönliches Interview führt, Fragen stellt und die Antworten eingibt. Verwenden Sie diesen umfassenden Begriff, wenn es sich nicht um CAPI oder PAPI handelt, oder wenn nicht bekannt ist, ob es CAPI/PAPI ist."@de,
+	"Data collection method in which a live interviewer conducts a personal interview, presenting questions and entering the responses. Use this broader term if not CAPI or PAPI, or if not known whether CAPI/PAPI or not."@en;
+	skos:narrower 
+		n0:3,
+		n0:4.
+n0:6
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1";
+	skos:broader n0:5;
+	skos:prefLabel "CATI (Computerunterstützte telefonische Befragung)"@de,
+	"CATI (Computer Assisted Telephone Interview)"@en; 
+	skos:definition "Computergestütztes Telefoninterview. Der Interviewer stellt Fragen, die vom Computer vorgegeben sind, Antworten werden direkt in den Computer eingegeben und die Interviewführung wird von einem speziell entworfenen Programm geleitet."@de,
+	"Computer-assisted telephone interviewing (CATI). The interviewer asks questions as directed by a computer, responses are keyed directly into the computer and the administration of the interview is managed by a specifically designed program."@en.
+n0:5
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n0:1;
+	skos:prefLabel "Telefonisches Interview"@de,
+	"Telephone interview"@en; 
+	skos:definition "Das am Telefon geführte Interview. Verwenden Sie diesen umfassenden Begriff, wenn es sich bei der Datenerhebungsmethode nicht um CATI handelt, oder wenn nicht bekannt ist, ob es CATI ist oder nicht."@de,
+	"Interview administered on the telephone. Use this broader term if not CATI, or if not known whether CATI or not"@en;
+	skos:narrower 
+		n0:6.
+n0:7
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n0:1;
+	skos:prefLabel "E-mail Interview"@de,
+	"E-mail interview"@en; 
+	skos:definition "Interviews, die viaE-Mail durchgeführt werden, in der Regel bestehen sie aus mehreren E-Mail-Nachrichten, die es ermöglichen, dass die Diskussion über die ersten Fragen und Antworten oder den ersten E-Mail-Austausch hinausgeht."@de,
+	"Interviews conducted via e-mail, usually consisting of several e-mail messages that allow the discussion to continue beyond the first set of questions and answers, or the first e-mail exchange."@en.
+n0:8
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4";
+	skos:broader n0:1;
+	skos:prefLabel "Web-basiertes Interview"@de,
+	"Web-based interview"@en; 
+	skos:definition "Ein Interview, das über das Internet durchgeführt wird. Zum Beispiel, Interviews, die in Online-Foren durchgeführt werden oder in denen web-basierte audio-visuelle Technologien genutzt werden, die es dem/den Interviewer(n) und Befragten ermöglichen, miteinander in Echtzeit zu kommunizieren."@de,
+	"An interview conducted via the Internet. For example, interviews conducted within online forums or using web-based audio-visual technology that enables the interviewer(s) and interviewee(s) to communicate in real time."@en.
+n0:1
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interview"@de,
+	"Interview"@en; 
+	skos:definition "Eine vorab geplante Kommunikation zwischen zwei (oder mehreren) Personen - dem/den Interviewer(n) und dem/den Befragten-in der der/die Interviewer von dem/den Interviewpartner(n) Informationen erhält/erhalten. Wenn Gruppeninteraktion Teil der Erhebungsmethode ist, verwenden Sie die Kategorie 'Fokusgruppe'."@de,
+	"A pre-planned communication between two (or more) people - the interviewer(s) and the interviewee(s) - in which information is obtained by the interviewer(s) from the interviewee(s). If group interaction is part of the method, use 'Focus group'."@en;
+	skos:narrower 
+		n0:2,
+		n0:5,
+		n0:7,
+		n0:8.
+n0:10
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n0:9;
+	skos:prefLabel "E-mail"@de,
+	"E-Mail"@en; 
+	skos:definition "Selbstverwaltete Umfrage, bei der Fragen dem Befragten in der E-Mail oder im Anhang einer E-Mail, aber nicht als Link zu einem webbasierten Fragebogen dargestellt werden. Befragte schicken die Antworten auch per E-Mail, als E-Mail-Text oder als Anhang zurück."@de,
+	"Self-administered survey in which questions are presented to the respondent in the text body of an e-mail or as an attachment to an e-mail, but not as a link to a web-based questionnaire. Responses are also sent back via e-mail, in the e-mail body or as an attachment."@en.
+n0:11
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n0:9;
+	skos:prefLabel "Papier"@de,
+	"Paper"@en; 
+	skos:definition "Selbstverwaltete Umfrage unter Anwendung eines traditionellen Papierfragebogens, der per Post (Postdienste) oder per Fax versandt oder persönlich von einem Interviewer überbracht oder von einemBefragten abgeholt wurde."@de,
+	"Self-administered survey using a traditional paper questionnaire delivered and/or collected by mail (postal services), by fax, or in person by either interviewer, or respondent."@en.
+n0:12
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n0:9;
+	skos:prefLabel "SMS/MMS"@de,
+	"SMS/MMS"@en; 
+	skos:definition "Selbstverwaltete Umfrage, in der die Befragten per SMS (Textnachrichten) oder MMS (Nachrichten mitMultimedia-Inhalten) Fragen erhalten und ihre Antworten im selben Format zurücksenden."@de,
+	"Self-administered survey in which the respondents receive the questions incorporated in SMS (text messages) or MMS (messages including multimedia content) and send their replies in the same format."@en.
+n0:14
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4";
+	skos:broader n0:9;
+	skos:prefLabel "CASI (Computerunterstützte Selbstbefragung)"@de,
+	"CASI (Computer Assisted Self-Interview)"@en; 
+	skos:definition "Computergestützte Selbstbefragung (CASI). Die Befragten geben die Antworten in einen Computer (Desktop, Laptop, Palm/PDA, Tablet, etc.) selbst ein. DieVerwaltung des Fragebogenswird von einem/r speziell entworfenen Programm/Anwendung gemanagt,aber es gibt keine Echtzeit-Datenübertragung wie in CAWI, die Antworten werden auf dem für das Interview verwendeten Gerät gespeichert. Der Fragebogen kann eine festgelegteForm haben oder interaktiv sein. Inklusive VCASI (ComputergestützteVideoSelbstbefragung), ACASI (ComputergestützteAudioSelbstbefragung) und TACASI (ComputergestützteTelefon-AudioSelbstbefragung)."@de,
+	"Computer-assisted self-interview (CASI). Respondents enter the responses into a computer (desktop, laptop, Palm/PDA, tablet, etc.) by themselves. The administration of the questionnaire is managed by a specifically designed program/application but there is no real-time data transfer as in CAWI, the answers are stored on the device used for the interview. The questionnaire may be fixed form or interactive. Includes VCASI (Video computer-assisted self-interviewing), ACASI (Audio computer-assisted self-interviewing) and TACASI (Telephone audio computer-assisted self-interviewing)."@en.
+n0:13
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.5";
+	skos:broader n0:9;
+	skos:prefLabel "CAWI (Computerunterstütztes Web-Interview)"@de,
+	"CAWI (Computer Assisted Web Interview)"@en; 
+	skos:definition "Computergestütztes Web-Interview (CAWI). Die Daten werden mit einem Web-Fragebogen, der mit einem Programm zur Erstellung von Web-Umfragen erstellt wurde, erhoben. Das Programm kann den Verlauf des Fragebogens an die bereits abgegebene Antworten anpassen und ermöglicht es, dass der Fragebogen Bilder, Audio- und Videoclips, Links zu verschiedenen Webseiten etc. enthält."@de,
+	"Computer-assisted web interviewing (CAWI). Data are collected using a web questionnaire, produced with a program for creating web surveys. The program can customize the flow of the questionnaire based on the answers provided, and can allow for the questionnaire to contain pictures, audio and video clips, links to different web pages, etc. "@en.
+n0:9
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Eigenständig auszufüllender Fragebogen"@de,
+	"Self-administered questionnaire"@en; 
+	skos:definition "Datenerhebungsmethode, bei der der Befragte die Fragen selbst liest oder diese hört und die Antworten selbst eingibt; Kein Interviewer ist dabei anwesend oder nimmt an der Fragebogenbearbeitungteil. Wenn möglich, verwenden Sie einenengergefassten Begriff.Verwenden Sie diesen weiter gefasstenBegriff, falls die Methode nicht durch irgendwelche derengergefassten Begriffe beschrieben wird - zum Beispiel für PDF- und Diskettenfragebögen."@de,
+	"Data collection method in which the respondent reads or listens to the questions, and enters the responses by him/herself; no live interviewer is present, or participates in the questionnaire administration. If possible, use a narrower term. Use this broader term if the method is not described by any of the narrower terms - for example, for PDF and diskette questionnaires."@en;
+	skos:narrower 
+		n0:10,
+		n0:11,
+		n0:12,
+		n0:14,
+		n0:13.
+n0:15
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Fokusgruppe"@de,
+	"Focus group"@en; 
+	skos:definition "Eine für Forschungszwecke organisierte Gruppendiskussion zu einem bestimmten Thema. Individuen mit Bezug zum Thema werden ausgewählt, und die Interaktion zwischen den Teilnehmern wird als Teil der Methode verwendet."@de,
+	"A group discussion on a particular topic, organized for research purposes. The individuals are selected with relevance to the topic, and interaction among the participants is used as part of the method."@en.
+n0:16
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Eigenständig durchgeführte schriftliche Aufzeichnung und/oder Tagebücher"@de,
+	"Self-administered writings and/or diaries"@en; 
+	skos:definition "Erzählungen, Geschichten, Tagebücher und schriftliche Texte, die vom Forschungssubjekt erstellt wurden."@de,
+	"Narratives, stories, diaries, and written texts created by the research subject. "@en.
+n0:19
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1.1";
+	skos:broader n0:18;
+	skos:prefLabel "Teilnehmend"@de,
+	"Participant field observation"@en; 
+	skos:definition "Eine Art der Feldbeobachtung, in der der Forscher mit den Probanden interagiert und oft selbst eine Rolle in der sozialen Situation unter Beobachtung einnimmt."@de,
+	"Type of field observation in which the researcher interacts with the subjects and often plays a role in the social situation under observation."@en.
+n0:20
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1.2";
+	skos:broader n0:18;
+	skos:prefLabel "Nicht-teilnehmend"@de,
+	"Non-participant field observation"@en; 
+	skos:definition "Beobachtung, die in einer natürlichen, nicht kontrollierten Umgebung durchgeführt wird - ohne jegliche Interaktion zwischen dem/der Forscher/in und seinen/ihren Probanden."@de,
+	"Observation that is conducted in a natural, non-controlled setting without any interaction between the researcher and his/her subjects."@en.
+n0:18
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1";
+	skos:broader n0:17;
+	skos:prefLabel "Feldbeobachtung"@de,
+	"Field observation"@en; 
+	skos:definition "Beobachtung, die in einer natürlichen Umgebung durchgeführt wird."@de,
+	"Observation that is conducted in a natural environment."@en;
+	skos:narrower 
+		n0:19,
+		n0:20.
+n0:22
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.2.1";
+	skos:broader n0:21;
+	skos:prefLabel "Teilnehmend"@de,
+	"Participant laboratory observation"@en; 
+	skos:definition "Eine Art der Laborbeobachtung, in der der Forscher mit den Probanden interagiert und oft selbst ein Rolle in der gesellschaftlichen Situation unter Beobachtung einnimmt. Zum Beispiel, dasBeobachtenspielender Kinder in einem Labor-Spielzimmer,wobeider Forscher selbst amSpielteil nimmt."@de,
+	"Type of laboratory observation in which the researcher interacts with the subjects and often plays a role in the social situation under observation. For example, observing children's play in a laboratory playroom with the researcher taking part in the play."@en.
+n0:23
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.2.2";
+	skos:broader n0:21;
+	skos:prefLabel "Nicht-teilnehmend"@de,
+	"Non-participant laboratory observation"@en; 
+	skos:definition "Eine Art der Laborbeobachtung, die ohne jegliche Interaktion zwischen dem/der Forscher/in und seinen/ihren Probanden durchgeführt wird."@de,
+	"Type of laboratory observation that is conducted without any interaction between the researcher and his/her subjects."@en.
+n0:21
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.2";
+	skos:broader n0:17;
+	skos:prefLabel "Laborbeobachtung"@de,
+	"Laboratory observation"@en; 
+	skos:definition "Beobachtung, die in einer kontrollierten, künstlich geschaffenen Umgebung durchgeführt wird. Zum Beispiel, das Spielen der Kinder in einem Labor-Spielzimmer beobachten."@de,
+	"Observation that is conducted in a controlled, artificially created setting. For example, observing children's play in a laboratory playroom."@en;
+	skos:narrower 
+		n0:22,
+		n0:23.
+n0:24
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.3";
+	skos:broader n0:17;
+	skos:prefLabel "Computerbasierte Beobachtung"@de,
+	"Computer-based observation"@en; 
+	skos:definition "Eine Art der Beobachtung, bei der Daten bezüglich der Computer-Nutzung von einer Software gesammelt werden, die in das Computerprogramm selbst eingebaut werden oder ein separates Programm sein kann. Es können Informationen über die Anzahl der Nutzer, die Art und Weise, wie Nutzer mit dem/den Programm/en interagieren, wie viel Zeit sie auf einer Seite verbringen, wie sie bestimmte Abschnitte von Anwendungen verwenden, wie sie von Seite zu Seite oder von einer Anwendung zur anderen navigieren etc. gesammelt werden."@de,
+	"Type of observation in which data regarding computer usage are being collected by software that can be built into the computer program itself or can be a separate program. Information may be collected about the number of users, the ways in which users interact with the program(s), how much time they spend on a page, how they use specific sections of applications, how they navigate from page to page or from one application to another, etc."@en.
+n0:17
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Beobachtung"@de,
+	"Observation"@en; 
+	skos:definition "Forschungsmethode, die das Sammeln von Daten beinhaltet, wie sie auftreften(z. B. Beobachtung von Verhaltensweisen, Ereignissen, Entwicklung von Zustand oder Krankheit usw.), ohne zu versuchen, eine der unabhängigen Variablen zu manipulieren."@de,
+	"Research method that involves collecting data as they occur (for example, observing behaviors, events, development of condition or disease, etc.), without attempting to manipulate any of the independent variables."@en;
+	skos:narrower 
+		n0:18,
+		n0:21,
+		n0:24.
+n0:33
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Inhaltscodierung"@de,
+	"Content Coding"@en; 
+	skos:definition "Als eine Art der Sekundärdatensammlung, setzt Inhaltscodierung Codierungstechniken ein, um qualitative Daten (Text-, Video-, Audio oder Standbild ), die ursprünglich für andere Zwecke produziert wurden, in quantitative Daten (ausgedrückt in einer Unit-by-Variable Matrix) nach einem zuvor erstellten Kategorienschema umzuwandeln. Zum Beispiel kodierte Parteiprogrammdaten wie ,European Parliament Election Study 2009, Manifesto Study' (doi:10.4232/1.10204)"@de,
+	"As a mode of secondary data collection, content coding applies coding techniques to transform qualitative data (textual, video, audio or still-image) originally produced for other purposes into quantitative data (expressed in unit-by-variable matrices) in accordance with pre-defined categorization schemes. For example, coded party manifesto data like the 'European Parliament Election Study 2009, Manifesto Study' (doi:10.4232/1.10204)."@en.
+n0:34
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "7";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Transkription"@de,
+	"Transcription"@en; 
+	skos:definition "Erfassen von Informationen in schriftlicher Form aus unterschiedlichen Quellen, oder einem anderen Medium, Alphabet oder Notationsform, wie wissenschaftliche Formeln oder Musiknoten. Für transkribierte Interviews oder Beobachtungen empfiehlt es sich, die primäre Art der Erhebung unter Verwendung der Begriffe aus dem Interview oder der Beobachtung zu dokumentieren."@de,
+	"Capturing information in writing from a different source, or from a different medium, alphabet, or form of notation, like scientific formulae, or musical notes. For transcribed interviews or observations, it is recommended to document the primary mode of collection, using one of the interview or observation terms."@en.
+n0:35
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "8";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompilation/Synthese"@de,
+	"Compilation/Synthesis"@en; 
+	skos:definition "Sammeln und Zusammenfügen von Daten aus mehreren, oft heterogenen Quellen, die einen oder mehrere Bezugspunkt/e gemeinsam haben, und mindestens eine der Quellen wurde ursprünglich für andere Zwecke hergestellt. Die Daten bilden eine neue Dateneinheit. Zum Beispiel kann zur Bereitstellung der Daten zur Anzahl der Universitäten in den letzten 150 Jahren eine Vielzahl an verfügbaren Quellen genutzt werden (z. B. Finanzdokumente, amtliche Statistiken, Universitätsregister), Umfragedaten können mit Informationen über geografische Regionen aus der amtlichen Statistik kombiniert werden (z. B. Bevölkerungsdichte , Ärzte pro-Kopf etc.), oder es können RSS genutzt werden, um Blog, Posts oder Tweets zu sammeln usw."@de,
+	"Collecting and assembling data from multiple, often heterogeneous sources that have one or more reference points in common, and at least one of the sources was originally produced for other purposes. The data are incorporated in a new entity. For example, providing data on the number of universities in the last 150 years using a variety of available sources (e.g. finance documents, official statistics, university registers), combining survey data with information about geographical areas from official statistics (e.g. population density, doctors per capita, etc.), or using RSS to collect blog posts or tweets, etc."@en.
+n0:37
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "9";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Zusammenfassung"@de,
+	"Summary"@en; 
+	skos:definition "Darstellung von Informationen in komprimierter Form, indem man diese auf ihre wichtigsten Punkte reduziert. Zum Beispiel Zusammenfassungen von Interviews oder Berichten, die veröffentlicht und als Daten genutzt werden, anstatt der Interviews oder Berichte in deren vollen Länge."@de,
+	"Presentation of information in a condensed form, by reducing it to its main points. For example, abstracts of interviews or reports that are published and used as data rather than the full-length interviews or reports."@en.
+n0:39
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "10";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Simulation"@de,
+	"Simulation"@en; 
+	skos:definition "Modellieren oder Nachahmen von realen Prozessen, Ereignissen oder Systemen, oft unter Anwendung von Computerprogrammen. Zum Beispiel, ein Programm, dasdie Reaktion des Haushaltskonsums auf indirekte Steuerveränderungenmodelliert;oder ein Datensatz über hypothetische Patienten und ihren Umgang mit Drogen, ihren Hintergrund und bekannte Nebenwirkungen."@de,
+	"Modeling or imitative representation of real-world processes, events, or systems, often using computer programs. For example, a program modeling household consumption responses to indirect tax changes; or a dataset on hypothetical patients and their drug exposure, background conditions, and known adverse events."@en.
+n0:38
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "11";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Aggregation"@de,
+	"Aggregation"@en; 
+	skos:definition "Statistiken, die sich auf breite Klassen, Gruppen oder Kategorien beziehen. Die Daten werden gemittelt, summiert oder anderweitig aus Individualdaten abgeleitet, und es ist nicht mehr möglich, die Merkmale von Individuen innerhalb dieser Klassen, Gruppen oder Kategorien zu unterscheiden. Zum Beispiel, die Anzahl und Altersgruppe von Arbeitslosen in bestimmten geografischen Regionen, oder Statistiken auf nationaler Ebene über das Auftreten von spezifischen Straftaten, die ursprünglich aus der Statistik der einzelnen Polizeibezirke abgeleitet wurden."@de,
+	"Statistics that relate to broad classes, groups, or categories. The data are averaged, totaled, or otherwise derived from individual-level data, and it is no longer possible to distinguish the characteristics of individuals within those classes, groups, or categories. For example, the number and age group of the unemployed in specific geographic regions, or national level statistics on the occurrence of specific offences, originally derived from the statistics of individual police districts."@en.
+n0:27
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "12.1.1";
+	skos:broader n0:26;
+	skos:prefLabel "Paper and Pencil Test"@de,
+	"Paper & pencil test"@en; 
+	skos:definition "Beurteilung von Wissen, Fähigkeiten, Eignung oder Bildungsleistung durch fachkundige Messungen oder Tests. via Paper and Pencil Test"@de,
+	"Assessment of knowledge, skills, aptitude, or educational achievement by means of specialized measures or tests. via paper & penci test"@en.
+n0:28
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "12.1.2";
+	skos:broader n0:26;
+	skos:prefLabel "Computerbasierter Test"@de,
+	"Computer assisted test"@en; 
+	skos:definition "Beurteilung von Wissen, Fähigkeiten, Eignung oder Bildungsleistung durch fachkundige Messungen oder Tests. via Computerbasiertem Test"@de,
+	"Assessment of knowledge, skills, aptitude, or educational achievement by means of specialized measures or tests. via computer assisted test"@en.
+n0:26
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "12.1";
+	skos:broader n0:25;
+	skos:prefLabel "Leistungs- und Kompetenztests"@de,
+	"Educational measurements and tests"@en; 
+	skos:definition "Beurteilung von Wissen, Fähigkeiten, Eignung oder Bildungsleistung durch fachkundige Messungen oder Tests."@de,
+	"Assessment of knowledge, skills, aptitude, or educational achievement by means of specialized measures or tests."@en;
+	skos:narrower 
+		n0:27,
+		n0:28.
+n0:29
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "12.2";
+	skos:broader n0:25;
+	skos:prefLabel "Physische Tests"@de,
+	"Physical measurements and tests"@en; 
+	skos:definition "Beurteilung der physischen Eigenschaften von Lebewesen, Gegenständen, Materialien oder Naturphänomenen. Zum Beispiel Erkenntnisse aus der praktischen medizinischen Untersuchung (z. B. Abtasten oder Abhören), klinische Messungen und Labortests wie Blutanalyse, Blutdruck, Herzfrequenz, Körpergewicht und Körpergröße sowie allgemeine Messungen wie Zeit, Distanz, Masse, Temperatur, Kraft, Stärke, Geschwindigkeit, GPS-Daten über physische Bewegung und andere physische Parameter oder Variablen, wie Geodaten."@de,
+	"Assessment of physical properties of living beings, objects, materials, or natural phenomena. For example, findings from hands-on medical examination (e.g., palpation or auscultation), clinical measurements and lab tests like blood analysis, blood pressure, heart rate, body weight and height, as well as general measurements like time, distance, mass, temperature, force, power, speed, GPS data on physical movement and other physical parameters or variables, like geospatial data."@en.
+n0:31
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "12.3.1";
+	skos:broader n0:30;
+	skos:prefLabel "Paper and Pencil Test"@de,
+	"Paper & pencil test"@en; 
+	skos:definition "Beurteilung von Persönlichkeitsmerkmalen oder psychologischen Reaktionen/Verhaltensreaktionen durch fachkundige Messungen oder Tests. Zum Beispiel objektive Tests wie Selbstbericht mit eingeschränktem Antwortformat oder projektiven Methoden, die freie Äußerungen erlauben, einschließlich Wortassoziationen, Vollendung des Satzes oder einer Geschichte, Vignetten, Karikaturtests, thematische Auffassungstests, Rollenspiele, Zeichentests, Tintenklecks-tests etc. via Paper and Pencil Test"@de,
+	"Assessment of personality traits or psychological/behavioral responses by means of specialized measures or tests. For example, objective tests like self-report measures with a restricted response format, or projective methods allowing free responses, including word association, sentence or story completion, vignettes, cartoon test, thematic apperception tests, role play, drawing tests, inkblot tests, choice ordering exercises, etc. via paper & pencil test"@en.
+n0:32
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "12.3.2";
+	skos:broader n0:30;
+	skos:prefLabel "Computerbasierter Test"@de,
+	"Computer assisted test"@en; 
+	skos:definition "Beurteilung von Persönlichkeitsmerkmalen oder psychologischen Reaktionen/Verhaltensreaktionen durch fachkundige Messungen oder Tests. Zum Beispiel objektive Tests wie Selbstbericht mit eingeschränktem Antwortformat oder projektiven Methoden, die freie Äußerungen erlauben, einschließlich Wortassoziationen, Vollendung des Satzes oder einer Geschichte, Vignetten, Karikaturtests, thematische Auffassungstests, Rollenspiele, Zeichentests, Tintenklecks-tests etc. via Computerbasiertem Test"@de,
+	"Assessment of personality traits or psychological/behavioral responses by means of specialized measures or tests. For example, objective tests like self-report measures with a restricted response format, or projective methods allowing free responses, including word association, sentence or story completion, vignettes, cartoon test, thematic apperception tests, role play, drawing tests, inkblot tests, choice ordering exercises, etc. via computer assisted test"@en.
+n0:30
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "12.3";
+	skos:broader n0:25;
+	skos:prefLabel "Psychologische Tests"@de,
+	"Psychological measurements and tests"@en; 
+	skos:definition "Beurteilung von Persönlichkeitsmerkmalen oder psychologischen Reaktionen/Verhaltensreaktionen durch fachkundige Messungen oder Tests. Zum Beispiel objektive Tests wie Selbstbericht mit eingeschränktem Antwortformat oder projektiven Methoden, die freie Äußerungen erlauben, einschließlich Wortassoziationen, Vollendung des Satzes oder einer Geschichte, Vignetten, Karikaturtests, thematische Auffassungstests, Rollenspiele, Zeichentests, Tintenklecks-tests, etc."@de,
+	"Assessment of personality traits or psychological/behavioral responses by means of specialized measures or tests. For example, objective tests like self-report measures with a restricted response format, or projective methods allowing free responses, including word association, sentence or story completion, vignettes, cartoon test, thematic apperception tests, role play, drawing tests, inkblot tests, choice ordering exercises, etc."@en;
+	skos:narrower 
+		n0:31,
+		n0:32.
+n0:25
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "12";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Messungen und Tests"@de,
+	"Measurements and tests"@en; 
+	skos:definition "Beurteilung von spezifischen Eigenschaften (oder Merkmalen) von Lebewesen,Dingen, Phänomenen, (und/oder Prozessen) durch Anwendung vorgegebener Standards und/oder spezialisierter Instrumente oder Techniken."@de,
+	"Assessing specific properties (or characteristics) of beings, things, phenomena, (and/ or processes) by applying pre-established standards and/or specialized instruments or techniques."@en;
+	skos:narrower 
+		n0:26,
+		n0:29,
+		n0:30.
+n0:40
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "13";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstige"@de,
+	"Other"@en; 
+	skos:definition "Verwenden Sie diese Kategorie, wenn die Art der Datenerhebung bekannt ist, aber nicht in der Liste vertreten ist."@de,
+	"Use if the mode of data collection is known, but not found in the list."@en.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de,
+	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
+	dct:title "VerbundFDB - Kontrolliertes Vokabular - Erhebungsverfahren v1"@de,
+	"VerbundFDB - Controlled Vocabulary - Mode of Collection v1"@en;
+	dct:description """Hierbei handelt es sich um ein kontrolliertes Vokabular zur Beschreibung der Datenerhebung, zur Beschreibung der Methode, mit der die Untersuchung durchgeführt wurde, also zur Prozedur, Technik oder Art der Erhebung, die verwendet wurde, um Daten zu bekommen.
+
+Zitation: VerbundFDB: Erhebungsverfahren Bildungsforschung. Version 1.0. Verfügbar unter https://w3id.org/iqb/v85/v1/. Provenienz: basierend auf DDI Alliance (2016) DDI Controlled Vocabulary for Mode Of Collection. Retrieved from http://www.ddialliance.org/Specification/DDI-CV/ModeOfCollection_3.0.html Deutsche Übersetzung: Baum, Katrin; Post, Marlies and Jedinger, Alexander (2015). GESIS. Kontrolliertes Vokabular VerbundFDB: Erhebungsverfahren Implementierte überarbeitete Version in Anpassung an die Anforderungen des VerbundFDB. Beschlossen am 13.12.2016 im Bearbeitergremium VerbundFDB, bestehend aus Marcus Eisentraut, Karoline Harzenetter, Claudia Neuendorf, Lisa Pegelow, Maike Porzelt, Thomas Schwager
+
+Stand: 13.12.2016 (Bearbeitung: Thomas Schwager Quelle: Überarbeitete Version des GESIS-DAS Kontrolliertes Vokabulars V. 2.0: Erhebungsverfahren Übersetzung des DDI Controlled Vocabulary for Mode Of Collection Datum Originalversion Übersetzung/Bearbeitung 16.11.2015 V. 2.0 Katrin Baum, Marlies Post, Dr. Alexander Jedinger 10.06.2015 V. 2.0 Dr. Alexander Jedinger 08.04.2013 V. 1.0 Monika Linne)
+
+Lizenz: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)
+
+Es gibt mit Stand 11.5.2020 eine neue Version: VerbundFDB: Erhebungsverfahren Bildungsforschung. Version 2.0. Verfügbar unter https://w3id.org/iqb/v85/v2/."""@de,
+	"""The procedure, technique, or mode of inquiry used to attain the data. Description of the method of data collection.
+
+Citation: VerbundFDB: Mode of Collection Educational Research. Version 1.0. Retrieved from https://w3id.org/iqb/v85/v1/ Provenance: Based on DDI Alliance (2016) DDI Controlled Vocabulary for Mode Of Collection. Retrieved from http://www.ddialliance.org/Specification/DDI-CV/ModeOfCollection_3.0.html German Translation: Baum, Katrin; Post, Marlies and Jedinger, Alexander (2015). GESIS. Controlled Vocabulary VerbundFDB: Mode of Collection Implemented revised version adapted to the requirements of the VerbundFDB. Decided on 13.12.2016 in the VerbundFDB committee (Marcus Eisentraut, Karoline Harzenetter, Claudia Neuendorf, Lisa Pegelow, Maike Porzelt, Thomas Schwager)
+
+as of: 13.12.2016 (Editing: Thomas Schwager Source: Revised version of GESIS DAS Controlled Vocabulary V. 2.0: Collection Mode Translation of the DDI Controlled Vocabulary for Mode Of Collection Date Original Version Translation / Editing 16.11.2015 V. 2.0 Katrin Baum, Marlies Post, Dr. Alexander Jedinger 10.06.2015 V. 2.0 Dr. Alexander Jedinger 08.04.2013 V. 1.0 Monika Linne)
+
+License: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)
+
+There is a new version as of 11.5.2020: VerbundFDB: Erhebungsverfahren Bildungsforschung. Version 2.0. Retrieved from https://w3id.org/iqb/v85/v2/.
+"""@en;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
+	skos:hasTopConcept
+		n0:1,
+		n0:9,
+		n0:15,
+		n0:16,
+		n0:17,
+		n0:33,
+		n0:34,
+		n0:35,
+		n0:37,
+		n0:39,
+		n0:38,
+		n0:25,
+		n0:40.

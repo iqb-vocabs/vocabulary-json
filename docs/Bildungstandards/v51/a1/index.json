@@ -1,0 +1,51 @@
+{
+  "id": "https://w3id.org/iqb/v51/a1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Mathematik Sek I 2022 - Anforderungsbereiche"
+  },
+  "description": {
+    "de": "Zum Lösen mathematischer Aufgaben werden die prozessbezogenen Kompetenzen in unterschiedlicher Ausprägung benötigt. Diesbezüglich lassen sich drei Anforderungsbereiche für alle Schülerinnen und Schüler unterscheiden: (I) Reproduzieren, (II) Zusammenhänge herstellen sowie (III) Verallgemeinern und Reflektieren. Im Allgemeinen nehmen Anspruch und kognitive Komplexität von Anforderungsbereich I bis Anforderungsbereich III zu. Die Anforderungsbereiche sind für alle prozessbezogenen Kompetenzen wie folgt charakterisiert:"
+  },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v51/a1/c6u",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Anforderungsbereich I"
+      },
+      "definition": {
+        "de": "Reproduzieren \\\n\\\n Dieser Anforderungsbereich umfasst die Wiedergabe und direkte Anwendung von grundlegenden Begriffen, Sätzen und Verfahren in einem abgegrenzten Gebiet und einem wiederholenden Zusammenhang."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v51/a1/h7q",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Anforderungsbereich II"
+      },
+      "definition": {
+        "de": "Zusammenhänge herstellen \\\n\\\n Dieser Anforderungsbereich umfasst das selbstständige Auswählen, Anordnen, Darstellen und Bearbeiten bekannter Sachverhalte, indem Kenntnisse, Fertigkeiten und Fähigkeiten verknüpft werden, die in der Auseinandersetzung mit Mathematik auf verschiedenen Gebieten erworben wurden."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v51/a1/b2d",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Anforderungsbereich III"
+      },
+      "definition": {
+        "de": "Verallgemeinern und Reflektieren \\\n\\\n Dieser Anforderungsbereich umfasst das selbstständige Auswählen geeigneter Arbeitstechniken und Verfahren sowie das Bearbeiten komplexer oder unbekannter Sachverhalte u. a. mit dem Ziel, zu eigenen Problemformulierungen, Lösungen, Begründungen, Folgerungen, Interpretationen oder Wertungen zu gelangen."
+      }
+    }
+  ]
+}

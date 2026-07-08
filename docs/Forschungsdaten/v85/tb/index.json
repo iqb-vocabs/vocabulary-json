@@ -1,0 +1,170 @@
+{
+  "id": "https://w3id.org/iqb/v85/tb/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "VerbundFDB - Kontrolliertes Vokabular - Themenbereiche",
+    "en": "VerbundFDB - Controlled Vocabulary - Themes"
+  },
+  "description": {
+    "de": "Hierbei handelt es sich um ein kontrolliertes Vokabular zu Themenbereichen von Forschungsdaten des VerbundFDB.\n\nZitation: VerbundFDB: Themenbereiche Bildungsforschung. Version 1.0. Verfügbar unter https://w3id.org/iqb/v85/tb/. \n\nLizenz: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)",
+    "en": "This is a controlled vocabulary for themes for research data of the VerbundFDB.\n\nCitation: VerbundFDB: Themes Educational Research. Version 1.0. Retrieved from https://w3id.org/iqb/v85/tb/.\n\nLicense: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)"
+  },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v85/tb/8",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Arbeitsbedingungen",
+        "en": "Working Conditions"
+      },
+      "definition": {
+        "de": "Working Conditions"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/tb/9",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Bestandsdaten/Institutioneller Hintergrund",
+        "en": "Inventory Data/Institutional Background"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/tb/12",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Demographie individuell",
+        "en": "Demography individual"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/tb/6",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Digitalisierung",
+        "en": "Digitisation"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/tb/10",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Evaluation/Qualitätsentwicklung",
+        "en": "Evaluation/Quality Development"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/tb/7",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Gleichstellung",
+        "en": "Equality"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/tb/13",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Kognitive Fähigkeiten/Kompetenzen",
+        "en": "Cognitive Ability/Achievement"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/tb/2",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Lebenschancen",
+        "en": "Opportunities in Life"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/tb/4",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Lebenswelt/Lebensbedingungen",
+        "en": "Living Environment/Living Conditions"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/tb/1",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Lehren und Lernen",
+        "en": "Teaching and Learning"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/tb/5",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Migration",
+        "en": "Migration"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/tb/11",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Qualifikation",
+        "en": "Qualification"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/tb/15",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Testverfahren",
+        "en": "Testing"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/tb/14",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Testverhalten",
+        "en": "Test Behaviour"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/tb/3",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Werte",
+        "en": " Values"
+      }
+    }
+  ]
+}

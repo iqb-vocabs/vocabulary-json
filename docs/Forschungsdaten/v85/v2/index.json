@@ -1,0 +1,1007 @@
+{
+  "id": "https://w3id.org/iqb/v85/v2/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "VerbundFDB - Kontrolliertes Vokabular - Erhebungsverfahren v2",
+    "en": "VerbundFDB - Controlled Vocabulary - Mode of Collection v2"
+  },
+  "description": {
+    "de": "Hierbei handelt es sich um ein kontrolliertes Vokabular zur Beschreibung der Datenerhebung, zur Beschreibung der Methode, mit der die Untersuchung durchgeführt wurde, also zur Prozedur, Technik oder Art der Erhebung, die verwendet wurde, um Daten zu bekommen.\n\nZitation: VerbundFDB: Erhebungsverfahren Bildungsforschung. Version 2.0. Verfügbar unter https://w3id.org/iqb/v85/v2/. \n\nProvenienz: basierend auf DDI Alliance (2016) DDI Controlled Vocabulary for Mode Of Collection. Verfügbar unter http://www.ddialliance.org/Specification/DDI-CV/ModeOfCollection_3.0.html Deutsche Übersetzung: Baum, Katrin; Post, Marlies and Jedinger, Alexander (2015). GESIS. Kontrolliertes Vokabular VerbundFDB: Erhebungsverfahren Implementierte überarbeitete Version in Anpassung an die Anforderungen des VerbundFDB Beschlossen am 11.05.2020 im Bearbeitergremium VerbundFDB, bestehend aus Marcus Eisentraut, Karoline Harzenetter, Nadeshda Jung, Claudia Neuendorf, Lisa Pegelow, Maike Porzelt, Jessica Trixa, Dirk Weisbrod\n\n Stand: 11.05.2020 Quelle: Überarbeitete Version des GESIS-DAS Kontrolliertes Vokabulars V. 2.0: Erhebungsverfahren Übersetzung des DDI Controlled Vocabulary for Mode Of Collection Datum Originalversion Übersetzung/Bearbeitung 16.11.2015 V. 2.0 Katrin Baum, Marlies Post, Dr. Alexander Jedinger 10.06.2015 V. 2.0 Dr. Alexander Jedinger 08.04.2013 V. 1.0 Monika Linne\n\nLizenz: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)",
+    "en": "The procedure, technique, or mode of inquiry used to attain the data. Description of the method of data collection.\n\nCitation: VerbundFDB: Mode of Collection Educational Research. Version 2.0. Retrieved from https://w3id.org/iqb/v85/v2/ \n\nProvenance: Based on DDI Alliance (2016) DDI Controlled Vocabulary for Mode Of Collection. Retrieved from http://www.ddialliance.org/Specification/DDI-CV/ModeOfCollection_3.0.html German Translation: Baum, Katrin; Post, Marlies and Jedinger, Alexander (2015). GESIS. Controlled Vocabulary VerbundFDB: Mode of Collection Implemented revised version adapted to the requirements of the VerbundFDB Decided on 11.05.2020 in the VerbundFDB committee (Marcus Eisentraut, Karoline Harzenetter, Nadeshda Jung, Claudia Neuendorf, Lisa Pegelow, Maike Porzelt, Jessica Trixa, Dirk Weisbrod) \n\n As of: 11.05.2020 Source: Revised version of GESIS DAS Controlled Vocabulary V. 2.0: Collection Mode Translation of the DDI Controlled Vocabulary for Mode Of Collection Date Original Version Translation / Editing 16.11.2015 V. 2.0 Katrin Baum, Marlies Post, Dr. Alexander Jedinger 10.06.2015 V. 2.0 Dr. Alexander Jedinger 08.04.2013 V. 1.0 Monika Linne\n\nLicense: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)"
+  },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v85/v2/1",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Interview",
+        "en": "Interview"
+      },
+      "definition": {
+        "de": "Eine vorab geplante Kommunikation zwischen zwei (oder mehreren) Personen - dem/den Interviewer(n) und dem/den Befragten-in der der/die Interviewer von dem/den Interviewpartner(n) Informationen erhält/erhalten. Wenn Gruppeninteraktion Teil der Erhebungsmethode ist, verwenden Siedie Kategorie 'Fokusgruppe'.",
+        "en": "A pre-planned communication between two (or more) people - the interviewer(s) and the interviewee(s) - in which information is obtained by the interviewer(s) from the interviewee(s). If group interaction is part of the method, use 'Focus group'."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v85/v2/2",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "Persönliches Interview",
+            "en": "Face-to-face interview"
+          },
+          "definition": {
+            "de": "Datenererhebungsmethode, in der ein Interviewer von Angesicht zu Angesicht ein persönliches Interview führt, Fragen stellt und die Antworten eingibt. Verwenden Sie diesen umfassenden Begriff, wenn es sich nicht um CAPI oder PAPI handelt, oder wenn nicht bekannt ist, ob es CAPI/PAPI ist.",
+            "en": "Data collection method in which a live interviewer conducts a personal interview, presenting questions and entering the responses. Use this broader term if not CAPI or PAPI, or if not known whether CAPI/PAPI or not."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v85/v2/3",
+              "notation": [
+                "1.1.1"
+              ],
+              "prefLabel": {
+                "de": "CAPI (Computerunterstützte persönliche Befragung)/CAMI (Computerunterstützte mobile Befragung)",
+                "en": "CAPI (Computer Assisted Personal Interview)/CAMI (Computer Assisted Mobile Interview)"
+              },
+              "definition": {
+                "de": "Computergestützte persönliche Befragung (CAPI). Datenererhebungsmethode, in der der Interviewer Fragen an die Befragten vom Bildschirm eines Computers, Laptops oder mobilen Geräts wie Tablet oder Smartphone abliest und die Antworten in dasselbeGerät eingibt.Die Interviewführung wird durch ein/e speziell entworfene/s Programm/Anwendunggeleitet.",
+                "en": "Computer-assisted personal interviewing (CAPI), or computer-assisted mobile interviewing (CAMI). Data collection method in which the interviewer reads questions to the respondents from the screen of a computer, laptop, or a mobile device like tablet or smartphone, and enters the answers in the same device. The administration of the interview is managed by a specifically designed program/application. "
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v85/v2/4",
+              "notation": [
+                "1.1.2"
+              ],
+              "prefLabel": {
+                "de": "PAPI (Papierfragebogen)",
+                "en": "PAPI (Paper and Pencil Interview)"
+              },
+              "definition": {
+                "de": "Papier-und-Bleistift-Befragung. Der Interviewer benutzt einen traditionellen Papierfragebogen, um die Fragen vorzulesen und die Antworten einzugeben.",
+                "en": "Paper-and-pencil interviewing (PAPI). The interviewer uses a traditional paper questionnaire to read the questions and enter the answers."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/5",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "Telefonisches Interview",
+            "en": "Telephone interview"
+          },
+          "definition": {
+            "de": "Das am Telefon geführte Interview. Verwenden Sie diesen umfassenden Begriff, wenn es sich bei der Datenerhebungsmethodenicht um CATI handelt, oder wenn nicht bekannt ist, ob es CATI ist oder nicht.",
+            "en": "Interview administered on the telephone. Use this broader term if not CATI, or if not known whether CATI or not"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v85/v2/6",
+              "notation": [
+                "1.2.1"
+              ],
+              "prefLabel": {
+                "de": "CATI (Computerunterstützte telefonische Befragung)",
+                "en": "CATI (Computer Assisted Telephone Interview)"
+              },
+              "definition": {
+                "de": "Computergestütztes Telefoninterview. Der Interviewer stellt Fragen, die vom Computer vorgegeben sind, Antworten werden direkt in den Computer eingegeben unddie Interviewführung wird von einem speziell entworfenen Programmgeleitet.",
+                "en": "Computer-assisted telephone interviewing (CATI). The interviewer asks questions as directed by a computer, responses are keyed directly into the computer and the administration of the interview is managed by a specifically designed program."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/7",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "E-mail Interview",
+            "en": "E-mail interview"
+          },
+          "definition": {
+            "de": "Interviews, die viaE-Mail durchgeführt werden, in der Regel bestehen sie aus mehreren E-Mail-Nachrichten, die es ermöglichen, dass die Diskussion über die ersten Fragen und Antworten oder den ersten E-Mail-Austausch hinausgeht.",
+            "en": "Interviews conducted via e-mail, usually consisting of several e-mail messages that allow the discussion to continue beyond the first set of questions and answers, or the first e-mail exchange."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/8",
+          "notation": [
+            "1.4"
+          ],
+          "prefLabel": {
+            "de": "Web-basiertes Interview",
+            "en": "Web-based interview"
+          },
+          "definition": {
+            "de": "Ein Interview, das über das Internet durchgeführt wird. Zum Beispiel, Interviews, die in Online-Foren durchgeführt werden oder in denen web-basierte audio-visuelle Technologien genutzt werden, die esdem/den Interviewer(n) und Befragten ermöglichen, miteinander in Echtzeit zu kommunizieren.",
+            "en": "An interview conducted via the Internet. For example, interviews conducted within online forums or using web-based audio-visual technology that enables the interviewer(s) and interviewee(s) to communicate in real time."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/8.01",
+          "notation": [
+            "1.5"
+          ],
+          "prefLabel": {
+            "de": "Rezeptives Interview",
+            "en": "Receptive interview"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/8.02",
+          "notation": [
+            "1.6"
+          ],
+          "prefLabel": {
+            "de": "Problemzentriertes Interview",
+            "en": "Problem-centred interview"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/8.03",
+          "notation": [
+            "1.7"
+          ],
+          "prefLabel": {
+            "de": "Leitfadeninterview",
+            "en": "Guide interview"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/8.04",
+          "notation": [
+            "1.8"
+          ],
+          "prefLabel": {
+            "de": "Narratives Interview",
+            "en": "Narrative interview"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/8.05",
+          "notation": [
+            "1.9"
+          ],
+          "prefLabel": {
+            "de": "Tiefeninterview",
+            "en": "In-depth interview"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/8.06",
+          "notation": [
+            "1.10"
+          ],
+          "prefLabel": {
+            "de": "Episodisches Interview",
+            "en": "Episodic interview"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/8.07",
+          "notation": [
+            "1.11"
+          ],
+          "prefLabel": {
+            "de": "Halbstandardisiertes Interview",
+            "en": "Semi-standardised interview"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/8.08",
+          "notation": [
+            "1.12"
+          ],
+          "prefLabel": {
+            "de": "Erzählgenerierendes Interview",
+            "en": "Story-telling interview"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/8.09",
+          "notation": [
+            "1.13"
+          ],
+          "prefLabel": {
+            "de": "Ethnografisches Interview",
+            "en": "Ethnographic interview"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/8.10",
+          "notation": [
+            "1.14"
+          ],
+          "prefLabel": {
+            "de": "Fokussiertes Interview",
+            "en": "Focused interview"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/8.11",
+          "notation": [
+            "1.15"
+          ],
+          "prefLabel": {
+            "de": "Ero-episches Gespräch",
+            "en": "Ero-epic conversation"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/8.12",
+          "notation": [
+            "1.16"
+          ],
+          "prefLabel": {
+            "de": "Experteninterview",
+            "en": "Expert interview"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/v2/9",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Eigenständig auszufüllender Fragebogen",
+        "en": "Self-administered questionnaire"
+      },
+      "definition": {
+        "de": "Datenerhebungsmethode, bei der der Befragte die Fragen selbst liest oder diese hört und die Antworten selbst eingibt; Kein Interviewer ist dabeianwesend oder nimmt an derFragebogenbearbeitungteil. Wenn möglich, verwenden Sie einenengergefassten Begriff.Verwenden Sie diesenweiter gefasstenBegriff, falls die Methode nicht durch irgendwelchederengergefasstenBegriffe beschrieben wird - zum Beispiel für PDF- und Diskettenfragebögen.",
+        "en": "Data collection method in which the respondent reads or listens to the questions, and enters the responses by him/herself; no live interviewer is present, or participates in the questionnaire administration. If possible, use a narrower term. Use this broader term if the method is not described by any of the narrower terms - for example, for PDF and diskette questionnaires."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v85/v2/10",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "E-mail",
+            "en": "E-Mail"
+          },
+          "definition": {
+            "de": "Selbstverwaltete Umfrage, bei der Fragen dem Befragten in der E-Mail oder im Anhang einer E-Mail, aber nicht als Link zu einem webbasierten Fragebogen dargestellt werden. Befragte schicken die Antwortenauch per E-Mail, als E-Mail-Text oderalsAnhang zurück.",
+            "en": "Self-administered survey in which questions are presented to the respondent in the text body of an e-mail or as an attachment to an e-mail, but not as a link to a web-based questionnaire. Responses are also sent back via e-mail, in the e-mail body or as an attachment."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/11",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "Papier",
+            "en": "Paper"
+          },
+          "definition": {
+            "de": "Selbstverwaltete Umfrage unter Anwendung eines traditionellen Papierfragebogens, der per Post (Postdienste) oder per Fax versandt oder persönlich von einem Interviewer überbracht oder von einemBefragten abgeholt wurde.",
+            "en": "Self-administered survey using a traditional paper questionnaire delivered and/or collected by mail (postal services), by fax, or in person by either interviewer, or respondent."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/12",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "SMS/MMS",
+            "en": "SMS/MMS"
+          },
+          "definition": {
+            "de": "Selbstverwaltete Umfrage, in der die Befragten per SMS (Textnachrichten) oder MMS (Nachrichten mitMultimedia-Inhalten) Fragen erhalten und ihre Antworten im selben Format zurücksenden.",
+            "en": "Self-administered survey in which the respondents receive the questions incorporated in SMS (text messages) or MMS (messages including multimedia content) and send their replies in the same format."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/14",
+          "notation": [
+            "2.4"
+          ],
+          "prefLabel": {
+            "de": "CASI (Computerunterstützte Selbstbefragung)",
+            "en": "CASI (Computer Assisted Self-Interview)"
+          },
+          "definition": {
+            "de": "Computergestützte Selbstbefragung (CASI). Die Befragten geben die Antworten in einen Computer (Desktop, Laptop, Palm/PDA, Tablet, etc.) selbst ein. DieVerwaltung des Fragebogenswird von einem/r speziell entworfenen Programm/Anwendunggemanagt,aber es gibt keine Echtzeit-Datenübertragung wie in CAWI, die Antworten werden auf dem für das Interview verwendeten Gerät gespeichert. Der Fragebogen kann eine festgelegteForm haben oder interaktiv sein. Inklusive VCASI (ComputergestützteVideoSelbstbefragung), ACASI (ComputergestützteAudioSelbstbefragung) und TACASI (ComputergestützteTelefon-AudioSelbstbefragung).",
+            "en": "Computer-assisted self-interview (CASI). Respondents enter the responses into a computer (desktop, laptop, Palm/PDA, tablet, etc.) by themselves. The administration of the questionnaire is managed by a specifically designed program/application but there is no real-time data transfer as in CAWI, the answers are stored on the device used for the interview. The questionnaire may be fixed form or interactive. Includes VCASI (Video computer-assisted self-interviewing), ACASI (Audio computer-assisted self-interviewing) and TACASI (Telephone audio computer-assisted self-interviewing)."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/13",
+          "notation": [
+            "2.5"
+          ],
+          "prefLabel": {
+            "de": "CAWI (Computerunterstütztes Web-Interview)",
+            "en": "CAWI (Computer Assisted Web Interview)"
+          },
+          "definition": {
+            "de": "Computergestütztes Web-Interview (CAWI). Die Daten werden mit einem Web-Fragebogen, der mit einem Programm zur Erstellung von Web-Umfragen erstellt wurde, erhoben. Das Programm kann den Verlauf des Fragebogens an die bereits abgegebene Antworten anpassen und ermöglicht es, dass der Fragebogen Bilder, Audio- und Videoclips, Links zu verschiedenen Webseiten etc. enthält.",
+            "en": "Computer-assisted web interviewing (CAWI). Data are collected using a web questionnaire, produced with a program for creating web surveys. The program can customize the flow of the questionnaire based on the answers provided, and can allow for the questionnaire to contain pictures, audio and video clips, links to different web pages, etc. "
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/v2/15",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Fokusgruppe/Gruppenbefragung",
+        "en": "Focus group/Group survey"
+      },
+      "definition": {
+        "de": "Eine für Forschungszwecke organisierte Gruppendiskussion zu einem bestimmten Thema. Individuen mit Bezug zum Thema werden ausgewählt, und die Interaktion zwischen den Teilnehmern wird als Teil der Methode verwendet. Term wurde für die 2. Version erweitert.",
+        "en": "A group discussion on a particular topic, organized for research purposes. The individuals are selected with relevance to the topic, and interaction among the participants is used as part of the method. Translation of the term: VerbundFDB Term was changed for the 2nd version"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v85/v2/15.1",
+          "notation": [
+            "3.1"
+          ],
+          "prefLabel": {
+            "de": "Gruppendiskussion",
+            "en": "Group discussion"
+          },
+          "definition": {
+            "de": "Term wurde für die 2. Version ergänzt.",
+            "en": "Translation of the term: VerbundFDB Term was added for the 2nd version"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/15.2",
+          "notation": [
+            "3.2"
+          ],
+          "prefLabel": {
+            "de": "Fokusgruppeninterview",
+            "en": "Focus group interview"
+          },
+          "definition": {
+            "de": "Term wurde für die 2. Version ergänzt",
+            "en": "Translation of the term: VerbundFDB Term was added for the 2nd version"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/15.3",
+          "notation": [
+            "3.3"
+          ],
+          "prefLabel": {
+            "de": "Gruppenexperiment ",
+            "en": "Group experiment "
+          },
+          "definition": {
+            "de": "Term wurde für die 2. Version ergänzt.",
+            "en": "Translation of the term: VerbundFDB Term was added for the 2nd version"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/v2/16",
+      "notation": [
+        "4"
+      ],
+      "prefLabel": {
+        "de": "Eigenständig durchgeführte schriftliche Aufzeichnung und/oder Tagebücher",
+        "en": "Self-administered writings and/or diaries"
+      },
+      "definition": {
+        "de": "Erzählungen, Geschichten, Tagebücher und schriftliche Texte, die vom Forschungssubjekt erstellt wurden.",
+        "en": "Narratives, stories, diaries, and written texts created by the research subject. "
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/v2/17",
+      "notation": [
+        "5"
+      ],
+      "prefLabel": {
+        "de": "Beobachtung",
+        "en": "Observation"
+      },
+      "definition": {
+        "de": "Forschungsmethode, die das Sammeln von Daten beinhaltet, wie sieauftreften(z. B. Beobachtung von Verhaltensweisen, Ereignissen, Entwicklung vonZustandoder Krankheit usw.), ohne zu versuchen, eine der unabhängigen Variablen zu manipulieren.",
+        "en": "Research method that involves collecting data as they occur (for example, observing behaviors, events, development of condition or disease, etc.), without attempting to manipulate any of the independent variables."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v85/v2/18",
+          "notation": [
+            "5.1"
+          ],
+          "prefLabel": {
+            "de": "Feldbeobachtung",
+            "en": "Field observation"
+          },
+          "definition": {
+            "de": "Beobachtung, die in einer natürlichen Umgebung durchgeführt wird.",
+            "en": "Observation that is conducted in a natural environment."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v85/v2/19",
+              "notation": [
+                "5.1.1"
+              ],
+              "prefLabel": {
+                "de": "Teilnehmend",
+                "en": "Participant field observation"
+              },
+              "definition": {
+                "de": "Eine Art der Feldbeobachtung, in der der Forscher mit den Probanden interagiert und oft selbst eine Rolle in der sozialen Situation unter Beobachtung einnimmt.",
+                "en": "Type of field observation in which the researcher interacts with the subjects and often plays a role in the social situation under observation."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v85/v2/20",
+              "notation": [
+                "5.1.2"
+              ],
+              "prefLabel": {
+                "de": "Nicht-teilnehmend",
+                "en": "Non-participant field observation"
+              },
+              "definition": {
+                "de": "Beobachtung, die in einer natürlichen, nicht kontrollierten Umgebung durchgeführt wird - ohne jegliche Interaktion zwischen dem/der Forscher/in und seinen/ihren Probanden.",
+                "en": "Observation that is conducted in a natural, non-controlled setting without any interaction between the researcher and his/her subjects."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/21",
+          "notation": [
+            "5.2"
+          ],
+          "prefLabel": {
+            "de": "Laborbeobachtung",
+            "en": "Laboratory observation"
+          },
+          "definition": {
+            "de": "Beobachtung, die in einer kontrollierten, künstlich geschaffenen Umgebung durchgeführt wird. Zum Beispiel, das Spielen der Kinder in einem Labor-Spielzimmer beobachten.",
+            "en": "Observation that is conducted in a controlled, artificially created setting. For example, observing children's play in a laboratory playroom."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v85/v2/22",
+              "notation": [
+                "5.2.1"
+              ],
+              "prefLabel": {
+                "de": "Teilnehmend",
+                "en": "Participant laboratory observation"
+              },
+              "definition": {
+                "de": "Eine Art der Laborbeobachtung, in der der Forscher mit den Probanden interagiert und oft selbst ein Rolle in der gesellschaftlichen Situation unter Beobachtung einnimmt. Zum Beispiel, dasBeobachtenspielender Kinder in einem Labor-Spielzimmer,wobeider Forscher selbst amSpielteilnimmt.",
+                "en": "Type of laboratory observation in which the researcher interacts with the subjects and often plays a role in the social situation under observation. For example, observing children's play in a laboratory playroom with the researcher taking part in the play."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v85/v2/23",
+              "notation": [
+                "5.2.2"
+              ],
+              "prefLabel": {
+                "de": "Nicht-teilnehmend",
+                "en": "Non-participant laboratory observation"
+              },
+              "definition": {
+                "de": "Eine Art der Laborbeobachtung, die ohne jegliche Interaktion zwischen dem/der Forscher/in und seinen/ihren Probanden durchgeführt wird.",
+                "en": "Type of laboratory observation that is conducted without any interaction between the researcher and his/her subjects."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/24",
+          "notation": [
+            "5.3"
+          ],
+          "prefLabel": {
+            "de": "Computerbasierte Beobachtung",
+            "en": "Computer-based observation"
+          },
+          "definition": {
+            "de": "Eine Art der Beobachtung, bei der Daten bezüglich der Computer-Nutzung von einer Software gesammelt werden, die in das Computerprogramm selbst eingebaut werden oder ein separates Programm sein kann. Es können Informationen über die Anzahl der Nutzer, die Art und Weise, wie Nutzer mit dem/denProgramm/eninteragieren, wie viel Zeit sie auf einer Seite verbringen, wie sie bestimmte Abschnitte von Anwendungen verwenden, wie sie von Seite zu Seite oder von einer Anwendung zur anderen navigieren etc. gesammelt werden.",
+            "en": "Type of observation in which data regarding computer usage are being collected by software that can be built into the computer program itself or can be a separate program. Information may be collected about the number of users, the ways in which users interact with the program(s), how much time they spend on a page, how they use specific sections of applications, how they navigate from page to page or from one application to another, etc."
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/v2/33",
+      "notation": [
+        "6"
+      ],
+      "prefLabel": {
+        "de": "Inhaltscodierung",
+        "en": "Content Coding"
+      },
+      "definition": {
+        "de": "Als eine Art der Sekundärdatensammlung, setzt Inhaltscodierung Codierungstechniken ein, um qualitative Daten (Text-, Video-, Audio oder Standbild ), die ursprünglich für andere Zwecke produziert wurden, in quantitative Daten (ausgedrückt in einer Unit-by-Variable Matrix) nach einem zuvor erstellten Kategorienschema umzuwandeln. Zum Beispiel kodierte Parteiprogrammdaten wie 'European Parliament Election Study 2009, Manifesto Study' (doi:10.4232/1.10204)",
+        "en": "As a mode of secondary data collection, content coding applies coding techniques to transform qualitative data (textual, video, audio or still-image) originally produced for other purposes into quantitative data (expressed in unit-by-variable matrices) in accordance with pre-defined categorization schemes. For example, coded party manifesto data like the 'European Parliament Election Study 2009, Manifesto Study' (doi:10.4232/1.10204)."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/v2/34",
+      "notation": [
+        "7"
+      ],
+      "prefLabel": {
+        "de": "Transkription",
+        "en": "Transcription"
+      },
+      "definition": {
+        "de": "Erfassen von Informationen in schriftlicher Form aus unterschiedlichen Quellen, oder einem anderen Medium, Alphabet oder Notationsform, wie wissenschaftliche Formeln oder Musiknoten. Für transkribierte Interviews oder Beobachtungen empfiehlt es sich, die primäre Art der Erhebung unter Verwendung der Begriffe aus dem Interview oder der Beobachtung zu dokumentieren.",
+        "en": "Capturing information in writing from a different source, or from a different medium, alphabet, or form of notation, like scientific formulae, or musical notes. For transcribed interviews or observations, it is recommended to document the primary mode of collection, using one of the interview or observation terms."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v85/v2/34.1",
+          "notation": [
+            "7.1"
+          ],
+          "prefLabel": {
+            "de": "Filmtranskription",
+            "en": "Film transcription"
+          },
+          "definition": {
+            "de": "Term wurde für die 2. Version ergänzt.",
+            "en": "Translation of the term: VerbundFDB Term was added for the 2nd version"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/34.2",
+          "notation": [
+            "7.2"
+          ],
+          "prefLabel": {
+            "de": "Videotranskription",
+            "en": "Video transcription"
+          },
+          "definition": {
+            "de": "Term wurde für die 2. Version ergänzt.",
+            "en": "Translation of the term: VerbundFDB Term was added for the 2nd version"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/34.3",
+          "notation": [
+            "7.3"
+          ],
+          "prefLabel": {
+            "de": "Audiotranskription",
+            "en": "Audio transcription"
+          },
+          "definition": {
+            "de": "Term wurde für die 2. Version ergänzt.",
+            "en": "Translation of the term: VerbundFDB Term was added for the 2nd version"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/v2/35",
+      "notation": [
+        "8"
+      ],
+      "prefLabel": {
+        "de": "Kompilation/Synthese",
+        "en": "Compilation/Synthesis"
+      },
+      "definition": {
+        "de": "Sammeln und Zusammenfügen von Daten aus mehreren, oft heterogenen Quellen, die einen oder mehrere Bezugspunkt/e gemeinsam haben, und mindestens eine der Quellen wurde ursprünglich für andere Zwecke hergestellt. Die Daten bilden eine neue Dateneinheit. Zum Beispiel kann zur Bereitstellung der Daten zur Anzahl der Universitäten in den letzten 150 Jahren eine Vielzahl an verfügbaren Quellen genutzt werden (z. B. Finanzdokumente, amtliche Statistiken, Universitätsregister), Umfragedaten können mit Informationen über geografische Regionen aus der amtlichen Statistik kombiniert werden (z. B. Bevölkerungsdichte , Ärzte pro-Kopf etc.), oder es können RSS genutzt werden, um Blog, Posts oder Tweets zu sammeln usw.",
+        "en": "Collecting and assembling data from multiple, often heterogeneous sources that have one or more reference points in common, and at least one of the sources was originally produced for other purposes. The data are incorporated in a new entity. For example, providing data on the number of universities in the last 150 years using a variety of available sources (e.g. finance documents, official statistics, university registers), combining survey data with information about geographical areas from official statistics (e.g. population density, doctors per capita, etc.), or using RSS to collect blog posts or tweets, etc."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/v2/37",
+      "notation": [
+        "9"
+      ],
+      "prefLabel": {
+        "de": "Zusammenfassung",
+        "en": "Summary"
+      },
+      "definition": {
+        "de": "Darstellung von Informationen in komprimierter Form, indem man diese auf ihre wichtigsten Punkte reduziert. Zum Beispiel Zusammenfassungen von Interviews oder Berichten, die veröffentlicht und als Daten genutzt werden, anstatt der Interviews oder Berichte in deren vollen Länge.",
+        "en": "Presentation of information in a condensed form, by reducing it to its main points. For example, abstracts of interviews or reports that are published and used as data rather than the full-length interviews or reports."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/v2/39",
+      "notation": [
+        "10"
+      ],
+      "prefLabel": {
+        "de": "Simulation",
+        "en": "Simulation"
+      },
+      "definition": {
+        "de": "Modellieren oder Nachahmen von realen Prozessen, Ereignissen oder Systemen, oft unter Anwendung von Computerprogrammen. Zum Beispiel, ein Programm, dasdie Reaktion des Haushaltskonsums auf indirekte Steuerveränderungenmodelliert;oder ein Datensatz über hypothetische Patienten und ihren Umgang mit Drogen, ihren Hintergrund und bekannte Nebenwirkungen.",
+        "en": "Modeling or imitative representation of real-world processes, events, or systems, often using computer programs. For example, a program modeling household consumption responses to indirect tax changes; or a dataset on hypothetical patients and their drug exposure, background conditions, and known adverse events."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/v2/38",
+      "notation": [
+        "11"
+      ],
+      "prefLabel": {
+        "de": "Aggregation",
+        "en": "Aggregation"
+      },
+      "definition": {
+        "de": "Statistiken, die sich auf breite Klassen, Gruppen oder Kategorien beziehen. Die Daten werden gemittelt, summiert oder anderweitig aus Individualdaten abgeleitet, und es ist nicht mehr möglich, die Merkmale von Individuen innerhalb dieser Klassen, Gruppen oder Kategorien zu unterscheiden. Zum Beispiel, die Anzahl und Altersgruppe von Arbeitslosen in bestimmten geografischen Regionen, oder Statistiken auf nationaler Ebene über das Auftreten von spezifischen Straftaten, die ursprünglich aus der Statistik der einzelnen Polizeibezirke abgeleitet wurden.",
+        "en": "Statistics that relate to broad classes, groups, or categories. The data are averaged, totaled, or otherwise derived from individual-level data, and it is no longer possible to distinguish the characteristics of individuals within those classes, groups, or categories. For example, the number and age group of the unemployed in specific geographic regions, or national level statistics on the occurrence of specific offences, originally derived from the statistics of individual police districts."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/v2/25",
+      "notation": [
+        "12"
+      ],
+      "prefLabel": {
+        "de": "Messungen und Tests",
+        "en": "Measurements and tests"
+      },
+      "definition": {
+        "de": "Beurteilung von spezifischen Eigenschaften (oder Merkmalen) von Lebewesen,Dingen, Phänomenen, (und/oder Prozessen) durch Anwendung vorgegebener Standards und/oder spezialisierter Instrumente oder Techniken.",
+        "en": "Assessing specific properties (or characteristics) of beings, things, phenomena, (and/ or processes) by applying pre-established standards and/or specialized instruments or techniques."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v85/v2/26",
+          "notation": [
+            "12.1"
+          ],
+          "prefLabel": {
+            "de": "Leistungs- und Kompetenztests",
+            "en": "Educational measurements and tests"
+          },
+          "definition": {
+            "de": "Beurteilung von Wissen, Fähigkeiten, Eignung oder Bildungsleistung durch fachkundige Messungen oder Tests.",
+            "en": "Assessment of knowledge, skills, aptitude, or educational achievement by means of specialized measures or tests."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v85/v2/27",
+              "notation": [
+                "12.1.1"
+              ],
+              "prefLabel": {
+                "de": "Paper and Pencil Test",
+                "en": "Paper and Pencil Test"
+              },
+              "definition": {
+                "de": "Beurteilung von Wissen, Fähigkeiten, Eignung oder Bildungsleistung durch fachkundige Messungen oder Tests. via Paper and Pencil Test"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v85/v2/28",
+              "notation": [
+                "12.1.2"
+              ],
+              "prefLabel": {
+                "de": "Computerbasierter Test",
+                "en": "Computer assisted test"
+              },
+              "definition": {
+                "de": "Beurteilung von Wissen, Fähigkeiten, Eignung oder Bildungsleistung durch fachkundige Messungen oder Tests. via Computerbasiertem Test",
+                "en": "Assessment of knowledge, skills, aptitude, or educational achievement by means of specialized measures or tests. via computer assisted test"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/29",
+          "notation": [
+            "12.2"
+          ],
+          "prefLabel": {
+            "de": "Physische Tests",
+            "en": "Physical measurements and tests"
+          },
+          "definition": {
+            "de": "Beurteilung der physischen Eigenschaften von Lebewesen, Gegenständen, Materialien oder Naturphänomenen. Zum Beispiel Erkenntnisse aus der praktischen medizinischen Untersuchung (z. B. Abtasten oder Abhören), klinische Messungen und Labortests wie Blutanalyse, Blutdruck, Herzfrequenz, Körpergewicht und Körpergröße sowie allgemeine Messungen wie Zeit, Distanz, Masse, Temperatur, Kraft, Stärke, Geschwindigkeit, GPS-Daten über physische Bewegung und andere physische Parameter oder Variablen, wie Geodaten.",
+            "en": "Assessment of physical properties of living beings, objects, materials, or natural phenomena. For example, findings from hands-on medical examination (e.g., palpation or auscultation), clinical measurements and lab tests like blood analysis, blood pressure, heart rate, body weight and height, as well as general measurements like time, distance, mass, temperature, force, power, speed, GPS data on physical movement and other physical parameters or variables, like geospatial data."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/30",
+          "notation": [
+            "12.3"
+          ],
+          "prefLabel": {
+            "de": "Psychologische Tests",
+            "en": "Psychological measurements and tests"
+          },
+          "definition": {
+            "de": "Beurteilung von Persönlichkeitsmerkmalen oder psychologischen Reaktionen/Verhaltensreaktionen durch fachkundige Messungen oder Tests. Zum Beispiel objektive Tests wie Selbstbericht mit eingeschränktem Antwortformat oder projektiven Methoden, die freie Äußerungen erlauben, einschließlich Wortassoziationen, Vollendung des Satzes oder einer Geschichte, Vignetten, Karikaturtests, thematische Auffassungstests, Rollenspiele, Zeichentests, Tintenklecks-tests, etc.",
+            "en": "Assessment of personality traits or psychological/behavioral responses by means of specialized measures or tests. For example, objective tests like self-report measures with a restricted response format, or projective methods allowing free responses, including word association, sentence or story completion, vignettes, cartoon test, thematic apperception tests, role play, drawing tests, inkblot tests, choice ordering exercises, etc."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v85/v2/31",
+              "notation": [
+                "12.3.1"
+              ],
+              "prefLabel": {
+                "de": "Paper and Pencil Test",
+                "en": "Paper and Pencil Test"
+              },
+              "definition": {
+                "de": "Beurteilung von Persönlichkeitsmerkmalen oder psychologischen Reaktionen/Verhaltensreaktionen durch fachkundige Messungen oder Tests. Zum Beispiel objektive Tests wie Selbstbericht mit eingeschränktem Antwortformat oder projektiven Methoden, die freie Äußerungen erlauben, einschließlich Wortassoziationen, Vollendung des Satzes oder einer Geschichte, Vignetten, Karikaturtests, thematische Auffassungstests, Rollenspiele, Zeichentests, Tintenklecks-tests etc.via Paper and Pencil Test"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v85/v2/32",
+              "notation": [
+                "12.3.2"
+              ],
+              "prefLabel": {
+                "de": "Computerbasierter Test",
+                "en": "Computer assisted test"
+              },
+              "definition": {
+                "de": "Beurteilung von Persönlichkeitsmerkmalen oder psychologischen Reaktionen/Verhaltensreaktionen durch fachkundige Messungen oder Tests. Zum Beispiel objektive Tests wie Selbstbericht mit eingeschränktem Antwortformat oder projektiven Methoden, die freie Äußerungen erlauben, einschließlich Wortassoziationen, Vollendung des Satzes oder einer Geschichte, Vignetten, Karikaturtests, thematische Auffassungstests, Rollenspiele, Zeichentests, Tintenklecks-tests etc. via Computerbasiertem Test",
+                "en": "Assessment of personality traits or psychological/behavioral responses by means of specialized measures or tests. For example, objective tests like self-report measures with a restricted response format, or projective methods allowing free responses, including word association, sentence or story completion, vignettes, cartoon test, thematic apperception tests, role play, drawing tests, inkblot tests, choice ordering exercises, etc. via computer assisted test"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/v2/40",
+      "notation": [
+        "13"
+      ],
+      "prefLabel": {
+        "de": "Sonstige",
+        "en": "Other"
+      },
+      "definition": {
+        "de": "Verwenden Sie diese Kategorie, wenn die Art der Datenerhebung bekannt ist, aber nicht in der Liste vertreten ist.",
+        "en": "Use if the mode of data collection is known, but not found in the list."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v85/v2/40.1",
+          "notation": [
+            "13.1"
+          ],
+          "prefLabel": {
+            "de": "Ethnographische Verfahren/ Ethnografie",
+            "en": "Ethnographic procedures/ ethnography"
+          },
+          "definition": {
+            "de": "Term wurde für die 2. Version ergänzt",
+            "en": "Translation of the term: VerbundFDB Term was added for the 2nd version"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v85/v2/40.2",
+              "notation": [
+                "13.1.1"
+              ],
+              "prefLabel": {
+                "de": "Ethnopsychoanalyse ",
+                "en": "Ethnopsychoanalysis "
+              },
+              "definition": {
+                "de": "Term wurde für die 2. Version ergänzt",
+                "en": "Translation of the term: VerbundFDB Term was added for the 2nd version"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v85/v2/40.3",
+              "notation": [
+                "13.1.2"
+              ],
+              "prefLabel": {
+                "de": "Visuelle Ethnografie",
+                "en": "Visual ethnography"
+              },
+              "definition": {
+                "de": "Term wurde für die 2. Version ergänzt.",
+                "en": "Translation of the term: VerbundFDB Term was added for the 2nd version"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v85/v2/40.4",
+              "notation": [
+                "13.1.3"
+              ],
+              "prefLabel": {
+                "de": "Ethnografische Semantik",
+                "en": "Ethnographic semantics"
+              },
+              "definition": {
+                "de": "Term wurde für die 2. Version ergänzt",
+                "en": "Translation of the term: VerbundFDB Term was added for the 2nd version"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/40.5",
+          "notation": [
+            "13.2"
+          ],
+          "prefLabel": {
+            "de": "Erzählungen",
+            "en": "Stories"
+          },
+          "definition": {
+            "de": "Term wurde für die 2. Version ergänzt.",
+            "en": "Translation of the term: VerbundFDB Term was added for the 2nd version"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v85/v2/40.6",
+              "notation": [
+                "13.2.1"
+              ],
+              "prefLabel": {
+                "de": "Gemeinsames Erzählen",
+                "en": "joint narrative"
+              },
+              "definition": {
+                "de": "Term wurde für die 2. Version ergänzt",
+                "en": "Translation of the term: VerbundFDB Term was added for the 2nd version"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v85/v2/40.7",
+              "notation": [
+                "13.2.2"
+              ],
+              "prefLabel": {
+                "de": "Narrative Inquiry",
+                "en": "Narrative Inquiry"
+              },
+              "definition": {
+                "de": "Term wurde für die 2. Version ergänzt",
+                "en": "Term was added for the 2nd version"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/40.8",
+          "notation": [
+            "13.3"
+          ],
+          "prefLabel": {
+            "de": "Biografische Methode",
+            "en": "Biographical method"
+          },
+          "definition": {
+            "de": "Term wurde für die 2. Version ergänzt.",
+            "en": "Translation of the term: VerbundFDB Term was added for the 2nd version"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v85/v2/40.9",
+              "notation": [
+                "13.3.1"
+              ],
+              "prefLabel": {
+                "de": "Oral History",
+                "en": "Oral History"
+              },
+              "definition": {
+                "de": "Term wurde für die 2. Version ergänzt.",
+                "en": "Translation of the term: VerbundFDB Term was added for the 2nd version"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v85/v2/40.91",
+              "notation": [
+                "13.3.2"
+              ],
+              "prefLabel": {
+                "de": "Diary-Verfahren",
+                "en": "Diary method"
+              },
+              "definition": {
+                "de": "Term wurde für die 2. Version ergänzt.",
+                "en": "Translation of the term: VerbundFDB Term was added for the 2nd version"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/40.92",
+          "notation": [
+            "13.4"
+          ],
+          "prefLabel": {
+            "de": "Qualitatives Experiment",
+            "en": "Qualitative experiment"
+          },
+          "definition": {
+            "de": "Term wurde für die 2. Version ergänzt.",
+            "en": "Translation of the term: VerbundFDB Term was added for the 2nd version"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/40.93",
+          "notation": [
+            "13.5"
+          ],
+          "prefLabel": {
+            "de": "Laborexperiment",
+            "en": "Laboratory experiment"
+          },
+          "definition": {
+            "de": "Term wurde für die 2. Version ergänzt.",
+            "en": "Translation of the term: VerbundFDB Term was added for the 2nd version"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/40.94",
+          "notation": [
+            "13.6"
+          ],
+          "prefLabel": {
+            "de": "Laborstudie",
+            "en": "Laboratory study"
+          },
+          "definition": {
+            "de": "Term wurde für die 2. Version ergänzt.",
+            "en": "Translation of the term: VerbundFDB Term was added for the 2nd version"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/40.95",
+          "notation": [
+            "13.7"
+          ],
+          "prefLabel": {
+            "de": "Feldstudie",
+            "en": "Field study"
+          },
+          "definition": {
+            "de": "Term wurde für die 2. Version ergänzt.",
+            "en": "Translation of the term: VerbundFDB Term was added for the 2nd version"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/v2/40.96",
+          "notation": [
+            "13.8"
+          ],
+          "prefLabel": {
+            "de": "Phänomenologische Verfahren",
+            "en": "Phenomenological methods"
+          },
+          "definition": {
+            "de": "Term wurde für die 2. Version ergänzt.",
+            "en": "Translation of the term: VerbundFDB Term was added for the 2nd version"
+          }
+        }
+      ]
+    }
+  ]
+}

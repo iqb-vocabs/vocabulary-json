@@ -1,8 +1,8 @@
 {
-  "id": "https://w3id.org/iqb/v51/im/",
+  "id": "https://w3id.org/iqb/v51/ie/",
   "type": "ConceptScheme",
   "title": {
-    "de": "Bildungsstandards Mathematik Sek I 2022 - Inhaltsbezogene Kompetenzen MSA"
+    "de": "Bildungsstandards Mathematik Sek I 2022 - Inhaltsbezogene Kompetenzen ESA"
   },
   "description": {
     "de": "Bei den folgenden inhaltsbezogenen Kompetenzen ist grundsätzlich daran gedacht, dass diese mit und ohne Medien erreicht werden sollen. Abweichungen davon werden explizit an den entsprechenden Stellen erwähnt."
@@ -12,7 +12,7 @@
   },
   "hasTopConcept": [
     {
-      "id": "https://w3id.org/iqb/v51/im/g7b",
+      "id": "https://w3id.org/iqb/v51/ie/a3b",
       "notation": [
         "1"
       ],
@@ -20,11 +20,11 @@
         "de": "Leitidee Zahl und Operation"
       },
       "definition": {
-        "de": "Diese Leitidee umfasst sinntragende Vorstellungen und Darstellungen von Zahlen und Operationen sowie die Nutzung von Rechengesetzen und Kontrollverfahren. Dazu gehören die sachgerechte Nutzung von Prozent- und Zinsrechnung ebenso wie kombinatorische Überlegungen und Verfahren, denen Algorithmen zu Grunde liegen. Die darauf bezogenen mathematischen Sachgebiete der Sekundarstufe I sind die Arithmetik, Algebra und Stochastik.\\\n\\\n Die Schülerinnen und Schüler "
+        "de": "Diese Leitidee umfasst sinntragende Vorstellungen und Darstellungen von Zahlen und Operationen sowie die Nutzung von Rechengesetzen und Kontrollverfahren. Dazu gehört zum Beispiel die sachgerechte Nutzung von Prozent- und Zinsrechnung. Die darauf bezogenen mathematischen Sachgebiete der Sekundarstufe I sind die Arithmetik und Algebra. \\\n\\\n Die Schülerinnen und Schüler"
       },
       "narrower": [
         {
-          "id": "https://w3id.org/iqb/v51/im/f7t",
+          "id": "https://w3id.org/iqb/v51/ie/s7d",
           "notation": [
             "1.1"
           ],
@@ -33,16 +33,7 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/x2q",
-          "notation": [
-            "1.2"
-          ],
-          "prefLabel": {
-            "de": "nutzen sinntragende Vorstellungen von reellen Zahlen (z. B. Vollständigkeit der Zahlengerade),"
-          }
-        },
-        {
-          "id": "https://w3id.org/iqb/v51/im/a4x",
+          "id": "https://w3id.org/iqb/v51/ie/t4y",
           "notation": [
             "1.3"
           ],
@@ -51,7 +42,7 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/d3q",
+          "id": "https://w3id.org/iqb/v51/ie/t4x",
           "notation": [
             "1.4"
           ],
@@ -60,16 +51,16 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/e2b",
+          "id": "https://w3id.org/iqb/v51/ie/c3t",
           "notation": [
             "1.5"
           ],
           "prefLabel": {
-            "de": "stellen Zahlen der Situation angemessen dar, z.B. unter anderem in Zehnerpotenzschreibweise,"
+            "de": "stellen Zahlen der Situation angemessen dar, unter anderem in Zehnerpotenzschreibweise,"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/q7y",
+          "id": "https://w3id.org/iqb/v51/ie/f5h",
           "notation": [
             "1.6"
           ],
@@ -78,16 +69,16 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/v5r",
+          "id": "https://w3id.org/iqb/v51/ie/g4a",
           "notation": [
             "1.7"
           ],
           "prefLabel": {
-            "de": "beschreiben die Notwendigkeit von Zahlbereichserweiterungen von N nach Z und Q sowie von Q nach R an Beispielen,"
+            "de": "beschreiben die Notwendigkeit von Zahlbereichserweiterungen von N nach Z und Q an Beispielen,"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/r4d",
+          "id": "https://w3id.org/iqb/v51/ie/e2b",
           "notation": [
             "1.8"
           ],
@@ -96,7 +87,7 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/f5h",
+          "id": "https://w3id.org/iqb/v51/ie/q7t",
           "notation": [
             "1.9"
           ],
@@ -105,7 +96,7 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/s4s",
+          "id": "https://w3id.org/iqb/v51/ie/t7h",
           "notation": [
             "1.10"
           ],
@@ -114,7 +105,7 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/b4p",
+          "id": "https://w3id.org/iqb/v51/ie/f4p",
           "notation": [
             "1.11"
           ],
@@ -123,7 +114,7 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/h3q",
+          "id": "https://w3id.org/iqb/v51/ie/c6p",
           "notation": [
             "1.12"
           ],
@@ -132,7 +123,7 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/d7d",
+          "id": "https://w3id.org/iqb/v51/ie/e5c",
           "notation": [
             "1.13"
           ],
@@ -141,7 +132,7 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/b3c",
+          "id": "https://w3id.org/iqb/v51/ie/z2e",
           "notation": [
             "1.14"
           ],
@@ -150,54 +141,27 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/c6y",
+          "id": "https://w3id.org/iqb/v51/ie/f3b",
           "notation": [
             "1.15"
           ],
           "prefLabel": {
-            "de": "erläutern Potenzen und Wurzeln und berechnen einfache Potenzen und Wurzeln,"
+            "de": "erläutern Potenzen und Wurzeln und berechnen einfache Potenzen und Wurzeln (Quadrat- und Kubikwurzeln),"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/a6r",
+          "id": "https://w3id.org/iqb/v51/ie/h5x",
           "notation": [
             "1.17"
           ],
           "prefLabel": {
-            "de": "wählen, beschreiben und bewerten Vorgehensweisen und Verfahren, denen Algorithmen bzw. Kalküle zu Grunde liegen und führen diese aus (z. B. schriftliche Division sowie bei Wurzeln und Potenzen),"
-          }
-        },
-        {
-          "id": "https://w3id.org/iqb/v51/im/f6r",
-          "notation": [
-            "1.18"
-          ],
-          "prefLabel": {
-            "de": "implementieren ein algorithmisches Verfahren (z. B. Heron-Verfahren zur Bestimmung von Quadratwurzeln, Intervallschachtelung) mit digitalen Mathematikwerkzeugen,"
-          }
-        },
-        {
-          "id": "https://w3id.org/iqb/v51/im/d7z",
-          "notation": [
-            "1.19"
-          ],
-          "prefLabel": {
-            "de": "führen in konkreten Situationen systematische Zählprinzipien aus (z. B. Anzahl Händeschütteln, wenn man jeder Person die Hand gibt),"
-          }
-        },
-        {
-          "id": "https://w3id.org/iqb/v51/im/v3q",
-          "notation": [
-            "1.20"
-          ],
-          "prefLabel": {
-            "de": "führen Zahlenfolgen fort, und verwenden Variablen als allgemeine Zahl."
+            "de": "wählen und beschreiben Vorgehensweisen und Verfahren, denen Algorithmen bzw. Kalküle zu Grunde liegen und führen diese aus (z. B. schriftliche Rechenoperationen)."
           }
         }
       ]
     },
     {
-      "id": "https://w3id.org/iqb/v51/im/t9v",
+      "id": "https://w3id.org/iqb/v51/ie/z6v",
       "notation": [
         "2"
       ],
@@ -209,7 +173,7 @@
       },
       "narrower": [
         {
-          "id": "https://w3id.org/iqb/v51/im/h5b",
+          "id": "https://w3id.org/iqb/v51/ie/t7p",
           "notation": [
             "2.1"
           ],
@@ -218,7 +182,7 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/r4u",
+          "id": "https://w3id.org/iqb/v51/ie/u7y",
           "notation": [
             "2.2"
           ],
@@ -227,7 +191,7 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/c2a",
+          "id": "https://w3id.org/iqb/v51/ie/x4h",
           "notation": [
             "2.3"
           ],
@@ -236,25 +200,25 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/s9z",
+          "id": "https://w3id.org/iqb/v51/ie/v6c",
           "notation": [
             "2.4"
           ],
           "prefLabel": {
-            "de": "berechnen Flächeninhalt und Umfang von Rechteck, Dreieck und Kreis sowie daraus zusammengesetzten Figuren, auch mit Hilfe digitaler Mathematikwerkzeuge,"
+            "de": "ermitteln Flächeninhalt und Umfang von Rechteck, Dreieck und Kreis sowie daraus zusammengesetzten Figuren, auch mit Hilfe digitaler Mathematikwerkzeuge,"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/a5s",
+          "id": "https://w3id.org/iqb/v51/ie/v9e",
           "notation": [
             "2.5"
           ],
           "prefLabel": {
-            "de": "berechnen Volumen und Oberflächeninhalt von Prisma, Pyramide, Zylinder, Kegel und Kugel sowie daraus zusammengesetzten Körpern, auch mit Hilfe digitaler Mathematikwerkzeuge,"
+            "de": "ermitteln Volumen und Oberflächeninhalt von Prisma, Pyramide und Zylinder sowie daraus zusammengesetzten Körpern, auch mit Hilfe digitaler Mathematikwerkzeuge,"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/d4p",
+          "id": "https://w3id.org/iqb/v51/ie/q9g",
           "notation": [
             "2.6"
           ],
@@ -263,18 +227,18 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/t7d",
+          "id": "https://w3id.org/iqb/v51/ie/q3d",
           "notation": [
             "2.7"
           ],
           "prefLabel": {
-            "de": "berechnen Streckenlängen und Winkelgrößen, auch unter Nutzung des Satzes von Pythagoras, von trigonometrischen Beziehungen und Ähnlichkeitsbeziehungen, auch mit Hilfe digitaler Mathematikwerkzeuge."
+            "de": "berechnen Streckenlängen und Winkelgrößen, auch unter Nutzung des Satzes von Pythagoras und Ähnlichkeitsbeziehungen, auch mit Hilfe digitaler Mathematikwerkzeuge."
           }
         }
       ]
     },
     {
-      "id": "https://w3id.org/iqb/v51/im/s9p",
+      "id": "https://w3id.org/iqb/v51/ie/d3x",
       "notation": [
         "3"
       ],
@@ -282,11 +246,11 @@
         "de": "Leitidee Strukturen und funktionaler Zusammenhang"
       },
       "definition": {
-        "de": "Die Leitidee umfasst funktionale Beziehungen zwischen Zahlen, Daten bzw. Größen sowie deren Darstellungen und Eigenschaften, auch unter Nutzung geeigneter digitaler Mathematikwerkzeuge. Das umfasst auch das Lösen von Gleichungen und linearen Gleichungssystemen und die Anwendung verschiedener Funktionenklassen bei der Bearbeitung von Problemen und in Sachsituationen. Die darauf bezogenen mathematischen Sachgebiete der Sekundarstufe I sind Algebra und Funktionen. \\\n\\\n Die Schülerinnen und Schüler"
+        "de": "Die Leitidee umfasst funktionale Beziehungen zwischen Zahlen, Daten bzw. Größen sowie deren Darstellungen und Eigenschaften, auch unter Nutzung geeigneter digitaler Mathematikwerkzeuge. Das umfasst auch das Lösen von Gleichungen und linearen Gleichungssystemen und die Anwendung verschiedener Funktionenklassen bei der Bearbeitung von Problemen und in Sachsituationen. Die darauf bezogenen mathematischen Sachgebiete der Sekundarstufe I sind Algebra und Funktionen.\\\n\\\n Die Schülerinnen und Schüler"
       },
       "narrower": [
         {
-          "id": "https://w3id.org/iqb/v51/im/p3h",
+          "id": "https://w3id.org/iqb/v51/ie/r7q",
           "notation": [
             "3.1"
           ],
@@ -295,16 +259,16 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/u9b",
+          "id": "https://w3id.org/iqb/v51/ie/r2s",
           "notation": [
             "3.2"
           ],
           "prefLabel": {
-            "de": "stellen Terme auf, um allgemeine Zusammenhänge im Sachkontext zu beschreiben, formen sie um und interpretieren sie,"
+            "de": "stellen einfache Terme, um allgemeine Zusammenhänge im Sachkontext zu beschreiben, formen sie um und interpretieren sie,"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/z9g",
+          "id": "https://w3id.org/iqb/v51/ie/t5u",
           "notation": [
             "3.3"
           ],
@@ -313,7 +277,7 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/z4t",
+          "id": "https://w3id.org/iqb/v51/ie/e9s",
           "notation": [
             "3.4"
           ],
@@ -322,25 +286,25 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/z6g",
+          "id": "https://w3id.org/iqb/v51/ie/u6d",
           "notation": [
             "3.5"
           ],
           "prefLabel": {
-            "de": "erkennen und verwenden funktionale Zusammenhänge und stellen diese in verschiedenen Repräsentationen dar (sprachlich, tabellarisch, grafisch, algebraisch) und können zwischen diesen Darstellungsformen wechseln, auch mit Hilfe digitaler Mathematikwerkzeuge,"
+            "de": "erkennen und verwenden funktionale Zusammenhänge in Alltagssituationen und stellen diese in verschiedenen Repräsentationen dar (sprachlich, tabellarisch, grafisch, lineare Funktionen auch algebraisch) und können zwischen diesen Darstellungsformen wechseln, auch mit Hilfe digitaler Mathematikwerkzeuge,"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/a5h",
+          "id": "https://w3id.org/iqb/v51/ie/p9h",
           "notation": [
             "3.6"
           ],
           "prefLabel": {
-            "de": "analysieren, interpretieren und vergleichen unterschiedliche funktionale Zusammenhänge (lineare, proportionale und antiproportionale sowie quadratische Funktionen), auch mit Hilfe digitaler Mathematikwerkzeuge,"
+            "de": "unterscheiden proportionale und antiproportionale Zusammenhänge in Sachsituationen und stellen damit Berechnungen an,"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/f5q",
+          "id": "https://w3id.org/iqb/v51/ie/q3f",
           "notation": [
             "3.7"
           ],
@@ -349,72 +313,54 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/h9r",
+          "id": "https://w3id.org/iqb/v51/ie/f6a",
           "notation": [
             "3.8"
           ],
           "prefLabel": {
-            "de": "lösen lineare und quadratische Gleichungen sowie lineare Gleichungssysteme numerisch (systematisches Probieren), algebraisch (Umformen) und grafisch (mit Hilfe von Funktionsgraphen), auch unter Einsatz digitaler Mathematikwerkzeuge, und vergleichen die Effektivität verschiedener Lösungsverfahren im Hinblick auf die jeweilige Fragestellung oder das Problem,"
+            "de": "lösen einfache lineare Gleichungen numerisch (systematisches Probieren), algebraisch (Umformen) und grafisch (mit Hilfe von Funktionsgraphen), auch unter Einsatz digitaler Mathematikwerkzeuge, und vergleichen verschiedene Lösungsverfahren im Hinblick auf die jeweilige Fragestellung oder das Problem,"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/e6f",
-          "notation": [
-            "3.9"
-          ],
-          "prefLabel": {
-            "de": "untersuchen Fragen der Lösbarkeit und der Lösungsvielfalt von linearen und quadratischen Gleichungen sowie linearen Gleichungssystemen und formulieren diesbezüglich Aussagen,"
-          }
-        },
-        {
-          "id": "https://w3id.org/iqb/v51/im/g5s",
+          "id": "https://w3id.org/iqb/v51/ie/q6q",
           "notation": [
             "3.10"
           ],
           "prefLabel": {
-            "de": "bestimmen kennzeichnende Merkmale von Funktionen im Funktionsterm, Graph und der Wertetabelle und stellen Beziehungen zwischen den Darstellungen her,"
+            "de": "bestimmen kennzeichnende Merkmale von linearen Funktionen im Funktionsterm, Graph und der Wertetabelle und stellen Beziehungen zwischen den Darstellungen her,"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/c6d",
+          "id": "https://w3id.org/iqb/v51/ie/f5p",
           "notation": [
             "3.11"
           ],
           "prefLabel": {
-            "de": "wenden insbesondere lineare und quadratische Funktionen sowie Exponentialfunktionen der Form f(x)=a∙b^x bei der Beschreibung und Bearbeitung von Problemen an, auch mit Hilfe digitaler Mathematikwerkzeuge,"
+            "de": "wenden lineare Funktionen in Sachsituationen an,"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/x5b",
-          "notation": [
-            "3.12"
-          ],
-          "prefLabel": {
-            "de": "verwenden die Sinusfunktion in der Form f(x)=a∙sin(b∙x) zur Beschreibung periodischer Vorgänge mit Hilfe digitaler Mathematikwerkzeuge,"
-          }
-        },
-        {
-          "id": "https://w3id.org/iqb/v51/im/b4t",
+          "id": "https://w3id.org/iqb/v51/ie/h4x",
           "notation": [
             "3.13"
           ],
           "prefLabel": {
-            "de": "beschreiben Veränderungen von Größen mittels Funktionen (auch nicht lineare Veränderungen), auch unter Verwendung digitaler Mathematikwerkzeuge,"
+            "de": "interpretieren die Steigung linearer Funktionen im Sachzusammenhang,"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/z9t",
+          "id": "https://w3id.org/iqb/v51/ie/b2y",
           "notation": [
             "3.14"
           ],
           "prefLabel": {
-            "de": "geben zu vorgegebenen Funktionen Sachsituationen an, die mit Hilfe dieser Funktion beschrieben werden können."
+            "de": "geben zu vorgegebenen linearen Funktionen Sachsituationen an, die mit Hilfe dieser Funktion beschrieben werden können."
           }
         }
       ]
     },
     {
-      "id": "https://w3id.org/iqb/v51/im/z6d",
+      "id": "https://w3id.org/iqb/v51/ie/p5a",
       "notation": [
         "4"
       ],
@@ -426,7 +372,7 @@
       },
       "narrower": [
         {
-          "id": "https://w3id.org/iqb/v51/im/x9g",
+          "id": "https://w3id.org/iqb/v51/ie/q9f",
           "notation": [
             "4.1"
           ],
@@ -435,16 +381,16 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/p6d",
+          "id": "https://w3id.org/iqb/v51/ie/h4q",
           "notation": [
             "4.2"
           ],
           "prefLabel": {
-            "de": "entwickeln Vorstellungen im zwei- und dreidimensionalen Raum und operieren (z.B. verschieben, drehen, spiegeln) gedanklich mit den darin enthaltenen Objekten (Punkten, Strecken, Flächen und Körpern)"
+            "de": "entwickeln Vorstellungen im zwei- und dreidimensionalen Raum und operieren (z.B. verschieben, drehen, spiegeln) gedanklich mit den darin enthaltenen Objekten (Punkten, Strecken, Flächen und Körpern),"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/r2c",
+          "id": "https://w3id.org/iqb/v51/ie/y7f",
           "notation": [
             "4.3"
           ],
@@ -453,63 +399,54 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/r2a",
+          "id": "https://w3id.org/iqb/v51/ie/y9y",
           "notation": [
             "4.4"
           ],
           "prefLabel": {
-            "de": "fertigen Netze, Schrägbilder und Modelle von ausgewählten Körpern (z. B. Prisma, Pyramide) an - auch mit Hilfe digitaler Mathematikwerkzeuge - und erkennen Körper aus ihren entsprechenden Darstellungen,"
+            "de": "fertigen Netze, Schrägbilder und Modelle von ausgewählten Körpern (z. B. Prisma, Pyramide) an - auch mit Hilfe digitaler Medien - und erkennen Körper aus ihren entsprechenden Darstellungen,"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/q7p",
+          "id": "https://w3id.org/iqb/v51/ie/d2a",
           "notation": [
             "4.5"
           ],
           "prefLabel": {
-            "de": "analysieren und klassifizieren geo-metrische Objekte der Ebene (insbesondere Winkel, Dreiecke, Vierecke) und des Raumes (insbesondere Prismen, Pyramiden, Zylinder, Kegel, Kugel),"
+            "de": "analysieren und klassifizieren geometrische Objekte der Ebene (insbesondere Winkel, Dreiecke, Vierecke) und des Raumes (insbesondere Prismen, Pyramiden, Zylinder, Kegel, Kugel),"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/p5g",
+          "id": "https://w3id.org/iqb/v51/ie/b7x",
           "notation": [
             "4.6"
           ],
           "prefLabel": {
-            "de": "erkennen, beschreiben und begründen Eigenschaften und Beziehungen geometrischer Objekte (z. B. Symmetrie, Idee der Kongruenz, Ähnlichkeit, Lagebeziehungen) und nutzen diese im Rahmen des Problemlösens zur Analyse von Sachsituationen,"
+            "de": "erkennen und beschreiben Eigenschaften und Beziehungen geometrischer Objekte (z. B. Symmetrie, Idee der Kongruenz, Lagebeziehungen),"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/d9y",
+          "id": "https://w3id.org/iqb/v51/ie/y7z",
           "notation": [
             "4.7"
           ],
           "prefLabel": {
-            "de": "wenden Sätze der ebenen Geometrie (insbesondere den Satz des Pythagoras, den Satz des Thales, Ähnlichkeitsbeziehungen und trigonometrische Beziehungen) bei Konstruktionen, Berechnungen, Begründungen und Beweisen an, auch mit Hilfe digitaler Mathematikwerkzeuge,"
+            "de": "wenden Sätze der ebenen Geometrie (insbesondere den Satz des Pythagoras und Ähnlichkeitsbeziehungen) bei Konstruktionen und Berechnungen an, auch mit Hilfe digitaler Mathematikwerkzeuge,"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/b4c",
+          "id": "https://w3id.org/iqb/v51/ie/u4s",
           "notation": [
             "4.8"
           ],
           "prefLabel": {
-            "de": "zeichnen und konstruieren geometrische Figuren unter Verwendung angemessener Medien wie Zirkel, Geodreieck oder digitaler Mathematikwerkzeuge,"
-          }
-        },
-        {
-          "id": "https://w3id.org/iqb/v51/im/r6c",
-          "notation": [
-            "4.9"
-          ],
-          "prefLabel": {
-            "de": "untersuchen Fragen der Lösbarkeit und Lösungsvielfalt von Konstruktionsaufgaben und formulieren diesbezüglich Aussagen."
+            "de": "zeichnen und konstruieren geometrische Figuren unter Verwendung angemessener Medien wie Zirkel, Geodreieck oder digitaler Mathematikwerkzeuge."
           }
         }
       ]
     },
     {
-      "id": "https://w3id.org/iqb/v51/im/z4s",
+      "id": "https://w3id.org/iqb/v51/ie/s4a",
       "notation": [
         "5"
       ],
@@ -521,7 +458,7 @@
       },
       "narrower": [
         {
-          "id": "https://w3id.org/iqb/v51/im/t6x",
+          "id": "https://w3id.org/iqb/v51/ie/b9b",
           "notation": [
             "5.1"
           ],
@@ -530,25 +467,25 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/e2q",
+          "id": "https://w3id.org/iqb/v51/ie/a7h",
           "notation": [
             "5.2"
           ],
           "prefLabel": {
-            "de": "nutzen Simulationen, um stochastische Fragen zu entscheiden,"
+            "de": "erproben Simulationen, um stochastische Fragen zu entscheiden,"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/u7c",
+          "id": "https://w3id.org/iqb/v51/ie/h6d",
           "notation": [
             "5.3"
           ],
           "prefLabel": {
-            "de": "planen statistische Erhebungen, auch unter den Aspekten Stichprobenauswahl und Erhebungsinstrument,"
+            "de": "planen einfache Befragungen,"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/r6x",
+          "id": "https://w3id.org/iqb/v51/ie/q6r",
           "notation": [
             "5.4"
           ],
@@ -557,25 +494,25 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/t4e",
+          "id": "https://w3id.org/iqb/v51/ie/v5d",
           "notation": [
             "5.5"
           ],
           "prefLabel": {
-            "de": "ermitteln und interpretieren Kenngrößen (z. B. Minimum, Maximum, arithmetisches Mittel, Median, Spannweite, Quartile),"
+            "de": "ermitteln und interpretieren Kenngrößen (z. B. Minimum, Maximum, arithmetisches Mittel, Median, Spannweite),"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/b9f",
+          "id": "https://w3id.org/iqb/v51/ie/c7z",
           "notation": [
             "5.6"
           ],
           "prefLabel": {
-            "de": "erstellen und interpretieren Diagramme (z. B. Säulen- oder Balkendiagramm, Histogramme, Kreisdiagramm, Liniendiagramm, Boxplot), auch mit Hilfe digitaler Mathematikwerkzeuge und begründen die gewählte Darstellungsform,"
+            "de": "erstellen und interpretieren Diagramme (z. B. Säulen- oder Balkendiagramm, Kreisdiagramm, Liniendiagramm), auch mit Hilfe digitaler Mathematikwerkzeuge,"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/u5b",
+          "id": "https://w3id.org/iqb/v51/ie/a7b",
           "notation": [
             "5.7"
           ],
@@ -584,39 +521,30 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/t3z",
+          "id": "https://w3id.org/iqb/v51/ie/g6y",
           "notation": [
             "5.8"
           ],
           "prefLabel": {
-            "de": "beschreiben Zufallserscheinungen und interpretieren Wahrscheinlichkeitsaussagen und ihre Darstellungen in Medien,"
+            "de": "beschreiben Zufallserscheinungen aus dem Alltag und ihre Darstellung in Medien,"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/u2a",
+          "id": "https://w3id.org/iqb/v51/ie/v3d",
           "notation": [
             "5.9"
           ],
           "prefLabel": {
-            "de": "Nutzen und deuten bei der Durchführung von Zufallsexperimenten die auftretenden relativen Häufigkeiten als Schätzwerte von Wahrscheinlichkeiten, die bei wachsendem Stichprobenumfang besser werden,"
+            "de": "nutzen bei der Durchführung von Zufallsexperimenten die auftretenden relativen Häufigkeiten als Schätzwerte von Wahrscheinlichkeiten, die bei wachsendem Stichprobenumfang besser werden,"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v51/im/g9h",
+          "id": "https://w3id.org/iqb/v51/ie/x3u",
           "notation": [
             "5.10"
           ],
           "prefLabel": {
-            "de": "bestimmen Wahrscheinlichkeiten bei ein- oder mehrstufigen Zufallsexperimenten, auch mit Hilfe entsprechender Visualisierungen (z. B. Baumdiagramm, Vierfeldertafel), ohne und mit Hilfe digitaler Mathematikwerkzeuge,"
-          }
-        },
-        {
-          "id": "https://w3id.org/iqb/v51/im/p2e",
-          "notation": [
-            "5.11"
-          ],
-          "prefLabel": {
-            "de": "nutzen Visualisierungen, um bei einfachen, alltagsnahen Modellierungen bedingte Wahrscheinlichkeiten zu erkennen, ohne und mit Hilfe digitaler Medien."
+            "de": "bestimmen Wahrscheinlichkeiten bei einfachen Zufallsexperimenten, ohne und mit Hilfe digitaler Mathematikwerkzeuge."
           }
         }
       ]

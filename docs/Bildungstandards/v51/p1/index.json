@@ -1,0 +1,944 @@
+{
+  "id": "https://w3id.org/iqb/v51/p1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Mathematik Sek I 2022 - Prozessbezogene Kompetenzen"
+  },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v51/p1/a6b",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Mathematisch argumentieren"
+      },
+      "definition": {
+        "de": "Zu dieser Kompetenz gehören sowohl das Entwickeln eigenständiger, situationsangemessener mathematischer Argumentationen (wie Begründungen, Beweise), als auch das Erläutern, Prüfen und Begründen von Lösungswegen und das begründete Äußern von Vermutungen. Das Spektrum reicht dabei von einfachen Plausibilitätsargumenten über inhaltlich-anschauliche Begründungen bis hin zu Argumentationsketten. \\\n\\\n Die Schülerinnen und Schüler"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v51/p1/c7p",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "Reproduzieren"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v51/p1/q2r",
+              "notation": [
+                "1.1.1"
+              ],
+              "prefLabel": {
+                "de": "geben vertraute Argumentationen wieder (wie Rechnungen, Verfahren, Herleitungen, Sätze),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/u6t",
+              "notation": [
+                "1.1.2"
+              ],
+              "prefLabel": {
+                "de": "formulieren typische Fragen, die auf Argumentationen zielen („Wie verändert sich…?“, „Ist das immer so …?“),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/z6p",
+              "notation": [
+                "1.1.3"
+              ],
+              "prefLabel": {
+                "de": "begründen angemessen auf Basis von Alltagswissen,"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v51/p1/d3v",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "Zusammenhänge herstellen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v51/p1/z3p",
+              "notation": [
+                "1.2.1"
+              ],
+              "prefLabel": {
+                "de": "entwickeln und erläutern überschaubare mehrschrittige Argumentationen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/h4t",
+              "notation": [
+                "1.2.2"
+              ],
+              "prefLabel": {
+                "de": "erläutern Lösungswege und prüfen sie u. a. auf Konsistenz,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/h7g",
+              "notation": [
+                "1.2.3"
+              ],
+              "prefLabel": {
+                "de": "bewerten Ergebnisse und Aussagen auch bzgl. ihres Anwendungskontextes,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/r7d",
+              "notation": [
+                "1.2.4"
+              ],
+              "prefLabel": {
+                "de": "erläutern mathematische Zusammenhänge, Ordnungen und logische Strukturen,"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v51/p1/g2u",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "Verallgemeinern und Reflektieren"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v51/p1/p2a",
+              "notation": [
+                "1.3.1"
+              ],
+              "prefLabel": {
+                "de": "entwickeln und erläutern komplexe Argumentationen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/u4a",
+              "notation": [
+                "1.3.2"
+              ],
+              "prefLabel": {
+                "de": "bewerten verschiedene Argumentationen (z. B. in Texten und Darstellungen aus digitalen Medien),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/a3z",
+              "notation": [
+                "1.3.3"
+              ],
+              "prefLabel": {
+                "de": "stellen selbstständig Fragen, die für die Mathematik charakteristisch sind, und äußern begründet Vermutungen."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v51/p1/f2v",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Mathematisch kommunizieren"
+      },
+      "definition": {
+        "de": "Zu dieser Kompetenz gehören sowohl das Entnehmen von Informationen aus Texten, mündlichen Äußerungen oder sonstigen Quellen als auch das Darlegen von Überlegungen, Lösungswegen bzw. Ergebnissen in mündlicher und schriftlicher Form auch unter Verwendung einer adressatengerechten Fachsprache. Das Spektrum reicht von der direkten Informationsentnahme aus Texten des Alltagsgebrauchs bzw. vom Aufschreiben einfacher Lösungswege bis hin zum sinnentnehmenden Erfassen fachsprachlicher Texte bzw. vom Dokumentieren einfacher Lösungswege zum strukturierten Darlegen oder Präsentieren eigener Überlegungen, auch mit Hilfe geeigneter Medien. \\\n\\\n Die Schülerinnen und Schüler"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v51/p1/h9t",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "Reproduzieren"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v51/p1/q2a",
+              "notation": [
+                "2.1.1"
+              ],
+              "prefLabel": {
+                "de": "formulieren einfache mathematische Sachverhalte mit eigenen Worten und mithilfe mathematischer Begriffe mündlich und schriftlich,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/a6v",
+              "notation": [
+                "2.1.2"
+              ],
+              "prefLabel": {
+                "de": "entnehmen Informationen aus einfachen mathematikhaltigen Texten und Abbildungen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/y6t",
+              "notation": [
+                "2.1.3"
+              ],
+              "prefLabel": {
+                "de": "reagieren sach- und adressatengerecht auf Fragen und Kritik zu eigenen Lösungen,"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v51/p1/s5r",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "Zusammenhänge herstellen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v51/p1/d4t",
+              "notation": [
+                "2.2.1"
+              ],
+              "prefLabel": {
+                "de": "stellen Überlegungen, Lösungswege bzw. Ergebnisse und Verfahren verständlich dar,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/x5a",
+              "notation": [
+                "2.2.2"
+              ],
+              "prefLabel": {
+                "de": "erfassen, interpretieren und deuten komplexere mathematikhaltige Texte und Abbildungen sinnentnehmend und strukturieren Informationen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/y9y",
+              "notation": [
+                "2.2.3"
+              ],
+              "prefLabel": {
+                "de": "Verwenden die mathematische Fachsprache situationsangemessen und erklären ihre Bedeutung,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/z3t",
+              "notation": [
+                "2.2.4"
+              ],
+              "prefLabel": {
+                "de": "gehen fachbezogen auf Äußerungen von anderen zu mathematischen Inhalten ein (z. B. konstruktiver Umgang mit Fehlern, Weiterführen mathematischer Ideen),"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v51/p1/v4v",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "Verallgemeinern und Reflektieren"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v51/p1/v5p",
+              "notation": [
+                "2.3.1"
+              ],
+              "prefLabel": {
+                "de": "präsentieren sachgerecht komplexe mathematische Sachverhalte mündlich und schriftlich,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/x5z",
+              "notation": [
+                "2.3.2"
+              ],
+              "prefLabel": {
+                "de": "interpretieren und beurteilen komplexe mathematische Texte sinnentnehmend,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/p3y",
+              "notation": [
+                "2.3.3"
+              ],
+              "prefLabel": {
+                "de": "vergleichen und bewerten Äußerungen von anderen zu mathematischen Inhalten sachlich und fachlich angemessen."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v51/p1/g6s",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Probleme mathematisch lösen"
+      },
+      "definition": {
+        "de": "Diese Kompetenz beinhaltet, ausgehend vom Erkennen und Formulieren mathematischer Probleme, das Auswählen geeigneter Heurismen sowie das Entwickeln und Ausführen geeigneter Lösungswege. Das Spektrum reicht vom Bearbeiten vorgegebener und selbst formulierter Probleme auf der einen Seite bis hin zum Überprüfen der Plausibilität von Ergebnissen, dem Finden von Lösungsideen und dem Reflektieren von Lösungswegen auf der anderen Seite. Geeignete Heurismen (u. a. Skizzen erstellen, systematisch probieren, rückwärts arbeiten, zerlegen und ergänzen) zum Problemlösen werden ausgewählt und angewendet. \\\n\\\n Die Schülerinnen und Schüler"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v51/p1/v3u",
+          "notation": [
+            "3.1"
+          ],
+          "prefLabel": {
+            "de": "Reproduzieren"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v51/p1/z2t",
+              "notation": [
+                "3.1.1"
+              ],
+              "prefLabel": {
+                "de": "geben Heurismen an (z. B. Skizze erstellen, systematisch probieren),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/g5x",
+              "notation": [
+                "3.1.2"
+              ],
+              "prefLabel": {
+                "de": "lösen einfache Probleme mit bekannten Heurismen (z. B. systematisches Probieren),"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v51/p1/v7q",
+          "notation": [
+            "3.2"
+          ],
+          "prefLabel": {
+            "de": "Zusammenhänge herstellen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v51/p1/s4p",
+              "notation": [
+                "3.2.1"
+              ],
+              "prefLabel": {
+                "de": "formulieren  Problemstellungen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/v9d",
+              "notation": [
+                "3.2.2"
+              ],
+              "prefLabel": {
+                "de": "wählen geeignete Heurismen zur Lösung entsprechender Probleme aus,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/h5q",
+              "notation": [
+                "3.2.3"
+              ],
+              "prefLabel": {
+                "de": "überprüfen die Plausibilität von Ergebnissen,"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v51/p1/f7g",
+          "notation": [
+            "3.3"
+          ],
+          "prefLabel": {
+            "de": "Verallgemeinern und Reflektieren"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v51/p1/t6f",
+              "notation": [
+                "3.3.1"
+              ],
+              "prefLabel": {
+                "de": "lösen anspruchsvolle, komplexe oder offen formulierte Probleme,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/h6d",
+              "notation": [
+                "3.3.2"
+              ],
+              "prefLabel": {
+                "de": "reflektieren das Finden von Lösungsideen, vergleichen und beurteilen verschiedene Lösungswege."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v51/p1/a2p",
+      "notation": [
+        "4"
+      ],
+      "prefLabel": {
+        "de": "Mathematisch modellieren"
+      },
+      "definition": {
+        "de": "Beim mathematischen Modellieren geht es um das Lösen eines realen Problems mit Hilfe von Mathematik. Von besonderer Bedeutung dabei ist das Übersetzen zwischen Realsituationen und mathematischen Begriffen, Resultaten oder Methoden. Typische Teilschritte des Modellierens sind das Strukturieren und Vereinfachen gegebener Realsituationen, das Übersetzen realer Gegebenheiten in mathematische Modelle, das Arbeiten im mathematischen Modell, das Interpretieren mathematischer Ergebnisse in Bezug auf Realsituationen und das Überprüfen von Ergebnissen sowie des Modells im Hinblick auf Stimmigkeit und Angemessenheit bezogen auf die Realsituation. Das Spektrum reicht von Standardmodellen (z. B. proportionale Zuordnung) bis hin zu komplexeren Modellierungen (z. B. geometrische Konstruktionen, Sinusfunktion, Exponentialfunktion, Zufallsexperimente).\\\n\\\n Die Schülerinnen und Schüler"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v51/p1/x7x",
+          "notation": [
+            "4.1"
+          ],
+          "prefLabel": {
+            "de": "Reproduzieren"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v51/p1/d6b",
+              "notation": [
+                "4.1.1"
+              ],
+              "prefLabel": {
+                "de": "ordnen einfachen Realsituationen aus dem Alltag mathematische Objekte zu,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/f6c",
+              "notation": [
+                "4.1.2"
+              ],
+              "prefLabel": {
+                "de": "nutzen bekannte und direkt erkennbare Modelle (z. B. Proportionalität bzw. Dreisatz),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/a3e",
+              "notation": [
+                "4.1.3"
+              ],
+              "prefLabel": {
+                "de": "prüfen die Passung der Resultate zur Aufgabenstellung,"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v51/p1/p5z",
+          "notation": [
+            "4.2"
+          ],
+          "prefLabel": {
+            "de": "Zusammenhänge herstellen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v51/p1/y7r",
+              "notation": [
+                "4.2.1"
+              ],
+              "prefLabel": {
+                "de": "wählen ein geeignetes mathematisches Modell aus,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/u9y",
+              "notation": [
+                "4.2.2"
+              ],
+              "prefLabel": {
+                "de": "nehmen Mathematisierungen vor, die mehrere Schritte erfordern,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/r6s",
+              "notation": [
+                "4.2.3"
+              ],
+              "prefLabel": {
+                "de": "interpretieren Ergebnisse einer Modellierung,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/x7s",
+              "notation": [
+                "4.2.4"
+              ],
+              "prefLabel": {
+                "de": "prüfen Ergebnisse einer Modellierung auf Plausibilität in Bezug auf die Ausgangssituation,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/x4a",
+              "notation": [
+                "4.2.5"
+              ],
+              "prefLabel": {
+                "de": "ordnen einem mathematischen Modell passende Situationen zu,"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v51/p1/s2e",
+          "notation": [
+            "4.3"
+          ],
+          "prefLabel": {
+            "de": "Verallgemeinern und Reflektieren"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v51/p1/s2c",
+              "notation": [
+                "4.3.1"
+              ],
+              "prefLabel": {
+                "de": "modellieren komplexe oder unvertraute Situationen und entwickeln ggf. eigene Modelle,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/z9v",
+              "notation": [
+                "4.3.2"
+              ],
+              "prefLabel": {
+                "de": "reflektieren und beurteilen verwendete mathematische Modelle kritisch, z. B. in Bezug auf die Realsituation,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/f9f",
+              "notation": [
+                "4.3.3"
+              ],
+              "prefLabel": {
+                "de": "entscheiden, ob der Modellierungskreislauf erneut durchlaufen werden sollte."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v51/p1/r5q",
+      "notation": [
+        "5"
+      ],
+      "prefLabel": {
+        "de": "Mathematisch darstellen"
+      },
+      "definition": {
+        "de": "Diese Kompetenz umfasst das Erzeugen und Vernetzen von sowie das Umgehen mit mathematischen Darstellungen - der grafisch-visuellen, algebraisch-formalen, numerisch-tabellarischen, verbal-sprachlichen Darstellung. Das Spektrum reicht von Anwenden, Interpretieren und Unterscheiden von Standarddarstellungen über den Wechsel geeigneter mathematischer Darstellungen bis hin zum Erstellen eigener Darstellungen, die dem Strukturieren und Dokumentieren individueller Überlegungen dienen. \\\n\\\n Die Schülerinnen und Schüler"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v51/p1/t5b",
+          "notation": [
+            "5.1"
+          ],
+          "prefLabel": {
+            "de": "Reproduzieren"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v51/p1/d2e",
+              "notation": [
+                "5.1.1"
+              ],
+              "prefLabel": {
+                "de": "nutzen und erzeugen vertraute und geübte Darstellungen von mathematischen Objekten und Situationen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/r5a",
+              "notation": [
+                "5.1.2"
+              ],
+              "prefLabel": {
+                "de": "interpretieren vertraute Darstellungen,"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v51/p1/q3f",
+          "notation": [
+            "5.2"
+          ],
+          "prefLabel": {
+            "de": "Zusammenhänge herstellen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v51/p1/d6c",
+              "notation": [
+                "5.2.1"
+              ],
+              "prefLabel": {
+                "de": "wählen eine Darstellung passend zur Problemstellung aus,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/v2s",
+              "notation": [
+                "5.2.2"
+              ],
+              "prefLabel": {
+                "de": "wechseln sachgerecht zwischen mathematischen Darstellungen und erklären, wie sie vernetzt sind,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/t4t",
+              "notation": [
+                "5.2.3"
+              ],
+              "prefLabel": {
+                "de": "übersetzen symbolische und formale Sprache in natürliche Sprache und umgekehrt,"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v51/p1/t3f",
+          "notation": [
+            "5.3"
+          ],
+          "prefLabel": {
+            "de": "Verallgemeinern und Reflektieren"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v51/p1/f2c",
+              "notation": [
+                "5.3.1"
+              ],
+              "prefLabel": {
+                "de": "entwickeln eigene Darstellungen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/z6s",
+              "notation": [
+                "5.3.2"
+              ],
+              "prefLabel": {
+                "de": "analysieren und beurteilen verschiedene Formen der Darstellung entsprechend ihres Zwecks,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/z3b",
+              "notation": [
+                "5.3.3"
+              ],
+              "prefLabel": {
+                "de": "interpretieren nicht vertraute Darstellungen und beurteilen ihre Aussagekraft."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v51/p1/s7h",
+      "notation": [
+        "6"
+      ],
+      "prefLabel": {
+        "de": "Mit mathematischen Objekten umgehen"
+      },
+      "definition": {
+        "de": "Diese Kompetenz beinhaltet das verständige Umgehen mit mathematischen Objekten wie Zahlen, Größen, Symbolen, Variablen, Termen, Formeln, Gleichungen und Funktionen sowie in der Geometrie Strecken, Winkeln und Kreisen mit und ohne Hilfsmittel. Das Spektrum reicht hier von einfachen, überschaubaren Routineverfahren bis hin zu komplexen Verfahren einschließlich deren reflektierender Bewertung. Diese Kompetenz beinhaltet auch Faktenwissen und Regelwissen für ein zielgerichtetes und effizientes Bearbeiten von mathematischen Aufgabenstellungen.\\\n\\\n Die Schülerinnen und Schüler"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v51/p1/q7d",
+          "notation": [
+            "6.1"
+          ],
+          "prefLabel": {
+            "de": "Reproduzieren"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v51/p1/y7u",
+              "notation": [
+                "6.1.1"
+              ],
+              "prefLabel": {
+                "de": "verwenden Routineverfahren (z. B. Lösen einer linearen Gleichung),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/r7h",
+              "notation": [
+                "6.1.2"
+              ],
+              "prefLabel": {
+                "de": "gehen mit vertrauten mathematischen Objekten (z. B. Strecken, Termen, Gleichungen) um,"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v51/p1/q2v",
+          "notation": [
+            "6.2"
+          ],
+          "prefLabel": {
+            "de": "Zusammenhänge herstellen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v51/p1/b9f",
+              "notation": [
+                "6.2.1"
+              ],
+              "prefLabel": {
+                "de": "führen komplexere Lösungs- und Kontrollverfahren aus,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/z3g",
+              "notation": [
+                "6.2.2"
+              ],
+              "prefLabel": {
+                "de": "beschreiben die innere Struktur mathematischer Objekte (z. B. von Termen) und gehen flexibel und sicher mit ihnen um,"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v51/p1/h3b",
+          "notation": [
+            "6.3"
+          ],
+          "prefLabel": {
+            "de": "Verallgemeinern und Reflektieren"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v51/p1/c2q",
+              "notation": [
+                "6.3.1"
+              ],
+              "prefLabel": {
+                "de": "bewerten Lösungs- und Kontrollverfahren hinsichtlich ihrer Effizienz,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/a5e",
+              "notation": [
+                "6.3.2"
+              ],
+              "prefLabel": {
+                "de": "beschreiben die innere Struktur von Lösungsverfahren, erfassen deren Allgemeingültigkeit und übertragen die Verfahren auf neue Situationen."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v51/p1/s2z",
+      "notation": [
+        "7"
+      ],
+      "prefLabel": {
+        "de": "Mit Medien mathematisch arbeiten"
+      },
+      "definition": {
+        "de": "Mathematische Bildung in der digitalen Welt umfasst: Fachliche Kompetenzen digital zu fördern und digitale Kompetenzen fachlich zu fördern. Darüber hinaus sollte ein Beitrag geleistet werden zur digitalen personalen Bildung, um Mathematik für die kritische Rezeption von Alltagsmedien zu nutzen. Dazu gehört der Umgang analoger Medien (Schulbuch, Lineal, Körpermodell, Formelsammlung, Spielwürfel, ...) im Verbund mit digitalen Medien. Digitale Medien, die für das Lernen und Lehren von Mathematik relevant sind, umfassen mathematikspezifische sowie allgemeine Medien. Mathematikspezifisch sind insbesondere digitale Mathematikwerkzeuge als themenübergreifende Medien, aber auch themenspezifische mathematikhaltige Medien (z. B. Apps, interaktive Lernangebote). Allgemeine Medien (z. B. Videos, Textverarbeitung, Präsentationsmedien) spielen eine Rolle, da sie erfordern, mathematikhaltige Informationen zu bündeln, zu präsentieren und nach mathematischen Kriterien zu beurteilen. Das Spektrum der Kompetenzen reicht von der Nutzung analoger Medien, der kritischen Prüfung von Informationen der digitalen Welt unter mathematischen Gesichtspunkten, der Verwendung digitaler Mathematikwerkzeuge (z. B. Tabellenkalkulation oder Geometriesoftware) und Lernumgebungen über die Erstellung und Gestaltung eigener allgemeiner Medien wie Videos und Präsentationen bis hin zur bewussten Verwendung, Entwicklung und Reflexion von Algorithmen mit Hilfe digitaler Medien.\\\n\\\n Die Schülerinnen und Schüler"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v51/p1/q7v",
+          "notation": [
+            "7.1"
+          ],
+          "prefLabel": {
+            "de": "Reproduzieren"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v51/p1/y3h",
+              "notation": [
+                "7.1.1"
+              ],
+              "prefLabel": {
+                "de": "verwenden allgemeine Medien zur Kommunikation (z. B. Recherche in Fachliteratur oder Internet, Nutzung von Lernplattformen) und zur Präsentation mathematischer Inhalte in Situationen, in denen der Einsatz geübt wurde,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/b3d",
+              "notation": [
+                "7.1.2"
+              ],
+              "prefLabel": {
+                "de": "nutzen analoge und digitale Lernumgebungen zum Lernen von Mathematik,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/e7c",
+              "notation": [
+                "7.1.3"
+              ],
+              "prefLabel": {
+                "de": "nutzen analoge und digitale Mathematikwerkzeuge (z. B. wissenschaftlichen Taschenrechner), die aus dem Unterricht vertraut sind,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/q2c",
+              "notation": [
+                "7.1.4"
+              ],
+              "prefLabel": {
+                "de": "ziehen Informationen aus mathematikhaltigen Darstellungen in Alltagsmedien"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v51/p1/y9d",
+          "notation": [
+            "7.2"
+          ],
+          "prefLabel": {
+            "de": "Zusammenhänge herstellen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v51/p1/q9q",
+              "notation": [
+                "7.2.1"
+              ],
+              "prefLabel": {
+                "de": "nutzen analoge und digitale Mathematikwerkzeuge (z. B. Geometriesoftware, Tabellenkalkulation, Computeralgebrasystem, Stochastiktool) zum Problemlösen, Entdecken, Modellieren, Daten verarbeiten, Kontrollieren und Darstellungswechseln etc.,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/b9t",
+              "notation": [
+                "7.2.2"
+              ],
+              "prefLabel": {
+                "de": "nutzen weitere mathematikspezifische Medien (z. B. Apps zur Lernstandsbestimmung, Erklärvideos zum Verstehen, Programme zum Üben) zum selbstgesteuerten Lernen und Anwenden von Mathematik,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/q5q",
+              "notation": [
+                "7.2.3"
+              ],
+              "prefLabel": {
+                "de": "nutzen bekannte Algorithmen mit digitalen Mathematikwerkzeugen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/t9y",
+              "notation": [
+                "7.2.4"
+              ],
+              "prefLabel": {
+                "de": "vergleichen mathematikhaltige Informationen und Darstellungen in Alltagsmedien unter mathematischen Gesichtspunkten,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/b2x",
+              "notation": [
+                "7.2.5"
+              ],
+              "prefLabel": {
+                "de": "wählen analoge und digitale Medien kriteriengeleitet je nach Zielsetzung bewusst aus,"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v51/p1/b9g",
+          "notation": [
+            "7.3"
+          ],
+          "prefLabel": {
+            "de": "Verallgemeinern und Reflektieren"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v51/p1/b6p",
+              "notation": [
+                "7.3.1"
+              ],
+              "prefLabel": {
+                "de": "reflektieren Möglichkeiten und Grenzen der Nutzung mathematikspezifischer Medien, auch im Vergleich zwischen analogem und digitalem Medium,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/r6r",
+              "notation": [
+                "7.3.2"
+              ],
+              "prefLabel": {
+                "de": "konzipieren und erstellen selbst analoge und digitale Medien um mathematische Sachverhalte darzustellen oder zu bearbeiten und stellen ihre Ergebnisse vor (z. B. Präsentation, Videos),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/v7s",
+              "notation": [
+                "7.3.3"
+              ],
+              "prefLabel": {
+                "de": "beurteilen analoge und digitale Medien kriteriengeleitet je nach Zielsetzung,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/p7q",
+              "notation": [
+                "7.3.4"
+              ],
+              "prefLabel": {
+                "de": "beurteilen mathematikhaltige Informationen und Darstellungen in Alltagsmedien unter mathematischen Gesichtspunkten,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/u6q",
+              "notation": [
+                "7.3.5"
+              ],
+              "prefLabel": {
+                "de": "setzen bekannte mathematische Verfahren mithilfe digitaler Mathematikwerkzeuge (z. B. Tabellenkalkulation) als Algorithmus um,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v51/p1/c4f",
+              "notation": [
+                "7.3.6"
+              ],
+              "prefLabel": {
+                "de": "nutzen Algorithmen mit Hilfe digitaler Werkzeuge, um den jeweils zugrundeliegenden mathematischen Inhalt zu untersuchen."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

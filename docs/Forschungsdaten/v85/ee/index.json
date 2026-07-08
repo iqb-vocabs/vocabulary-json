@@ -1,0 +1,261 @@
+{
+  "id": "https://w3id.org/iqb/v85/ee/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "VerbundFDB - Kontrolliertes Vokabular - Erhebungseinheit",
+    "en": "VerbundFDB - Controlled Vocabulary - Survey Unit"
+  },
+  "description": {
+    "de": "Hierbei handelt es sich um ein kontrolliertes Vokabular zu methodischen Informationen zur Studie und bildet die Einheit, die die enthaltenen Informationen bereitgestellt hat, ab.\n\nZitation: VerbundFDB: Erhebungseinheit Bildungsforschung. Version 2.0. Verfügbar unter https://w3id.org/iqb/v85/ee/.\n\nProvenienz: Es handelt sich hierbei um ein kontrolliertes Vokabular, welches von der VerbundFDB-Arbeitsgruppe Metadaten unter Beteiligung von Noemi Betancort-Cabrera, Andreas Daniel, Daniel Goebel, Karoline Harzenetter, Ute Hoffstätter, Nadeshda Jung, Reiner Mauer, Claudia Neuendorf, Lisa Pegelow, Maike Porzelt, Alexander Schuster und Dirk Weisbrod entwickelt wurde.\n\nStand: 13.05.2022\n\nLizenz: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)",
+    "en": "This is a controlled vocabulary for methodological information on the study and indicates the entity that provided the information carried by the variable.\n\nCitation: VerbundFDB: Survey Unit Educational Research. Version 2.0. Retrieved from https://w3id.org/iqb/v85/ee/.\n\nProvenance: This is a controlled vocabulary developed and used by the VerbundFDB metadata working group (Noemi Betancort-Cabrera, Andreas Daniel, Daniel Goebel, Karoline Harzenetter, Ute Hoffstätter, Nadeshda Jung, Reiner Mauer, Claudia Neuendorf, Lisa Pegelow, Maike Porzelt, Alexander Schuster and Dirk Weisbrod).\n\nas of 13.05.2022\n\nLicense: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de) "
+  },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v85/ee/1",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Auszubildende",
+        "en": "Trainees"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ee/23",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Babys",
+        "en": "Babys"
+      },
+      "definition": {
+        "de": "0-12 Monate",
+        "en": "0-12 months"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ee/2",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Behörden",
+        "en": "Authorities"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ee/3",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Berufsanfänger",
+        "en": "Career Starters"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ee/22",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Betriebe",
+        "en": "Companies"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ee/4",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Eltern",
+        "en": "Parents"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ee/19",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Erwachsene",
+        "en": "Adults"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ee/5",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Hochschulabsolventen",
+        "en": "University Graduates"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ee/6",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Jugendliche",
+        "en": "Teenagers"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ee/20",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Kindergartenkinder",
+        "en": "Kindergarten Children"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ee/7",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Lehrkräfte",
+        "en": "Teachers"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ee/8",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Pädagogisches Personal",
+        "en": "Educational Staff"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ee/21",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Promotionsberechtigte",
+        "en": "Persons qualified for promotion"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ee/18",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Promovierende",
+        "en": "Doctoral Students"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ee/9",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Referendare",
+        "en": "Preservice Teachers"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ee/10",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Schulabgänger",
+        "en": "School Leavers"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ee/11",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Schulen",
+        "en": "Schools"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ee/12",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Schüler",
+        "en": "Students"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ee/13",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Schulleitung",
+        "en": "Principals"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ee/17",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Studienzugangsberechtigte",
+        "en": "Persons Qualified for University"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ee/14",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Studierende",
+        "en": "College Students"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ee/15",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Vorschulkinder",
+        "en": "Preschool Children"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ee/16",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "wissenschaftliches Personal",
+        "en": "Academic Staff"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ee/40",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "sonstiges",
+        "en": "others"
+      }
+    }
+  ]
+}

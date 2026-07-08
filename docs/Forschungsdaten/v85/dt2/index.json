@@ -1,0 +1,109 @@
+{
+  "id": "https://w3id.org/iqb/v85/dt2/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "VerbundFDB - Kontrolliertes Vokabular - Datentyp v2",
+    "en": "VerbundFDB - Controlled Vocabulary - Resource Type v2"
+  },
+  "description": {
+    "de": "Hierbei handelt es sich um ein kontrolliertes Vokabular zu Informationen zur Studie und beschreibt die Datenart.\n\nZitation: VerbundFDB: Datentyp Bildungsforschung. Version 2.0. Retrieved from https://w3id.org/iqb/v85/dt2/. \n\nProvenienz: Es handelt sich hierbei um ein kontrolliertes Vokabular, welches von Thomas Schwager für den VerbundFDB entwickelt wurde und in der AG DokAr des VerbundFDB um Terme des Forschungsinstrumentes ergänzt wurde.\n\n Stand: 25.09.2025 Quelle: Überarbeitete Version des Kontrollierten Vokabulars VerbundFDB: Datentyp Bildungsforschung. Version 1.0. Retrieved from https://w3id.org/iqb/v85/dt/ \n\nLizenz: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)",
+    "en": "This is a controlled vocabulary for information on the study and describes the category of data.\n\nCitation: VerbundFDB: Resource Type Educational Research. Version 2.0. Retrieved from https://w3id.org/iqb/v85/dt2/. \n\n Provenance: This is a controlled vocabulary developed by Thomas Schwager for VerbundFDB and supplemented with terms from the research tool in the VerbundFDB's DokAr working group.\n\n As of: 25.09.2025 Source: Revised version of the Controlled Vocabulary VerbundFDB: Data Resource Educational Research. Version 1.0. Retrieved from https://w3id.org/iqb/v85/dt/.\n\nLicense: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)"
+  },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v85/dt2/1",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Kompetenz- und Leistungsdaten",
+        "en": "Skills Measurement / Performance Measurement"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/dt2/2",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Qualitatives, nicht oder gering standardisiertes Datenmaterial",
+        "en": "Qualitative, non-standardized or poorly standardized data material"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/dt2/3",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Umfrage- und Aggregatedaten",
+        "en": "Survey Data"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/dt2/4",
+      "notation": [
+        "4"
+      ],
+      "prefLabel": {
+        "de": "Forschungsinstrument",
+        "en": "Research Tool"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v85/dt2/41",
+          "notation": [
+            "4.1"
+          ],
+          "prefLabel": {
+            "de": "Fragebogenskalen",
+            "en": "Questionnaire Scales"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/dt2/42",
+          "notation": [
+            "4.2"
+          ],
+          "prefLabel": {
+            "de": "Kompetenztest oder Wissenstest",
+            "en": "Competency Test or Knowledge Test"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/dt2/43",
+          "notation": [
+            "4.3"
+          ],
+          "prefLabel": {
+            "de": "Ratingmanual",
+            "en": "Rating Manual"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/dt2/44",
+          "notation": [
+            "4.4"
+          ],
+          "prefLabel": {
+            "de": "Lerntagebuch",
+            "en": "Learning Diary"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/dt2/99",
+      "notation": [
+        "5"
+      ],
+      "prefLabel": {
+        "de": "Sonstiges Datenmaterial",
+        "en": "other"
+      }
+    }
+  ]
+}

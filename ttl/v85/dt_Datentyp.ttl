@@ -1,0 +1,59 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v85/dt/>. 
+
+n0:1
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenz- und Leistungsdaten"@de,
+	"Skills Measurement / Performance Measurement"@en.
+n0:2
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Qualitatives, nicht oder gering standardisiertes Datenmaterial"@de,
+	"Qualitative, non-standardized or poorly standardized data material"@en.
+n0:3
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Umfrage- und Aggregatedaten"@de,
+	"Survey Data"@en.
+n0:99
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstiges Datenmaterial"@de,
+	"other"@en.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de,
+	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
+	dct:title "VerbundFDB - Kontrolliertes Vokabular - Datentyp v1"@de,
+	"VerbundFDB - Controlled Vocabulary - Resource Type v1"@en;
+	dct:description """Hierbei handelt es sich um ein kontrolliertes Vokabular zu Informationen zur Studie und beschreibt die Datenart.
+
+Zitation: VerbundFDB: Datentyp Bildungsforschung. Version 1.0. Retrieved from https://w3id.org/iqb/v85/dt/. 
+
+Provenienz: Es handelt sich hierbei um ein kontrolliertes Vokabular, welches von Thomas Schwager für den VerbundFDB entwickelt wurde.
+
+Lizenz: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)"""@de,
+	"""This is a controlled vocabulary for information on the study and describes the category of data.
+
+Citation: VerbundFDB: Resource Type Educational Research. Version 1.0. Retrieved from https://w3id.org/iqb/v85/dt/. 
+
+ Provenance: This is a controlled vocabulary developed by Thomas Schwager (VerbundFDB).
+
+License: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)"""@en;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
+	skos:hasTopConcept
+		n0:1,
+		n0:2,
+		n0:3,
+		n0:99.

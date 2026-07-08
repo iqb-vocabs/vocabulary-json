@@ -1,0 +1,101 @@
+{
+  "id": "https://w3id.org/iqb/v85/zu/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "VerbundFDB - Kontrolliertes Vokabular - Zugriff",
+    "en": "VerbundFDB - Controlled Vocabulary - Access"
+  },
+  "description": {
+    "de": "Hierbei handelt es sich um ein kontrolliertes Vokabular zu den Möglichkeiten und Bedingungen des Datenzugangs, es bildet die Zugangsbedingungen und Zugriffswege in den FDZ des VerbundFDB auf Forschungsdaten ab.\n\nZitation: VerbundFDB: Zugriff Bildungsforschung. Version 1.0. Verfügbar unter https://w3id.org/iqb/v85/zu/. \n\nLizenz: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)",
+    "en": "This controlled vocabulary maps the access conditions and access paths to research data in the FDZ of the VerbundFDB.\n\nCitation: VerbundFDB: Access Educational Research. Version 1.0. Retrieved from https://w3id.org/iqb/v85/zu/. \n\nLicense: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)"
+  },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v85/zu/1",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Freier Zugang",
+        "en": "Free Access"
+      },
+      "definition": {
+        "de": "Es existieren keinerlei Zugangsbeschränkungen. Die Daten sind frei zugänglich. ",
+        "en": "There are no access restrictions. The data is freely accessible."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/zu/2",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Registrierung",
+        "en": "Registration"
+      },
+      "definition": {
+        "de": "Eine Registrierung, unter Abfrage spezifischer Nutzer*innenangaben, die vom FDZ festgelegt werden, ist Bedingung, um auf Daten zugreifen zu können. Die Registrierung ist je nach Bestimmungen des FDZ für jedermann offen oder auf einen bestimmten Nutzer*innenkreis (z. B. Forschende, Angehörige einer Hochschule etc.) eingeschränkt. Die Registrierung ist ein eigenständiger Schritt im Verfahren, um auf Daten zugreifen zu können und mit dem Anlegen eines Nutzer*innenkontos verbunden. Im Falle von Campus Files ist hingegen eine vereinfachte Registrierung via E-Mail möglich. Voraussetzung hierfür ist eine wissenschaftliche/universitäre Institutszugehörigkeit.",
+        "en": "Registration is a prerequisite for accessing data and requires specific user information, which is defined by the FDZ. Depending on the regulations of the FDZ, registration is open to everyone or restricted to a certain group of users (e.g. researchers, members of a university, etc.). Registration is an independent step in the process of accessing data and is linked to the creation of a user account. In the case of Campus Files, however, a simplified registration via e-mail is possible. The prerequisite for this is an academic/university institute affiliation."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/zu/3",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Nutzungsantrag",
+        "en": "Application of use"
+      },
+      "definition": {
+        "de": "Für den Zugriff auf Daten muss ein Antrag gestellt werden (online oder schriftlich). Im Antrag muss u. a. der Nutzungszweck oder - falls die Nutzung auf Forschung und Lehre eingeschränkt ist - das Forschungsinteresse und der wissenschaftliche Nutzungszweck der Daten dargestellt werden. ",
+        "en": "An application must be submitted (online or in writing) for access to data. The application must state, among other things, the purpose of use or - if the use is restricted to research and teaching - the research interest and the scientific purpose of use of the data. "
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/zu/4",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Download / Lieferung",
+        "en": "Download"
+      },
+      "definition": {
+        "de": "Off-Site-Nutzung – Übermittlung der Daten zum*r Nutzer*in",
+        "en": "Off-site use - transmission of the user's data"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/zu/5",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Gastwissenschaftlerarbeitsplatz",
+        "en": "Guest researcher workplace"
+      },
+      "definition": {
+        "de": "On-Site-Nutzung – Keine Übermittlung der Daten zum*r Nutzer*in",
+        "en": "On-site use - no transmission of data to the user"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/zu/6",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Datenfernverarbeitung (Remote Access)",
+        "en": "Remote Access"
+      },
+      "definition": {
+        "de": "On-Site-Nutzung – Keine Übermittlung der Daten zum*r Nutzer*in",
+        "en": "On-site use - no transmission of data to the user"
+      }
+    }
+  ]
+}

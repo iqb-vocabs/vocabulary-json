@@ -1,0 +1,217 @@
+{
+  "id": "https://w3id.org/iqb/v85/fg/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "VerbundFDB - Kontrolliertes Vokabular - Forschungsgebiet",
+    "en": "VerbundFDB - Controlled Vocabulary - Area of Research"
+  },
+  "description": {
+    "de": "Hierbei handelt es sich um ein kontrolliertes Vokabular zu Themenbereichen von Forschungsdaten des VerbundFDB.\n\nZitation: VerbundFDB: Forschungsgebiet Bildungsforschung. Version 1.0. Verfügbar unter https://w3id.org/iqb/v85/fg/.\n\nLizenz: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)",
+    "en": "This is a controlled vocabulary for themes for research data of the VerbundFDB.\n\nCitation: VerbundFDB: Area of Research Educational Research. Version 1.0. Retrieved from https://w3id.org/iqb/v85/fg/. \n\nLicense: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)"
+  },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v85/fg/a6f",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Biologie",
+        "en": "Biology"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/fg/f4b",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Chemie",
+        "en": "Chemistry"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/fg/r7u",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Computer Science",
+        "en": "Informatik"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/fg/c4a",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Ethnologie",
+        "en": "Cultural studies / ethnology"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/fg/s2d",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Fachdidaktik",
+        "en": "Pedagogical content knowledge (PCK)"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/fg/r4u",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Geowissenschaften",
+        "en": "Geosciences / earth sciences"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/fg/t5g",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Geschichte",
+        "en": "History"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/fg/r5z",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Kunst",
+        "en": "Applied Arts"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/fg/g9s",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Mathematik",
+        "en": "Mathematics"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/fg/c2c",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Medizin",
+        "en": "Medicine"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/fg/d4x",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Musik",
+        "en": "Music"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/fg/b4f",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Pädagogik",
+        "en": "Education"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/fg/s4e",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Physik",
+        "en": "Physics"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/fg/t6q",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Politikwissenschaft",
+        "en": "Political Science"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/fg/p9s",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Psychologie",
+        "en": "Psychology"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/fg/p3x",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Soziologie",
+        "en": "Sociology"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/fg/y2z",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Sport",
+        "en": "Physical Education / Sports"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/fg/e2u",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Sprach- / Literaturwissenschaft",
+        "en": "Languages and literature"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/fg/x9x",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Wirtschaftswissenschaften",
+        "en": "Business and Economics"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/fg/z9a",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Sonstige (Freitext)",
+        "en": "Other"
+      }
+    }
+  ]
+}

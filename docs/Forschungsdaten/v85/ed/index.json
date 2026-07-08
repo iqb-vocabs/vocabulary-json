@@ -1,0 +1,117 @@
+{
+  "id": "https://w3id.org/iqb/v85/ed/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "VerbundFDB - Kontrolliertes Vokabular - Erhebungsdesign",
+    "en": "VerbundFDB - Controlled Vocabulary - Time Method"
+  },
+  "description": {
+    "de": "Hierbei handelt es sich um ein kontrolliertes Vokabular zur zeitlichen Ausdehnung der Datenerhebung. Dies bildet methodische Informationen zur Studie ab sowie die Möglichkeit, die zeitliche Dimension zu beschreiben. Der VerbundFDB hat dieses kontrollierte Vokabular von DDI übernommen und wendet es für sein Metadatenschema an.\n\nZitation: VerbundFDB: Erhebungsdesign Bildungsforschung. Version 1.0. Verfügbar unter https://w3id.org/iqb/v85/ed/.\n\nProvenienz: basierend auf DDI Alliance (2015): DDI Controlled Vocabulary for Time Method. Verfügbar unter from http://www.ddialliance.org/Specification/DDI-CV/TimeMethod_1.2.html German Translation: Jedinger, Alexander and Eisentraut, Marcus (2016). GESIS. DDI Kontrollierte Vokabulare: Erhebungsdesign 1.3 Englisch-Deutsche Fassung 12.12.2016 Dr. Alexander Jedinger (GESIS /DDI Vocabulary Group), Marcus Eisentraut (VerbundFDB, GESIS)\n\nLizenz: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de) ",
+    "en": "This is a controlled vocabulary for methodological information on the study and describes the time dimension of the data collection.\n\nCitation: VerbundFDB: Time Method Educational Research. Version 1.0. Retrieved from https://w3id.org/iqb/v85/ed/ \n\nProvenance: Based on DDI Alliance (2015): DDI Controlled Vocabulary for Time Method. Retrieved from http://www.ddialliance.org/Specification/DDI-CV/TimeMethod_1.2.html German Translation: Jedinger, Alexander and Eisentraut, Marcus (2016). GESIS. DDI Controlled Vocabularies: Time Method 1.3 Englisch-Deutsche Fassung 12.12.2016 Dr. Alexander Jedinger (GESIS /DDI Vocabulary Group), Marcus Eisentraut (VerbundFDB, GESIS)\n\nLicense: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de) "
+  },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v85/ed/1",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Längsschnitt",
+        "en": "Longitudinal"
+      },
+      "definition": {
+        "de": "Daten, die an mehreren Zeitpunkten erhoben wurden, um Veränderungen innerhalb einer Population zu untersuchen. Mindestens einige der Fragen oder Module werden dabei in Wellen wiederholt abgefragt. Verwenden Sie diesen breit gefassten Begriff, wenn sich keiner der Unterterme eignet.",
+        "en": "Data collected repeatedly over time to allow studying change in a population. At least some of the questions or modules are repeated over waves. Use the broad term when none of the subterms is suitable."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v85/ed/2",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "Kohorten",
+            "en": "Cohort/Event-based"
+          },
+          "definition": {
+            "de": "Daten, die an mehreren Zeitpunkten einer gleichbleibenden Kohorte erhoben wurden. Die Individuen der Kohorte sind in einer spezifischen Art und Weise miteinander verbunden oder teilen besondere Erfahrungen innerhalb eines bestimmten Zeitraums. In manchen Fällen können die Stichproben zwischen den Wellen variieren, werden jedoch aus der derselben Kohorte gezogen. Beispiele: Geburtsjahr, Krankheit (klinische Studien), gemeinsames Problem (Interventionsstudien), Bildung, Beschäftigung, Familiengründung, Teilnahme an einer Veranstaltung",
+            "en": "Data collected over time from the same cohort of respondents. The individuals in the cohort are connected in some way  or have shared some significant experience within a given period. In some cases, the samples may differ between waves but are drawn from the same cohort. Examples: birth year, disease (clinical trials), common  problem (intervention studies), education, employment, family formation, participation in an event."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/ed/3",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "Trend/Wiederholter Querschnitt",
+            "en": "Trend/Repeated cross- section"
+          },
+          "definition": {
+            "de": "Daten, die an mehreren Zeitpunkten aus unterschiedlichen Stichproben oder Personengruppen einer gleichen Population erhoben wurden, wobei zumindest teilweise die gleichen Fragen oder Variablen verwendet wurden. Die Schlussfolgerungen beziehen sich auf die Gesamtpopulation. Beispiele: European Social Survey (ESS), Nationale Längsschnittstudien über Kriminalität",
+            "en": "Data collected from different samples or different groups of people from the same population at several points in time, using at least partly the same set of questions/variables. Conclusions are drawn for the population. Examples: European Social Survey (ESS), national longitudinal crime surveys."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v85/ed/4",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "Panel",
+            "en": "Panel"
+          },
+          "definition": {
+            "de": "Daten, die an mehreren Zeitpunkten von einer gleichbleibenden Stichprobe erhoben wurden. Der Unterschied zu Kohorten- bzw. ereignisbezogenen Daten liegt darin, dass die Befragten keine Verbindung aufweisen oder bedeutende Erfahrungen teilen.",
+            "en": "Data collected over time from, or about, the same sample of respondents. Differs from cohort/event-based data in that the selection of respondents is not based on their being connected in some way or having shared some significant experience."
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ed/5",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Zeitreihen",
+        "en": "Time series"
+      },
+      "definition": {
+        "de": "Daten, die in wiederholten Zeitabständen gesammelt wurden, um Veränderungen der Untersuchungseinheit zu untersuchen. Diese sind typischerweise „objektive“ Messungen von Phänomenen, die durch externe Beobachtung erhoben werden können, im Gegensatz zu Einstellungen/Meinungen oder Emotionen. Beispiele sind ökonomische/finanzielle Indikatoren, natürliche/meteorologische Phänomene, Bevölkerungsstatistik etc.",
+        "en": "Data collected repeatedly over time to study change in observations. These are typically 'objective' measurements of phenomena that can be observed externally, as opposed to attitudes/opinions or feelings. Examples may include economic/financial indicators, natural/meteorological phenomena, vital statistics, etc."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ed/6",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Querschnitt",
+        "en": "Cross-section"
+      },
+      "definition": {
+        "de": "Daten, die zu einem Zeitpunkt erhoben wurden, ohne bei den Untersuchungseinheiten Veränderungen über die Zeit zu berücksichtigen. Dabei kann die Erhebung auch mehrere „Erhebungsereignisse“ umfassen, z. B. an mehreren Tagen innerhalb der Feldzeit durchgeführt werden. Die Analyse der Querschnittsdaten besteht häufig in der Untersuchung von Unterschieden und Gemeinsamkeiten der Befragten.",
+        "en": "Data collected by observing subjects within the study period, without regard to changes over time. May include more than one collection event. Analysis of cross-sectional data often consists in comparing the differences and similarities among subjects."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/ed/40",
+      "notation": [
+        "4"
+      ],
+      "prefLabel": {
+        "de": "Sonstige",
+        "en": "Other"
+      },
+      "definition": {
+        "de": "Verwenden Sie diesen Begriff, wenn die zeitliche Dimension der Methode bekannt ist, aber nicht in der Liste vertreten ist.",
+        "en": "Use if the time method is known, but not found in the Iist."
+      }
+    }
+  ]
+}

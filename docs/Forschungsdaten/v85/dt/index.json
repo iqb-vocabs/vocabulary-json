@@ -1,0 +1,57 @@
+{
+  "id": "https://w3id.org/iqb/v85/dt/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "VerbundFDB - Kontrolliertes Vokabular - Datentyp v1",
+    "en": "VerbundFDB - Controlled Vocabulary - Resource Type v1"
+  },
+  "description": {
+    "de": "Hierbei handelt es sich um ein kontrolliertes Vokabular zu Informationen zur Studie und beschreibt die Datenart.\n\nZitation: VerbundFDB: Datentyp Bildungsforschung. Version 1.0. Retrieved from https://w3id.org/iqb/v85/dt/. \n\nProvenienz: Es handelt sich hierbei um ein kontrolliertes Vokabular, welches von Thomas Schwager für den VerbundFDB entwickelt wurde.\n\nLizenz: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)",
+    "en": "This is a controlled vocabulary for information on the study and describes the category of data.\n\nCitation: VerbundFDB: Resource Type Educational Research. Version 1.0. Retrieved from https://w3id.org/iqb/v85/dt/. \n\n Provenance: This is a controlled vocabulary developed by Thomas Schwager (VerbundFDB).\n\nLicense: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)"
+  },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v85/dt/1",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Kompetenz- und Leistungsdaten",
+        "en": "Skills Measurement / Performance Measurement"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/dt/2",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Qualitatives, nicht oder gering standardisiertes Datenmaterial",
+        "en": "Qualitative, non-standardized or poorly standardized data material"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/dt/3",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Umfrage- und Aggregatedaten",
+        "en": "Survey Data"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v85/dt/99",
+      "notation": [
+        ""
+      ],
+      "prefLabel": {
+        "de": "Sonstiges Datenmaterial",
+        "en": "other"
+      }
+    }
+  ]
+}

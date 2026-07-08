@@ -1,0 +1,93 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v85/fd/>. 
+
+n0:3
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Beobachtungsdesign"@de,
+	"Observational Design"@en; 
+	skos:definition "Ein Beobachtungsdesign (auch ,Ex-post-facto-Design') zeichnet sich dadurch aus, dass der Forscher keinen Stimulus manipuliert und auch keine Randomisierung der Untersuchungseinheiten auf die Ausprägungen der unabhängigen Variablen stattfindet."@de,
+	"The observational design is characterized by the fact that the researcher is neither manipulating an independent variable nor does he (randomly) assign units of analysis to different groups. This design is also called ex-post-facto-Design (after the fact)."@en.
+n0:1
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Experimentelles Design"@de,
+	"Experimental Design"@en; 
+	skos:definition "Ein experimentelles Design ist dadurch gekennzeichnet, dass (1) mindestens zwei experimentelle Gruppen gebildet werden (Kontroll- und Experimentalgruppe), (2) die Untersuchungseinheiten den Gruppen durch ein Zufallsverfahren (Randomisierung) zugewiesen werden und (3) die unabhängige Variable vom Forscher gezielt ,manipuliert' wird (experimenteller Stimulus)."@de,
+	"The true experimental design is characterized by (1) the establishment of at least two groups (control and treatment group), (2) the random assignment of the units of analysis to different groups and (3) the controlled manipulation of the independent variable by the researcher (experimental stimulus)."@en.
+n0:4
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Fallstudie"@de,
+	"Case Study Design"@en; 
+	skos:definition "Ein Design bei dem eine einzelne Untersuchungseinheit, bzw. ein ,Fall' (dies können z. B. Einzelpersonen, Personengruppen, Organisationen, Kulturen aber auch soziale Prozesse, einzelne Situationen o. Ä. sein) zu einem bestimmten Zeitpunkt analysiert werden soll."@de,
+	"The in-depth examination of a single unit of analysis, such as a village, a family, or a juvenile gang or even a single person at a specific point of time."@en.
+n0:2
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Quasi-Experimentelles Design"@de,
+	"Quasi-Experimental Design"@en; 
+	skos:definition "Im Unterschied zum experimentellen Design erfolgt die Zuordnung der Untersuchungseinheiten zu den Experimental- und Kontrollgruppen nicht durch Randomisierung, sondern aufgrund bereits vorhandener Merkmale der Untersuchungseinheiten bzw. erfolgt durch die Untersuchungseinheiten selbst. Der Stimulus wird jedoch wie bei einem echten Experiment gesetzt."@de,
+	"In contrast to the true experimental design the units of analysis are not assigned randomly to treatment and control groups. Instead, group membership occurs naturally or is based on pre-experimental characteristics of the participants. In other words, they assign themselves to the groups. However, similar to the true experimental design, the independent variable is manipulated by the researcher."@en.
+n0:5
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sekundäranalyse"@de,
+	"Secondary Analysis"@en; 
+	skos:definition "Die Sekundäranalyse ist eine Forschungsstrategie, die bereits existierende quantitative oder qualitative Daten nutzt, um neue Fragestellungen zu untersuchen oder vorherige Studien zu reanalysieren/ zu überprüfen. (nach Heaton)"@de,
+	"Secondary analysis is a research strategy which makes use of pre-existing quantitative data or pre-existing qualitative research data for the purposes of investigating new questions or verifying previous studies. (Janet Heaton 2004, Reworking Qualitative Data S. 16)"@en.
+n0:40
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstiges"@de,
+	"Other"@en; 
+	skos:definition "Ein Design, welches sich keiner der oben genannten Kategorien zuordnen lässt."@de,
+	"A design which cannot be mapped onto one of the categories listed above."@en.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de,
+	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
+	dct:title "VerbundFDB - Kontrolliertes Vokabular - Forschungsdesign"@de,
+	"VerbundFDB - Controlled Vocabulary - Research Design"@en;
+	dct:description """Hierbei handelt es sich um ein kontrolliertes Vokabular, welches beschreibt, wie die empirische Fragestellung untersucht wurde.
+
+Zitation: VerbundFDB: Forschungsdesign Bildungsforschung. Version 1.0. Verfügbar unter https://w3id.org/iqb/v85/fd/.
+
+Provenienz: Based on Jedinger, Alexander and Eisentraut, Marcus (2016): Forschungsdesign. GESIS. Kontrolliertes Vokabular Verbund Forschungsdaten Bildung: Forschungsdesign Implementierte überarbeitete Version. Beschlossen am 01.12.2016 im Bearbeitergremium VerbundFDB, bestehend aus Marcus Eisentraut, Karoline Harzenetter, Claudia Neuendorf, Lisa Pegelow, Maike Porzelt, Thomas Schwager
+
+Stand: 13.12.2016 (Bearbeitung: Thomas Schwager Quelle: GESIS Controlled Vocabularies: Research Design / GESIS Kontrollierte Vokabulare: Forschungsdesign (Englisch-Deutsche Fassung) 08.08.2016 Dr. Alexander Jedinger GESIS/DDI Vocabulary Group, Marcus Eisentraut GESIS)
+
+Lizenz: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)
+"""@de,
+	"""This is a controlled vocabulary which classify research designs. A research design typically outlines the theories and models underlying a project, and is defined as the overall plan or structure that guides the process of conducting research.
+
+Citation: VerbundFDB: Research Design Educational Research. Version 1.0. Retrieved from https://w3id.org/iqb/v85/fd/ 
+
+ Provenance: Based on Jedinger, Alexander and Eisentraut, Marcus (2016): Forschungsdesign. GESIS. Controlled Vocabulary VerbundFDB: Research Design Implemented revised version. Decided on 01.12.2016 by VerbundFDB (Marcus Eisentraut, Karoline Harzenetter, Claudia Neuendorf, Lisa Pegelow, Maike Porzelt, Thomas Schwager)
+
+as of: 13.12.2016 (Editing: Thomas Schwager Source: GESIS Controlled Vocabularies: Research Design English-German version 08.08.2016 Dr. Alexander Jedinger GESIS / DDI Vocabulary Group Marcus Eisentraut GESIS)
+
+License: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)
+"""@en;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
+	skos:hasTopConcept
+		n0:3,
+		n0:1,
+		n0:4,
+		n0:2,
+		n0:5,
+		n0:40.

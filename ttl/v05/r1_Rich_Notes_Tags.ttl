@@ -1,0 +1,68 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v05/r1/>. 
+
+n0:original
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n0:transcript;
+	skos:prefLabel "Transkript der Originalquelle"@de.
+n0:adapted
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n0:transcript;
+	skos:prefLabel "Transkript der angepassten Version für die Aufgabe"@de.
+n0:transcript
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Transkript für das Haupt-Audio"@de;
+	skos:narrower n0:original,
+		n0:adapted.
+n0:answering_full_credit
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n0:didactical_guide;
+	skos:prefLabel "Richtige Antworten"@de.
+n0:competence_level
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n0:didactical_guide;
+	skos:prefLabel "Diskussion des Schwierigkeitsniveaus"@de.
+n0:misconceptions
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n0:didactical_guide;
+	skos:prefLabel "Typische Falschantworten"@de.
+n0:problems
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4";
+	skos:broader n0:didactical_guide;
+	skos:prefLabel "Mögliche Probleme bei der Beantwortung"@de.
+n0:didactical_guide
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Didaktische Handreichungen"@de;
+	skos:narrower n0:answering_full_credit,
+		n0:competence_level,
+		n0:misconceptions,
+		n0:problems.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Tags - Rich Notes Tags"@de;
+	dct:description """Kategorien für formatierte Texte als Teil der Unit-Daten"""@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
+	skos:hasTopConcept
+		n0:transcript,
+		n0:didactical_guide.

@@ -1,0 +1,55 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v85/vf/>. 
+
+n0:2
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Download"@de,
+	"download"@en.
+n0:3
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Nach Registrierung"@de,
+	"only registered member"@en.
+n0:4
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Nicht verfügbar"@de,
+	"not available"@en.
+n0:1
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Verfügbar"@de,
+	"available"@en.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de,
+	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
+	dct:title "VerbundFDB - Kontrolliertes Vokabular - Verfügbarkeit"@de,
+	"VerbundFDB - Controlled Vocabulary - Availability"@en;
+	dct:description """Hierbei handelt es sich um ein kontrolliertes Vokabular zur Verfügbarkeit von Forschungsdaten des VerbundFDB.
+
+Zitation: VerbundFDB: Verfügbarkeit Bildungsforschung. Version 1.0. Verfügbar unter https://w3id.org/iqb/v85/vf/. 
+
+Lizenz: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)"""@de,
+	"""This is a controlled vocabulary for availability for research data of the VerbundFDB.
+
+Citation: VerbundFDB: Availability Educational Research. Version 1.0. Retrieved from https://w3id.org/iqb/v85/vf/.
+
+License: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de)"""@en;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
+	skos:hasTopConcept
+		n0:2,
+		n0:3,
+		n0:4,
+		n0:1.
