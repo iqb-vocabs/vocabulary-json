@@ -578,14 +578,28 @@ function buildDashboard(): HTMLElement {
 
   categories.forEach((cat) => {
     const catSection = document.createElement('section');
-    catSection.className = 'dashboard-cat-section';
+    catSection.className = 'dashboard-cat-section collapsed';
 
-    catSection.innerHTML = `
-      <div class="dashboard-cat-header">
-        <h2>${cat.name}</h2>
-        <span class="badge accent-2">${cat.files.length} ${cat.files.length > 1 ? t('schemes', lang) : t('scheme', lang)}</span>
-      </div>
+    const catHeader = document.createElement('div');
+    catHeader.className = 'dashboard-cat-header';
+    catHeader.innerHTML = `
+      <svg class="dashboard-cat-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <polyline points="9 18 15 12 9 6"/>
+      </svg>
+      <h2>${cat.name}</h2>
+      <span class="badge accent-2">${cat.files.length} ${cat.files.length > 1 ? t('schemes', lang) : t('scheme', lang)}</span>
     `;
+
+    catHeader.addEventListener('click', () => {
+      const isCollapsed = catSection.classList.toggle('collapsed');
+      if (isCollapsed) {
+        catSection.classList.remove('expanded');
+      } else {
+        catSection.classList.add('expanded');
+      }
+    });
+
+    catSection.appendChild(catHeader);
 
     const grid = document.createElement('div');
     grid.className = 'dashboard-vocab-grid';
