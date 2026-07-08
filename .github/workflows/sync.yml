@@ -1,0 +1,87 @@
+name: Sync vocabulary from v* repo and redeploy
+
+on:
+  # Triggered by a repository_dispatch event sent from any iqb-vocabs/v* repo
+  repository_dispatch:
+    types: [vocab-updated]
+
+  # Also allow manual trigger for testing / initial population
+  workflow_dispatch:
+    inputs:
+      repo:
+        description: 'v* repo name to sync (e.g. v06)'
+        required: true
+        default: 'v06'
+
+permissions:
+  contents: write   # needed to commit updated docs/
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "vocab-sync"
+  cancel-in-progress: false
+
+jobs:
+  sync-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout vocabulary-json
+        uses: actions/checkout@v4
+        with:
+          # Use a PAT so the commit we push can trigger publish.yml
+          token: ${{ secrets.VOCAB_JSON_TOKEN }}
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Determine which repo to sync: dispatch payload OR manual input
+      - name: Resolve repo name
+        id: resolve
+        run: |
+          REPO="${{ github.event.client_payload.repo || inputs.repo }}"
+          echo "repo=$REPO" >> "$GITHUB_OUTPUT"
+          echo "Syncing: $REPO"
+
+      - name: Fetch updated vocabularies from ${{ steps.resolve.outputs.repo }}
+        run: node scripts/sync-vocab.js "${{ steps.resolve.outputs.repo }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit updated docs/ if anything changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          if git diff --cached --quiet; then
+            echo "No changes to commit — already up to date."
+          else
+            git commit -m "chore: sync ${{ steps.resolve.outputs.repo }} vocabularies [skip ci]"
+            git push
+          fi
+
+      # ── Rebuild & redeploy ──────────────────────────────
+      - name: Build Vite app
+        run: npm run build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dist'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,132 @@
+{
+  "id": "https://w3id.org/iqb/v05/r1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Tags - Rich Notes Tags"
+  },
+  "description": {
+    "de": "Kategorien für formatierte Texte als Teil der Unit-Daten"
+  },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v05/r1/transcript",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Transkript für das Haupt-Audio"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v05/r1/original",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "Transkript der Originalquelle"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v05/r1/adapted",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "Transkript der angepassten Version für die Aufgabe"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v05/r1/didactical_guide",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Didaktische Handreichungen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v05/r1/answering_full_credit",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "Richtige Antworten"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v05/r1/competence_level",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "Diskussion des Schwierigkeitsniveaus"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v05/r1/misconceptions",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "Typische Falschantworten"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v05/r1/problems",
+          "notation": [
+            "2.4"
+          ],
+          "prefLabel": {
+            "de": "Mögliche Probleme bei der Beantwortung"
+          }
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    }
+  }
+}
