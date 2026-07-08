@@ -54,7 +54,7 @@ jobs:
           echo "Syncing: $REPO"
 
       - name: Fetch updated vocabularies from ${{ steps.resolve.outputs.repo }}
-        run: node scripts/sync-vocab.js "${{ steps.resolve.outputs.repo }}"
+        run: npx tsx scripts/sync-vocab.ts "${{ steps.resolve.outputs.repo }}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

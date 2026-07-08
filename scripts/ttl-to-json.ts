@@ -1,12 +1,39 @@
 #!/usr/bin/env node
 import { readFileSync, writeFileSync } from 'fs';
 import { resolve } from 'path';
+import { fileURLToPath } from 'url';
 
-export function convertTtlToJson(ttlPath) {
+export interface Concept {
+  id: string;
+  notation?: string[];
+  prefLabel?: Record<string, string>;
+  definition?: Record<string, string>;
+  narrower?: Concept[];
+}
+
+export interface ConceptScheme {
+  id: string;
+  type: 'ConceptScheme';
+  title?: Record<string, string>;
+  description?: Record<string, string>;
+  license?: { id: string };
+  hasTopConcept: Concept[];
+}
+
+interface RDFObject {
+  type: 'literal' | 'uri';
+  value: string;
+  lang?: string;
+}
+
+type RDFProperties = Record<string, RDFObject[]>;
+type RDFGraph = Record<string, RDFProperties>;
+
+export function convertTtlToJson(ttlPath: string): ConceptScheme {
   const ttlContent = readFileSync(ttlPath, 'utf8');
 
   // Parse prefix mappings
-  const prefixes = {
+  const prefixes: Record<string, string> = {
     rdf: 'http://www.w3.org/1999/02/22-rdf-syntax-ns#',
     skos: 'http://www.w3.org/2004/02/skos/core#',
     dct: 'http://purl.org/dc/terms/',
@@ -19,7 +46,7 @@ export function convertTtlToJson(ttlPath) {
     prefixes[match[1].slice(0, -1)] = match[2];
   }
 
-  function expand(val) {
+  function expand(val: string): string {
     val = val.trim();
     if (val === 'a') {
       return 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type';
@@ -40,11 +67,11 @@ export function convertTtlToJson(ttlPath) {
   // Parse statements.
   // First, remove comments (lines starting with #) and prefix declarations.
   // Normalize triple-quoted strings (replace with JSON string representation to make parsing simple).
-  let normalized = ttlContent.replace(/"""([\s\S]*?)"""/g, (m, content) => {
+  const normalized = ttlContent.replace(/"""([\s\S]*?)"""/g, (_, content) => {
     return JSON.stringify(content);
   });
 
-  const cleanedLines = [];
+  const cleanedLines: string[] = [];
   for (let line of normalized.split('\n')) {
     line = line.trim();
     if (!line || line.startsWith('#') || line.startsWith('@prefix')) {
@@ -56,7 +83,7 @@ export function convertTtlToJson(ttlPath) {
 
   // Split by statements. A statement ends with a dot.
   // Let's split by '.' but respect quotes and URIs.
-  const statements = [];
+  const statements: string[] = [];
   let currentStatement = '';
   let inString = false;
   let stringChar = '';
@@ -96,7 +123,7 @@ export function convertTtlToJson(ttlPath) {
   }
 
   // Build the graph of subjects
-  const graph = {};
+  const graph: RDFGraph = {};
 
   for (const stmt of statements) {
     if (!stmt) continue;
@@ -110,7 +137,7 @@ export function convertTtlToJson(ttlPath) {
     const body = stmt.slice(firstSpace).trim();
 
     // Split predicates by semicolon (respecting strings)
-    const predicatesRaw = [];
+    const predicatesRaw: string[] = [];
     let currentPred = '';
     inString = false;
     stringChar = '';
@@ -150,7 +177,7 @@ export function convertTtlToJson(ttlPath) {
       const objectsRaw = predStmt.slice(firstSpacePred).trim();
 
       // Split objects by comma (respecting strings)
-      const objects = [];
+      const objects: string[] = [];
       let currentObj = '';
       inString = false;
       stringChar = '';
@@ -179,7 +206,7 @@ export function convertTtlToJson(ttlPath) {
         objects.push(currentObj.trim());
       }
 
-      const parsedObjects = objects.map(obj => {
+      const parsedObjects: RDFObject[] = objects.map(obj => {
         obj = obj.trim();
         if (obj.startsWith('"') || obj.startsWith("'")) {
           const endQuoteIdx = obj.lastIndexOf(obj[0]);
@@ -205,7 +232,7 @@ export function convertTtlToJson(ttlPath) {
   }
 
   // Find the ConceptScheme subject
-  let schemeUri = null;
+  let schemeUri: string | null = null;
   for (const [subj, props] of Object.entries(graph)) {
     const types = props['http://www.w3.org/1999/02/22-rdf-syntax-ns#type'] || [];
     if (types.some(t => t.value === 'http://www.w3.org/2004/02/skos/core#ConceptScheme')) {
@@ -221,9 +248,9 @@ export function convertTtlToJson(ttlPath) {
   const schemeProps = graph[schemeUri];
 
   // Helper to extract multi-language literal dictionary
-  function getLangDict(propUri) {
+  function getLangDict(propUri: string): Record<string, string> | undefined {
     const list = schemeProps[propUri] || [];
-    const dict = {};
+    const dict: Record<string, string> = {};
     for (const item of list) {
       if (item.type === 'literal') {
         const lang = item.lang || 'de'; // default to 'de' if none
@@ -234,7 +261,7 @@ export function convertTtlToJson(ttlPath) {
   }
 
   // Helper to extract license object
-  function getLicense() {
+  function getLicense(): { id: string } | undefined {
     const list = schemeProps['http://purl.org/dc/terms/license'] || [];
     if (list.length > 0 && list[0].type === 'uri') {
       return { id: list[0].value };
@@ -243,8 +270,8 @@ export function convertTtlToJson(ttlPath) {
   }
 
   // Build recursive concepts
-  const visited = new Set();
-  function buildConcept(uri) {
+  const visited = new Set<string>();
+  function buildConcept(uri: string): Concept {
     if (visited.has(uri)) {
       console.warn(`[warning] Circular dependency detected at URI: ${uri}. Current stack:`, Array.from(visited));
       return { id: uri };
@@ -257,7 +284,7 @@ export function convertTtlToJson(ttlPath) {
       return { id: uri };
     }
 
-    const concept = {
+    const concept: Concept = {
       id: uri
     };
 
@@ -286,7 +313,7 @@ export function convertTtlToJson(ttlPath) {
     }
 
     // children/narrower: we collect them from skos:narrower or find any other subject with broader equal to this uri
-    const narrowerUris = new Set();
+    const narrowerUris = new Set<string>();
     const narrowers = conceptProps['http://www.w3.org/2004/02/skos/core#narrower'] || [];
     for (const item of narrowers) {
       if (item.type === 'uri') narrowerUris.add(item.value);
@@ -326,7 +353,7 @@ export function convertTtlToJson(ttlPath) {
   }
 
   // Get Top Concepts
-  const topConceptUris = new Set();
+  const topConceptUris = new Set<string>();
   const topConceptsList = schemeProps['http://www.w3.org/2004/02/skos/core#hasTopConcept'] || [];
   for (const item of topConceptsList) {
     if (item.type === 'uri') {
@@ -371,18 +398,18 @@ export function convertTtlToJson(ttlPath) {
 }
 
 // CLI entry point
-if (process.argv[1] && (resolve(process.argv[1]) === resolve(import.meta.url.replace('file://', '')) || process.argv[1].endsWith('ttl-to-json.js'))) {
+if (process.argv[1] && (resolve(process.argv[1]) === resolve(fileURLToPath(import.meta.url)) || process.argv[1].endsWith('ttl-to-json.ts') || process.argv[1].endsWith('ttl-to-json.js'))) {
   const ttlPath = process.argv[2];
   const jsonPath = process.argv[3];
   if (!ttlPath || !jsonPath) {
-    console.error('Usage: node scripts/ttl-to-json.js <ttlPath> <jsonPath>');
+    console.error('Usage: npx tsx scripts/ttl-to-json.ts <ttlPath> <jsonPath>');
     process.exit(1);
   }
   try {
     const result = convertTtlToJson(ttlPath);
     writeFileSync(jsonPath, JSON.stringify(result, null, 2) + '\n', 'utf8');
     console.log(`Successfully converted ${ttlPath} -> ${jsonPath}`);
-  } catch (err) {
+  } catch (err: any) {
     console.error(`Error converting TTL to JSON:`, err);
     process.exit(1);
   }

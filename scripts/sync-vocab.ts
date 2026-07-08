@@ -1,14 +1,14 @@
 #!/usr/bin/env node
 /**
- * sync-vocab.js
+ * sync-vocab.ts
  *
  * Fetches updated Turtle (.ttl) files from a given iqb-vocabs/v* repository
  * via the GitHub REST API, writes them to the local ttl/ folder, converts
  * them to JSON, and writes the JSON files into the local docs/ folder.
  *
  * Usage (called by sync.yml workflow):
- *   node scripts/sync-vocab.js <repoName>
- *   e.g.: node scripts/sync-vocab.js v05
+ *   npx tsx scripts/sync-vocab.ts <repoName>
+ *   e.g.: npx tsx scripts/sync-vocab.ts v05
  *
  * Environment variables:
  *   GITHUB_TOKEN  — GitHub token with repo read access (provided by Actions)
@@ -17,20 +17,34 @@
 import { readFileSync, mkdirSync, writeFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
-import { convertTtlToJson } from './ttl-to-json.js';
+import { convertTtlToJson } from './ttl-to-json.ts';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 
+interface RegistryEntry {
+  category: string;
+  subVocabs: string[];
+}
+
+type Registry = Record<string, RegistryEntry>;
+
+interface GitHubFile {
+  name: string;
+  path: string;
+  type: string;
+  content?: string;
+}
+
 // ── Args ──────────────────────────────────────────────────
 const repoName = process.argv[2];
 if (!repoName) {
-  console.error('Usage: node scripts/sync-vocab.js <repoName>  (e.g. v05)');
+  console.error('Usage: npx tsx scripts/sync-vocab.ts <repoName>  (e.g. v05)');
   process.exit(1);
 }
 
 // ── Registry ──────────────────────────────────────────────
-const registry = JSON.parse(readFileSync(join(ROOT, 'vocab-registry.json'), 'utf8'));
+const registry: Registry = JSON.parse(readFileSync(join(ROOT, 'vocab-registry.json'), 'utf8'));
 const entry = registry[repoName];
 if (!entry) {
   console.error(`Repository "${repoName}" not found in vocab-registry.json`);
@@ -42,25 +56,25 @@ const token = process.env.GITHUB_TOKEN;
 const org = 'iqb-vocabs';
 
 // ── GitHub API helpers ────────────────────────────────────
-async function fetchJson(url) {
-  const headers = { Accept: 'application/vnd.github.v3+json' };
+async function fetchJson<T>(url: string): Promise<T> {
+  const headers: Record<string, string> = { Accept: 'application/vnd.github.v3+json' };
   if (token) headers['Authorization'] = `Bearer ${token}`;
 
   const res = await fetch(url, { headers });
   if (!res.ok) {
     throw new Error(`GitHub API error ${res.status} for ${url}: ${await res.text()}`);
   }
-  return res.json();
+  return res.json() as Promise<T>;
 }
 
 /**
  * Fetches the contents of the root of the repository.
  */
-async function fetchRepoContents(repo) {
+async function fetchRepoContents(repo: string): Promise<GitHubFile[] | null> {
   const url = `https://api.github.com/repos/${org}/${repo}/contents/`;
   try {
-    return await fetchJson(url);
-  } catch (err) {
+    return await fetchJson<GitHubFile[]>(url);
+  } catch (err: any) {
     if (err.message.includes('404')) {
       console.warn(`  [skip] Root contents not found in ${repo}`);
       return null;
@@ -73,15 +87,15 @@ async function fetchRepoContents(repo) {
  * Fetches the raw content of a file from a GitHub repo.
  * Returns the raw text or null if not found.
  */
-async function fetchRepoFileContent(repo, filePath) {
+async function fetchRepoFileContent(repo: string, filePath: string): Promise<string | null> {
   const url = `https://api.github.com/repos/${org}/${repo}/contents/${filePath}`;
   try {
-    const data = await fetchJson(url);
+    const data = await fetchJson<GitHubFile>(url);
     if (!data.content) {
       throw new Error(`No content returned for ${filePath}`);
     }
     return Buffer.from(data.content, 'base64').toString('utf8');
-  } catch (err) {
+  } catch (err: any) {
     if (err.message.includes('404')) {
       console.warn(`  [skip] ${filePath} not found in ${repo}`);
       return null;
@@ -126,7 +140,7 @@ for (const file of ttlFiles) {
 
   // Find matching subVocab
   const baseName = file.name.slice(0, -4);
-  let matchedSub = null;
+  let matchedSub: string | null = null;
   for (const sub of subVocabs) {
     if (baseName === sub || baseName.startsWith(sub + '_')) {
       matchedSub = sub;
@@ -144,7 +158,7 @@ for (const file of ttlFiles) {
       writeFileSync(localJsonFile, JSON.stringify(jsonResult, null, 2) + '\n', 'utf8');
       console.log(`  ✓ written JSON to docs/${category}/${repoName}/${matchedSub}/index.json`);
       synced++;
-    } catch (err) {
+    } catch (err: any) {
       console.error(`  ✗ Error converting TTL to JSON for ${file.name}:`, err.message);
       skipped++;
     }
