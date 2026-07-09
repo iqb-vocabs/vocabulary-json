@@ -476,7 +476,7 @@ function buildSearchView(): HTMLElement {
 
         const label = getLabel(c.prefLabel, lang);
         item.innerHTML = `
-          <div class="search-result-notation">${c.notation?.[0] ?? '?'}</div>
+          ${c.notation?.[0] ? `<div class="search-result-notation">${c.notation[0]}</div>` : ''}
           <div class="search-result-body">
             <div class="search-result-label">${highlight(label, searchQuery)}</div>
             <div class="search-result-id">${c.id}</div>
@@ -535,7 +535,7 @@ function buildSearchView(): HTMLElement {
 
     const label = getLabel(c.prefLabel, lang);
     item.innerHTML = `
-      <div class="search-result-notation">${c.notation?.[0] ?? '?'}</div>
+      ${c.notation?.[0] ? `<div class="search-result-notation">${c.notation[0]}</div>` : ''}
       <div class="search-result-body">
         <div class="search-result-label">${highlight(label, searchQuery)}</div>
         <div class="search-result-id">${c.id}</div>
