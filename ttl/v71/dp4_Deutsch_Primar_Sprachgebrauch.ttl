@@ -1,0 +1,47 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v71/dp4/>. 
+
+n0:y4t
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe I"@de.
+n0:b4a
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe II"@de.
+n0:t7e
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe III"@de.
+n0:s5d
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe IV"@de.
+n0:a9v
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe V"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Kompetenzstufenmodelle - Deutsch Primar - Sprachgebrauch"@de;
+	dct:description "Kompetenzstufenmodell zu den Bildungsstandards im Fach Deutsch im Kompetenzbereich Sprache und Sprachgebrauch untersuchen für den Primarbereich"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
+	skos:hasTopConcept
+		n0:y4t,
+		n0:b4a,
+		n0:t7e,
+		n0:s5d,
+		n0:a9v.

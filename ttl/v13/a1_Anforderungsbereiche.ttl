@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v13/a1/>. 
+@prefix n1: <https://w3id.org/iqb/v13/a1/>. 
+
+n1:d7b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "I";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Wiedergeben"@de; 
+	skos:definition "In diesem Anforderungsbereich geben die Schülerinnen und Schüler bekannte Informationen wieder und wenden grundlegende Verfahren und Routinen an."@de.
+n1:h6f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Zusammenhänge herstellen"@de; 
+	skos:definition "In diesem Anforderungsbereich bearbeiten die Schülerinnen und Schüler vertraute Sachverhalte, indem sie erworbenes Wissen und bekannte Methoden anwenden und miteinander verknüpfen."@de.
+n1:a5s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Reflektieren und beurteilen"@de; 
+	skos:definition "In diesem Anforderungsbereich bearbeiten die Schülerinnen und Schüler für sie neue Problemstellungen, die eigenständige Beurteilungen und eigene Lösungsansätze erfordern."@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Deutsch Primar 2004 - Anforderungsbereiche"@de;
+	dct:description """Die folgenden Aufgabenbeispiele zeigen die Bandbreite unterschiedlicher Anforderungen. Zur Einschätzung der in den Aufgabenbeispielen gestellten Anforderungen wird auf drei Anforderungsbereiche zurückgegriffen, die hier exemplarisch anhand von Aufgabenstellungen aus zwei Aufgabenbeispielen zum Lesen und zum Schreiben konkretisiert werden."""@de;
+	skos:hasTopConcept
+		n1:d7b,
+		n1:h6f,
+		n1:a5s.

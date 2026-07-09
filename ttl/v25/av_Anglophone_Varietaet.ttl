@@ -1,0 +1,90 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v25/av/>. 
+@prefix n1: <https://w3id.org/iqb/v25/av/>. 
+
+n1:y9a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Standardsprache"@de.
+n1:r7h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Amerikanisch"@de.
+n1:g3p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Australisch"@de.
+n1:d7r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Irisch"@de.
+n1:q4s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kanadisch"@de.
+n1:c9p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kreolisch"@de.
+n1:p4p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Nigerianisch"@de.
+n1:y5a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Neuseeländisch"@de.
+n1:t6y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Schottisch"@de.
+n1:a4f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Südafrikanisch"@de.
+n1:c9c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Walisisch"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Textvorgabe Fremdsprachen - Anglophone Varietät"@de;
+	dc:title "Textvorgabe Fremdsprachen - Anglophone Varietät"@de;
+	dc:description "Textvorgabe Fremdsprachen - Anglophone Varietät"@de;
+	skos:hasTopConcept
+		n1:y9a,
+		n1:r7h,
+		n1:g3p,
+		n1:d7r,
+		n1:q4s,
+		n1:c9p,
+		n1:p4p,
+		n1:y5a,
+		n1:t6y,
+		n1:a4f,
+		n1:c9c.

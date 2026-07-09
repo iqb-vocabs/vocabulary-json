@@ -1,0 +1,868 @@
+{
+  "id": "https://w3id.org/iqb/v55/k1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Mathematik Sek II 2012 - Die allgemeinen mathematischen Kompetenzen"
+  },
+  "description": {
+    "de": "In den Bildungsstandards im Fach Mathematik für die Allgemeine Hochschulreife werden sechs allgemeine mathematische Kompetenzen unterschieden, die das Spektrum mathematischen Arbeitens in der Sekundarstufe II in hinreichender Breite erfassen. Dabei ist es weder möglich noch beabsichtigt, diese Kompetenzen scharf voneinander abzugrenzen. Es ist vielmehr typisch für mathematisches Arbeiten, dass mehrere Kompetenzen im Verbund benötigt werden. Dies trifft auch auf die Aufgabenbeispiele zu.\n\nIm Folgenden werden die sechs allgemeinen mathematischen Kompetenzen näher beschrieben, insbesondere auch durch ihre jeweiligen Ausprägungen in den drei Anforderungsbereichen. Wie in Textfassung 1.2 betont, sind diese Kompetenzen immer untrennbar mit den – in den Leitideen konkretisierten – mathematischen Inhalten verbunden."
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v55/k1/a6h",
+      "notation": [
+        "K "
+      ],
+      "prefLabel": {
+        "de": "Die allgemeinen mathematischen Kompetenzen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v55/k1/c9g",
+          "notation": [
+            "K 1"
+          ],
+          "prefLabel": {
+            "de": "Mathematisch argumentieren"
+          },
+          "definition": {
+            "de": "Zu dieser Kompetenz gehören sowohl das Entwickeln eigenständiger, situationsangemessener mathematischer Argumentationen und Vermutungen als auch das Verstehen und Bewerten gegebener mathematischer Aussagen. Das Spektrum reicht dabei von einfachen Plausibilitätsargumenten über inhaltlich-anschauliche Begründungen bis zu formalen Beweisen. Typische Formulierungen, die auf die Kompetenz des Argumentierens hinweisen, sind beispielsweise „Begründen Sie!“, „Widerlegen Sie!“, „Gibt es?“ oder „Gilt das immer?“.\\\n\\\nDie drei Anforderungsbereiche zu dieser Kompetenz lassen sich wie folgt beschreiben:"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v55/k1/y3d",
+              "notation": [
+                "K 1.1"
+              ],
+              "prefLabel": {
+                "de": "Anforderungsbereich I"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/g2u",
+                  "notation": [
+                    "K 1.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Routineargumentationen (bekannte Sätze, Verfahren, Herleitungen usw.) wiedergeben und anwenden"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/t3b",
+                  "notation": [
+                    "K 1.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "einfache rechnerische Begründungen geben oder einfache logische Schlussfolgerungen ziehen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/x6b",
+                  "notation": [
+                    "K 1.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Argumentationen auf der Basis von Alltagswissen führen"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v55/k1/h5t",
+              "notation": [
+                "K 1.2"
+              ],
+              "prefLabel": {
+                "de": "Anforderungsbereich II"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/y9e",
+                  "notation": [
+                    "K 1.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "überschaubare mehrschrittige Argumentationen und logische Schlüsse nachvollziehen, erläutern oder entwickeln"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v55/k1/r6q",
+              "notation": [
+                "K 1.3"
+              ],
+              "prefLabel": {
+                "de": "Anforderungsbereich III"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/d6v",
+                  "notation": [
+                    "K 1.3.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Beweise und anspruchsvolle Argumentationen nutzen, erläutern oder entwickeln"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/h2t",
+                  "notation": [
+                    "K 1.3.2"
+                  ],
+                  "prefLabel": {
+                    "de": "verschiedene Argumente nach Kriterien wie Reichweite und Schlüssigkeit bewerten"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v55/k1/r3h",
+          "notation": [
+            "K 2"
+          ],
+          "prefLabel": {
+            "de": "Probleme mathematisch lösen"
+          },
+          "definition": {
+            "de": "Diese Kompetenz beinhaltet, ausgehend vom Erkennen und Formulieren mathematischer Probleme, das Auswählen geeigneter Lösungsstrategien sowie das Finden und das Ausführen geeigneter Lösungswege. Das Spektrum reicht von der Anwendung bekannter bis zur Konstruktion komplexer und neuartiger Strategien. Heuristische Prinzipien, wie z. B. „Skizze anfertigen“, „systematisch probieren“, „zerlegen und ergänzen“, „Symmetrien verwenden“, „Extremalprinzip“, „Invarianten finden“ sowie „vorwärts und rückwärts arbeiten“, werden gezielt ausgewählt und angewendet.\\\n\\\nDie drei Anforderungsbereiche zu dieser Kompetenz lassen sich wie folgt beschreiben:"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v55/k1/f5s",
+              "notation": [
+                "K 2.1"
+              ],
+              "prefLabel": {
+                "de": "Anforderungsbereich I"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/z7t",
+                  "notation": [
+                    "K 2.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "einen Lösungsweg einer einfachen mathematischen Aufgabe durch Identifikation und Auswahl einer naheliegenden Strategie, z. B. durch Analogiebetrachtung, finden"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v55/k1/x9a",
+              "notation": [
+                "K 2.2"
+              ],
+              "prefLabel": {
+                "de": "Anforderungsbereich II"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/b2v",
+                  "notation": [
+                    "K 2.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "einen Lösungsweg zu einer Problemstellung, z. B. durch ein mehrschrittiges, strategiegestütztes Vorgehen, finden"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v55/k1/v2t",
+              "notation": [
+                "K 2.3"
+              ],
+              "prefLabel": {
+                "de": "Anforderungsbereich III"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/p2u",
+                  "notation": [
+                    "K 2.3.1"
+                  ],
+                  "prefLabel": {
+                    "de": "eine Strategie zur Lösung eines komplexeren Problems, z. B. zur Verallgemeinerung einer Schlussfolgerung, durch Anwenden mehrerer Heurismen oder zur Beurteilung verschiedener Lösungswege, entwickeln und anwenden"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v55/k1/a9h",
+          "notation": [
+            "K 3"
+          ],
+          "prefLabel": {
+            "de": "Mathematisch modellieren"
+          },
+          "definition": {
+            "de": "Hier geht es um den Wechsel zwischen Realsituationen und mathematischen Begriffen, Resultaten oder Methoden. Hierzu gehört sowohl das Konstruieren passender mathematischer Modelle als auch das Verstehen oder Bewerten vorgegebener Modelle. Typische Teilschritte des Modellierens sind das Strukturieren und Vereinfachen gegebener Realsituationen, das Übersetzen realer Gegebenheiten in mathematische Modelle, das Interpretieren mathematischer Ergebnisse in Bezug auf Realsituationen und das Überprüfen von Ergebnissen im Hinblick auf Stimmigkeit und Angemessenheit bezogen auf die Realsituation. Das Spektrum reicht von Standardmodellen (z. B. bei linearen Zusammenhängen) bis zu komplexen Modellierungen.\\\n\\\nDie drei Anforderungsbereiche zu dieser Kompetenz lassen sich wie folgt beschreiben:"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v55/k1/g3u",
+              "notation": [
+                "K 3.1"
+              ],
+              "prefLabel": {
+                "de": "Anforderungsbereich I"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/y9v",
+                  "notation": [
+                    "K 3.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "vertraute und direkt erkennbare Modelle anwenden"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/a5z",
+                  "notation": [
+                    "K 3.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "eine Realsituation direkt in ein mathematisches Modell überführen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/g7e",
+                  "notation": [
+                    "K 3.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "ein mathematisches Resultat auf eine gegebene Realsituation übertragen"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v55/k1/f4h",
+              "notation": [
+                "K 3.2"
+              ],
+              "prefLabel": {
+                "de": "Anforderungsbereich II"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/x2s",
+                  "notation": [
+                    "K 3.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "mehrschrittige Modellierungen mit wenigen und klar formulierten Einschränkungen vornehmen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/b7p",
+                  "notation": [
+                    "K 3.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Ergebnisse einer solchen Modellierung interpretieren"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/s2y",
+                  "notation": [
+                    "K 3.2.3"
+                  ],
+                  "prefLabel": {
+                    "de": "ein mathematisches Modell an veränderte Umstände anpassen"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v55/k1/s4r",
+              "notation": [
+                "K 3.3"
+              ],
+              "prefLabel": {
+                "de": "Anforderungsbereich III"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/e7p",
+                  "notation": [
+                    "K 3.3.1"
+                  ],
+                  "prefLabel": {
+                    "de": "eine komplexe Realsituation modellieren, wobei Variablen und Bedingungen festgelegt werden müssen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/g7s",
+                  "notation": [
+                    "K 3.3.2"
+                  ],
+                  "prefLabel": {
+                    "de": "mathematische Modelle im Kontext einer Realsituation überprüfen, vergleichen und bewerten"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v55/k1/p4h",
+          "notation": [
+            "K 4"
+          ],
+          "prefLabel": {
+            "de": "Mathematische Darstellungen verwenden"
+          },
+          "definition": {
+            "de": "Diese Kompetenz umfasst das Auswählen geeigneter Darstellungsformen, das Erzeugen mathematischer Darstellungen und das Umgehen mit gegebenen Darstellungen. Hierzu zählen Diagramme, Graphen und Tabellen ebenso wie Formeln. Das Spektrum reicht von Standarddarstellungen – wie Wertetabellen – bis zu eigenen Darstellungen, die dem Strukturieren und Dokumentieren individueller Überlegungen dienen und die Argumentation und das Problemlösen unterstützen."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v55/k1/b3z",
+              "notation": [
+                "K 4.1"
+              ],
+              "prefLabel": {
+                "de": "Anforderungsbereich I"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/q2d",
+                  "notation": [
+                    "K 4.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Standarddarstellungen von mathematischen Objekten und Situationen anfertigen und nutzen"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v55/k1/z9h",
+              "notation": [
+                "K 4.2"
+              ],
+              "prefLabel": {
+                "de": "Anforderungsbereich II"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/g9g",
+                  "notation": [
+                    "K 4.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "gegebene Darstellungen verständig interpretieren oder verändern"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/t7h",
+                  "notation": [
+                    "K 4.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "zwischen verschiedenen Darstellungen wechseln"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v55/k1/g9d",
+              "notation": [
+                "K 4.3"
+              ],
+              "prefLabel": {
+                "de": "Anforderungsbereich III"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/t9s",
+                  "notation": [
+                    "K 4.3.1"
+                  ],
+                  "prefLabel": {
+                    "de": "mit unvertrauten Darstellungen und Darstellungsformen sachgerecht und verständig umgehen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/b7u",
+                  "notation": [
+                    "K 4.3.2"
+                  ],
+                  "prefLabel": {
+                    "de": "eigene Darstellungen problemadäquat entwickeln"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/d3b",
+                  "notation": [
+                    "K 4.3.3"
+                  ],
+                  "prefLabel": {
+                    "de": "verschiedene Darstellungen und Darstellungsformen zweckgerichtet beurteilen"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v55/k1/q3e",
+          "notation": [
+            "K 5"
+          ],
+          "prefLabel": {
+            "de": "Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen"
+          },
+          "definition": {
+            "de": "Diese Kompetenz beinhaltet in erster Linie das Ausführen von Operationen mit mathematischen Objekten wie Zahlen, Größen, Variablen, Termen, Gleichungen und Funktionen sowie Vektoren und geometrischen Objekten. Das Spektrum reicht hier von einfachen und überschaubaren Routineverfahren bis hin zu komplexen Verfahren einschließlich deren reflektierender Bewertung. Diese Kompetenz beinhaltet auch Faktenwissen und grundlegendes Regelwissen für ein zielgerichtetes und effizientes Bearbeiten von mathematischen Aufgabenstellungen, auch mit eingeführten Hilfsmitteln und digitalen Mathematikwerkzeugen.\\\n\\\nDie drei Anforderungsbereiche zu dieser Kompetenz lassen sich wie folgt beschreiben:"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v55/k1/c3e",
+              "notation": [
+                "K 5.1"
+              ],
+              "prefLabel": {
+                "de": "Anforderungsbereich I"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/b6r",
+                  "notation": [
+                    "K 5.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "elementare Lösungsverfahren verwenden"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/x9v",
+                  "notation": [
+                    "K 5.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Formeln und Symbole direkt anwenden"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/z9s",
+                  "notation": [
+                    "K 5.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "mathematische Hilfsmittel und digitale Mathematikwerkzeuge direkt nutzen"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v55/k1/d3g",
+              "notation": [
+                "K 5.2"
+              ],
+              "prefLabel": {
+                "de": "Anforderungsbereich II"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/d5p",
+                  "notation": [
+                    "K 5.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "formale mathematische Verfahren anwenden"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/u7r",
+                  "notation": [
+                    "K 5.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "mit mathematischen Objekten im Kontext umgehen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/t3d",
+                  "notation": [
+                    "K 5.2.3"
+                  ],
+                  "prefLabel": {
+                    "de": "mathematische Hilfsmittel und digitale Mathematikwerkzeuge je nach Situation und Zweck gezielt auswählen und effizient einsetzen"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v55/k1/u5a",
+              "notation": [
+                "K 5.3"
+              ],
+              "prefLabel": {
+                "de": "Anforderungsbereich III"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/t4v",
+                  "notation": [
+                    "K 5.3.1"
+                  ],
+                  "prefLabel": {
+                    "de": "komplexe Verfahren durchführen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/u4z",
+                  "notation": [
+                    "K 5.3.2"
+                  ],
+                  "prefLabel": {
+                    "de": "verschiedene Lösungs- und Kontrollverfahren bewerten"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/y9g",
+                  "notation": [
+                    "K 5.3.3"
+                  ],
+                  "prefLabel": {
+                    "de": "die Möglichkeiten und Grenzen mathematischer Verfahren, Hilfsmittel und digitaler Mathematikwerkzeuge reflektieren"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v55/k1/g2a",
+          "notation": [
+            "K 6"
+          ],
+          "prefLabel": {
+            "de": "Mathematisch kommunizieren"
+          },
+          "definition": {
+            "de": "Zu dieser Kompetenz gehören sowohl das Entnehmen von Informationen aus schriftlichen Texten, mündlichen Äußerungen oder sonstigen Quellen als auch das Darlegen von Überlegungen und Resultaten unter Verwendung einer angemessenen Fachsprache. Das Spektrum reicht von der direkten Informationsentnahme aus Texten des Alltagsgebrauchs bzw. vom Aufschreiben einfacher Lösungswege bis hin zum sinnentnehmenden Erfassen fachsprachlicher Texte bzw. zur strukturierten Darlegung oder Präsentation eigener Überlegungen. Sprachliche Anforderungen spielen bei dieser Kompetenz eine besondere Rolle.\\\n\\\nDie drei Anforderungsbereiche zu dieser Kompetenz lassen sich wie folgt beschreiben:"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v55/k1/q2g",
+              "notation": [
+                "K 6.1"
+              ],
+              "prefLabel": {
+                "de": "Anforderungsbereich I"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/h7a",
+                  "notation": [
+                    "K 6.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "einfache mathematische Sachverhalte darlegen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/f3a",
+                  "notation": [
+                    "K 6.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Informationen aus kurzen Texten mit mathematischem Gehalt identifizieren und auswählen, wobei die Ordnung der Informationen im Text die Schritte der mathematischen Bearbeitung nahelegt"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v55/k1/q9t",
+              "notation": [
+                "K 6.2"
+              ],
+              "prefLabel": {
+                "de": "Anforderungsbereich II"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/y2u",
+                  "notation": [
+                    "K 6.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "mehrschrittige Lösungswege, Überlegungen und Ergebnisse verständlich darlegen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/b5e",
+                  "notation": [
+                    "K 6.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Äußerungen (auch fehlerhafte) anderer Personen zu mathematischen Aussagen interpretieren"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/b5d",
+                  "notation": [
+                    "K 6.2.3"
+                  ],
+                  "prefLabel": {
+                    "de": "mathematische Informationen aus Texten identifizieren und auswählen, wobei die Ordnung der Informationen nicht unmittelbar den Schritten der mathematischen Bearbeitung entsprechen muss"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v55/k1/c3z",
+              "notation": [
+                "K 6.3"
+              ],
+              "prefLabel": {
+                "de": "Anforderungsbereich III"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/s5c",
+                  "notation": [
+                    "K 6.3.1"
+                  ],
+                  "prefLabel": {
+                    "de": "eine komplexe mathematische Lösung oder Argumentation kohärent und vollständig darlegen oder präsentieren"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/h4x",
+                  "notation": [
+                    "K 6.3.2"
+                  ],
+                  "prefLabel": {
+                    "de": "mathematische Fachtexte sinnentnehmend erfassen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/k1/a4h",
+                  "notation": [
+                    "K 6.3.3"
+                  ],
+                  "prefLabel": {
+                    "de": "mündliche und schriftliche Äußerungen mit mathematischem Gehalt von anderen Personen miteinander vergleichen, sie bewerten und ggf. korrigieren"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

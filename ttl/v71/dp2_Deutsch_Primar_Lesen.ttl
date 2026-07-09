@@ -1,0 +1,52 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v71/dp2/>. 
+
+n0:r7f
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe I"@de; 
+	skos:definition "explizit angegebene Einzelinformationen identifizieren"@de.
+n0:q6e
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe II"@de; 
+	skos:definition "benachbarte Informationen miteinander verknüpfen"@de.
+n0:r2x
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe III"@de; 
+	skos:definition "verstreute Informationen miteinander verknüpfen und den Text ansatzweise als ganzen erfassen"@de.
+n0:t5h
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe IV"@de; 
+	skos:definition "für die Herstellung von Kohärenz auf der Ebene des Textes wesentliche Aspekte erfassen"@de.
+n0:f9v
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe V"@de; 
+	skos:definition "auf zentrale Aspekte des Textes bezogene Aussagen selbstständig begründen"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Kompetenzstufenmodelle - Deutsch Primar - Lesen"@de;
+	dct:description "Kompetenzstufenmodell zu den Bildungsstandards für das Fach Deutsch im Kompetenzbereich „Lesen – mit Texten und Medien umgehen“ – Primarbereich –"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
+	skos:hasTopConcept
+		n0:r7f,
+		n0:q6e,
+		n0:r2x,
+		n0:t5h,
+		n0:f9v.

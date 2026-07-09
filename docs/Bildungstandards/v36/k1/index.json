@@ -1,0 +1,254 @@
+{
+  "id": "https://w3id.org/iqb/v36/k1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Deutsch Sek II 2012 - Kompetenzbereiche und ihre Struktur"
+  },
+  "description": {
+    "de": "Die Bildungsstandards im Fach Deutsch für die Allgemeine Hochschulreife sind in fünf Kompetenzbereiche gegliedert, die in komplexer Weise miteinander verzahnt sind. In den Kompetenzbereichen „Sprechen und Zuhören“, „Schreiben“ und „Lesen“ werden dabei sowohl produktive als auch rezeptive Kompetenzen ausgewiesen. Diese prozessbezogenen Kompetenzen sind fachbezogen wie überfachlich bedeutsam. Sie knüpfen an die in den Bildungsstandards für den Mittleren Schulabschluss festgelegten Kompetenzen an, werden aber im Sinne der propädeutischen Zielsetzung der gymnasialen Oberstufe qualitativ weiterentwickelt. Die Kompetenzbereiche „Sich mit Texten und Medien auseinandersetzen“ und „Sprache und Sprachgebrauch reflektieren“ weisen die fachspezifischen Domänen aus, in denen die prozessbezogenen Kompetenzen verbindlich konkretisiert werden. Schülerinnen und Schüler sichern und erweitern die in der Sekundarstufe I erworbenen Kompetenzen in Bezug auf den Grad der Selbstständigkeit und Reflektiertheit, die Komplexität und den Voraussetzungsreichtum der\nproduktiven und rezeptiven sprachlichen Handlungen. So werden die Grundlagen für fachliches und überfachliches\nHandeln mit Blick auf Anforderungen von Wissenschaft und beruflicher Bildung geschaffen."
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v36/k1/a9v",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Domänenspezifischer Kompetenzbereich"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v36/k1/q6p",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "Sich mit Texten und Medien auseinandersetzen"
+          },
+          "definition": {
+            "de": "sich literarische und pragmatische Texte unterschiedlicher medialer Form erschließen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v36/k1/t6a",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Prozessbezogene Kompetenzbereiche"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v36/k1/q7p",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "Sprechen und Zuhören"
+          },
+          "definition": {
+            "de": " sich mithilfe der gesprochenen Sprache zu unterschiedlichen Zwecken über verschiedene Sachverhalte mit anderen verständigen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v36/k1/g5y",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "Schreiben"
+          },
+          "definition": {
+            "de": "sich mithilfe selbst verfasster Texte über verschiedene Sachverhalte verständigen, sich Wissen aneignen und Identität ausdrücken"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v36/k1/d4c",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "Lesen"
+          },
+          "definition": {
+            "de": "Texte verstehen, sie mit externen Wissensbeständen verbinden und die eigene Lesekompetenz für den analytischen, interpretatorischen sowie kreativen Umgang mit Texten und zur persönlichen Entwicklung und gesellschaftlichen Teilhabe nutzen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v36/k1/e2a",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Domänenspezifischer Kompetenzbereich"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v36/k1/e7d",
+          "notation": [
+            "3.1"
+          ],
+          "prefLabel": {
+            "de": "Sprache und Sprachgebrauch reflektieren"
+          },
+          "definition": {
+            "de": "sich mit Sprache als System sowie als historisch gewordenem Kommunikationsmedium auseinandersetzen"
+          }
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

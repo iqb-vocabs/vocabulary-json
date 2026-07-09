@@ -1,0 +1,52 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v71/dm2/>. 
+
+n0:h9h
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe I"@de; 
+	skos:definition "Mindeststandard verfehlt"@de.
+n0:x7c
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe II"@de; 
+	skos:definition "Mindeststandard"@de.
+n0:x2h
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe III"@de; 
+	skos:definition "Regelstandard"@de.
+n0:p5c
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe IV"@de; 
+	skos:definition "Regelstandard plus"@de.
+n0:e3b
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe V"@de; 
+	skos:definition "Optimalstandard"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Kompetenzstufenmodelle - Deutsch MSA - Schreiben"@de;
+	dct:description "Kompetenzstufenmodelle zu den Bildungsstandards im Kompetenzbereich Schreiben, Teilbereich freies Schreiben für den Mittleren Schulabschluss"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
+	skos:hasTopConcept
+		n0:h9h,
+		n0:x7c,
+		n0:x2h,
+		n0:p5c,
+		n0:e3b.

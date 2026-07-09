@@ -1,0 +1,365 @@
+{
+  "id": "https://w3id.org/iqb/v41/i1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Chemie MSA 2024 - Verbindliche inhaltliche Aspekte"
+  },
+  "description": {
+    "de": "Die Liste verbindlicher inhaltlicher Aspekte dient dazu, einen einheitlichen Grundstock an Inhalten und Konzepten zu benennen, an denen die in den Bildungsstandards für das Fach Chemie definierten Kompetenzen erlernt und überprüft werden können. Da die Basiskonzepte des Fachs Chemie in allen Kompetenzbereichen bedeutsam sind, wurden sie zur Strukturierung der verbindlichen inhaltlichen Aspekte gewählt. Die Liste der inhaltlichen Aspekte ist bewusst auf einem mittleren Grad der Detailliertheit formuliert, so dass Aufgaben zur Überprüfung der Bildungsstandards ableitbar sind. Mit den aufgeführten inhaltlichen Aspekten ist dabei immer der einfachste Fall gemeint; landesspezifische Ergänzungen und Präzisierungen können vorgenommen werden."
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v41/i1/x3u",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Aufbau und Eigenschaften von Stoffen und Teilchen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v41/i1/c6y",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "Stoffeigenschaften inkl. elektrischer Leitfähigkeit und Löslichkeit; pH-Wert von Lösungen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v41/i1/b6v",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "Sicherheitsmaßnahmen beim Experimentieren"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v41/i1/f4d",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "Reinstoffe und Stoffgemische, Elemente und Verbindungen als Ordnungssysteme auf der makroskopischen Ebene"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v41/i1/r9u",
+          "notation": [
+            "1.4"
+          ],
+          "prefLabel": {
+            "de": "Einfluss äußerer Bedingungen auf Aggregatzustände"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v41/i1/b5u",
+          "notation": [
+            "1.5"
+          ],
+          "prefLabel": {
+            "de": "das Periodensystem der Elemente als Ordnungssystem auf makroskopischer und submikroskopischer Ebene"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v41/i1/b3r",
+          "notation": [
+            "1.6"
+          ],
+          "prefLabel": {
+            "de": "ein differenziertes Atommodell, das dazu geeignet ist, Reaktionen vorherzusagen und Beziehungen zwischen der Struktur von Teilchen und den Eigenschaften von Stoffen zu beschreiben"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v41/i1/u7q",
+          "notation": [
+            "1.7"
+          ],
+          "prefLabel": {
+            "de": "Ionengitter und räumliche Struktur von Molekülen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v41/i1/q5s",
+          "notation": [
+            "1.8"
+          ],
+          "prefLabel": {
+            "de": "Ionenbindung, Elektronenpaarbindung und Metallbindung als Bindungstypen und Ordnungssystem auf submikroskopischer Ebene"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v41/i1/h5t",
+          "notation": [
+            "1.9"
+          ],
+          "prefLabel": {
+            "de": "Partialladungen, permanente Dipole und Ladungen als Ursache von Wechselwirkungen zwischen Teilchen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v41/i1/e5f",
+          "notation": [
+            "1.10"
+          ],
+          "prefLabel": {
+            "de": "Denkmodelle, sächliche Darstellung von Denkmodellen sowie Sachmodelle zur Beschreibung chemischer Phänomene und Vorgänge auf submikroskopischer Ebene"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v41/i1/s9h",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Chemische Reaktion"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v41/i1/u2b",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "Kennzeichen chemischer Reaktionen, Massen- und Energieerhaltung"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v41/i1/s3h",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "einfache stöchiometrische Betrachtungen als mathematische Modellierung des Reaktionsgeschehens"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v41/i1/x3h",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "Säure-Base-Reaktionen und Redoxreaktionen als Donator-Akzeptor-Vorgänge"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v41/i1/b3d",
+          "notation": [
+            "2.4"
+          ],
+          "prefLabel": {
+            "de": "Löseprozesse von Salzen als chemische Reaktionen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v41/i1/a2s",
+          "notation": [
+            "2.5"
+          ],
+          "prefLabel": {
+            "de": "Beeinflussung chemischer Reaktionen durch Variation der Temperatur"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v41/i1/a3g",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Energie"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v41/i1/b5p",
+          "notation": [
+            "3.1"
+          ],
+          "prefLabel": {
+            "de": "Unterscheidung von chemischer Energie, elektrischer Energie, thermischer Energie und Strahlungsenergie"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v41/i1/a5t",
+          "notation": [
+            "3.2"
+          ],
+          "prefLabel": {
+            "de": "Energieschemata als Möglichkeit der Beschreibung des energetischen Verlaufs von Reaktionen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v41/i1/v6f",
+          "notation": [
+            "3.3"
+          ],
+          "prefLabel": {
+            "de": "Betrachtung des Energieaustauschs zwischen Reaktionssystem und Umgebung"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v41/i1/d6u",
+          "notation": [
+            "3.4"
+          ],
+          "prefLabel": {
+            "de": "exotherme und endotherme Reaktionen, Katalyse und Aktivierungsenergie als Aspekte des energetischen Verlaufs von chemischen Reaktionen"
+          }
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

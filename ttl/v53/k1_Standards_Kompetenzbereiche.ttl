@@ -1,0 +1,396 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v53/k1/>. 
+@prefix n1: <https://w3id.org/iqb/v53/k1/>. 
+
+n1:p3b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.1";
+	skos:broader n1:u7p;
+	skos:prefLabel "nutzen sinntragende Vorstellungen von rationalen Zahlen, insbesondere von natürlichen, ganzen und gebrochenen Zahlen entsprechend der Verwendungsnotwendigkeit,"@de.
+n1:g9e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.2";
+	skos:broader n1:u7p;
+	skos:prefLabel "stellen Zahlen der Situation angemessen dar, unter anderem in Zehnerpotenzschreibweise,"@de.
+n1:u7v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.3";
+	skos:broader n1:u7p;
+	skos:prefLabel "begründen die Notwendigkeit von Zahlbereichserweiterungen an Beispielen,"@de.
+n1:q5q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.4";
+	skos:broader n1:u7p;
+	skos:prefLabel "nutzen Rechengesetze, auch zum vorteilhaften Rechnen,"@de.
+n1:u5c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.5";
+	skos:broader n1:u7p;
+	skos:prefLabel "nutzen zur Kontrolle Überschlagsrechnungen und andere Verfahren,"@de.
+n1:g7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.6";
+	skos:broader n1:u7p;
+	skos:prefLabel "runden Rechenergebnisse entsprechend dem Sachverhalt sinnvoll,"@de.
+n1:c9d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.7";
+	skos:broader n1:u7p;
+	skos:prefLabel "verwenden Prozent- und Zinsrechnung sachgerecht,"@de.
+n1:g3p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.8";
+	skos:broader n1:u7p;
+	skos:prefLabel "erläutern an Beispielen den Zusammenhang zwischen Rechenoperationen und deren Umkehrungen und nutzen diese Zusammenhänge,"@de.
+n1:a4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.9";
+	skos:broader n1:u7p;
+	skos:prefLabel "wählen, beschreiben und bewerten Vorgehensweisen und Verfahren, denen Algorithmen bzw. Kalküle zu Grunde liegen,"@de.
+n1:r5p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.10";
+	skos:broader n1:u7p;
+	skos:prefLabel "führen in konkreten Situationen kombinatorische Überlegungen durch, um die Anzahl der jeweiligen Möglichkeiten zu bestimmen,"@de.
+n1:q7s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.11";
+	skos:broader n1:u7p;
+	skos:prefLabel "prüfen und interpretieren Ergebnisse in Sachsituationen unter Einbeziehung einer kritischen Einschätzung des gewählten Modells und seiner Bearbeitung."@de.
+n1:u7p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1";
+	skos:broader n1:e7u;
+	skos:prefLabel "Leitidee Zahl"@de; 
+	skos:definition "Die Schülerinnen und Schüler ..."@de;
+	skos:narrower 
+		n1:p3b,
+		n1:g9e,
+		n1:u7v,
+		n1:q5q,
+		n1:u5c,
+		n1:g7z,
+		n1:c9d,
+		n1:g3p,
+		n1:a4e,
+		n1:r5p,
+		n1:q7s.
+n1:u6q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.1";
+	skos:broader n1:u6a;
+	skos:prefLabel "nutzen das Grundprinzip des Messens, insbesondere bei der Längen-, Flächen- und Volumenmessung, auch in Naturwissenschaften und in anderen Bereichen,"@de.
+n1:h2b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.2";
+	skos:broader n1:u6a;
+	skos:prefLabel "wählen Einheiten von Größen situationsgerecht aus (insbesondere für Zeit, Masse, Geld, Länge, Fläche, Volumen und Winkel),"@de.
+n1:p6u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.3";
+	skos:broader n1:u6a;
+	skos:prefLabel "schätzen Größen mit Hilfe von Vorstellungen über geeignete Repräsentanten,"@de.
+n1:f7b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.4";
+	skos:broader n1:u6a;
+	skos:prefLabel "berechnen Flächeninhalt und Umfang von Rechteck, Dreieck und Kreis sowie daraus zusammengesetzten Figuren,"@de.
+n1:s4r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.5";
+	skos:broader n1:u6a;
+	skos:prefLabel "berechnen Volumen und Oberflächeninhalt von Prisma, Pyramide, Zylinder, Kegel und Kugel sowie daraus zusammengesetzten Körpern,"@de.
+n1:c5r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.6";
+	skos:broader n1:u6a;
+	skos:prefLabel "berechnen Streckenlängen und Winkelgrößen, auch unter Nutzung von trigonometrischen Beziehungen und Ähnlichkeitsbeziehungen,"@de.
+n1:u4s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.7";
+	skos:broader n1:u6a;
+	skos:prefLabel "nehmen in ihrer Umwelt gezielt Messungen vor, entnehmen Maßangaben aus Quellenmaterial, führen damit Berechnungen durch und bewerten die Ergebnisse sowie den gewählten Weg in Bezug auf die Sachsituation"@de.
+n1:u6a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2";
+	skos:broader n1:e7u;
+	skos:prefLabel "Leitidee Messen"@de; 
+	skos:definition "Die Schülerinnen und Schüler"@de;
+	skos:narrower 
+		n1:u6q,
+		n1:h2b,
+		n1:p6u,
+		n1:f7b,
+		n1:s4r,
+		n1:c5r,
+		n1:u4s.
+n1:b7p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.1";
+	skos:broader n1:r5v;
+	skos:prefLabel "erkennen und beschreiben geometrische Strukturen in der Umwelt,"@de.
+n1:a4u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.2";
+	skos:broader n1:r5v;
+	skos:prefLabel "operieren gedanklich mit Strecken, Flächen und Körpern,"@de.
+n1:y3z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.3";
+	skos:broader n1:r5v;
+	skos:prefLabel "stellen geometrische Figuren im kartesischen Koordinatensystem dar,"@de.
+n1:v3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.4";
+	skos:broader n1:r5v;
+	skos:prefLabel "stellen Körper (z. B. als Netz, Schrägbild oder Modell) dar und erkennen Körper aus ihren entsprechenden Darstellungen,"@de.
+n1:c5x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.5";
+	skos:broader n1:r5v;
+	skos:prefLabel "analysieren und klassifizieren geometrische Objekte der Ebene und des Raumes,"@de.
+n1:r5d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.6";
+	skos:broader n1:r5v;
+	skos:prefLabel "beschreiben und begründen Eigenschaften und Beziehungen geometrischer Objekte (wie Symmetrie, Kongruenz, Ähnlichkeit, Lagebeziehungen) und nutzen diese im Rahmen des Problemlösens zur Analyse von Sachzusammenhängen,"@de.
+n1:x3v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.7";
+	skos:broader n1:r5v;
+	skos:prefLabel "wenden Sätze der ebenen Geometrie bei Konstruktionen, Berechnungen und Beweisen an, insbesondere den Satz des Pythagoras und den Satz des Thales,"@de.
+n1:c9a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.8";
+	skos:broader n1:r5v;
+	skos:prefLabel "zeichnen und konstruieren geometrische Figuren unter Verwendung angemessener Hilfsmittel wie Zirkel, Lineal, Geodreieck oder dynamische Geometriesoftware,"@de.
+n1:x2a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.9";
+	skos:broader n1:r5v;
+	skos:prefLabel "untersuchen Fragen der Lösbarkeit und Lösungsvielfalt von Konstruktionsaufgaben und formulieren diesbezüglich Aussagen"@de.
+n1:y6t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.10";
+	skos:broader n1:r5v;
+	skos:prefLabel "setzen geeignete Hilfsmittel beim explorativen Arbeiten und Problemlösen ein."@de.
+n1:r5v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3";
+	skos:broader n1:e7u;
+	skos:prefLabel "Leitidee Raum und Form"@de; 
+	skos:definition "Die Schülerinnen und Schüler"@de;
+	skos:narrower 
+		n1:b7p,
+		n1:a4u,
+		n1:y3z,
+		n1:v3y,
+		n1:c5x,
+		n1:r5d,
+		n1:x3v,
+		n1:c9a,
+		n1:x2a,
+		n1:y6t.
+n1:r2f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.1";
+	skos:broader n1:d9a;
+	skos:prefLabel "nutzen Funktionen als Mittel zur Beschreibung quantitativer Zusammenhänge,"@de.
+n1:e3g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.2";
+	skos:broader n1:d9a;
+	skos:prefLabel "erkennen und beschreiben funktionale Zusammenhänge und stellen diese in sprachlicher, tabellarischer oder graphischer Form sowie gegebenenfalls als Term dar,"@de.
+n1:t4g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.3";
+	skos:broader n1:d9a;
+	skos:prefLabel "analysieren, interpretieren und vergleichen unterschiedliche Darstellungen funktionaler Zusammenhänge (wie lineare, proportionale und antiproportionale),"@de.
+n1:z4v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.4";
+	skos:broader n1:d9a;
+	skos:prefLabel "lösen realitätsnahe Probleme im Zusammenhang mit linearen, proportionalen und antiproportionalen Zuordnungen,"@de.
+n1:q2b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.5";
+	skos:broader n1:d9a;
+	skos:prefLabel "interpretieren lineare Gleichungssysteme graphisch,"@de.
+n1:e3c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.6";
+	skos:broader n1:d9a;
+	skos:prefLabel "lösen Gleichungen, und lineare Gleichungssysteme kalkülmäßig bzw. algorithmisch, auch unter Einsatz geeigneter Software, und vergleichen ggf. die Effektivität ihres Vorgehens mit anderen Lösungsverfahren (wie mit inhaltlichem Lösen oder Lösen durch systematisches Probieren),"@de.
+n1:a9r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.7";
+	skos:broader n1:d9a;
+	skos:prefLabel "untersuchen Fragen der Lösbarkeit und Lösungsvielfalt von linearen und quadratischen Gleichungen sowie linearen Gleichungssystemen und formulieren diesbezüglich Aussagen,"@de.
+n1:a5a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.8";
+	skos:broader n1:d9a;
+	skos:prefLabel "bestimmen kennzeichnende Merkmale von Funktionen und stellen Beziehungen zwischen Funktionsterm und Graph her,"@de.
+n1:v2a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.9";
+	skos:broader n1:d9a;
+	skos:prefLabel "wenden insbesondere lineare und quadratische Funktionen sowie Exponentialfunktionen bei der Beschreibung und Bearbeitung von Problemen an,"@de.
+n1:c4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.10";
+	skos:broader n1:d9a;
+	skos:prefLabel "verwenden die Sinusfunktion zur Beschreibung von periodischen Vorgängen,"@de.
+n1:q7x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.11";
+	skos:broader n1:d9a;
+	skos:prefLabel "beschreiben Veränderungen von Größen mittels Funktionen, auch unter Verwendung eines Tabellenkalkulationsprogramms,"@de.
+n1:z4c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.12";
+	skos:broader n1:d9a;
+	skos:prefLabel "geben zu vorgegebenen Funktionen Sachsituationen an, die mit Hilfe dieser Funktion beschrieben werden können."@de.
+n1:d9a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4";
+	skos:broader n1:e7u;
+	skos:prefLabel "Leitidee Funktionaler Zusammenhang"@de; 
+	skos:definition "Die Schülerinnen und Schüler"@de;
+	skos:narrower 
+		n1:r2f,
+		n1:e3g,
+		n1:t4g,
+		n1:z4v,
+		n1:q2b,
+		n1:e3c,
+		n1:a9r,
+		n1:a5a,
+		n1:v2a,
+		n1:c4q,
+		n1:q7x,
+		n1:z4c.
+n1:f5a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.1";
+	skos:broader n1:r2q;
+	skos:prefLabel "werten graphische Darstellungen und Tabellen von statistischen Erhebungen aus,"@de.
+n1:a3p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.2";
+	skos:broader n1:r2q;
+	skos:prefLabel "planen statistische Erhebungen,"@de.
+n1:h6s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.3";
+	skos:broader n1:r2q;
+	skos:prefLabel "sammeln systematisch Daten, erfassen sie in Tabellen und stellen sie graphisch dar, auch unter Verwendung geeigneter Hilfsmittel (wie Software),"@de.
+n1:p2q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.4";
+	skos:broader n1:r2q;
+	skos:prefLabel "interpretieren Daten unter Verwendung von Kenngrößen,"@de.
+n1:b9u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.5";
+	skos:broader n1:r2q;
+	skos:prefLabel "reflektieren und bewerten Argumente, die auf einer Datenanalyse basieren,"@de.
+n1:u2u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.6";
+	skos:broader n1:r2q;
+	skos:prefLabel "beschreiben Zufallserscheinungen in alltäglichen Situationen,"@de.
+n1:s6u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.7";
+	skos:broader n1:r2q;
+	skos:prefLabel "bestimmen Wahrscheinlichkeiten bei Zufallsexperimenten."@de.
+n1:r2q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5";
+	skos:broader n1:e7u;
+	skos:prefLabel "Leitidee Daten und Zufall"@de; 
+	skos:definition "Die Schülerinnen und Schüler"@de;
+	skos:narrower 
+		n1:f5a,
+		n1:a3p,
+		n1:h6s,
+		n1:p2q,
+		n1:b9u,
+		n1:u2u,
+		n1:s6u.
+n1:e7u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L ";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Standards für inhaltsbezogene Kompetenzen"@de;
+	skos:narrower 
+		n1:u7p,
+		n1:u6a,
+		n1:r5v,
+		n1:d9a,
+		n1:r2q.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Mathematik MSA 2003 - Inhaltsbezogene Kompetenzen"@de;
+	dct:description """Die oben beschriebenen allgemeinen mathematischen Kompetenzen werden von Schülerinnen und Schülern in der Auseinandersetzung mit mathematischen Inhalten erworben. Dementsprechend lassen sich die allgemeinen mathematischen Kompetenzen als Dispositionen von Schülerinnen und Schülern vielfältig inhaltsbezogen konkretisieren. Im Folgenden werden Standards für inhaltsbezogene mathematische Kompetenzen benannt.
+
+Sie sind jeweils ausgewählten mathematischen Leitideen zugeordnet, um Verständnis von grundlegenden mathematischen Konzepten zu erreichen, Besonderheiten mathematischen Denkens zu verdeutlichen sowie Bedeutung und Funktion der Mathematik für die Gestaltung und Erkenntnis der Welt erfahren zu lassen."""@de;
+	skos:hasTopConcept
+		n1:e7u.

@@ -1,0 +1,351 @@
+{
+  "id": "https://w3id.org/iqb/v09/a1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Mathematik Primar 2004 - Allgemeine Kompetenzen"
+  },
+  "description": {
+    "de": "Allgemeine mathematische Kompetenzen zeigen sich in der lebendigen Auseinandersetzung mit Mathematik und auf die gleiche Weise, in der tätigen Auseinandersetzung, werden sie erworben. Die angestrebten Formen der Nutzung von Mathematik müssen daher auch regelmäßig genutzte Formen des Mathematiklernens sein. Von zentraler Bedeutung für eine erfolgreiche Nutzung und Aneignung von Mathematik sind vor allem die folgenden fünf allgemeinen mathematischen Kompetenzen.\n\nDiese lassen sich für Schülerinnen und Schüler am Ende der 4. Jahrgangsstufe wie folgt konkretisieren:"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v09/a1/g9c",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Problemlösen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v09/a1/e6d",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "mathematische Kenntnisse, Fertigkeiten und Fähigkeiten bei der Bearbeitung problemhaltiger Aufgaben anwenden,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v09/a1/z7x",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "Lösungsstrategien entwickeln und nutzen (z.B. systematisch probieren),"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v09/a1/s3t",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "Zusammenhänge erkennen, nutzen und auf ähnliche Sachverhalte übertragen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v09/a1/c5u",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Kommunizieren"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v09/a1/z7z",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "eigene Vorgehensweisen beschreiben, Lösungswege anderer verstehen und gemeinsam darüber reflektieren,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v09/a1/u6e",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "mathematische Fachbegriffe und Zeichen sachgerecht verwenden,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v09/a1/p4t",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "Aufgaben gemeinsam bearbeiten, dabei Verabredungen treffen und einhalten."
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v09/a1/v9b",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Argumentieren"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v09/a1/q5y",
+          "notation": [
+            "3.1"
+          ],
+          "prefLabel": {
+            "de": "mathematische Aussagen hinterfragen und auf Korrektheit prüfen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v09/a1/u5c",
+          "notation": [
+            "3.2"
+          ],
+          "prefLabel": {
+            "de": "mathematische Zusammenhänge erkennen und Vermutungen entwickeln,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v09/a1/p9y",
+          "notation": [
+            "3.3"
+          ],
+          "prefLabel": {
+            "de": "Begründungen suchen und nachvollziehen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v09/a1/t5c",
+      "notation": [
+        "4"
+      ],
+      "prefLabel": {
+        "de": "Modellieren"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v09/a1/z5e",
+          "notation": [
+            "4.1"
+          ],
+          "prefLabel": {
+            "de": "Sachtexten und anderen Darstellungen der Lebenswirklichkeit die relevanten Informationen entnehmen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v09/a1/z5y",
+          "notation": [
+            "4.2"
+          ],
+          "prefLabel": {
+            "de": "Sachprobleme in die Sprache der Mathematik übersetzen, innermathematisch lösen und diese Lösungen auf die Ausgangssituation beziehen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v09/a1/c5z",
+          "notation": [
+            "4.3"
+          ],
+          "prefLabel": {
+            "de": "zu Termen, Gleichungen und bildlichen Darstellungen Sachaufgaben formulieren."
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v09/a1/b3f",
+      "notation": [
+        "5"
+      ],
+      "prefLabel": {
+        "de": "Darstellen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v09/a1/x5r",
+          "notation": [
+            "5.1"
+          ],
+          "prefLabel": {
+            "de": "für das Bearbeiten mathematischer Probleme geeignete Darstellungen entwickeln, auswählen und nutzen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v09/a1/d3v",
+          "notation": [
+            "5.2"
+          ],
+          "prefLabel": {
+            "de": "eine Darstellung in eine andere übertragen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v09/a1/h7h",
+          "notation": [
+            "5.3"
+          ],
+          "prefLabel": {
+            "de": "Darstellungen miteinander vergleichen und bewerten."
+          }
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

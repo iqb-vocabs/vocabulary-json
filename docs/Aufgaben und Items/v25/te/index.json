@@ -1,0 +1,410 @@
+{
+  "id": "https://w3id.org/iqb/v25/te/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Textvorgabe Fremdsprachen - Textsorte"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v25/te/e7d",
+      "prefLabel": {
+        "de": "(Web-)Artikel"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/z6e",
+      "prefLabel": {
+        "de": "Ansage/Durchsage"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/r9r",
+      "prefLabel": {
+        "de": "Anweisung"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/u2x",
+      "prefLabel": {
+        "de": "Blog/Blogeintrag"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/b6p",
+      "prefLabel": {
+        "de": "Blogroman"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/y2b",
+      "prefLabel": {
+        "de": "Bookstagram"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/t6g",
+      "prefLabel": {
+        "de": "Chat"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/f3h",
+      "prefLabel": {
+        "de": "Debatte"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/h5c",
+      "prefLabel": {
+        "de": "Digital Story"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/t6t",
+      "prefLabel": {
+        "de": "Diskussion"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/z4c",
+      "prefLabel": {
+        "de": "Dokumentation"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/t3d",
+      "prefLabel": {
+        "de": "E-Mail"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/g6q",
+      "prefLabel": {
+        "de": "Erklärvideo"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/q6d",
+      "prefLabel": {
+        "de": "Fanfiction"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/q5t",
+      "prefLabel": {
+        "de": "Führung/Besichtigung"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/r4a",
+      "prefLabel": {
+        "de": "Gespräch"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/v2t",
+      "prefLabel": {
+        "de": "Hörbuchauszug"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/x9u",
+      "prefLabel": {
+        "de": "Hörspielauszug"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/r2u",
+      "prefLabel": {
+        "de": "Hyperfiction"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/c4t",
+      "prefLabel": {
+        "de": "Instapoetry"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/x2d",
+      "prefLabel": {
+        "de": "Interaktion mit KI"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/y6v",
+      "prefLabel": {
+        "de": "Interview"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/z5h",
+      "prefLabel": {
+        "de": "Kommentar"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/f7a",
+      "prefLabel": {
+        "de": "Kurznachricht"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/t7u",
+      "prefLabel": {
+        "de": "Meme"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/x3a",
+      "prefLabel": {
+        "de": "Nachrichten"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/r3b",
+      "prefLabel": {
+        "de": "Newsfeed"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/q6r",
+      "prefLabel": {
+        "de": "Plakat"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/f9z",
+      "prefLabel": {
+        "de": "Podcast"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/p4c",
+      "prefLabel": {
+        "de": "Programm"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/x5d",
+      "prefLabel": {
+        "de": "Rede"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/c4s",
+      "prefLabel": {
+        "de": "Reportage"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/t9v",
+      "prefLabel": {
+        "de": "Rezension"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/q9h",
+      "prefLabel": {
+        "de": "Rezept"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/g3a",
+      "prefLabel": {
+        "de": "Schild"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/f2c",
+      "prefLabel": {
+        "de": "Sprachnachricht"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/u2u",
+      "prefLabel": {
+        "de": "Telefonat"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/u9q",
+      "prefLabel": {
+        "de": "Tweetpoetry"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/h6b",
+      "prefLabel": {
+        "de": "Twitterature"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/b9s",
+      "prefLabel": {
+        "de": "Werbung"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/y9y",
+      "prefLabel": {
+        "de": "Wetterbericht"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/te/d5e",
+      "prefLabel": {
+        "de": "Wiki"
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

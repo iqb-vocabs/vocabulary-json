@@ -1,0 +1,1340 @@
+{
+  "id": "https://w3id.org/iqb/v36/b1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Deutsch Sek II 2012 - Bildungsstandards für die Kompetenzbereiche im Fach Deutsch"
+  },
+  "description": {
+    "de": "Die Kompetenzbereiche „Sprechen und Zuhören“, „Schreiben“ und „Lesen“ (Textfassung: vgl. Abschnitte 2.1 bis 2.3) formulieren prozessbezogene Bildungsstandards. Sie sind für alle Schülerinnen und Schüler im Sinne der propädeutischen Zielsetzung der gymnasialen Oberstufe – gleichsam als Handwerkszeug – unverzichtbar. Die Nutzung dieser Kompetenzen\nermöglicht allen Schülerinnen und Schülern eine angemessene mündliche und schriftliche Verständigung sowie eine differenzierte Anwendung von Texterschließungsverfahren und Arbeitstechniken.\n\n Unterschiedliche Anforderungen auf grundlegendem bzw. erhöhtem Niveau ergeben sich für diese Kompetenzbereiche in der Verschränkung mit den beiden domänenspezifischen Kompetenzbereichen „Sich mit Texten und Medien auseinandersetzen“ und „Sprache und Sprachgebrauch reflektieren“ (Textfassung: vgl. Abschnitte 2.4 und 2.5). Beide Kompetenzbereiche basieren auf den fachspezifischen Domänen, in denen die prozessbezogenen Kompetenzen verbindlich konkretisiert und hinsichtlich der beiden unterschiedlichen Anforderungsniveaus für Kurse auf grundlegendem bzw. erhöhtem Niveau deutlich differenziert werden. In beiden Kompetenzbereichen werden durchgängig zusätzlich zu den Kompetenzerwartungen für das grundlegende Anforderungsniveau solche für das erhöhte Anforderungsniveau ausgewiesen,\nsodass durch diese qualitative und quantitative Steigerung eine thematische Erweiterung und Differenzierung sowie eine theoretische Vertiefung gesichert ist.\n\nDie Niveaustufung erfolgt zudem durch die Auswahl des Gegenstands und die Aufgabenstellung. Je nach Voraussetzungsreichtum, sprachlicher Komplexität und Informationsdichte der Texte variiert der Grad an Kenntnissen, Selbstständigkeit und Reflexionsvermögen, den Schülerinnen und Schüler auf grundlegendem oder erhöhtem Anforderungsniveau benötigen. Aufgaben auf erhöhtem Niveau fordern von den Schülerinnen und Schülern ein größeres Maß an Eigenständigkeit und Reflexion.\n\nDer Kompetenzerwerb soll im Sinne kumulativen Lernens vernetzt erfolgen. Die Reihenfolge der Bildungsstandards ist daher nicht als Abbildung einer möglichen Chronologie des Kompetenzaufbaus aufzufassen."
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v36/b1/d4b",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Sprechen und Zuhören"
+      },
+      "definition": {
+        "de": "Die Schülerinnen und Schüler handeln in persönlichen, fach- und berufsbezogenen und öffentlichen Kommunikationssituationen angemessen und adressatengerecht. Diese Situationen sind in ihrer Mündlichkeit durch Interaktivität, Unmittelbarkeit, Flüchtigkeit und die Nutzung para- und nonverbaler Zeichen gekennzeichnet.\\\n\\\nDie Schülerinnen und Schüler können"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v36/b1/e5t",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "in ihren Gesprächen auf Verständigung zielen und respektvolles Gesprächsverhalten zeigen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v36/b1/y2g",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "in verschiedenen Gesprächsformen und in unterschiedlichen Rollen kommunikativ handeln und dabei nonverbale sowie stimmliche Mittel bewusst nutzen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v36/b1/a9y",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "zur Analyse mündlicher Kommunikationssituationen exemplarisch auditive und audiovisuelle Aufzeichnungen sowie Mitschriften nutzen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v36/b1/u2q",
+          "notation": [
+            "1.4"
+          ],
+          "prefLabel": {
+            "de": "den Verlauf fachlich anspruchsvoller monologischer und dialogischer Gesprächsformen konzentriert verfolgen, um Argumentation und Intention der Gesprächspartner wiederzugeben bzw. zusammenzufassen sowie ihr Verständnis durch Mitschriften und Notizen zu sichern"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v36/b1/z3f",
+              "notation": [
+                "1.4.1"
+              ],
+              "prefLabel": {
+                "de": "Dialogische Gesprächsformen: mit anderen sprechen"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/r4x",
+                  "notation": [
+                    "1.4.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "während des Zuhörens parallel eigene Äußerungen planen und diese in ihrer Wirkung einschätzen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/q9g",
+                  "notation": [
+                    "1.4.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "sich in eigenen Gesprächsbeiträgen explizit und zielführend auf andere beziehen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/u3g",
+                  "notation": [
+                    "1.4.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "in Kontroversen Strittiges identifizieren und eigene Positionen vertreten"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/x4u",
+                  "notation": [
+                    "1.4.1.4"
+                  ],
+                  "prefLabel": {
+                    "de": "auf konstruktive Weise eigenes und fremdes Gesprächsverhalten beobachten, reflektieren und besprechen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/e6v",
+                  "notation": [
+                    "1.4.1.5"
+                  ],
+                  "prefLabel": {
+                    "de": "nach Geboten der Fairness kommunizieren und Strategien unfairer Kommunikation erkennen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/e3h",
+                  "notation": [
+                    "1.4.1.6"
+                  ],
+                  "prefLabel": {
+                    "de": "Diskussionen, Debatten und Präsentationen selbstständig moderieren"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/z7y",
+                  "notation": [
+                    "1.4.1.7"
+                  ],
+                  "prefLabel": {
+                    "de": "in Simulationen von Prüfungs- und Bewerbungsgesprächen angemessen verbal und nonverbal handeln"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/h4q",
+              "notation": [
+                "1.4.2"
+              ],
+              "prefLabel": {
+                "de": "Monologische Gesprächsformen: vor anderen sprechen"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/t5h",
+                  "notation": [
+                    "1.4.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "anspruchsvolle Fachinhalte Verständnis fördernd referieren, auch unter Verwendung selbst verfasster stützender Texte"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/e9s",
+                  "notation": [
+                    "1.4.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "literarische und pragmatische Texte sinngebend und der Form entsprechend vortragen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/b3z",
+                  "notation": [
+                    "1.4.2.3"
+                  ],
+                  "prefLabel": {
+                    "de": "einzeln und gemeinsam mit anderen argumentierende und erklärende Beiträge präsentieren"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/p7p",
+                  "notation": [
+                    "1.4.2.4"
+                  ],
+                  "prefLabel": {
+                    "de": "kontextangemessen, funktional, kreativ verschiedene Medien und Präsentationstechniken einsetzen und das eigene Vorgehen erläutern"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/a2t",
+                  "notation": [
+                    "1.4.2.5"
+                  ],
+                  "prefLabel": {
+                    "de": "umfangreiche Redebeiträge zu komplexen Sachverhalten selbstständig und adressatengerecht präsentieren"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v36/b1/v6z",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Schreiben"
+      },
+      "definition": {
+        "de": "Die Schülerinnen und Schüler verfassen inhaltlich angemessene kohärente Texte, die sie aufgabenadäquat, konzeptgeleitet, adressaten- und zielorientiert, normgerecht, sprachlich variabel und stilistisch stimmig gestalten. Dabei schreiben sie entsprechend der jeweiligen Aufgabe in unterschiedlichen Textformen."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v36/b1/a4x",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "Schreibstrategien anwenden"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v36/b1/q2r",
+              "notation": [
+                "2.1.1"
+              ],
+              "prefLabel": {
+                "de": "Texte orthografisch und grammatisch korrekt sowie fachsprachlich präzise, prägnant und stilistisch angemessen verfassen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/r3h",
+              "notation": [
+                "2.1.2"
+              ],
+              "prefLabel": {
+                "de": "anspruchsvolle Aufgabenstellungen in konkrete Schreibziele und Schreibpläne überführen und komplexe Texte unter Beachtung von Textkonventionen eigenständig oder kooperativ strukturieren und dabei auch digitale Werkzeuge einsetzen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/d5a",
+              "notation": [
+                "2.1.3"
+              ],
+              "prefLabel": {
+                "de": "aus selbst recherchierten Informationsquellen Relevantes für die eigene Textproduktion auswählen und in geeigneter Form aufbereiten"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/g4a",
+              "notation": [
+                "2.1.4"
+              ],
+              "prefLabel": {
+                "de": "Textbelege und andere Quellen korrekt zitieren bzw. paraphrasieren"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/v5d",
+              "notation": [
+                "2.1.5"
+              ],
+              "prefLabel": {
+                "de": "Texte hinsichtlich inhaltlicher, funktionaler und stilistischer Kriterien ergebnisorientiert und im Hinblick auf die Geschlossenheit der Darstellung überarbeiten"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/e7s",
+              "notation": [
+                "2.1.6"
+              ],
+              "prefLabel": {
+                "de": "die Stadien ihrer Schreibprozesse und Kompetenzentwicklung dokumentieren und reflektieren"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v36/b1/e3y",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "In unterschiedlichen Textformen schreiben"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler nutzen Schreibstrategien für die Produktion komplexer informierender, erklärender und argumentierender sowie gestaltender Textformen selbstständig und aufgabenbezogen, auch für die Verwendung in digitalen Medien. Der Begriff der Textform zielt darauf ab, dass die Schülerinnen und Schüler gegebene Textmuster für die eigene Textproduktion verwenden."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v36/b1/f7q",
+              "notation": [
+                "2.2.1"
+              ],
+              "prefLabel": {
+                "de": "Informierend schreiben"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler informieren adressatenbezogen, zielorientiert und geordnet über Sachverhalte und Texte.\\\n\\\nDie Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/p2v",
+                  "notation": [
+                    "2.2.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "eigenes Wissen über literarische, sprachliche und andere Sachverhalte geordnet und differenziert darstellen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/g6g",
+                  "notation": [
+                    "2.2.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Aufbau, inhaltlichen Zusammenhang und sprachlich-stilistische Merkmale eines Textes selbstständig fachgerecht beschreiben"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/h6t",
+                  "notation": [
+                    "2.2.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Inhalte und Argumentationen komplexer Texte zusammenfassen, exzerpieren und referieren"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/h2p",
+              "notation": [
+                "2.2.2"
+              ],
+              "prefLabel": {
+                "de": "Erklärend und argumentierend schreiben"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler schreiben erklärend und argumentierend über strittige oder fragliche Sachverhalte unter Bezug auf literarische oder pragmatische Texte unterschiedlicher medialer Form und auf eigenes Wissen. Sie integrieren informierende Textpassagen in erklärende und argumentierende Textformen.\\\n\\\nDie Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/u7z",
+                  "notation": [
+                    "2.2.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "zu einem gegebenen komplexen Sachverhalt eine Untersuchungsfrage formulieren, die Auswahl der Untersuchungsaspekte begründen und den Untersuchungsgang skizzieren"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/e9q",
+                  "notation": [
+                    "2.2.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Schlussfolgerungen aus ihren Analysen, Vergleichen oder Diskussionen von Sachverhalten und Texten ziehen und die Ergebnisse in kohärenter Weise darstellen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/z9t",
+                  "notation": [
+                    "2.2.2.3"
+                  ],
+                  "prefLabel": {
+                    "de": "eigene Interpretationsansätze zu literarischen Texten entwickeln und diese argumentativ-erklärend darstellen, auch unter Berücksichtigung von Ideengehalt, gattungs- und epochenspezifischen Merkmalen sowie literaturtheoretischen Ansätzen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/c5v",
+                  "notation": [
+                    "2.2.2.4"
+                  ],
+                  "prefLabel": {
+                    "de": "bei der Auseinandersetzung mit Texten deren historische, kulturelle, philosophische, politische oder weltanschauliche Bezüge, auch in ihrer Relevanz für die Arbeitswelt, verdeutlichen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/y7x",
+                  "notation": [
+                    "2.2.2.5"
+                  ],
+                  "prefLabel": {
+                    "de": "zu fachlich strittigen Sachverhalten und Texten differenzierte Argumentationen entwerfen, diese strukturiert entfalten und die Prämissen ihrer Argumentationen reflektieren"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/g6p",
+                  "notation": [
+                    "2.2.2.6"
+                  ],
+                  "prefLabel": {
+                    "de": "in Anlehnung an journalistische, populärwissenschaftliche oder medienspezifische Textformen eigene Texte schreiben"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/q2d",
+                  "notation": [
+                    "2.2.2.7"
+                  ],
+                  "prefLabel": {
+                    "de": "wissenschaftspropädeutische Texte, zum Beispiel Fach- oder Seminararbeiten, planen, strukturieren, verfassen und überarbeiten"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/c4b",
+              "notation": [
+                "2.2.3"
+              ],
+              "prefLabel": {
+                "de": "Gestaltend schreiben"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler halten eigene Ideen, Fragestellungen, Ergebnisse von Textanalysen und -interpretationen in kreativ gestalteten Texten fest.\\\n\\\nDie Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/r2x",
+                  "notation": [
+                    "2.2.3.1"
+                  ],
+                  "prefLabel": {
+                    "de": "nach literarischen oder nicht-literarischen Vorlagen Texte neu, um- oder weiterschreiben, die Korrespondenz von Vorlage und eigenem Text beachten und dabei ein ästhetisches Ausdrucksvermögen entfalten"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/y5f",
+                  "notation": [
+                    "2.2.3.2"
+                  ],
+                  "prefLabel": {
+                    "de": "ästhetische, epistemische, reflexive Textformen wie Essay, Tagebuch, Gedicht, Brief zur Selbstreflexion, Wissensbildung und Entfaltung des ästhetischen Ausdrucksvermögens in literarischen oder pragmatischen Zusammenhängen verwenden"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/h7c",
+                  "notation": [
+                    "2.2.3.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Texte für unterschiedliche Medien gestaltend schreiben"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v36/b1/d4f",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Lesen"
+      },
+      "definition": {
+        "de": "Die Schülerinnen und Schüler sind in der Lage, selbstständig Strategien und Techniken zur Erschließung von linearen und nichtlinearen Texten unterschiedlicher medialer Form anzuwenden und zu reflektieren. Lesend erweitern sie ihr kulturhistorisches und domänenspezifisches Orientierungswissen und bewältigen dabei umfangreiche und komplexe Texte.\n\nDie Schülerinnen und Schüler können"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v36/b1/h7e",
+          "notation": [
+            "3.1"
+          ],
+          "prefLabel": {
+            "de": "den komplexen Zusammenhang zwischen Teilaspekten und dem Textganzen erschließen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v36/b1/g4b",
+          "notation": [
+            "3.2"
+          ],
+          "prefLabel": {
+            "de": "aus anspruchsvollen Aufgabenstellungen angemessene Leseziele ableiten und diese für die Textrezeption nutzen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v36/b1/e9e",
+          "notation": [
+            "3.3"
+          ],
+          "prefLabel": {
+            "de": "im Leseprozess ihre auf unterschiedlichen Interpretations- und Analyseverfahren beruhenden Verstehensentwürfe überprüfen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v36/b1/v7u",
+          "notation": [
+            "3.4"
+          ],
+          "prefLabel": {
+            "de": "die Einsicht in die Vorläufigkeit ihrer Verstehensentwürfe zur kontinuierlichen Überarbeitung ihrer Hypothesen nutzen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v36/b1/b9a",
+          "notation": [
+            "3.5"
+          ],
+          "prefLabel": {
+            "de": "Verstehensbarrieren identifizieren und sie zum Anlass eines textnahen Lesens nehmen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v36/b1/f5f",
+          "notation": [
+            "3.6"
+          ],
+          "prefLabel": {
+            "de": "Kontextwissen heranziehen, um Verstehensbarrieren zu überwinden"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v36/b1/x5e",
+          "notation": [
+            "3.7"
+          ],
+          "prefLabel": {
+            "de": "Rückschlüsse aus der medialen Präsentation und Verbreitungsform eines Textes ziehen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v36/b1/c9e",
+          "notation": [
+            "3.8"
+          ],
+          "prefLabel": {
+            "de": "Geltungsansprüche von Texten reflektieren und das Ergebnis in das Textverstehen einbeziehen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v36/b1/a5p",
+          "notation": [
+            "3.9"
+          ],
+          "prefLabel": {
+            "de": "die Qualität von Textinformationen vor dem Hintergrund ihres fachlichen Wissens prüfen und beurteilen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v36/b1/g5d",
+          "notation": [
+            "3.10"
+          ],
+          "prefLabel": {
+            "de": "ihr Fach- und Weltwissen flexibel einsetzen, um das Textverständnis zu vertiefen und die Relevanz des Gelesenen einzuschätzen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v36/b1/e6q",
+          "notation": [
+            "3.11"
+          ],
+          "prefLabel": {
+            "de": "sich in der Anschlusskommunikation über eigene und fremde Verstehensvoraussetzungen verständigen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v36/b1/y7q",
+          "notation": [
+            "3.12"
+          ],
+          "prefLabel": {
+            "de": "im Leseprozess ihr fachliches Wissen selbstständig zur Erschließung und Nutzung voraussetzungsreicher Texte heranziehen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v36/b1/t2q",
+      "notation": [
+        "4"
+      ],
+      "prefLabel": {
+        "de": "Sich mit Texten und Medien auseinandersetzen"
+      },
+      "definition": {
+        "de": "Die Schülerinnen und Schüler erschließen sich literarische und pragmatische Texte unterschiedlicher medialer Form unter reflektierter Nutzung von fachlichem Wissen."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v36/b1/f3p",
+          "notation": [
+            "4.1"
+          ],
+          "prefLabel": {
+            "de": "Sich mit literarischen Texten auseinandersetzen"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler erschließen sich literarische Texte von der Aufklärung bis zur Gegenwart und verstehen das Ästhetische als eine spezifische Weise der Wahrnehmung, der Gestaltung und der Erkenntnis. Sie verfügen über ein literaturgeschichtliches und poetologisches Überblickswissen, das Werke aller Gattungen umfasst, und stellen Zusammenhänge zwischen literarischer Tradition und Gegenwartsliteratur auch unter interkulturellen Gesichtspunkten her."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v36/b1/p2x",
+              "notation": [
+                "4.1.1"
+              ],
+              "prefLabel": {
+                "de": "Grundlegendes Niveau"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/g7g",
+                  "notation": [
+                    "4.1.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Inhalt, Aufbau und sprachliche Gestaltung literarischer Texte analysieren, Sinnzusammenhänge zwischen einzelnen Einheiten dieser Texte herstellen und sie als Geflechte innerer Bezüge und Abhängigkeiten erfassen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/e9y",
+                  "notation": [
+                    "4.1.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "eigenständig ein Textverständnis formulieren, in das sie persönliche Leseerfahrungen und alternative Lesarten des Textes einbeziehen, und auf der Basis eigener Analyseergebnisse begründen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/r9g",
+                  "notation": [
+                    "4.1.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "ihr Textverständnis argumentativ durch gattungspoetologische und literaturgeschichtliche Kenntnisse über die Literaturepochen von der Aufklärung bis zur Gegenwart stützen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/r7v",
+                  "notation": [
+                    "4.1.1.4"
+                  ],
+                  "prefLabel": {
+                    "de": "relevante Motive, Themen und Strukturen literarischer Schriften, die auch über Barock und Mittelalter bis in die Antike zurückreichen können, vergleichen und in ihre Texterschließung einbeziehen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/f2g",
+                  "notation": [
+                    "4.1.1.5"
+                  ],
+                  "prefLabel": {
+                    "de": "Mehrdeutigkeit als konstitutives Merkmal literarischer Texte nachweisen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/s7y",
+                  "notation": [
+                    "4.1.1.6"
+                  ],
+                  "prefLabel": {
+                    "de": "literarische Texte aller Gattungen als Produkte künstlerischer Gestaltung erschließen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/d9p",
+                  "notation": [
+                    "4.1.1.7"
+                  ],
+                  "prefLabel": {
+                    "de": "die besondere ästhetische Qualität eines literarischen Produktes aufgrund eines breit angelegten literarischen Vorwissens erfassen und ihre Befunde in das Textverständnis einbeziehen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/h2u",
+                  "notation": [
+                    "4.1.1.8"
+                  ],
+                  "prefLabel": {
+                    "de": "diachrone und synchrone Zusammenhänge zwischen literarischen Texten ermitteln und Bezüge zu weiteren Kontexten herstellen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/d5h",
+                  "notation": [
+                    "4.1.1.9"
+                  ],
+                  "prefLabel": {
+                    "de": "die in literarischen Werken enthaltenen Herausforderungen und Fremdheitserfahrungen kritisch zu eigenen Wertvorstellungen, Welt- und Selbstkonzepten in Beziehung setzen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/c5h",
+                  "notation": [
+                    "4.1.1.10"
+                  ],
+                  "prefLabel": {
+                    "de": "literarische Texte auf der Basis von nachvollziehbaren, sachlich fundierten Kriterien bewerten und dabei auch textexterne Bezüge wie Produktions-, Rezeptions- und Wirkungsbedingungen berücksichtigen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/c9p",
+                  "notation": [
+                    "4.1.1.11"
+                  ],
+                  "prefLabel": {
+                    "de": "kreativ Texte im Sinne literarischen Probehandelns gestalten"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/s4z",
+              "notation": [
+                "4.1.2"
+              ],
+              "prefLabel": {
+                "de": "Erhöhtes Niveau"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können darüber hinaus"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/x3t",
+                  "notation": [
+                    "4.1.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "den besonderen poetischen Anspruch und die ästhetische Qualität literarischer Texte vor dem Hintergrund ihrer Kenntnisse in den Bereichen Poetologie und Ästhetik erläutern"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/u5e",
+                  "notation": [
+                    "4.1.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Kenntnisse wissenschaftlicher Sekundärtexte, philosophischer Schriften und historischer Abhandlungen in die Kontextualisierung literarischer Werke einbeziehen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/p5g",
+                  "notation": [
+                    "4.1.2.3"
+                  ],
+                  "prefLabel": {
+                    "de": "in ihre Erörterung der in literarischen Werken enthaltenen Herausforderungen und Fremdheitserfahrungen geistes-, kultur- und sozialgeschichtliche Entwicklungen einbeziehen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/e2r",
+                  "notation": [
+                    "4.1.2.4"
+                  ],
+                  "prefLabel": {
+                    "de": "ihre literarischen Wertungen differenziert begründen und dabei auf ihr größeres und komplexeres Kontextwissen zurückgreifen"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v36/b1/u5h",
+          "notation": [
+            "4.2"
+          ],
+          "prefLabel": {
+            "de": "Sich mit pragmatischen Texten auseinandersetzen"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler nutzen für den eigenen Erkenntnisprozess vielschichtige, voraussetzungsreiche Sachtexte, darunter auch wissenschaftsnahe und berufsbezogene Fachtexte aus unterschiedlichen Domänen. Sie erschließen, analysieren und beurteilen Gehalt, Kontext und Wirkungsabsicht pragmatischer Texte."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v36/b1/c9a",
+              "notation": [
+                "4.2.1"
+              ],
+              "prefLabel": {
+                "de": "Grundlegendes Niveau"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/q3c",
+                  "notation": [
+                    "4.2.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "den inhaltlichen Zusammenhang voraussetzungsreicher Texte sichern und diese Texte terminologisch präzise und sachgerecht zusammenfassen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/t4q",
+                  "notation": [
+                    "4.2.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "ein umfassendes, Textfunktionen, Situationen und Adressaten beachtendes Textverständnis formulieren"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/d9b",
+                  "notation": [
+                    "4.2.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "die in pragmatischen Texten enthaltenen sprachlichen Handlungen ermitteln"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/t2d",
+                  "notation": [
+                    "4.2.1.4"
+                  ],
+                  "prefLabel": {
+                    "de": "die Funktionen eines pragmatischen Textes bestimmen und dessen mögliche Wirkungsabsichten beurteilen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/y4b",
+                  "notation": [
+                    "4.2.1.5"
+                  ],
+                  "prefLabel": {
+                    "de": "die sprachlich-stilistische Gestaltung eines pragmatischen Textes fachgerecht beschreiben und deren Wirkungsweise erläutern"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/p6z",
+                  "notation": [
+                    "4.2.1.6"
+                  ],
+                  "prefLabel": {
+                    "de": "Elemente der Textgestaltung einschließlich nichtsprachlicher Bestandteile in ihrer Funktion analysieren"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/z4c",
+                  "notation": [
+                    "4.2.1.7"
+                  ],
+                  "prefLabel": {
+                    "de": "zielgerichtet Zusammenhänge zu weiteren ihnen bekannten Texten herstellen und hierfür passende Wissensbestände aktivieren"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/q3r",
+                  "notation": [
+                    "4.2.1.8"
+                  ],
+                  "prefLabel": {
+                    "de": "themengleiche Texte methodisch fachgerecht vergleichen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/u9y",
+                  "notation": [
+                    "4.2.1.9"
+                  ],
+                  "prefLabel": {
+                    "de": "sich mittels pragmatischer Texte mit den eigenen Welt- und Wertvorstellungen, auch in einer interkulturellen Perspektive, auseinandersetzen"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/a9u",
+              "notation": [
+                "4.2.2"
+              ],
+              "prefLabel": {
+                "de": "Erhöhtes Niveau"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können darüber hinaus"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/e6t",
+                  "notation": [
+                    "4.2.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "die Zuordnung von Texten zu Textformen2 und Textsorten reflektieren"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/b3b",
+                  "notation": [
+                    "4.2.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "die in argumentativen Texten enthaltenen Argumentationsstrukturen theoriegestützt analysieren"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/a2v",
+                  "notation": [
+                    "4.2.2.3"
+                  ],
+                  "prefLabel": {
+                    "de": "die Beziehung zwischen pragmatischen Texten und ihren Produktionsbedingungen ermitteln"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v36/b1/t6t",
+          "notation": [
+            "4.3"
+          ],
+          "prefLabel": {
+            "de": "Sich mit Texten unterschiedlicher medialer Form und Theaterinszenierungen auseinandersetzen"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler analysieren die spezifische Gestaltung von Texten unterschiedlicher medialer Form, erläutern ihre Wirkung und beurteilen die ästhetische Qualität. Sie setzen sich fachgerecht mit exemplarischen Theaterinszenierungen, Hörtexten und Filmen auseinander."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v36/b1/h3g",
+              "notation": [
+                "4.3.1"
+              ],
+              "prefLabel": {
+                "de": "Grundlegendes Niveau"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/y2a",
+                  "notation": [
+                    "4.3.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Theaterinszenierungen und Literaturverfilmungen als Textinterpretationen erfassen und beurteilen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/v6s",
+                  "notation": [
+                    "4.3.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Theaterinszenierungen, Hörtexte und Filme sachgerecht analysieren"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/r3f",
+                  "notation": [
+                    "4.3.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "eigene Hörtexte, Filme oder andere audiovisuelle Präsentationsformen erstellen bzw. Textvorlagen szenisch umsetzen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/f5u",
+                  "notation": [
+                    "4.3.1.4"
+                  ],
+                  "prefLabel": {
+                    "de": "sich bei der Rezeption oder Produktion von Hörtexten und Filmen und bei der Rezeption von Theaterinszenierungen mit den eigenen Welt- und Wertvorstellungen, auch in einer interkulturellen Perspektive, auseinandersetzen"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/y5a",
+              "notation": [
+                "4.3.2"
+              ],
+              "prefLabel": {
+                "de": "Erhöhtes Niveau"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können darüber hinaus"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/r9u",
+                  "notation": [
+                    "4.3.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "die ästhetische Qualität von Theaterinszenierungen, Hörtexten oder Filmen beurteilen, auch vor dem Hintergrund ihrer kulturellen und historischen Dimension"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v36/b1/p9d",
+                  "notation": [
+                    "4.3.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "sich mit Filmkritik und Aspekten der Filmtheorie auseinandersetzen"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v36/b1/z5p",
+      "notation": [
+        "5"
+      ],
+      "prefLabel": {
+        "de": "Sprache und Sprachgebrauch reflektieren"
+      },
+      "definition": {
+        "de": "Die Schülerinnen und Schüler analysieren Sprache als System und als historisch gewordenes Kommunikationsmedium und erweitern so ihr Sprachwissen und ihre Sprachbewusstheit. Sie nutzen beides für die mündliche und schriftliche Kommunikation."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v36/b1/t4e",
+          "notation": [
+            "5.1"
+          ],
+          "prefLabel": {
+            "de": "Grundlegendes Niveau"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v36/b1/h4x",
+              "notation": [
+                "5.1.1"
+              ],
+              "prefLabel": {
+                "de": "ein grundlegendes Verständnis der kognitiven und kommunikativen Funktion von Sprache formulieren"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/p2p",
+              "notation": [
+                "5.1.2"
+              ],
+              "prefLabel": {
+                "de": "sprachliche Äußerungen kriterienorientiert analysieren und ihre Einsichten in der Auseinandersetzung mit Texten und Sachverhalten dokumentieren"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/v7p",
+              "notation": [
+                "5.1.3"
+              ],
+              "prefLabel": {
+                "de": "sprachliche Strukturen und Bedeutungen auf der Basis eines gesicherten Grammatikwissens und semantischer Kategorien erläutern"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/h2z",
+              "notation": [
+                "5.1.4"
+              ],
+              "prefLabel": {
+                "de": "Strukturen und Funktionen von Sprachvarietäten beschreiben"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/z9a",
+              "notation": [
+                "5.1.5"
+              ],
+              "prefLabel": {
+                "de": "Bedingungen gelingender Kommunikation analysieren, auch auf der Basis theoretischer Modelle"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/z6a",
+              "notation": [
+                "5.1.6"
+              ],
+              "prefLabel": {
+                "de": "verbale, paraverbale und nonverbale Gestaltungsmittel in unterschiedlichen kommunikativen Zusammenhängen analysieren, ihre Funktion beschreiben und ihre Angemessenheit bewerten"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/h7p",
+              "notation": [
+                "5.1.7"
+              ],
+              "prefLabel": {
+                "de": "verbale, paraverbale und nonverbale Signale für Macht- und Dominanzverhältnisse identifizieren"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/y5p",
+              "notation": [
+                "5.1.8"
+              ],
+              "prefLabel": {
+                "de": "sprachliche Handlungen kriterienorientiert in authentischen und fiktiven Kommunikationssituationen bewerten"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/b7a",
+              "notation": [
+                "5.1.9"
+              ],
+              "prefLabel": {
+                "de": "Auswirkungen der Sprachenvielfalt und der Mehrsprachigkeit analysieren"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/q3f",
+              "notation": [
+                "5.1.10"
+              ],
+              "prefLabel": {
+                "de": "auf der Grundlage sprachkritischer Texte Entwicklungstendenzen der Gegenwartssprache beschreiben und bewerten"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/t9x",
+              "notation": [
+                "5.1.11"
+              ],
+              "prefLabel": {
+                "de": "persuasive und manipulative Strategien in öffentlichen Bereichen analysieren und sie kritisch bewerten"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v36/b1/r5s",
+          "notation": [
+            "5.2"
+          ],
+          "prefLabel": {
+            "de": "Erhöhtes Niveau"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können darüber hinaus"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v36/b1/x2c",
+              "notation": [
+                "5.2.1"
+              ],
+              "prefLabel": {
+                "de": "sprachphilosophische Positionen zur Analyse von Sprache und Kommunikation heranziehen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/y6p",
+              "notation": [
+                "5.2.2"
+              ],
+              "prefLabel": {
+                "de": "sprachliche Handlungen in authentischen und fiktiven Kommunikationssituationen theoriegestützt beschreiben"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/s5z",
+              "notation": [
+                "5.2.3"
+              ],
+              "prefLabel": {
+                "de": "Phänomene des Sprachwandels und des Spracherwerbs theoriegestützt beschreiben"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v36/b1/r3p",
+              "notation": [
+                "5.2.4"
+              ],
+              "prefLabel": {
+                "de": "in geeigneten Nutzungszusammenhängen mit grammatischen und semantischen Kategorien argumentieren"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,145 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v26/nb/>. 
+@prefix n1: <https://w3id.org/iqb/v26/nb/>. 
+
+n1:e6g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:x5r;
+	skos:prefLabel "A1.1"@de.
+n1:y9q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:x5r;
+	skos:prefLabel "A1.2"@de.
+n1:x5r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "A1"@de;
+	skos:narrower 
+		n1:e6g,
+		n1:y9q.
+n1:q4g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:g4v;
+	skos:prefLabel "A2.1"@de.
+n1:f3v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:g4v;
+	skos:prefLabel "A2.2"@de.
+n1:g4v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "A2"@de;
+	skos:narrower 
+		n1:q4g,
+		n1:f3v.
+n1:x9x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n1:a4q;
+	skos:prefLabel "B1.1"@de.
+n1:v4p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2";
+	skos:broader n1:a4q;
+	skos:prefLabel "B1.2"@de.
+n1:a4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "B1"@de;
+	skos:narrower 
+		n1:x9x,
+		n1:v4p.
+n1:g5v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1";
+	skos:broader n1:q3e;
+	skos:prefLabel "B2.1"@de.
+n1:q6b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2";
+	skos:broader n1:q3e;
+	skos:prefLabel "B2.2"@de.
+n1:q3e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "B2"@de;
+	skos:narrower 
+		n1:g5v,
+		n1:q6b.
+n1:r5v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1";
+	skos:broader n1:q7z;
+	skos:prefLabel "C1.1"@de.
+n1:a4g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.2";
+	skos:broader n1:q7z;
+	skos:prefLabel "C1.2"@de.
+n1:q7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5";
+	skos:topConceptOf n0:;
+	skos:prefLabel "C1"@de;
+	skos:narrower 
+		n1:r5v,
+		n1:a4g.
+n1:b6r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.1";
+	skos:broader n1:v2p;
+	skos:prefLabel "C2.1"@de.
+n1:d9g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.2";
+	skos:broader n1:v2p;
+	skos:prefLabel "C2.2"@de.
+n1:v2p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6";
+	skos:topConceptOf n0:;
+	skos:prefLabel "C2"@de;
+	skos:narrower 
+		n1:b6r,
+		n1:d9g.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Allgemeine Kompetenzen Fremdsprachen - Niveaustufe Bista"@de;
+	dc:title "Allgemeine Kompetenzen Fremdsprachen - Niveaustufe Bista"@de;
+	dc:description "Allgemeine Kompetenzen Fremdsprachen - Niveaustufe Bista"@de;
+	skos:hasTopConcept
+		n1:x5r,
+		n1:g4v,
+		n1:a4q,
+		n1:q3e,
+		n1:q7z,
+		n1:v2p.

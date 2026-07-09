@@ -1,0 +1,889 @@
+{
+  "id": "https://w3id.org/iqb/v59/f1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Fremdsprachen Sek II 2012 - Funktionale kommunikative Kompetenz"
+  },
+  "description": {
+    "de": "Am Ende der gymnasialen Oberstufe wird von Schülerinnen und Schülern im Bereich der funktionalen kommunikativen Kompetenz das Niveau B2 des GeR (Englisch: in rezeptiven Teilkompetenzen auch das Niveau C1) erwartet. Sprachlicher Orientierungspunkt sind Standardsprache(n) sowie Register, Varietäten und Akzente, deren Färbung ein Verstehen nicht generell behindert. In den Bildungsstandards werden die Teilkompetenzen der funktionalen kommunikativen Kompetenz nach dem Muster des GeR jeweils getrennt aufgeführt. In der Sprachverwendung kommen die einzelnen Kompetenzen hingegen vorwiegend integrativ zum Tragen. Die Schülerinnen und Schüler bringen situationsangemessen thematisches Wissen und interkulturelle Kompetenz ein. \n\nZu differenziertem kommunikativem Sprachhandeln gehört der angemessene Gebrauch sprachlicher Mittel – Wortschatz, Grammatik, Aussprache, Prosodie und Orthografie – und kommunikativer Strategien. Sprachliche Mittel und kommunikative Strategien haben in allen Kompetenzbereichen dienende Funktion. Die kommunikativen Strategien sind jeweils bei den sprachlichen Teilkompetenzen mitberücksichtigt, die sprachlichen Mittel im Anschluss an die funktionalen kommunikativen Teilkompetenzen dargestellt."
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v59/f1/y9x",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Hör-/Hörsehverstehen"
+      },
+      "definition": {
+        "de": "Die Schülerinnen und Schüler können authentische Hör- und Hörsehtexte verstehen, sofern repräsentative Varietäten der Zielsprache gesprochen werden. Sie können dabei Hauptaussagen und Einzelinformationen entnehmen und diese Informationen in thematische Zusammenhänge einordnen."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v59/f1/d6b",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "Grundlegendes Niveau"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v59/f1/z9c",
+              "notation": [
+                "1.1.1"
+              ],
+              "prefLabel": {
+                "de": "einem Hör- bzw. Hörsehtext die Hauptaussagen oder Einzelinformationen entsprechend der Hör- bzw. Hörseh-Absicht entnehmen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/a4b",
+              "notation": [
+                "1.1.2"
+              ],
+              "prefLabel": {
+                "de": "textinterne Informationen und textexternes Wissen kombinieren"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/r5b",
+              "notation": [
+                "1.1.3"
+              ],
+              "prefLabel": {
+                "de": "in Abhängigkeit von der jeweiligen Hör-/Hörseh-Absicht Rezeptionsstrategien anwenden"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/q2f",
+              "notation": [
+                "1.1.4"
+              ],
+              "prefLabel": {
+                "de": "angemessene Strategien zur Lösung von Verständnisproblemen einsetzen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/x9a",
+              "notation": [
+                "1.1.5"
+              ],
+              "prefLabel": {
+                "de": "Stimmungen und Einstellungen der Sprechenden erfassen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/t5a",
+              "notation": [
+                "1.1.6"
+              ],
+              "prefLabel": {
+                "de": "gehörte und gesehene Informationen aufeinander beziehen und in ihrem kulturellen Zusammenhang verstehen"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f1/s4q",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "Erhöhtes Niveau"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können darüber hinaus"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v59/f1/f6h",
+              "notation": [
+                "1.2.1"
+              ],
+              "prefLabel": {
+                "de": "(Englisch: komplexe) Hör- und Hörsehtexte auch zu wenig vertrauten Themen erschließen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/g4b",
+              "notation": [
+                "1.2.2"
+              ],
+              "prefLabel": {
+                "de": "implizite Informationen erkennen und einordnen und deren Wirkung interpretieren"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/h2y",
+              "notation": [
+                "1.2.3"
+              ],
+              "prefLabel": {
+                "de": "implizite Einstellungen oder Beziehungen zwischen Sprechenden erfassen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/s7t",
+              "notation": [
+                "1.2.4"
+              ],
+              "prefLabel": {
+                "de": "Hör- und Hörsehtexte (Französisch: im Wesentlichen) verstehen, auch wenn schnell gesprochen oder nicht Standardsprache verwendet wird"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/a9f",
+              "notation": [
+                "1.2.5"
+              ],
+              "prefLabel": {
+                "de": "(Englisch) einem Hör- bzw. Hörsehtext die Hauptaussagen oder Einzelinformationen entsprechend der Hör- bzw. Hörseh-Absicht entnehmen, auch wenn Hintergrundgeräusche oder die Art der Wiedergabe das Verstehen beeinflussen"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v59/f1/d2t",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Leseverstehen"
+      },
+      "definition": {
+        "de": "Die Schülerinnen und Schüler können authentische Texte auch zu abstrakteren Themen verstehen. Sie können ein umfassendes Textverständnis aufbauen, indem sie Hauptaussagen und Einzelinformationen entnehmen, diese Informationen in thematische Zusammenhänge einordnen, gezielt textinterne Informationen und externes Wissen heranziehen und auch wichtige implizite Aussagen erschließen."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v59/f1/d2x",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "Grundlegendes Niveau"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v59/f1/t2d",
+              "notation": [
+                "2.1.1"
+              ],
+              "prefLabel": {
+                "de": "Texte unterschiedlicher Textsorten und Entstehungszeiten erschließen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/c4a",
+              "notation": [
+                "2.1.2"
+              ],
+              "prefLabel": {
+                "de": "explizite und implizite Aussagen von Texten sowie deren Wirkungspotenzial erkennen und einschätzen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/f7y",
+              "notation": [
+                "2.1.3"
+              ],
+              "prefLabel": {
+                "de": "Texte und Textteile mit Bezug auf ein spezifisches Leseziel auswählen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/f3q",
+              "notation": [
+                "2.1.4"
+              ],
+              "prefLabel": {
+                "de": "der Leseabsicht entsprechende Rezeptionsstrategien selbstständig anwenden"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/p2v",
+              "notation": [
+                "2.1.5"
+              ],
+              "prefLabel": {
+                "de": "die Hauptaussagen und deren unterstützende sprachliche und / oder inhaltliche Einzelinformationen erfassen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/h2a",
+              "notation": [
+                "2.1.6"
+              ],
+              "prefLabel": {
+                "de": "die inhaltliche Struktur eines Textes nachvollziehen und Gestaltungsmerkmale in ihrer Wirkung erfassen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/z5d",
+              "notation": [
+                "2.1.7"
+              ],
+              "prefLabel": {
+                "de": "die Absicht und Wirkung von Texten in deren zielkulturellen Zusammenhängen erkennen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/c3g",
+              "notation": [
+                "2.1.8"
+              ],
+              "prefLabel": {
+                "de": "mehrfach kodierte Texte und Textteile, z. B. in Werbeanzeigen, Plakaten, Flugblättern, aufeinander beziehen und in ihrer Einzel- und Gesamtaussage erkennen, analysieren und bewerten"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f1/a3h",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "Erhöhtes Niveau"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können darüber hinaus"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v59/f1/q6s",
+              "notation": [
+                "2.2.1"
+              ],
+              "prefLabel": {
+                "de": "selbstständig (Englisch: komplexe) Texte unterschiedlicher Textsorten und Entstehungszeiten auch zu wenig vertrauten Themen erschließen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/z7r",
+              "notation": [
+                "2.2.2"
+              ],
+              "prefLabel": {
+                "de": "die inhaltliche Struktur von komplexen Texten erkennen und dabei Gestaltungsmerkmale in ihrer Funktion und Wirkung analysieren"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/r5x",
+              "notation": [
+                "2.2.3"
+              ],
+              "prefLabel": {
+                "de": "die Wirkung von Texten in deren zielkulturellen Zusammenhängen analysieren"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v59/f1/b7f",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": " Sprechen"
+      },
+      "definition": {
+        "de": "An Gesprächen teilnehmen\\\n\\\nDie Schülerinnen und Schüler können sich weitgehend flüssig, sprachlich korrekt und adressatengerecht sowie situationsangemessen an Gesprächen beteiligen. Sie sind bereit und in der Lage, in einer gegebenen Sprechsituation zu interagieren, auch wenn abstrakte und in einzelnen Fällen weniger vertraute Themen behandelt werden."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v59/f1/u2d",
+          "notation": [
+            "3.1"
+          ],
+          "prefLabel": {
+            "de": "Grundlegendes Niveau"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v59/f1/d6y",
+              "notation": [
+                "3.1.1"
+              ],
+              "prefLabel": {
+                "de": "ein adressatengerechtes und situationsangemessenes Gespräch in der Fremdsprache führen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/d9d",
+              "notation": [
+                "3.1.2"
+              ],
+              "prefLabel": {
+                "de": "verbale und nicht-verbale Gesprächskonventionen situationsangemessen anwenden, um z. B. ein Gespräch oder eine Diskussion zu eröffnen, auf Aussagen anderer Sprecher einzugehen, sich auf Gesprächspartner einzustellen und ein Gespräch zu beenden"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/x5r",
+              "notation": [
+                "3.1.3"
+              ],
+              "prefLabel": {
+                "de": "angemessene kommunikative Strategien bewusst einsetzen, um mit Nichtverstehen und Missverständnissen umzugehen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/h4g",
+              "notation": [
+                "3.1.4"
+              ],
+              "prefLabel": {
+                "de": "sich zu vertrauten Themen aktiv an Diskussionen beteiligen sowie eigene Positionen vertreten"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/x9u",
+              "notation": [
+                "3.1.5"
+              ],
+              "prefLabel": {
+                "de": "in informellen und formellen Situationen persönliche Meinungen unter Beachtung kultureller Gesprächskonventionen ausdrücken und begründen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/e9h",
+              "notation": [
+                "3.1.6"
+              ],
+              "prefLabel": {
+                "de": "zu aktuell bedeutsamen Sachverhalten in Gesprächen oder Diskussionen Stellung nehmen"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f1/h6e",
+          "notation": [
+            "3.2"
+          ],
+          "prefLabel": {
+            "de": "Erhöhtes Niveau"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können darüber hinaus"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v59/f1/e3q",
+              "notation": [
+                "3.2.1"
+              ],
+              "prefLabel": {
+                "de": "sich an Diskussionen zu weniger vertrauten Themen aktiv beteiligen, auf differenzierte Äußerungen anderer angemessen reagieren sowie eigene Positionen vertreten"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/c9g",
+              "notation": [
+                "3.2.2"
+              ],
+              "prefLabel": {
+                "de": "ein adressatengerechtes und situationsangemessenes Gespräch in der Fremdsprache führen und sich dabei spontan und weitgehend flüssig äußern"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/f5y",
+              "notation": [
+                "3.2.3"
+              ],
+              "prefLabel": {
+                "de": "zu aktuellen wie generell bedeutsamen Sachverhalten Stellung nehmen und in Diskussionen ggf. verschiedene Positionen sprachlich differenziert formulieren"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v59/f1/u9g",
+      "notation": [
+        "4"
+      ],
+      "prefLabel": {
+        "de": "Schreiben"
+      },
+      "definition": {
+        "de": "Die Schülerinnen und Schüler können Texte zu einem breiten Spektrum von Themen des fachlichen und persönlichen Interesses adressatengerecht und textsortenspezifisch verfassen. Sie verfügen über Techniken und Strategien des formellen, informellen und kreativen Schreibens."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v59/f1/g2t",
+          "notation": [
+            "4.1"
+          ],
+          "prefLabel": {
+            "de": "Grundlegendes Niveau"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v59/f1/s2y",
+              "notation": [
+                "4.1.1"
+              ],
+              "prefLabel": {
+                "de": "Schreibprozesse selbstständig planen, umsetzen und reflektieren"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/f5x",
+              "notation": [
+                "4.1.2"
+              ],
+              "prefLabel": {
+                "de": "Texte in formeller oder persönlich-informeller Sprache verfassen und dabei wesentliche Konventionen der jeweiligen Textsorten beachten"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/a2z",
+              "notation": [
+                "4.1.3"
+              ],
+              "prefLabel": {
+                "de": "Informationen strukturiert und kohärent vermitteln"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/s6h",
+              "notation": [
+                "4.1.4"
+              ],
+              "prefLabel": {
+                "de": "sich argumentativ mit unterschiedlichen Positionen auseinandersetzen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/v5c",
+              "notation": [
+                "4.1.5"
+              ],
+              "prefLabel": {
+                "de": "Texte zu literarischen und nicht-literarischen Textvorlagen verfassen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/z2y",
+              "notation": [
+                "4.1.6"
+              ],
+              "prefLabel": {
+                "de": "eigene kreative Texte verfassen, ggf. in Anbindung an eine Textvorlage"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/x9z",
+              "notation": [
+                "4.1.7"
+              ],
+              "prefLabel": {
+                "de": "Textsorten zielorientiert in eigenen Textproduktionen situationsangemessen verwenden"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/d4h",
+              "notation": [
+                "4.1.8"
+              ],
+              "prefLabel": {
+                "de": "diskontinuierliche Vorlagen in kontinuierliche Texte umschreiben"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f1/t4b",
+          "notation": [
+            "4.2"
+          ],
+          "prefLabel": {
+            "de": "Erhöhtes Niveau"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können darüber hinaus"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v59/f1/z4s",
+              "notation": [
+                "4.2.1"
+              ],
+              "prefLabel": {
+                "de": "aus einem breiten Spektrum eine Textsorte auswählen, in eigenen Textproduktionen situationsangemessen und adressatengerecht umsetzen und dabei die Konventionen der jeweiligen Textsorte beachten"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/v2s",
+              "notation": [
+                "4.2.2"
+              ],
+              "prefLabel": {
+                "de": "bei der Textgestaltung funktionale Gesichtspunkte, z. B. Leserlenkung und Fokussierung, beachten"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/v4c",
+              "notation": [
+                "4.2.3"
+              ],
+              "prefLabel": {
+                "de": "literarische und nicht-literarische Textvorlagen transformieren, z. B. einen historischen Text in einen modernen Text umwandeln, einen Text mit fachsprachlichen Elementen für eine andere Zielgruppe adaptieren"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v59/f1/d5d",
+      "notation": [
+        "5"
+      ],
+      "prefLabel": {
+        "de": "Sprachmittlung"
+      },
+      "definition": {
+        "de": "Die Schülerinnen und Schüler können – auch unter Verwendung von Hilfsmitteln und Strategien – wesentliche Inhalte authentischer mündlicher oder schriftlicher Texte, auch zu weniger vertrauten Themen, in der jeweils anderen Sprache sowohl schriftlich als auch mündlich adressatengerecht und situationsangemessen für einen bestimmten Zweck wiedergeben."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v59/f1/d3q",
+          "notation": [
+            "5.1"
+          ],
+          "prefLabel": {
+            "de": "Grundlegendes Niveau"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können mündlich und schriftlicn"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v59/f1/e2q",
+              "notation": [
+                "5.1.1"
+              ],
+              "prefLabel": {
+                "de": "Informationen adressatengerecht und situationsangemessen in der jeweils anderen Sprache zusammenfassend wiedergeben"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/q6v",
+              "notation": [
+                "5.1.2"
+              ],
+              "prefLabel": {
+                "de": "interkulturelle Kompetenz und entsprechende kommunikative Strategien einsetzen, um adressatenrelevante Inhalte und Absichten in der jeweils anderen Sprache zu vermitteln"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/t7v",
+              "notation": [
+                "5.1.3"
+              ],
+              "prefLabel": {
+                "de": "bei der Vermittlung von Informationen gegebenenfalls auf Nachfragen eingehen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/p6t",
+              "notation": [
+                "5.1.4"
+              ],
+              "prefLabel": {
+                "de": "Inhalte unter Nutzung von Hilfsmitteln, wie z. B. Wörterbüchern, durch Kompensationsstrategien, wie z. B. Paraphrasieren, und gegebenenfalls Nutzung von Gestik und Mimik adressatengerecht und situationsangemessen sinngemäß übertragen"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f1/t5d",
+          "notation": [
+            "5.2"
+          ],
+          "prefLabel": {
+            "de": "Erhöhtes Niveau"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können darüber hinaus"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v59/f1/a3d",
+              "notation": [
+                "5.2.1"
+              ],
+              "prefLabel": {
+                "de": "für das Verstehen erforderliche Erläuterungen hinzufügen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v59/f1/s6f",
+              "notation": [
+                "5.2.2"
+              ],
+              "prefLabel": {
+                "de": "zur Bewältigung der Sprachmittlung kreativ mit den beteiligten Sprachen umgehen"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v59/f1/e4x",
+      "notation": [
+        "6"
+      ],
+      "prefLabel": {
+        "de": "Verfügen über sprachliche Mittel"
+      },
+      "definition": {
+        "de": "Die sprachlichen Mittel – Wortschatz, Grammatik, Aussprache, Prosodie und Orthografie – sind Kompetenz bildende, funktionale Bestandteile des sprachlichen Systems und der Kommunikation. Die sprachlichen Mittel haben grundsätzlich dienende Funktion, wobei die gelingende Kommunikation im Vordergrund steht. Die Schülerinnen und Schüler greifen bei der Sprachrezeption und -produktion auf ein breites Repertoire lexikalischer, grammatischer, textueller und diskursiver Strukturen zurück, um die Fremdsprache auch als Arbeitssprache in der Auseinandersetzung mit komplexen Sachverhalten zu verwenden.\\\n\\\nDie Schülerinnen und Schüler können"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v59/f1/e7y",
+          "notation": [
+            "6.1"
+          ],
+          "prefLabel": {
+            "de": "einen erweiterten allgemeinen und thematischen Wortschatz sowie einen Funktions- und Interpretationswortschatz nutzen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f1/x9c",
+          "notation": [
+            "6.2"
+          ],
+          "prefLabel": {
+            "de": "ihre lexikalischen Bestände kontextorientiert und vernetzt verwenden und dabei auch Wörter und Wendungen aus dem Bereich informeller mündlicher Sprachverwendung einsetzen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f1/p9r",
+          "notation": [
+            "6.3"
+          ],
+          "prefLabel": {
+            "de": "ein gefestigtes Repertoire der grundlegenden grammatischen Strukturen für die Realisierung ihrer Sprech- und Schreibabsichten nutzen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f1/r5y",
+          "notation": [
+            "6.4"
+          ],
+          "prefLabel": {
+            "de": "ein gefestigtes Repertoire typischer Aussprache- und Intonationsmuster verwenden und dabei eine meist klar verständliche Aussprache und angemessene Intonation zeigen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f1/y4a",
+          "notation": [
+            "6.5"
+          ],
+          "prefLabel": {
+            "de": "mit repräsentativen Varietäten der Standardsprache umgehen, wenn klar artikuliert gesprochen wird"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f1/a4g",
+          "notation": [
+            "6.6"
+          ],
+          "prefLabel": {
+            "de": "ihre erweiterten Kenntnisse zu den Regelmäßigkeiten der Orthografie und Zeichensetzung nutzen und ihren aktiven Wortschatz weitgehend regelkonform verwenden"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f1/c7g",
+          "notation": [
+            "6.7"
+          ],
+          "prefLabel": {
+            "de": "emotional markierte Sprache identifizieren und einschätzen und auf emotionale Äußerungen angemessen reagieren"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f1/c7c",
+          "notation": [
+            "6.8"
+          ],
+          "prefLabel": {
+            "de": "(Englisch: rezeptiv) sich auf repräsentative Varietäten einstellen, auch wenn nicht durchgehend artikuliert gesprochen wird"
+          }
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

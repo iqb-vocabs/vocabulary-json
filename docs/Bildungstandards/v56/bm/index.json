@@ -1,0 +1,215 @@
+{
+  "id": "https://w3id.org/iqb/v56/bm/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Fremdsprachen Sek I 2023 - MSA Sprachbewusstheit"
+  },
+  "description": {
+    "de": "Sprachbewusstheit beruht auf Wissen über Struktur und Gebrauch der Fremdsprache und anderer Sprachen. In mündlichen und schriftlichen Kommunikationsformen zeigt sich Sprachbewusstheit in der Fähigkeit der Beteiligten, ihre Mitteilungsabsichten sprachlich korrekt und pragmatisch angemessen zu gestalten. Bei der Rezeption von Texten ist Sprachbewusstheit notwendig, um über den Sprachgebrauch nachzudenken, Vergleiche anzustellen und die so gewonnenen Erkenntnisse beim Entwickeln des Textverständnisses zu nutzen. In interaktiven und auf die Produktion von Texten ausgerichteten kommunikativen Situationen ermöglicht die Sprachbewusstheit die Reflexion des (eigenen) Sprachhandelns. Die reflexive Dimension der Kompetenz ist von fundamentaler Bedeutung für das selbstgesteuerte Fremdsprachenlernen und die Entwicklung individueller Mehrsprachigkeit. \n\n Die Schülerinnen und Schüler können ihr Wissen über Struktur und Gebrauch der Fremdsprache und anderer Sprachen nutzen, um mündliche und schriftliche Kommunikationsformen situationsangemessen zu gestalten, auch wenn sie dabei bisweilen noch sprachliche Fehler machen. \n\n Die Schülerinnen und Schüler können"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v56/bm/d6g",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Hypothesen zu Regelmäßigkeiten des Gebrauchs sprachlicher Mittel formulieren."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v56/bm/z7d",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "einige sozial und regional geprägte Varietäten der Fremdsprache wahrnehmen und reflektieren."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v56/bm/p6v",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Mitteilungsabsichten in vertrauten mündlichen und schriftlichen Kommunikationsformen in der Regel selbständig situations-, adressaten- und zweckangemessen umsetzen."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v56/bm/u9g",
+      "notation": [
+        "4"
+      ],
+      "prefLabel": {
+        "de": "sprachliche Fehler im Bereich vertrauter morphologisch-syntaktischer und syntaktischer Regelungen in der Regel selbständig erkennen und korrigieren."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v56/bm/t7z",
+      "notation": [
+        "5"
+      ],
+      "prefLabel": {
+        "de": "Gemeinsamkeiten, Unterschiede und Beziehungen zwischen Sprachen in der Regel selbständig erkennen und reflektieren."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v56/bm/c2h",
+      "notation": [
+        "6"
+      ],
+      "prefLabel": {
+        "de": "über die Erfordernisse einer kommunikativen Situation nachdenken und die so gewonnenen Erkenntnisse in der Regel selbständig in ihrem adressaten-, situations- und zweckangemessenen Sprachhandeln berücksichtigen."
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

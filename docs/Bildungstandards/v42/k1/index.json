@@ -1,0 +1,917 @@
+{
+  "id": "https://w3id.org/iqb/v42/k1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Chemie Sek II 2020 - Bildungsstandards für die Kompetenzbereiche im Fach Chemie"
+  },
+  "description": {
+    "de": "Mit dem Erwerb des Mittleren Schulabschlusses verfügen die Lernenden über Kompetenzen in den Naturwissenschaften im Allgemeinen sowie über Kompetenzen in der Chemie im Besonderen. Die in der Sekundarstufe I erworbenen Kompetenzen und Inhalte bilden unter anderem die Grundlage für die unterrichtliche Arbeit in der Sekundarstufe II.\n\nDas den Bildungsstandards für den Mittleren Schulabschluss zugrunde liegende Modell der naturwissenschaftsbezogenen Kompetenzen umfasst die vier Kompetenzbereiche Sach-, Erkenntnisgewinnungs-, Kommunikations- und Bewertungskompetenz:\n\nDie Sachkompetenz der Lernenden zeigt sich in der Kenntnis naturwissenschaftlicher Begriffe, Konzepte, Gesetzmäßigkeiten, Theorien und Verfahren verbunden mit der Fähigkeit, diese zu beschreiben, zu erklären, sachgerecht zu nutzen und auf fach- und alltagsbezogene Sachverhalte zu übertragen. Der Auseinandersetzung mit naturwissenschaftlichen Phänomenen auf der makroskopischen und submikroskopischen Ebene sowie der Ebene der Repräsentationen kommt dabei eine besondere Bedeutung zu.\n\nDie Erkenntnisgewinnungskompetenz der Lernenden zeigt sich in der Kenntnis grundlegender naturwissenschaftlicher Denk- und Arbeitsweisen verbunden mit der Fähigkeit, diese zu beschreiben, zu erklären, für Erkenntnisprozesse systematisch zu nutzen und deren Möglichkeiten und Grenzen zu reflektieren. Für das Fach Chemie sind hier insbesondere Experimente, Untersuchungen sowie die Nutzung von Modellen zu nennen.\n\nDie Kommunikationskompetenz der Lernenden zeigt sich in der Kenntnis von Fachsprache und fachtypischen Darstellungen verbunden mit der Fähigkeit, daraus fachbezogene Informationen zu erschließen, diese adressaten- und situationsgerecht aufzubereiten und sich argumentativ auszutauschen. Im Fach Chemie spielt die Nutzung der Formelsprache dabei eine wichtige Rolle.\n\nDie Bewertungskompetenz der Lernenden zeigt sich in der Kenntnis von fachlichen und überfachlichen Perspektiven und Bewertungsverfahren verbunden mit der Fähigkeit, Handlungsoptionen anhand verschiedener Kriterien zu beurteilen, um Entscheidungen auch auf ethischer Grundlage zu treffen, die Folgen abzuschätzen und Entscheidungsprozesse zu reflektieren.\n\nDiese vier Kompetenzbereiche durchdringen einander und bilden gemeinsam die Fachkompetenz im Fach Chemie ab. Kompetenzen zeigen sich in der Verbindung von Kenntnissen und Fähigkeiten in den jeweiligen Kompetenzbereichen und sind nur im Umgang mit Inhalten zu erwerben. Die Kompetenzbereiche sind in Teilkompetenzbereiche untergliedert. Sie werden in Form von Regelstandards präzisiert, die von Lernenden bis zum Erreichen des Mittleren Schulabschlusses zu erwerben sind. Verbindliche inhaltliche Aspekte, anhand derer Kompetenzen erworben werden, sind im Kapitel Verbindliche inhaltliche Aspekte aufgeführt.\n\nDie drei Unterrichtsfächer Biologie, Chemie und Physik bilden die inhaltliche Dimension durch Basiskonzepte ab. In der Chemie wird die Inhaltsdimension durch drei Basiskonzepte (vgl. Kapitel Basiskonzepte) strukturiert. Mit diesen Basiskonzepten können Phänomene chemisch beschrieben, geordnet und erklärt werden. Sie finden daher in allen vier Kompetenzbereichen Berücksichtigung.\n\nDie prozedurale Dimension bezieht sich auf grundlegende Elemente der naturwissenschaftlichen Erkenntnisgewinnung, also auf experimentelles und theoretisches Arbeiten, auf Kommunikation und auf die Anwendung und Bewertung chemischer Sachverhalte in fachlichen und gesellschaftlichen Kontexten. Diese beiden Dimensionen chemischen Arbeitens ermöglichen es den Lernenden, vielfältige Kompetenzen zu erwerben, die ihnen helfen, die natürliche und kulturelle Welt zu verstehen und zu erklären. Die Kompetenzen beschreiben Ergebnisse des Lernens im Sinne von Wissen und Können, geben aber keine Unterrichtsmethoden oder -strategien vor."
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v42/k1/x6a",
+      "notation": [
+        "B "
+      ],
+      "prefLabel": {
+        "de": "Bewertungskompetenz"
+      },
+      "definition": {
+        "de": "Die Bewertungskompetenz der Lernenden zeigt sich in der Kenntnis von fachlichen und überfachlichen Perspektiven und Bewertungsverfahren und in der Fähigkeit, diese zu nutzen, um Aussagen bzw. Daten anhand verschiedener Kriterien zu beurteilen, sich dazu begründet Meinungen zu bilden, Entscheidungen auch auf ethischer Grundlage zu treffen und Entscheidungsprozesse und deren Folgen zu reflektieren.\\\n\\\nIm Bereich der Bewertungskompetenz ist es wichtig, sich nicht darauf zu beschränken, Fakten zu vergleichen, sondern Sachverhalte und Informationen fachlich zu beurteilen und ggf. ethisch zu bewerten. Dabei werden drei sich überlappende Teilkompetenzbereiche unterschieden. Um mit Informationen kritisch umgehen zu können, werden Quellen hinsichtlich ihrer Qualität beurteilt. Hierfür ist Wissen über den Bewertungsprozess notwendig. Die Unterscheidung von wissenschaftlichen und nicht-wissenschaftlichen Aussagen erfordert Kenntnisse formaler und inhaltlicher Kriterien zur Prüfung der Glaubwürdigkeit und zur Beurteilung des Einflusses von Werten, Normen und Interessen. Es geht darum, sich kriteriengeleitet eigene Meinungen zu bilden, Entscheidungen zu treffen und Handlungsoptionen abzuleiten. Dazu zählt z. B. bei der Beurteilung und Bewertung von Technologien ein Abwägen von Chancen und Risiken unter Berücksichtigung von Sicherheitsmaßnahmen. Hierbei reichen die Entscheidungsfelder vom eigenen täglichen Leben bis zu gesellschaftlich oder politisch relevanten globalen Entscheidungen. Aus einer Metaperspektive heraus werden die Entscheidungsprozesse reflektiert und daraus entstehende Folgen abgeschätzt. Die Einbindung von Bewertungskompetenz in den Chemieunterricht erfordert, über die sachliche Beurteilung von naturwissenschaftlichen Aussagen hinauszugehen und fachlich relevante Handlungen und Entscheidungen aus persönlicher, gesellschaftlicher und ethischer Perspektive zu betrachten."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v42/k1/q7h",
+          "notation": [
+            "B 1"
+          ],
+          "prefLabel": {
+            "de": "Sachverhalte und Informationen multiperspektivisch beurteilen"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/k1/y7a",
+              "notation": [
+                "B 1.1"
+              ],
+              "prefLabel": {
+                "de": "B1: betrachten Aussagen, Modelle und Verfahren aus unterschiedlichen Perspektiven und beurteilen diese sachgerecht auf der Grundlage chemischer Kenntnisse;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/f7q",
+              "notation": [
+                "B 1.2"
+              ],
+              "prefLabel": {
+                "de": "B2: beurteilen die Inhalte verwendeter Quellen und Medien (z. B. anhand der fachlichen Richtigkeit und Vertrauenswürdigkeit);"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/u5e",
+              "notation": [
+                "B 1.3"
+              ],
+              "prefLabel": {
+                "de": "B3: beurteilen Informationen und Daten hinsichtlich ihrer Angemessenheit, Grenzen und Tragweite;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/q5b",
+              "notation": [
+                "B 1.4"
+              ],
+              "prefLabel": {
+                "de": "B4: analysieren und beurteilen die Auswahl von Quellen und Darstellungsformen im Zusammenhang mit der Intention der Autorin/des Autors."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/k1/p6t",
+          "notation": [
+            "B 2"
+          ],
+          "prefLabel": {
+            "de": "Kriteriengeleitet Meinungen bilden und Entscheidungen treffen"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/k1/p7z",
+              "notation": [
+                "B 2.1"
+              ],
+              "prefLabel": {
+                "de": "entwickeln anhand relevanter Bewertungskriterien Handlungsoptionen in gesellschaftlich- oder alltagsrelevanten Entscheidungssituationen mit fachlichem Bezug und wägen sie gegeneinander ab;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/s5t",
+              "notation": [
+                "B 2.2"
+              ],
+              "prefLabel": {
+                "de": "beurteilen Chancen und Risiken ausgewählter Technologien, Produkte und Verhaltensweisen fachlich und bewerten diese;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/q2f",
+              "notation": [
+                "B 2.3"
+              ],
+              "prefLabel": {
+                "de": "treffen mithilfe fachlicher Kriterien begründete Entscheidungen in Alltagssituationen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/d7c",
+              "notation": [
+                "B 2.4"
+              ],
+              "prefLabel": {
+                "de": "beurteilen die Bedeutung fachlicher Kompetenzen in Bezug auf Alltagsituationen und Berufsfelder;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/r4y",
+              "notation": [
+                "B 2.5"
+              ],
+              "prefLabel": {
+                "de": "beurteilen Möglichkeiten und Grenzen chemischer Sichtweisen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/t9b",
+              "notation": [
+                "B 2.6"
+              ],
+              "prefLabel": {
+                "de": "bewerten die gesellschaftliche Relevanz und ökologische Bedeutung der angewandten Chemie;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/r5y",
+              "notation": [
+                "B 2.7"
+              ],
+              "prefLabel": {
+                "de": "beurteilen grundlegende Aspekte zu Gefahren und Sicherheit in Labor und Alltag und leiten daraus begründet Handlungsoptionen ab."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/k1/a6z",
+          "notation": [
+            "B 3"
+          ],
+          "prefLabel": {
+            "de": "Entscheidungsprozesse und Folgen reflektieren"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/k1/t4y",
+              "notation": [
+                "B 3.1"
+              ],
+              "prefLabel": {
+                "de": "beurteilen und bewerten Auswirkungen chemischer Produkte, Methoden, Verfahren und Erkenntnisse in historischen und aktuellen gesellschaftlichen Zusammenhängen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/h2g",
+              "notation": [
+                "B 3.2"
+              ],
+              "prefLabel": {
+                "de": "beurteilen und bewerten Auswirkungen chemischer Produkte, Methoden, Verfahren und Erkenntnisse sowie des eigenen Handelns im Sinne einer nachhaltigen Entwicklung aus ökologischer, ökonomischer und sozialer Perspektive;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/r7u",
+              "notation": [
+                "B 3.3"
+              ],
+              "prefLabel": {
+                "de": "reflektieren Kriterien und Strategien für Entscheidungen aus chemischer Perspektive."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v42/k1/h2q",
+      "notation": [
+        "E "
+      ],
+      "prefLabel": {
+        "de": "Erkenntnisgewinnungskompetenz"
+      },
+      "definition": {
+        "de": "Die Erkenntnisgewinnungskompetenz der Lernenden zeigt sich in der Kenntnis von naturwissenschaftlichen Denk- und Arbeitsweisen und in der Fähigkeit, diese zu beschreiben, zu erklären und zu verknüpfen, um Erkenntnisprozesse nachvollziehen oder gestalten zu können und deren Möglichkeiten und Grenzen zu reflektieren.\\\n\\\nIm Bereich der Erkenntnisgewinnungskompetenz ist es wichtig, nicht nur das Experimentieren als chemische Untersuchungsmethode zu kennen und Experimente zur Datengewinnung nutzen zu können, sondern auch Modelle sachgerecht zur Beschreibung eines Phänomens oder zur Gewinnung von Erkenntnissen einsetzen zu können. Dabei werden vier sich überlappende Teilkompetenzbereiche unterschieden. Experimente und Modelle werden eingesetzt, um durch theoriegeleitete Beobachtungen entwickelte weiterführende Fragestellungen und Hypothesen zu überprüfen und um Sachverhalte zu untersuchen. Die experimentellen Ergebnisse und die aus Modellen abgeleiteten Annahmen werden vor dem Hintergrund der theoretischen Erkenntnisse interpretiert und der gesamte Erkenntnisgewinnungsprozess reflektiert. Auf einer Metaebene werden die Merkmale naturwissenschaftlicher Aussagen und Methoden charakterisiert und von nicht-naturwissenschaftlichen abgegrenzt.\\\n\\\nDas wissenschaftliche Vorgehen umfasst ausgehend von einem Phänomen die Verknüpfung der zentralen Schritte des Erkenntnisprozesses:\\\n\\\n - Formulierung von Fragestellungen,\\\n\\\n - Ableitung von Hypothesen,\\\n\\\n - Planung und Durchführung von Untersuchungen,\\\n\\\n - Auswertung, Interpretation und methodische Reflexion zur Widerlegung bzw. Stützung der Hypothese sowie zur Beantwortung der Fragestellung."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v42/k1/t5g",
+          "notation": [
+            "E 1"
+          ],
+          "prefLabel": {
+            "de": "Fragestellungen und Hypothesen auf Basis von Beobachtungen und Theorien bilden"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/k1/z6s",
+              "notation": [
+                "E 1.1"
+              ],
+              "prefLabel": {
+                "de": "E1: leiten chemische Sachverhalte aus Alltagssituationen ab;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/c2s",
+              "notation": [
+                "E 1.2"
+              ],
+              "prefLabel": {
+                "de": "E2: identifizieren und entwickeln Fragestellungen zu chemischen Sachverhalten;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/t2f",
+              "notation": [
+                "E 1.3"
+              ],
+              "prefLabel": {
+                "de": "E3: stellen theoriegeleitet Hypothesen zur Bearbeitung von Fragestellungen auf;"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/k1/u9g",
+          "notation": [
+            "E 2"
+          ],
+          "prefLabel": {
+            "de": "Fachspezifische Modelle und Verfahren charakterisieren, auswählen und zur Untersuchung von Sachverhalten nutzen"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/k1/p5x",
+              "notation": [
+                "E 2.1"
+              ],
+              "prefLabel": {
+                "de": "E4: planen, ggf. unter Berücksichtigung der Variablenkontrolle, experiment- oder modellbasierte Vorgehensweisen, auch zur Prüfung von Hypothesen, Aussagen oder Theorien;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/e2e",
+              "notation": [
+                "E 2.2"
+              ],
+              "prefLabel": {
+                "de": "E5: führen qualitative und quantitative experimentelle Untersuchungen – den chemischen Arbeitsweisen und Sicherheitsregeln entsprechend – durch, protokollieren sie und werten diese aus;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/t6p",
+              "notation": [
+                "E 2.3"
+              ],
+              "prefLabel": {
+                "de": "E6: nutzen digitale Werkzeuge und Medien zum Aufnehmen, Darstellen und Auswerten von Messwerten, für Berechnungen, Modellierungen und Simulationen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/p6y",
+              "notation": [
+                "E 2.4"
+              ],
+              "prefLabel": {
+                "de": "E7: wählen geeignete Real- oder Denkmodelle (z. B. Atommodelle, Periodensystem der Elemente) aus und nutzen sie, um chemische Fragestellungen zu bearbeiten."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/k1/p9d",
+          "notation": [
+            "E 3"
+          ],
+          "prefLabel": {
+            "de": "Erkenntnisprozesse und Ergebnisse interpretieren und reflektieren"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/k1/r9x",
+              "notation": [
+                "E 3.1"
+              ],
+              "prefLabel": {
+                "de": "E8: finden in erhobenen oder recherchierten Daten Strukturen, Beziehungen und Trends, erklären diese theoriebezogen und ziehen Schlussfolgerungen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/c3c",
+              "notation": [
+                "E 3.2"
+              ],
+              "prefLabel": {
+                "de": "E9: diskutieren Möglichkeiten und Grenzen von Modellen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/x3a",
+              "notation": [
+                "E 3.3"
+              ],
+              "prefLabel": {
+                "de": "E10: reflektieren die eigenen Ergebnisse und den eigenen Prozess der Erkenntnisgewinnung;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/z7r",
+              "notation": [
+                "E 3.4"
+              ],
+              "prefLabel": {
+                "de": "E11: stellen bei der Interpretation von Untersuchungsbefunden fachübergreifende Bezüge her."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/k1/s2y",
+          "notation": [
+            "E 4"
+          ],
+          "prefLabel": {
+            "de": "Merkmale wissenschaftlicher Aussagen und Methoden charakterisieren und reflektieren"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/k1/e7d",
+              "notation": [
+                "E 4.1"
+              ],
+              "prefLabel": {
+                "de": "E12: reflektieren Möglichkeiten und Grenzen des konkreten Erkenntnisgewinnungsprozesses sowie der gewonnenen Erkenntnisse (z. B. Reproduzierbarkeit, Falsifizierbarkeit, Intersubjektivität, logische Konsistenz, Vorläufigkeit)."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v42/k1/f6y",
+      "notation": [
+        "K "
+      ],
+      "prefLabel": {
+        "de": "Kommunikationskompetenz"
+      },
+      "definition": {
+        "de": "Die Kommunikationskompetenz der Lernenden zeigt sich in der Kenntnis von Fachsprache, fachtypischen Darstellungen und Argumentationsstrukturen und in der Fähigkeit, diese zu nutzen, um fachbezogene Informationen zu erschließen, adressaten- und situationsgerecht darzustellen und auszutauschen.\\\n\\\nChemisch kompetent Kommunizieren bedingt ein Durchdringen der Teilkompetenzbereiche Erschließen, Aufbereiten und Austauschen. Im Bereich der Kommunikationskompetenz ist es wichtig, sich nicht darauf zu beschränken, fachlich richtige Sätze zu Aufgabenstellungen zu formulieren, sondern auch fachlich und fachsprachlich richtig mit chemiebezogenen analogen und digitalen Informationsmaterialien umzugehen und unterschiedliche Repräsentationsformen adressatengerecht einzusetzen. Dabei werden drei sich überlappende Teilkompetenzbereiche unterschieden. Fachsprache und andere fachspezifische Repräsentationsformen wie chemische Formeln und Reaktionsgleichungen werden erlernt, um Inhalte aus unterschiedlichen Medien zu erschließen, sie fachgerecht und aufgabenbezogen aufzubereiten und um situationsangemessen agieren zu können. Hierzu zählt der Informationsaustausch im sozialen Umfeld genauso wie die Partizipation in einer wissenschaftlichen Diskussion auf einem angemessenen Niveau. Dazu müssen Aussagen – auch im historischen Kontext – differenziert wahrgenommen, Missverständnisse und Standpunkte geklärt und Lösungen angestrebt werden."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v42/k1/q2y",
+          "notation": [
+            "K 1"
+          ],
+          "prefLabel": {
+            "de": "Informationen erschließen"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/k1/z7p",
+              "notation": [
+                "K 1.1"
+              ],
+              "prefLabel": {
+                "de": "K1: recherchieren zu chemischen Sachverhalten zielgerichtet in analogen und digitalen Medien und wählen für ihre Zwecke passende Quellen aus;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/r5t",
+              "notation": [
+                "K 1.2"
+              ],
+              "prefLabel": {
+                "de": "K2: wählen relevante und aussagekräftige Informationen und Daten zu chemischen Sachverhalten und anwendungsbezogenen Fragestellungen aus und erschließen Informationen aus Quellen mit verschiedenen, auch komplexen Darstellungsformen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/v9b",
+              "notation": [
+                "K 1.3"
+              ],
+              "prefLabel": {
+                "de": "K3: prüfen die Übereinstimmung verschiedener Quellen oder Darstellungsformen im Hinblick auf deren Aussagen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/z6x",
+              "notation": [
+                "K 1.4"
+              ],
+              "prefLabel": {
+                "de": "K4: überprüfen die Vertrauenswürdigkeit verwendeter Quellen und Medien (z. B. anhand ihrer Herkunft und Qualität);"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/k1/h7h",
+          "notation": [
+            "K 2"
+          ],
+          "prefLabel": {
+            "de": "Informationen aufbereiten"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/k1/v5p",
+              "notation": [
+                "K 2.1"
+              ],
+              "prefLabel": {
+                "de": "K5: wählen chemische Sachverhalte und Informationen sach-, adressaten- und situationsgerecht aus;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/q9y",
+              "notation": [
+                "K 2.2"
+              ],
+              "prefLabel": {
+                "de": "K6: unterscheiden zwischen Alltags- und Fachsprache;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/x2f",
+              "notation": [
+                "K 2.3"
+              ],
+              "prefLabel": {
+                "de": "K7: nutzen geeignete Darstellungsformen für chemische Sachverhalte und überführen diese ineinander;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/u5x",
+              "notation": [
+                "K 2.4"
+              ],
+              "prefLabel": {
+                "de": "K8: strukturieren und interpretieren ausgewählte Informationen und leiten Schlussfolgerungen ab."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/k1/h6r",
+          "notation": [
+            "K 3"
+          ],
+          "prefLabel": {
+            "de": "Informationen austauschen und wissenschaftlich diskutieren"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/k1/v6d",
+              "notation": [
+                "K 3.1"
+              ],
+              "prefLabel": {
+                "de": "K9: verwenden Fachbegriffe und -sprache korrekt;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/y4r",
+              "notation": [
+                "K 3.2"
+              ],
+              "prefLabel": {
+                "de": "K10: erklären chemische Sachverhalte und argumentieren fachlich schlüssig;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/b5g",
+              "notation": [
+                "K 3.3"
+              ],
+              "prefLabel": {
+                "de": "K11: präsentieren chemische Sachverhalte sowie Lern- und Arbeitsergebnisse sach-, adressaten- und situationsgerecht unter Einsatz geeigneter analoger und digitaler Medien;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/h7v",
+              "notation": [
+                "K 3.4"
+              ],
+              "prefLabel": {
+                "de": "K12: prüfen die Urheberschaft, belegen verwendete Quellen und kennzeichnen Zitate;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/q4v",
+              "notation": [
+                "K 3.5"
+              ],
+              "prefLabel": {
+                "de": "K13: tauschen sich mit anderen konstruktiv über chemische Sachverhalte aus, vertreten, reflektieren und korrigieren gegebenenfalls den eigenen Standpunkt."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v42/k1/e6d",
+      "notation": [
+        "S "
+      ],
+      "prefLabel": {
+        "de": "Sachkompetenz"
+      },
+      "definition": {
+        "de": "Die Sachkompetenz der Lernenden zeigt sich in der Kenntnis naturwissenschaftlicher Konzepte, Theorien und Verfahren und der Fähigkeit, diese zu beschreiben und zu erklären sowie geeignet auszuwählen und zu nutzen, um Sachverhalte aus fach- und alltagsbezogenen Anwendungsbereichen zu verarbeiten.\\\n\\\nIm Bereich der Sachkompetenz ist es wichtig, nicht nur das erworbene Wissen nachzuweisen, sondern es sowohl im Fach Chemie als auch fachübergreifend in unterschiedlichen Zusammenhängen und auf verschiedene Problemstellungen anwenden zu können. Im Mittelpunkt steht hierbei die modellhafte Deutung beobachtbarer Phänomene auf Teilchenebene.\\\n\\\nDabei werden vier sich überlappende Teilkompetenzbereiche unterschieden. Konzepte und Theorien werden zum Strukturieren von Inhalten und Problemstellungen genutzt, um dadurch die fachliche Perspektive auf Phänomene deutlich zu machen sowie diese aus chemischer Sicht zu interpretieren und zu verstehen. Dazu sind eigenständige fachliche Konstruktionsprozesse und eine Vernetzung von Theorien und Konzepten notwendig. Das Charakteristische der chemischen Betrachtungsweise sind qualitativ-modellhafte und quantitativ-mathematische Beschreibungen der Phänomene."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v42/k1/q4a",
+          "notation": [
+            "S 1"
+          ],
+          "prefLabel": {
+            "de": "Chemische Konzepte und Theorien zum Klassifizieren, Strukturieren, Systematisieren und Interpretieren nutzen"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/k1/u3z",
+              "notation": [
+                "S 1.1"
+              ],
+              "prefLabel": {
+                "de": "S1: beschreiben und begründen Ordnungsprinzipien für Stoffe und wenden diese an;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/u7u",
+              "notation": [
+                "S 1.2"
+              ],
+              "prefLabel": {
+                "de": "S2: leiten Voraussagen über die Eigenschaften der Stoffe auf Basis chemischer Strukturen und Gesetzmäßigkeiten begründet ab;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/s5z",
+              "notation": [
+                "S 1.3"
+              ],
+              "prefLabel": {
+                "de": "S3: interpretieren Phänomene der Stoff- und Energieumwandlung bei chemischen Reaktionen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/y6a",
+              "notation": [
+                "S 1.4"
+              ],
+              "prefLabel": {
+                "de": "S4: bestimmen Reaktionstypen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/s5q",
+              "notation": [
+                "S 1.5"
+              ],
+              "prefLabel": {
+                "de": "S5: beschreiben Stoffkreisläufe in Natur oder Technik als Systeme chemischer Reaktionen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/k1/g2f",
+          "notation": [
+            "S 2"
+          ],
+          "prefLabel": {
+            "de": "Chemische Konzepte und Theorien auswählen und vernetzen"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/k1/f9e",
+              "notation": [
+                "S 2.1"
+              ],
+              "prefLabel": {
+                "de": "S6: unterscheiden konsequent zwischen Stoff- und Teilchenebene;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/d2d",
+              "notation": [
+                "S 2.2"
+              ],
+              "prefLabel": {
+                "de": "S7: beschreiben die Umkehrbarkeit chemischer Reaktionen, das dynamische Gleichgewicht und das Donator-Akzeptor-Prinzip und wenden diese an;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/p9s",
+              "notation": [
+                "S 2.3"
+              ],
+              "prefLabel": {
+                "de": "S8: beschreiben Einflussfaktoren auf chemische Reaktionen und Möglichkeiten der Steuerung durch Variation von Reaktionsbedingungen sowie durch den Einsatz von Katalysatoren;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/s2x",
+              "notation": [
+                "S 2.4"
+              ],
+              "prefLabel": {
+                "de": "S9: erklären unterschiedliche Reaktivitäten und Reaktionsverläufe;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/e6g",
+              "notation": [
+                "S 2.5"
+              ],
+              "prefLabel": {
+                "de": "S10: nutzen chemische Konzepte und Theorien zur Vernetzung von Sachverhalten innerhalb der Chemie sowie mit anderen Unterrichtsfächern."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/k1/e3g",
+          "notation": [
+            "S 3"
+          ],
+          "prefLabel": {
+            "de": "Chemische Zusammenhänge qualitativ-modellhaft erklären"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/k1/a2x",
+              "notation": [
+                "S 3.1"
+              ],
+              "prefLabel": {
+                "de": "S11: erklären die Vielfalt der Stoffe und ihrer Eigenschaften auf der Basis unterschiedlicher Kombinationen und Anordnungen von Teilchen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/z7v",
+              "notation": [
+                "S 3.2"
+              ],
+              "prefLabel": {
+                "de": "S12: deuten Stoff- und Energieumwandlungen hinsichtlich der Veränderung von Teilchen sowie des Umbaus chemischer Bindungen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/h5h",
+              "notation": [
+                "S 3.3"
+              ],
+              "prefLabel": {
+                "de": "S13: nutzen Modelle zur chemischen Bindung und zu intra- und intermolekularen Wechselwirkungen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/a9h",
+              "notation": [
+                "S 3.4"
+              ],
+              "prefLabel": {
+                "de": "S14: beschreiben ausgewählte Reaktionsmechanismen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/u5v",
+              "notation": [
+                "S 3.5"
+              ],
+              "prefLabel": {
+                "de": "S15: grenzen mithilfe von Modellen den statischen Zustand auf Stoffebene vom dynamischen Zustand auf Teilchenebene ab."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/k1/p4u",
+          "notation": [
+            "S 4"
+          ],
+          "prefLabel": {
+            "de": "Chemische Zusammenhänge quantitativ-mathematisch beschreiben"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/k1/f3u",
+              "notation": [
+                "S 4.1"
+              ],
+              "prefLabel": {
+                "de": "S16: entwickeln Reaktionsgleichungen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/k1/s9q",
+              "notation": [
+                "S 4.2"
+              ],
+              "prefLabel": {
+                "de": "S17: wenden bekannte mathematische Verfahren auf chemische Sachverhalte an"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

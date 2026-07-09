@@ -1,0 +1,478 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v10/i1/>. 
+@prefix n1: <https://w3id.org/iqb/v10/i1/>. 
+
+n1:f5x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1";
+	skos:broader n1:q2r;
+	skos:prefLabel "erkennen, erklären und nutzen den Aufbau des dezimalen Stellenwertsystems (z. B. Bündelungsprinzip, Stellenwertprinzip),"@de.
+n1:b2r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.2";
+	skos:broader n1:q2r;
+	skos:prefLabel "stellen Zahlen bis 1 000 000 auf verschiedene Weise dar (z. B. Anschauungsmittel, Stufenschrift, Stellenwerttabelle, Zifferndarstellung) und setzen diese zueinander in Beziehung,"@de.
+n1:t7v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.3";
+	skos:broader n1:q2r;
+	skos:prefLabel "orientieren sich im Zahlenraum bis 1 000 000 (z. B. Zahlen der Größe nach ordnen, Nachbarzahlen bestimmen)."@de.
+n1:q2r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:t6h;
+	skos:prefLabel "Zahldarstellungen und Zahlbeziehungen verstehen"@de;
+	skos:narrower 
+		n1:f5x,
+		n1:b2r,
+		n1:t7v.
+n1:x7y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1";
+	skos:broader n1:z2d;
+	skos:prefLabel "verfügen über ein Operationsverständnis zu den vier Grundrechenarten und erkennen und nutzen die Zusammenhänge zwischen den Operationen,"@de.
+n1:e9u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.2";
+	skos:broader n1:z2d;
+	skos:prefLabel "beherrschen die Grundaufgaben des Kopfrechnens (u. a. Zahlzerlegungen, Eins-pluseins, Einmaleins) gedächtnismäßig und leiten deren Umkehrungen sicher ab,"@de.
+n1:e2q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.3";
+	skos:broader n1:z2d;
+	skos:prefLabel "übertragen die Grundaufgaben des Kopfrechnens auf analoge Aufgaben im Zahlenraum bis zur Million,"@de.
+n1:q3h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.4";
+	skos:broader n1:z2d;
+	skos:prefLabel "verstehen mündliche und halbschriftliche Rechenstrategien zu den vier Grundrechenarten und setzen diese flexibel ein,"@de.
+n1:g5g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.5";
+	skos:broader n1:z2d;
+	skos:prefLabel "beschreiben, vergleichen und bewerten verschiedene Rechenwege^ finden, erklären und berichtigen Rechenfehler,"@de.
+n1:a5v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.6";
+	skos:broader n1:z2d;
+	skos:prefLabel "erkennen, erklären und nutzen Rechengesetze (z. B. Kommutativgesetz: Tauschaufgaben),"@de.
+n1:c7u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.7";
+	skos:broader n1:z2d;
+	skos:prefLabel "verstehen schriftliche Verfahren der Addition, Subtraktion und Multiplikation, beschreiben den Algorithmus, führen diesen geläufig aus und wenden ihn bei geeigneten Aufgaben an,"@de.
+n1:f3p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.8";
+	skos:broader n1:z2d;
+	skos:prefLabel "kontrollieren Lösungen durch geeignete Vorgehensweisen (z. B. Überschlagsrechnung, Umkehroperation)."@de.
+n1:z2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:t6h;
+	skos:prefLabel "Rechenoperationen verstehen und beherrschen"@de;
+	skos:narrower 
+		n1:x7y,
+		n1:e9u,
+		n1:e2q,
+		n1:q3h,
+		n1:g5g,
+		n1:a5v,
+		n1:c7u,
+		n1:f3p.
+n1:x2q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1";
+	skos:broader n1:s7c;
+	skos:prefLabel "wenden bei Sachaufgaben Rechenoperationen an und beschreiben die Beziehungen zwischen der Sache und den einzelnen Lösungsschritten,"@de.
+n1:r6x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2";
+	skos:broader n1:s7c;
+	skos:prefLabel "runden und überschlagen sachadäquat."@de.
+n1:s7c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:t6h;
+	skos:prefLabel "Rechenoperationen in Kontexten anwenden"@de;
+	skos:narrower 
+		n1:x2q,
+		n1:r6x.
+n1:t6h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Leitidee Zahl und Operation"@de;
+	skos:narrower 
+		n1:q2r,
+		n1:z2d,
+		n1:s7c.
+n1:r4a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.1";
+	skos:broader n1:y6q;
+	skos:prefLabel "vergleichen und ordnen Größen (Geldwerte, Längen, Zeitspannen, Massen, Flächeninhalte und Volumina),"@de.
+n1:v2g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.2";
+	skos:broader n1:y6q;
+	skos:prefLabel "kennen Standardeinheiten (zu Geldwerten, Längen, Zeitspannen, Hohlmaßen und zur Masse) und setzen diese im jeweiligen Größenbereich zueinander in Beziehung,"@de.
+n1:b7u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.3";
+	skos:broader n1:y6q;
+	skos:prefLabel "entwickeln und nutzen Vorstellungen über Repräsentanten für Standardeinheiten und im Alltag bedeutsame Größen (z. B. Höhe der Tür, Dauer der Schulstunde),"@de.
+n1:r9b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.4";
+	skos:broader n1:y6q;
+	skos:prefLabel "kennen und verstehen im Alltag gebräuchliche einfache Brüche im Zusammenhang mit Größen (z. B. 1/2 m, Dreiviertelstunde, 1/4 l)."@de.
+n1:y6q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:q5f;
+	skos:prefLabel "Über Größenvorstellungen verfügen"@de;
+	skos:narrower 
+		n1:r4a,
+		n1:v2g,
+		n1:b7u,
+		n1:r9b.
+n1:x2f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.1";
+	skos:broader n1:x4p;
+	skos:prefLabel "verstehen und nutzen (u. a. Flächeninhalte durch Auslegen mit Einheitsquadraten, Rauminhalte durch Messen mit Einheitswürfeln) das Grundprinzip des Messens (nicht-standardisierte und standardisierte Einheitsmaße auswählen, wiederholt nutzen und ggf. in Beziehung zu Untereinheiten setzen),"@de.
+n1:x3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.2";
+	skos:broader n1:x4p;
+	skos:prefLabel "messen Längen, Zeitspannen, Massen und Hohlmaße mit geeigneten Einheiten und unterschiedlichen Messgeräten sachgerecht,"@de.
+n1:f3r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.3";
+	skos:broader n1:x4p;
+	skos:prefLabel "benennen Größenangaben mit verschiedenen Einheiten und stellen diese in unterschiedlichen Schreibweisen (z. B. 2,5 km / 2500 m / 2 km 500 m) dar."@de.
+n1:x4p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:q5f;
+	skos:prefLabel "Größen messen und Maßangaben bestimmen"@de;
+	skos:narrower 
+		n1:x2f,
+		n1:x3y,
+		n1:f3r.
+n1:d2a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.1";
+	skos:broader n1:c5p;
+	skos:prefLabel "schätzen Größen sachadäquat und mit Bezug zu geeigneten Repräsentanten,"@de.
+n1:c9f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2";
+	skos:broader n1:c5p;
+	skos:prefLabel "rechnen in Sachsituationen angemessen mit Näherungswerten und prüfen Ergebnisse auf Plausibilität,"@de.
+n1:x3h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.3";
+	skos:broader n1:c5p;
+	skos:prefLabel "lösen Sachaufgaben mit Größen."@de.
+n1:c5p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n1:q5f;
+	skos:prefLabel "Mit Größen in Kontexten umgehen"@de;
+	skos:narrower 
+		n1:d2a,
+		n1:c9f,
+		n1:x3h.
+n1:q5f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Leitidee Größen und Messen"@de;
+	skos:narrower 
+		n1:y6q,
+		n1:x4p,
+		n1:c5p.
+n1:y5s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.1";
+	skos:broader n1:c7b;
+	skos:prefLabel "verstehen und nutzen Strukturen in arithmetischen und geometrischen Darstellungen (z. B. in Zahldarstellungen, Anschauungsmitteln),"@de.
+n1:u6f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.2";
+	skos:broader n1:c7b;
+	skos:prefLabel "erkennen und beschreiben Strukturen in geometrischen und arithmetischen Mustern (z. B. Zahlenfolgen, Pentominos) und nutzen diese in mathematischen Kontexten (z. B. Verschlüsselungen),"@de.
+n1:a9h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.3";
+	skos:broader n1:c7b;
+	skos:prefLabel "erkennen, stellen Gleichheit von mathematischen Ausdrücken dar und nutzen diese (z. B. Zahlen durch verschiedene Terme ausdrücken, Terme vergleichen)."@de.
+n1:c7b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n1:s3g;
+	skos:prefLabel "Gesetzmäßigkeiten erkennen, beschreiben und darstellen"@de;
+	skos:narrower 
+		n1:y5s,
+		n1:u6f,
+		n1:a9h.
+n1:v6v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1";
+	skos:broader n1:v5y;
+	skos:prefLabel "erkennen und beschreiben funktionale Beziehungen in Sachsituationen (z. B. Menge - Preis),"@de.
+n1:g7h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.2";
+	skos:broader n1:v5y;
+	skos:prefLabel "erkennen, beschreiben und stellen funktionale Beziehungen in Tabellen dar,"@de.
+n1:g7q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.3";
+	skos:broader n1:v5y;
+	skos:prefLabel "lösen Sachaufgaben zu funktionalen Zusammenhängen (z. B. Proportionalität)."@de.
+n1:v5y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2";
+	skos:broader n1:s3g;
+	skos:prefLabel "Funktionale Beziehungen erkennen, beschreiben und darstellen"@de;
+	skos:narrower 
+		n1:v6v,
+		n1:g7h,
+		n1:g7q.
+n1:s3g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Leitidee Muster, Strukturen und funktionaler Zusammenhang"@de;
+	skos:narrower 
+		n1:c7b,
+		n1:v5y.
+n1:g4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1";
+	skos:broader n1:g2v;
+	skos:prefLabel "orientieren sich im Raum (z. B. Wege, Pläne, Ansichten),"@de.
+n1:x9g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.2";
+	skos:broader n1:g2v;
+	skos:prefLabel "erkennen, beschreiben und nutzen (z. B. zwei- und dreidimensionale Darstellungen zueinander in Beziehung setzen, wie Bauplan und Bauwerk, Körper und Netz) räumliche Beziehungen,"@de.
+n1:e9q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.3";
+	skos:broader n1:g2v;
+	skos:prefLabel "operieren (z. B. zerlegen, falten, drehen, spiegeln, bauen) mit geometrischen Objekten gedanklich."@de.
+n1:g2v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1";
+	skos:broader n1:f5b;
+	skos:prefLabel "Über räumliches Vorstellungsvermögen verfügen"@de;
+	skos:narrower 
+		n1:g4q,
+		n1:x9g,
+		n1:e9q.
+n1:r6r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1";
+	skos:broader n1:a9r;
+	skos:prefLabel "klassifizieren Körper und ebene Figuren nach Eigenschaften, ordnen Fachbegriffe zu und beschreiben Beziehungen zwischen geometrischen Figuren (z. B. Quadrat und Rechteck),"@de.
+n1:a5x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.2";
+	skos:broader n1:a9r;
+	skos:prefLabel "erkennen Körper und ebene Figuren in der Umwelt wieder,"@de.
+n1:v9y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.3";
+	skos:broader n1:a9r;
+	skos:prefLabel "stellen Modelle von Körpern (Vollmodelle, Flächenmodelle, Kantenmodelle) und ebenen Figuren her und untersuchen (z. B. bauen, legen, zerlegen, zusammenfügen, ausschneiden, falten) diese, auch unter Nutzung digitaler Werkzeuge,"@de.
+n1:g3t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.4";
+	skos:broader n1:a9r;
+	skos:prefLabel "untersuchen und vergleichen ebene Figuren und Körper untersuchen und vergleichen (ebene Figuren auch hinsichtlich des Umfangs und Flächeninhalts, Körper auch hinsichtlich des Rauminhalts),"@de.
+n1:b7e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.5";
+	skos:broader n1:a9r;
+	skos:prefLabel "fertigen Zeichnungen geometrischer Figuren mit und ohne Hilfsmittel an, auch unter Nutzung digitaler Werkzeuge."@de.
+n1:a9r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2";
+	skos:broader n1:f5b;
+	skos:prefLabel "Geometrische Figuren erkennen, benennen und darstellen"@de;
+	skos:narrower 
+		n1:r6r,
+		n1:a5x,
+		n1:v9y,
+		n1:g3t,
+		n1:b7e.
+n1:d9e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.1";
+	skos:broader n1:t3t;
+	skos:prefLabel "bilden ebene Figuren geometrisch ab (verkleinern, vergrößern und spiegeln),"@de.
+n1:y6u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.2";
+	skos:broader n1:t3t;
+	skos:prefLabel "erkennen und beschreiben Eigenschaften der Achsensymmetrie und setzen diese mit der Achsenspiegelung in Beziehung,"@de.
+n1:v7d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.3";
+	skos:broader n1:t3t;
+	skos:prefLabel "erkennen und beschreiben geometrische Abbildungen in der Umwelt oder in Mustern (z. B. in Bandornamenten)."@de.
+n1:t3t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3";
+	skos:broader n1:f5b;
+	skos:prefLabel "Geometrische Abbildungen erkennen, benennen und darstellen"@de;
+	skos:narrower 
+		n1:d9e,
+		n1:y6u,
+		n1:v7d.
+n1:f5b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Leitidee Raum und Form"@de;
+	skos:narrower 
+		n1:g2v,
+		n1:a9r,
+		n1:t3t.
+n1:b7a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1.1";
+	skos:broader n1:e3b;
+	skos:prefLabel "planen  einfache Befragungen und erfassen und strukturieren bei Beobachtungen, Untersuchungen und einfachen Experimenten Daten,"@de.
+n1:v9e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1.2";
+	skos:broader n1:e3b;
+	skos:prefLabel "stellen Daten in Tabellen, Schaubildern und Diagrammen dar, auch unter Nutzung digitaler Werkzeuge, und entnehmen Informationen aus Tabellen, Schaubildern und Diagrammen,"@de.
+n1:h6p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1.3";
+	skos:broader n1:e3b;
+	skos:prefLabel "interpretieren  Darstellungen von Daten und reflektieren diese kritisch,"@de.
+n1:g9x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1.4";
+	skos:broader n1:e3b;
+	skos:prefLabel "lösen einfache kombinatorische Fragestellungen durch systematisches Vorgehen (z. B. systematisches Probieren) oder mit Hilfe von heuristischen Hilfsmitteln (z. B. Skizze, Baumdiagramm, Tabelle)."@de.
+n1:e3b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1";
+	skos:broader n1:c4g;
+	skos:prefLabel "Mit Daten umgehen"@de;
+	skos:narrower 
+		n1:b7a,
+		n1:v9e,
+		n1:h6p,
+		n1:g9x.
+n1:q4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.2.1";
+	skos:broader n1:v5f;
+	skos:prefLabel "kennen und nutzen Grundbegriffe zur Beschreibung von Zufallsereignissen (sicher, möglich, unmöglich),"@de.
+n1:c5f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.2.2";
+	skos:broader n1:v5f;
+	skos:prefLabel "schätzen Chancen für das Eintreten von Ereignissen bei alltäglichen Phänomenen oder einfachen Zufallsexperimenten ein und vergleichen (z. B. ist wahrscheinlicher als, hat größere Chancen als) diese datenbasiert."@de.
+n1:v5f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.2";
+	skos:broader n1:c4g;
+	skos:prefLabel "Ereignisse bei Zufallsexperimenten untersuchen"@de;
+	skos:narrower 
+		n1:q4q,
+		n1:c5f.
+n1:c4g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Leitidee Daten und Zufall"@de;
+	skos:narrower 
+		n1:e3b,
+		n1:v5f.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Mathematik Primar 2022 - Inhaltsbezogene Kompetenzen"@de;
+	dct:description "Die inhaltsbezogenen Kompetenzen orientieren sich an fünf mathematischen Leitideen, die für den gesamten Mathematikunterricht – für den Primarbereich und für das weiterführende Lernen – bedeutsam sind und einen stringenten Aufbau der Inhalte über die Schulstufen hinweg ermöglichen.Abbildung 3: Grafische Darstellung des Zusammenwirkens von prozessbezogenen und inhaltsbezogenen Kompetenzen mit Fokussierung auf die Inhaltsbezogenen Kompetenzen. Die Leitidee „Muster, Strukturen und funktionaler Zusammenhang“ nimmt eine besondere Rolle unter den Leitideen ein. Sie greift den Wesenskern der Mathematik auf, grundlegende Regel- und Gesetzmäßigkeiten inhaltlich zu erfassen, zu erklären und zur Problemlösung zu nutzen. Zugleich hat das Erkennen von Mustern, Strukturen und funktionalen Zusammenhängen eine übergeordnete Bedeutung für die Leitideen „Zahl und Operation“, „Raum und Form“, „Größen und Messen“ sowie „Daten und Zufall“, denn Mathematik wird in der aktiven Erkundung von vielschichtigen Beziehungen in unterschiedlichen inhaltsbezogenen Bereichen gelernt. Muster, Strukturen und funktionale Zusammenhänge stehen deshalb beim Erwerb aller inhaltsbezogenen Kompetenzen regelmäßig im Mittelpunkt der Auseinandersetzung mit den Inhalten. Innerhalb der Leitideen „Zahl und Operation“, „Raum und Form“, „Größen und Messen“ sowie „Daten und Zufall“ werden deshalb inhaltsbezogene Kompetenzen mit einem engen Bezug zur Leitidee „Muster, Strukturen und funktionaler Zusammenhang“ im Folgenden explizit ausgewiesen (gelbe Schattierung). Am Ende von Jahrgangsstufe 4 sollen die Schülerinnen und Schüler über folgende inhaltsbezogene mathematische Kompetenzen verfügen (die Reihenfolge der Auflistung gibt keine Gewichtung vor):"@de;
+	skos:hasTopConcept
+		n1:t6h,
+		n1:q5f,
+		n1:s3g,
+		n1:f5b,
+		n1:c4g.

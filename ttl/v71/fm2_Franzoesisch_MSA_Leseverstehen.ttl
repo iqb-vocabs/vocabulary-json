@@ -1,0 +1,103 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v71/fm2/>. 
+
+n0:q9z
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n0:u9d;
+	skos:prefLabel "A1.1"@de.
+n0:h4c
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n0:u9d;
+	skos:prefLabel "A1.2"@de.
+n0:u9d
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "A1"@de;
+	skos:narrower n0:q9z,
+		n0:h4c.
+n0:q4g
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n0:b2d;
+	skos:prefLabel "A2.1"@de.
+n0:t3p
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n0:b2d;
+	skos:prefLabel "A2.2"@de.
+n0:b2d
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "A2"@de;
+	skos:narrower n0:q4g,
+		n0:t3p.
+n0:y6h
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n0:g6h;
+	skos:prefLabel "B1.1"@de.
+n0:r5h
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2";
+	skos:broader n0:g6h;
+	skos:prefLabel "B1.2"@de.
+n0:g6h
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "B1"@de;
+	skos:narrower n0:y6h,
+		n0:r5h.
+n0:u3d
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1";
+	skos:broader n0:c9g;
+	skos:prefLabel "B2.1"@de.
+n0:t7a
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2";
+	skos:broader n0:c9g;
+	skos:prefLabel "B2.2"@de.
+n0:c9g
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "B2"@de;
+	skos:narrower n0:u3d,
+		n0:t7a.
+n0:t6f
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5";
+	skos:topConceptOf n0:;
+	skos:prefLabel "C1"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Kompetenzstufenmodelle - Französisch MSA - Leseverstehen"@de;
+	dct:description "Kompetenzstufenmodelle zu den Bildungsstandards im Fach Französisch für den Mittleren Schulabschluss - Leseverstehen -"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
+	skos:hasTopConcept
+		n0:u9d,
+		n0:b2d,
+		n0:g6h,
+		n0:c9g,
+		n0:t6f.

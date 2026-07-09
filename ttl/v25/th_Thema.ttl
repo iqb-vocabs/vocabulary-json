@@ -1,0 +1,418 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v25/th/>. 
+@prefix n1: <https://w3id.org/iqb/v25/th/>. 
+
+n1:b3s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:b3q;
+	skos:prefLabel "Dienstleistung"@de.
+n1:u2p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:b3q;
+	skos:prefLabel "Einkaufen"@de.
+n1:c3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:b3q;
+	skos:prefLabel "Essen und Trinken"@de.
+n1:t3d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4";
+	skos:broader n1:b3q;
+	skos:prefLabel "Familienalltag"@de.
+n1:c9f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5";
+	skos:broader n1:b3q;
+	skos:prefLabel "Freizeit"@de.
+n1:f2y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6";
+	skos:broader n1:b3q;
+	skos:prefLabel "Haustiere,Tiere"@de.
+n1:q9e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.7";
+	skos:broader n1:b3q;
+	skos:prefLabel "Kleidung"@de.
+n1:h3c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.8";
+	skos:broader n1:b3q;
+	skos:prefLabel "Konsum"@de.
+n1:u3f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.9";
+	skos:broader n1:b3q;
+	skos:prefLabel "Sport"@de.
+n1:y2x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.10";
+	skos:broader n1:b3q;
+	skos:prefLabel "Umwelt"@de.
+n1:t5u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.11";
+	skos:broader n1:b3q;
+	skos:prefLabel "Verkehrsmittel"@de.
+n1:t5a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.12";
+	skos:broader n1:b3q;
+	skos:prefLabel "Wetter"@de.
+n1:q7a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.13";
+	skos:broader n1:b3q;
+	skos:prefLabel "Wohnen"@de.
+n1:b3q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Tägliches Leben"@de;
+	skos:narrower 
+		n1:b3s,
+		n1:u2p,
+		n1:c3y,
+		n1:t3d,
+		n1:c9f,
+		n1:f2y,
+		n1:q9e,
+		n1:h3c,
+		n1:u3f,
+		n1:y2x,
+		n1:t5u,
+		n1:t5a,
+		n1:q7a.
+n1:v2g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:b6s;
+	skos:prefLabel "Erziehung"@de.
+n1:s5e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:b6s;
+	skos:prefLabel "Familie"@de.
+n1:f7e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n1:b6s;
+	skos:prefLabel "Freundschaft"@de.
+n1:c7b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4";
+	skos:broader n1:b6s;
+	skos:prefLabel "Identität"@de.
+n1:c3g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.5";
+	skos:broader n1:b6s;
+	skos:prefLabel "Kommunikation"@de.
+n1:d5b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.6";
+	skos:broader n1:b6s;
+	skos:prefLabel "Liebe"@de.
+n1:b6s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Identität und Beziehungen"@de;
+	skos:narrower 
+		n1:v2g,
+		n1:s5e,
+		n1:f7e,
+		n1:c7b,
+		n1:c3g,
+		n1:d5b.
+n1:v2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n1:r5e;
+	skos:prefLabel "Ausbildung"@de.
+n1:h6t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2";
+	skos:broader n1:r5e;
+	skos:prefLabel "Berufe"@de.
+n1:y2g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3";
+	skos:broader n1:r5e;
+	skos:prefLabel "Berufsorientierung"@de.
+n1:d3t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.4";
+	skos:broader n1:r5e;
+	skos:prefLabel "Schule"@de.
+n1:b9h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.5";
+	skos:broader n1:r5e;
+	skos:prefLabel "Sprache/Sprachenlernen"@de.
+n1:z5b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.6";
+	skos:broader n1:r5e;
+	skos:prefLabel "Unterricht"@de.
+n1:r5e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Schule, Ausbildung, Arbeit"@de;
+	skos:narrower 
+		n1:v2d,
+		n1:h6t,
+		n1:y2g,
+		n1:d3t,
+		n1:b9h,
+		n1:z5b.
+n1:t7s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1";
+	skos:broader n1:d4f;
+	skos:prefLabel "Geografische Gegebenheiten"@de.
+n1:g5h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2";
+	skos:broader n1:d4f;
+	skos:prefLabel "Geschichte"@de.
+n1:h3q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3";
+	skos:broader n1:d4f;
+	skos:prefLabel "Philosophie"@de.
+n1:a3b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.4";
+	skos:broader n1:d4f;
+	skos:prefLabel "Politik"@de.
+n1:z9v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.5";
+	skos:broader n1:d4f;
+	skos:prefLabel "Regionale Identität"@de.
+n1:q5d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.6";
+	skos:broader n1:d4f;
+	skos:prefLabel "Reisen/Tourismus"@de.
+n1:t6a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.7";
+	skos:broader n1:d4f;
+	skos:prefLabel "Wirtschaft"@de.
+n1:d4f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Länder-/ Kulturspezifische Themen"@de;
+	skos:narrower 
+		n1:t7s,
+		n1:g5h,
+		n1:h3q,
+		n1:a3b,
+		n1:z9v,
+		n1:q5d,
+		n1:t6a.
+n1:h4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1";
+	skos:broader n1:z5e;
+	skos:prefLabel "globale Herausforderung"@de.
+n1:t9t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.2";
+	skos:broader n1:z5e;
+	skos:prefLabel "moralische Verantwortung"@de.
+n1:z6q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.3";
+	skos:broader n1:z5e;
+	skos:prefLabel "Menschenrechte"@de.
+n1:c3e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.4";
+	skos:broader n1:z5e;
+	skos:prefLabel "Natur"@de.
+n1:c6v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.5";
+	skos:broader n1:z5e;
+	skos:prefLabel "Technik"@de.
+n1:p2r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.6";
+	skos:broader n1:z5e;
+	skos:prefLabel "Wissenschaft"@de.
+n1:z5e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kulturübergreifende Themen"@de;
+	skos:narrower 
+		n1:h4e,
+		n1:t9t,
+		n1:z6q,
+		n1:c3e,
+		n1:c6v,
+		n1:p2r.
+n1:f3p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.1";
+	skos:broader n1:s4d;
+	skos:prefLabel "Architektur"@de.
+n1:r3c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.2";
+	skos:broader n1:s4d;
+	skos:prefLabel "Bildende Kunst"@de.
+n1:y9z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.3";
+	skos:broader n1:s4d;
+	skos:prefLabel "Darstellende Kunst"@de.
+n1:v3q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.4";
+	skos:broader n1:s4d;
+	skos:prefLabel "Fernsehen"@de.
+n1:c6f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.5";
+	skos:broader n1:s4d;
+	skos:prefLabel "Film"@de.
+n1:a7t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.6";
+	skos:broader n1:s4d;
+	skos:prefLabel "Grafik und Design"@de.
+n1:y3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.7";
+	skos:broader n1:s4d;
+	skos:prefLabel "Internet"@de.
+n1:x6r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.8";
+	skos:broader n1:s4d;
+	skos:prefLabel "Literatur"@de.
+n1:u3s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.9";
+	skos:broader n1:s4d;
+	skos:prefLabel "Musik"@de.
+n1:v6r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.10";
+	skos:broader n1:s4d;
+	skos:prefLabel "Presse"@de.
+n1:u7v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.11";
+	skos:broader n1:s4d;
+	skos:prefLabel "Rundfunk"@de.
+n1:v9r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.12";
+	skos:broader n1:s4d;
+	skos:prefLabel "Soziale Medien"@de.
+n1:t4r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.13";
+	skos:broader n1:s4d;
+	skos:prefLabel "Video"@de.
+n1:s4d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kunst und Medien"@de;
+	skos:narrower 
+		n1:f3p,
+		n1:r3c,
+		n1:y9z,
+		n1:v3q,
+		n1:c6f,
+		n1:a7t,
+		n1:y3y,
+		n1:x6r,
+		n1:u3s,
+		n1:v6r,
+		n1:u7v,
+		n1:v9r,
+		n1:t4r.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Textvorgabe Fremdsprachen - Thema"@de;
+	dc:title "Textvorgabe Fremdsprachen - Thema"@de;
+	dc:description "Textvorgabe Fremdsprachen - Thema"@de;
+	skos:hasTopConcept
+		n1:b3q,
+		n1:b6s,
+		n1:r5e,
+		n1:d4f,
+		n1:z5e,
+		n1:s4d.

@@ -1,0 +1,470 @@
+{
+  "id": "https://w3id.org/iqb/v46/k1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Physik MSA 2004 - Kompetenzbereiche des Faches Physik"
+  },
+  "description": {
+    "de": "Mit dem Erwerb des Mittleren Schulabschlusses verfügen die Schülerinnen und Schüler über naturwissenschaftliche Kompetenzen im Allgemeinen sowie physikalische Kompetenzen im Besonderen. Kompetenzen sind nach Weinert „die bei Individuen verfügbaren oder durch sie erlernbaren kognitiven Fähigkeiten und Fertigkeiten, um bestimmte Probleme zu lösen, sowie die damit verbundenen motivationalen, volitionalen und sozialen Bereitschaften und Fähigkeiten, um die Problemlösungen in variablen Situationen erfolgreich und verantwortungsvoll nutzen zu können“.\n\nDie in vier Kompetenzbereichen festgelegten Standards beschreiben die notwendige physikalische Grundbildung. Die im Kompetenzbereich Fachwissen vorgenommene vertikale Vernetzung durch die übergeordneten vier Basiskonzepte Materie, Wechselwirkung, System und Energie soll den Schülerinnen und Schülern kumulatives Lernen erleichtern. Zugleich wird auf Basis des Fachwissens der Kompetenzerwerb in den Bereichen Erkenntnisgewinnung, Kommunikation und Bewerten ermöglicht und das Fachwissen in gesellschaftlichen und alltagsrelevanten Kontexten angewandt. Darüber hinaus bieten die Kompetenzen Anknüpfungspunkte für fachübergreifendes und fächerverbindendes Arbeiten."
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v46/k1/r6x",
+      "notation": [
+        "B "
+      ],
+      "prefLabel": {
+        "de": "Bewertung"
+      },
+      "definition": {
+        "de": "Physikalische Sachverhalte in verschiedenen Kontexten erkennen und bewerten.\\\n\\\nDas Heranziehen physikalischer Denkmethoden und Erkenntnisse zur Erläuterung, zum Verständnis und zur Bewertung physikalisch-technischer und gesellschaftlicher Entscheidungen ist Teil einer zeitgemäßen Allgemeinbildung. Hierzu ist es wichtig, zwischen physikalischen, gesellschaftlichen und politischen Komponenten einer Bewertung zu unterscheiden. Neben der Fähigkeit zur Differenzierung nach physikalisch belegten, hypothetischen oder nicht naturwissenschaftlichen Aussagen in Texten und Darstellungen ist es auch notwendig, die Grenzen naturwissenschaftlicher Sichtweisen zu kennen."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v46/k1/g7c",
+      "notation": [
+        "E "
+      ],
+      "prefLabel": {
+        "de": "Erkenntnisgewinnung"
+      },
+      "definition": {
+        "de": "Experimentelle und andere Untersuchungsmethoden sowie Modelle nutzen. \\\n\\\nPhysikalische Erkenntnisgewinnung ist ein Prozess, der durch folgende Tätigkeiten beschrieben werden kann:"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v46/k1/z4t",
+          "notation": [
+            "E 1"
+          ],
+          "prefLabel": {
+            "de": "Wahrnehmen"
+          },
+          "definition": {
+            "de": "Beobachten und Beschreiben eines Phänomens, Erkennen einer Problemstellung, Vergegenwärtigen der Wissensbasis"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/k1/r4g",
+          "notation": [
+            "E 2"
+          ],
+          "prefLabel": {
+            "de": "Ordnen"
+          },
+          "definition": {
+            "de": "Zurückführen auf und Einordnen in Bekanntes, Systematisieren"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/k1/r3t",
+          "notation": [
+            "E 3"
+          ],
+          "prefLabel": {
+            "de": "Erklären"
+          },
+          "definition": {
+            "de": "Modellieren von Realität, Aufstellen von Hypothesen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/k1/t6p",
+          "notation": [
+            "E 4"
+          ],
+          "prefLabel": {
+            "de": "Prüfen"
+          },
+          "definition": {
+            "de": "Experimentieren, Auswerten, Beurteilen, kritisches Reflektieren von Hypothesen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/k1/y6q",
+          "notation": [
+            "E 5"
+          ],
+          "prefLabel": {
+            "de": "Modelle bilden"
+          },
+          "definition": {
+            "de": "Idealisieren, Beschreiben von Zusammenhängen, Verallgemeinern, Abstrahieren, Begriffe bilden, Formalisieren, Aufstellen einfacher Theorien, Transferieren"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v46/k1/h4r",
+      "notation": [
+        "F "
+      ],
+      "prefLabel": {
+        "de": "Fachwissen"
+      },
+      "definition": {
+        "de": "Physikalische Phänomene, Begriffe, Prinzipien, Fakten, Gesetzmäßigkeiten kennen und Basiskonzepten zuordnen.\\\n\\\nPhysikalisches Fachwissen, wie es durch die vier Basiskonzepte charakterisiert wird, beinhaltet Wissen über Phänomene, Begriffe, Bilder, Modelle und deren Gültigkeitsbereiche sowie über funktionale Zusammenhänge und Strukturen. Als strukturierter Wissensbestand bildet das Fachwissen die Basis zur Bearbeitung physikalischer Probleme und Aufgaben.\\\n\\\nDas Verständnis von Zusammenhängen, Konzepten und Modellen sowie deren Nutzung zur weiteren Erkenntnisgewinnung und zur Diskussion bzw. zur Lösung offener, kontextbezogener Aufgabenstellungen ist Teil einer anspruchsvollen Problembearbeitung. Im Folgenden werden die vier Basiskonzepte näher ausgeführt und Beispiele für mögliche Konkretisierungen angegeben."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v46/k1/b2d",
+          "notation": [
+            "F 1"
+          ],
+          "prefLabel": {
+            "de": "Materie"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v46/k1/y5f",
+              "notation": [
+                "F 1.1"
+              ],
+              "prefLabel": {
+                "de": "Körper können verschiedene Aggregatzustände annehmen. Diese können sich durch äußere Einwirkungen ändern."
+              },
+              "definition": {
+                "de": "Beispiele: Form und Volumen von Körpern"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v46/k1/b9z",
+              "notation": [
+                "F 1.2"
+              ],
+              "prefLabel": {
+                "de": "Körper bestehen aus Teilchen."
+              },
+              "definition": {
+                "de": "Beispiele: Teilchenmodell,Brownsche Bewegung"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v46/k1/e2g",
+              "notation": [
+                "F 1.3"
+              ],
+              "prefLabel": {
+                "de": "Materie ist strukturiert."
+              },
+              "definition": {
+                "de": "Beispiele: Atome, Moleküle, Kristalle"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/k1/r6d",
+          "notation": [
+            "F 2"
+          ],
+          "prefLabel": {
+            "de": "Wechselwirkung"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v46/k1/t6h",
+              "notation": [
+                "F 2.1"
+              ],
+              "prefLabel": {
+                "de": "Wenn Körper aufeinander einwirken, kann eine Verformung oder eine Änderung der Bewegungszustände der Körper auftreten."
+              },
+              "definition": {
+                "de": "Beispiele: Kraftwirkungen, Trägheitsgesetz, Wechselwirkungsgesetz, Impuls"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v46/k1/u9e",
+              "notation": [
+                "F 2.2"
+              ],
+              "prefLabel": {
+                "de": "Körper können durch Felder aufeinander einwirken."
+              },
+              "definition": {
+                "de": "Beispiele: Kräfte zwischen Ladungen, Schwerkraft, Kräfte zwischen Magneten"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v46/k1/p6r",
+              "notation": [
+                "F 2.3"
+              ],
+              "prefLabel": {
+                "de": "Strahlung kann mit Materie wechselwirken, dabei können sich Strahlung und Materie verändern."
+              },
+              "definition": {
+                "de": "Beispiele: Reflexion, Brechung, Totalreflexion, Farben, Treibhauseffekt, globale Erwärmung, ionisierende Strahlung"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/k1/z3p",
+          "notation": [
+            "F 3"
+          ],
+          "prefLabel": {
+            "de": "System"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v46/k1/q3v",
+              "notation": [
+                "F 3.1"
+              ],
+              "prefLabel": {
+                "de": "Stabile Zustände sind Systeme im Gleichgewicht."
+              },
+              "definition": {
+                "de": "Kräftegleichgewicht, Druckgleichgewicht, thermisches Gleichgewicht"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v46/k1/r3e",
+              "notation": [
+                "F 3.2"
+              ],
+              "prefLabel": {
+                "de": "Gestörte Gleichgewichte können Ströme und Schwingungen hervorrufen."
+              },
+              "definition": {
+                "de": "Druck-, Temperatur- bzw. Potenzialunterschiede und die verursachten Strömungen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v46/k1/f3s",
+              "notation": [
+                "F 3.3"
+              ],
+              "prefLabel": {
+                "de": "Ströme benötigen einen Antrieb(Ursache) und können durch Widerstände in ihrer Stärke beeinflusst werden"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/k1/f2h",
+          "notation": [
+            "F 4"
+          ],
+          "prefLabel": {
+            "de": "Energie"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v46/k1/v5d",
+              "notation": [
+                "F 4.1"
+              ],
+              "prefLabel": {
+                "de": "Nutzbare Energie kann aus erschöpfbaren und regenerativen Quellen gewonnen werden."
+              },
+              "definition": {
+                "de": "Beispiele: fossile Brennstoffe, Wind- und Sonnenenergie, Kernenergie"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v46/k1/r3x",
+              "notation": [
+                "F 4.2"
+              ],
+              "prefLabel": {
+                "de": "Für den Transport und bei der Nutzung von Energie kann ein Wechsel der Energieform bzw. des Energieträgers stattfinden. Dabei kann nur ein Teil der eingesetzten Energie genutzt werden"
+              },
+              "definition": {
+                "de": "Beispiele: Generator, Motor, Transformator, Wirkungsgrad, Entropie, Abwärme, Energieentwertung"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v46/k1/s5c",
+              "notation": [
+                "E 4.3"
+              ],
+              "prefLabel": {
+                "de": "Die Gesamtheit der Energien bleibt konstant."
+              },
+              "definition": {
+                "de": "Beispiele: Pumpspeicherwerk, Akkumulator, Wärmepumpe (Kühlschrank)"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v46/k1/x2e",
+              "notation": [
+                "E 4.4"
+              ],
+              "prefLabel": {
+                "de": "Bei Körpern unterschiedlicher Temperatur findet ein Energiefluss von alleine nur von höherer zu niedrigerer Temperatur statt."
+              },
+              "definition": {
+                "de": "Beispiele: Wärmeleitung, Strahlung"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v46/k1/c6z",
+      "notation": [
+        "K "
+      ],
+      "prefLabel": {
+        "de": "Kommunikation"
+      },
+      "definition": {
+        "de": "Informationen sach- und fachbezogen erschließen und austauschen.\\\n\\\nDie Fähigkeit zu adressatengerechter und sachbezogener Kommunikation ist ein wesentlicher Bestandteil physikalischer Grundbildung. \\\n\\\nDazu ist es notwendig, über Kenntnisse und Techniken zu verfügen, die es ermöglichen, sich die benötigte Wissensbasis eigenständig zu erschließen. Dazu gehören das angemessene Verstehen von Fachtexten, Graphiken und Tabellen sowie der Umgang mit Informationsmedien und das Dokumentieren des in Experimenten oder Recherchen gewonnenen Wissens. \\\n\\\nZur Kommunikation sind eine angemessene Sprech- und Schreibfähigkeit in der Alltags- und der Fachsprache, das Beherrschen der Regeln der Diskussion und moderne Methoden und Techniken der Präsentation erforderlich. Kommunikation setzt die Bereitschaft und die Fähigkeit voraus, eigenes Wissen, eigene Ideen und Vorstellungen in die Diskussion einzubringen und zu entwickeln, den Kommunikationspartnern mit Vertrauen zu begegnen und ihre Persönlichkeit zu respektieren sowie einen Einblick in den eigenen Kenntnisstand zu gewähren."
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v27/ns/>. 
+
+n0:a9z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Multiple Choice (MC)"@de.
+n0:t6x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Complex Multiple Choice (CMC)"@de.
+n0:d5z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Zuordnen"@de.
+n0:r9p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sortieren"@de.
+n0:e3r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Markieren"@de.
+n0:y4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Zeichnen/Konstruieren"@de.
+n0:e7q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Numerische Kurzantwort"@de.
+n0:a7h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Verbale Kurzantwort"@de.
+n0:e6f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Langantwort"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Itemformat - Itemformat NaWi Sek I"@de;
+	dc:title "Itemformat - Itemformat NaWi Sek I"@de;
+	dc:description "Itemformat - Itemformat NaWi Sek I"@de;
+	skos:hasTopConcept
+		n0:a9z,
+		n0:t6x,
+		n0:d5z,
+		n0:r9p,
+		n0:e3r,
+		n0:y4e,
+		n0:e7q,
+		n0:a7h,
+		n0:e6f.

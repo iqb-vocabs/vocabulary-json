@@ -1,0 +1,38 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v52/n1/>. 
+@prefix n1: <https://w3id.org/iqb/v52/n1/>. 
+
+n1:z7x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "I Reproduzieren"@de; 
+	skos:definition "Dieser Bereich umfasst die Wiedergabe und direkte Anwendung von grundlegenden Begriffen, Sätzen und Verfahren in einem abgegrenzten Gebiet und einem wiederholenden Zusammenhang."@de.
+n1:c3h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "II Zusammenhänge herstellen"@de; 
+	skos:definition "Dieser Bereich umfasst das Bearbeiten bekannter Sachverhalte, indem Kenntnisse, Fertigkeiten und Fähigkeiten verknüpft werden, die in der Auseinandersetzung mit Mathematik auf verschiedenen Gebieten erworben wurden."@de.
+n1:x6g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "III Verallgemeinern und Reflektieren"@de; 
+	skos:definition "Dieser Bereich umfasst das Bearbeiten komplexer Gegebenheiten u. a. mit dem Ziel, zu eigenen Problemformulierungen, Lösungen, Begründungen, Folgerungen, Interpretationen oder Wertungen zu gelangen."@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Mathematik HSA 2004 - Anforderungsbereiche"@de;
+	dct:description """Zum Lösen mathematischer Aufgaben werden die allgemeinen mathematischen Kompetenzen in unterschiedlicher Ausprägung benötigt. Diesbezüglich lassen sich drei Anforderungsbereiche unterscheiden: Reproduzieren, Zusammenhänge herstellen sowie Verallgemeinern und Reflektieren. Im Allgemeinen nehmen Anspruch und kognitive Komplexität von Anforderungsbereich zu Anforderungsbereich zu. 
+
+Die Anforderungsbereiche sind für alle allgemeinen mathematischen Kompetenzen wie folgt charakterisiert:"""@de;
+	skos:hasTopConcept
+		n1:z7x,
+		n1:c3h,
+		n1:x6g.

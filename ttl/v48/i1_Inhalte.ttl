@@ -1,0 +1,453 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v48/i1/>. 
+@prefix n1: <https://w3id.org/iqb/v48/i1/>. 
+
+n1:q3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1.1";
+	skos:broader n1:e5r;
+	skos:prefLabel "Begriff des Feldes am Beispiel von elektrischen und magnetischen Feldern"@de.
+n1:c5z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1.2";
+	skos:broader n1:e5r;
+	skos:prefLabel "Elektrische Feldstärke"@de.
+n1:v6z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1.3";
+	skos:broader n1:e5r;
+	skos:prefLabel "Elektrische Energie in einem geladenen Kondensator"@de.
+n1:r7g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1.4";
+	skos:broader n1:e5r;
+	skos:prefLabel "Kondensator als Energiespeicher, Kapazität"@de.
+n1:z4p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1.5";
+	skos:broader n1:e5r;
+	skos:prefLabel "Magnetische Flussdichte"@de.
+n1:e5r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1";
+	skos:broader n1:r2q;
+	skos:prefLabel "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:q3y,
+		n1:c5z,
+		n1:v6z,
+		n1:r7g,
+		n1:z4p.
+n1:q6b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.2.2";
+	skos:broader n1:e5b;
+	skos:prefLabel "Coulomb’sches Gesetz"@de.
+n1:y3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.2.3";
+	skos:broader n1:e5b;
+	skos:prefLabel "Spannung als Potentialdifferenz"@de.
+n1:e4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.2.5";
+	skos:broader n1:e5b;
+	skos:prefLabel "Spule und ihre Eigenschaften, insbesondere Induktivität"@de.
+n1:e5b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.2";
+	skos:broader n1:r2q;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:q6b,
+		n1:y3y,
+		n1:e4e.
+n1:r2q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:c3e;
+	skos:prefLabel "Das Feldkonzept zur Beschreibung von Wechselwirkungen"@de;
+	skos:narrower 
+		n1:e5r,
+		n1:e5b.
+n1:f4x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1.1";
+	skos:broader n1:q7g;
+	skos:prefLabel "Kräfte auf Körper in homogenen elektrischen und magnetischen Feldern, Bahnformen (qualitativ)"@de.
+n1:h3s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1.2";
+	skos:broader n1:q7g;
+	skos:prefLabel "Energiebetrachtungen von Körpern in homogenen elektrischen Feldern"@de.
+n1:q7g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1";
+	skos:broader n1:g9z;
+	skos:prefLabel "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:f4x,
+		n1:h3s.
+n1:q2z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.2.1";
+	skos:broader n1:c3b;
+	skos:prefLabel "Quantitative Betrachtung von Bahnformen in homogenen Feldern"@de.
+n1:c3b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.2";
+	skos:broader n1:g9z;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:q2z.
+n1:g9z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:c3e;
+	skos:prefLabel "Körper in statischen Feldern"@de;
+	skos:narrower 
+		n1:q7g,
+		n1:c3b.
+n1:e6z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.1";
+	skos:broader n1:s9q;
+	skos:prefLabel "Induktion durch Änderung des magnetischen Flusses"@de.
+n1:s9q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1";
+	skos:broader n1:v5q;
+	skos:prefLabel "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:e6z.
+n1:z9v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.1";
+	skos:broader n1:t6f;
+	skos:prefLabel "Induktionsgesetz in differenzieller Form"@de.
+n1:t6f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2";
+	skos:broader n1:v5q;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:z9v.
+n1:v5q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:c3e;
+	skos:prefLabel "Veränderliche elektromagnetische Felder"@de;
+	skos:narrower 
+		n1:s9q,
+		n1:t6f.
+n1:c3e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Inhaltsbereich: Elektrische und magnetische Felder"@de;
+	skos:narrower 
+		n1:r2q,
+		n1:g9z,
+		n1:v5q.
+n1:u6g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.1.1";
+	skos:broader n1:d7h;
+	skos:prefLabel "mechanische und elektromagnetische harmonische Schwingungen: charakteristische Größen und ihre Zusammenhänge"@de.
+n1:d7h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.1";
+	skos:broader n1:q4a;
+	skos:prefLabel "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:u6g.
+n1:v7g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.2.1";
+	skos:broader n1:e5x;
+	skos:prefLabel "gedämpfte Schwingungen"@de.
+n1:h3b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.2.2";
+	skos:broader n1:e5x;
+	skos:prefLabel "Vergleich von mechanischen und elektromagnetischen Schwingungen unter energetischen Aspekten"@de.
+n1:y3c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.2.3";
+	skos:broader n1:e5x;
+	skos:prefLabel "Resonanz bei erzwungenen Schwingungen"@de.
+n1:e5x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.2";
+	skos:broader n1:q4a;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:v7g,
+		n1:h3b,
+		n1:y3c.
+n1:q4a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:y5f;
+	skos:prefLabel "Schwingungen"@de;
+	skos:narrower 
+		n1:d7h,
+		n1:e5x.
+n1:s5x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.1.1";
+	skos:broader n1:g5b;
+	skos:prefLabel "harmonische Wellen: charakteristische Größen und ihre Zusammenhänge"@de.
+n1:v2v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.1.2";
+	skos:broader n1:g5b;
+	skos:prefLabel "Longitudinal- und Transversalwelle, lineare Polarisation"@de.
+n1:q7u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.1.3";
+	skos:broader n1:g5b;
+	skos:prefLabel "Spektrum elektromagnetischer Wellen"@de.
+n1:g5b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.1";
+	skos:broader n1:s7y;
+	skos:prefLabel "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:s5x,
+		n1:v2v,
+		n1:q7u.
+n1:s7y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:y5f;
+	skos:prefLabel "Eigenschaften und Ausbreitung von Wellen"@de;
+	skos:narrower 
+		n1:g5b.
+n1:x6p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.1.1";
+	skos:broader n1:e6q;
+	skos:prefLabel "Interferenz am Doppelspalt auch mit polychromatischem Licht"@de.
+n1:g7x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.1.2";
+	skos:broader n1:e6q;
+	skos:prefLabel "stehende Wellen"@de.
+n1:e6q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.1";
+	skos:broader n1:y4b;
+	skos:prefLabel "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:x6p,
+		n1:g7x.
+n1:a7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2.1";
+	skos:broader n1:g9e;
+	skos:prefLabel "Einzelspalt mit monochromatischem Licht"@de.
+n1:d6t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2.2";
+	skos:broader n1:g9e;
+	skos:prefLabel "Interferometer"@de.
+n1:g9e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2";
+	skos:broader n1:y4b;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:a7z,
+		n1:d6t.
+n1:y4b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n1:y5f;
+	skos:prefLabel "Überlagerung von Wellen"@de;
+	skos:narrower 
+		n1:e6q,
+		n1:g9e.
+n1:y5f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Inhaltsbereich: Mechanische und elektromagnetische Schwingungen und Wellen"@de;
+	skos:narrower 
+		n1:q4a,
+		n1:s7y,
+		n1:y4b.
+n1:u4c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.1.1";
+	skos:broader n1:g7d;
+	skos:prefLabel "Grundlegende Aspekte der Quantentheorie: Stochastische Vorhersagbarkeit, Interferenz und Superposition, Determiniertheit der Zufallsverteilung, Komplementarität"@de.
+n1:r9c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.1.2";
+	skos:broader n1:g7d;
+	skos:prefLabel "Zusammenhänge der Größen Energie, Impuls, Frequenz und Wellenlänge zur Beschreibung von Quantenobjekten"@de.
+n1:z5e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.1.3";
+	skos:broader n1:g7d;
+	skos:prefLabel "quantenphysikalisches Weltbild hinsichtlich der Begriffe Realität, Lokalität, Kausalität, Determinismus"@de.
+n1:g7d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.1";
+	skos:broader n1:b2d;
+	skos:prefLabel "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:u4c,
+		n1:r9c,
+		n1:z5e.
+n1:b6v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.2.1";
+	skos:broader n1:d2g;
+	skos:prefLabel "stochastische Deutung mittels des Quadrats der quantenmechanischen Wellenfunktion (qualitativ)"@de.
+n1:e9x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.2.2";
+	skos:broader n1:d2g;
+	skos:prefLabel "Ort-Impuls-Unbestimmtheit"@de.
+n1:s4p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.2.3";
+	skos:broader n1:d2g;
+	skos:prefLabel "Koinzidenzmethode zum Nachweis einzelner Photonen"@de.
+n1:d2g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.2";
+	skos:broader n1:b2d;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:b6v,
+		n1:e9x,
+		n1:s4p.
+n1:b2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n1:x3x;
+	skos:prefLabel "Quantenobjekte"@de;
+	skos:narrower 
+		n1:g7d,
+		n1:d2g.
+n1:y2e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1.1";
+	skos:broader n1:v4s;
+	skos:prefLabel "qualitative Betrachtung eines quantenmechanischen Atommodells"@de.
+n1:c5g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1.2";
+	skos:broader n1:v4s;
+	skos:prefLabel "Emission und Absorption, Zusammenhang zwischen diskretem Spektrum und Energieniveauschema"@de.
+n1:v4s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1";
+	skos:broader n1:r9h;
+	skos:prefLabel "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:y2e,
+		n1:c5g.
+n1:v9h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.2.1";
+	skos:broader n1:u9y;
+	skos:prefLabel "Modell des eindimensionalen Potenzialtopfs und seine Grenzen"@de.
+n1:u9y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.2";
+	skos:broader n1:r9h;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:v9h.
+n1:r9h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2";
+	skos:broader n1:x3x;
+	skos:prefLabel "Atomvorstellungen"@de;
+	skos:narrower 
+		n1:v4s,
+		n1:u9y.
+n1:x3x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Inhaltsbereich: Quantenphysik und Materie"@de;
+	skos:narrower 
+		n1:b2d,
+		n1:r9h.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Physik Sek II 2020 - Inhalte"@de;
+	dct:description """Im Folgenden sind zentrale Inhalte aufgeführt, über die die Lernenden zum Zeitpunkt des Erwerbs der Allgemeinen Hochschulreife verfügen sollen. Dabei wird in ein grundlegendes Anforderungsniveau und ein erhöhtes Anforderungsniveau unterschieden. Diese Inhalte sind Grundlage für die Erstellung von Aufgaben im Rahmen der Prüfung für die Allgemeine Hochschulreife. Einige der zentralen Inhalte werden in manchen Ländern üblicherweise in der Sekundarstufe I oder in der Einführungsphase vermittelt.
+
+Die in den Textfassung Kapiteln 2.1 bis 2.4 formulierten Kompetenzen werden, aufbauend auf den in der Sekundarstufe I erworbenen Inhalten und Kompetenzen, in der Beschäftigung mit konkreten Inhalten in sinnstiftenden Kontexten erworben, die sich aus Problemstellungen in den verschiedenen Teilbereichen der Physik ergeben. Um aktuelle und zukünftige Entwicklungen in der Physik und die Diversität der Fachwissenschaft zu berücksichtigen, sollten die Lehrpläne der Länder Schwerpunkte setzen, z. B. in Form von Vertiefungen und Erweiterungen innerhalb der gegebenen Inhaltsbereiche. Im Bereich der elektromagnetischen Felder bieten sich Erweiterungen z. B. zur Relativitätstheorie, im Bereich der Quantenphysik und Materie z. B. zur Kern- und Teilchenphysik an. Darüber hinaus gehende Erweiterungen können beispielsweise im Bereich Klimaphysik, Festkörperphysik, Astrophysik oder anderen aktuellen Teilbereichen der Physik einen Schwerpunkt setzen. Die in Textfassung 2.6.1 bis 2.6.3 aufgeführten Inhalte sind für viele Teilbereiche der Physik zentral, z. B. für die Atomphysik oder die Biophysik. Für andere Teilbereiche sind gegebenenfalls andere physikalische Grundlagen notwendig, die jedoch gleichermaßen für die Fachwissenschaft Physik zentral sind. Beispielsweise werden für eine umfassende Betrachtung von Klimaphysik Grundlagen der Thermodynamik benötigt. Aufgrund der Vielzahl der historisch entwickelten und sich neu herausbildenden Teilbereiche der Physik können nicht alle notwendigen Grundlagen kontextübergreifend als zentral festgelegt werden. Um dies zu berücksichtigen, kann in Kursen auf grundlegendem Anforderungsniveau eine Lehrplanalternative eingerichtet werden, deren Inhalte nicht unmittelbar an einen der Inhaltsbereiche 2.6.1 bis 2.6.3 (Texfassung) anknüpfen müssen. Falls eine Lehrplanalternative umgesetzt wird, deren physikalische Grundlagen nicht innerhalb der Inhaltsbereiche 2.6.1 bis 2.6.3 aufgeführt sind, können auf der Basis der Bestimmungen der Länder einzelne Inhalte des Inhaltsbereichs 2.6.3 durch gleichwertige Inhalte aus weiteren Teilbereichen der Physik ersetzt werden. Dabei muss gewährleistet sein, dass durch diesen teilweisen Austausch zentraler Inhalte weiterhin alle Standards erreichbar sind. Unabhängig von den im Einzelfall gesetzten Schwerpunkten bedingt das Arbeiten in sinnstiftenden Kontexten, dass die zentralen Inhalte durch weitere Inhalte länderspezifisch ergänzt werden."""@de;
+	skos:hasTopConcept
+		n1:c3e,
+		n1:y5f,
+		n1:x3x.

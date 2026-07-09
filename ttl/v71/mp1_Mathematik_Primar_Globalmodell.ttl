@@ -1,0 +1,52 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v71/mp1/>. 
+
+n0:a9d
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Stufe I"@de; 
+	skos:definition "technische Grundlagen (Routineprozeduren auf Grundlage einfachen begrifflichen Wissens)"@de.
+n0:e3y
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Stufe II"@de; 
+	skos:definition "einfache Anwendungen von Grundlagenwissen (Routineprozeduren in einem klar strukturierten Kontext)"@de.
+n0:a5v
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Stufe III"@de; 
+	skos:definition "Erkennen und Nutzen von Zusammenhängen in einem vertrauten (mathematischen und sachbezogenen) Kontext"@de.
+n0:c2q
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Stufe IV"@de; 
+	skos:definition "sicheres und flexibles Anwenden von begrifflichem Wissen und Prozeduren im curricularen Umfang"@de.
+n0:p2p
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Stufe V"@de; 
+	skos:definition "Modellierung komplexer Probleme unter selbstständiger Entwicklung geeigneter Strategien"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Kompetenzstufenmodelle - Mathematik Primar"@de;
+	dct:description "Kompetenzstufenmodell zu den Bildungsstandards im Fach Mathematik für den Primarbereich (Jahrgangsstufe 4)"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
+	skos:hasTopConcept
+		n0:a9d,
+		n0:e3y,
+		n0:a5v,
+		n0:c2q,
+		n0:p2p.

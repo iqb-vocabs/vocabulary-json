@@ -1,0 +1,52 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v71/dm1/>. 
+
+n0:q6a
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Stufe I"@de; 
+	skos:definition "Mindeststandard verfehlt"@de.
+n0:u4h
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Stufe II"@de; 
+	skos:definition "Mindeststandard"@de.
+n0:b9t
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Stufe III"@de; 
+	skos:definition "Regelstandard"@de.
+n0:a3b
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Stufe IV"@de; 
+	skos:definition "Regelstandard plus"@de.
+n0:c4x
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Stufe V"@de; 
+	skos:definition "Optimalstandard"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Kompetenzstufenmodelle - Deutsch MSA - Sprachgebrauch"@de;
+	dct:description "Kompetenzstufenmodell zu den Bildungsstandards im Kompetenzbereich Sprache und Sprachgebrauch untersuchen für den Mittleren Schulabschluss"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
+	skos:hasTopConcept
+		n0:q6a,
+		n0:u4h,
+		n0:b9t,
+		n0:a3b,
+		n0:c4x.

@@ -1,0 +1,195 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v28/ss/>. 
+@prefix n1: <https://w3id.org/iqb/v28/ss/>. 
+
+n1:v7f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Anleitung"@de.
+n1:z3d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Auszug aus einer Novelle"@de.
+n1:u7a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Bericht"@de.
+n1:x4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Biopic"@de.
+n1:a5f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Doku-Drama"@de.
+n1:b3c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Dokumentation"@de.
+n1:s5q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Drama"@de.
+n1:f7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Erklärvideo"@de.
+n1:s5s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Erzählung"@de.
+n1:d3r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Fabel"@de.
+n1:x3g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Feature"@de.
+n1:z3u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Hörbuch"@de.
+n1:a6c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Hörspiel"@de.
+n1:a3f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "(Buch-)Kritik"@de.
+n1:z3t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kommentar"@de.
+n1:u6s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kurzgeschichte"@de.
+n1:q2z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Lesung"@de.
+n1:f5a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Nachricht"@de.
+n1:y3g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Podcast"@de.
+n1:g6y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Reportage"@de.
+n1:h9b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "(Jugend-)Romanauszug"@de.
+n1:q5d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Schulordnung"@de.
+n1:y9b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Tutorial"@de.
+n1:r7v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Webinar"@de.
+n1:u7g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Wissenssendung"@de.
+n1:t2g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "weitere"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Deutsch - Textsorte Sek I"@de;
+	dc:title "Deutsch - Textsorte Sek I"@de;
+	dc:description "Deutsch - Textsorte Sek I"@de;
+	skos:hasTopConcept
+		n1:v7f,
+		n1:z3d,
+		n1:u7a,
+		n1:x4q,
+		n1:a5f,
+		n1:b3c,
+		n1:s5q,
+		n1:f7z,
+		n1:s5s,
+		n1:d3r,
+		n1:x3g,
+		n1:z3u,
+		n1:a6c,
+		n1:a3f,
+		n1:z3t,
+		n1:u6s,
+		n1:q2z,
+		n1:f5a,
+		n1:y3g,
+		n1:g6y,
+		n1:h9b,
+		n1:q5d,
+		n1:y9b,
+		n1:r7v,
+		n1:u7g,
+		n1:t2g.

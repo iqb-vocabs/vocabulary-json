@@ -1,0 +1,98 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v59/f2/>. 
+@prefix n1: <https://w3id.org/iqb/v59/f2/>. 
+
+n1:e2r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "ihr Orientierungswissen über die Zielkulturen in vielfältigen Situationen anwenden: Aspekte der Alltagskultur und Berufswelt, Themen und Probleme junger Erwachsener, gegenwärtige politische und soziale Bedingungen, historische und kulturelle Entwicklungen einschließlich literarischer Aspekte sowie Themen von globaler Bedeutung"@de.
+n1:v2h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "ihr Wissen über Kommunikation anwenden und fremdsprachige Konventionen beachten, u. a. zur Signalisierung von Distanz und Nähe"@de.
+n1:s5a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "ihre Wahrnehmungen und (Vor-)Urteile erkennen, hinterfragen, relativieren und ggf. revidieren"@de.
+n1:r3v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "einen Perspektivenwechsel vollziehen sowie verschiedene Perspektiven vergleichen und abwägen"@de.
+n1:t2c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Werte, Haltungen und Einstellungen ihrer zielsprachigen Kommunikationspartner erkennen und unter Berücksichtigung des fremdkulturellen Hintergrundes einordnen"@de.
+n1:g7g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6";
+	skos:topConceptOf n0:;
+	skos:prefLabel "fremdsprachige Texte und Diskurse in ihrer fremdkulturellen Dimension erfassen, deuten und bewerten"@de.
+n1:u6h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "7";
+	skos:topConceptOf n0:;
+	skos:prefLabel "fremde und eigene Werte, Haltungen und Einstellungen im Hinblick auf international gültige Konventionen (z. B. die Menschenrechte) einordnen"@de.
+n1:d7g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "8";
+	skos:topConceptOf n0:;
+	skos:prefLabel "ihr strategisches Wissen nutzen, um Missverständnisse und sprachlich-kulturell bedingte Konfliktsituationen zu erkennen und zu klären"@de.
+n1:b7p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "9";
+	skos:topConceptOf n0:;
+	skos:prefLabel "sich trotz des Wissens um die eigenen begrenzten kommunikativen Mittel auf interkulturelle Kommunikationssituationen einlassen und ihr eigenes sprachliches Verhalten in seiner Wirkung reflektieren und bewerten"@de.
+n1:t9y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "10";
+	skos:topConceptOf n0:;
+	skos:prefLabel "auch in für sie interkulturell herausfordernden Situationen reflektiert agieren, indem sie sprachlich und kulturell Fremdes auf den jeweiligen Hintergrund beziehen und sich konstruktiv-kritisch damit auseinandersetzen"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Fremdsprachen Sek II 2012 - Interkulturelle kommunikative Kompetenz"@de;
+	dct:description """Interkulturelle kommunikative Kompetenz ist gerichtet auf Verstehen und Handeln in Kontexten, in denen die Fremdsprache verwendet wird. Schülerinnen und Schüler erschließen die in fremdsprachigen und fremdkulturellen Texten enthaltenen Informationen, Sinnangebote und Handlungsaufforderungen und reflektieren sie vor dem Hintergrund ihres eigenen kulturellen und gesellschaftlichen Kontextes. Dies geschieht im Zusammenwirken mit ihrer funktionalen kommunikativen Kompetenz, ihrer Sprachbewusstheit sowie ihrer Text- und Medienkompetenz. Dazu gehört, dass Schülerinnen und Schüler Texte in ihren unterschiedlichen Dimensionen möglichst differenziert erfassen und deuten, ohne diese vorschnell zu bewerten. Damit erwerben sie die Voraussetzungen, zu kulturellen Geprägtheiten Empathie wie auch kritische Distanz zu entwickeln, ein begründetes persönliches Urteil zu fällen und ihr eigenes kommunikatives Handeln situationsangemessen und adressatengerecht zu gestalten.
+
+Der Prozess interkunlturellen Verstehens und Handelns beruht auf dem Zusammenspiel von Wissen, Einstellungen und Bewusstheit.
+
+Schülerinnen und Schüler nutzen verschiedene Wissenskomponenten als Hilfe für das Verstehen und Handeln. Dazu zählen ihr fremdkulturelles Wissen, insbesondere in der Form soziokulturellen Orientierungswissens, und ihre Einsichten in die kulturellen Prägungen von Sprache und Sprachverwendung, auch bezogen auf den Gebrauch der Fremdsprache als lingua franca. Letzteres betrifft insbesondere das Englische. Strategisches Wissen als weitere Wissenskomponente umfasst vor allem Strategien, die die Kommunikation unter den besonderen Bedingungen des Gebrauchs der Fremdsprache sichern. Es ermöglicht Schülerinnen und Schülern, mit eigenem und fremdem sprachlichem und kulturellem Nichtverstehen und mit der Begrenztheit ihrer Lernersprache in Kommunikationssituationen umzugehen. Zudem hilft es ihnen, nicht explizit Formuliertes in mündlicher wie schriftlicher Kommunikation zu erkennen und zu verstehen.
+
+Gelingende interkulturelle Kommunikation setzt bei Schülerinnen und Schülern neben Wissen und dem Verfügen über Strategien angemessene Einstellungen voraus. Dazu zählen insbesondere die Bereitschaft und Fähigkeit, anderen respektvoll zu begegnen, sich kritisch mit ihnen auseinanderzusetzen und beim eigenen Sprachhandeln sprachliche und inhaltliche Risiken einzugehen.
+
+Im Prozess interkulturellen Verstehens und Handelns spielt außerdem Bewusstheit eine wichtige Rolle. Die Schülerinnen und Schüler entwickeln die Fähigkeit und Bereitschaft, ihr persönliches Verstehen und Handeln zu hinterfragen und mit den eigenen Standpunkten Unvereinbares auszuhalten und in der interkulturellen Auseinandersetzung zu reflektieren.
+
+Niveaudifferenzierung
+
+Die Standards zu diesem Kompetenzbereich sind für den Fremdsprachenunterricht der gymnasialen Oberstufe allgemein gültig. Für alle Schülerinnen und Schüler gelten die gleichen Ziele. Aus diesem Grunde entfällt die Differenzierung nach grundlegendem und erhöhtem Niveau. 
+
+ Die Schülerinnen und Schüler können in direkten und in medial vermittelten interkulturellen Situationen kommunikativ handeln. Dies bezieht sich auf personale Begegnungen sowie das Verstehen, Deuten und Produzieren fremdsprachiger Texte. Die Schülerinnen und Schüler greifen dazu auf ihr interkulturelles kommunikatives Wissen zurück und beachten kulturell geprägte Konventionen. Dabei sind sie in der Lage, eigene Vorstellungen und Erwartungen im Wechselspiel mit den an sie herangetragenen zu reflektieren und die eigene Position zum Ausdruck zu bringen.
+
+ Die Schülerinnen und Schüler sind/können"""@de;
+	skos:hasTopConcept
+		n1:e2r,
+		n1:v2h,
+		n1:s5a,
+		n1:r3v,
+		n1:t2c,
+		n1:g7g,
+		n1:u6h,
+		n1:d7g,
+		n1:b7p,
+		n1:t9y.

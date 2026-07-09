@@ -1,0 +1,338 @@
+{
+  "id": "https://w3id.org/iqb/v46/a1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Physik MSA 2004 - Anforderungsbereiche"
+  },
+  "description": {
+    "de": "Da noch keine empirisch abgesicherten Kompetenzstufenmodelle vorliegen, wird zunächst zur Einschätzung der in den Aufgabenbeispielen gestellten Anforderungen auf drei Bereiche zurückgegriffen, die sich in ihrer Beschreibung an den Einheitlichen Prüfungsanforderungen in der Abiturprüfung (EPA) orientieren. Dabei gilt, dass die Anforderungsbereiche nicht Ausprägungen oder Niveaustufen einer Kompetenz sind. Es handelt sich vielmehr um Merkmale von Aufgaben, die verschiedene Schwierigkeitsgrade innerhalb ein und derselben Kompetenz abbilden können. Die nachfolgenden Formulierungen zeigen deshalb zunächst charakterisierende Kriterien zur Einordnung in einen der Anforderungsbereiche auf.e"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v46/a1/e7z",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Anforderungsbereich I"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v46/a1/g4q",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "Fachwissen"
+          },
+          "definition": {
+            "de": "Wissen wiedergeben. Fakten und einfache physikalischeSachverhalte reproduzieren."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/a1/u3y",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "Erkenntnisgewinnung"
+          },
+          "definition": {
+            "de": "Fachmethoden beschreiben. Physikalische Arbeitsweisen, insb. experimentelle, nachvollziehen bzw. beschreiben."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/a1/a9e",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "Kommunikation"
+          },
+          "definition": {
+            "de": "Mit vorgegebenen Darstellungsformen arbeiten. Einfache Sachverhalte in Wort und Schrift oder einer anderen vorgegebenen Form unter Anleitung darstellen, sachbezogene Fragen stellen. "
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/a1/x3r",
+          "notation": [
+            "1.4"
+          ],
+          "prefLabel": {
+            "de": "Bewertung"
+          },
+          "definition": {
+            "de": "Vorgegebene Bewertungen nachvollziehen. Auswirkungen physikalischer Erkenntnisse benennen, einfache, auch technische Kontexte aus physikalischer Sicht erläutern."
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v46/a1/t5h",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Anforderungsbereich II"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v46/a1/r2b",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "Fachwissen"
+          },
+          "definition": {
+            "de": "Wissen anwenden. Physikalisches Wissen in einfachen Kontexten anwenden, einfache Sachverhalte identifizieren und nutzen, Analogien benennen."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/a1/s2r",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "Erkenntnisgewinnung"
+          },
+          "definition": {
+            "de": "Fachmethoden nutzen. Strategien zur Lösung von Aufgaben nutzen, einfache Experimente planen und durchführen, Wissen nach Anleitung erschließen."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/a1/f3v",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "Kommunikation"
+          },
+          "definition": {
+            "de": "Geeignete Darstellungsformen nutzen. Sachverhalte fachsprachlich und strukturiert darstellen, auf Beiträge anderer sachgerecht eingehen, Aussagen sachlich begründen. "
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/a1/s9z",
+          "notation": [
+            "2.4"
+          ],
+          "prefLabel": {
+            "de": "Bewertung"
+          },
+          "definition": {
+            "de": "Vorgegebene Bewertungen beurteilen und kommentieren. Den Aspektcharakter physikalischer Betrachtungen aufzeigen, zwischen physikalischen und anderen Komponenten einer Bewertung unterscheiden."
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v46/a1/c3q",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Anforderungsbereich III"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v46/a1/v5z",
+          "notation": [
+            "3.1"
+          ],
+          "prefLabel": {
+            "de": "Fachwissen"
+          },
+          "definition": {
+            "de": "Wissen transferieren und verknüpfen. Wissen auf teilweise unbekannte Kontexte anwenden, geeignete Sachverhalte auswählen."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/a1/p9u",
+          "notation": [
+            "3.2"
+          ],
+          "prefLabel": {
+            "de": "Erkenntnisgewinnung"
+          },
+          "definition": {
+            "de": "Fachmethoden problembezogen auswählen und anwenden. Unterschiedliche Fachmethoden, auch einfaches Experimentieren und Mathematisieren, kombiniert und zielgerichtet auswählen und einsetzen, Wissen selbstständig erwerben."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/a1/d3b",
+          "notation": [
+            "3.3"
+          ],
+          "prefLabel": {
+            "de": "Kommunikation"
+          },
+          "definition": {
+            "de": "Darstellungsformen selbständig auswählen und nutzen. Darstellungsformen sach- und adressatengerecht auswählen, anwenden und reflektieren, auf angemessenem Niveau begrenzte Themen diskutieren."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/a1/s6r",
+          "notation": [
+            "3.4"
+          ],
+          "prefLabel": {
+            "de": "Bewertung"
+          },
+          "definition": {
+            "de": "Eigene Bewertungen vornehmen. Die Bedeutung physikalischer Kenntnisse beurteilen, physikalische Erkenntnisse als Basis für die Bewertung eines Sachverhalts nutzen, Phänomene in einen physikalischen Kontext einordnen."
+          }
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

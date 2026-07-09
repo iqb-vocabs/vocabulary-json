@@ -1,0 +1,252 @@
+{
+  "id": "https://w3id.org/iqb/v59/f5/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Fremdsprachen Sek II 2012 - Sprachlernkompetenz"
+  },
+  "description": {
+    "de": "Sprachlernkompetenz beinhaltet die Fähigkeit und Bereitschaft, das eigene Sprachenlernen selbstständig zu analysieren und bewusst zu gestalten, wobei die Schülerinnen und Schüler auf ihr mehrsprachiges Wissen und auf individuelle Sprachlernerfahrungen zurückgreifen.\n\nSprachlernkompetenz zeigt sich erstens im Verfügen über sprachbezogene Lernmethoden und in der Beherrschung daraus abgeleiteter, konkreter Strategien. Sie zeigt sich zweitens in der Beobachtung und Evaluation der eigenen Sprachlernmotivation, -prozesse und -ergebnisse sowie drittens in der Bereitschaft und Fähigkeit, begründete Konsequenzen daraus zu ziehen.\n\nSprachbewusstheit und Sprachlernkompetenz haben überdies einen eigenen Bildungswert, sowohl im Hinblick auf die Persönlichkeitsbildung der jungen Erwachsenen als auch auf Berufs- und Wissenschaftspropädeutik. \n\nDie Schülerinnen und Schüler können ihre sprachlichen Kompetenzen und ihre vorhandene Mehrsprachigkeit (Erstsprache, ggf. Zweitsprache, Fremdsprachen) selbstständig und reflektiert erweitern. Dabei nutzen sie zielgerichtet ein breites Repertoire von Strategien und Techniken des reflexiven Sprachenlernens."
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v59/f5/e9b",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Grundlegendes Niveau:"
+      },
+      "definition": {
+        "de": "Die Schülerinnen und Schüler können"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v59/f5/q7p",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "ihr Sprachlernverhalten und ihre Sprachlernprozesse reflektieren und optimieren"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f5/b3q",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "ihre rezeptiven und produktiven Kompetenzen prüfen und gezielt erweitern, z. B. durch die Nutzung geeigneter Strategien und Hilfsmittel (u. a. Nachschlagewerke, gezielte Nutzung des Internets)"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f5/p7p",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "das Niveau ihrer Sprachbeherrschung einschätzen, durch Selbstevaluation in Grundzügen dokumentieren und die Ergebnisse für die Planung des weiteren Fremdsprachenlernens nutzen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f5/c6b",
+          "notation": [
+            "1.4"
+          ],
+          "prefLabel": {
+            "de": "Begegnungen in der Fremdsprache für das eigene Sprachenlernen nutzen (z. B. persönliche Begegnungen, Internetforen, Radio, TV, Filme, Theateraufführungen, Bücher, Zeitschriften)"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f5/r6r",
+          "notation": [
+            "1.5"
+          ],
+          "prefLabel": {
+            "de": "durch Erproben sprachlicher Mittel die eigene sprachliche Kompetenz festigen und erweitern und in diesem Zusammenhang die an anderen Sprachen erworbenen Kompetenzen nutzen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v59/f5/c7f",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Erhöhtes Niveau:"
+      },
+      "definition": {
+        "de": "Die Schülerinnen und Schüler können darüber hinaus"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v59/f5/q7h",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "das Niveau ihrer eigenen Sprachbeherrschung einschätzen und selbstkritisch bewerten, durch Selbstevaluation angemessen dokumentieren und die Ergebnisse für die Planung des weiteren Sprachenlernens verwenden"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f5/s6r",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "durch planvolles Erproben sprachlicher Mittel und kommunikativer sowie interkultureller Strategien die eigene Sprach- und Sprachhandlungskompetenz festigen und erweitern und in diesem Zusammenhang die an anderen Sprachen erworbenen Kompetenzen nutzen"
+          }
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "id": "https://w3id.org/iqb/v42/b1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Chemie Sek II 2020 - Basiskonzepte"
+  },
+  "description": {
+    "de": "Der Beschreibung von chemischen Sachverhalten liegen fachspezifische Gemeinsamkeiten zugrunde, die sich in Form von Basiskonzepten strukturieren lassen. Die Basiskonzepte im Fach Chemie ermöglichen somit die Vernetzung fachlicher Inhalte und deren Betrachtung aus verschiedenen Perspektiven. Die Basiskonzepte werden übergreifend auf alle Kompetenzbereiche bezogen. Sie können kumulatives Lernen, den Aufbau von strukturiertem Wissen und die Erschließung neuer Inhalte fördern.\n\nDas Fach Chemie ist im Besonderen durch eine Betrachtung der Analyse und Synthese von Stoffen, der Beschreibung ihres Aufbaus und ihrer Eigenschaften und energetischer Zusammenhänge gekennzeichnet, woraus die folgenden drei Basiskonzepte resultieren. Sie beziehen sich auf die Struktur der Stoffe, deren Umwandlungen durch chemische Reaktionen und die damit einhergehenden energetischen Prozesse."
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v42/b1/u2f",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Aufbau und von den Eigenschaften der Stoffe und ihrer Teilchen"
+      },
+      "definition": {
+        "de": "Die Art, Anordnung und Wechselwirkung der Teilchen bestimmen die Struktur und die Eigenschaften eines Stoffes und können daher durch ein Basiskonzept inhaltlich kohärent beschrieben werden. Insbesondere die Betrachtung sowohl auf der Stoffebene als auch auf der Teilchenebene hat dabei eine große Bedeutung und zeigt sich z. B. in den nachfolgend aufgelisteten Zusammenhängen. Innerhalb dieses Basiskonzeptes werden Typen der chemischen Bindung, Verbindungen mit funktionellen Gruppen, Strukturen ausgewählter organischer und anorganischer Stoffe sowie Natur- und Kunststoffe vorgestellt. Dabei soll auch der Zusammenhang zwischen den Eigenschaften ausgewählter Stoffe und deren Verwendung hergestellt werden:"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v42/b1/v4r",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "Atom- und Molekülbau,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/b1/r9h",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "chemische Bindung,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/b1/q9b",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "Modifikationen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/b1/b3u",
+          "notation": [
+            "1.4"
+          ],
+          "prefLabel": {
+            "de": "funktionelle Gruppen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/b1/y5t",
+          "notation": [
+            "1.5"
+          ],
+          "prefLabel": {
+            "de": "Isomerie,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/b1/x7h",
+          "notation": [
+            "1.6"
+          ],
+          "prefLabel": {
+            "de": "inter- und intramolekulare Wechselwirkungen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/b1/v7x",
+          "notation": [
+            "1.7"
+          ],
+          "prefLabel": {
+            "de": "Stoffeigenschaften,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/b1/c4h",
+          "notation": [
+            "1.8"
+          ],
+          "prefLabel": {
+            "de": "Stoffklassen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/b1/u7p",
+          "notation": [
+            "1.9"
+          ],
+          "prefLabel": {
+            "de": "analytische Verfahren (qualitativ/quantitativ),"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/b1/s9y",
+          "notation": [
+            "1.10"
+          ],
+          "prefLabel": {
+            "de": "Verwendungsmöglichkeiten."
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v42/b1/x5f",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Die chemische Reaktion"
+      },
+      "definition": {
+        "de": "Chemische Reaktionen spielen in der Chemie eine zentrale Rolle und werden in diesem Basiskonzept in den folgenden Zusammenhängen systematisch betrachtet: Donator-Akzeptor-Prinzipien bei Protonen und Elektronenübergängen; Reaktionsmechanismen in der organischen Chemie."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v42/b1/t5r",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "Donator-Akzeptor,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/b1/t9f",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "Umkehrbarkeit,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/b1/b9g",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "Gleichgewicht,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/b1/g2z",
+          "notation": [
+            "2.4"
+          ],
+          "prefLabel": {
+            "de": "Reaktionstypen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/b1/g3g",
+          "notation": [
+            "2.5"
+          ],
+          "prefLabel": {
+            "de": "Mechanismen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/b1/z2f",
+          "notation": [
+            "2.6"
+          ],
+          "prefLabel": {
+            "de": "Steuerung."
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v42/b1/s7c",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Energiekonzep"
+      },
+      "definition": {
+        "de": "Energetische Betrachtungen spielen eine wichtige Rolle zur Beschreibung von Teilchen- und Stoffumwandlungen. In diesem Zusammenhang ist auch die Beeinflussung von Reaktionsabläufen durch die Änderung energetischer Parameter bedeutsam. So können z. B. folgende Zusammenhänge betrachtet werden: Thermodynamische Prinzipien beim Ablauf chemischer und physikalisch-chemischer Vorgänge, kinetische Prinzipien beim Ablauf chemischer Reaktionen.\\\n\\\nHierbei werden die Reaktionsverläufe auch mechanistisch betrachtet."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v42/b1/c9a",
+          "notation": [
+            "3.1"
+          ],
+          "prefLabel": {
+            "de": "Energieformen, -umwandlung, -kreislauf,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/b1/d3z",
+          "notation": [
+            "3.2"
+          ],
+          "prefLabel": {
+            "de": "Aktivierungsenergie/Katalyse"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/b1/x9e",
+          "notation": [
+            "3.3"
+          ],
+          "prefLabel": {
+            "de": "Energie chemischer Bindungen/Wechselwirkungen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/b1/e2a",
+          "notation": [
+            "3.4"
+          ],
+          "prefLabel": {
+            "de": "Reaktionskinetik,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/b1/v4q",
+          "notation": [
+            "3.5"
+          ],
+          "prefLabel": {
+            "de": "Enthalpie/Entropie."
+          }
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

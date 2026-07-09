@@ -1,0 +1,451 @@
+{
+  "id": "https://w3id.org/iqb/v46/b1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Physik MSA 2004 - Standards (Kompetenzen) "
+  },
+  "description": {
+    "de": "Im Folgenden werden für die vier Kompetenzbereiche Regelstandards formuliert, die von Schülerinnen und Schülern mit Erreichen des Mittleren Schulabschlusses zu erwerben sind. Eine Zuordnung konkreter Inhalte erfolgt exemplarisch in den Aufgabenbeispielen. Die Standards sind nach den im Kapitel 2 beschriebenen Kompetenzbereichen geordnet."
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v46/b1/h4r",
+      "notation": [
+        "B "
+      ],
+      "prefLabel": {
+        "de": "Bewertung"
+      },
+      "definition": {
+        "de": "Physikalische Sachverhalte in verschiedenen Kontexten erkennen und bewerten.\\\n\\\nDie Schülerinnen und Schüler ..."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v46/b1/h9a",
+          "notation": [
+            "B 1"
+          ],
+          "prefLabel": {
+            "de": "zeigen an einfachen Beispielen die Chancen und Grenzen physikalischer Sichtweisen bei inner- und außerfachlichen Kontexten auf,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/b1/r6s",
+          "notation": [
+            "B 2"
+          ],
+          "prefLabel": {
+            "de": "vergleichen und bewerten alternative technische Lösungen auch unter Berücksichtung physikalischer, ökonomischer, sozialer und ökologischer Aspekte,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/b1/y4a",
+          "notation": [
+            "B 3"
+          ],
+          "prefLabel": {
+            "de": "nutzen physikalisches Wissen zum Bewerten von Risiken und Sicherheitsmaßnahmen bei Experimenten, im Alltag und bei modernen Technologien,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/b1/c6c",
+          "notation": [
+            "B 4"
+          ],
+          "prefLabel": {
+            "de": "benennen Auswirkungen physikalischer Erkenntnisse in historischen und gesellschaftlichen Zusammenhängen."
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v46/b1/h4h",
+      "notation": [
+        "E "
+      ],
+      "prefLabel": {
+        "de": "Erkenntnisgewinnung"
+      },
+      "definition": {
+        "de": "Experimentelle und andere Untersuchungsmethoden sowie Modelle nutzen.\\\n\\\nDie Schülerinnen und Schüler ..."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v46/b1/p6y",
+          "notation": [
+            "E 1"
+          ],
+          "prefLabel": {
+            "de": "beschreiben Phänomene und führen sie auf bekannte physikalische Zusammenhänge zurück"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/b1/h7r",
+          "notation": [
+            "E 10"
+          ],
+          "prefLabel": {
+            "de": "beurteilen die Gültigkeit empirischer Ergebnisse und deren Verallgemeinerung."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/b1/d3f",
+          "notation": [
+            "E 2"
+          ],
+          "prefLabel": {
+            "de": "wählen Daten und Informationen aus verschiedenen Quellen zur Bearbeitung von Aufgaben und Problemen aus, prüfen sie auf Relevanz und ordnen sie,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/b1/h3p",
+          "notation": [
+            "E 3"
+          ],
+          "prefLabel": {
+            "de": "verwenden Analogien und Modellvorstellungen zur Wissensgenerierung,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/b1/p5d",
+          "notation": [
+            "E 4"
+          ],
+          "prefLabel": {
+            "de": "wenden einfache Formen der Mathematisierung an,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/b1/z5c",
+          "notation": [
+            "E 5"
+          ],
+          "prefLabel": {
+            "de": "nehmen einfache Idealisierungen vor,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/b1/y5e",
+          "notation": [
+            "E 6"
+          ],
+          "prefLabel": {
+            "de": "stellen an einfachen Beispielen Hypothesen auf,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/b1/a2b",
+          "notation": [
+            "E 7"
+          ],
+          "prefLabel": {
+            "de": "führen einfache Experimente nach Anleitung durch und werten sie aus,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/b1/v5r",
+          "notation": [
+            "E 8"
+          ],
+          "prefLabel": {
+            "de": "planen einfache Experimente, führen sie durch und dokumentieren die Ergebnisse,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/b1/b5h",
+          "notation": [
+            "E 9"
+          ],
+          "prefLabel": {
+            "de": "werten gewonnene Daten aus, ggf. auch durch einfache Mathematisierungen,"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v46/b1/p5c",
+      "notation": [
+        "F "
+      ],
+      "prefLabel": {
+        "de": "Fachwissen"
+      },
+      "definition": {
+        "de": "Physikalische Phänomene, Begriffe, Prinzipien, Fakten, Gesetzmäßigkeiten kennen und Basiskonzepten zuordnen.\\\n\\\nDie Schülerinnen und Schüler ..."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v46/b1/z6t",
+          "notation": [
+            "F 1"
+          ],
+          "prefLabel": {
+            "de": "verfügen über ein strukturiertes Basiswissen auf der Grundlage der Basiskonzepte,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/b1/g3b",
+          "notation": [
+            "F 2"
+          ],
+          "prefLabel": {
+            "de": "geben ihre Kenntnisse über physikalische Grundprinzipien, Größenordnungen, Messvorschriften, Naturkonstanten sowie einfache physikalische Gesetze wieder,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/b1/s6s",
+          "notation": [
+            "F 3"
+          ],
+          "prefLabel": {
+            "de": "nutzen diese Kenntnisse zur Lösung von Aufgaben und Problemen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/b1/c2d",
+          "notation": [
+            "F 4"
+          ],
+          "prefLabel": {
+            "de": "wenden diese Kenntnisse in verschiedenen Kontexten an,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/b1/s6t",
+          "notation": [
+            "F 5"
+          ],
+          "prefLabel": {
+            "de": "ziehen Analogien zum Lösen von Aufgaben und Problemen heran."
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v46/b1/h3x",
+      "notation": [
+        "K "
+      ],
+      "prefLabel": {
+        "de": "Kommunikation"
+      },
+      "definition": {
+        "de": "Informationen sach- und fachbezogen erschließen und austauschen. \\\n\\\nDie Schülerinnen und Schüler ..."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v46/b1/c3g",
+          "notation": [
+            "K 1"
+          ],
+          "prefLabel": {
+            "de": "tauschen sich über physikalische Erkenntnisse und deren Anwendungen unter angemessener Verwendung der Fachsprache und fachtypischer Darstellungen aus,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/b1/d9y",
+          "notation": [
+            "K 2"
+          ],
+          "prefLabel": {
+            "de": "unterscheiden zwischen alltagssprachlicher und fachsprachlicher Beschreibung von Phänomenen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/b1/g6f",
+          "notation": [
+            "K 3"
+          ],
+          "prefLabel": {
+            "de": "recherchieren in unterschiedlichen Quellen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/b1/y3t",
+          "notation": [
+            "K 4"
+          ],
+          "prefLabel": {
+            "de": "beschreiben den Aufbau einfacher technischer Geräte und deren Wirkungsweise,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/b1/g4x",
+          "notation": [
+            "K 5"
+          ],
+          "prefLabel": {
+            "de": "dokumentieren die Ergebnisse ihrer Arbeit,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/b1/x3q",
+          "notation": [
+            "K 6"
+          ],
+          "prefLabel": {
+            "de": "präsentieren die Ergebnisse ihrer Arbeit adressatengerecht,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/b1/a5r",
+          "notation": [
+            "K 7"
+          ],
+          "prefLabel": {
+            "de": "diskutieren Arbeitsergebnisse und Sachverhalte unter physikalischen Gesichtspunkten."
+          }
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

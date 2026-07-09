@@ -1,0 +1,717 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v57/f1/>. 
+@prefix n1: <https://w3id.org/iqb/v57/f1/>. 
+
+n1:b7f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1";
+	skos:broader n1:e4f;
+	skos:prefLabel "im Allgemeinen den Hauptpunkten von längeren Gesprächen folgen, die in ihrer Gegenwart geführt werden (B1),"@de.
+n1:b7u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.2";
+	skos:broader n1:e4f;
+	skos:prefLabel "Vorträge verstehen, wenn die Thematik vertraut und die Darstellung unkompliziert und klar strukturiert ist (B1+),"@de.
+n1:q5s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.3";
+	skos:broader n1:e4f;
+	skos:prefLabel "Ankündigungen und Mitteilungen zu konkreten Themen verstehen, die in normaler Geschwindigkeit in Standardsprache gesprochen werden (B2),"@de.
+n1:b7s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.4";
+	skos:broader n1:e4f;
+	skos:prefLabel "vielen Filmen folgen, deren Handlung im Wesentlichen durch Bild und Aktion getragen wird (B1)."@de.
+n1:x3r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.5";
+	skos:broader n1:e4f;
+	skos:prefLabel "in Radionachrichten und in einfacheren Tonaufnahmen über vertraute Themen die Hauptpunkte verstehen, wenn relativ langsam und deutlich gesprochen wird (B1),"@de.
+n1:c6u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.6";
+	skos:broader n1:e4f;
+	skos:prefLabel "das Wesentliche von Fernsehsendungen zu vertrauten Themen verstehen, sofern darin relativ langsam und deutlich gesprochen wird (B1)."@de.
+n1:e4f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:p2b;
+	skos:prefLabel "Hör- und Hör-/Sehverstehen"@de;
+	skos:narrower 
+		n1:b7f,
+		n1:b7u,
+		n1:q5s,
+		n1:b7s,
+		n1:x3r,
+		n1:c6u.
+n1:s6g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1";
+	skos:broader n1:h3g;
+	skos:prefLabel "Korrespondenz lesen, die sich auf das eigene Interessengebiet bezieht und die wesentliche Aussage erfassen (B2),"@de.
+n1:q2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.2";
+	skos:broader n1:h3g;
+	skos:prefLabel "klar formulierte Anweisungen, unkomplizierte Anleitungen, Hinweise und Vorschriften verstehen (B1/ B2),"@de.
+n1:u5v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.3";
+	skos:broader n1:h3g;
+	skos:prefLabel "längere Texte nach gewünschten Informationen durchsuchen und Informationen aus verschiedenen Texten zusammentragen, um eine bestimmte Aufgabe zu lösen (B1+),"@de.
+n1:p6s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.4";
+	skos:broader n1:h3g;
+	skos:prefLabel "in kürzeren literarischen Texten (z. B. Short Stories) die wesentlichen Aussagen erfassen und diese zusammentragen, um eine bestimmte Aufgabe zu lösen (B1),"@de.
+n1:y4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.5";
+	skos:broader n1:h3g;
+	skos:prefLabel "die Aussagen einfacher literarischer Texte verstehen,"@de.
+n1:h3g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:p2b;
+	skos:prefLabel "Leseverstehen"@de; 
+	skos:definition "Die Schülerinnen und Schüler können verschiedene unkomplizierte Texte aus Themenfeldern ihres Interessen- und Erfahrungsbereiches lesen und verstehen (B1)."@de;
+	skos:narrower 
+		n1:s6g,
+		n1:q2d,
+		n1:u5v,
+		n1:p6s,
+		n1:y4q.
+n1:s9d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1";
+	skos:broader n1:y2d;
+	skos:prefLabel "soziale Kontakte herstellen durch Begrüßung, Abschied, Sich-Vorstellen, Danken und Höflichkeitsformeln verwenden (A2),"@de.
+n1:v6x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2";
+	skos:broader n1:y2d;
+	skos:prefLabel "Gefühle wie Überraschung, Freude, Trauer, Interesse und Gleichgültigkeit ausdrücken und auf entsprechende Gefühlsäußerungen reagieren (B1),"@de.
+n1:t7t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.3";
+	skos:broader n1:y2d;
+	skos:prefLabel "ein Gespräch oder eine Diskussion beginnen, fortführen und auch bei sprachlichen Schwierigkeiten aufrechterhalten (B1),"@de.
+n1:h3x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.4";
+	skos:broader n1:y2d;
+	skos:prefLabel "die meisten Dienstleistungsgespräche und routinemäßigen Situationen bewältigen, z. B. Umgang mit öffentlichen Einrichtungen während eines Auslandsaufenthaltes, Einkauf, Essen (B1),"@de.
+n1:r3d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.5";
+	skos:broader n1:y2d;
+	skos:prefLabel "in einem Interview konkrete Auskünfte geben, z. B. in Bewerbungsgesprächen (B1+),"@de.
+n1:v7p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.6";
+	skos:broader n1:y2d;
+	skos:prefLabel "eine kurze Geschichte, einen Artikel, einen Vortrag, ein Interview oder eine Dokumentarsendung zu vertrauten Themen einem Gesprächspartner vorstellen und Informationsfragen dazu beantworten (B1+),"@de.
+n1:a5g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.7";
+	skos:broader n1:y2d;
+	skos:prefLabel "in Gesprächen und Diskussionen kurz zu den Standpunkten anderer Stellung nehmen und höflich Überzeugungen und Meinungen, Zustimmung und Ablehnung ausdrücken (B1/ B1+)."@de.
+n1:y2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:p2b;
+	skos:prefLabel "Sprechen - An Gesprächen teilnehmen"@de;
+	skos:narrower 
+		n1:s9d,
+		n1:v6x,
+		n1:t7t,
+		n1:h3x,
+		n1:r3d,
+		n1:v7p,
+		n1:a5g.
+n1:u9u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.1";
+	skos:broader n1:c9f;
+	skos:prefLabel "mit einfachen Mitteln Gegenstände und Vorgänge des Alltags beschreiben, z. B. Rezepte, Wegbeschreibungen, Spielregeln, Bedienungsanleitungen (A2),"@de.
+n1:u9s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.2";
+	skos:broader n1:c9f;
+	skos:prefLabel "eine vorbereitete Präsentation zu einem vertrauten Thema vortragen, wobei die Hauptpunkte hinreichend präzise erläutert werden (B1),"@de.
+n1:p7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.3";
+	skos:broader n1:c9f;
+	skos:prefLabel "für Ansichten, Pläne oder Handlungen kurze Begründungen oder Erklärungen geben (B1)."@de.
+n1:c9f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4";
+	skos:broader n1:p2b;
+	skos:prefLabel "Sprechen - Zusammenhängendes Sprechen"@de; 
+	skos:definition """Die Schülerinnen und Schüler können Erfahrungen und Sachverhalte zusammenhängend darstellen, z. B. beschreiben, berichten, erzählen und bewerten (B1).\n\nDie Schülerinnen und Schüler können"""@de;
+	skos:narrower 
+		n1:u9u,
+		n1:u9s,
+		n1:p7z.
+n1:s5g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5.1";
+	skos:broader n1:u4h;
+	skos:prefLabel "eine Nachricht notieren, wenn jemand nach Informationen fragt oder ein Problem erläutert (B1+),"@de.
+n1:u5s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5.2";
+	skos:broader n1:u4h;
+	skos:prefLabel "in persönlichen Briefen Mitteilungen, einfache Informationen und Gedanken darlegen (B1),"@de.
+n1:t2r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5.3";
+	skos:broader n1:u4h;
+	skos:prefLabel "einfache standardisierte Briefe und E-Mails adressatengerecht formulieren, z. B. Anfragen, Bewerbungen (B1),"@de.
+n1:y7d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5.4";
+	skos:broader n1:u4h;
+	skos:prefLabel "unkomplizierte, detaillierte Texte zu einer Reihe verschiedener Themen aus ihren Interessengebieten verfassen, z. B. Erfahrungsberichte, Geschichten, Beschreibungen (B1),"@de.
+n1:r4d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5.5";
+	skos:broader n1:u4h;
+	skos:prefLabel "kurze einfache Aufsätze zu Themen von allgemeinem Interesse schreiben (B1),"@de.
+n1:c3h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5.6";
+	skos:broader n1:u4h;
+	skos:prefLabel "kurze Berichte zu vertrauten Themen schreiben, darin Informationen weitergeben, Gründe für Handlungen angeben und Stellung nehmen (B 1+)."@de.
+n1:u4h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5";
+	skos:broader n1:p2b;
+	skos:prefLabel "Schreiben"@de; 
+	skos:definition """Die Schülerinnen und Schüler können zusammenhängende Texte zu vertrauten Themen aus ihrem Interessengebiet verfassen (B1).\n\nSchülerinnen und Schüler können"""@de;
+	skos:narrower 
+		n1:s5g,
+		n1:u5s,
+		n1:t2r,
+		n1:y7d,
+		n1:r4d,
+		n1:c3h.
+n1:q9z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6.1";
+	skos:broader n1:c3x;
+	skos:prefLabel "in Alltagssituationen sprachmittelnd agieren,"@de.
+n1:t9z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6.2";
+	skos:broader n1:c3x;
+	skos:prefLabel "persönliche und einfache Sach- und Gebrauchstexte sinngemäß übertragen."@de.
+n1:c3x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6";
+	skos:broader n1:p2b;
+	skos:prefLabel "Sprachmittlung"@de; 
+	skos:definition """Die Schülerinnen und Schüler können mündlich in Routinesituationen und schriftlich zu vertrauten Themen zusammenhängende sprachliche Äußerungen und Texte sinngemäß von der einen in die andere Sprache übertragen.\n\nDie Schülerinnen und Schüler können"""@de;
+	skos:narrower 
+		n1:q9z,
+		n1:t9z.
+n1:p2b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kommunikative Fertigkeiten"@de; 
+	skos:definition "Bis zum Mittleren Schulabschluss erreichen die Schülerinnen und Schüler im Wesentlichen das Niveau B1 des Gemeinsamen europäischen Referenzrahmens. In Abhängigkeit von den Eigenbedingungen schulischen Fremdsprachenlernens sind jedoch in einigen Kompetenzbereichen höhere oder niedrigere Anforderungsniveaus etabliert, die hier entsprechend berücksichtigt wurden (z. B. mit der Ausweisung von B1+ oder A2). Das Niveau des Referenzrahmens – soweit dort ausgewiesen – ist für jeden Standard in Klammern angegeben."@de;
+	skos:narrower 
+		n1:e4f,
+		n1:h3g,
+		n1:y2d,
+		n1:c9f,
+		n1:u4h,
+		n1:c3x.
+n1:r5r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:v9h;
+	skos:prefLabel "Wortschatz"@de; 
+	skos:definition "Die Schülerinnen und Schüler verfügen über einen hinreichend großen Wortschatz, um sich mit Hilfe von einigen Umschreibungen über die häufigsten Alltagsthemen der eigenen und der fremdsprachlichen Gesellschaft und Kultur (vgl. Kapitel 3.3) äußern zu können. Darüber hinaus sind sie in der Lage, zusätzliche lexikalische Einheiten hörend oder lesend zu verstehen (rezeptiver Wortschatz) oder selbstständig aus Texten zu erschließen (potentieller Wortschatz). Die Schülerinnen und Schüler machen aber noch elementare Fehler, wenn es darum geht, komplexere Sachverhalte auszudrücken und wenig vertraute Themen und Situationen zu bewältigen."@de.
+n1:p6z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.1";
+	skos:broader n1:z4h;
+	skos:prefLabel "Aussagen, Fragen und Aufforderungen in bejahter und verneinter Form verstehen und formulieren,"@de.
+n1:z2c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.2";
+	skos:broader n1:z4h;
+	skos:prefLabel "Handlungen, Ereignisse und Sachverhalte als gegenwärtig, vergangen, zukünftig oder zeitlos, mehrere Geschehnisse als gleichzeitig oder aufeinanderfolgend bzw. unter Berücksichtigung von Vor- und Nachzeitigkeit erkennen und wiedergeben,"@de.
+n1:g6r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.3";
+	skos:broader n1:z4h;
+	skos:prefLabel "räumliche, zeitliche und logische Beziehungen erkennen und herstellen,"@de.
+n1:d6t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.4";
+	skos:broader n1:z4h;
+	skos:prefLabel "Handlungsperspektiven (aktive und passive Satzkonstruktionen) verstehen und selbst formulieren,"@de.
+n1:t5c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.5";
+	skos:broader n1:z4h;
+	skos:prefLabel "Anzahl, Art und Zugehörigkeit von Gegenständen, Lebewesen und Sachverhalten erkennen und beschreiben,"@de.
+n1:p6c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.6";
+	skos:broader n1:z4h;
+	skos:prefLabel "Informationen wörtlich und vermittelt wiedergeben (direkte/indirekte Rede),"@de.
+n1:c2h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.7";
+	skos:broader n1:z4h;
+	skos:prefLabel "Bedingungen und Bezüge formulieren."@de.
+n1:z4h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:v9h;
+	skos:prefLabel "Grammatik"@de; 
+	skos:definition """Die Schülerinnen und Schüler verfügen im Allgemeinen über verwendungshäufige grammatische Strukturen, können diese intentions- und situationsangemessen anwenden und haben ein elementares Strukturbewusstsein entwickelt. Sie machen zwar noch Fehler, aber es bleibt klar, was sie zum Ausdruck bringen möchten. Darüber hinaus können sie ein Repertoire von häufig verwendeten Redefloskeln und von Wendungen ausreichend korrekt verwenden. Die Reichweite der rezeptiv verfügbaren Strukturen ist größer als die der produktiv verfügbaren Strukturen.\n\nSie können unter anderem"""@de;
+	skos:narrower 
+		n1:p6z,
+		n1:z2c,
+		n1:g6r,
+		n1:d6t,
+		n1:t5c,
+		n1:p6c,
+		n1:c2h.
+n1:x5r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.1";
+	skos:broader n1:t6x;
+	skos:prefLabel "können verschiedenartige Aussprachevarianten der Zielsprache verstehen,"@de.
+n1:v2q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2";
+	skos:broader n1:t6x;
+	skos:prefLabel "beherrschen die Aussprache in der Weise, dass diese i.d.R. weder auf der Wort- noch auf der Satzebene zu Missverständnissen führt,"@de.
+n1:e4z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.3";
+	skos:broader n1:t6x;
+	skos:prefLabel "können die Zeichen der Lautschrift sprachlich umsetzen."@de.
+n1:t6x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n1:v9h;
+	skos:prefLabel "Aussprache und Intonation"@de; 
+	skos:definition "Die Schülerinnen und Schüler"@de;
+	skos:narrower 
+		n1:x5r,
+		n1:v2q,
+		n1:e4z.
+n1:n
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4";
+	skos:broader n1:v9h;
+	skos:prefLabel "Orthographie"@de; 
+	skos:definition "Die Schülerinnen und Schüler können unter Anwendung der Rechtschreib- und Zeichensetzungsregeln der Zielsprache ausreichend korrekt und verständlich schreiben."@de.
+n1:v9h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Verfügung über die sprachlichen Mittel"@de; 
+	skos:definition "Die sprachlichen Mittel Wortschatz, Grammatik, Aussprache, Intonation und Orthographie sind funktionale Bestandteile der Kommunikation. Anzustreben ist ihre höchstmögliche Verfügbarkeit, allerdings haben sie grundsätzlich dienende Funktion. Im Vordergrund steht die gelungene Kommunikation. Für die folgenden Bereiche werden keine detaillierten Listen angeführt. Die Entscheidung darüber bleibt den einzelnen Ländern vorbehalten. In diesem Zusammenhang sei auch auf die Ausführungen im Kapitel 5.2.1 – Linguistische Kompetenzen – des Gemeinsamen europäischen Referenzrahmens verwiesen (http://www.goethe.de/z/50/commeuro/deindex.htm). Bis zum Mittleren Schulabschluss erreichen die Schülerinnen und Schüler im Wesentlichen das Niveau B1 des Gemeinsamen europäischen Referenzrahmens."@de;
+	skos:narrower 
+		n1:r5r,
+		n1:z4h,
+		n1:t6x,
+		n1:n.
+n1:s3u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.1";
+	skos:broader n1:t3e;
+	skos:prefLabel "kennen elementare spezifische Kommunikations- und Interaktionsregeln ausgewählter französischsprachiger Länder und verfügen über ein entsprechendes Sprachregister, das sie in vertrauten Situationen anwenden können,"@de.
+n1:g6q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.2";
+	skos:broader n1:t3e;
+	skos:prefLabel "sind neugierig auf Fremdes, aufgeschlossen für andere Kulturen und akzeptieren kulturelle Vielfalt,"@de.
+n1:q9g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.3";
+	skos:broader n1:t3e;
+	skos:prefLabel "sind bereit, sich auf fremde Situationen einzustellen und sich in Situationen des Alltagslebens angemessen zu verhalten,"@de.
+n1:u5r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.4";
+	skos:broader n1:t3e;
+	skos:prefLabel "sind in der Lage, ungewohnte Erfahrungen auszuhalten, mit ihnen sinnvoll und angemessen umzugehen und das Fremde nicht als etwas wahrzunehmen, das Angst macht,"@de.
+n1:s2z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.5";
+	skos:broader n1:t3e;
+	skos:prefLabel "können sich in Bezug auf die Befindlichkeiten und Denkweisen in den fremdkulturellen Partner hineinversetzen,"@de.
+n1:b9r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.6";
+	skos:broader n1:t3e;
+	skos:prefLabel "kennen gängige Sicht- und Wahrnehmungsweisen, Vorurteile und Stereotype des eigenen und des fremdkulturellen Landes und setzen sich mit ihnen auseinander,"@de.
+n1:t6y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.7";
+	skos:broader n1:t3e;
+	skos:prefLabel "können kulturelle Differenzen, Missverständnisse und Konfliktsituationen bewusst wahrnehmen, sich darüber verständigen und gegebenenfalls gemeinsam handeln."@de.
+n1:t3e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n1:v2f;
+	skos:prefLabel "Kompetenzen"@de; 
+	skos:definition """Interkulturelle Kompetenzen sind mehr als Wissen und mehr als eine Technik. Sie sind auch und vor allem Haltungen, die ihren Ausdruck gleichermaßen im Denken, Fühlen und Handeln und ihre Verankerung in entsprechenden Lebenserfahrungen und ethischen Prinzipien haben. Interkulturelle Kompetenzen beinhalten Einsicht in die Kulturabhängigkeit des eigenen Denkens, Handelns und Verhaltens sowie die Fähigkeit und Bereitschaft zur Wahrnehmung und Analyse fremdkultureller Perspektiven. \n\nZum Zeitpunkt des Erwerbs des Mittleren Schulabschlusses heißt das: \n\nDie Schülerinnen und Schüler"""@de;
+	skos:narrower 
+		n1:s3u,
+		n1:g6q,
+		n1:q9g,
+		n1:u5r,
+		n1:s2z,
+		n1:b9r,
+		n1:t6y.
+n1:b3e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1";
+	skos:broader n1:g5b;
+	skos:prefLabel "das tägliche Leben (Alltag, Schule und Freizeit, Essen und Trinken, Arbeitszeiten und -gewohnheiten, Feiertage u.a.),"@de.
+n1:s7d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.2";
+	skos:broader n1:g5b;
+	skos:prefLabel "Lebensbedingungen (Lebensstandard, geografische, soziokulturelle Merkmale, u.a.),"@de.
+n1:p4z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.3";
+	skos:broader n1:g5b;
+	skos:prefLabel "zwischenmenschliche Beziehungen (Geschlechterbeziehungen, Familienstrukturen, Generationsbeziehungen, u.a.),"@de.
+n1:c4y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.4";
+	skos:broader n1:g5b;
+	skos:prefLabel "Werte, Normen, Überzeugungen, Einstellungen (in Bezug auf regionale Kulturen, Traditionen, Geschichte, Minderheiten, Kunst, u.a.)."@de.
+n1:g5b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2";
+	skos:broader n1:v2f;
+	skos:prefLabel "Bezüge der Kompetenzen"@de; 
+	skos:definition "Die Kenntnisse und Fertigkeiten beziehen sich insbesondere auf Charakteristika der eigenen und der fremdsprachlichen Gesellschaft und Kultur aus folgenden Bereichen:"@de;
+	skos:narrower 
+		n1:b3e,
+		n1:s7d,
+		n1:p4z,
+		n1:c4y.
+n1:v2f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Interkulturelle Kompetenzen"@de; 
+	skos:definition """Interkulturelle Kompetenzen sind mehr als Wissen und mehr als eine Technik. Sie sind auch und vor allem Haltungen, die ihren Ausdruck gleichermaßen im Denken, Fühlen und Handeln und ihre Verankerung in entsprechenden Lebenserfahrungen und ethischen Prinzipien haben.\n\nInterkulturelle Kompetenzen beinhalten Einsicht in die Kulturabhängigkeit des eigenen Denkens, Handelns und Verhaltens sowie die Fähigkeit und Bereitschaft zur Wahrnehmung und Analyse fremdkultureller Perspektiven.\n\nZum Zeitpunkt des Erwerbs des Mittleren Schulabschlusses heißt das:\n\nDie Schülerinnen und Schüler"""@de;
+	skos:narrower 
+		n1:t3e,
+		n1:g5b.
+n1:s4t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1";
+	skos:broader n1:a7a;
+	skos:prefLabel "verschiedene Hör- und Lesetechniken auf unterschiedliche Textarten (z. B. Sachtexte, Artikel, literarische Kleinformen) anwenden,"@de.
+n1:d3a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.2";
+	skos:broader n1:a7a;
+	skos:prefLabel "sich schnell einen groben Überblick über den Inhalt eines Textes verschaffen,"@de.
+n1:h7h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.3";
+	skos:broader n1:a7a;
+	skos:prefLabel "wichtige Details durch Unterstreichen markieren,"@de.
+n1:z9c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.4";
+	skos:broader n1:a7a;
+	skos:prefLabel "wichtige Textstellen durch farbliches Hervorheben, durch das Notieren von Stichworten und durch ordnende ergänzende Randnotizen besonders kenntlich machen."@de.
+n1:a7a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1";
+	skos:broader n1:e2b;
+	skos:prefLabel "Textrezeption (Leseverstehen und Hörverstehen)"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:s4t,
+		n1:d3a,
+		n1:h7h,
+		n1:z9c.
+n1:g7v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1";
+	skos:broader n1:s4z;
+	skos:prefLabel "sich in der Klasse, mit Partnern und in Gruppen in der Fremdsprache verständigen und Kommunikationsprozesse aufrecht erhalten,"@de.
+n1:p7c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.2";
+	skos:broader n1:s4z;
+	skos:prefLabel "sich in realen Alltagssituationen mit unterschiedlichen, französischsprachigen Personen verständigen und Verständigungsprobleme durch Rückfragen, durch Vereinfachungen, durch Höflichkeitsformeln und nonverbale Mittel überwinden,"@de.
+n1:b2c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.3";
+	skos:broader n1:s4z;
+	skos:prefLabel "Techniken des Vermittelns zwischen zwei Sprachen einsetzen."@de.
+n1:s4z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2";
+	skos:broader n1:e2b;
+	skos:prefLabel "Interaktion"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:g7v,
+		n1:p7c,
+		n1:b2c.
+n1:d2f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.1";
+	skos:broader n1:p4y;
+	skos:prefLabel "sich Informationen aus unterschiedlichen fremdsprachlichen Textquellen beschaffen, die se vergleichen, auswählen und bearbeiten,"@de.
+n1:e3r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.2";
+	skos:broader n1:p4y;
+	skos:prefLabel "Techniken des Notierens zur Vorbereitung eigener Texte oder Präsentationen nutzen,"@de.
+n1:p9u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.3";
+	skos:broader n1:p4y;
+	skos:prefLabel "mit Hilfe von Stichworten, Gliederungen, Handlungsgeländern Texte mündlich vortragen oder schriftlich verfassen,"@de.
+n1:d3u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.4";
+	skos:broader n1:p4y;
+	skos:prefLabel "die Phasen des Schreibprozesses (Entwerfen, Schreiben, Überarbeiten) selbstständig durchführen."@de.
+n1:p4y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3";
+	skos:broader n1:e2b;
+	skos:prefLabel "Textproduktion (Sprechen und Schreiben)"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:d2f,
+		n1:e3r,
+		n1:p9u,
+		n1:d3u.
+n1:r6e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.4.1";
+	skos:broader n1:q3x;
+	skos:prefLabel "Hilfsmittel zum Nachschlagen und Lernen, z. B. Wörterbücher, Grammatikbücher usw. selbstständig nutzen,"@de.
+n1:h5a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.4.2";
+	skos:broader n1:q3x;
+	skos:prefLabel "Verfahren zur Vernetzung, Strukturierung, Memorierung und Speicherung von sprachlichen Inputs, z. B. von Wortschatz, anwenden."@de.
+n1:q3x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.4";
+	skos:broader n1:e2b;
+	skos:prefLabel "Lernstrategien"@de; 
+	skos:definition """Lernstrategien beziehen sich auf sprachliche Mittel, auf Aussprache, Intonation, Orthographie sowie auf Grammatik.\n\nDie Schülerinnen und Schüler können"""@de;
+	skos:narrower 
+		n1:r6e,
+		n1:h5a.
+n1:x5c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.5.1";
+	skos:broader n1:c3f;
+	skos:prefLabel "Präsentationstechniken einsetzen (Medienwahl, Gliederungstechniken, Visualisierungstechniken, Gruppenpräsentation),"@de.
+n1:h6a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.5.2";
+	skos:broader n1:c3f;
+	skos:prefLabel "mit Lernprogrammen (auch Multimedia) arbeiten,"@de.
+n1:e4b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.5.3";
+	skos:broader n1:c3f;
+	skos:prefLabel "Neue Technologien zur Informationsbeschaffung, zur kommunikativen Interaktion (E-Mail) und zur Präsentation der Ergebnisse nutzen."@de.
+n1:c3f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.5";
+	skos:broader n1:e2b;
+	skos:prefLabel "Präsentation und Medien"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:x5c,
+		n1:h6a,
+		n1:e4b.
+n1:q6p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.6.1";
+	skos:broader n1:s4g;
+	skos:prefLabel "den Nutzen der Fremdsprache zur Pflege von persönlichen und beruflichen Kontakten einschätzen,"@de.
+n1:c4z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.6.2";
+	skos:broader n1:s4g;
+	skos:prefLabel "selbstständig, mit einem Partner oder in Gruppen längere Zeit arbeiten,"@de.
+n1:p6d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.6.3";
+	skos:broader n1:s4g;
+	skos:prefLabel "ausgewählte Projekte (z. B. bilinguale Projekte) bearbeiten"@de.
+n1:g2g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.6.4";
+	skos:broader n1:s4g;
+	skos:prefLabel "für sie förderliche Lernbedingungen erkennen und nutzen, ihre Lernarbeit organisieren und die Zeit einteilen,"@de.
+n1:x2u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.6.5";
+	skos:broader n1:s4g;
+	skos:prefLabel "Fehler erkennen und diese Erkenntnisse für den eigenen Lernprozess nutzen,"@de.
+n1:z4t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.6.6";
+	skos:broader n1:s4g;
+	skos:prefLabel "ihren eigenen Lernfortschritt beschreiben und ggf. in einem Portfolio dokumentieren,"@de.
+n1:p6a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.6.7";
+	skos:broader n1:s4g;
+	skos:prefLabel "Methoden des Spracherwerbs reflektieren und diese auf das Lernen weiterer Sprachen übertragen."@de.
+n1:s4g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.6";
+	skos:broader n1:e2b;
+	skos:prefLabel "Lernbewusstheit und Lernorganisation"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:q6p,
+		n1:c4z,
+		n1:p6d,
+		n1:g2g,
+		n1:x2u,
+		n1:z4t,
+		n1:p6a.
+n1:e2b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Methodenkompetenzen"@de; 
+	skos:definition "Die Schülerinnen und Schüler verfügen ihrem Alter und Bildungsgang entsprechend über fachliche und fachübergreifende Arbeitstechniken und Methoden."@de;
+	skos:narrower 
+		n1:a7a,
+		n1:s4z,
+		n1:p4y,
+		n1:q3x,
+		n1:c3f,
+		n1:s4g.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards erste Fremdsprache MSA 2003 - Mittlerer Schulabschluss Französisch"@de;
+	dct:description "In diesem Kapitel werden die von den Schülerinnen und Schülern zu erwerbenden zentralen Kompetenzen für den Mittleren Schulabschluss beschrieben. Die Beschreibung erfolgt in enger Anlehnung an den Gemeinsamen europäischen Referenzrahmen (GeR).2) Sofern der GeR seinerseits Niveaustufen der Sprachbeherrschung definiert, werden diese auch hier verwendet. Insofern werden für die Kommunikativen Fertigkeiten (Kapitel 3.1) und die Verfügbarkeit der sprachlichen Mittel (Kapitel 3.2) Niveaustufen des Referenzrahmens angeführt. Für die Interkulturellen Kompetenzen (Kapitel 3.3) und die Methodenkompetenzen (Kapitel 3.4) werden entsprechend keine Stufungen vorgenommen. Die Niveaustufe beschreibt jeweils das mittlere sprachliche Niveau, das die Schülerinnen und Schüler bis zum Erwerb des Mittleren Schulabschlusses erreichen sollen."@de;
+	skos:hasTopConcept
+		n1:p2b,
+		n1:v9h,
+		n1:v2f,
+		n1:e2b.

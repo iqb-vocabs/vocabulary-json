@@ -1,0 +1,464 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v43/a1/>. 
+@prefix n1: <https://w3id.org/iqb/v43/a1/>. 
+
+n1:x5u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1";
+	skos:broader n1:c7u;
+	skos:prefLabel "Basiskonzepte kennen und mit bekannten Beispielen beschreiben,"@de.
+n1:z5b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.2";
+	skos:broader n1:c7u;
+	skos:prefLabel "Kenntnisse wiedergeben und mit Konzepten verknüpfen."@de.
+n1:c7u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:q9u;
+	skos:prefLabel "Fachwissen"@de;
+	skos:narrower 
+		n1:x5u,
+		n1:z5b.
+n1:p6e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1";
+	skos:broader n1:a3t;
+	skos:prefLabel "Versuche nach Anleitung durchführen,"@de.
+n1:r7x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.2";
+	skos:broader n1:a3t;
+	skos:prefLabel "Versuche sachgerecht protokollieren,"@de.
+n1:s3x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.3";
+	skos:broader n1:a3t;
+	skos:prefLabel "Arbeitstechniken sachgerecht anwenden,"@de.
+n1:a9u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.4";
+	skos:broader n1:a3t;
+	skos:prefLabel "Untersuchungsmethoden und Modelle kennen und verwenden,"@de.
+n1:e9c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.5";
+	skos:broader n1:a3t;
+	skos:prefLabel "kriterienbezogene Vergleiche beschreiben,"@de.
+n1:h7e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.6";
+	skos:broader n1:a3t;
+	skos:prefLabel "Modelle sachgerecht nutzen,"@de.
+n1:b5t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.7";
+	skos:broader n1:a3t;
+	skos:prefLabel "Modelle praktisch erstellen."@de.
+n1:a3t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:q9u;
+	skos:prefLabel "Erkenntnisgewinnung"@de;
+	skos:narrower 
+		n1:p6e,
+		n1:r7x,
+		n1:s3x,
+		n1:a9u,
+		n1:e9c,
+		n1:h7e,
+		n1:b5t.
+n1:r4r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1";
+	skos:broader n1:a5e;
+	skos:prefLabel "Eigene Kenntnisse und Arbeitsergebnisse kommunizieren,"@de.
+n1:u9h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2";
+	skos:broader n1:a5e;
+	skos:prefLabel "Fachsprache benutzen,"@de.
+n1:e4f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.3";
+	skos:broader n1:a5e;
+	skos:prefLabel "Informationen aus leicht erschließbaren Texten, Schemata und anderen Darstellungsformen entnehmen, verarbeiten und kommunizieren."@de.
+n1:a5e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:q9u;
+	skos:prefLabel "Kommunikation"@de;
+	skos:narrower 
+		n1:r4r,
+		n1:u9h,
+		n1:e4f.
+n1:z9u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.1";
+	skos:broader n1:s9g;
+	skos:prefLabel "Biologischen Sachverhalt in einem bekanntem Bewertungskontext wiedergeben,"@de.
+n1:b3h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.2";
+	skos:broader n1:s9g;
+	skos:prefLabel "Bewertungen nachvollziehen,"@de.
+n1:x5a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.3";
+	skos:broader n1:s9g;
+	skos:prefLabel "bekannte Bewertungskriterien zu Gesundheit, Menschenwürde, intakte Umwelt, Nachhaltigkeit beschreiben."@de.
+n1:s9g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4";
+	skos:broader n1:q9u;
+	skos:prefLabel "Bewertung"@de;
+	skos:narrower 
+		n1:z9u,
+		n1:b3h,
+		n1:x5a.
+n1:q9u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Anforderungsbereich I"@de; 
+	skos:definition """Sachverhalte, Methoden und Fertigkeiten reproduzieren.\n\nDieses Anspruchsniveau umfasst die Wiedergabe von Fachwissen und die Wiederverwendung von Methoden und Fertigkeiten."""@de;
+	skos:narrower 
+		n1:c7u,
+		n1:a3t,
+		n1:a5e,
+		n1:s9g.
+n1:a2f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.1";
+	skos:broader n1:v7a;
+	skos:prefLabel "Biologisches Wissen in einfachen Kontexten verwenden,"@de.
+n1:g2x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.2";
+	skos:broader n1:v7a;
+	skos:prefLabel "neue Sachverhalte konzeptbezogen beschreiben und erklären,"@de.
+n1:u5t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.3";
+	skos:broader n1:v7a;
+	skos:prefLabel "biologische Sachverhalte auf verschiedenen Systemebenen erklären,"@de.
+n1:e2z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.4";
+	skos:broader n1:v7a;
+	skos:prefLabel "bekannte biologische Phänomene mit Basiskonzepten, Fakten und Prinzipien erläutern."@de.
+n1:v7a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:a3g;
+	skos:prefLabel "Fachwissen"@de;
+	skos:narrower 
+		n1:a2f,
+		n1:g2x,
+		n1:u5t,
+		n1:e2z.
+n1:e7y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.1";
+	skos:broader n1:q7y;
+	skos:prefLabel "Biologische Fachfragen stellen und Hypothesen formulieren,"@de.
+n1:s2r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.2";
+	skos:broader n1:q7y;
+	skos:prefLabel "Experimente planen, durchführen und deuten,"@de.
+n1:g5x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.3";
+	skos:broader n1:q7y;
+	skos:prefLabel "Beobachtungen und Daten auswerten,"@de.
+n1:s3t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.4";
+	skos:broader n1:q7y;
+	skos:prefLabel "biologiespezifische Arbeitstechniken in neuem Zusammenhang anwenden,"@de.
+n1:y3e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.5";
+	skos:broader n1:q7y;
+	skos:prefLabel "Unterschiede und Gemeinsamkeiten kriterienbezogen analysieren,"@de.
+n1:h5c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.6";
+	skos:broader n1:q7y;
+	skos:prefLabel "Sachverhalte mit Modellen erklären."@de.
+n1:q7y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:a3g;
+	skos:prefLabel "Erkenntnisgewinnung"@de;
+	skos:narrower 
+		n1:e7y,
+		n1:s2r,
+		n1:g5x,
+		n1:s3t,
+		n1:y3e,
+		n1:h5c.
+n1:a6s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.1";
+	skos:broader n1:y9z;
+	skos:prefLabel "Darstellungsformen wechseln,"@de.
+n1:v6t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2";
+	skos:broader n1:y9z;
+	skos:prefLabel "Fachsprache in neuen Kontexten benutzen,"@de.
+n1:g4p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.3";
+	skos:broader n1:y9z;
+	skos:prefLabel "Fachsprache in Alltagssprache und umgekehrt übersetzen,"@de.
+n1:z5s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.4";
+	skos:broader n1:y9z;
+	skos:prefLabel "Alltagsvorstellungen und biologische Sachverhalte unterscheiden."@de.
+n1:y9z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n1:a3g;
+	skos:prefLabel "Kommunikation"@de;
+	skos:narrower 
+		n1:a6s,
+		n1:v6t,
+		n1:g4p,
+		n1:z5s.
+n1:a7f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.1";
+	skos:broader n1:p5r;
+	skos:prefLabel "Biologische Sachverhalte in einem neuen Bewertungskontext erläutern,"@de.
+n1:v7p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.2";
+	skos:broader n1:p5r;
+	skos:prefLabel "Entscheidungen bezüglich Mensch oder Natur in einem neuen Bewertungskontext erkennen und beschreiben,"@de.
+n1:r2z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.3";
+	skos:broader n1:p5r;
+	skos:prefLabel "Sachverhalt in Beziehung setzen mit Werten zu Gesundheit, Menschenwürde, intakte Umwelt, Nachhaltigkeit."@de.
+n1:p5r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4";
+	skos:broader n1:a3g;
+	skos:prefLabel "Bewertung"@de;
+	skos:narrower 
+		n1:a7f,
+		n1:v7p,
+		n1:r2z.
+n1:a3g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Anforderungsbereich II"@de; 
+	skos:definition """Sachverhalte, Methoden und Fertigkeiten in neuem Zusammenhang benutzen.\n\nDieses Niveau umfasst die Bearbeitung grundlegender bekannter Sachverhalte in neuen Kontexten, wobe1.das zugrunde liegende Fachwissen bzw. die Kompetenzen auch in anderen thematischen Zusammenhängen erworben sein können."""@de;
+	skos:narrower 
+		n1:v7a,
+		n1:q7y,
+		n1:y9z,
+		n1:p5r.
+n1:c6s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.1";
+	skos:broader n1:r6v;
+	skos:prefLabel "Biologisches Wissen in komplexeren Kontexten neu verwenden,"@de.
+n1:d3c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.2";
+	skos:broader n1:r6v;
+	skos:prefLabel "neue Sachverhalte aus verschiedenen biologischen oder naturwissenschaftlichen Perspektiven erklären,"@de.
+n1:c6b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.3";
+	skos:broader n1:r6v;
+	skos:prefLabel "Systemebenen eigenständig wechseln für Erklärungen."@de.
+n1:r6v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n1:a4x;
+	skos:prefLabel "Fachwissen"@de;
+	skos:narrower 
+		n1:c6s,
+		n1:d3c,
+		n1:c6b.
+n1:c2e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1";
+	skos:broader n1:b9z;
+	skos:prefLabel "Eigenständig biologische Fragen und Hypothesen finden und formulieren,"@de.
+n1:x7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.2";
+	skos:broader n1:b9z;
+	skos:prefLabel "Daten hypothesen- und fehlerbezogen auswerten und interpretieren,"@de.
+n1:h2y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.3";
+	skos:broader n1:b9z;
+	skos:prefLabel "Organismen ordnen anhand selbst gewählter Kriterien,"@de.
+n1:p7h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.4";
+	skos:broader n1:b9z;
+	skos:prefLabel "Arbeitstechniken zielgerichtet auswählen oder variieren,"@de.
+n1:d4v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.5";
+	skos:broader n1:b9z;
+	skos:prefLabel "Hypothesen erstellen mit einem Modell,"@de.
+n1:p4r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.6";
+	skos:broader n1:b9z;
+	skos:prefLabel "Modelle kritisch prüfen im Hinblick auf ihre Aussagekraft und Tragfähigkeit."@de.
+n1:b9z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2";
+	skos:broader n1:a4x;
+	skos:prefLabel "Erkenntnisgewinnung"@de;
+	skos:narrower 
+		n1:c2e,
+		n1:x7z,
+		n1:h2y,
+		n1:p7h,
+		n1:d4v,
+		n1:p4r.
+n1:d9y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.1";
+	skos:broader n1:z5a;
+	skos:prefLabel "verschiedene Informationsquellen bei der Bearbeitung neuer Sachverhalte zielführend nutzen,"@de.
+n1:s3u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.2";
+	skos:broader n1:z5a;
+	skos:prefLabel "eigenständig sach- und adressatengerecht argumentieren und debattieren sowie Lösungsvorschläge begründen."@de.
+n1:z5a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3";
+	skos:broader n1:a4x;
+	skos:prefLabel "Kommunikation"@de;
+	skos:narrower 
+		n1:d9y,
+		n1:s3u.
+n1:q3v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.4.1";
+	skos:broader n1:f9s;
+	skos:prefLabel "Biologische Sachverhalte in einem neuem Bewertungskontext erklären,"@de.
+n1:p6s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.4.2";
+	skos:broader n1:f9s;
+	skos:prefLabel "Fremdperspektiven einnehmen und Verständnis entwickeln für andersartige Entscheidungen,"@de.
+n1:p4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.4.3";
+	skos:broader n1:f9s;
+	skos:prefLabel "eigenständig Stellung nehmen,"@de.
+n1:f9g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.4.4";
+	skos:broader n1:f9s;
+	skos:prefLabel "gesellschaftliche Verhandelbarkeit von Werten begründend erörtern"@de.
+n1:f9s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.4";
+	skos:broader n1:a4x;
+	skos:prefLabel "Bewertung"@de;
+	skos:narrower 
+		n1:q3v,
+		n1:p6s,
+		n1:p4q,
+		n1:f9g.
+n1:a4x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Anforderungsbereich III"@de; 
+	skos:definition """Sachverhalte neu erarbeiten und reflektieren sowie Methoden und Fertigkeiten eigenständig anwenden.\n\nDieses Niveau umfasst die eigenständige Erarbeitung und Reflexion unbekannter Sachverhalte und Probleme auf der Grundlage des Vorwissens. Konzeptwissen und Kompetenzen werden u. a. genutzt für eigene Erklärungen, Untersuchungen, Modellbildungen oder Stellungnahmen."""@de;
+	skos:narrower 
+		n1:r6v,
+		n1:b9z,
+		n1:z5a,
+		n1:f9s.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Biologie MSA 2004 - Anforderungsbereiche"@de;
+	dct:description "Da noch keine empirisch abgesicherten Kompetenzstufenmodelle vorliegen, wird zunächst zur Einschätzung der in den Aufgabenbeispielen gestellten Anforderungen auf drei Bereiche zurückgegriffen, die sich in ihrer Beschreibung an den Einheitlichen Prüfungsanforderungen in der Abiturprüfung (EPA) orientieren. Dabei gilt, dass die Anforderungsbereiche nicht Ausprägungen oder Niveaustufen einer Kompetenz sind. Es handelt sich vielmehr um Merkmale von Aufgaben, die verschiedene Schwierigkeitsgrade innerhalb ein und derselben Kompetenz abbilden können. Die nachfolgenden Formulierungen zeigen deshalb zunächst charakterisierende Kriterien zur Einordnung in einen der Anforderungsbereiche auf.e"@de;
+	skos:hasTopConcept
+		n1:q9u,
+		n1:a3g,
+		n1:a4x.

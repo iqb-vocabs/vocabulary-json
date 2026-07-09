@@ -1,0 +1,949 @@
+{
+  "id": "https://w3id.org/iqb/v53/a1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Mathematik MSA 2003 - Allgemeine Kompetenzen"
+  },
+  "description": {
+    "de": "Mit dem Erwerb des Mittleren Schulabschlusses sollen Schülerinnen und Schüler über die nachfolgend genannten allgemeinen mathematischen Kompetenzen verfügen, die für alle Ebenen des mathematischen Arbeitens relevant sind. Diese Kompetenzen werden immer im Verbund erworben bzw. angewendet"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v53/a1/v4r",
+      "notation": [
+        "K "
+      ],
+      "prefLabel": {
+        "de": "Allgemeine Kompetenzen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v53/a1/v9v",
+          "notation": [
+            "K 1"
+          ],
+          "prefLabel": {
+            "de": "Mathematisch argumentieren"
+          },
+          "definition": {
+            "de": "Dazu gehört:\\\n\\\n – Fragen stellen, die für die Mathematik charakteristisch sind („Gibt es...?“, „Wie verändert sich...?“, „Ist das immer so ...?“) und Vermutungen begründet äußern,\\\n\\\n – mathematische Argumentationen entwickeln (wie Erläuterungen, Begründungen, Beweise),\\\n\\\n – Lösungswege beschreiben und begründen."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v53/a1/h4f",
+              "notation": [
+                "K 1.1"
+              ],
+              "prefLabel": {
+                "de": "Reproduzieren"
+              },
+              "definition": {
+                "de": "Dazu gehört:"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/a4q",
+                  "notation": [
+                    "K 1.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Routineargumentationen wiedergeben (wie Rechnungen, Verfahren, Herleitungen, Sätze, die aus dem Unterricht vertraut sind)"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/h5b",
+                  "notation": [
+                    "K 1.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "mit Alltagswissen argumentieren"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v53/a1/b3f",
+              "notation": [
+                "K 1.2"
+              ],
+              "prefLabel": {
+                "de": "Zusammenhänge herstellen"
+              },
+              "definition": {
+                "de": "Dazu gehört:"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/c5f",
+                  "notation": [
+                    "K 1.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "überschaubare mehrschrittige Argumentationen erläutern oder entwickeln"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/a7t",
+                  "notation": [
+                    "K 1.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "einen Lösungsweg beschreiben und begründen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/c9c",
+                  "notation": [
+                    "K 1.2.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Ergebnisse bzgl. ihres Anwendungskontextes bewerten"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/t6b",
+                  "notation": [
+                    "K 1.2.4"
+                  ],
+                  "prefLabel": {
+                    "de": "Zusammenhänge, Ordnungen und Strukturen erläutern"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v53/a1/e6r",
+              "notation": [
+                "K 1.3"
+              ],
+              "prefLabel": {
+                "de": "Verallgemeinern und Reflektieren"
+              },
+              "definition": {
+                "de": "Dazu gehört:"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/v9t",
+                  "notation": [
+                    "K 1.3.1"
+                  ],
+                  "prefLabel": {
+                    "de": "komplexe Argumentationen erläutern oder entwickeln"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/c7p",
+                  "notation": [
+                    "K 1.3.2"
+                  ],
+                  "prefLabel": {
+                    "de": "verschiedene Argumentationen bewerten"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/d5f",
+                  "notation": [
+                    "K 1.3.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Fragen stellen, die für die Mathematik charakteristisch sind und Vermutungen begründet äußern"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v53/a1/y3r",
+          "notation": [
+            "K 2"
+          ],
+          "prefLabel": {
+            "de": "Probleme mathematisch lösen"
+          },
+          "definition": {
+            "de": "Dazu gehört:\\\n\\\n – vorgegebene und selbst formulierte Probleme bearbeiten,\\\n\\\n – geeignete heuristische Hilfsmittel, Strategien und Prinzipien zum Problemlösen auswählen und anwenden,\\\n\\\n – die Plausibilität der Ergebnisse überprüfen sowie das Finden von Lösungsideen und die Lösungswege reflektieren."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v53/a1/b9z",
+              "notation": [
+                "K 2.1"
+              ],
+              "prefLabel": {
+                "de": "Reproduzieren"
+              },
+              "definition": {
+                "de": "Dazu gehört:"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/t5t",
+                  "notation": [
+                    "K 2.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Routineaufgaben lösen („sich zu helfen wissen“)"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/c6d",
+                  "notation": [
+                    "K 2.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "einfache Probleme mit bekannten - auch experimentellen - Verfahren lösen"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v53/a1/y6g",
+              "notation": [
+                "K 2.2"
+              ],
+              "prefLabel": {
+                "de": "Zusammenhänge herstellen"
+              },
+              "definition": {
+                "de": "Dazu gehört:"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/a9q",
+                  "notation": [
+                    "K 2.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Probleme bearbeiten, deren Lösung die Anwendung von heuristischen Hilfsmitteln, Strategien und Prinzipien erfordert"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/c6u",
+                  "notation": [
+                    "K 2.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Probleme selbst formulieren"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/s4g",
+                  "notation": [
+                    "K 2.2.3"
+                  ],
+                  "prefLabel": {
+                    "de": "die Plausibilität von Ergebnissen überprüfen"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v53/a1/t3a",
+              "notation": [
+                "K 2.3"
+              ],
+              "prefLabel": {
+                "de": "Verallgemeinern und Reflektieren"
+              },
+              "definition": {
+                "de": "Dazu gehört:"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/z5u",
+                  "notation": [
+                    "K 2.3.1"
+                  ],
+                  "prefLabel": {
+                    "de": "anspruchsvolle Probleme bearbeiten"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/q3y",
+                  "notation": [
+                    "K 2.3.2"
+                  ],
+                  "prefLabel": {
+                    "de": "das Finden von Lösungsideen und die Lösungswege reflektieren"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v53/a1/r5e",
+          "notation": [
+            "K 3"
+          ],
+          "prefLabel": {
+            "de": "Mathematisch modellieren"
+          },
+          "definition": {
+            "de": "Dazu gehört:\\\n\\\n – den Bereich oder die Situation, die modelliert werden soll, in mathematische Begriffe, Strukturen und Relationen übersetzen,\\\n\\\n – in dem jeweiligen mathematischen Modell arbeiten,\\\n\\\n – Ergebnisse in dem entsprechenden Bereich oder der entsprechenden Situation interpretieren und prüfen."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v53/a1/t7c",
+              "notation": [
+                "K 3.1"
+              ],
+              "prefLabel": {
+                "de": "Reproduzieren"
+              },
+              "definition": {
+                "de": "Dazu gehört:"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/s6q",
+                  "notation": [
+                    "K 3.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "vertraute und direkt erkennbare Modelle nutzen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/r2r",
+                  "notation": [
+                    "K 3.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "einfachen Erscheinungen aus der Erfahrungswelt mathematische Objekte zuordnen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/q2t",
+                  "notation": [
+                    "K 3.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Resultate am Kontext prüfen"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v53/a1/e2e",
+              "notation": [
+                "K 3.2"
+              ],
+              "prefLabel": {
+                "de": "Zusammenhänge herstellen"
+              },
+              "definition": {
+                "de": "Dazu gehört:"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/f4x",
+                  "notation": [
+                    "K 3.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Modellierungen, die mehrere Schritte erfordern, vornehmen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/f9e",
+                  "notation": [
+                    "K 3.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Ergebnisse einer Modellierung interpretieren und an der Ausgangssituation prüfen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/v4v",
+                  "notation": [
+                    "K 3.2.3"
+                  ],
+                  "prefLabel": {
+                    "de": "einem mathematischen Modell passende Situationen zuordnen"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v53/a1/v5t",
+              "notation": [
+                "K 3.3"
+              ],
+              "prefLabel": {
+                "de": "Verallgemeinern und Reflektieren"
+              },
+              "definition": {
+                "de": "Dazu gehört:"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/s7u",
+                  "notation": [
+                    "K 3.3.1"
+                  ],
+                  "prefLabel": {
+                    "de": "komplexe oder unvertraute Situationen modellieren"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/z7t",
+                  "notation": [
+                    "K 3.3.2"
+                  ],
+                  "prefLabel": {
+                    "de": "verwendete mathematische Modelle(wie Formeln, Gleichungen, Darstellungen von Zuordnungen, Zeichnungen, strukturierte Darstellungen, Ablaufpläne) reflektieren und kritisch beurteilen"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v53/a1/q2b",
+          "notation": [
+            "K 4"
+          ],
+          "prefLabel": {
+            "de": "Mathematische Darstellungen verwenden"
+          },
+          "definition": {
+            "de": "Dazu gehört:\\\n\\\n – verschiedene Formen der Darstellung von mathematischen Objekten und Situationen anwenden, interpretieren und unterscheiden,\\\n\\\n – Beziehungen zwischen Darstellungsformen erkennen,\\\n\\\n – unterschiedliche Darstellungsformen je nach Situation und Zweck auswählen und zwischen ihnen wechseln."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v53/a1/x3f",
+              "notation": [
+                "K 4.1"
+              ],
+              "prefLabel": {
+                "de": "Reproduzieren"
+              },
+              "definition": {
+                "de": "Dazu gehört:"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/r5s",
+                  "notation": [
+                    "K 4.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "vertraute und geübte Darstellungen von mathematischen Objekten und Situationen anfertigen oder nutzen"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v53/a1/r5g",
+              "notation": [
+                "K 4.2"
+              ],
+              "prefLabel": {
+                "de": "Zusammenhänge herstellen"
+              },
+              "definition": {
+                "de": "Dazu gehört:"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/h2y",
+                  "notation": [
+                    "K 4.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Beziehungen zwischen Darstellungsformen erkennen und zwischen den Darstellungsformen wechseln"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v53/a1/s4b",
+              "notation": [
+                "K 4.3"
+              ],
+              "prefLabel": {
+                "de": "Verallgemeinern und Reflektieren"
+              },
+              "definition": {
+                "de": "Dazu gehört:"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/c3s",
+                  "notation": [
+                    "K 4.3.1"
+                  ],
+                  "prefLabel": {
+                    "de": "eigene Darstellungen entwickeln"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/y5c",
+                  "notation": [
+                    "K 4.3.2"
+                  ],
+                  "prefLabel": {
+                    "de": "verschiedene Formen der Darstellung zweckentsprechend beurteilen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/d9z",
+                  "notation": [
+                    "K 4.3.3"
+                  ],
+                  "prefLabel": {
+                    "de": "nicht vertraute Darstellungen lesen und ihre Aussagekraft beurteilen"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v53/a1/x6f",
+          "notation": [
+            "K 5"
+          ],
+          "prefLabel": {
+            "de": "Mit symbolischen, formalen und technischen Elementen der Mathematik umgehen"
+          },
+          "definition": {
+            "de": "Dazu gehört:\\\n\\\n – mit Variablen, Termen, Gleichungen, Funktionen, Diagrammen, Tabellen arbeiten,\\\n\\\n – symbolische und formale Sprache in natürliche Sprache übersetzen und umgekehrt,\\\n\\\n – Lösungs- und Kontrollverfahren ausführen,\\\n\\\n – mathematische Werkzeuge (wie Formelsammlungen, Taschenrechner, Software) sinnvoll und verständig einsetzen."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v53/a1/c3f",
+              "notation": [
+                "K 5.1"
+              ],
+              "prefLabel": {
+                "de": "Reproduzieren"
+              },
+              "definition": {
+                "de": "Dazu gehört:"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/e6f",
+                  "notation": [
+                    "K 5.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Routineverfahren verwenden"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/g6y",
+                  "notation": [
+                    "K 5.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "mit vertrauten Formeln und Symbolen umgehen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/y5y",
+                  "notation": [
+                    "K 5.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "mathematische Werkzeuge (wie Formelsammlungen, Taschenrechner, Software) in Situationen nutzen, in denen ihr Einsatz geübt wurde"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v53/a1/a4g",
+              "notation": [
+                "K 5.2"
+              ],
+              "prefLabel": {
+                "de": "Zusammenhänge herstellen"
+              },
+              "definition": {
+                "de": "Dazu gehört:"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/d6p",
+                  "notation": [
+                    "K 5.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Lösungs- und Kontrollverfahren ausführen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/r5q",
+                  "notation": [
+                    "K 5.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "symbolische und formale Sprache in natürliche Sprache übersetzen und umgekehrt"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/p7f",
+                  "notation": [
+                    "K 5.2.3"
+                  ],
+                  "prefLabel": {
+                    "de": "mit Variablen, Termen, Gleichungen, Funktionen, Tabellen und Diagrammen arbeiten"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/u3y",
+                  "notation": [
+                    "K 5.2.4"
+                  ],
+                  "prefLabel": {
+                    "de": "mathematische Werkzeuge verständig auswählen und einsetzen"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v53/a1/g9x",
+              "notation": [
+                "K 5.3"
+              ],
+              "prefLabel": {
+                "de": "Verallgemeinern und Reflektieren"
+              },
+              "definition": {
+                "de": "Dazu gehört:"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/b9t",
+                  "notation": [
+                    "K 5.3.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Lösungs- und Kontrollverfahren hinsichtlich ihrer Effizienz bewerten"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/g3u",
+                  "notation": [
+                    "K 5.3.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Möglichkeiten und Grenzen der Nutzung mathematischer Werkzeuge reflektieren"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v53/a1/u6e",
+          "notation": [
+            "K 6"
+          ],
+          "prefLabel": {
+            "de": "Kommunizieren"
+          },
+          "definition": {
+            "de": "Dazu gehört:\\\n\\\n – Überlegungen, Lösungswege bzw. Ergebnisse dokumentieren, verständlich darstellen und präsentieren, auch unter Nutzung geeigneter Medien,\\\n\\\n – die Fachsprache adressatengerecht verwenden,\\\n\\\n – Äußerungen von anderen und Texte zu mathematischen Inhalten verstehen und überprüfen."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v53/a1/y7x",
+              "notation": [
+                "K 6.1"
+              ],
+              "prefLabel": {
+                "de": "Reproduzieren"
+              },
+              "definition": {
+                "de": "Dazu gehört:"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/y3y",
+                  "notation": [
+                    "K 6.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "einfache mathematische Sachverhalte mündlich und schriftlich ausdrücken"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/d2x",
+                  "notation": [
+                    "K 6.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "aus kurzen, einfachen mathematikhaltigen Texten, Grafiken und Abbildungen Informationen entnehmen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/b9e",
+                  "notation": [
+                    "K 6.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "auf Fragen und Kritik sachlich und angemessen reagieren"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v53/a1/d7c",
+              "notation": [
+                "K 6.2"
+              ],
+              "prefLabel": {
+                "de": "Zusammenhänge herstellen"
+              },
+              "definition": {
+                "de": "Dazu gehört:"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/u9t",
+                  "notation": [
+                    "K 6.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Überlegungen, Lösungswege bzw. Ergebnisse verständlich darstellen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/y2e",
+                  "notation": [
+                    "K 6.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "komplexe mathematikhaltige Texte, Grafiken und Abbildungen sinnentnehmend erfassen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/g9r",
+                  "notation": [
+                    "K 6.2.3"
+                  ],
+                  "prefLabel": {
+                    "de": "die Fachsprache adressatengerecht verwenden"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/q4d",
+                  "notation": [
+                    "K 6.2.4"
+                  ],
+                  "prefLabel": {
+                    "de": "auf Äußerungen von anderen zu mathematischen Inhalten eingehen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/p2h",
+                  "notation": [
+                    "K 6.2.5"
+                  ],
+                  "prefLabel": {
+                    "de": "mit Fehlern konstruktiv umgehen"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v53/a1/c5t",
+              "notation": [
+                "K 6.3"
+              ],
+              "prefLabel": {
+                "de": "Verallgemeinern und Reflektieren"
+              },
+              "definition": {
+                "de": "Dazu gehört:"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/r5c",
+                  "notation": [
+                    "K 6.3.1"
+                  ],
+                  "prefLabel": {
+                    "de": "komplexe mathematische Sachverhalte mündlich und schriftlich präsentieren"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/p3q",
+                  "notation": [
+                    "K 6.3.2"
+                  ],
+                  "prefLabel": {
+                    "de": "komplexe mathematische Texte sinnentnehmend erfassen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v53/a1/e7e",
+                  "notation": [
+                    "K 6.3.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Äußerungen von anderen zu mathematischen Inhalten bewerten"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

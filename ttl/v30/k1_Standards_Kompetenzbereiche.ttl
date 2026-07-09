@@ -1,0 +1,1056 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v30/k1/>. 
+@prefix n1: <https://w3id.org/iqb/v30/k1/>. 
+
+n1:q4f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1";
+	skos:broader n1:u5b;
+	skos:prefLabel "sich artikuliert und verständlich in der Standardsprache äußern,"@de.
+n1:h3s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.2";
+	skos:broader n1:u5b;
+	skos:prefLabel "über einen für die Bewältigung schulischer, beruflicher und gesellschaftlicher Sprechsituationen angemessenen Wortschatz verfügen,"@de.
+n1:e4c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.3";
+	skos:broader n1:u5b;
+	skos:prefLabel "sich in unterschiedlichen Sprechsituationen sach- und situationsgerecht verhalten: Vorstellungsgespräch/Bewerbungsgespräch, Antragstellung, Bitte, Aufforderung, Beschwerde, Entschuldigung, Dank,"@de.
+n1:d4a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.4";
+	skos:broader n1:u5b;
+	skos:prefLabel "verschiedene Formen mündlicher Darstellung unterscheiden und anwenden: erzählen, berichten, informieren, beschreiben, appellieren, argumentieren,"@de.
+n1:e5s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.5";
+	skos:broader n1:u5b;
+	skos:prefLabel "Wirkungen der Redeweise kennen und beachten: Lautstärke, Betonung, Sprechtempo, Stimmführung, Körpersprache (Gestik/Mimik)."@de.
+n1:u5b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:e2s;
+	skos:prefLabel "zu anderen sprechen"@de;
+	skos:narrower 
+		n1:q4f,
+		n1:h3s,
+		n1:e4c,
+		n1:d4a,
+		n1:e5s.
+n1:x4y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1";
+	skos:broader n1:v5y;
+	skos:prefLabel "Texte sinngebend und gestaltend vorlesen und (frei) vortragen,"@de.
+n1:d6a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.2";
+	skos:broader n1:v5y;
+	skos:prefLabel "freie Redebeiträge leisten,"@de.
+n1:y4x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.3";
+	skos:broader n1:v5y;
+	skos:prefLabel "Kurzvorträge/Referate mit Hilfe eines Stichwortzettels/einer Gliederung halten: z.B. von einem Praktikum berichten, über einen Arbeitsplatz informieren, ein Buch/einen Film vorstellen,"@de.
+n1:q3p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.4";
+	skos:broader n1:v5y;
+	skos:prefLabel "verschiedene Medien für die Darstellung von Sachverhalten nutzen(Präsentationstechniken)."@de.
+n1:v5y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:e2s;
+	skos:prefLabel "vor anderen sprechen"@de;
+	skos:narrower 
+		n1:x4y,
+		n1:d6a,
+		n1:y4x,
+		n1:q3p.
+n1:d5r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1";
+	skos:broader n1:a3y;
+	skos:prefLabel "sich konstruktiv an einem Gespräch beteiligen,"@de.
+n1:z2p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2";
+	skos:broader n1:a3y;
+	skos:prefLabel "durch gezieltes Fragen notwendige Informationen beschaffen,"@de.
+n1:h7s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.3";
+	skos:broader n1:a3y;
+	skos:prefLabel "Gesprächsregeln einhalten,"@de.
+n1:x3b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.4";
+	skos:broader n1:a3y;
+	skos:prefLabel "die eigene Meinung begründet vertreten,"@de.
+n1:a9x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.5";
+	skos:broader n1:a3y;
+	skos:prefLabel "auf Gesprächsbeiträge sachlich und argumentierend eingehen,"@de.
+n1:b9x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.6";
+	skos:broader n1:a3y;
+	skos:prefLabel "das eigene Gesprächsverhalten und das anderer kriterienorientiert beobachten und bewerten."@de.
+n1:a3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:e2s;
+	skos:prefLabel "mit anderen sprechen"@de;
+	skos:narrower 
+		n1:d5r,
+		n1:z2p,
+		n1:h7s,
+		n1:x3b,
+		n1:a9x,
+		n1:b9x.
+n1:t6g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.1";
+	skos:broader n1:f3z;
+	skos:prefLabel "Gesprächsbeiträge anderer verfolgen und aufnehmen,"@de.
+n1:r2z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.2";
+	skos:broader n1:f3z;
+	skos:prefLabel "wesentliche Informationen verstehen, wiedergeben und kritisch hinterfragen,"@de.
+n1:t2b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.3";
+	skos:broader n1:f3z;
+	skos:prefLabel "Aufmerksamkeit für verbale und nonverbale Äußerungen (z.B. Stimmführung, Körpersprache) entwickeln."@de.
+n1:f3z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4";
+	skos:broader n1:e2s;
+	skos:prefLabel "verstehend zuhören"@de;
+	skos:narrower 
+		n1:t6g,
+		n1:r2z,
+		n1:t2b.
+n1:x5h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5.1";
+	skos:broader n1:u5s;
+	skos:prefLabel "eigene Erlebnisse, Haltungen, Situationen szenisch darstellen,"@de.
+n1:q5r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5.2";
+	skos:broader n1:u5s;
+	skos:prefLabel "Texte (medial unterschiedlich vermittelt) szenisch gestalten."@de.
+n1:u5s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5";
+	skos:broader n1:e2s;
+	skos:prefLabel "szenisch spielen"@de;
+	skos:narrower 
+		n1:x5h,
+		n1:q5r.
+n1:r5r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6.1";
+	skos:broader n1:b2x;
+	skos:prefLabel "verschiedene Gesprächsformen praktizieren: z.B. Diskussion, Streitgespräch, Arbeitsgespräch,"@de.
+n1:t6f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6.2";
+	skos:broader n1:b2x;
+	skos:prefLabel "Redestrategien einsetzen: z.B. Anknüpfungen formulieren,"@de.
+n1:z7e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6.3";
+	skos:broader n1:b2x;
+	skos:prefLabel "Wesentliches notieren,"@de.
+n1:x6h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6.4";
+	skos:broader n1:b2x;
+	skos:prefLabel "Notizen ordnen und zur Weiterarbeit nutzen,"@de.
+n1:a9z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6.5";
+	skos:broader n1:b2x;
+	skos:prefLabel "Präsentationstechniken kennen und nutzen: z. B. Tafel, Plakat, Folie"@de.
+n1:q2u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6.6";
+	skos:broader n1:b2x;
+	skos:prefLabel "Video-Feedback nutzen,"@de.
+n1:f9a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6.7";
+	skos:broader n1:b2x;
+	skos:prefLabel "Portfolio (Sammlung und Vereinbarungen über Gesprächsregeln, Kriterienlisten, Stichwortkonzepte, Selbsteinschätzungen, Beobachtungsbögen von anderen, vereinbarte Lernziele etc.) nutzen."@de.
+n1:b2x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6";
+	skos:broader n1:e2s;
+	skos:prefLabel "Methoden und Arbeitstechniken"@de;
+	skos:narrower 
+		n1:r5r,
+		n1:t6f,
+		n1:z7e,
+		n1:x6h,
+		n1:a9z,
+		n1:q2u,
+		n1:f9a.
+n1:e2s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sprechen und Zuhören"@de;
+	skos:narrower 
+		n1:u5b,
+		n1:v5y,
+		n1:a3y,
+		n1:f3z,
+		n1:u5s,
+		n1:b2x.
+n1:z4h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.1";
+	skos:broader n1:f3y;
+	skos:prefLabel "Texte in gut lesbarer handschriftlicher Form und in einem der Situation entsprechenden Tempo schreiben,"@de.
+n1:c2f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.2";
+	skos:broader n1:f3y;
+	skos:prefLabel "Texte dem Zweck entsprechend und adressatengerecht gestalten, sinnvoll aufbauen und strukturieren: z.B. Blattaufteilung, Rand, Absätze,"@de.
+n1:y9u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.3";
+	skos:broader n1:f3y;
+	skos:prefLabel "Textverarbeitungsprogramme und ihre Möglichkeiten nutzen: z.B. Formatierung, Präsentation,"@de.
+n1:r5q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.4";
+	skos:broader n1:f3y;
+	skos:prefLabel "Formulare ausfüllen."@de.
+n1:f3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:h2t;
+	skos:prefLabel "über Schreibfertigkeiten verfügen"@de;
+	skos:narrower 
+		n1:z4h,
+		n1:c2f,
+		n1:y9u,
+		n1:r5q.
+n1:x9h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.1";
+	skos:broader n1:c4a;
+	skos:prefLabel "Grundregeln der Rechtschreibung und Zeichensetzung kennen und anwenden,"@de.
+n1:h2y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.2";
+	skos:broader n1:c4a;
+	skos:prefLabel "häufig vorkommende Wörter – auch wichtige Fachbegriffe und Fremdwörter - richtig schreiben,"@de.
+n1:e7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.3";
+	skos:broader n1:c4a;
+	skos:prefLabel "individuelle Fehlerschwerpunkte erkennen und Fehler durch Anwendung von Rechtschreibstrategien vermeiden: z.B. Ableiten, Wortverwandtschaften suchen, grammatisches Wissen nutzen."@de.
+n1:c4a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:h2t;
+	skos:prefLabel "richtig schreiben"@de;
+	skos:narrower 
+		n1:x9h,
+		n1:h2y,
+		n1:e7z.
+n1:x5e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.1.1";
+	skos:broader n1:u4u;
+	skos:prefLabel "den Schreibauftrag verstehen,"@de.
+n1:a5u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.1.2";
+	skos:broader n1:u4u;
+	skos:prefLabel "einen Schreibplan entwickeln,"@de.
+n1:c9h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.1.3";
+	skos:broader n1:u4u;
+	skos:prefLabel "Informationsquellen nutzen: z.B. Bibliotheken, Nachschlagewerke, Zeitungen, Internet,"@de.
+n1:c2a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.1.4";
+	skos:broader n1:u4u;
+	skos:prefLabel "Stoffsammlung erstellen, Informationen ordnen: z.B. Mindmap."@de.
+n1:u4u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.1";
+	skos:broader n1:q3x;
+	skos:prefLabel "Texte planen und entwerfen"@de;
+	skos:narrower 
+		n1:x5e,
+		n1:a5u,
+		n1:c9h,
+		n1:c2a.
+n1:p7g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2.1";
+	skos:broader n1:y3r;
+	skos:prefLabel "gedanklich geordnet schreiben,"@de.
+n1:r6h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2.2";
+	skos:broader n1:y3r;
+	skos:prefLabel "formalisierte lineare Texte/nichtlineare Texte verfassen: z.B. sachlicher Brief, Lebenslauf, Bewerbungsschreiben, Ausfüllen von Formularen, Schaubild, Diagramm, Tabelle,"@de.
+n1:v2z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2.3";
+	skos:broader n1:y3r;
+	skos:prefLabel "grundlegende Schreibfunktionen umsetzen: erzählen, berichten, informieren, beschreiben, appellieren, argumentieren,"@de.
+n1:b5a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2.4";
+	skos:broader n1:y3r;
+	skos:prefLabel "produktive Schreibformen nutzen: z.B. umschreiben, weiterschreiben, ausgestalten,"@de.
+n1:e6a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2.5";
+	skos:broader n1:y3r;
+	skos:prefLabel "kreative Schreibformen nutzen: z.B. Figurengeschichten, Verwandlungsgeschichten, Schreiben zu Bildern,"@de.
+n1:a9c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2.6";
+	skos:broader n1:y3r;
+	skos:prefLabel "Inhalte verkürzt wiedergeben,"@de.
+n1:a7x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2.7";
+	skos:broader n1:y3r;
+	skos:prefLabel "wesentliche Informationen aus linearen und nichtlinearen Texten zusammenfassen,"@de.
+n1:x9b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2.8";
+	skos:broader n1:y3r;
+	skos:prefLabel "wesentliche Gestaltungsmittel untersuchen und darstellen,"@de.
+n1:x4b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2.9";
+	skos:broader n1:y3r;
+	skos:prefLabel "Argumente finden und formulieren,"@de.
+n1:t5a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2.10";
+	skos:broader n1:y3r;
+	skos:prefLabel "Argumente gewichten und Schlüsse ziehen,"@de.
+n1:t3x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2.11";
+	skos:broader n1:y3r;
+	skos:prefLabel "begründet Stellung beziehen,"@de.
+n1:h2a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2.12";
+	skos:broader n1:y3r;
+	skos:prefLabel "Texte sprachlich gestalten: strukturiert, verständlich und zusammenhängend schreiben,"@de.
+n1:s7x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2.13";
+	skos:broader n1:y3r;
+	skos:prefLabel "Texte mit Hilfe von neuen Medien verfassen: z. B. Textverarbeitungs- und Mailprogramme."@de.
+n1:y3r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2";
+	skos:broader n1:q3x;
+	skos:prefLabel "Texte schreiben"@de;
+	skos:narrower 
+		n1:p7g,
+		n1:r6h,
+		n1:v2z,
+		n1:b5a,
+		n1:e6a,
+		n1:a9c,
+		n1:a7x,
+		n1:x9b,
+		n1:x4b,
+		n1:t5a,
+		n1:t3x,
+		n1:h2a,
+		n1:s7x.
+n1:y7s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.3.1";
+	skos:broader n1:a2c;
+	skos:prefLabel "eigene und fremde Texte hinsichtlich Aufbau, Inhalt und Formulierungen revidieren,"@de.
+n1:g4p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.3.2";
+	skos:broader n1:a2c;
+	skos:prefLabel "Verfahren zur Überprüfung der sprachlichen Richtigkeit kennen und nutzen."@de.
+n1:a2c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.3";
+	skos:broader n1:q3x;
+	skos:prefLabel "Texte überarbeiten"@de;
+	skos:narrower 
+		n1:y7s,
+		n1:g4p.
+n1:q3x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n1:h2t;
+	skos:prefLabel "einen Schreibprozess eigenverantwortlich gestalten"@de;
+	skos:narrower 
+		n1:u4u,
+		n1:y3r,
+		n1:a2c.
+n1:s4b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.1";
+	skos:broader n1:g9b;
+	skos:prefLabel "Notizen machen, Stichpunkte sammeln und ordnen,"@de.
+n1:g7g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.2";
+	skos:broader n1:g9b;
+	skos:prefLabel "Arbeitsschritte festlegen,"@de.
+n1:a4g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.3";
+	skos:broader n1:g9b;
+	skos:prefLabel "Texte formal gestalten/überarbeiten: z.B. Blattaufteilung, Rand, Absätze, Schriftbild,"@de.
+n1:f4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.4";
+	skos:broader n1:g9b;
+	skos:prefLabel "Texte optisch gestalten,"@de.
+n1:x5u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.5";
+	skos:broader n1:g9b;
+	skos:prefLabel "unterschiedliche Informationsquellen nutzen,"@de.
+n1:s7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.6";
+	skos:broader n1:g9b;
+	skos:prefLabel "mit Textverarbeitungs- und Mailprogrammen umgehen,"@de.
+n1:y3p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.7";
+	skos:broader n1:g9b;
+	skos:prefLabel "Schreibkonferenzen durchführen,"@de.
+n1:f7v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.8";
+	skos:broader n1:g9b;
+	skos:prefLabel "Wörterbücher und Nachschlagewerke nutzen,"@de.
+n1:f7t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.9";
+	skos:broader n1:g9b;
+	skos:prefLabel "zentrale Arbeitstechniken kennen und selbstständig anwenden: Abschreiben (von Texten), Aufschreiben, Nachschlagen,"@de.
+n1:f6z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.10";
+	skos:broader n1:g9b;
+	skos:prefLabel "Portfolio (selbst verfasste und für gut befundene Texte, Kriterienlisten, Stichwortkonzepte, Selbsteinschätzungen, Beobachtungsbögen von anderen, vereinbarte Lernziele etc.) anlegen und nutzen."@de.
+n1:g9b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4";
+	skos:broader n1:h2t;
+	skos:prefLabel "Methoden und Arbeitstechniken"@de;
+	skos:narrower 
+		n1:s4b,
+		n1:g7g,
+		n1:a4g,
+		n1:f4e,
+		n1:x5u,
+		n1:s7z,
+		n1:y3p,
+		n1:f7v,
+		n1:f7t,
+		n1:f6z.
+n1:h2t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Schreiben"@de;
+	skos:narrower 
+		n1:f3y,
+		n1:c4a,
+		n1:q3x,
+		n1:g9b.
+n1:c9y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.1";
+	skos:broader n1:g7a;
+	skos:prefLabel "Lesetechniken und Strategien zum Leseverstehen kennen und anwenden,"@de.
+n1:t5y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.2";
+	skos:broader n1:g7a;
+	skos:prefLabel "über grundlegende Lesefertigkeiten verfügen: flüssig, sinnbezogen, überfliegend, selektiv,"@de.
+n1:d9x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.3";
+	skos:broader n1:g7a;
+	skos:prefLabel "die eigenen Leseziele kennen,"@de.
+n1:b4r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.4";
+	skos:broader n1:g7a;
+	skos:prefLabel "Vorwissen und neue Informationen unterscheiden,"@de.
+n1:r9p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.5";
+	skos:broader n1:g7a;
+	skos:prefLabel "Wortbedeutungen klären,"@de.
+n1:s6y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.6";
+	skos:broader n1:g7a;
+	skos:prefLabel "Lesehilfen nutzen: z.B. Textsorte, Aufbau, Überschrift, Illustration, Layout,"@de.
+n1:g9d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.7";
+	skos:broader n1:g7a;
+	skos:prefLabel "Verfahren zur Textstrukturierung kennen und nutzen: Inhalte zusammenfassen, Zwischenüberschriften formulieren, wesentliche Textstellen kennzeichnen, Bezüge zwischen Textstellen herstellen, Fragen aus dem Text ableiten und beantworten,"@de.
+n1:y5s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.8";
+	skos:broader n1:g7a;
+	skos:prefLabel "Verfahren zur Textaufnahme kennen und nutzen: Aussagen erklären, Stichwörter formulieren, Texte und Textabschnitte zusammenfassen."@de.
+n1:g7a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n1:t3r;
+	skos:prefLabel "Texte verstehen und nutzen"@de;
+	skos:narrower 
+		n1:c9y,
+		n1:t5y,
+		n1:d9x,
+		n1:b4r,
+		n1:r9p,
+		n1:s6y,
+		n1:g9d,
+		n1:y5s.
+n1:s7b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1.1";
+	skos:broader n1:y2z;
+	skos:prefLabel "aktuelle und klassische Werke der Jugendliteratur und altersangemessene Texte bedeutender Autorinnen und Autoren kennen,"@de.
+n1:g2a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1.2";
+	skos:broader n1:y2z;
+	skos:prefLabel "epische, lyrische, dramatische Texte unterscheiden und wesentliche Merkmale kennen, insbesondere epische Kleinformen, Erzählung, Kurzgeschichte, Gedichte,"@de.
+n1:r3x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1.3";
+	skos:broader n1:y2z;
+	skos:prefLabel "an einem repräsentativen Beispiel Zusammenhänge zwischen Text, Entstehungszeit und Leben des Autors/der Autorin herstellen,"@de.
+n1:g4b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1.4";
+	skos:broader n1:y2z;
+	skos:prefLabel "zentrale Aussagen erschließen,"@de.
+n1:y3v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1.5";
+	skos:broader n1:y2z;
+	skos:prefLabel "wesentliche Elemente eines Textes erfassen: Figuren, Raum- und Zeitdarstellung, Konfliktverlauf,"@de.
+n1:x7y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1.6";
+	skos:broader n1:y2z;
+	skos:prefLabel "Handlung und Verhaltensweisen beschreiben und werten,"@de.
+n1:u3g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1.7";
+	skos:broader n1:y2z;
+	skos:prefLabel "wesentliche Fachbegriffe zur Erschließung von Literatur kennen und anwenden: Autor, Erzähler, Monolog, Dialog, Reim,"@de.
+n1:d4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1.8";
+	skos:broader n1:y2z;
+	skos:prefLabel "grundlegende Gestaltungsmittel erkennen und ihre Wirkungen einschätzen: z.B. Wortwahl, Wiederholung, sprachliche Bilder,"@de.
+n1:a7v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1.9";
+	skos:broader n1:y2z;
+	skos:prefLabel "untersuchende und produktive Methoden kennen und anwenden: z.B. Texte vergleichen, weiterschreiben, Paralleltext verfassen, szenische Umsetzung,"@de.
+n1:x2e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1.10";
+	skos:broader n1:y2z;
+	skos:prefLabel "eigene Deutungen des Textes entwickeln, mit anderen darüber sprechen und am Text belegen."@de.
+n1:y2z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1";
+	skos:broader n1:u4d;
+	skos:prefLabel "Literarische Texte verstehen und nutzen"@de;
+	skos:narrower 
+		n1:s7b,
+		n1:g2a,
+		n1:r3x,
+		n1:g4b,
+		n1:y3v,
+		n1:x7y,
+		n1:u3g,
+		n1:d4e,
+		n1:a7v,
+		n1:x2e.
+n1:q4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.2.1";
+	skos:broader n1:z4p;
+	skos:prefLabel "verschiedene Textfunktionen und Textsorten unterscheiden: informieren (z.B. Lexikontext), appellieren (z.B. Werbetext), regulieren (z.B. Jugendschutzgesetz, Arbeitsvertrag), instruieren (z.B. Bedienungsanleitung),"@de.
+n1:p5t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.2.2";
+	skos:broader n1:z4p;
+	skos:prefLabel "Informationen zielgerichtet entnehmen, ordnen, prüfen und ergänzen,"@de.
+n1:a7s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.2.3";
+	skos:broader n1:z4p;
+	skos:prefLabel "nichtlineare Texte (auch im Zusammenhang mit linearen Texten) auswerten: z.B. Schaubilder,"@de.
+n1:v2h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.2.4";
+	skos:broader n1:z4p;
+	skos:prefLabel "Intention(en) eines Textes erkennen,"@de.
+n1:s3h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.2.5";
+	skos:broader n1:z4p;
+	skos:prefLabel "aus Sach- und Gebrauchstexten begründete Schlussfolgerungen ziehen,"@de.
+n1:g7c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.2.6";
+	skos:broader n1:z4p;
+	skos:prefLabel "Information und Wertung in Texten unterscheiden: z.B. in Zeitungen."@de.
+n1:z4p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.2";
+	skos:broader n1:u4d;
+	skos:prefLabel "Sach- und Gebrauchstexte verstehen und nutzen"@de;
+	skos:narrower 
+		n1:q4q,
+		n1:p5t,
+		n1:a7s,
+		n1:v2h,
+		n1:s3h,
+		n1:g7c.
+n1:x9g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.3.1";
+	skos:broader n1:r6g;
+	skos:prefLabel "Informations- und Unterhaltungsfunktion unterscheiden: z.B. im Internet,"@de.
+n1:q5y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.3.2";
+	skos:broader n1:r6g;
+	skos:prefLabel "wesentliche Darstellungsmittel eines Mediums und deren Wirkungen kennen und einschätzen,"@de.
+n1:t4a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.3.3";
+	skos:broader n1:r6g;
+	skos:prefLabel "Intentionen und Wirkungen ausgewählter Medieninhalte erkennen und bewerten: z. B. Fernsehserie,"@de.
+n1:a4v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.3.4";
+	skos:broader n1:r6g;
+	skos:prefLabel "Lebenswirklichkeit von Realitätsdarstellungen und der Darstellung fiktionaler Welten in Medien unterscheiden,"@de.
+n1:s4h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.3.5";
+	skos:broader n1:r6g;
+	skos:prefLabel "Informationen zu einem Thema/Problem in unterschiedlichen Medien suchen, vergleichen, auswählen und bewerten,"@de.
+n1:a7h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.3.6";
+	skos:broader n1:r6g;
+	skos:prefLabel "Medien für die eigene Produktion kreativ nutzen."@de.
+n1:r6g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.3";
+	skos:broader n1:u4d;
+	skos:prefLabel "Medien verstehen und nutzen"@de;
+	skos:narrower 
+		n1:x9g,
+		n1:q5y,
+		n1:t4a,
+		n1:a4v,
+		n1:s4h,
+		n1:a7h.
+n1:u4d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2";
+	skos:broader n1:t3r;
+	skos:prefLabel "Texte verstehen und nutzen"@de;
+	skos:narrower 
+		n1:y2z,
+		n1:z4p,
+		n1:r6g.
+n1:a2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.1";
+	skos:broader n1:d3y;
+	skos:prefLabel "mit Nachschlagewerken umgehen können,"@de.
+n1:s4v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.2";
+	skos:broader n1:d3y;
+	skos:prefLabel "recherchieren,"@de.
+n1:z3q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.3";
+	skos:broader n1:d3y;
+	skos:prefLabel "zitieren, Quellen angeben,"@de.
+n1:y7c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.4";
+	skos:broader n1:d3y;
+	skos:prefLabel "Wesentliches markieren,"@de.
+n1:c2h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.5";
+	skos:broader n1:d3y;
+	skos:prefLabel "Stichwörter formulieren,"@de.
+n1:r4x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.6";
+	skos:broader n1:d3y;
+	skos:prefLabel "Texte gliedern und Teilüberschriften finden,"@de.
+n1:q5u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.7";
+	skos:broader n1:d3y;
+	skos:prefLabel "Inhalte mit eigenen Worten zusammenfassend wiedergeben,"@de.
+n1:c6t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.8";
+	skos:broader n1:d3y;
+	skos:prefLabel "Arbeitsergebnisse zielgerichtet und sachbezogen präsentieren z.B. mit Folie, Plakat, PC."@de.
+n1:d3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3";
+	skos:broader n1:t3r;
+	skos:prefLabel "Methoden und Arbeitstechniken"@de;
+	skos:narrower 
+		n1:a2d,
+		n1:s4v,
+		n1:z3q,
+		n1:y7c,
+		n1:c2h,
+		n1:r4x,
+		n1:q5u,
+		n1:c6t.
+n1:t3r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Lesen – mit Texten und Medien umgehen"@de;
+	skos:narrower 
+		n1:g7a,
+		n1:u4d,
+		n1:d3y.
+n1:q4c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1";
+	skos:broader n1:y5h;
+	skos:prefLabel "beim Sprachhandeln die Inhalts- und Beziehungsebene unterscheiden,"@de.
+n1:z7c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.2";
+	skos:broader n1:y5h;
+	skos:prefLabel "Bedingungen und Regeln für kommunikative Situationen im Alltag kennen,"@de.
+n1:t7p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.3";
+	skos:broader n1:y5h;
+	skos:prefLabel "grundlegende Textfunktionen erfassen: Information (z.B. Zeitungsmeldung), Appell (z.B. Werbeanzeige), Kontakt (z.B. Bewerbung, Beschwerde); ästhetische Funktion (z.B. Gedicht),"@de.
+n1:g5s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.4";
+	skos:broader n1:y5h;
+	skos:prefLabel "„Sprachen in der Sprache“ kennen und in ihrer Funktion unterscheiden: Standardsprache, Umgangssprache; Dialekt; Gruppensprachen, Fachsprachen; gesprochene und geschriebene Sprache,"@de.
+n1:u7d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.5";
+	skos:broader n1:y5h;
+	skos:prefLabel "Sprechweisen unterscheiden und ihre Wirkung einschätzen: z.B. abwertend, gehoben,"@de.
+n1:y9b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.6";
+	skos:broader n1:y5h;
+	skos:prefLabel "ausgewählte Beispiele fremdsprachlicher Einflüsse kennen und bewerten,"@de.
+n1:y9g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.7";
+	skos:broader n1:y5h;
+	skos:prefLabel "Unterschiede und Gemeinsamkeiten verschiedener Sprachen wahrnehmen."@de.
+n1:y5h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1";
+	skos:broader n1:e4t;
+	skos:prefLabel "Äußerungen/Texte in Verwendungszusammenhängen reflektieren und bewusst gestalten"@de;
+	skos:narrower 
+		n1:q4c,
+		n1:z7c,
+		n1:t7p,
+		n1:g5s,
+		n1:u7d,
+		n1:y9b,
+		n1:y9g.
+n1:s3g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1.1";
+	skos:broader n1:p6p;
+	skos:prefLabel "Wortebene (morphologische Mittel): Beziehungswörter (z.B. Konjunktion, Adverb, Pronomen),"@de.
+n1:g4r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1.2";
+	skos:broader n1:p6p;
+	skos:prefLabel "Satzebene (syntaktische Mittel): Satzarten; Satzreihe, Satzgefüge,"@de.
+n1:z5d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1.3";
+	skos:broader n1:p6p;
+	skos:prefLabel "Bedeutungsebene (semantische Mittel): Synonyme; Schlüsselwörter; Oberbegriff/Unterbegriff,"@de.
+n1:p6p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1";
+	skos:broader n1:x5c;
+	skos:prefLabel "sprachliche Mittel zur Sicherung des Textzusammenhanges kennen und anwenden:"@de;
+	skos:narrower 
+		n1:s3g,
+		n1:g4r,
+		n1:z5d.
+n1:p4s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.2.1";
+	skos:broader n1:d5e;
+	skos:prefLabel "Satzstrukturen kennen und funktional verwenden: Hauptsatz, Nebensatz/Gliedsatz, Satzglied, Satzgliedteil,"@de.
+n1:v3v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.2.2";
+	skos:broader n1:d5e;
+	skos:prefLabel "Wortarten kennen und funktional gebrauchen: z.B. Verb: Zeitlichkeit; Substantiv/Nomen: Benennung; Adjektiv: Qualität,"@de.
+n1:q4u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.2.3";
+	skos:broader n1:d5e;
+	skos:prefLabel "grammatische Kategorien in situativen und funktionalen Zusammenhängen verwenden: z.B. Tempus, Aktiv/Passiv; Genus, Numerus, Kasus; Steigerung,"@de.
+n1:d5e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.2";
+	skos:broader n1:x5c;
+	skos:prefLabel "Leistungen von Sätzen und Wortarten kennen und für Sprechen und Schreiben nutzen:"@de;
+	skos:narrower 
+		n1:p4s,
+		n1:v3v,
+		n1:q4u.
+n1:b4h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.3";
+	skos:broader n1:x5c;
+	skos:prefLabel "grundlegende Regeln der Orthografie und Zeichensetzung kennen und beim Sprachhandeln anwenden."@de.
+n1:x5c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2";
+	skos:broader n1:e4t;
+	skos:prefLabel "Textbeschaffenheit analysieren und reflektieren"@de;
+	skos:narrower 
+		n1:p6p,
+		n1:d5e,
+		n1:b4h.
+n1:b9d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.1";
+	skos:broader n1:f4q;
+	skos:prefLabel "die Klang-, Weglass-, Umstell-, Ersatzprobe anwenden,"@de.
+n1:p6y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.2";
+	skos:broader n1:f4q;
+	skos:prefLabel "Verfahren der Fehlerkontrolle: z.B. Nachschlagetechniken, gliederndes Mitsprechen."@de.
+n1:f4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3";
+	skos:broader n1:e4t;
+	skos:prefLabel "Methoden und Arbeitstechniken"@de;
+	skos:narrower 
+		n1:b9d,
+		n1:p6y.
+n1:e4t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sprache und Sprachgebrauch untersuchen"@de;
+	skos:narrower 
+		n1:y5h,
+		n1:x5c,
+		n1:f4q.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Deutsch HSA 2004 - Standards für die Kompetenzbereiche im Fach Deutsch"@de;
+	dc:title "Bildungsstandards Deutsch HSA 2004 - Standards für die Kompetenzbereiche im Fach Deutsch"@de;
+	dc:description "Bildungsstandards Deutsch HSA 2004 - Standards für die Kompetenzbereiche im Fach Deutsch"@de;
+	skos:hasTopConcept
+		n1:e2s,
+		n1:h2t,
+		n1:t3r,
+		n1:e4t.

@@ -1,0 +1,968 @@
+{
+  "id": "https://w3id.org/iqb/v87/cq/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Forschungsdatenzentrum Konstrukte - Fragebögen (Konstruktliste)"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v87/cq/c1",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Individueller und institutioneller Hintergrund"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v87/cq/c2",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "Soziodemografischer Hintergrund"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c3",
+              "notation": [
+                "1.1.1"
+              ],
+              "prefLabel": {
+                "de": "Migrationshintergrund"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c4",
+              "notation": [
+                "1.1.2"
+              ],
+              "prefLabel": {
+                "de": "Kulturelles Kapital"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c5",
+              "notation": [
+                "1.1.3"
+              ],
+              "prefLabel": {
+                "de": "Individuelle Merkmale"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c6",
+              "notation": [
+                "1.1.4"
+              ],
+              "prefLabel": {
+                "de": "Familiärer Hintergrund"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v87/cq/c7",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "Personale Merkmale"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c8",
+              "notation": [
+                "1.2.1"
+              ],
+              "prefLabel": {
+                "de": "Selbstbezogene Einstellungen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c9",
+              "notation": [
+                "1.2.2"
+              ],
+              "prefLabel": {
+                "de": "Lern- und leistungsbezogene Einstellungen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c10",
+              "notation": [
+                "1.2.3"
+              ],
+              "prefLabel": {
+                "de": "Schulbezogene Einstellungen und Verhaltensweisen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c11",
+              "notation": [
+                "1.2.4"
+              ],
+              "prefLabel": {
+                "de": "Politische und soziale Einstellungen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c86",
+              "notation": [
+                "1.2.5"
+              ],
+              "prefLabel": {
+                "de": "Persönlichkeit"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v87/cq/c12",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "Beruflicher Hintergrund"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c13",
+              "notation": [
+                "1.3.1"
+              ],
+              "prefLabel": {
+                "de": "Berufliche Situation"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c14",
+              "notation": [
+                "1.3.2"
+              ],
+              "prefLabel": {
+                "de": "Professionelles Selbstverständnis"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c15",
+              "notation": [
+                "1.3.3"
+              ],
+              "prefLabel": {
+                "de": "Fachlich-pädagogisches Wissen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c16",
+              "notation": [
+                "1.3.4"
+              ],
+              "prefLabel": {
+                "de": "Berufserfahrung"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c17",
+              "notation": [
+                "1.3.5"
+              ],
+              "prefLabel": {
+                "de": "Ausbildung"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v87/cq/c18",
+          "notation": [
+            "1.4"
+          ],
+          "prefLabel": {
+            "de": "Institutionelle Hintergrundmerkmale"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c19",
+              "notation": [
+                "1.4.1"
+              ],
+              "prefLabel": {
+                "de": "Ausstattung der Schule"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c20",
+              "notation": [
+                "1.4.2"
+              ],
+              "prefLabel": {
+                "de": "Standort der Schule"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c21",
+              "notation": [
+                "1.4.3"
+              ],
+              "prefLabel": {
+                "de": "Organisation des Schulbetriebs"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c22",
+              "notation": [
+                "1.4.4"
+              ],
+              "prefLabel": {
+                "de": "Organisation des Lehrbetriebs"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c23",
+              "notation": [
+                "1.4.5"
+              ],
+              "prefLabel": {
+                "de": "Organisation des Ganztagsbetriebs"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c24",
+              "notation": [
+                "1.4.6"
+              ],
+              "prefLabel": {
+                "de": "Schulische ICT Nutzung"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c25",
+              "notation": [
+                "1.4.7"
+              ],
+              "prefLabel": {
+                "de": "Lerngelegenheiten"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c26",
+              "notation": [
+                "1.4.8"
+              ],
+              "prefLabel": {
+                "de": "Zusammensetzung der Schülerschaft"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c27",
+              "notation": [
+                "1.4.9"
+              ],
+              "prefLabel": {
+                "de": "Zusammensetzung des Kollegiums"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v87/cq/c28",
+          "notation": [
+            "1.5"
+          ],
+          "prefLabel": {
+            "de": "Bildungsbiografie"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v87/cq/c29",
+          "notation": [
+            "1.6"
+          ],
+          "prefLabel": {
+            "de": "Freizeitverhalten und Mediennutzung"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c30",
+              "notation": [
+                "1.6.1"
+              ],
+              "prefLabel": {
+                "de": "Private ICT-Nutzung"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c31",
+              "notation": [
+                "1.6.2"
+              ],
+              "prefLabel": {
+                "de": "TV-Konsum"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c32",
+              "notation": [
+                "1.6.3"
+              ],
+              "prefLabel": {
+                "de": "Lese- und Schreibgewohnheiten"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c33",
+              "notation": [
+                "1.6.4"
+              ],
+              "prefLabel": {
+                "de": "Freizeitaktivitäten und Peergruppe"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v87/cq/c34",
+          "notation": [
+            "1.7"
+          ],
+          "prefLabel": {
+            "de": "Häusliche Lernumwelt"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c35",
+              "notation": [
+                "1.7.1"
+              ],
+              "prefLabel": {
+                "de": "Häusliche Lernunterstützung"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c36",
+              "notation": [
+                "1.7.2"
+              ],
+              "prefLabel": {
+                "de": "Nachhilfeunterricht"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c37",
+              "notation": [
+                "1.7.3"
+              ],
+              "prefLabel": {
+                "de": "Elterliches Erziehungshandeln"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c38",
+              "notation": [
+                "1.7.4"
+              ],
+              "prefLabel": {
+                "de": "Elterliche Bildungsaspiration"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c39",
+              "notation": [
+                "1.7.5"
+              ],
+              "prefLabel": {
+                "de": "Elterliches Fachwissen und Weltbilder"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v87/cq/c40",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Prozesse auf Schulebene"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v87/cq/c41",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "Schulleitungshandeln"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v87/cq/c42",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "Kollegialität"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v87/cq/c43",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "Qualitätsentwicklung und Evaluation"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c44",
+              "notation": [
+                "2.3.1"
+              ],
+              "prefLabel": {
+                "de": "Programmatische Entwicklungsarbeit"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c45",
+              "notation": [
+                "2.3.2"
+              ],
+              "prefLabel": {
+                "de": "Evaluation und Leistungsmessung"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c46",
+              "notation": [
+                "2.3.3"
+              ],
+              "prefLabel": {
+                "de": "Maßnahmen der Qualitätsentwicklung"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v87/cq/c47",
+          "notation": [
+            "2.4"
+          ],
+          "prefLabel": {
+            "de": "Elternarbeit"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v87/cq/c48",
+          "notation": [
+            "2.5"
+          ],
+          "prefLabel": {
+            "de": "Schulklima"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c49",
+              "notation": [
+                "2.5.1"
+              ],
+              "prefLabel": {
+                "de": "Wahrnehmung der Schule als Lebensort"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c50",
+              "notation": [
+                "2.5.2"
+              ],
+              "prefLabel": {
+                "de": "Wahrnehmung der Schule als Lernort"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c51",
+              "notation": [
+                "2.5.3"
+              ],
+              "prefLabel": {
+                "de": "Soziales Klima"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c52",
+              "notation": [
+                "2.5.4"
+              ],
+              "prefLabel": {
+                "de": "Deviantes Verhalten"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c53",
+              "notation": [
+                "2.5.5"
+              ],
+              "prefLabel": {
+                "de": "Partizipatives Schulklima"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v87/cq/c54",
+          "notation": [
+            "2.6"
+          ],
+          "prefLabel": {
+            "de": "Kooperation"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c55",
+              "notation": [
+                "2.6.1"
+              ],
+              "prefLabel": {
+                "de": "Schulinterne Kooperation"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c56",
+              "notation": [
+                "2.6.2"
+              ],
+              "prefLabel": {
+                "de": "Schulexterne Kooperation"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v87/cq/c57",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Lehr-Lernarrangements"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v87/cq/c58",
+          "notation": [
+            "3.1"
+          ],
+          "prefLabel": {
+            "de": "Unterrichtsgestaltung/Unterrichtspraxis"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c59",
+              "notation": [
+                "3.1.1"
+              ],
+              "prefLabel": {
+                "de": "Einsatz und Variation verschiedener Unterrichtsmethoden"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c60",
+              "notation": [
+                "3.1.2"
+              ],
+              "prefLabel": {
+                "de": "Klarheit und Strukturiertheit"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c61",
+              "notation": [
+                "3.1.3"
+              ],
+              "prefLabel": {
+                "de": "Kognitive Aktivierung"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c62",
+              "notation": [
+                "3.1.4"
+              ],
+              "prefLabel": {
+                "de": "Umgang mit Hausaufgaben"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c63",
+              "notation": [
+                "3.1.5"
+              ],
+              "prefLabel": {
+                "de": "Unterrichtsvorbereitung und Unterrichtsinhalte"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v87/cq/c64",
+          "notation": [
+            "3.2"
+          ],
+          "prefLabel": {
+            "de": "Klassenführung"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c65",
+              "notation": [
+                "3.2.1"
+              ],
+              "prefLabel": {
+                "de": "Fachliche Unterstützung/individuelle Förderung"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c66",
+              "notation": [
+                "3.2.2"
+              ],
+              "prefLabel": {
+                "de": "Effektive Zeitnutzung/Disziplin im Unterricht"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c67",
+              "notation": [
+                "3.2.3"
+              ],
+              "prefLabel": {
+                "de": "Leistungsbeurteilung/Diagnostische Kompetenz"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c68",
+              "notation": [
+                "3.2.4"
+              ],
+              "prefLabel": {
+                "de": "Schülerorientierung/Soziale Unterstützung"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c69",
+              "notation": [
+                "3.2.5"
+              ],
+              "prefLabel": {
+                "de": "Bezugsnormorientierung"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v87/cq/c70",
+          "notation": [
+            "3.3"
+          ],
+          "prefLabel": {
+            "de": "Qualität von Ganztagsangeboten"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v87/cq/c71",
+          "notation": [
+            "3.4"
+          ],
+          "prefLabel": {
+            "de": "Angebotsklima"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v87/cq/c72",
+          "notation": [
+            "3.5"
+          ],
+          "prefLabel": {
+            "de": "Lernatmosphäre im Unterricht und Klassenverband"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c73",
+              "notation": [
+                "3.5.1"
+              ],
+              "prefLabel": {
+                "de": "Lernklima"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c74",
+              "notation": [
+                "3.5.2"
+              ],
+              "prefLabel": {
+                "de": "Klassenklima"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c85",
+              "notation": [
+                "3.5.3"
+              ],
+              "prefLabel": {
+                "de": "Zusammensetzung der Schülerschaft"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v87/cq/c75",
+      "notation": [
+        "4"
+      ],
+      "prefLabel": {
+        "de": "Schulische Wirkungen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v87/cq/c76",
+          "notation": [
+            "4.1"
+          ],
+          "prefLabel": {
+            "de": "Kognitive Lernergebnisse"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v87/cq/c77",
+          "notation": [
+            "4.2"
+          ],
+          "prefLabel": {
+            "de": "Metakognitive Lernergebnisse"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v87/cq/c78",
+          "notation": [
+            "4.3"
+          ],
+          "prefLabel": {
+            "de": "Nichtkognitive Lernergebnisse"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c79",
+              "notation": [
+                "4.3.1"
+              ],
+              "prefLabel": {
+                "de": "Selbstbezogene Einstellungen (Lernergebnis)"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c80",
+              "notation": [
+                "4.3.2"
+              ],
+              "prefLabel": {
+                "de": "Lern- und leistungsbezogene Einstellungen (Lernergebnis)"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c81",
+              "notation": [
+                "4.3.3"
+              ],
+              "prefLabel": {
+                "de": "Politische und soziale Einstellungen (Lernergebnis)"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v87/cq/c82",
+              "notation": [
+                "4.3.4"
+              ],
+              "prefLabel": {
+                "de": "Schulbezogene Einstellungen und Verhaltensweisen (Lernergebnis)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v87/cq/c83",
+      "notation": [
+        "5"
+      ],
+      "prefLabel": {
+        "de": "Sonstiges"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v87/cq/c84",
+          "notation": [
+            "5.1"
+          ],
+          "prefLabel": {
+            "de": "Sonstiges"
+          }
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v26/lh/>. 
+@prefix n1: <https://w3id.org/iqb/v26/lh/>. 
+
+n1:d7s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "selektiv"@de.
+n1:y5z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "detailliert"@de.
+n1:f4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "inferierend"@de.
+n1:a2q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "global"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Allgemeine Kompetenzen Fremdsprachen - Lese-/Hörstil"@de;
+	dc:title "Allgemeine Kompetenzen Fremdsprachen - Lese-/Hörstil"@de;
+	dc:description "Allgemeine Kompetenzen Fremdsprachen - Lese-/Hörstil"@de;
+	skos:hasTopConcept
+		n1:d7s,
+		n1:y5z,
+		n1:f4e,
+		n1:a2q.

@@ -1,0 +1,744 @@
+{
+  "id": "https://w3id.org/iqb/v48/i1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Physik Sek II 2020 - Inhalte"
+  },
+  "description": {
+    "de": "Im Folgenden sind zentrale Inhalte aufgeführt, über die die Lernenden zum Zeitpunkt des Erwerbs der Allgemeinen Hochschulreife verfügen sollen. Dabei wird in ein grundlegendes Anforderungsniveau und ein erhöhtes Anforderungsniveau unterschieden. Diese Inhalte sind Grundlage für die Erstellung von Aufgaben im Rahmen der Prüfung für die Allgemeine Hochschulreife. Einige der zentralen Inhalte werden in manchen Ländern üblicherweise in der Sekundarstufe I oder in der Einführungsphase vermittelt.\n\nDie in den Textfassung Kapiteln 2.1 bis 2.4 formulierten Kompetenzen werden, aufbauend auf den in der Sekundarstufe I erworbenen Inhalten und Kompetenzen, in der Beschäftigung mit konkreten Inhalten in sinnstiftenden Kontexten erworben, die sich aus Problemstellungen in den verschiedenen Teilbereichen der Physik ergeben. Um aktuelle und zukünftige Entwicklungen in der Physik und die Diversität der Fachwissenschaft zu berücksichtigen, sollten die Lehrpläne der Länder Schwerpunkte setzen, z. B. in Form von Vertiefungen und Erweiterungen innerhalb der gegebenen Inhaltsbereiche. Im Bereich der elektromagnetischen Felder bieten sich Erweiterungen z. B. zur Relativitätstheorie, im Bereich der Quantenphysik und Materie z. B. zur Kern- und Teilchenphysik an. Darüber hinaus gehende Erweiterungen können beispielsweise im Bereich Klimaphysik, Festkörperphysik, Astrophysik oder anderen aktuellen Teilbereichen der Physik einen Schwerpunkt setzen. Die in Textfassung 2.6.1 bis 2.6.3 aufgeführten Inhalte sind für viele Teilbereiche der Physik zentral, z. B. für die Atomphysik oder die Biophysik. Für andere Teilbereiche sind gegebenenfalls andere physikalische Grundlagen notwendig, die jedoch gleichermaßen für die Fachwissenschaft Physik zentral sind. Beispielsweise werden für eine umfassende Betrachtung von Klimaphysik Grundlagen der Thermodynamik benötigt. Aufgrund der Vielzahl der historisch entwickelten und sich neu herausbildenden Teilbereiche der Physik können nicht alle notwendigen Grundlagen kontextübergreifend als zentral festgelegt werden. Um dies zu berücksichtigen, kann in Kursen auf grundlegendem Anforderungsniveau eine Lehrplanalternative eingerichtet werden, deren Inhalte nicht unmittelbar an einen der Inhaltsbereiche 2.6.1 bis 2.6.3 (Texfassung) anknüpfen müssen. Falls eine Lehrplanalternative umgesetzt wird, deren physikalische Grundlagen nicht innerhalb der Inhaltsbereiche 2.6.1 bis 2.6.3 aufgeführt sind, können auf der Basis der Bestimmungen der Länder einzelne Inhalte des Inhaltsbereichs 2.6.3 durch gleichwertige Inhalte aus weiteren Teilbereichen der Physik ersetzt werden. Dabei muss gewährleistet sein, dass durch diesen teilweisen Austausch zentraler Inhalte weiterhin alle Standards erreichbar sind. Unabhängig von den im Einzelfall gesetzten Schwerpunkten bedingt das Arbeiten in sinnstiftenden Kontexten, dass die zentralen Inhalte durch weitere Inhalte länderspezifisch ergänzt werden."
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v48/i1/c3e",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Inhaltsbereich: Elektrische und magnetische Felder"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v48/i1/r2q",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "Das Feldkonzept zur Beschreibung von Wechselwirkungen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v48/i1/e5r",
+              "notation": [
+                "1.1.1"
+              ],
+              "prefLabel": {
+                "de": "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/q3y",
+                  "notation": [
+                    "1.1.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Begriff des Feldes am Beispiel von elektrischen und magnetischen Feldern"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/c5z",
+                  "notation": [
+                    "1.1.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Elektrische Feldstärke"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/v6z",
+                  "notation": [
+                    "1.1.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Elektrische Energie in einem geladenen Kondensator"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/r7g",
+                  "notation": [
+                    "1.1.1.4"
+                  ],
+                  "prefLabel": {
+                    "de": "Kondensator als Energiespeicher, Kapazität"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/z4p",
+                  "notation": [
+                    "1.1.1.5"
+                  ],
+                  "prefLabel": {
+                    "de": "Magnetische Flussdichte"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/i1/e5b",
+              "notation": [
+                "1.1.2"
+              ],
+              "prefLabel": {
+                "de": "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/q6b",
+                  "notation": [
+                    "1.1.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Coulomb’sches Gesetz"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/y3y",
+                  "notation": [
+                    "1.1.2.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Spannung als Potentialdifferenz"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/e4e",
+                  "notation": [
+                    "1.1.2.5"
+                  ],
+                  "prefLabel": {
+                    "de": "Spule und ihre Eigenschaften, insbesondere Induktivität"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v48/i1/g9z",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "Körper in statischen Feldern"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v48/i1/q7g",
+              "notation": [
+                "1.2.1"
+              ],
+              "prefLabel": {
+                "de": "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/f4x",
+                  "notation": [
+                    "1.2.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Kräfte auf Körper in homogenen elektrischen und magnetischen Feldern, Bahnformen (qualitativ)"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/h3s",
+                  "notation": [
+                    "1.2.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Energiebetrachtungen von Körpern in homogenen elektrischen Feldern"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/i1/c3b",
+              "notation": [
+                "1.2.2"
+              ],
+              "prefLabel": {
+                "de": "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/q2z",
+                  "notation": [
+                    "1.2.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Quantitative Betrachtung von Bahnformen in homogenen Feldern"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v48/i1/v5q",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "Veränderliche elektromagnetische Felder"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v48/i1/s9q",
+              "notation": [
+                "1.3.1"
+              ],
+              "prefLabel": {
+                "de": "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/e6z",
+                  "notation": [
+                    "1.3.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Induktion durch Änderung des magnetischen Flusses"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/i1/t6f",
+              "notation": [
+                "1.3.2"
+              ],
+              "prefLabel": {
+                "de": "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/z9v",
+                  "notation": [
+                    "1.3.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Induktionsgesetz in differenzieller Form"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v48/i1/y5f",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Inhaltsbereich: Mechanische und elektromagnetische Schwingungen und Wellen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v48/i1/q4a",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "Schwingungen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v48/i1/d7h",
+              "notation": [
+                "2.1.1"
+              ],
+              "prefLabel": {
+                "de": "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/u6g",
+                  "notation": [
+                    "2.1.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "mechanische und elektromagnetische harmonische Schwingungen: charakteristische Größen und ihre Zusammenhänge"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/i1/e5x",
+              "notation": [
+                "2.1.2"
+              ],
+              "prefLabel": {
+                "de": "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/v7g",
+                  "notation": [
+                    "2.1.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "gedämpfte Schwingungen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/h3b",
+                  "notation": [
+                    "2.1.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Vergleich von mechanischen und elektromagnetischen Schwingungen unter energetischen Aspekten"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/y3c",
+                  "notation": [
+                    "2.1.2.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Resonanz bei erzwungenen Schwingungen"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v48/i1/s7y",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "Eigenschaften und Ausbreitung von Wellen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v48/i1/g5b",
+              "notation": [
+                "2.2.1"
+              ],
+              "prefLabel": {
+                "de": "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/s5x",
+                  "notation": [
+                    "2.2.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "harmonische Wellen: charakteristische Größen und ihre Zusammenhänge"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/v2v",
+                  "notation": [
+                    "2.2.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Longitudinal- und Transversalwelle, lineare Polarisation"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/q7u",
+                  "notation": [
+                    "2.2.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Spektrum elektromagnetischer Wellen"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v48/i1/y4b",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "Überlagerung von Wellen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v48/i1/e6q",
+              "notation": [
+                "2.3.1"
+              ],
+              "prefLabel": {
+                "de": "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/x6p",
+                  "notation": [
+                    "2.3.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Interferenz am Doppelspalt auch mit polychromatischem Licht"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/g7x",
+                  "notation": [
+                    "2.3.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "stehende Wellen"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/i1/g9e",
+              "notation": [
+                "2.3.2"
+              ],
+              "prefLabel": {
+                "de": "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/a7z",
+                  "notation": [
+                    "2.3.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Einzelspalt mit monochromatischem Licht"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/d6t",
+                  "notation": [
+                    "2.3.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Interferometer"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v48/i1/x3x",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Inhaltsbereich: Quantenphysik und Materie"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v48/i1/b2d",
+          "notation": [
+            "3.1"
+          ],
+          "prefLabel": {
+            "de": "Quantenobjekte"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v48/i1/g7d",
+              "notation": [
+                "3.1.1"
+              ],
+              "prefLabel": {
+                "de": "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/u4c",
+                  "notation": [
+                    "3.1.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Grundlegende Aspekte der Quantentheorie: Stochastische Vorhersagbarkeit, Interferenz und Superposition, Determiniertheit der Zufallsverteilung, Komplementarität"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/r9c",
+                  "notation": [
+                    "3.1.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Zusammenhänge der Größen Energie, Impuls, Frequenz und Wellenlänge zur Beschreibung von Quantenobjekten"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/z5e",
+                  "notation": [
+                    "3.1.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "quantenphysikalisches Weltbild hinsichtlich der Begriffe Realität, Lokalität, Kausalität, Determinismus"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/i1/d2g",
+              "notation": [
+                "3.1.2"
+              ],
+              "prefLabel": {
+                "de": "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/b6v",
+                  "notation": [
+                    "3.1.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "stochastische Deutung mittels des Quadrats der quantenmechanischen Wellenfunktion (qualitativ)"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/e9x",
+                  "notation": [
+                    "3.1.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Ort-Impuls-Unbestimmtheit"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/s4p",
+                  "notation": [
+                    "3.1.2.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Koinzidenzmethode zum Nachweis einzelner Photonen"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v48/i1/r9h",
+          "notation": [
+            "3.2"
+          ],
+          "prefLabel": {
+            "de": "Atomvorstellungen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v48/i1/v4s",
+              "notation": [
+                "3.2.1"
+              ],
+              "prefLabel": {
+                "de": "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/y2e",
+                  "notation": [
+                    "3.2.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "qualitative Betrachtung eines quantenmechanischen Atommodells"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/c5g",
+                  "notation": [
+                    "3.2.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Emission und Absorption, Zusammenhang zwischen diskretem Spektrum und Energieniveauschema"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/i1/u9y",
+              "notation": [
+                "3.2.2"
+              ],
+              "prefLabel": {
+                "de": "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v48/i1/v9h",
+                  "notation": [
+                    "3.2.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Modell des eindimensionalen Potenzialtopfs und seine Grenzen"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

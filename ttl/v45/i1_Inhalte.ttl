@@ -1,0 +1,752 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v45/i1/>. 
+@prefix n1: <https://w3id.org/iqb/v45/i1/>. 
+
+n1:f6v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1.1";
+	skos:broader n1:p3z;
+	skos:prefLabel "Zusammenhang von aufbauendem und abbauendem Stoffwechsel, Stoffwechselregulation auf Enzymebene"@de.
+n1:g6d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1.2";
+	skos:broader n1:p3z;
+	skos:prefLabel "Stofftransport zwischen Kompartimenten"@de.
+n1:f7q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1.3";
+	skos:broader n1:p3z;
+	skos:prefLabel "Chemiosmotische ATP-Bildung"@de.
+n1:r5t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1.4";
+	skos:broader n1:p3z;
+	skos:prefLabel "Redoxreaktionen, Energieumwandlung, Energieentwertung, ATP-/ADP-System"@de.
+n1:p3z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1";
+	skos:broader n1:y7p;
+	skos:prefLabel "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:f6v,
+		n1:g6d,
+		n1:f7q,
+		n1:r5t.
+n1:g3r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.2";
+	skos:broader n1:y7p;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de.
+n1:y7p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:c9t;
+	skos:prefLabel "Grundlegende Zusammenhänge bei Stoffwechselwegen"@de;
+	skos:narrower 
+		n1:p3z,
+		n1:g3r.
+n1:v4y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1.1";
+	skos:broader n1:v2q;
+	skos:prefLabel "Funktionale Angepasstheiten: Blattaufbau, Feinbau Chloroplast, Absorptionsspektrum von Chlorophyll, Wirkungsspektrum"@de.
+n1:t5d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1.2";
+	skos:broader n1:v2q;
+	skos:prefLabel "Abhängigkeit der Fotosyntheserate von abiotischen Faktoren"@de.
+n1:g5a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1.3";
+	skos:broader n1:v2q;
+	skos:prefLabel "Calvin-Zyklus: Fixierung, Reduktion, Regeneration"@de.
+n1:g6e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1.4";
+	skos:broader n1:v2q;
+	skos:prefLabel "Zusammenhang von Primär- und Sekundärreaktionen"@de.
+n1:v2q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1";
+	skos:broader n1:c3d;
+	skos:prefLabel "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:v4y,
+		n1:t5d,
+		n1:g5a,
+		n1:g6e.
+n1:z4r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.2.1";
+	skos:broader n1:x6x;
+	skos:prefLabel "Lichtsammelkomplex"@de.
+n1:g3u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.2.2";
+	skos:broader n1:x6x;
+	skos:prefLabel "Energetisches Modell der Lichtreaktionen"@de.
+n1:b2y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.2.3";
+	skos:broader n1:x6x;
+	skos:prefLabel "C4-Pflanzen"@de.
+n1:x6x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.2";
+	skos:broader n1:c3d;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:z4r,
+		n1:g3u,
+		n1:b2y.
+n1:c3d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:c9t;
+	skos:prefLabel "Aufbauender Stoffwechsel"@de;
+	skos:narrower 
+		n1:v2q,
+		n1:x6x.
+n1:g4p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.1";
+	skos:broader n1:g5y;
+	skos:prefLabel "Feinbau Mitochondrium"@de.
+n1:f7y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.2";
+	skos:broader n1:g5y;
+	skos:prefLabel "Stoff- und Energiebilanz von Glykolyse, oxidative Decarboxylierung, Tricarbonsäurezyklus und Atmungskette"@de.
+n1:g5y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1";
+	skos:broader n1:q4d;
+	skos:prefLabel "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:g4p,
+		n1:f7y.
+n1:y9c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.1";
+	skos:broader n1:d2x;
+	skos:prefLabel "Energetisches Modell der Atmungskette"@de.
+n1:t2y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.2";
+	skos:broader n1:d2x;
+	skos:prefLabel "Alkoholische Gärung und Milchsäuregärung"@de.
+n1:d2x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2";
+	skos:broader n1:q4d;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:y9c,
+		n1:t2y.
+n1:q4d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:c9t;
+	skos:prefLabel "Abbauender Stoffwechse"@de;
+	skos:narrower 
+		n1:g5y,
+		n1:d2x.
+n1:t3q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.1.1";
+	skos:broader n1:e5r;
+	skos:prefLabel "Chromatografie"@de.
+n1:e5r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.1";
+	skos:broader n1:d5f;
+	skos:prefLabel "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:t3q.
+n1:a2z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.2.1";
+	skos:broader n1:r6p;
+	skos:prefLabel "Tracer-Methode"@de.
+n1:r6p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.2";
+	skos:broader n1:d5f;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:a2z.
+n1:d5f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4";
+	skos:broader n1:c9t;
+	skos:prefLabel "Fachliche Verfahren"@de;
+	skos:narrower 
+		n1:e5r,
+		n1:r6p.
+n1:c9t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Inhaltsbereich: Leben und Energie"@de;
+	skos:narrower 
+		n1:y7p,
+		n1:c3d,
+		n1:q4d,
+		n1:d5f.
+n1:b5r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.1.1";
+	skos:broader n1:g9y;
+	skos:prefLabel "Bau und Funktionen von Nervenzellen: Ruhepotenzial, Aktionspotenzial, Erregungsleitung"@de.
+n1:q3t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.1.2";
+	skos:broader n1:g9y;
+	skos:prefLabel "Synapse: Funktion der erregenden chemischen Synapse, Stoffeinwirkung an Synapsen, neuromuskuläre Synapse"@de.
+n1:g9y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.1";
+	skos:broader n1:u7s;
+	skos:prefLabel "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:b5r,
+		n1:q3t.
+n1:b2r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.2.1";
+	skos:broader n1:g3q;
+	skos:prefLabel "Rezeptorpotenzial"@de.
+n1:h5f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.2.2";
+	skos:broader n1:g3q;
+	skos:prefLabel "Primäre und sekundäre Sinneszelle"@de.
+n1:z7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.2.3";
+	skos:broader n1:g3q;
+	skos:prefLabel "Hormone: Hormonwirkung, Verschränkung hormoneller und neuronaler Steuerung"@de.
+n1:g3q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.2";
+	skos:broader n1:u7s;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:b2r,
+		n1:h5f,
+		n1:z7z.
+n1:u7s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:y3h;
+	skos:prefLabel "Grundlagen der Informationsverarbeitung"@de;
+	skos:narrower 
+		n1:g9y,
+		n1:g3q.
+n1:f5z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.2.1";
+	skos:broader n1:f6d;
+	skos:prefLabel "Verrechnung: Funktion einer hemmenden Synapse, räumliche und zeitliche Summation"@de.
+n1:f5g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.2.2";
+	skos:broader n1:f6d;
+	skos:prefLabel "Zelluläre Prozesse des Lernens"@de.
+n1:h6a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.2.3";
+	skos:broader n1:f6d;
+	skos:prefLabel "Störungen des neuronalen Systems"@de.
+n1:f6d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.2";
+	skos:broader n1:f5t;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:f5z,
+		n1:f5g,
+		n1:h6a.
+n1:f5t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:y3h;
+	skos:prefLabel "Neuronale Plastizität"@de;
+	skos:narrower 
+		n1:f6d.
+n1:c4s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.1.1";
+	skos:broader n1:x2v;
+	skos:prefLabel "Potenzialmessungen"@de.
+n1:x2v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.1";
+	skos:broader n1:r9q;
+	skos:prefLabel "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:c4s.
+n1:z3c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2.1";
+	skos:broader n1:v7x;
+	skos:prefLabel "Neurophysiologische Verfahren"@de.
+n1:v7x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2";
+	skos:broader n1:r9q;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:z3c.
+n1:r9q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n1:y3h;
+	skos:prefLabel "Fachliche Verfahren"@de;
+	skos:narrower 
+		n1:x2v,
+		n1:v7x.
+n1:y3h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Inhaltsbereich: Informationsverarbeitung in Lebewesen"@de;
+	skos:narrower 
+		n1:u7s,
+		n1:f5t,
+		n1:r9q.
+n1:u7x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.1.1";
+	skos:broader n1:z5d;
+	skos:prefLabel "Biotop und Biozönose: biotische und abiotische Faktoren"@de.
+n1:g9u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.1.2";
+	skos:broader n1:z5d;
+	skos:prefLabel "Einfluss abiotischer Faktoren auf Organismen: Toleranzkurven, ökologische Potenz"@de.
+n1:b2e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.1.3";
+	skos:broader n1:z5d;
+	skos:prefLabel "Stoffkreislauf und Energiefluss in einem Ökosystem: Kohlenstoffkreislauf, Nahrungsnetz"@de.
+n1:p7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.1.4";
+	skos:broader n1:z5d;
+	skos:prefLabel "Intra- und interspezifische Beziehungen: Konkurrenz, Parasitismus, Symbiose, Räuber-Beute-Beziehungen"@de.
+n1:q9r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.1.5";
+	skos:broader n1:z5d;
+	skos:prefLabel "Ökologische Nische"@de.
+n1:z5d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.1";
+	skos:broader n1:d9s;
+	skos:prefLabel "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:u7x,
+		n1:g9u,
+		n1:b2e,
+		n1:p7z,
+		n1:q9r.
+n1:z6d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.2.1";
+	skos:broader n1:r3y;
+	skos:prefLabel "Fortpflanzungsstrategien: R- und K-Strategien"@de.
+n1:z5x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.2.2";
+	skos:broader n1:r3y;
+	skos:prefLabel "Stickstoffkreislauf"@de.
+n1:x3z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.2.3";
+	skos:broader n1:r3y;
+	skos:prefLabel "Idealisierte Populationsentwicklung: exponentielles und logistisches Wachstum"@de.
+n1:r3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.2";
+	skos:broader n1:d9s;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:z6d,
+		n1:z5x,
+		n1:x3z.
+n1:d9s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n1:b5u;
+	skos:prefLabel "Strukturen und Zusammenhänge in Ökosystemen"@de;
+	skos:narrower 
+		n1:z5d,
+		n1:r3y.
+n1:q3d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1.1";
+	skos:broader n1:s3b;
+	skos:prefLabel "Folgen des anthropogen bedingten Treibhauseffekts"@de.
+n1:c5c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1.2";
+	skos:broader n1:s3b;
+	skos:prefLabel "Ökosystemmanagement: Ursache-Wirkungszusammenhänge, Erhaltungs- und Renaturierungsmaßnahmen, nachhaltige Nutzung, Bedeutung und Erhalt der Biodiversität"@de.
+n1:s3b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1";
+	skos:broader n1:v7a;
+	skos:prefLabel "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:q3d,
+		n1:c5c.
+n1:d4r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.2.1";
+	skos:broader n1:c5d;
+	skos:prefLabel "Hormonartig wirkende Substanzen in der Umwelt"@de.
+n1:d2z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.2.2";
+	skos:broader n1:c5d;
+	skos:prefLabel "Ökologischer Fußabdruck"@de.
+n1:c5d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.2";
+	skos:broader n1:v7a;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:d4r,
+		n1:d2z.
+n1:v7a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2";
+	skos:broader n1:b5u;
+	skos:prefLabel "Einfluss des Menschen auf Ökosysteme, Nachhaltigkeit, Biodiversität"@de;
+	skos:narrower 
+		n1:s3b,
+		n1:c5d.
+n1:y7u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.1.1";
+	skos:broader n1:v4v;
+	skos:prefLabel "Erfassung ökologischer Faktoren und qualitative Erfassung von Arten in einem Areal"@de.
+n1:v4v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.1";
+	skos:broader n1:x9b;
+	skos:prefLabel "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:y7u.
+n1:s3e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.2.1";
+	skos:broader n1:a6h;
+	skos:prefLabel "Quantitative Erfassung von Arten in einem Areal"@de.
+n1:a6h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.2";
+	skos:broader n1:x9b;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:s3e.
+n1:x9b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3";
+	skos:broader n1:b5u;
+	skos:prefLabel "Fachliche Verfahren"@de;
+	skos:narrower 
+		n1:v4v,
+		n1:a6h.
+n1:b5u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Inhaltsbereich: Lebewesen in ihrer Umwelt"@de;
+	skos:narrower 
+		n1:d9s,
+		n1:v7a,
+		n1:x9b.
+n1:y9q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1.1";
+	skos:broader n1:p5u;
+	skos:prefLabel "Speicherung und Realisierung genetischer Information: Bau der DNA, Transkription und Translation, semikonservative Replikation"@de.
+n1:v5e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1.2";
+	skos:broader n1:p5u;
+	skos:prefLabel "Genmutationen"@de.
+n1:s4t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1.3";
+	skos:broader n1:p5u;
+	skos:prefLabel "Regulation der Genaktivität bei Eukaryoten: Transkriptionsfaktoren, Modifikationen des Epigenoms durch Methylierung, Zusammenhänge zwischen genetischem Material, Genprodukten und Merkmal"@de.
+n1:u2h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1.4";
+	skos:broader n1:p5u;
+	skos:prefLabel "Genetik menschlicher Erkrankungen: Familienstammbäume, Gentest und Beratung, Gentherapie"@de.
+n1:p5u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1";
+	skos:broader n1:a6f;
+	skos:prefLabel "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:y9q,
+		n1:v5e,
+		n1:s4t,
+		n1:u2h.
+n1:h2g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.2.1";
+	skos:broader n1:t9b;
+	skos:prefLabel "Krebs: Krebszellen, Onkogene und Anti-Onkogene, personalisierte Medizin"@de.
+n1:u2p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.2.2";
+	skos:broader n1:t9b;
+	skos:prefLabel "Modifikationen des Epigenoms: Histonmodifikation"@de.
+n1:p6d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.2.3";
+	skos:broader n1:t9b;
+	skos:prefLabel "RNA-Interferenz"@de.
+n1:t9b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.2";
+	skos:broader n1:a6f;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:h2g,
+		n1:u2p,
+		n1:p6d.
+n1:a6f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1";
+	skos:broader n1:p2c;
+	skos:prefLabel "Molekulargenetische Grundlagen des Lebens"@de;
+	skos:narrower 
+		n1:p5u,
+		n1:t9b.
+n1:e4a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1.1";
+	skos:broader n1:x6q;
+	skos:prefLabel "Stammbäume: ursprüngliche und abgeleitete Merkmale"@de.
+n1:z2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1.2";
+	skos:broader n1:x6q;
+	skos:prefLabel "Belege für die Evolution: molekularbiologische Homologien"@de.
+n1:x6c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1.3";
+	skos:broader n1:x6q;
+	skos:prefLabel "Grundlegende Prinzipien der Evolution: Rekombination, Mutation, Selektion, Verwandtschaft, Variation, Fitness, Isolation, Drift, Artbildung, Biodiversität, Koevolution, populationsgenetischer Artbegriff"@de.
+n1:g9e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1.4";
+	skos:broader n1:x6q;
+	skos:prefLabel "adaptiver Wert von Verhalten: reproduktive Fitness, Kosten-Nutzen-Analyse"@de.
+n1:e9y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1.5";
+	skos:broader n1:x6q;
+	skos:prefLabel "Synthetische Evolutionstheorie, Abgrenzung von nicht-naturwissenschaftlichen Vorstellungen"@de.
+n1:x6q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1";
+	skos:broader n1:v2p;
+	skos:prefLabel "Inhalte für das grundlegende und das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:e4a,
+		n1:z2d,
+		n1:x6c,
+		n1:g9e,
+		n1:e9y.
+n1:c9g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.2.1";
+	skos:broader n1:e9a;
+	skos:prefLabel "Evolution des Menschen: Ursprung, Fossilgeschichte, Stammbäume und Verbreitung des heutigen Menschen"@de.
+n1:c5y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.2.2";
+	skos:broader n1:e9a;
+	skos:prefLabel "Kulturelle Evolution: Werkzeuggebrauch, Sprachentwicklung"@de.
+n1:f4t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.2.3";
+	skos:broader n1:e9a;
+	skos:prefLabel "Sozialverhalten bei Primaten: exogene und endogene Ursachen, Fortpflanzungsverhalten, reproduktive Fitness"@de.
+n1:e9a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.2";
+	skos:broader n1:v2p;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:c9g,
+		n1:c5y,
+		n1:f4t.
+n1:v2p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2";
+	skos:broader n1:p2c;
+	skos:prefLabel "Entstehung und Entwicklung des Lebens"@de;
+	skos:narrower 
+		n1:x6q,
+		n1:e9a.
+n1:x7v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.2.1";
+	skos:broader n1:h2s;
+	skos:prefLabel "PCR"@de.
+n1:z5p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.2.2";
+	skos:broader n1:h2s;
+	skos:prefLabel "Gelelektrophorese"@de.
+n1:u5s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.2.3";
+	skos:broader n1:h2s;
+	skos:prefLabel "Gentechnik: Veränderung und Einbau von DNA, gentechnisch veränderte Organismen, Gentherapeutische Verfahren"@de.
+n1:h2s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.2";
+	skos:broader n1:a2d;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n1:x7v,
+		n1:z5p,
+		n1:u5s.
+n1:a2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3";
+	skos:broader n1:p2c;
+	skos:prefLabel "Fachliche Verfahren"@de;
+	skos:narrower 
+		n1:h2s.
+n1:p2c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Inhaltsbereich: Vielfalt des Lebens"@de;
+	skos:narrower 
+		n1:a6f,
+		n1:v2p,
+		n1:a2d.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Biologie Sek II 2020 - Inhalte"@de;
+	dct:description """Der Erwerb der in Textfassung 2.1. bis Textfassung 2.4 formulierten Kompetenzen findet an konkreten Inhalten statt, über die die Lernenden zum Zeitpunkt des Erwerbs der Allgemeinen Hochschulreife verfügen sollen. Dabei werden ein grundlegendes Anforderungsniveau und ein erhöhtes Anforderungsniveau unterschieden. Diese Inhalte sind Grundlage für die Erstellung von Aufgaben im Rahmen der Prüfung für die Allgemeine Hochschulreife. Einige der zentralen Inhalte werden in manchen Ländern üblicherweise in der Sekundarstufe I oder in der Einführungsphase vermittelt."""@de;
+	skos:hasTopConcept
+		n1:c9t,
+		n1:y3h,
+		n1:b5u,
+		n1:p2c.

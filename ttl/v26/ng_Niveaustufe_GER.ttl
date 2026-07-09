@@ -1,0 +1,48 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v26/ng/>. 
+@prefix n1: <https://w3id.org/iqb/v26/ng/>. 
+
+n1:t7d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "A1"@de.
+n1:v4v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "A2"@de.
+n1:q9v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "B1"@de.
+n1:g5v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "B2"@de.
+n1:b4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "C1"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Allgemeine Kompetenzen Fremdsprachen - Niveaustufe GER"@de;
+	dc:title "Allgemeine Kompetenzen Fremdsprachen - Niveaustufe GER"@de;
+	dc:description "Allgemeine Kompetenzen Fremdsprachen - Niveaustufe GER"@de;
+	skos:hasTopConcept
+		n1:t7d,
+		n1:v4v,
+		n1:q9v,
+		n1:g5v,
+		n1:b4e.

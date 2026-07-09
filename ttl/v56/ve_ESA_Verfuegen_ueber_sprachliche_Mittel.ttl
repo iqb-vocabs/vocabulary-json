@@ -1,0 +1,71 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v56/ve/>. 
+@prefix n1: <https://w3id.org/iqb/v56/ve/>. 
+
+n1:b4d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:y7b;
+	skos:prefLabel "mit Hilfe von einfachen Satzmustern sowie einfachen, gut memorierten Wendungen, kurzen Wortgruppen und Redeformeln in vertrauten Situationen und in Bezug auf vertraute Themen routinemäßige, alltägliche Angelegenheiten erledigen und elementaren Kommunikationsbedürfnissen gerecht werden."@de.
+n1:h2p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:y7b;
+	skos:prefLabel "mit kurzen gebräuchlichen Ausdrücken einfache und konkrete Bedürfnisse erfüllen und sich in einfachen Grundsituationen verständigen."@de.
+n1:h4p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:y7b;
+	skos:prefLabel "einfache, gut memorierte Wendungen durch den Austausch einzelner Elemente an andere Situationen und Sachverhalte anpassen."@de.
+n1:x5b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4";
+	skos:broader n1:y7b;
+	skos:prefLabel "einige einfache Strukturen so korrekt verwenden, dass in der Regel deutlich wird, was ausgedrückt werden soll, obwohl sie noch systematisch elementare Fehler machen (z. B. Vermischung von Zeitformen, unzureichend markierte Subjekt-Verb-Kongruenz)."@de.
+n1:a3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5";
+	skos:broader n1:y7b;
+	skos:prefLabel "die meisten Wörter aus ihrem Wortschatz korrekt oder zumindest ,phonetisch' im Wesentlichen akkurat schriftlich wiedergeben."@de.
+n1:d4v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6";
+	skos:broader n1:y7b;
+	skos:prefLabel "einfache, ihnen vertraute bzw. in der Nutzung intuitiv zugängliche (digitale) Hilfsmittel situations- und zweckangemessen zur Sicherstellung weitgehender orthographischer Korrektheit nutzen. Mitunter benötigen sie dabei Hinweise und Unterstützung."@de.
+n1:y7b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Lexiko-Grammatik"@de; 
+	skos:definition """Die Schülerinnen und Schüler verfügen über ein Repertoire an elementaren sprachlichen Mitteln, mit denen sie vertraute Situationen mit vorhersagbaren Inhalten bewältigen können. \n\n Die Schülerinnen und Schüler können"""@de;
+	skos:narrower 
+		n1:b4d,
+		n1:h2p,
+		n1:h4p,
+		n1:x5b,
+		n1:a3y,
+		n1:d4v.
+n1:b4s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Aussprache und Prosodie"@de; 
+	skos:definition "Die Aussprache der Schülerinnen und Schüler ist im Allgemeinen klar genug um verstanden zu werden, wenn sie in einfachen Alltagssituationen kommunizieren und sofern sich die Gesprächspartnerinnen und Gesprächspartner bemühen zu verstehen, indem sie z. B. um Wiederholungen bitten oder den Einfluss des sprachlichen Hintergrunds der Schülerinnen und Schüler erkennen und sich darauf einstellen."@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Fremdsprachen Sek I 2023 - ESA Verfügen über sprachliche Mittel"@de;
+	dct:description "Die sprachlichen Mittel – Wortschatz, Grammatik, Aussprache, Prosodie und Orthographie – sind Kompetenz bildende, funktionale Bestandteile des sprachlichen Systems und der Kommunikation. In der Vermittlung und bei der Aneignung der funktionalen kommunikativen Kompetenz haben die sprachlichen Mittel allerdings grundsätzlich dienende Funktion, da die gelingende Kommunikation im Vordergrund steht. Die kommunikativen Ziele können – u.a. abhängig vom erreichten Kompetenzniveau und der Kooperationsbereitschaft der Kommunikationspartnerinnen und -partner – mit unterschiedlichen sprachlichen Mitteln erreicht werden. Bei der Auswahl der zu vermittelnden sprachlichen Mittel sollte daher von einer kommunikativen Progression ausgegangen werden, während die sprachstrukturelle Progression eine nachgeordnete, dienende Funktion hat. Die Vermittlung und die Aneignung von Wortschatz im Sinne komplexer lexiko-grammatischer Einheiten sind mit Blick auf die funktionale kommunikative Kompetenz zentral."@de;
+	skos:hasTopConcept
+		n1:y7b,
+		n1:b4s.

@@ -1,0 +1,35 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v44/a1/>. 
+
+n0:v3t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Anforderungsbereich I"@de; 
+	skos:definition "umfasst das Wiedergeben von Sachverhalten und Kenntnissen im gelern-ten Zusammenhang sowie das Anwenden und Beschreiben geübter Arbeitstechniken und Verfahren"@de.
+n0:g9b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Anforderungsbereich II"@de; 
+	skos:definition "umfasst das selbstständige Auswählen, Anordnen, Verarbeiten, Erklären und Darstellen bekannter Sachverhalte unter vorgegebenen Gesichtspunkten in einem durch Übung bekannten Zusammenhang und das selbstständige Übertragen und Anwenden des Ge-lernten auf vergleichbare neue Zusammenhänge und Sachverhalte"@de.
+n0:h6r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Anforderungsbereich III"@de; 
+	skos:definition "umfasst das Verarbeiten komplexer Sachverhalte mit dem Ziel, zu selbst-ständigen Lösungen, Gestaltungen oder Deutungen, Folgerungen, Verallgemeinerungen, Be-gründungen und Wertungen zu gelangen. Dabei wählen die Lernenden selbstständig geeignete Arbeitstechniken und Arbeitsweisen zur Bewältigung der Aufgabe, wenden sie auf eine neue Problemstellung an und reflektieren das eigene Vorgehen"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Biologie MSA 2024 - Anforderungsbereiche"@de;
+	dct:description """Mit Blick auf die unterrichtliche Einbindung von Aufgaben werden folgende Anforderungsbereiche unterschieden:"""@de;
+	skos:hasTopConcept
+		n0:v3t,
+		n0:g9b,
+		n0:h6r.

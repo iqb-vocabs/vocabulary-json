@@ -1,0 +1,46 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v47/b1/>. 
+@prefix n1: <https://w3id.org/iqb/v47/b1/>. 
+
+n1:z4g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Erhaltung und Gleichgewichte"@de; 
+	skos:definition "Viele Sachverhalte und Vorgänge lassen sich in der Physik durch ein Denken in Bilanzen oder Gleichgewichten beschreiben und erklären. Hierbei spielen neben statischen und dynamischen Gleichgewichtsbedingungen, wie z. B. bei der Betrachtung von Kräften und thermodynamischen Gleichgewichten, auch Erhaltungssätze wie z. B. die Energieerhaltung oder die Ladungserhaltung eine wesentliche Rolle. Darüber hinaus sind Ungleichgewichte in der Regel Antriebe für Prozesse wie z. B. Beschleunigung bei Kräfteungleichgewicht."@de.
+n1:p7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Modelle und Vorhersagen"@de; 
+	skos:definition "Ein zentrales Merkmal der Physik ist es, Vorgänge und Zusammenhänge mithilfe von Modellen und Theorien zu beschreiben und daraus Erkenntnisse und Vorhersagen zu erhalten. Hierbei ist der Modellbegriff von fundamentaler Bedeutung, um zwischen Phänomenen und der Physik als Vorhersagen machende Wissenschaft zu unterscheiden. Modelle stellen gegenständliche, sym-bolische oder auch nur gedankliche Repräsentationen von Elementen der Wirklichkeit dar (z. B. Funktionsmodelle, Denkmodelle, mathematische Gleichungen und Zusammenhänge, Dia-gramme oder Simulationen). Modelle werden für einen bestimmten Zweck geschaffen oder ver-wendet wie beispielsweise, um Vorhersagen zu ermöglichen. Bei Modellen bestehen Analogien zwischen bestimmten Elementen des Modells und Elementen der Realität. Ein wesentlicher Be-standteil von naturwissenschaftlichen Modellen ist, dass aus diesen getroffenen Vorhersagen ex-perimentell überprüft werden können bzw. sich diese in experimentellen Situationen bewährt ha-ben. Vor dem Hintergrund des Basiskonzepts Modelle und Vorhersagen können Aussagen aus im Alltag diskutierten Modellen, wie z. B. Klimamodellen, interpretiert werden."@de.
+n1:s4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Experimente und Verfahren"@de; 
+	skos:definition "Das Experimentieren ist die fundamentale Methode der Erkenntnisgewinnung in den Naturwissenschaften, insbesondere in der Physik. Die einzelnen Schritte eines typischen Experimentierzyklus, wie ein theoriegeleitetes Vorgehen, eine strukturierte Planung der Durchführung, eine objektive Auswertung und eine Interpretation der Ergebnisse, ermöglichen eine nachvollziehbare Erkenntnisgewinnung in der Physik sowie eine systematische Beurteilung bestehender Aussagen in der Physik und im Alltag. Zeitgemäße Physik zeichnet sich dabei auch durch die Anwendung digitaler Messwerterfassung und -auswertung aus. Zudem spielen graphische und mathematische Verfahren beim Lösen von Problemen eine große Rolle bei der Gewinnung von Erkenntnissen in der Physik."@de.
+n1:c3v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Ursache und Wirkung"@de; 
+	skos:definition "In der Physik ist die Frage nach Ursache und Wirkung von großer Bedeutung, da sie die Grundvoraussetzung für eine Beschreibung von Phänomenen durch Gesetzmäßigkeiten ist. Dies gilt für viele, aber nicht für alle physikalischen Phänomene, da es in der Natur auch Prozesse gibt, die nicht kausal beschrieben werden können wie z. B. der Zerfall eines einzelnen Atomkerns. Die Zusammenhänge von Ursache und Wirkung sind manchmal einfach, manchmal aber auch vielschichtig. Eine wichtige Aufgabe der Naturwissenschaften besteht darin, die kausalen Zusammenhänge zu untersuchen und zu erklären (z. B. elektrische Stromkreise, Geschwindigkeitsänderung). Diese Zusammenhänge können dann in verschiedenen Kontexten getestet und zur Vorhersage und Erklärung von Phänomenen in neuen Kontexten verwendet werden (z. B. astronomische Phänomene, induktives Laden). Somit bietet dieser strukturierte Zugang eine gute Grundlage, um über physikalische Phänomene und deren Erklärung zu kommunizieren sowie im Alltag naturwissenschaftliche Argumentationen zu beurteilen."@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Physik MSA 2024 - Basiskonzepte"@de;
+	dct:description """Der Beschreibung von physikalischen Sachverhalten liegen fachspezifische Gemeinsamkeiten zugrunde, die sich in Form von Basiskonzepten strukturieren lassen. Die Basiskonzepte im Fach Physik ermöglichen die Vernetzung fachlicher Inhalte und deren Betrachtung aus verschiedenen Perspektiven. Die Basiskonzepte werden übergreifend auf alle Kompetenzbereiche bezogen. Sie können kumulativ den Aufbau von strukturiertem Wissen und die Erschließung neuer Inhalte fördern.
+
+Die Basiskonzepte bilden die Grundlage typischer Vorgehensweisen beim Lösen physikalischer Probleme und werden in Lehr-Lern-Prozessen wiederholt thematisiert und ausdifferenziert. Den Lernenden wird aufgezeigt, dass diese grundlegenden Konzepte in vielen verschiedenen Lernbereichen einsetzbar sind und einen systematischen Wissensaufbau und somit den Erwerb eines strukturierten und mit anderen Natur- und Ingenieurwissenschaften vernetzten Wissens unterstützen."""@de;
+	skos:hasTopConcept
+		n1:z4g,
+		n1:p7z,
+		n1:s4e,
+		n1:c3v.

@@ -1,0 +1,572 @@
+{
+  "id": "https://w3id.org/iqb/v52/k1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Mathematik HSA 2004 - Inhaltsbezogene Kompetenzen"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v52/k1/u3z",
+      "notation": [
+        "L "
+      ],
+      "prefLabel": {
+        "de": "Inhaltsbezogene Kompetenzen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v52/k1/y6g",
+          "notation": [
+            "L 1"
+          ],
+          "prefLabel": {
+            "de": "Leitidee Zahl"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler ..."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v52/k1/v5f",
+              "notation": [
+                "L 1.1"
+              ],
+              "prefLabel": {
+                "de": "nutzen sinntragende Vorstellungen von rationalen Zahlen, insbesondere von natürlichen, ganzen und gebrochenen Zahlen entsprechend der Verwendungsnotwendigkeit,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/h6t",
+              "notation": [
+                "L 1.2"
+              ],
+              "prefLabel": {
+                "de": "stellen Zahlen der Situation angemessen dar, unter anderem in Zehnerpotenzschreibweise,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/a9q",
+              "notation": [
+                "L 1.3"
+              ],
+              "prefLabel": {
+                "de": "rechnen mit natürlichen, gebrochenen und negativen Zahlen, die im täglichen Leben vorkommen, auch im Kopf,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/z3q",
+              "notation": [
+                "L 1.4"
+              ],
+              "prefLabel": {
+                "de": "nutzen Rechengesetze, auch zum vorteilhaften Rechnen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/p3s",
+              "notation": [
+                "L 1.5"
+              ],
+              "prefLabel": {
+                "de": "nutzen Überschlagsrechnungen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/z4c",
+              "notation": [
+                "L 1.6"
+              ],
+              "prefLabel": {
+                "de": "runden Zahlen dem Sachverhalt entsprechend sinnvoll,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/g3g",
+              "notation": [
+                "L 1.7"
+              ],
+              "prefLabel": {
+                "de": "verwenden Prozent- und Zinsrechnung sachgerecht,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/z7b",
+              "notation": [
+                "L 1.8"
+              ],
+              "prefLabel": {
+                "de": "erläutern an Beispielen den Zusammenhang zwischen Rechenoperationen und deren Umkehrungen und nutzen diese Zusammenhänge,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/b3g",
+              "notation": [
+                "L 1.9"
+              ],
+              "prefLabel": {
+                "de": "wählen und beschreiben Vorgehensweisen und Verfahren, denen Algorithmen bzw. Kalküle zu Grunde liegen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/f6v",
+              "notation": [
+                "L 1.10"
+              ],
+              "prefLabel": {
+                "de": "prüfen und interpretieren Ergebnisse in Sachsituationen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v52/k1/b4q",
+          "notation": [
+            "L 2"
+          ],
+          "prefLabel": {
+            "de": "Leitidee Messen"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v52/k1/p2d",
+              "notation": [
+                "L 2.1"
+              ],
+              "prefLabel": {
+                "de": "nutzen das Grundprinzip des Messens, insbesondere bei der Längen-, Flächen- und Volumenmessung, auch in Naturwissenschaften und in anderen Bereichen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/a4s",
+              "notation": [
+                "L 2.2"
+              ],
+              "prefLabel": {
+                "de": "wählen Einheiten von Größen situationsgerecht aus (insbesondere für Zeit, Masse, Geld, Länge, Fläche, Volumen und Winkel) und wandeln sie ggf. um,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/b6u",
+              "notation": [
+                "L 2.3"
+              ],
+              "prefLabel": {
+                "de": "schätzen Größen mit Hilfe von Vorstellungen über alltagsbezogene Repräsentanten,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/f6h",
+              "notation": [
+                "L 2.4"
+              ],
+              "prefLabel": {
+                "de": "ermitteln Flächeninhalt und Umfang von Rechteck, Dreieck und Kreis sowie daraus zusammengesetzten Figuren,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/y2f",
+              "notation": [
+                "L 2.5"
+              ],
+              "prefLabel": {
+                "de": "ermitteln Volumen und Oberflächeninhalt von Prisma, Pyramide und Zylinder sowie daraus zusammengesetzten Körpern,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/x4p",
+              "notation": [
+                "L 2.6"
+              ],
+              "prefLabel": {
+                "de": "nehmen in ihrer Umwelt gezielt Messungen vor oder entnehmen Maßangaben aus Quellenmaterial, führen damit Berechnungen durch und bewerten die Ergebnisse sowie den gewählten Weg in Bezug auf die Sachsituation."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v52/k1/z5a",
+          "notation": [
+            "L 3"
+          ],
+          "prefLabel": {
+            "de": "Leitidee Raum und Form"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v52/k1/s3p",
+              "notation": [
+                "L 3.1"
+              ],
+              "prefLabel": {
+                "de": "erkennen und beschreiben geometrische Objekte und Beziehungen in der Umwelt,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/r2t",
+              "notation": [
+                "L 3.2"
+              ],
+              "prefLabel": {
+                "de": "operieren gedanklich mit Strecken, Flächen und Körpern,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/f5s",
+              "notation": [
+                "L 3.3"
+              ],
+              "prefLabel": {
+                "de": "stellen geometrische Figuren und elementare geometrische Abbildungen im ebenen kartesischen Koordinatensystem dar,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/q5q",
+              "notation": [
+                "L 3.4"
+              ],
+              "prefLabel": {
+                "de": "fertigen Netze, Schrägbilder und Modelle von ausgewählten Körpern an und erkennen Körper aus ihren entsprechenden Darstellungen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/v4x",
+              "notation": [
+                "L 3.5"
+              ],
+              "prefLabel": {
+                "de": "klassifizieren Winkel, Dreiecke, Vierecke und Körper,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/s3s",
+              "notation": [
+                "L 3.6"
+              ],
+              "prefLabel": {
+                "de": "erkennen und erzeugen Symmetrien,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/a3c",
+              "notation": [
+                "L 3.7"
+              ],
+              "prefLabel": {
+                "de": "wenden Sätze der ebenen Geometrie bei Konstruktionen und Berechnungen an, insbesondere den Satz des Pythagoras,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/e2e",
+              "notation": [
+                "L 3.8"
+              ],
+              "prefLabel": {
+                "de": "zeichnen und konstruieren geometrische Figuren unter Verwendung angemessener Hilfsmittel, wie Zirkel, Lineal, Geodreieck oder dynamische Geometrie-Software."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v52/k1/y5a",
+          "notation": [
+            "L 4"
+          ],
+          "prefLabel": {
+            "de": "Leitidee Funktionaler Zusammenhang"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v52/k1/b6b",
+              "notation": [
+                "L 4.1"
+              ],
+              "prefLabel": {
+                "de": "beschreiben und interpretieren funktionale Zusammenhänge und ihre Darstellungen in Alltagssituationen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/b5e",
+              "notation": [
+                "L 4.2"
+              ],
+              "prefLabel": {
+                "de": "verwenden für funktionale Zusammenhänge unterschiedliche Darstellungsformen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/t6p",
+              "notation": [
+                "L 4.3"
+              ],
+              "prefLabel": {
+                "de": "unterscheiden proportionale und antiproportionale Zuordnungen in Sachzusammenhängen und stellen damit Berechnungen an,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/u7r",
+              "notation": [
+                "L 4.4"
+              ],
+              "prefLabel": {
+                "de": "nutzen die Prozentrechnung bei Wachstumsprozessen (beispielsweise bei der Zinsrechnung), auch unter Verwendung eines Tabellenkalkulationsprogramms,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/q7z",
+              "notation": [
+                "L 4.5"
+              ],
+              "prefLabel": {
+                "de": "nutzen Maßstäbe beim Lesen und Anfertigen von Zeichnungen situationsgerecht,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/h3z",
+              "notation": [
+                "L 4.6"
+              ],
+              "prefLabel": {
+                "de": "lösen einfache lineare Gleichungen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/s5q",
+              "notation": [
+                "L 4.7"
+              ],
+              "prefLabel": {
+                "de": "vergleichen ihr Vorgehen beim Lösen einfacher linearer Gleichungen mit anderen Lösungsverfahren (wie inhaltlichem Lösen oder systematischem Probieren)."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v52/k1/x4s",
+          "notation": [
+            "L 5"
+          ],
+          "prefLabel": {
+            "de": "Leitidee Daten und Zufall"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v52/k1/v2e",
+              "notation": [
+                "L 5.1"
+              ],
+              "prefLabel": {
+                "de": "werten graphische Darstellungen und Tabellen von statistischen Erhebungen aus,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/s7t",
+              "notation": [
+                "L 5.2"
+              ],
+              "prefLabel": {
+                "de": "sammeln systematisch Daten, erfassen sie in Tabellen und stellen sie graphisch dar, auch unter Verwendung geeigneter Hilfsmittel wie Software,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/u9d",
+              "notation": [
+                "L 5.3"
+              ],
+              "prefLabel": {
+                "de": "berechnen und interpretieren Häufigkeiten und Mittelwerte,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/u5u",
+              "notation": [
+                "L 5.4"
+              ],
+              "prefLabel": {
+                "de": "beschreiben Zufallserscheinungen in alltäglichen Situationen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/g9v",
+              "notation": [
+                "L 5.5"
+              ],
+              "prefLabel": {
+                "de": "interpretieren Wahrscheinlichkeitsaussagen aus dem Alltag,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v52/k1/f3e",
+              "notation": [
+                "L 5.6"
+              ],
+              "prefLabel": {
+                "de": "bestimmen Wahrscheinlichkeiten bei einfachen Zufallsexperimenten."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

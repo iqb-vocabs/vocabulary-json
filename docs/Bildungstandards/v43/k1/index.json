@@ -1,0 +1,727 @@
+{
+  "id": "https://w3id.org/iqb/v43/k1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Biologie MSA 2004 - Standards (Kompetenzen)"
+  },
+  "description": {
+    "de": "Kompetenzen werden an Inhalten erworben. Die Breite der Fachwissenschaft Biologie und ihr hoher Wissensstand sowie die gegenwärtige Dynamik der Biologie erfordern für den Biologieunterricht eine Reduktion der Inhalte auf den Kern von biologischem Wissen und ein exemplarisches Vorgehen. Dieses Wissen wird auf der Grundlage von drei in sich vernetzten Basiskonzepten erarbeitet, die ein systemisches und multiperspektivisches Denken sowie eine Beschränkung auf das Wesentliche fördern. \n\nFür den Mittleren Schulabschluss werden die Inhalte im Fach Biologie in den folgenden drei Basiskonzepten strukturiert:\n\nSystem, Struktur und Funktion, Entwicklung"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v43/k1/r9d",
+      "notation": [
+        "B "
+      ],
+      "prefLabel": {
+        "de": "Bewertung"
+      },
+      "definition": {
+        "de": "Biologische Sachverhalte in verschiedenen Kontexten erkennen und bewerten.\\\n\\\nDie Schülerinnen und Schüler …"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v43/k1/c3r",
+          "notation": [
+            "B 1"
+          ],
+          "prefLabel": {
+            "de": "unterscheiden zwischen beschreibenden (naturwissenschaftlichen) und normativen (ethischen) Aussagen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/v7v",
+          "notation": [
+            "B 2"
+          ],
+          "prefLabel": {
+            "de": "beurteilen verschiedene Maßnahmen und Verhaltensweisen zur Erhaltung der eigenen Gesundheit und zur sozialen Verantwortung,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/x7e",
+          "notation": [
+            "B 3"
+          ],
+          "prefLabel": {
+            "de": "beschreiben und beurteilen Erkenntnisse und Methoden in ausgewählten aktuellen Bezügen wie zu Medizin, Biotechnik und Gentechnik, und zwar unter Berücksichtigung gesellschaftlich verhandelbarer Werte,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/t7c",
+          "notation": [
+            "B 4"
+          ],
+          "prefLabel": {
+            "de": "beschreiben und beurteilen die Haltung von Heim- und Nutztieren,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/g5q",
+          "notation": [
+            "B 5"
+          ],
+          "prefLabel": {
+            "de": "beschreiben und beurteilen die Auswirkungen menschlicher Eingriffe in einem Ökosystem,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/v7y",
+          "notation": [
+            "B 6"
+          ],
+          "prefLabel": {
+            "de": "bewerten die Beeinflussung globaler Kreisläufe und Stoffströme unter dem Aspekt der nachhaltigen Entwicklung,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/s6p",
+          "notation": [
+            "B 7"
+          ],
+          "prefLabel": {
+            "de": "erörtern Handlungsoptionen einer umwelt- und naturverträglichen Teilhabe im Sinne der Nachhaltigkeit."
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v43/k1/y5p",
+      "notation": [
+        "E "
+      ],
+      "prefLabel": {
+        "de": "Erkenntnisgewinnung"
+      },
+      "definition": {
+        "de": "Beobachten, Vergleichen, Experimentieren, Modelle nutzen und Arbeitstechniken anwenden. Die Schülerinnen und Schüler …"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v43/k1/c2t",
+          "notation": [
+            "E 1"
+          ],
+          "prefLabel": {
+            "de": "mikroskopieren Zellen und stellen sie in einer Zeichnung dar,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/b6y",
+          "notation": [
+            "E 10"
+          ],
+          "prefLabel": {
+            "de": "analysieren Wechselwirkungen mit Hilfe von Modellen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/c2e",
+          "notation": [
+            "E 11"
+          ],
+          "prefLabel": {
+            "de": "beschreiben Speicherung und Weitergabe genetischer Information auch unter Anwendung geeigneter Modelle,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/a9f",
+          "notation": [
+            "E 12"
+          ],
+          "prefLabel": {
+            "de": "erklären dynamische Prozesse in Ökosystemen mithilfe von Modellvorstellungen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/u7a",
+          "notation": [
+            "E 13"
+          ],
+          "prefLabel": {
+            "de": "beurteilen die Aussagekraft eines Modells."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/s9d",
+          "notation": [
+            "E 2"
+          ],
+          "prefLabel": {
+            "de": "beschreiben und vergleichen Anatomie und Morphologie von Organismen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/u5u",
+          "notation": [
+            "E 3"
+          ],
+          "prefLabel": {
+            "de": "analysieren die stammesgeschichtliche Verwandtschaft bzw. ökologisch bedingte Ähnlichkeit bei Organismen durch kriteriengeleitetes Vergleichen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/q5h",
+          "notation": [
+            "E 4"
+          ],
+          "prefLabel": {
+            "de": "ermitteln mithilfe geeigneter Bestimmungsliteratur im Ökosystem häufig vorkommende Arten,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/r6g",
+          "notation": [
+            "E 5"
+          ],
+          "prefLabel": {
+            "de": "führen Untersuchungen mit geeigneten qualifizierenden oder quantifizierenden Verfahren durch,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/a3u",
+          "notation": [
+            "E 6"
+          ],
+          "prefLabel": {
+            "de": "planen einfache Experimente, führen die Experimente durch und/oder werten sie aus,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/g6h",
+          "notation": [
+            "E 7"
+          ],
+          "prefLabel": {
+            "de": "wenden Schritte aus dem experimentellen Weg der Erkenntnisgewinnung zur Erklärung an,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/t2t",
+          "notation": [
+            "E 8"
+          ],
+          "prefLabel": {
+            "de": "erörtern Tragweite und Grenzen von Untersuchungsanlage, -schritten und -ergebnissen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/s2z",
+          "notation": [
+            "E 9"
+          ],
+          "prefLabel": {
+            "de": "wenden Modelle zur Veranschaulichung von Struktur und Funktion an,"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v43/k1/z5t",
+      "notation": [
+        "F "
+      ],
+      "prefLabel": {
+        "de": "Fachwissen"
+      },
+      "definition": {
+        "de": "Lebewesen, biologische Phänomene, Begriffe, Prinzipien und Fakten kennen und den Basiskonzepten zuordnen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v43/k1/g4b",
+          "notation": [
+            "F 1"
+          ],
+          "prefLabel": {
+            "de": "System"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v43/k1/e5g",
+              "notation": [
+                "F 1.1"
+              ],
+              "prefLabel": {
+                "de": "verstehen die Zelle als System,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/k1/a7a",
+              "notation": [
+                "F 1.2"
+              ],
+              "prefLabel": {
+                "de": "erklären den Organismus und Organismengruppen als System,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/k1/y2a",
+              "notation": [
+                "F 1.3"
+              ],
+              "prefLabel": {
+                "de": "erklären Ökosystem und Biosphäre als System,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/k1/b3c",
+              "notation": [
+                "F 1.4"
+              ],
+              "prefLabel": {
+                "de": "beschreiben und erklären Wechselwirkungen im Organismus, zwischen Organismen sowie zwischen Organismen und unbelebter Materie,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/k1/g5a",
+              "notation": [
+                "F 1.5"
+              ],
+              "prefLabel": {
+                "de": "wechseln zwischen den Systemebenen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/k1/u7p",
+              "notation": [
+                "F 1.6"
+              ],
+              "prefLabel": {
+                "de": "stellen einen Stoffkreislauf sowie den Energiefluss in einem Ökosystem dar,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/k1/y3e",
+              "notation": [
+                "F 1.7"
+              ],
+              "prefLabel": {
+                "de": "beschreiben Wechselwirkungen zwischen Biosphäre und den anderen Sphären der Erde,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/k1/a9g",
+              "notation": [
+                "F 1.8"
+              ],
+              "prefLabel": {
+                "de": "kennen und verstehen die grundlegenden Kriterien von nachhaltiger Entwicklung."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/p7b",
+          "notation": [
+            "F 2"
+          ],
+          "prefLabel": {
+            "de": "Struktur und Funktion"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v43/k1/f9z",
+              "notation": [
+                "F 2.1"
+              ],
+              "prefLabel": {
+                "de": "beschreiben Zellen als strukturelle und funktionelle Grundbaueinheiten von Lebewesen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/k1/d4s",
+              "notation": [
+                "F 2.2"
+              ],
+              "prefLabel": {
+                "de": "vergleichen die bakterielle, pflanzliche und tierliche Zelle in Struktur und Funktion,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/k1/p7e",
+              "notation": [
+                "F 2.3"
+              ],
+              "prefLabel": {
+                "de": "stellen strukturelle und funktionelle Gemeinsamkeiten und Unterschiede von Organismen und Organismengruppen dar,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/k1/v5q",
+              "notation": [
+                "F 2.4"
+              ],
+              "prefLabel": {
+                "de": "beschreiben und erklären Struktur und Funktion von Organen und Organsystemen, z. B. bei der Stoff- und Energieumwandlung, Steuerung und Regelung, Informationsverarbeitung, Vererbung und Reproduktion,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/k1/b7r",
+              "notation": [
+                "F 2.5"
+              ],
+              "prefLabel": {
+                "de": "beschreiben die strukturelle und funktionelle Organisation im Ökosystem,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/k1/r5b",
+              "notation": [
+                "F 2.6"
+              ],
+              "prefLabel": {
+                "de": "beschreiben und erklären die Angepasstheit ausgewählter Organismen an die Umwelt."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/b3x",
+          "notation": [
+            "F 3"
+          ],
+          "prefLabel": {
+            "de": "Entwicklung"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v43/k1/c5z",
+              "notation": [
+                "F 3.1"
+              ],
+              "prefLabel": {
+                "de": "erläutern die Bedeutung der Zellteilung für Wachstum, Fortpflanzung und Vermehrung,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/k1/g3p",
+              "notation": [
+                "F 3.2"
+              ],
+              "prefLabel": {
+                "de": "beschreiben die artspezifische Individualentwicklung von Organismen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/k1/a3t",
+              "notation": [
+                "F 3.3"
+              ],
+              "prefLabel": {
+                "de": "beschreiben verschiedene Formen der Fortpflanzung,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/k1/u6s",
+              "notation": [
+                "F 3.4"
+              ],
+              "prefLabel": {
+                "de": "beschreiben ein Ökosystem in zeitlicher Veränderung,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/k1/x4y",
+              "notation": [
+                "F 3.5"
+              ],
+              "prefLabel": {
+                "de": "beschreiben und erklären stammesgeschichtliche Verwandtschaft von Organismen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/k1/v9q",
+              "notation": [
+                "F 3.6"
+              ],
+              "prefLabel": {
+                "de": "beschreiben und erklären Verlauf und Ursachen der Evolution an ausgewählten Lebewesen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/k1/u3v",
+              "notation": [
+                "F 3.7"
+              ],
+              "prefLabel": {
+                "de": "erklären die Variabilität von Lebewesen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/k1/r2f",
+              "notation": [
+                "F 3.8"
+              ],
+              "prefLabel": {
+                "de": "kennen und erörtern Eingriffe des Menschen in die Natur und Kriterien für solche Entscheidungen."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v43/k1/u2x",
+      "notation": [
+        "K "
+      ],
+      "prefLabel": {
+        "de": " Kommunikation"
+      },
+      "definition": {
+        "de": "Informationen sach- und fachbezogen erschließen und austauschen. Die Schülerinnen und Schüler …"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v43/k1/y6r",
+          "notation": [
+            "K 1"
+          ],
+          "prefLabel": {
+            "de": "kommunizieren und argumentieren in verschiedenen Sozialformen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/z4q",
+          "notation": [
+            "K 10"
+          ],
+          "prefLabel": {
+            "de": "wenden idealtypische Darstellungen, Schemazeichnungen, Diagramme und Symbolsprache auf komplexe Sachverhalte an."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/a4c",
+          "notation": [
+            "K 2"
+          ],
+          "prefLabel": {
+            "de": "beschreiben und erklären Originale oder naturgetreue Abbildungen mit Zeichnungen oder idealtypischen Bildern,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/g6r",
+          "notation": [
+            "K 3"
+          ],
+          "prefLabel": {
+            "de": "veranschaulichen Daten messbarer Größen zu Systemen, Struktur und Funktion sowie Entwicklung angemessen mit sprachlichen, mathematischen oder bildlichen Gestaltungsmitteln,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/z7g",
+          "notation": [
+            "K 4"
+          ],
+          "prefLabel": {
+            "de": "werten Informationen zu biologischen Fragestellungen aus verschiedenen Quellen zielgerichtet aus und verarbeiten diese auch mit Hilfe verschiedener Techniken und Methoden adressaten- und situationsgerecht,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/c5u",
+          "notation": [
+            "K 5"
+          ],
+          "prefLabel": {
+            "de": "stellen biologische Systeme, z. B. Organismen, sachgerecht, situationsgerecht und adressatengerecht dar,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/a5e",
+          "notation": [
+            "K 6"
+          ],
+          "prefLabel": {
+            "de": "stellen Ergebnisse und Methoden biologischer Untersuchung dar und argumentieren damit,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/s7c",
+          "notation": [
+            "K 7"
+          ],
+          "prefLabel": {
+            "de": "referieren zu gesellschafts- oder alltagsrelevanten biologischen Themen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/x3p",
+          "notation": [
+            "K 8"
+          ],
+          "prefLabel": {
+            "de": "erklären biologische Phänomene und setzen Alltagsvorstellungen dazu in Beziehung,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/y4a",
+          "notation": [
+            "K 9"
+          ],
+          "prefLabel": {
+            "de": "beschreiben und erklären den Bedeutungsgehalt von fachsprachlichen bzw. alltagssprachlichen Texten und von Bildern in strukturierter sprachlicher Darstellung,"
+          }
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

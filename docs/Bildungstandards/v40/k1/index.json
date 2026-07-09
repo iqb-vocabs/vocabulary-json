@@ -1,0 +1,651 @@
+{
+  "id": "https://w3id.org/iqb/v40/k1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Chemie MSA 2004 - Standards (Kompetenzen)"
+  },
+  "description": {
+    "de": "Mit dem Erwerb des Mittleren Schulabschlusses verfügen die Schülerinnen und Schüler über naturwissenschaftliche Kompetenzen im Allgemeinen sowie chemische Kompetenzen im Besonderen.\n\n Kompetenzen sind nach Weinert (2001) ,die bei Individuen verfügbaren oder durch sie erlernbaren kognitiven Fähigkeiten und Fertigkeiten, um bestimmte Probleme zu lösen, sowie die damit verbundenen motivationalen, volitionalen und sozialen Bereitschaften und Fähigkeiten, um die Problemlösungen in variablen Situationen erfolgreich und verantwortungsvoll nutzen zu können'. Die Kompetenzen, die eine naturwissenschaftliche Grundbildung ausmachen, bieten Anknüpfungspunkte für fachübergreifendes und fächerverbindendes Arbeiten. Sie werden ohne Berücksichtigung ihrer Vernetzung vier Bereichen zugeordnet und für das Fach Chemie spezifiziert:"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v40/k1/u4h",
+      "notation": [
+        "B "
+      ],
+      "prefLabel": {
+        "de": "Bewertung"
+      },
+      "definition": {
+        "de": "Chemische Sachverhalte in verschiedenen Kontexten erkennen und bewerten.\\\nDie Schülerinnen und Schüler ..."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v40/k1/h6g",
+          "notation": [
+            "B 1"
+          ],
+          "prefLabel": {
+            "de": "stellen Anwendungsbereiche und Berufsfelder dar, in denen chemische Kenntnisse bedeutsam sind,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/e3e",
+          "notation": [
+            "B 2"
+          ],
+          "prefLabel": {
+            "de": "erkennen Fragestellungen, die einen engen Bezug zu anderen Unterrichtsfächern aufweisen und zeigen diese Bezüge auf,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/d6t",
+          "notation": [
+            "B 3"
+          ],
+          "prefLabel": {
+            "de": "nutzen fachtypische und vernetzte Kenntnisse und Fertigkeiten, um lebenspraktisch bedeutsame Zusammenhänge zu erschließen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/e4x",
+          "notation": [
+            "B 4"
+          ],
+          "prefLabel": {
+            "de": "entwickeln aktuelle, lebensweltbezogene Fragestellungen, die unter Nutzung fachwissenschaftlicher Erkenntnisse der Chemie beantwortet werden können,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/p3g",
+          "notation": [
+            "B 5"
+          ],
+          "prefLabel": {
+            "de": "diskutieren und bewerten gesellschaftsrelevante Aussagen aus unterschiedlichen Perspektiven,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/f7f",
+          "notation": [
+            "B 6"
+          ],
+          "prefLabel": {
+            "de": "binden chemische Sachverhalte in Problemzusammenhänge ein, entwickeln Lösungsstrategien und wenden diese an."
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v40/k1/z6x",
+      "notation": [
+        "E "
+      ],
+      "prefLabel": {
+        "de": "Erkenntnisgewinnung"
+      },
+      "definition": {
+        "de": "Experimentelle und andere Untersuchungsmethoden sowie Modelle nutzen.\\\n\\\nDie Schülerinnen und Schüler ..."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v40/k1/e5e",
+          "notation": [
+            "E 1"
+          ],
+          "prefLabel": {
+            "de": "erkennen und entwickeln Fragestellungen, die mit Hilfe chemischer Kenntnisse und Untersuchungen, insbesondere durch chemische Experimente, zu beantworten sind,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/x4f",
+          "notation": [
+            "E 2"
+          ],
+          "prefLabel": {
+            "de": "planen geeignete Untersuchungen zur Überprüfung von Vermutungen und Hypothesen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/s5h",
+          "notation": [
+            "E 3"
+          ],
+          "prefLabel": {
+            "de": "führen qualitative und einfache quantitative experimentelle und andere Untersuchungen durch und protokollieren diese,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/e6q",
+          "notation": [
+            "E 4"
+          ],
+          "prefLabel": {
+            "de": "beachten beim Experimentieren Sicherheits- und Umweltaspekte,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/f9a",
+          "notation": [
+            "E 5"
+          ],
+          "prefLabel": {
+            "de": "erheben bei Untersuchungen, insbesondere in chemischen Experimenten, relevante Daten oder recherchieren sie,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/f3u",
+          "notation": [
+            "E 6"
+          ],
+          "prefLabel": {
+            "de": "finden in erhobenen oder recherchierten Daten, Trends, Strukturen und Beziehungen, erklären diese und ziehen geeignete Schlussfolgerungen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/v5x",
+          "notation": [
+            "E 7"
+          ],
+          "prefLabel": {
+            "de": "nutzen geeignete Modelle (z.B. Atommodelle, Periodensystem der Elemente) um chemische Fragestellungen zu bearbeiten,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/b2r",
+          "notation": [
+            "E 8"
+          ],
+          "prefLabel": {
+            "de": "zeigen exemplarisch Verknüpfungen zwischen gesellschaftlichen Entwicklungen und Erkenntnissen der Chemie auf."
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v40/k1/x4q",
+      "notation": [
+        "F "
+      ],
+      "prefLabel": {
+        "de": "Fachwissen"
+      },
+      "definition": {
+        "de": "Chemische Phänomene, Begriffe, Gesetzmäßigkeiten kennen und Basiskonzepten zuordnen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v40/k1/u2s",
+          "notation": [
+            "F 1"
+          ],
+          "prefLabel": {
+            "de": "Stoff-Teilchen-Beziehungen"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können..."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v40/k1/x2z",
+              "notation": [
+                "F 1.1"
+              ],
+              "prefLabel": {
+                "de": "nennen und beschreiben bedeutsame Stoffe mit ihren typischen Eigenschaften,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v40/k1/p4f",
+              "notation": [
+                "F 1.2"
+              ],
+              "prefLabel": {
+                "de": "beschreiben modellhaft den submikroskopischen Bau ausgewählter Stoffe,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v40/k1/f9z",
+              "notation": [
+                "F 1.3"
+              ],
+              "prefLabel": {
+                "de": "beschreiben den Bau von Atomen mit Hilfe eines geeigneten Atommodells,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v40/k1/s3h",
+              "notation": [
+                "F 1.4"
+              ],
+              "prefLabel": {
+                "de": "verwenden Bindungsmodelle zur Interpretation von Teilchenaggregationen, räumlichen Strukturen und zwischenmolekularen Wechselwirkungen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v40/k1/c4s",
+              "notation": [
+                "F 1.5"
+              ],
+              "prefLabel": {
+                "de": "erklären die Vielfalt der Stoffe auf der Basis unterschiedlicher Kombinationen und Anordnungen von Teilchen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/h6u",
+          "notation": [
+            "F 2"
+          ],
+          "prefLabel": {
+            "de": "Struktur-Eigenschafts-Beziehungen"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler ..."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v40/k1/r9b",
+              "notation": [
+                "F 2.1"
+              ],
+              "prefLabel": {
+                "de": "beschreiben und begründen Ordnungsprinzipien für Stoffe, z.B. mit ihren typischen Eigenschaften oder mit charakteristischen Merkmalen der Zusammensetzung und Struktur der Teilchen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v40/k1/c7v",
+              "notation": [
+                "F 2.2"
+              ],
+              "prefLabel": {
+                "de": "nutzen ein geeignetes Modell zur Deutung von Stoffeigenschaften auf Teilchenebene,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v40/k1/t5c",
+              "notation": [
+                "F 2.3"
+              ],
+              "prefLabel": {
+                "de": "schließen aus den Eigenschaften der Stoffe auf ihre Verwendungsmöglichkeiten und auf damit verbundene Vor- und Nachteile."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/z2v",
+          "notation": [
+            "F 3"
+          ],
+          "prefLabel": {
+            "de": "chemische Reaktion"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler ..."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v40/k1/s6t",
+              "notation": [
+                "F 3.1"
+              ],
+              "prefLabel": {
+                "de": "beschreiben Phänomene der Stoff- und Energieumwandlung bei chemischen Reaktionen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v40/k1/z4e",
+              "notation": [
+                "F 3.2"
+              ],
+              "prefLabel": {
+                "de": "deuten Stoff- und Energieumwandlungen hinsichtlich der Veränderung von Teilchen und des Umbaus chemischer Bindungen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v40/k1/r9r",
+              "notation": [
+                "F 3.3"
+              ],
+              "prefLabel": {
+                "de": "kennzeichnen in ausgewählten Donator-Akzeptor-Reaktionen die Übertragung von Teilchen und bestimmen die Reaktionsart,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v40/k1/p5c",
+              "notation": [
+                "F 3.4"
+              ],
+              "prefLabel": {
+                "de": "erstellen Reaktionsschemata/Reaktionsgleichungen durch Anwendung der Kenntnisse über die Erhaltung der Atome und die Bildung konstanter Atomzahlenverhältnisse in Verbindungen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v40/k1/v7f",
+              "notation": [
+                "F 3.5"
+              ],
+              "prefLabel": {
+                "de": "beschreiben die Umkehrbarkeit chemischer Reaktionen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v40/k1/a2h",
+              "notation": [
+                "F 3.6"
+              ],
+              "prefLabel": {
+                "de": "beschreiben Beispiele für Stoffkreisläufe in Natur und Technik als Systeme chemischer Reaktionen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v40/k1/h7q",
+              "notation": [
+                "F 3.7"
+              ],
+              "prefLabel": {
+                "de": "beschreiben Möglichkeiten der Steuerung chemischer Reaktionen durch Variation von Reaktionsbedingungen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/d5a",
+          "notation": [
+            "F 4"
+          ],
+          "prefLabel": {
+            "de": "energetische Betrachtung bei Stoffumwandlungen"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler ..."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v40/k1/q7u",
+              "notation": [
+                "F 4.1"
+              ],
+              "prefLabel": {
+                "de": "geben an, dass sich bei chemischen Reaktionen auch der Energieinhalt des Reaktionssystems durch Austausch mit der Umgebung verändert,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v40/k1/a5s",
+              "notation": [
+                "F 4.2"
+              ],
+              "prefLabel": {
+                "de": "führen energetische Erscheinungen bei chemischen Reaktionen auf die Umwandlung eines Teils der in Stoffen gespeicherten Energie in andere Energieformen zurück,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v40/k1/r6u",
+              "notation": [
+                "E 4.3"
+              ],
+              "prefLabel": {
+                "de": "beschreiben die Beeinflussbarkeit chemischer Reaktionen durch den Einsatz von Katalysatoren."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v40/k1/p4b",
+      "notation": [
+        "K "
+      ],
+      "prefLabel": {
+        "de": "Kommunikation"
+      },
+      "definition": {
+        "de": "Informationen sach- und fachbezogen erschließen und austauschen.\\\n\\\nDie Schülerinnen und Schüler ..."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v40/k1/x9c",
+          "notation": [
+            "K 1"
+          ],
+          "prefLabel": {
+            "de": "recherchieren zu einem chemischen Sachverhalt in unterschiedlichen Quellen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/p6a",
+          "notation": [
+            "K 10"
+          ],
+          "prefLabel": {
+            "de": "planen, strukturieren, reflektieren und präsentieren ihre Arbeit als Team."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/z9u",
+          "notation": [
+            "K 2"
+          ],
+          "prefLabel": {
+            "de": "wählen themenbezogene und aussagekräftige Informationen aus,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/p4h",
+          "notation": [
+            "K 3"
+          ],
+          "prefLabel": {
+            "de": "prüfen Darstellungen in Medien hinsichtlich ihrer fachlichen Richtigkeit,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/p3c",
+          "notation": [
+            "K 4"
+          ],
+          "prefLabel": {
+            "de": "beschreiben, veranschaulichen oder erklären chemische Sachverhalte unter Verwendung der Fachsprache und/oder mit Hilfe von Modellen und Darstellungen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/b6g",
+          "notation": [
+            "K 5"
+          ],
+          "prefLabel": {
+            "de": "stellen Zusammenhänge zwischen chemischen Sachverhalten und Alltagserscheinungen her und übersetzen dabei bewusst Fachsprache in Alltagssprache und umgekehrt,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/z7y",
+          "notation": [
+            "K 6"
+          ],
+          "prefLabel": {
+            "de": "protokollieren den Verlauf und die Ergebnisse von Untersuchungen und Diskussionen in angemessener Form,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/a4u",
+          "notation": [
+            "K 7"
+          ],
+          "prefLabel": {
+            "de": "dokumentieren und präsentieren den Verlauf und die Ergebnisse ihrer Arbeit situationsgerecht und adressatenbezogen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/x7b",
+          "notation": [
+            "K 8"
+          ],
+          "prefLabel": {
+            "de": "argumentieren fachlich korrekt und folgerichtig,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/y3s",
+          "notation": [
+            "K 9"
+          ],
+          "prefLabel": {
+            "de": "vertreten ihre Standpunkte zu chemischen Sachverhalten und reflektieren Einwände selbstkritisch,"
+          }
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

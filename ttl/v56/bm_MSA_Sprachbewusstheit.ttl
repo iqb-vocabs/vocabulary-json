@@ -1,0 +1,58 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v56/bm/>. 
+@prefix n1: <https://w3id.org/iqb/v56/bm/>. 
+
+n1:d6g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Hypothesen zu Regelmäßigkeiten des Gebrauchs sprachlicher Mittel formulieren."@de.
+n1:z7d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "einige sozial und regional geprägte Varietäten der Fremdsprache wahrnehmen und reflektieren."@de.
+n1:p6v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Mitteilungsabsichten in vertrauten mündlichen und schriftlichen Kommunikationsformen in der Regel selbständig situations-, adressaten- und zweckangemessen umsetzen."@de.
+n1:u9g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "sprachliche Fehler im Bereich vertrauter morphologisch-syntaktischer und syntaktischer Regelungen in der Regel selbständig erkennen und korrigieren."@de.
+n1:t7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Gemeinsamkeiten, Unterschiede und Beziehungen zwischen Sprachen in der Regel selbständig erkennen und reflektieren."@de.
+n1:c2h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6";
+	skos:topConceptOf n0:;
+	skos:prefLabel "über die Erfordernisse einer kommunikativen Situation nachdenken und die so gewonnenen Erkenntnisse in der Regel selbständig in ihrem adressaten-, situations- und zweckangemessenen Sprachhandeln berücksichtigen."@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Fremdsprachen Sek I 2023 - MSA Sprachbewusstheit"@de;
+	dct:description """Sprachbewusstheit beruht auf Wissen über Struktur und Gebrauch der Fremdsprache und anderer Sprachen. In mündlichen und schriftlichen Kommunikationsformen zeigt sich Sprachbewusstheit in der Fähigkeit der Beteiligten, ihre Mitteilungsabsichten sprachlich korrekt und pragmatisch angemessen zu gestalten. Bei der Rezeption von Texten ist Sprachbewusstheit notwendig, um über den Sprachgebrauch nachzudenken, Vergleiche anzustellen und die so gewonnenen Erkenntnisse beim Entwickeln des Textverständnisses zu nutzen. In interaktiven und auf die Produktion von Texten ausgerichteten kommunikativen Situationen ermöglicht die Sprachbewusstheit die Reflexion des (eigenen) Sprachhandelns. Die reflexive Dimension der Kompetenz ist von fundamentaler Bedeutung für das selbstgesteuerte Fremdsprachenlernen und die Entwicklung individueller Mehrsprachigkeit. 
+
+ Die Schülerinnen und Schüler können ihr Wissen über Struktur und Gebrauch der Fremdsprache und anderer Sprachen nutzen, um mündliche und schriftliche Kommunikationsformen situationsangemessen zu gestalten, auch wenn sie dabei bisweilen noch sprachliche Fehler machen. 
+
+ Die Schülerinnen und Schüler können"""@de;
+	skos:hasTopConcept
+		n1:d6g,
+		n1:z7d,
+		n1:p6v,
+		n1:u9g,
+		n1:t7z,
+		n1:c2h.

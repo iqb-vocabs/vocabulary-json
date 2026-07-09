@@ -1,0 +1,132 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v46/a1/>. 
+@prefix n1: <https://w3id.org/iqb/v46/a1/>. 
+
+n1:g4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:e7z;
+	skos:prefLabel "Fachwissen"@de; 
+	skos:definition "Wissen wiedergeben. Fakten und einfache physikalischeSachverhalte reproduzieren."@de.
+n1:u3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:e7z;
+	skos:prefLabel "Erkenntnisgewinnung"@de; 
+	skos:definition "Fachmethoden beschreiben. Physikalische Arbeitsweisen, insb. experimentelle, nachvollziehen bzw. beschreiben."@de.
+n1:a9e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:e7z;
+	skos:prefLabel "Kommunikation"@de; 
+	skos:definition "Mit vorgegebenen Darstellungsformen arbeiten. Einfache Sachverhalte in Wort und Schrift oder einer anderen vorgegebenen Form unter Anleitung darstellen, sachbezogene Fragen stellen. "@de.
+n1:x3r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4";
+	skos:broader n1:e7z;
+	skos:prefLabel "Bewertung"@de; 
+	skos:definition "Vorgegebene Bewertungen nachvollziehen. Auswirkungen physikalischer Erkenntnisse benennen, einfache, auch technische Kontexte aus physikalischer Sicht erläutern."@de.
+n1:e7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Anforderungsbereich I"@de;
+	skos:narrower 
+		n1:g4q,
+		n1:u3y,
+		n1:a9e,
+		n1:x3r.
+n1:r2b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:t5h;
+	skos:prefLabel "Fachwissen"@de; 
+	skos:definition "Wissen anwenden. Physikalisches Wissen in einfachen Kontexten anwenden, einfache Sachverhalte identifizieren und nutzen, Analogien benennen."@de.
+n1:s2r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:t5h;
+	skos:prefLabel "Erkenntnisgewinnung"@de; 
+	skos:definition "Fachmethoden nutzen. Strategien zur Lösung von Aufgaben nutzen, einfache Experimente planen und durchführen, Wissen nach Anleitung erschließen."@de.
+n1:f3v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n1:t5h;
+	skos:prefLabel "Kommunikation"@de; 
+	skos:definition "Geeignete Darstellungsformen nutzen. Sachverhalte fachsprachlich und strukturiert darstellen, auf Beiträge anderer sachgerecht eingehen, Aussagen sachlich begründen. "@de.
+n1:s9z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4";
+	skos:broader n1:t5h;
+	skos:prefLabel "Bewertung"@de; 
+	skos:definition "Vorgegebene Bewertungen beurteilen und kommentieren. Den Aspektcharakter physikalischer Betrachtungen aufzeigen, zwischen physikalischen und anderen Komponenten einer Bewertung unterscheiden."@de.
+n1:t5h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Anforderungsbereich II"@de;
+	skos:narrower 
+		n1:r2b,
+		n1:s2r,
+		n1:f3v,
+		n1:s9z.
+n1:v5z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n1:c3q;
+	skos:prefLabel "Fachwissen"@de; 
+	skos:definition "Wissen transferieren und verknüpfen. Wissen auf teilweise unbekannte Kontexte anwenden, geeignete Sachverhalte auswählen."@de.
+n1:p9u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2";
+	skos:broader n1:c3q;
+	skos:prefLabel "Erkenntnisgewinnung"@de; 
+	skos:definition "Fachmethoden problembezogen auswählen und anwenden. Unterschiedliche Fachmethoden, auch einfaches Experimentieren und Mathematisieren, kombiniert und zielgerichtet auswählen und einsetzen, Wissen selbstständig erwerben."@de.
+n1:d3b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3";
+	skos:broader n1:c3q;
+	skos:prefLabel "Kommunikation"@de; 
+	skos:definition "Darstellungsformen selbständig auswählen und nutzen. Darstellungsformen sach- und adressatengerecht auswählen, anwenden und reflektieren, auf angemessenem Niveau begrenzte Themen diskutieren."@de.
+n1:s6r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.4";
+	skos:broader n1:c3q;
+	skos:prefLabel "Bewertung"@de; 
+	skos:definition "Eigene Bewertungen vornehmen. Die Bedeutung physikalischer Kenntnisse beurteilen, physikalische Erkenntnisse als Basis für die Bewertung eines Sachverhalts nutzen, Phänomene in einen physikalischen Kontext einordnen."@de.
+n1:c3q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Anforderungsbereich III"@de;
+	skos:narrower 
+		n1:v5z,
+		n1:p9u,
+		n1:d3b,
+		n1:s6r.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Physik MSA 2004 - Anforderungsbereiche"@de;
+	dct:description "Da noch keine empirisch abgesicherten Kompetenzstufenmodelle vorliegen, wird zunächst zur Einschätzung der in den Aufgabenbeispielen gestellten Anforderungen auf drei Bereiche zurückgegriffen, die sich in ihrer Beschreibung an den Einheitlichen Prüfungsanforderungen in der Abiturprüfung (EPA) orientieren. Dabei gilt, dass die Anforderungsbereiche nicht Ausprägungen oder Niveaustufen einer Kompetenz sind. Es handelt sich vielmehr um Merkmale von Aufgaben, die verschiedene Schwierigkeitsgrade innerhalb ein und derselben Kompetenz abbilden können. Die nachfolgenden Formulierungen zeigen deshalb zunächst charakterisierende Kriterien zur Einordnung in einen der Anforderungsbereiche auf.e"@de;
+	skos:hasTopConcept
+		n1:e7z,
+		n1:t5h,
+		n1:c3q.

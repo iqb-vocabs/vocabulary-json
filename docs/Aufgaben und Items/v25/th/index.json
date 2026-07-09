@@ -1,0 +1,683 @@
+{
+  "id": "https://w3id.org/iqb/v25/th/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Textvorgabe Fremdsprachen - Thema"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v25/th/b3q",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Tägliches Leben"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v25/th/b3s",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "Dienstleistung"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/u2p",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "Einkaufen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/c3y",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "Essen und Trinken"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/t3d",
+          "notation": [
+            "1.4"
+          ],
+          "prefLabel": {
+            "de": "Familienalltag"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/c9f",
+          "notation": [
+            "1.5"
+          ],
+          "prefLabel": {
+            "de": "Freizeit"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/f2y",
+          "notation": [
+            "1.6"
+          ],
+          "prefLabel": {
+            "de": "Haustiere,Tiere"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/q9e",
+          "notation": [
+            "1.7"
+          ],
+          "prefLabel": {
+            "de": "Kleidung"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/h3c",
+          "notation": [
+            "1.8"
+          ],
+          "prefLabel": {
+            "de": "Konsum"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/u3f",
+          "notation": [
+            "1.9"
+          ],
+          "prefLabel": {
+            "de": "Sport"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/y2x",
+          "notation": [
+            "1.10"
+          ],
+          "prefLabel": {
+            "de": "Umwelt"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/t5u",
+          "notation": [
+            "1.11"
+          ],
+          "prefLabel": {
+            "de": "Verkehrsmittel"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/t5a",
+          "notation": [
+            "1.12"
+          ],
+          "prefLabel": {
+            "de": "Wetter"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/q7a",
+          "notation": [
+            "1.13"
+          ],
+          "prefLabel": {
+            "de": "Wohnen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/th/b6s",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Identität und Beziehungen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v25/th/v2g",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "Erziehung"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/s5e",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "Familie"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/f7e",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "Freundschaft"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/c7b",
+          "notation": [
+            "2.4"
+          ],
+          "prefLabel": {
+            "de": "Identität"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/c3g",
+          "notation": [
+            "2.5"
+          ],
+          "prefLabel": {
+            "de": "Kommunikation"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/d5b",
+          "notation": [
+            "2.6"
+          ],
+          "prefLabel": {
+            "de": "Liebe"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/th/r5e",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Schule, Ausbildung, Arbeit"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v25/th/v2d",
+          "notation": [
+            "3.1"
+          ],
+          "prefLabel": {
+            "de": "Ausbildung"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/h6t",
+          "notation": [
+            "3.2"
+          ],
+          "prefLabel": {
+            "de": "Berufe"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/y2g",
+          "notation": [
+            "3.3"
+          ],
+          "prefLabel": {
+            "de": "Berufsorientierung"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/d3t",
+          "notation": [
+            "3.4"
+          ],
+          "prefLabel": {
+            "de": "Schule"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/b9h",
+          "notation": [
+            "3.5"
+          ],
+          "prefLabel": {
+            "de": "Sprache/Sprachenlernen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/z5b",
+          "notation": [
+            "3.6"
+          ],
+          "prefLabel": {
+            "de": "Unterricht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/th/d4f",
+      "notation": [
+        "4"
+      ],
+      "prefLabel": {
+        "de": "Länder-/ Kulturspezifische Themen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v25/th/t7s",
+          "notation": [
+            "4.1"
+          ],
+          "prefLabel": {
+            "de": "Geografische Gegebenheiten"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/g5h",
+          "notation": [
+            "4.2"
+          ],
+          "prefLabel": {
+            "de": "Geschichte"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/h3q",
+          "notation": [
+            "4.3"
+          ],
+          "prefLabel": {
+            "de": "Philosophie"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/a3b",
+          "notation": [
+            "4.4"
+          ],
+          "prefLabel": {
+            "de": "Politik"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/z9v",
+          "notation": [
+            "4.5"
+          ],
+          "prefLabel": {
+            "de": "Regionale Identität"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/q5d",
+          "notation": [
+            "4.6"
+          ],
+          "prefLabel": {
+            "de": "Reisen/Tourismus"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/t6a",
+          "notation": [
+            "4.7"
+          ],
+          "prefLabel": {
+            "de": "Wirtschaft"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/th/z5e",
+      "notation": [
+        "5"
+      ],
+      "prefLabel": {
+        "de": "Kulturübergreifende Themen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v25/th/h4e",
+          "notation": [
+            "5.1"
+          ],
+          "prefLabel": {
+            "de": "globale Herausforderung"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/t9t",
+          "notation": [
+            "5.2"
+          ],
+          "prefLabel": {
+            "de": "moralische Verantwortung"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/z6q",
+          "notation": [
+            "5.3"
+          ],
+          "prefLabel": {
+            "de": "Menschenrechte"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/c3e",
+          "notation": [
+            "5.4"
+          ],
+          "prefLabel": {
+            "de": "Natur"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/c6v",
+          "notation": [
+            "5.5"
+          ],
+          "prefLabel": {
+            "de": "Technik"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/p2r",
+          "notation": [
+            "5.6"
+          ],
+          "prefLabel": {
+            "de": "Wissenschaft"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v25/th/s4d",
+      "notation": [
+        "6"
+      ],
+      "prefLabel": {
+        "de": "Kunst und Medien"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v25/th/f3p",
+          "notation": [
+            "6.1"
+          ],
+          "prefLabel": {
+            "de": "Architektur"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/r3c",
+          "notation": [
+            "6.2"
+          ],
+          "prefLabel": {
+            "de": "Bildende Kunst"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/y9z",
+          "notation": [
+            "6.3"
+          ],
+          "prefLabel": {
+            "de": "Darstellende Kunst"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/v3q",
+          "notation": [
+            "6.4"
+          ],
+          "prefLabel": {
+            "de": "Fernsehen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/c6f",
+          "notation": [
+            "6.5"
+          ],
+          "prefLabel": {
+            "de": "Film"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/a7t",
+          "notation": [
+            "6.6"
+          ],
+          "prefLabel": {
+            "de": "Grafik und Design"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/y3y",
+          "notation": [
+            "6.7"
+          ],
+          "prefLabel": {
+            "de": "Internet"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/x6r",
+          "notation": [
+            "6.8"
+          ],
+          "prefLabel": {
+            "de": "Literatur"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/u3s",
+          "notation": [
+            "6.9"
+          ],
+          "prefLabel": {
+            "de": "Musik"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/v6r",
+          "notation": [
+            "6.10"
+          ],
+          "prefLabel": {
+            "de": "Presse"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/u7v",
+          "notation": [
+            "6.11"
+          ],
+          "prefLabel": {
+            "de": "Rundfunk"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/v9r",
+          "notation": [
+            "6.12"
+          ],
+          "prefLabel": {
+            "de": "Soziale Medien"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v25/th/t4r",
+          "notation": [
+            "6.13"
+          ],
+          "prefLabel": {
+            "de": "Video"
+          }
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

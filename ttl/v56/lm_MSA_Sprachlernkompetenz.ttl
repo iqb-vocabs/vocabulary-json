@@ -1,0 +1,63 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v56/lm/>. 
+@prefix n1: <https://w3id.org/iqb/v56/lm/>. 
+
+n1:f3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "ihre sprachlichen Kompetenzen und ihre vorhandene Mehrsprachigkeit in der Regel selbstständig reflektieren und erweitern sowie dabei zielgerichtet ein Repertoire von Strategien und Techniken des reflexiven Sprachenlernens nutzen."@de.
+n1:z6a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "ihr Sprachlernverhalten und ihre Sprachlernprozesse (inklusive der genutzten Strategien) in der Regel selbstständig reflektieren und optimieren."@de.
+n1:g5r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "die ihnen zur Verfügung stehenden sprachlichen Mittel in der Regel selbstständig reflektieren und diese durch den Einsatz von Strategien erweitern und sichern."@de.
+n1:v4g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "eigene rezeptive, produktive, interaktive und mittelnde Kompetenzen (inkl. des Verfügens über entsprechende sprachliche Mittel) in der Regel selbstständig selbst evaluieren und eigene Lernziele ggf. ändern und neu planen."@de.
+n1:g7g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5";
+	skos:topConceptOf n0:;
+	skos:prefLabel "sind sich ihrer Emotionen und Motivationen beim Fremdsprachenlernen bewusst und können diese in der Regel selbstständig regulieren."@de.
+n1:t2x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6";
+	skos:topConceptOf n0:;
+	skos:prefLabel "(digitale) Hilfsmittel zur Optimierung ihrer Sprachlernprozesse in der Regel selbstständig nutzen."@de.
+n1:h3r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "7";
+	skos:topConceptOf n0:;
+	skos:prefLabel "die in einer Sprache/anderen Sprachen verfügbaren Kenntnisse und Erfahrungen aus dem Erlernen anderer Sprachen zur Optimierung ihrer Sprachlernprozesse in der Regel selbstständig nutzen."@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Fremdsprachen Sek I 2023 - MSA Sprachlernkompetenz"@de;
+	dct:description """Sprachlernkompetenz beinhaltet die Fähigkeit und Bereitschaft, das eigene Sprachenlernen selbst zu steuern bzw. zu regulieren, wobei die Schülerinnen und Schüler sowohl auf ihr potenzielles mehrsprachiges Wissen wie auch auf individuelle Sprachlernerfahrungen zurückgreifen und somit z. B. Kenntnisse aus anderen Sprachen und erlernte Strategien reflektieren und für den Erwerb anderer Sprachen nutzen. Sprachlernkompetenz zeigt sich erstens in der Beobachtung und Evaluation der eigenen Sprachlernmotivation, -prozesse und -ergebnisse sowie zweitens in der Bereitschaft und Fähigkeit, begründete Konsequenzen daraus zu ziehen. Sie zeigt sich drittens im Verfügen über konkrete sprachbezogene Lernstrategien und Techniken des reflexiven Lernens. Sprachlernkompetenz ist eine prozessbezogene Kompetenz zur Förderung funktionaler kommunikativer Kompetenz, Text- und Medienkompetenz, interkultureller Kompetenz sowie plurilingualer Kompetenz. 
+
+ Die Schülerinnen und Schüler sind/können in der Regel selbstständig"""@de;
+	skos:hasTopConcept
+		n1:f3y,
+		n1:z6a,
+		n1:g5r,
+		n1:v4g,
+		n1:g7g,
+		n1:t2x,
+		n1:h3r.

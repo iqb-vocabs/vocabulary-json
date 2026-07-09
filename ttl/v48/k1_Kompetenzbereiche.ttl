@@ -1,0 +1,422 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v48/k1/>. 
+@prefix n1: <https://w3id.org/iqb/v48/k1/>. 
+
+n1:c9x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "S 1.1";
+	skos:broader n1:u9f;
+	skos:prefLabel "S1: erklären Phänomene unter Nutzung bekannter physikalischer Modelle und Theorien;"@de.
+n1:q2r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "S 1.2";
+	skos:broader n1:u9f;
+	skos:prefLabel "S2: erläutern Gültigkeitsbereiche von Modellen und Theorien und beschreiben deren Aussage- und Vorhersagemöglichkeiten;"@de.
+n1:v4b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "S 1.3";
+	skos:broader n1:u9f;
+	skos:prefLabel "S3: wählen aus bekannten Modellen bzw. Theorien geeignete aus, um sie zur Lösung physikalischer Probleme zu nutzen."@de.
+n1:u9f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "S 1";
+	skos:broader n1:e4r;
+	skos:prefLabel "Modelle und Theorien zur Bearbeitung von Aufgaben und Problemen nutzen"@de; 
+	skos:definition "Die Lernenden …"@de;
+	skos:narrower 
+		n1:c9x,
+		n1:q2r,
+		n1:v4b.
+n1:f7d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "S 2.1";
+	skos:broader n1:a4r;
+	skos:prefLabel "S4: bauen Versuchsanordnungen auch unter Verwendung von digitalen Messwerterfassungssystemen nach Anleitungen auf, führen Experimente durch und protokollieren ihre Beobachtungen;"@de.
+n1:p4c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "S 2.2";
+	skos:broader n1:a4r;
+	skos:prefLabel "S5: erklären bekannte Messverfahren sowie die Funktion einzelner Komponenten eines Versuchsaufbaus;"@de.
+n1:v9a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "S 2.3";
+	skos:broader n1:a4r;
+	skos:prefLabel "S6: erklären bekannte Auswerteverfahren und wenden sie auf Messergebnisse an;"@de.
+n1:q5v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "S 2.4";
+	skos:broader n1:a4r;
+	skos:prefLabel "wenden bekannte mathematische Verfahren auf physikalische Sachverhalte an."@de.
+n1:a4r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "S 2";
+	skos:broader n1:e4r;
+	skos:prefLabel "Verfahren und Experimente zur Bearbeitung von Aufgaben und Problemen nutzen"@de; 
+	skos:definition "Die Lernenden …"@de;
+	skos:narrower 
+		n1:f7d,
+		n1:p4c,
+		n1:v9a,
+		n1:q5v.
+n1:e4r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "S ";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sachkompetenz"@de; 
+	skos:definition """Die Sachkompetenz der Lernenden zeigt sich in der Kenntnis naturwissenschaftlicher Konzepte, Theorien und Verfahren und der Fähigkeit, diese zu beschreiben und zu erklären sowie geeignet auszuwählen und zu nutzen, um Sachverhalte aus fach- und alltagsbezogenen Anwendungsbereichen zu verarbeiten.\n\nDas wissenschaftliche Vorgehen der Physik lässt sich im Wesentlichen in zwei fundamentale Bereiche einteilen, die eine starke Wechselwirkung und gegenseitige Durchdringung aufweisen: die theoretische Beschreibung von Phänomenen und das experimentelle Arbeiten. Die Vertrautheit mit physikalischem Fachwissen sowie mit der Nutzung physikalischer Grundprinzipien und Arbeitsweisen bildet eine unverzichtbare Grundlage für das Verständnis wissenschaftlicher sowie alltäglicher Sachverhalte aus vielen Bereichen, z. B. aus den anderen Naturwissenschaften, der Technik oder auch der Medizin. Daher leistet physikalische Sachkompetenz einen wichtigen Beitrag sowohl zur Studierfähigkeit als auch zur Allgemeinbildung.\n\nSachkompetenz zeigt sich in der Physik in der Nutzung von Fachwissen zur Bearbeitung von sowohl innerfachlichen als auch anwendungsbezogenen Aufgaben und Problemen. Dazu gehört die theoriebasierte Beschreibung von Phänomenen ebenso wie die qualitative und quantitative Auswertung von Messergebnissen anhand geeigneter Theorien und Modelle. Ihre Eigenschaften wie Gültigkeitsbereiche, theoretische Einbettungen und Angemessenheit ebenso wie ein angemessener Grad der Mathematisierung sind dabei zu berücksichtigen.\n\nFertigkeiten wie das Durchführen eines Experiments nach einer Anleitung, der Umgang mit Messgeräten oder die Anwendung bekannter Auswerteverfahren sind Bestandteil der Sachkompetenz. Die Planung und Konzeption von Experimenten hingegen ist dem Kompetenzbereich Erkenntnisgewinnung zugeordnet."""@de;
+	skos:narrower 
+		n1:u9f,
+		n1:a4r.
+n1:t6q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 1.1";
+	skos:broader n1:c6h;
+	skos:prefLabel "E1: identifizieren und entwickeln Fragestellungen zu physikalischen Sachverhalten;"@de.
+n1:x4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 1.2";
+	skos:broader n1:c6h;
+	skos:prefLabel "E2: stellen theoriegeleitet Hypothesen zur Bearbeitung von Fragestellungen auf."@de.
+n1:c6h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 1";
+	skos:broader n1:g2p;
+	skos:prefLabel "Fragestellungen und Hypothesen auf Basis von Beobachtungen und Theorien bilden"@de; 
+	skos:definition "Die Lernenden …"@de;
+	skos:narrower 
+		n1:t6q,
+		n1:x4e.
+n1:x5e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 2.1";
+	skos:broader n1:s3y;
+	skos:prefLabel "E3: beurteilen die Eignung von Untersuchungsverfahren zur Prüfung bestimmter Hypothesen;"@de.
+n1:q2p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 2.2";
+	skos:broader n1:s3y;
+	skos:prefLabel "E4: modellieren Phänomene physikalisch, auch mithilfe mathematischer Darstellungen und digitaler Werkzeuge, wobei sie theoretische Überlegungen und experimentelle Erkenntnisse aufeinander beziehen;"@de.
+n1:e5r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 2.3";
+	skos:broader n1:s3y;
+	skos:prefLabel "E5: planen geeignete Experimente und Auswertungen zur Untersuchung einer physikalischen Fragestellung."@de.
+n1:s3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 2";
+	skos:broader n1:g2p;
+	skos:prefLabel "Fachspezifische Modelle und Verfahren charakterisieren, auswählen und zur Untersuchung von Sachverhalten nutzen"@de;
+	skos:narrower 
+		n1:x5e,
+		n1:q2p,
+		n1:e5r.
+n1:e4v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 3.1";
+	skos:broader n1:q2c;
+	skos:prefLabel "E6: erklären mithilfe bekannter Modelle und Theorien die in erhobenen oder recherchierten Daten gefundenen Strukturen und Beziehungen;"@de.
+n1:x5d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 3.2";
+	skos:broader n1:q2c;
+	skos:prefLabel "E7: berücksichtigen Messunsicherheiten und analysieren die Konsequenzen für die Interpretation des Ergebnisses;"@de.
+n1:f7g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 3.3";
+	skos:broader n1:q2c;
+	skos:prefLabel "E8: beurteilen die Eignung physikalischer Modelle und Theorien für die Lösung von Problemen;"@de.
+n1:d3z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 3.4";
+	skos:broader n1:q2c;
+	skos:prefLabel "E9: reflektieren die Relevanz von Modellen, Theorien, Hypothesen und Experimenten für die physikalische Erkenntnisgewinnung."@de.
+n1:q2c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 3";
+	skos:broader n1:g2p;
+	skos:prefLabel "Erkenntnisprozesse und Ergebnisse interpretieren und reflektieren"@de; 
+	skos:definition "Die Lernenden …"@de;
+	skos:narrower 
+		n1:e4v,
+		n1:x5d,
+		n1:f7g,
+		n1:d3z.
+n1:a6g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 4.1";
+	skos:broader n1:h7d;
+	skos:prefLabel "E10: beziehen theoretische Überlegungen und Modelle zurück auf Alltagssituationen und reflektieren ihre Generalisierbarkeit;"@de.
+n1:e3h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 4.2";
+	skos:broader n1:h7d;
+	skos:prefLabel "E11: reflektieren Möglichkeiten und Grenzen des konkreten Erkenntnisgewinnungsprozesses sowie der gewonnenen Erkenntnisse (z.B. Reproduzierbarkeit, Falsifizierbarkeit, Intersubjektivität, logische Konsistenz, Vorläufigkeit)."@de.
+n1:h7d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 4";
+	skos:broader n1:g2p;
+	skos:prefLabel "Merkmale wissenschaftlicher Aussagen und Methoden charakterisieren und reflektieren"@de; 
+	skos:definition "Die Lernenden …"@de;
+	skos:narrower 
+		n1:a6g,
+		n1:e3h.
+n1:g2p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E ";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Erkenntnisgewinnungskompetenz"@de; 
+	skos:definition """Die Erkenntnisgewinnungskompetenz der Lernenden zeigt sich in der Kenntnis von naturwissenschaftlichen Denk- und Arbeitsweisen und in der Fähigkeit, diese zu beschreiben, zu erklären und zu verknüpfen, um Erkenntnisprozesse nachvollziehen oder gestalten zu können und deren Möglichkeiten und Grenzen zu reflektieren.\n\nPhysikalische Erkenntnisgewinnung ist zum einen bestimmt durch die theoretische Beschreibung der Natur, die mit der Bildung von Fachbegriffen, Modellen und Theorien einhergeht, und zum anderen durch empirische Methoden, v. a. das Experimentieren, mit denen Gültigkeit und Relevanz dieser Beschreibung abgesichert werden.\n\nDieses Wechselspiel von Theorie und Experiment in der naturwissenschaftlichen Forschung umfasst typischerweise folgende zentrale Schritte:\n\n - Formulierung von Fragestellungen,\n\n - Ableitung von Hypothesen,\n\n - Planung und Durchführung von Untersuchungen,\n\n - Auswertung, Interpretation und methodische Reflexion zur Widerlegung bzw. Stützung der Hypothese sowie zur Beantwortung der Fragestellung. Experimentelle Ergebnisse und aus Modellen abgeleitete Annahmen werden interpretiert und der gesamte Erkenntnisgewinnungsprozess wird im Hinblick auf wissenschaftliche Güte reflektiert. Auf der Metaebene werden die Merkmale naturwissenschaftlicher Verfahren und Methoden charakterisiert und von den nicht-naturwissenschaftlichen abgegrenzt. Das Durchführen eines erlernten Verfahrens oder einer bekannten Methode ohne die Einbettung in den Prozess der Erkenntnisgewinnung als Ganzes ist in den Bildungsstandards der Sachkompetenz zugeordnet."""@de;
+	skos:narrower 
+		n1:c6h,
+		n1:s3y,
+		n1:q2c,
+		n1:h7d.
+n1:s6d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 1.1";
+	skos:broader n1:t2p;
+	skos:prefLabel "K1: recherchieren zu physikalischen Sachverhalten zielgerichtet in analogen und digitalen Medien und wählen für ihre Zwecke passende Quellen aus;"@de.
+n1:z4p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 1.2";
+	skos:broader n1:t2p;
+	skos:prefLabel "K2: prüfen verwendete Quellen hinsichtlich der Kriterien Korrektheit, Fachsprache und Relevanz für den untersuchten Sachverhalt;"@de.
+n1:g4d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 1.3";
+	skos:broader n1:t2p;
+	skos:prefLabel "K3: entnehmen unter Berücksichtigung ihres Vorwissens aus Beobachtungen, Darstellungen und Texten relevante Informationen und geben diese in passender Struktur und angemessener Fachsprache wieder."@de.
+n1:t2p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 1";
+	skos:broader n1:t3d;
+	skos:prefLabel "Informationen erschließen"@de; 
+	skos:definition "Die Lernenden …"@de;
+	skos:narrower 
+		n1:s6d,
+		n1:z4p,
+		n1:g4d.
+n1:a6a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 2.1";
+	skos:broader n1:s4e;
+	skos:prefLabel "K4: formulieren unter Verwendung der Fachsprache chronologisch und kausal korrekt strukturiert;"@de.
+n1:u2g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 2.2";
+	skos:broader n1:s4e;
+	skos:prefLabel "K5: wählen ziel-, sach- und adressatengerecht geeignete Schwerpunkte für die Inhalte von Präsentationen, Diskussionen oder anderen Kommunikationsformen aus;"@de.
+n1:u7b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 2.3";
+	skos:broader n1:s4e;
+	skos:prefLabel "K6: veranschaulichen Informationen und Daten in ziel-, sach- und adressatengerechten Darstellungsformen, auch mithilfe digitaler Werkzeuge;"@de.
+n1:r7a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 2.4";
+	skos:broader n1:s4e;
+	skos:prefLabel "K7: präsentieren physikalische Sachverhalte sowie Lern- und Arbeitsergebnisse sach-, adressaten- und situationsgerecht unter Einsatz geeigneter analoger und digitaler Medien."@de.
+n1:s4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 2";
+	skos:broader n1:t3d;
+	skos:prefLabel "Informationen aufbereiten"@de; 
+	skos:definition "Die Lernenden …"@de;
+	skos:narrower 
+		n1:a6a,
+		n1:u2g,
+		n1:u7b,
+		n1:r7a.
+n1:x9a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 3.1";
+	skos:broader n1:s4z;
+	skos:prefLabel "K8: nutzen ihr Wissen über aus physikalischer Sicht gültige Argumentationsketten zur Beurteilung vorgegebener und zur Entwicklung eigener innerfachlicher Argumentationen;"@de.
+n1:t6y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 3.2";
+	skos:broader n1:s4z;
+	skos:prefLabel "K9: tauschen sich mit anderen konstruktiv über physikalische Sachverhalte aus, vertreten, reflektieren und korrigieren gegebenenfalls den eigenen Standpunkt;"@de.
+n1:s6x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 3.3";
+	skos:broader n1:s4z;
+	skos:prefLabel "K10: prüfen die Urheberschaft, belegen verwendete Quellen und kennzeichnen Zitate."@de.
+n1:s4z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 3";
+	skos:broader n1:t3d;
+	skos:prefLabel "Informationen austauschen und wissenschaftlich diskutieren"@de; 
+	skos:definition "Die Lernenden …"@de;
+	skos:narrower 
+		n1:x9a,
+		n1:t6y,
+		n1:s6x.
+n1:t3d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K ";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kommunikationskompetenz"@de; 
+	skos:definition """Die Kommunikationskompetenz der Lernenden zeigt sich in der Kenntnis von Fachsprache, fachtypischen Darstellungen und Argumentationsstrukturen und in der Fähigkeit, diese zu nutzen, um fachbezogene Informationen zu erschließen, adressaten- und situationsgerecht darzustellen und auszutauschen.\n\nDie Physik hat ihre spezifische Art, Kommunikation zu gestalten. Die strukturierten und standardisierten Formulierungen sind grundlegend für eine rationale, fakten- oder evidenzbasierte Kommunikation. Das Verständnis dieser Art der Kommunikation und die Fähigkeit, sie mitzugestalten, ermöglichen die selbstbestimmte Teilhabe an wissenschaftlichen und gesellschaftlich relevanten Diskussionen.\n\nPhysikalische Kommunikationskompetenz zeigt sich im Verständnis und in der Nutzung von definierten Begrifflichkeiten, fachtypischen Darstellungen und Argumentationsstrukturen, die mathematische Logik und verlässliche Quellen als Belege für die Glaubwürdigkeit und Objektivität von Aussagen und Argumenten verwenden. Das physikalische Fachvokabular setzt sich dabei zusammen aus etablierten Fachbegriffen, abstrakten Symbolen und standardisierten Einheiten. Für Diskussionen außerhalb der Physik sind vor allem die physiktypische Nutzung bestimmter Arten von Abbildungen, Diagrammen und Symbolen, die Betonung logischer Verknüpfungen und der Wechsel zwischen situationsspezifischen und verallgemeinerten Aussagen und mehreren Darstellungsformen relevant.\n\nPhysikalisch kompetentes Kommunizieren bedingt ein Durchdringen der Teilkompetenzbereiche Erschließen, Aufbereiten und Austauschen. Im Fach Physik tauschen die Lernenden Informationen mit Kommunikationspartnern kompetent aus, wenn sie Informationen aus Quellen entnehmen, überzeugend präsentieren und sich reflektiert an fachlichen Diskussionen beteiligen. Die sprachliche sowie mathematische Darstellung von Zusammenhängen und Lösungswegen ist dagegen Ausdruck von Sach- bzw. Erkenntnisgewinnungskompetenz, die Berücksichtigung von außerfachlichen Aspekten für die Meinungsbildung und die Entscheidungsfindung ist in den Bildungsstandards im Kompetenzbereich Bewerten enthalten."""@de;
+	skos:narrower 
+		n1:t2p,
+		n1:s4e,
+		n1:s4z.
+n1:f9p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B 1.1";
+	skos:broader n1:c2q;
+	skos:prefLabel "B1: erläutern aus verschiedenen Perspektiven Eigenschaften einer schlüssigen und überzeugenden Argumentation;"@de.
+n1:c9g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B 1.2";
+	skos:broader n1:c2q;
+	skos:prefLabel "B2: beurteilen Informationen und deren Darstellung aus Quellen unterschiedlicher Art hinsichtlich Vertrauenswürdigkeit und Relevanz."@de.
+n1:c2q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B 1";
+	skos:broader n1:p2s;
+	skos:prefLabel "Sachverhalte und Informationen multiperspektivisch beurteilen"@de; 
+	skos:definition "Die Lernenden …"@de;
+	skos:narrower 
+		n1:f9p,
+		n1:c9g.
+n1:d7r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B 2.1";
+	skos:broader n1:e3q;
+	skos:prefLabel "B3: entwickeln anhand relevanter Bewertungskriterien Handlungsoptionen in gesellschaftlich- oder alltagsrelevanten Entscheidungssituationen mit fachlichem Bezug und wägen sie gegeneinander ab;"@de.
+n1:s6t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B 2.2";
+	skos:broader n1:e3q;
+	skos:prefLabel "B4: bilden sich reflektiert und rational in außerfachlichen Kontexten ein eigenes Urteil."@de.
+n1:e3q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B 2";
+	skos:broader n1:p2s;
+	skos:prefLabel "Kriteriengeleitet Meinungen bilden und Entscheidungen treffen"@de;
+	skos:narrower 
+		n1:d7r,
+		n1:s6t.
+n1:c9v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B 3.1";
+	skos:broader n1:z7e;
+	skos:prefLabel "B5: reflektieren Bewertungen von Technologien und Sicherheitsmaßnahmen oder Risikoeinschätzungen hinsichtlich der Güte des durchgeführten Bewertungsprozesses;"@de.
+n1:c6q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B 3.2";
+	skos:broader n1:z7e;
+	skos:prefLabel "B6: beurteilen Technologien und Sicherheitsmaßnahmen hinsichtlich ihrer Eignung und Konsequenzen und schätzen Risiken, auch in Alltagssituationen, ein;"@de.
+n1:p3q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B 3.3";
+	skos:broader n1:z7e;
+	skos:prefLabel "B7: reflektieren kurz- und langfristige, lokale und globale Folgen eigener und gesellschaftlicher Entscheidungen;"@de.
+n1:q9z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B 3.4";
+	skos:broader n1:z7e;
+	skos:prefLabel "B8: reflektieren Auswirkungen physikalischer Weltbetrachtung sowie die Bedeutung physikalischer Kompetenzen in historischen, gesellschaftlichen oder alltäglichen Zusammenhängen."@de.
+n1:z7e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B 3";
+	skos:broader n1:p2s;
+	skos:prefLabel "Entscheidungsprozesse und Folgen reflektieren"@de; 
+	skos:definition "Die Lernenden …"@de;
+	skos:narrower 
+		n1:c9v,
+		n1:c6q,
+		n1:p3q,
+		n1:q9z.
+n1:p2s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B ";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Bewertungskompetenz"@de; 
+	skos:definition """Die Bewertungskompetenz der Lernenden zeigt sich in der Kenntnis von fachlichen und überfachlichen Perspektiven und Bewertungsverfahren und in der Fähigkeit, diese zu nutzen, um Aussagen bzw. Daten anhand verschiedener Kriterien zu beurteilen, sich dazu begründet Meinungen zu bilden, Entscheidungen auch auf ethischer Grundlage zu treffen und Entscheidungsprozesse und deren Folgen zu reflektieren.\n\nUm in Praxissituationen einen Bewertungsprozess durchführen zu können, ist es notwendig, Wissen über Bewertungsverfahren zu haben, wissenschaftliche sowie nicht wissenschaftliche Aussagen anhand von formalen und inhaltlichen Kriterien prüfen und den Einfluss von Werten, Normen und Interessen auf Bewertungsergebnisse einschätzen zu können. Im Zentrum des Bewertungsprozesses stehen dabei das Entwickeln und Reflektieren geeigneter Kriterien als Grundlage für eine Entscheidung oder Meinungsbildung und das Zusammentragen physikalischer Erkenntnisse, die – organisiert anhand der Kriterien – als Argumente dienen.\n\nUm selbstbestimmt an gesellschaftlichen Meinungsbildungsprozessen teilhaben zu können, beziehen Lernende im Kompetenzbereich Bewerten bei gesellschaftlich relevanten Fragestellungen mit fachlichem Bezug kriteriengeleitet einen eigenen Standpunkt und treffen sachgerechte Entscheidungen. Dazu tragen sie relevante physikalische, aber auch nicht physikalische (z. B. ökonomische, ökologische, soziale, politische oder ethische) Kriterien zusammen, sammeln geeignete Belege und wägen sie unter Berücksichtigung von Normen, Werten und Interessen gegeneinander ab. Physikalisch kompetent bewerten heißt also, über die rein sachliche Beurteilung von physikalischen Aussagen hinauszugehen, weshalb rein innerfachliche Bewertungen z. B. der Anwendbarkeit eines Modells, der Güte von Experimentierergebnissen oder der Korrektheit fachwissenschaftlicher Argumentationen den anderen drei Kompetenzbereichen zugeordnet sind."""@de;
+	skos:narrower 
+		n1:c2q,
+		n1:e3q,
+		n1:z7e.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Physik Sek II 2020 - Bildungsstandards für die Kompetenzbereiche im Faches Physik"@de;
+	dct:description """Die Bildungsstandards für die Allgemeine Hochschulreife definieren die Kompetenzen, die Lernende bis zum Ende der Qualifikationsphase erwerben sollen. Diese werden im Unterricht sowohl auf grundlegendem als auch auf erhöhtem Anforderungsniveau entwickelt.
+
+Unterricht auf grundlegendem Anforderungsniveau repräsentiert gemäß der Vereinbarung zur Gestaltung der gymnasialen Oberstufe und der Abiturprüfung (i. d. F. vom 15.02.2018, Ziffer 3.2) „das Lernniveau der gymnasialen Oberstufe unter dem Aspekt einer wissenschaftspropädeutischen Bildung. Unterricht mit erhöhtem Anforderungsniveau repräsentiert das Lernniveau der gymnasialen Oberstufe unter dem Aspekt einer wissenschaftspropädeutischen Bildung, die exemplarisch vertieft wird.“
+
+Der Unterschied in den Anforderungen der beiden Anforderungsniveaus liegt im Umfang und in der Tiefe der gewonnenen Kenntnisse und des Wissens über deren Verknüpfungen. Zudem unterscheiden sie sich im Maß der Selbststeuerung bei der Bearbeitung von Problemstellungen.
+
+Das erhöhte Anforderungsniveau äußert sich im Physikunterricht im Bereich der Sachkompetenz darin, dass zu bestimmten Themen mehr Sachverhalte evtl. in höherer Komplexität der verwendeten Modelle detaillierter betrachtet werden. Darüber hinaus nutzen Lernende des erhöhten Anforderungsniveaus auch eine deutlich umfangreichere und tiefere Mathematisierung.
+
+Im Bereich der Erkenntnisgewinnungskompetenz wird auf erhöhtem Anforderungsniveau vermehrt auf einen formalen Umgang mit Messunsicherheiten und auf die Reflexion über Vor- und Nachteile oder die Aussagekraft verschiedener Mess- und Auswertungsverfahren Wert gelegt.
+
+Die Lernenden des erhöhten Anforderungsniveaus besitzen im Bereich der Kommunikationskompetenz ein umfangreicheres Fachvokabular und drücken sich fachlich präziser aus. Sie sind in der Lage, sprachlich und inhaltlich komplexere Fachtexte zu verstehen.
+
+Im Bereich der Bewertungskompetenz können Lernende auf erhöhtem Anforderungsniveau mehr und komplexere Ar-
+gumente mit Belegen heranziehen. Auch gelingt es ihnen, eigene Standpunkte differenzierter zu begründen und so
+besser gegen sachliche Kritik zu verteidigen.
+
+Im Folgenden werden die einzelnen Kompetenzbereiche definiert und näher beschrieben. Sie werden in Form von Standards präzisiert. Dabei gelten die formulierten Standards für beide Anforderungsniveaus. Die Inhalte, an denen die Kompetenzen erworben werden, sind im Textfassung Kapitel 2.6 aufgeführt."""@de;
+	skos:hasTopConcept
+		n1:e4r,
+		n1:g2p,
+		n1:t3d,
+		n1:p2s.

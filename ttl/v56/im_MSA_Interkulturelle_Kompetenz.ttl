@@ -1,0 +1,70 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v56/im/>. 
+@prefix n1: <https://w3id.org/iqb/v56/im/>. 
+
+n1:f3e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "sich der Vielfalt der Sitten und Gebräuche, der Einstellungen, Werte und Überzeugungen verschiedener gesellschaftlicher (einschließlich der eigenen) Gruppen bewusst, können auf entsprechende Signale achten sowie entsprechend wertebezogen und kommunikativ handeln."@de.
+n1:s4x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "sich in interkulturellen Situationen der Ähnlichkeiten und Unterschiede von Konventionen (z.B. in Bezug auf Körperhaltung, Blickkontakt und Abstand zu anderen) bewusst und können angemessen damit umgehen."@de.
+n1:t5q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "in interkulturellen Situationen im Rahmen der ihnen zur Verfügung stehenden Mittel mit dem Kommunikationspartner sprachlich angemessen in Bezug auf Situation und Beteiligte agieren."@de.
+n1:x2s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "einen interkulturellen Austausch unterstützen, indem sie Offenheit, Interesse und Empathie durch Fragen und die Reaktion auf Fragen zeigen. Dabei sind sie sich der Tatsache bewusst, dass manche Themen und Fragen in den betroffenen Kulturen unterschiedlich wahrgenommen werden können."@de.
+n1:f7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5";
+	skos:topConceptOf n0:;
+	skos:prefLabel "(als kulturelle Mittler) die Parteien bei einer Meinungsverschiedenheit bitten, ihr Problem zu erläutern, und kurz darauf reagieren, vorausgesetzt es handelt sich um ein vertrautes Thema und die Beteiligten drücken sich deutlich aus."@de.
+n1:d7a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6";
+	skos:topConceptOf n0:;
+	skos:prefLabel "in einfachen Begriffen diskutieren, wie die kulturell bedingten Handlungen verschiedener gesellschaftlicher (einschließlich der eigenen) Gruppen unterschiedlich wahrgenommen werden können."@de.
+n1:q6g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "7";
+	skos:topConceptOf n0:;
+	skos:prefLabel "die in einer Sprache/in anderen Sprachen verfügbaren Kenntnisse, Fertigkeiten und erlernten Strategien für Sprachhandlungen in interkulturellen (Alltags-) Situationen in der Regel selbstständig nutzen."@de.
+n1:x6u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "8";
+	skos:topConceptOf n0:;
+	skos:prefLabel "ihre zur Verfügung stehende interkulturelle Bewusstheit in Alltagskontexten in der Regel selbstständig reflektieren, um mit einer unerwarteten Situation adressaten-, situations- und zweckangemessen umgehen zu können."@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Fremdsprachen Sek I 2023 - MSA Interkulturelle Kompetenz"@de;
+	dct:description """Interkulturelle Kompetenz umfasst soziokulturelles und soziolinguistisches Wissen, Einstellungen und Empathiefähigkeit sowie kommunikatives Können. Interkulturelle Kompetenz ist primär auf die Handlungsfähigkeit (savoir-faire) ausgerichtet. Sie zeigt sich in der Fähigkeit und Bereitschaft, in direkten und medial vermittelten Begegnungen kommunikativ und kulturell angemessen zu handeln sowie beim Verstehen, Deuten und Produzieren fremdsprachiger Texte. Interkulturelle Kompetenz impliziert die Fähigkeit und Bereitschaft, unterschiedlich kulturell geprägte Perspektiven wahrzunehmen und über diese zu reflektieren – im Sinne von kultureller Bewusstheit (cultural awareness). Von zentraler Bedeutung für die interkulturelle Kompetenz ist auch die Bereitschaft, als kultureller Mittler zu handeln. Dabei berücksichtigt interkulturelle Kompetenz die sprachliche und kulturelle Heterogenität von Gesellschaft und damit auch von Schulgemeinschaft. Die sprachspezifische Ausprägung der interkulturellen Kompetenz ist u.a. abhängig von den jeweils erreichten rezeptiven, produktiven, interaktiven und mittelnden Kompetenzniveaus. Je nach individueller Sprachbiographie können die Schülerinnen und Schüler auf weitere kulturelle und sprachliche Ressourcen zurückgreifen und diese in interkulturellen Situationen adressaten-, situations- und zweckangemessen nutzen. 
+
+ Die Schülerinnen und Schüler sind/können """@de;
+	skos:hasTopConcept
+		n1:f3e,
+		n1:s4x,
+		n1:t5q,
+		n1:x2s,
+		n1:f7z,
+		n1:d7a,
+		n1:q6g,
+		n1:x6u.

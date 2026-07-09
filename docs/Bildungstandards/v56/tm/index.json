@@ -1,0 +1,215 @@
+{
+  "id": "https://w3id.org/iqb/v56/tm/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Fremdsprachen Sek I 2023 - MSA Text- und Medienkompetenz (einschließlich literarisch-ästhetischer Kompetenz)"
+  },
+  "description": {
+    "de": "Text- und Medienkompetenz umfasst rezeptive, produktive, interaktive und mittelnde Aktivitäten in der Auseinandersetzung mit kontinuierlichen und diskontinuierlichen Texten in ihren unterschiedlichen sprachlichen Repräsentationsformen (phonisch, graphisch, Mischformen) und medialen Erscheinungen. Text- und Medienkompetenz beinhaltet entsprechend auf der rezeptiven Ebene die Fähigkeit, Texte selbstständig, zielbezogen sowie in ihren historischen, sozialen und medialen Kontexten zu verstehen, und auf der produktiven Ebene die Fähigkeit, Texte zu analysieren und zu interpretieren. Text- und Medienkompetenz umfasst überdies die Fähigkeit, eigene Texte zu produzieren und dabei auf medienspezifisches Wissen über die Texterstellung, deren Bedingungen und Techniken sowie auf Wissen über die Wirkung von Texten und die ihrer medialen Gestaltung zurückzugreifen. Text- und Medienkompetenz ist eine komplexe, integrative Kompetenz, zu deren Vermittlung und zu deren Aneignung alle Schulfächer – und damit auch der Fremdsprachenunterricht – beitragen. Die literarisch-ästhetische Kompetenz erfährt im Zusammenhang mit dem Fremdsprachenunterricht eine besondere Bedeutung, die sich u.a. aus dem Auftrag des Fremdsprachenunterrichts ergibt, zur kulturellen Bildung beizutragen. Die sprachspezifische Ausprägung der Text- und Medienkompetenz ist u.a. abhängig vom jeweils erreichten Kompetenzniveau in der funktionalen kommunikativen Kompetenz in dieser Sprache. Text- und Medienkompetenz ist eng mit der Sprachbewusstheit und der digitalen Kompetenz in fremdsprachenspezifischen Anwendungskontexten verbunden. \n\n Die Schülerinnen und Schüler können "
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v56/tm/d3a",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "strukturell unkomplizierte (literarisch-ästhetische) Texte zu vertrauten Themen mithilfe sprachlichen, inhaltlichen sowie genre- und medienspezifischen Wissens aufgabenbezogen bzw. zweckgerichtet verstehen, analysieren, deuten und die gewonnenen Aussagen am Text belegen."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v56/tm/s4a",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "gängige (nicht-)sprachliche Gestaltungsmittel ihnen vertrauter Kommunikations- und Interaktionsformen in der Regel selbstständig erkennen und deuten."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v56/tm/r7g",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "gängige (nicht-)sprachliche Gestaltungsmittel ihnen vertrauter, auch digitaler Kommunikations- und Interaktionsformen in eigenen Texten aufgabenbezogen bzw. zweckgerichtet in der Regel selbstständig nutzen."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v56/tm/f2p",
+      "notation": [
+        "4"
+      ],
+      "prefLabel": {
+        "de": "strukturell unkomplizierte (literarisch-ästhetische) Texte zu vertrauten Themen aufgabenbezogen bzw. zweckgerichtet in ein anderes Genre überführen. Sie können z. B. allgemeine Trends, die in einfachen Diagrammen dargestellt sind, mündlich bzw. schriftlich beschreiben und interpretieren, obgleich ein begrenzter Wortschatz gelegentlich Formulierungsprobleme verursacht."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v56/tm/h9r",
+      "notation": [
+        "5"
+      ],
+      "prefLabel": {
+        "de": "ihr Erstverstehen auf der Grundlage von knappen Rückmeldungen in der Regel selbstständig kritisch reflektieren, relativieren und ggf. revidieren."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v56/tm/u7e",
+      "notation": [
+        "6"
+      ],
+      "prefLabel": {
+        "de": "auf ihnen vertraute (digitale) Werkzeuge beim sprachlichen, inhaltlichen und textuellen Verstehen sowie beim Produzieren eigener Texte in der Regel selbstständig zurückgreifen."
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

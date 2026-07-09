@@ -1,0 +1,159 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v09/a1/>. 
+@prefix n1: <https://w3id.org/iqb/v09/a1/>. 
+
+n1:e6d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:g9c;
+	skos:prefLabel "mathematische Kenntnisse, Fertigkeiten und Fähigkeiten bei der Bearbeitung problemhaltiger Aufgaben anwenden,"@de.
+n1:z7x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:g9c;
+	skos:prefLabel "Lösungsstrategien entwickeln und nutzen (z.B. systematisch probieren),"@de.
+n1:s3t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:g9c;
+	skos:prefLabel "Zusammenhänge erkennen, nutzen und auf ähnliche Sachverhalte übertragen."@de.
+n1:g9c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Problemlösen"@de;
+	skos:narrower 
+		n1:e6d,
+		n1:z7x,
+		n1:s3t.
+n1:z7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:c5u;
+	skos:prefLabel "eigene Vorgehensweisen beschreiben, Lösungswege anderer verstehen und gemeinsam darüber reflektieren,"@de.
+n1:u6e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:c5u;
+	skos:prefLabel "mathematische Fachbegriffe und Zeichen sachgerecht verwenden,"@de.
+n1:p4t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n1:c5u;
+	skos:prefLabel "Aufgaben gemeinsam bearbeiten, dabei Verabredungen treffen und einhalten."@de.
+n1:c5u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kommunizieren"@de;
+	skos:narrower 
+		n1:z7z,
+		n1:u6e,
+		n1:p4t.
+n1:q5y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n1:v9b;
+	skos:prefLabel "mathematische Aussagen hinterfragen und auf Korrektheit prüfen,"@de.
+n1:u5c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2";
+	skos:broader n1:v9b;
+	skos:prefLabel "mathematische Zusammenhänge erkennen und Vermutungen entwickeln,"@de.
+n1:p9y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3";
+	skos:broader n1:v9b;
+	skos:prefLabel "Begründungen suchen und nachvollziehen."@de.
+n1:v9b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Argumentieren"@de;
+	skos:narrower 
+		n1:q5y,
+		n1:u5c,
+		n1:p9y.
+n1:z5e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1";
+	skos:broader n1:t5c;
+	skos:prefLabel "Sachtexten und anderen Darstellungen der Lebenswirklichkeit die relevanten Informationen entnehmen,"@de.
+n1:z5y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2";
+	skos:broader n1:t5c;
+	skos:prefLabel "Sachprobleme in die Sprache der Mathematik übersetzen, innermathematisch lösen und diese Lösungen auf die Ausgangssituation beziehen,"@de.
+n1:c5z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3";
+	skos:broader n1:t5c;
+	skos:prefLabel "zu Termen, Gleichungen und bildlichen Darstellungen Sachaufgaben formulieren."@de.
+n1:t5c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Modellieren"@de;
+	skos:narrower 
+		n1:z5e,
+		n1:z5y,
+		n1:c5z.
+n1:x5r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1";
+	skos:broader n1:b3f;
+	skos:prefLabel "für das Bearbeiten mathematischer Probleme geeignete Darstellungen entwickeln, auswählen und nutzen,"@de.
+n1:d3v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.2";
+	skos:broader n1:b3f;
+	skos:prefLabel "eine Darstellung in eine andere übertragen,"@de.
+n1:h7h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.3";
+	skos:broader n1:b3f;
+	skos:prefLabel "Darstellungen miteinander vergleichen und bewerten."@de.
+n1:b3f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Darstellen"@de;
+	skos:narrower 
+		n1:x5r,
+		n1:d3v,
+		n1:h7h.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Mathematik Primar 2004 - Allgemeine Kompetenzen"@de;
+	dct:description """Allgemeine mathematische Kompetenzen zeigen sich in der lebendigen Auseinandersetzung mit Mathematik und auf die gleiche Weise, in der tätigen Auseinandersetzung, werden sie erworben. Die angestrebten Formen der Nutzung von Mathematik müssen daher auch regelmäßig genutzte Formen des Mathematiklernens sein. Von zentraler Bedeutung für eine erfolgreiche Nutzung und Aneignung von Mathematik sind vor allem die folgenden fünf allgemeinen mathematischen Kompetenzen.
+
+Diese lassen sich für Schülerinnen und Schüler am Ende der 4. Jahrgangsstufe wie folgt konkretisieren:"""@de;
+	skos:hasTopConcept
+		n1:g9c,
+		n1:c5u,
+		n1:v9b,
+		n1:t5c,
+		n1:b3f.

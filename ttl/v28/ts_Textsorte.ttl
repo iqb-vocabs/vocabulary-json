@@ -1,0 +1,71 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v28/ts/>. 
+@prefix n1: <https://w3id.org/iqb/v28/ts/>. 
+
+n1:v7r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:u5u;
+	skos:prefLabel "Erzählender Text"@de.
+n1:y9c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:u5u;
+	skos:prefLabel "Lyrischer Text"@de.
+n1:b4b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:u5u;
+	skos:prefLabel "Dramatischer Text"@de.
+n1:u5u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "literarisch"@de;
+	skos:narrower 
+		n1:v7r,
+		n1:y9c,
+		n1:b4b.
+n1:e4v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:x4q;
+	skos:prefLabel "Sachtext kontinuierlich"@de.
+n1:c4h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:x4q;
+	skos:prefLabel "Sachtext teilweise diskontinuierlich"@de.
+n1:f3t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n1:x4q;
+	skos:prefLabel "Sachtext diskontinuierlich"@de.
+n1:x4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "expositorisch"@de;
+	skos:narrower 
+		n1:e4v,
+		n1:c4h,
+		n1:f3t.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Deutsch - Textsorte"@de;
+	dc:title "Deutsch - Textsorte"@de;
+	dc:description "Deutsch - Textsorte"@de;
+	skos:hasTopConcept
+		n1:u5u,
+		n1:x4q.

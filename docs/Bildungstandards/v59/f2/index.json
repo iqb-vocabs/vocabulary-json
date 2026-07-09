@@ -1,0 +1,251 @@
+{
+  "id": "https://w3id.org/iqb/v59/f2/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Fremdsprachen Sek II 2012 - Interkulturelle kommunikative Kompetenz"
+  },
+  "description": {
+    "de": "Interkulturelle kommunikative Kompetenz ist gerichtet auf Verstehen und Handeln in Kontexten, in denen die Fremdsprache verwendet wird. Schülerinnen und Schüler erschließen die in fremdsprachigen und fremdkulturellen Texten enthaltenen Informationen, Sinnangebote und Handlungsaufforderungen und reflektieren sie vor dem Hintergrund ihres eigenen kulturellen und gesellschaftlichen Kontextes. Dies geschieht im Zusammenwirken mit ihrer funktionalen kommunikativen Kompetenz, ihrer Sprachbewusstheit sowie ihrer Text- und Medienkompetenz. Dazu gehört, dass Schülerinnen und Schüler Texte in ihren unterschiedlichen Dimensionen möglichst differenziert erfassen und deuten, ohne diese vorschnell zu bewerten. Damit erwerben sie die Voraussetzungen, zu kulturellen Geprägtheiten Empathie wie auch kritische Distanz zu entwickeln, ein begründetes persönliches Urteil zu fällen und ihr eigenes kommunikatives Handeln situationsangemessen und adressatengerecht zu gestalten.\n\nDer Prozess interkunlturellen Verstehens und Handelns beruht auf dem Zusammenspiel von Wissen, Einstellungen und Bewusstheit.\n\nSchülerinnen und Schüler nutzen verschiedene Wissenskomponenten als Hilfe für das Verstehen und Handeln. Dazu zählen ihr fremdkulturelles Wissen, insbesondere in der Form soziokulturellen Orientierungswissens, und ihre Einsichten in die kulturellen Prägungen von Sprache und Sprachverwendung, auch bezogen auf den Gebrauch der Fremdsprache als lingua franca. Letzteres betrifft insbesondere das Englische. Strategisches Wissen als weitere Wissenskomponente umfasst vor allem Strategien, die die Kommunikation unter den besonderen Bedingungen des Gebrauchs der Fremdsprache sichern. Es ermöglicht Schülerinnen und Schülern, mit eigenem und fremdem sprachlichem und kulturellem Nichtverstehen und mit der Begrenztheit ihrer Lernersprache in Kommunikationssituationen umzugehen. Zudem hilft es ihnen, nicht explizit Formuliertes in mündlicher wie schriftlicher Kommunikation zu erkennen und zu verstehen.\n\nGelingende interkulturelle Kommunikation setzt bei Schülerinnen und Schülern neben Wissen und dem Verfügen über Strategien angemessene Einstellungen voraus. Dazu zählen insbesondere die Bereitschaft und Fähigkeit, anderen respektvoll zu begegnen, sich kritisch mit ihnen auseinanderzusetzen und beim eigenen Sprachhandeln sprachliche und inhaltliche Risiken einzugehen.\n\nIm Prozess interkulturellen Verstehens und Handelns spielt außerdem Bewusstheit eine wichtige Rolle. Die Schülerinnen und Schüler entwickeln die Fähigkeit und Bereitschaft, ihr persönliches Verstehen und Handeln zu hinterfragen und mit den eigenen Standpunkten Unvereinbares auszuhalten und in der interkulturellen Auseinandersetzung zu reflektieren.\n\nNiveaudifferenzierung\n\nDie Standards zu diesem Kompetenzbereich sind für den Fremdsprachenunterricht der gymnasialen Oberstufe allgemein gültig. Für alle Schülerinnen und Schüler gelten die gleichen Ziele. Aus diesem Grunde entfällt die Differenzierung nach grundlegendem und erhöhtem Niveau. \n\n Die Schülerinnen und Schüler können in direkten und in medial vermittelten interkulturellen Situationen kommunikativ handeln. Dies bezieht sich auf personale Begegnungen sowie das Verstehen, Deuten und Produzieren fremdsprachiger Texte. Die Schülerinnen und Schüler greifen dazu auf ihr interkulturelles kommunikatives Wissen zurück und beachten kulturell geprägte Konventionen. Dabei sind sie in der Lage, eigene Vorstellungen und Erwartungen im Wechselspiel mit den an sie herangetragenen zu reflektieren und die eigene Position zum Ausdruck zu bringen.\n\n Die Schülerinnen und Schüler sind/können"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v59/f2/e2r",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "ihr Orientierungswissen über die Zielkulturen in vielfältigen Situationen anwenden: Aspekte der Alltagskultur und Berufswelt, Themen und Probleme junger Erwachsener, gegenwärtige politische und soziale Bedingungen, historische und kulturelle Entwicklungen einschließlich literarischer Aspekte sowie Themen von globaler Bedeutung"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v59/f2/v2h",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "ihr Wissen über Kommunikation anwenden und fremdsprachige Konventionen beachten, u. a. zur Signalisierung von Distanz und Nähe"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v59/f2/s5a",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "ihre Wahrnehmungen und (Vor-)Urteile erkennen, hinterfragen, relativieren und ggf. revidieren"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v59/f2/r3v",
+      "notation": [
+        "4"
+      ],
+      "prefLabel": {
+        "de": "einen Perspektivenwechsel vollziehen sowie verschiedene Perspektiven vergleichen und abwägen"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v59/f2/t2c",
+      "notation": [
+        "5"
+      ],
+      "prefLabel": {
+        "de": "Werte, Haltungen und Einstellungen ihrer zielsprachigen Kommunikationspartner erkennen und unter Berücksichtigung des fremdkulturellen Hintergrundes einordnen"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v59/f2/g7g",
+      "notation": [
+        "6"
+      ],
+      "prefLabel": {
+        "de": "fremdsprachige Texte und Diskurse in ihrer fremdkulturellen Dimension erfassen, deuten und bewerten"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v59/f2/u6h",
+      "notation": [
+        "7"
+      ],
+      "prefLabel": {
+        "de": "fremde und eigene Werte, Haltungen und Einstellungen im Hinblick auf international gültige Konventionen (z. B. die Menschenrechte) einordnen"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v59/f2/d7g",
+      "notation": [
+        "8"
+      ],
+      "prefLabel": {
+        "de": "ihr strategisches Wissen nutzen, um Missverständnisse und sprachlich-kulturell bedingte Konfliktsituationen zu erkennen und zu klären"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v59/f2/b7p",
+      "notation": [
+        "9"
+      ],
+      "prefLabel": {
+        "de": "sich trotz des Wissens um die eigenen begrenzten kommunikativen Mittel auf interkulturelle Kommunikationssituationen einlassen und ihr eigenes sprachliches Verhalten in seiner Wirkung reflektieren und bewerten"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v59/f2/t9y",
+      "notation": [
+        "10"
+      ],
+      "prefLabel": {
+        "de": "auch in für sie interkulturell herausfordernden Situationen reflektiert agieren, indem sie sprachlich und kulturell Fremdes auf den jeweiligen Hintergrund beziehen und sich konstruktiv-kritisch damit auseinandersetzen"
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

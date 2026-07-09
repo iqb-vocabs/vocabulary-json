@@ -1,0 +1,54 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v71/bm2/>. 
+
+n0:t7x
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe I"@de; 
+	skos:definition "Erkennen von Elementen naturwissenschaftlicher Erkenntnisgewinnung"@de.
+n0:r6g
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe II"@de; 
+	skos:definition "Nutzen von Elementen naturwissenschaftlicher Erkenntnisgewinnung"@de.
+n0:t4y
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe III"@de; 
+	skos:definition "Anwenden und Begründen von Methoden naturwissenschaftlicher Erkenntnisgewinnung"@de.
+n0:f6u
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe IV"@de; 
+	skos:definition "Erklären und Prüfen von Methoden naturwissenschaftlicher Erkenntnisgewinnung in komplexen Zusammenhängen"@de.
+n0:d6e
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe V"@de; 
+	skos:definition "Reflektieren von Methoden naturwissenschaftlicher Erkenntnisgewinnung in komplexen Zusammenhängen"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Kompetenzstufenmodelle - Biologie MSA - Erkenntnisgewinnung"@de;
+	dct:description """Kompetenzstufenmodelle zu den Bildungsstandards im Fach Biologie für den Mittleren Schulabschluss
+
+Kompetenzbereiche „Erkenntnisgewinnung“"""@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
+	skos:hasTopConcept
+		n0:t7x,
+		n0:r6g,
+		n0:t4y,
+		n0:f6u,
+		n0:d6e.

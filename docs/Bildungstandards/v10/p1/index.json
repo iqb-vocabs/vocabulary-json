@@ -1,0 +1,398 @@
+{
+  "id": "https://w3id.org/iqb/v10/p1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Mathematik Primar 2022 - Prozessbezogene Kompetenzen"
+  },
+  "description": {
+    "de": "Prozessbezogene Kompetenzen zeigen sich in der lebendigen Auseinandersetzung mit Mathematik und auf die gleiche Weise – in der tätigen Auseinandersetzung – werden sie erworben. Die angestrebten Formen der Nutzung von Mathematik müssen daher auch regelmäßig genutzte Formen des Mathematiklernens sein. Von zentraler Bedeutung für eine erfolgreiche Nutzung und Aneignung von Mathematik sind vor allem die folgenden sechs prozessbezogenen Kompetenzen.Abbildung 2: Grafische Darstellung des Zusammenwirkens von prozessbezogenen und inhaltsbezogenen Kompetenzen; Diese lassen sich für Schülerinnen und Schüler am Ende von Jahrgangsstufe 4 wie folgt konkretisieren (die Reihenfolge der Auflistung gibt keine Gewichtung vor):"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v10/p1/v9q",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Mathematisch argumentieren"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v10/p1/p9d",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "hinterfragen mathematische Aussagen und prüfen diese auf Korrektheit,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v10/p1/v2b",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "stellen Vermutungen zu mathematischen Zusammenhängen auf,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v10/p1/a2b",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "formulieren Begründungen und vollziehen Begründungen anderer nach."
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v10/p1/y6v",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Mathematisch kommunizieren "
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v10/p1/f6u",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "beschreiben und erklären (auch unter Nutzung geeigneter Medien) Überlegungen zu mathematischen Sachverhalten, Lösungswege und Ergebnisse adressatengerecht,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v10/p1/f7r",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "erläutern mathematische Zusammenhänge,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v10/p1/b2f",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "vollziehen Lösungen und Lösungswege anderer nach, hinterfragen und entwickeln diese gemeinsam weiter."
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v10/p1/t6d",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Probleme mathematisch lösen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v10/p1/e2t",
+          "notation": [
+            "3.1"
+          ],
+          "prefLabel": {
+            "de": "entwickeln Lösungsideen zu Aufgaben, zu denen bislang keine Lösungsroutinen bekannt sind,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v10/p1/h5v",
+          "notation": [
+            "3.2"
+          ],
+          "prefLabel": {
+            "de": "entwickeln Lösungsstrategien (z. B. systematisches Probieren, Analogien nutzen), wählen heuristische Hilfsmittel aus und nutzen diese (z. B. Tabellen),"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v10/p1/y2b",
+          "notation": [
+            "3.3"
+          ],
+          "prefLabel": {
+            "de": "überdenken Vorgehensweisen und passen diese gegebenenfalls an."
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v10/p1/q7p",
+      "notation": [
+        "4"
+      ],
+      "prefLabel": {
+        "de": "Mathematisch modellieren"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v10/p1/b6b",
+          "notation": [
+            "4.1"
+          ],
+          "prefLabel": {
+            "de": "entnehmen die für die mathematische Bearbeitung einer Fragestellung relevanten Informationen u. a. aus Texten, Darstellungen, der Lebenswirklichkeit,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v10/p1/x3h",
+          "notation": [
+            "4.2"
+          ],
+          "prefLabel": {
+            "de": "übersetzen Sachprobleme in die Sprache der Mathematik und prüfen und interpretieren die mathematische Lösung in Bezug auf die Ausgangssituation,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v10/p1/a6q",
+          "notation": [
+            "4.3"
+          ],
+          "prefLabel": {
+            "de": "formulieren zu Termen, Gleichungen und bildlichen Darstellungen Sachaufgaben."
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v10/p1/v5v",
+      "notation": [
+        "5"
+      ],
+      "prefLabel": {
+        "de": "Mathematisch darstellen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v10/p1/g6e",
+          "notation": [
+            "5.1"
+          ],
+          "prefLabel": {
+            "de": "wählen geeignete Darstellungsformen für das Bearbeiten mathematischer Fragestellungen aus und nutzen und entwickeln diese,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v10/p1/t6b",
+          "notation": [
+            "5.2"
+          ],
+          "prefLabel": {
+            "de": "übertragen eine Darstellungsform in eine andere,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v10/p1/z7y",
+          "notation": [
+            "5.3"
+          ],
+          "prefLabel": {
+            "de": "vergleichen Darstellungsformen miteinander und bewerten diese."
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v10/p1/p5z",
+      "notation": [
+        "6"
+      ],
+      "prefLabel": {
+        "de": "Mit mathematischen Objekten und Werkzeugen arbeiten"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v10/p1/h2f",
+          "notation": [
+            "6.1"
+          ],
+          "prefLabel": {
+            "de": "übersetzen symbolische und formale Sprache in Alltagssprache und umgekehrt,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v10/p1/h9v",
+          "notation": [
+            "6.2"
+          ],
+          "prefLabel": {
+            "de": "verwenden mathematische Fachbegriffe und Zeichen sachgerecht,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v10/p1/h4v",
+          "notation": [
+            "6.3"
+          ],
+          "prefLabel": {
+            "de": "verwenden mathematische Objekte (z. B. Zahldarstellungen, Terme, Ecken, Kanten, Tabellen, Diagramme) bei der Bearbeitung mathematischer Aufgaben- und Problemstellungen sicher und flexibel,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v10/p1/f5a",
+          "notation": [
+            "6.4"
+          ],
+          "prefLabel": {
+            "de": "setzen mathematische Werkzeuge (z. B. Zeichenwerkzeuge, digitale Werkzeuge) sachgerecht ein."
+          }
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

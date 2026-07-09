@@ -1,0 +1,841 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v42/i1/>. 
+
+n0:g9t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1.1";
+	skos:broader n0:b6f;
+	skos:prefLabel "Mehrfachbindungen"@de.
+n0:b5a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1.2";
+	skos:broader n0:b6f;
+	skos:prefLabel "Hydroxy-, Carbonyl-, Carboxy-, Estergruppe"@de.
+n0:y3r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1.3";
+	skos:broader n0:b6f;
+	skos:prefLabel "Aminogruppe"@de.
+n0:b6f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1";
+	skos:broader n0:q4r;
+	skos:prefLabel "Inhalte für das grundlegende und erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:g9t,
+		n0:b5a,
+		n0:y3r.
+n0:t9r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.2.1";
+	skos:broader n0:p6q;
+	skos:prefLabel "aromatisches System"@de.
+n0:p6q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.2";
+	skos:broader n0:q4r;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:t9r.
+n0:q4r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n0:q3u;
+	skos:prefLabel "Verbindungen mit funktionellen Gruppen"@de;
+	skos:narrower 
+		n0:b6f,
+		n0:p6q.
+n0:d7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1.1";
+	skos:broader n0:p2f;
+	skos:prefLabel "Elektronenpaarbindung"@de.
+n0:c4h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1.2";
+	skos:broader n0:p2f;
+	skos:prefLabel "Ionenbindung"@de.
+n0:s5f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1.3";
+	skos:broader n0:p2f;
+	skos:prefLabel "Metallbindung"@de.
+n0:p2f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1";
+	skos:broader n0:y7f;
+	skos:prefLabel "Inhalte für das grundlegende und erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:d7z,
+		n0:c4h,
+		n0:s5f.
+n0:g3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.2.1";
+	skos:broader n0:f7e;
+	skos:prefLabel "koordinative Bindung"@de.
+n0:f7e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.2";
+	skos:broader n0:y7f;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:g3y.
+n0:y7f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n0:q3u;
+	skos:prefLabel "Chemische Bindung"@de;
+	skos:narrower 
+		n0:p2f,
+		n0:f7e.
+n0:b7r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.1";
+	skos:broader n0:z4g;
+	skos:prefLabel "inter- und intramolekulare Wechselwirkungen(einschließlich Ionen-Dipol-Wechselwirkungen)"@de.
+n0:t7e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.2";
+	skos:broader n0:z4g;
+	skos:prefLabel "Ionengitter"@de.
+n0:u6s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.3";
+	skos:broader n0:z4g;
+	skos:prefLabel "Metallgitter"@de.
+n0:r9q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.4";
+	skos:broader n0:z4g;
+	skos:prefLabel "Molekülgeometrie (EPA-Modell)"@de.
+n0:z4g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1";
+	skos:broader n0:c5a;
+	skos:prefLabel "Inhalte für das grundlegende und erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:b7r,
+		n0:t7e,
+		n0:u6s,
+		n0:r9q.
+n0:s9c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.1";
+	skos:broader n0:z4h;
+	skos:prefLabel "Chiralität"@de.
+n0:g7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.2";
+	skos:broader n0:z4h;
+	skos:prefLabel "Nanostrukturen"@de.
+n0:z4h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2";
+	skos:broader n0:c5a;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:s9c,
+		n0:g7z.
+n0:c5a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n0:q3u;
+	skos:prefLabel "Strukturen ausgewählter organischer und anorganischer Stoffe"@de;
+	skos:narrower 
+		n0:z4g,
+		n0:z4h.
+n0:v3r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.1.1";
+	skos:broader n0:r9u;
+	skos:prefLabel "Kunststoffe"@de.
+n0:x6h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.1.2";
+	skos:broader n0:r9u;
+	skos:prefLabel "Fette oder Proteine oder Kohlenhydrate"@de.
+n0:r9u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.1";
+	skos:broader n0:d5e;
+	skos:prefLabel "Anhalte für das grundlegende und erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:v3r,
+		n0:x6h.
+n0:h3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.2.1";
+	skos:broader n0:f4s;
+	skos:prefLabel "ein zusätzlicher Inhalt: Fette, Proteine, Kohlenhydrate oder Farbstoffe"@de.
+n0:f4s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.2";
+	skos:broader n0:d5e;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:h3y.
+n0:d5e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4";
+	skos:broader n0:q3u;
+	skos:prefLabel "Natürliche und synthetische Stoffe"@de;
+	skos:narrower 
+		n0:r9u,
+		n0:f4s.
+n0:q3u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Inhaltsbereich: Stoffe, Strukturen, Eigenschaften"@de;
+	skos:narrower 
+		n0:q4r,
+		n0:y7f,
+		n0:c5a,
+		n0:d5e.
+n0:a2v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.1.1";
+	skos:broader n0:q5t;
+	skos:prefLabel "Säure-Base-Konzept nach Brönsted"@de.
+n0:z4f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.1.2";
+	skos:broader n0:q5t;
+	skos:prefLabel "Säure-Base-Konstanten"@de.
+n0:d3p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.1.3";
+	skos:broader n0:q5t;
+	skos:prefLabel "pH-Wert-Berechnungen wässriger Lösungen von Säuren und Basen (bei vollständiger Protolyse)"@de.
+n0:q5t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.1";
+	skos:broader n0:s2v;
+	skos:prefLabel "Inhalte für das grundlegende und erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:a2v,
+		n0:z4f,
+		n0:d3p.
+n0:q5f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.2.1";
+	skos:broader n0:u4b;
+	skos:prefLabel "pH-Wert-Berechnungen wässriger Lösungen von Säuren und Basen (bei nicht vollständiger Protolyse)"@de.
+n0:q7g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.2.2";
+	skos:broader n0:u4b;
+	skos:prefLabel "Puffersysteme"@de.
+n0:u4b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.2";
+	skos:broader n0:s2v;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:q5f,
+		n0:q7g.
+n0:s2v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n0:d6y;
+	skos:prefLabel "Protonenübergänge"@de;
+	skos:narrower 
+		n0:q5t,
+		n0:u4b.
+n0:q2q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.1.1";
+	skos:broader n0:r3s;
+	skos:prefLabel "Redoxreaktionen als Elektronenübergang"@de.
+n0:q3a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.1.2";
+	skos:broader n0:r3s;
+	skos:prefLabel "elektrochemische Spannungsreihe"@de.
+n0:p2h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.1.3";
+	skos:broader n0:r3s;
+	skos:prefLabel "Berechnung der Zellspannung"@de.
+n0:e9f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.1.4";
+	skos:broader n0:r3s;
+	skos:prefLabel "elektrochemische Spannungsquellen"@de.
+n0:v6r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.1.5";
+	skos:broader n0:r3s;
+	skos:prefLabel "Elektrolyse"@de.
+n0:r7a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.1.6";
+	skos:broader n0:r3s;
+	skos:prefLabel "Korrosion"@de.
+n0:r3s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.1";
+	skos:broader n0:a4y;
+	skos:prefLabel "Inhalte für das grundlegende und erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:q2q,
+		n0:q3a,
+		n0:p2h,
+		n0:e9f,
+		n0:v6r,
+		n0:r7a.
+n0:r5v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.2.1";
+	skos:broader n0:h7h;
+	skos:prefLabel "Nernst-Gleichung"@de.
+n0:s6v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.2.2";
+	skos:broader n0:h7h;
+	skos:prefLabel "Faraday-Gesetze"@de.
+n0:q9y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.2.3";
+	skos:broader n0:h7h;
+	skos:prefLabel "Überspannung"@de.
+n0:h7h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.2";
+	skos:broader n0:a4y;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:r5v,
+		n0:s6v,
+		n0:q9y.
+n0:a4y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n0:d6y;
+	skos:prefLabel "Elektronenübergänge"@de;
+	skos:narrower 
+		n0:r3s,
+		n0:h7h.
+n0:g6s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.1.1";
+	skos:broader n0:v7v;
+	skos:prefLabel "radikalische Substitution"@de.
+n0:p2x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.1.2";
+	skos:broader n0:v7v;
+	skos:prefLabel "elektrophile Addition"@de.
+n0:v7v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.1";
+	skos:broader n0:x2s;
+	skos:prefLabel "Inhalte für das grundlegende und erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:g6s,
+		n0:p2x.
+n0:z5d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2.1";
+	skos:broader n0:z3r;
+	skos:prefLabel "nucleophile und elektrophile Substitution"@de.
+n0:z3r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2";
+	skos:broader n0:x2s;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:z5d.
+n0:x2s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n0:d6y;
+	skos:prefLabel "Reaktionsmechanismen in der organischen Chemie"@de;
+	skos:narrower 
+		n0:v7v,
+		n0:z3r.
+n0:g5g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.1.1";
+	skos:broader n0:h3h;
+	skos:prefLabel "Reaktionsgeschwindigkeit"@de.
+n0:f2x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.1.2";
+	skos:broader n0:h3h;
+	skos:prefLabel "Katalyse"@de.
+n0:g2v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.1.3";
+	skos:broader n0:h3h;
+	skos:prefLabel "1. Hauptsatz der Thermodynamik"@de.
+n0:f5s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.1.4";
+	skos:broader n0:h3h;
+	skos:prefLabel "Enthalpie"@de.
+n0:d4g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.1.5";
+	skos:broader n0:h3h;
+	skos:prefLabel "Satz von Hess"@de.
+n0:h3h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.1";
+	skos:broader n0:v3x;
+	skos:prefLabel "Inhalte für das grundlegende und erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:g5g,
+		n0:f2x,
+		n0:g2v,
+		n0:f5s,
+		n0:d4g.
+n0:b7e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.2.1";
+	skos:broader n0:b9c;
+	skos:prefLabel "2. Hauptsatz der Thermodynamik"@de.
+n0:f3c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.2.2";
+	skos:broader n0:b9c;
+	skos:prefLabel "Entropie"@de.
+n0:d7t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.2.3";
+	skos:broader n0:b9c;
+	skos:prefLabel "freie Enthalpie"@de.
+n0:a7q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.2.4";
+	skos:broader n0:b9c;
+	skos:prefLabel "Gibbs-Helmholtz-Gleichung"@de.
+n0:b9c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4.2";
+	skos:broader n0:v3x;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:b7e,
+		n0:f3c,
+		n0:d7t,
+		n0:a7q.
+n0:v3x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4";
+	skos:broader n0:d6y;
+	skos:prefLabel "Energetische und kinetische Aspekte chemischer Reaktionen"@de;
+	skos:narrower 
+		n0:h3h,
+		n0:b9c.
+n0:u4y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.5.1.1";
+	skos:broader n0:a4d;
+	skos:prefLabel "chemisches Gleichgewicht"@de.
+n0:a7a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.5.1.2";
+	skos:broader n0:a4d;
+	skos:prefLabel "Prinzip von Le Chatelier"@de.
+n0:z2z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.5.1.3";
+	skos:broader n0:a4d;
+	skos:prefLabel "Massenwirkungsgesetz (Kc)"@de.
+n0:a4d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.5.1";
+	skos:broader n0:t9f;
+	skos:prefLabel "nhalte für das grundlegende und erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:u4y,
+		n0:a7a,
+		n0:z2z.
+n0:c5r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.5.2.1";
+	skos:broader n0:x5p;
+	skos:prefLabel "Löslichkeitsgleichgewichte"@de.
+n0:x5p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.5.2";
+	skos:broader n0:t9f;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:c5r.
+n0:t9f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.5";
+	skos:broader n0:d6y;
+	skos:prefLabel "Gleichgewichtsreaktionen"@de;
+	skos:narrower 
+		n0:a4d,
+		n0:x5p.
+n0:d6y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Inhaltsbereich: Chemische Reaktionen"@de;
+	skos:narrower 
+		n0:s2v,
+		n0:a4y,
+		n0:x2s,
+		n0:v3x,
+		n0:t9f.
+n0:b6h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.1.1";
+	skos:broader n0:y2c;
+	skos:prefLabel "Nachweis von Ionen und funktionellen Gruppen "@de.
+n0:y2c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.1";
+	skos:broader n0:g5y;
+	skos:prefLabel "Inhalte für das grundlegende und erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:b6h.
+n0:c2g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.2.1";
+	skos:broader n0:e4q;
+	skos:prefLabel "Chromatografie"@de.
+n0:e4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.2";
+	skos:broader n0:g5y;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:c2g.
+n0:g5y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n0:a2f;
+	skos:prefLabel "Qualitative Analyse"@de;
+	skos:narrower 
+		n0:y2c,
+		n0:e4q.
+n0:s9f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1.1";
+	skos:broader n0:e6r;
+	skos:prefLabel "Säure-Base-Titration (mit Umschlagspunkt)"@de.
+n0:e6r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1";
+	skos:broader n0:v2f;
+	skos:prefLabel "Inhalte für das grundlegende und erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:s9f.
+n0:v2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.2.1";
+	skos:broader n0:y4t;
+	skos:prefLabel "Säure-Base-Titration (mit Titrationskurve)"@de.
+n0:x6y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.2.2";
+	skos:broader n0:y4t;
+	skos:prefLabel "Redoxtitration"@de.
+n0:r6r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.2.3";
+	skos:broader n0:y4t;
+	skos:prefLabel "ein Verfahren der instrumentellen Analyse (z. B. Konduktometrie, potentiometrische pH-Messung, Fotometrie, Polarimetrie)"@de.
+n0:y4t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.2";
+	skos:broader n0:v2f;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:v2d,
+		n0:x6y,
+		n0:r6r.
+n0:v2f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2";
+	skos:broader n0:a2f;
+	skos:prefLabel "Quantitative und instrumentelle Analyse"@de;
+	skos:narrower 
+		n0:e6r,
+		n0:y4t.
+n0:s6s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.1.1";
+	skos:broader n0:z4z;
+	skos:prefLabel "Estersynthese"@de.
+n0:a6a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.1.2";
+	skos:broader n0:z4z;
+	skos:prefLabel "Kunststoffsynthese"@de.
+n0:z4z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.1";
+	skos:broader n0:f6b;
+	skos:prefLabel "Inhalte für das grundlegende und erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:s6s,
+		n0:a6a.
+n0:c6f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.2.1";
+	skos:broader n0:z3z;
+	skos:prefLabel "Mechanistische Betrachtung der Estersynthese"@de.
+n0:y2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.2.2";
+	skos:broader n0:z3z;
+	skos:prefLabel "Mechanistische Betrachtung einer Kunststoffsynthese"@de.
+n0:z3z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.2";
+	skos:broader n0:f6b;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:c6f,
+		n0:y2d.
+n0:f6b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3";
+	skos:broader n0:a2f;
+	skos:prefLabel "Synthesen"@de;
+	skos:narrower 
+		n0:z4z,
+		n0:z3z.
+n0:a2f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Inhaltsbereich: Arbeitsweisen"@de;
+	skos:narrower 
+		n0:g5y,
+		n0:v2f,
+		n0:f6b.
+n0:z2s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1.1";
+	skos:broader n0:b9t;
+	skos:prefLabel "moderne Werkstoffe"@de.
+n0:g7t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1.2";
+	skos:broader n0:b9t;
+	skos:prefLabel "Rohstoffgewinnung und -verarbeitung"@de.
+n0:v7c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1.3";
+	skos:broader n0:b9t;
+	skos:prefLabel "Recycling"@de.
+n0:b9t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1";
+	skos:broader n0:s5q;
+	skos:prefLabel "Inhalte für das grundlegende und erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:z2s,
+		n0:g7t,
+		n0:v7c.
+n0:f4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.2.1";
+	skos:broader n0:s2t;
+	skos:prefLabel "Nanomaterialien"@de.
+n0:y4a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.2.2";
+	skos:broader n0:s2t;
+	skos:prefLabel "ein technisches Syntheseverfahren"@de.
+n0:s2t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.2";
+	skos:broader n0:s5q;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:f4q,
+		n0:y4a.
+n0:s5q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1";
+	skos:broader n0:q7f;
+	skos:prefLabel "Aktuelle Technologien und chemische Produkte"@de;
+	skos:narrower 
+		n0:b9t,
+		n0:s2t.
+n0:p6g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1.1";
+	skos:broader n0:q6a;
+	skos:prefLabel "alternative Energieträger"@de.
+n0:g3b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1.2";
+	skos:broader n0:q6a;
+	skos:prefLabel "Recycling"@de.
+n0:q6a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1";
+	skos:broader n0:h3x;
+	skos:prefLabel "Inhalte für das grundlegende und erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:p6g,
+		n0:g3b.
+n0:x7c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.2.1";
+	skos:broader n0:z5b;
+	skos:prefLabel "Energiespeicherung"@de.
+n0:t4t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.2.2";
+	skos:broader n0:z5b;
+	skos:prefLabel "Wertstoffkreisläufe"@de.
+n0:z5b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.2";
+	skos:broader n0:h3x;
+	skos:prefLabel "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"@de;
+	skos:narrower 
+		n0:x7c,
+		n0:t4t.
+n0:h3x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2";
+	skos:broader n0:q7f;
+	skos:prefLabel "Ökonomische und ökologische Aspekte der Chemie"@de;
+	skos:narrower 
+		n0:q6a,
+		n0:z5b.
+n0:q7f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Inhaltsbereich: Lebenswelt und Gesellschaf"@de;
+	skos:narrower 
+		n0:s5q,
+		n0:h3x.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Chemie Sek II 2020 - Inhalte"@de;
+	dct:description """Im Folgenden sind zentrale Inhalte aufgeführt, über die die Lernenden zum Zeitpunkt des Erwerbs der Allgemeinen Hochschulreife verfügen sollen. Dabei wird in ein grundlegendes Anforderungsniveau und ein erhöhtes Anforderungsniveau unterschieden. Diese Inhalte sind Grundlage für die Erstellung von Aufgaben im Rahmen der Prüfung für die Allgemeine Hochschulreife. Einige der zentralen Inhalte werden in manchen Ländern üblicherweise in der Sekundarstufe I oder in der Einführungsphase vermittelt."""@de;
+	skos:hasTopConcept
+		n0:q3u,
+		n0:d6y,
+		n0:a2f,
+		n0:q7f.

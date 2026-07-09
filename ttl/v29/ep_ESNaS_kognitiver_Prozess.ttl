@@ -1,0 +1,26 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v29/ep/>. 
+
+n0:s3b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Reproduzieren/Selegieren"@de.
+n0:z9v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Organisieren/Integrieren"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "NaWi - ESNaS kognitiver Prozess"@de;
+	dc:title "NaWi - ESNaS kognitiver Prozess"@de;
+	dc:description "NaWi - ESNaS kognitiver Prozess"@de;
+	skos:hasTopConcept
+		n0:s3b,
+		n0:z9v.

@@ -1,0 +1,782 @@
+{
+  "id": "https://w3id.org/iqb/v56/fe/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Fremdsprachen Sek I 2023 - ESA Funktionale kommunikative Kompetenz"
+  },
+  "description": {
+    "de": "Bis zum Ersten Schulabschluss erreichen die Schülerinnen und Schüler im Wesentlichen das Niveau A2 des Gemeinsamen europäischen Referenzrahmens."
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v56/fe/s4e",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Rezeption: Hörverstehen / audiovisuelles Verstehen"
+      },
+      "definition": {
+        "de": "Hörverstehen ermöglicht die Teilhabe an Kommunikationssituationen, in denen die Rezeption von auditiv vermittelten Texten im Mittelpunkt steht. Die Anforderungen in den rezeptiven Anteilen solcher Kommunikationssituationen werden durch die Merkmale der Hörtexte geprägt (z. B. Flüchtigkeit des Gesagten, Phänomene gesprochener Sprache wie unvollständige Sätze und ggfs. undeutliche Aussprache) und hängen außerdem von den konkreten Verstehensabsichten ab (z. B. das Thema erfassen, die eher implizit vermittelte Meinung der sprechenden Person zum Thema verstehen, sich eine ganz bestimmte Information merken). Audiovisuelles Verstehen ist, wie das Hörverstehen, auf die Verarbeitung von (eher) mündlichen Texten ausgerichtet. Die Modalität der zu verarbeitenden Informationen wird durch ein visuelles Medium erweitert, ggf. auch durch weitere Medien, insbesondere in digital vermittelten mündlichen Texten. Diese Art des Textverstehens entspricht demnach der Fähigkeit, mit lautlich, sprachlich und visuell kodierten Texten gleich zeitig umzugehen. \\\n\\\n Die Schülerinnen und Schüler können"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v56/fe/b7t",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "in kurzen einfachen Hörtexten Hauptaussagen verstehen und wichtige Informationen erfassen, wenn es um konkrete alltägliche Dinge geht, langsam und deutlich gesprochen und ein frequenter Wortschatz verwendet wird."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v56/fe/f7f",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "das Wesentliche von kurzen, klaren und einfachen Durchsagen, Mitteilungen erfassen."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v56/fe/r9d",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "das Thema von Gesprächen zwischen Anderen erfassen und erkennen, ob Sprechende in einem Gespräch zustimmen oder nicht."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v56/fe/p2z",
+          "notation": [
+            "1.4"
+          ],
+          "prefLabel": {
+            "de": "in einfachen Präsentationen die Hauptaussagen verstehen, wenn es um Dinge von unmittelbarer Bedeutung geht."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v56/fe/a4v",
+          "notation": [
+            "1.5"
+          ],
+          "prefLabel": {
+            "de": "bei kurzen Hörtexten und audiovisuellen Texten anhand erfasster Hauptaussagen Vorhersagen über den weiteren Inhalt treffen."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v56/fe/f2a",
+          "notation": [
+            "1.6"
+          ],
+          "prefLabel": {
+            "de": "die Hauptaussagen in kurzen audiovisuellen Texten erfassen, wenn die sprachlich vermittelte Information durch Bilder unterstützt wird und langsam und deutlich gesprochen wird."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v56/fe/r6s",
+          "notation": [
+            "1.7"
+          ],
+          "prefLabel": {
+            "de": "in kurzen, einfachen literarisch-ästhetischen Hörtexten und audiovisuellen Texten zentrale Themen oder Figuren erkennen, sofern diese anhand vertrauter Situationen erschlossen werden können."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v56/fe/q3g",
+          "notation": [
+            "1.8"
+          ],
+          "prefLabel": {
+            "de": "auf ihnen vertraute (digitale) Werkzeuge bei der Rezeption von Hörtexten und audiovisuellen Texten zurückgreifen. Mitunter benötigen sie dabei Hinweise und Unterstützung."
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v56/fe/p4q",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Rezeption: Leseverstehen"
+      },
+      "definition": {
+        "de": "Das Leseverstehen ermöglicht die Teilhabe an Kommunikationssituationen, in denen die Rezeption schriftlich vermittelter Texte im Mittel punkt steht. Die Anforderungen in den rezeptiven Anteilen solcher Kommunikationssituationen werden durch Merkmale der Texte (z. B. Länge, sprachliche Komplexität, Struktur oder Genre) und durch spezifische Verstehensabsichten (z. B. das Thema erfassen, eine bestimmte Information auffinden) geprägt. \\\n\\\n Die Schülerinnen und Schüler können"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v56/fe/f6z",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "kurze, einfache Korrespondenz zu vertrauten Themen einschließlich der verwendeten Umgangsformen verstehen."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v56/fe/t7x",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "konkrete, voraussagbare Informationen in einfachen Gebrauchsstexten auffinden und verstehen."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v56/fe/h9s",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "kurze, einfache Anleitungen oder Anweisungen verstehen, die einen frequenten Wortschatz verwenden und ggf. durch Bilder veranschaulicht werden."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v56/fe/d6u",
+          "notation": [
+            "2.4"
+          ],
+          "prefLabel": {
+            "de": "in kurzen einfachen Sachtexten Hauptaussagen erkennen und wichtige Informationen erfassen, wenn es um Dinge von unmittelbarer Bedeutung geht."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v56/fe/e6v",
+          "notation": [
+            "2.5"
+          ],
+          "prefLabel": {
+            "de": "in kurzen, einfachen literarisch-ästhetischen Texten zentrale Themen oder Figuren erkennen, sofern diese Texte vertraute Situationen und einen frequenten Wortschatz enthalten."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v56/fe/h3s",
+          "notation": [
+            "2.6"
+          ],
+          "prefLabel": {
+            "de": "die eigene emotionale oder gedankliche Reaktion auf kurze, einfache literarisch-ästhetische Texte erfassen."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v56/fe/y4s",
+          "notation": [
+            "2.7"
+          ],
+          "prefLabel": {
+            "de": "beim Lesen auf ihnen vertraute (digitale) Werkzeuge zurückgreifen. Mitunter benötigen sie dabei Hinweise und Unterstützung."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v56/fe/y2b",
+          "notation": [
+            "2.8"
+          ],
+          "prefLabel": {
+            "de": "bekannte Wörter bzw. den Kontext nutzen, um die Bedeutung unbekannter Wörter in routinemäßigen Alltagskontexten zu erschließen."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v56/fe/e6p",
+          "notation": [
+            "2.9"
+          ],
+          "prefLabel": {
+            "de": "bei kurzen Texten mit Unterstützung Vorhersagen über deren Hauptaussagen treffen."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v56/fe/f6h",
+          "notation": [
+            "2.10"
+          ],
+          "prefLabel": {
+            "de": "auf die in einer Sprache/weiteren Sprachen verfügbaren Kenntnisse und erlernten Strategien zurückgreifen, um zielsprachige Texte zu verstehen. Mitunter benötigen sie dabei Hinweise und Unterstützung."
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v56/fe/r6v",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Sprechen"
+      },
+      "definition": {
+        "de": "Sprechen ist auf die Produktion mündlicher Texte ausgerichtet. Dabei ist Sprechen stets – selbst in der Form eines Vortrags – ein interaktiver Vorgang, da die Reaktionen eines Publikums u.a. eingeplant, antizipiert, aufgegriffen werden. Im Folgenden wird jedoch unterschieden zwischen mündlicher Interaktion als Form dialogischen Sprechens und mündlicher Produktion als Form monologischen Sprechens, da diese jeweils unterschiedliche Teilkompetenzen und Strategien erfordern. Beide Formen mündlicher Kommunikation umfassen narrative, expositorische und argumentative Genres, die für die Alltagskommunikation der Schülerinnen und Schüler relevant sind. Diese Kommunikation findet sowohl face-to-face als auch im digitalen Raum statt. So sind durch den Einsatz digitaler Medien neue Formen der Mündlichkeit entstanden."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v56/fe/p7b",
+          "notation": [
+            "3.1"
+          ],
+          "prefLabel": {
+            "de": "Mündliche Interaktion"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v56/fe/q7z",
+              "notation": [
+                "3.1.1"
+              ],
+              "prefLabel": {
+                "de": "sich in kurzen und einfachen Situationen verständigen, in denen es um einen unkomplizierten und direkten Austausch von Informationen über vertraute Themen geht."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/h7r",
+              "notation": [
+                "3.1.2"
+              ],
+              "prefLabel": {
+                "de": "einfache, alltägliche Höflichkeitsformeln verwenden, um soziale Kontakte herzustellen."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/g7r",
+              "notation": [
+                "3.1.3"
+              ],
+              "prefLabel": {
+                "de": "im Allgemeinen verstehen, wenn in deutlich artikulierter Standardsprache über vertraute Themen langsam gesprochen wird, vorausgesetzt sie können ab und zu darum bitten, dass etwas wiederholt, anders formuliert bzw. erläutert wird."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/a6d",
+              "notation": [
+                "3.1.4"
+              ],
+              "prefLabel": {
+                "de": "relevante Informationen austauschen und, wenn direkt danach gefragt, die eigene Meinung zu einer praktischen Frage äußern, sofern sie Hilfe beim Formulieren erhalten und wenn nötig darum bitten können, dass Kernpunkte wiederholt werden."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/p7v",
+              "notation": [
+                "3.1.5"
+              ],
+              "prefLabel": {
+                "de": "einfache Sachinformationen weitergeben und auf entsprechende einfache Fragen antworten."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/t2s",
+              "notation": [
+                "3.1.6"
+              ],
+              "prefLabel": {
+                "de": "(digitale) Hilfsmittel nutzen, um einfache Nachrichten auszutauschen, Pläne zu machen und Verabredungen zu treffen. Mitunter benötigen sie dabei Hinweise und Unterstützung."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/e7v",
+              "notation": [
+                "3.1.7"
+              ],
+              "prefLabel": {
+                "de": "aus dem eigenen Repertoire passende Wendungen abrufen und erproben."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/x2v",
+              "notation": [
+                "3.1.8"
+              ],
+              "prefLabel": {
+                "de": "Gesten oder ein nicht ganz passendes Wort aus dem eigenen Repertoire verwenden, um eigene Aussagen zu verdeutlichen."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/v4d",
+              "notation": [
+                "3.1.9"
+              ],
+              "prefLabel": {
+                "de": "einfache Mittel anwenden, um ein kurzes Gespräch adressaten-, situations- und zweckangemessen zu beginnen, in Gang zu halten und zu beenden. Mitunter benötigen sie dabei Hinweise und Unterstützung."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/z5v",
+              "notation": [
+                "3.1.10"
+              ],
+              "prefLabel": {
+                "de": "die in einer Sprache/weiteren Sprachen verfügbaren Kenntnisse, Fertigkeiten und erlernten Strategien aktivieren, um Informationen in der Zielsprache auszutauschen. Mitunter benötigen sie dabei Hinweise und Unterstützung."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v56/fe/h4e",
+          "notation": [
+            "3.2"
+          ],
+          "prefLabel": {
+            "de": "Mündliche Produktion"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v56/fe/q2z",
+              "notation": [
+                "3.2.1"
+              ],
+              "prefLabel": {
+                "de": "einfache Beschreibungen und Darstellungen zu vertrauten Themen geben, und zwar in kurzen, listenhaften Abfolgen aus einfachen Wendungen und Sätzen."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/f5u",
+              "notation": [
+                "3.2.2"
+              ],
+              "prefLabel": {
+                "de": "mit einfachen Worten Personen, Orte, Dinge beschreiben."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/u6y",
+              "notation": [
+                "3.2.3"
+              ],
+              "prefLabel": {
+                "de": "kurz und einfach über Ereignisse oder eine Tätigkeit berichten."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/d6r",
+              "notation": [
+                "3.2.4"
+              ],
+              "prefLabel": {
+                "de": "ihre Meinung mit einfachen Worten vorstellen."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/u5d",
+              "notation": [
+                "3.2.5"
+              ],
+              "prefLabel": {
+                "de": "eingeübte kurze Präsentationen zu vertrauten Themen in verschiedenen Kommunikationsformen vortragen und dabei Erläuterungen geben."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/u7c",
+              "notation": [
+                "3.2.6"
+              ],
+              "prefLabel": {
+                "de": "(digitale) Hilfsmittel nutzen, um zusammenhängende mündliche Äußerungen zu vertrauten Themen zu verfassen. Mitunter benötigen sie dabei Hinweise und Unterstützung."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/d2r",
+              "notation": [
+                "3.2.7"
+              ],
+              "prefLabel": {
+                "de": "ihre begrenzten Kompetenzen in den verschiedenen ihnen eventuell zur Verfügung stehenden Sprachen für zusammenhängende Beschreibungen und Berichte in der Zielsprache nutzen. Mitunter benötigen sie dabei Hinweise und Unterstützung."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v56/fe/z2p",
+      "notation": [
+        "4"
+      ],
+      "prefLabel": {
+        "de": "Schreiben"
+      },
+      "definition": {
+        "de": "Schreiben ist auf die Produktion schriftlicher Texte ausgerichtet. Dabei ist es in der Regel eine auf die zwischenmenschliche Kommunikation zielende Aktivität, die allerdings auch individuellen Lern-, Erkenntnis- und Reflexionsprozessen dienen kann. Es wird jedoch im Folgenden zwischen schriftlicher Interaktion (Kommunikation zwischen zwei oder mehreren Partnern) und schriftlicher Produktion (Verfassen von Texten, die keine direkte Reaktion beabsichtigen) unterschieden, da sie unterschiedliche Teilkompetenzen und Strategien erfordern. Die schriftliche Kommunikation umfasst unterschiedliche Genres, d.h. diskurse Textformen, die für die Alltagskommunikation der Schülerinnen und Schüler relevant sind. Durch die digitale Transformation hat die schriftliche Kommunikation an Bedeutung gewonnen und neue (multimodale) Textsorten sind entstanden."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v56/fe/q4q",
+          "notation": [
+            "4.1"
+          ],
+          "prefLabel": {
+            "de": "Schriftliche Interaktion"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v56/fe/z5s",
+              "notation": [
+                "4.1.1"
+              ],
+              "prefLabel": {
+                "de": "aufgabenbezogen bzw. zweckgerichtet in sehr einfachen Texten zu vertrauten Themen schriftlich interagieren."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/c3p",
+              "notation": [
+                "4.1.2"
+              ],
+              "prefLabel": {
+                "de": "kurze, einfache, formelhafte Korrespondenzen verfassen, um andere über unmittelbar notwendige Sachverhalte zu informieren."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/y2x",
+              "notation": [
+                "4.1.3"
+              ],
+              "prefLabel": {
+                "de": "in kurzen Korrespondenzen Informationen austauschen und dabei auf die Fragen einer anderen Person eingehen und antworten."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/s9r",
+              "notation": [
+                "4.1.4"
+              ],
+              "prefLabel": {
+                "de": "kurze, einfache Notizen und Mitteilungen formulieren, die sich auf unmittelbare Bedürfnisse beziehen."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/f2f",
+              "notation": [
+                "4.1.5"
+              ],
+              "prefLabel": {
+                "de": "sich an einfacher sozialer Kommunikation online beteiligen."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/g2s",
+              "notation": [
+                "4.1.6"
+              ],
+              "prefLabel": {
+                "de": "die eigenen Reaktionen auf einen literarisch-ästhetischen Text und die eigenen Gefühle und Gedanken dazu in einfacher Sprache ausdrücken. Mitunter benötigen sie dabei Hinweise und Unterstützung."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/t7a",
+              "notation": [
+                "4.1.7"
+              ],
+              "prefLabel": {
+                "de": "(digitale) Hilfsmittel nutzen, um in einfachen Texten schriftlich zu interagieren. Mitunter benötigen sie dabei Hinweise und Unterstützung."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/r2g",
+              "notation": [
+                "4.1.8"
+              ],
+              "prefLabel": {
+                "de": "aus dem eigenen Repertoire passende Wendungen abrufen und erproben."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/f9b",
+              "notation": [
+                "4.1.9"
+              ],
+              "prefLabel": {
+                "de": "mithilfe von Routinewendungen um Wiederholung oder Klärung von Schlüsselwörtern in digitalen Kommunikationsformen bitten."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/d5u",
+              "notation": [
+                "4.1.10"
+              ],
+              "prefLabel": {
+                "de": "die in einer Sprache/weiteren Sprachen verfügbaren Kenntnisse, Fertigkeiten und erlernten Strategien aktivieren, um schriftlich in der Zielsprache zu interagieren. Mitunter benötigen sie dabei Hinweise und Unterstützung."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v56/fe/z3y",
+          "notation": [
+            "4.2"
+          ],
+          "prefLabel": {
+            "de": "Schriftliche Produktion"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v56/fe/s4b",
+              "notation": [
+                "4.2.1"
+              ],
+              "prefLabel": {
+                "de": "sehr einfache Texte zu vertrauten Themen verfassen, wobei einzelne kürzere Teile in linearer Abfolge verbunden werden."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/u2u",
+              "notation": [
+                "4.2.2"
+              ],
+              "prefLabel": {
+                "de": "einfache Geschichten erzählen."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/g5q",
+              "notation": [
+                "4.2.3"
+              ],
+              "prefLabel": {
+                "de": "eigene Eindrücke und Meinungen zu vertrauten Themen äußern und dabei elementare Alltagswörter und Ausdrücke verwenden."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/b6s",
+              "notation": [
+                "4.2.4"
+              ],
+              "prefLabel": {
+                "de": "(digitale) Hilfsmittel nutzen, um einfache Texte schriftlich zu verfassen. Mitunter benötigen sie dabei Hinweise und Unterstützung."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v56/fe/h9h",
+              "notation": [
+                "4.2.5"
+              ],
+              "prefLabel": {
+                "de": "auf die in einer Sprache/weiteren Sprachen verfügbaren Kenntnisse, Fertigkeiten und erlernten Strategien zurückgreifen, um einfache Texte in der Zielsprache zu verfassen. Mitunter benötigen sie dabei Hinweise und Unterstützung."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v56/fe/q4r",
+      "notation": [
+        "5"
+      ],
+      "prefLabel": {
+        "de": "Mediation / Sprachmittlung"
+      },
+      "definition": {
+        "de": "Mediation ist ein interaktiver Prozess, mit dem Kommunikation, Verständnis und Kooperation zwischen Personen ermöglicht und aufrechterhalten werden. Dieser Prozess vollzieht sich zum Beispiel beim Mitteln von Textinhalten und Konzepten sowie beim Ermöglichen und Gestalten von Kommunikation zwischen Menschen, die aufgrund ihrer Herkunft und Erfahrungen unterschiedliche individuelle, soziale, kulturelle oder sprachliche Grundlagen und Kompetenzen haben. Diese können zu verschiedenen kommunikativ-interaktiven Voraussetzungen und folglich unterschiedlichen Verstehensmöglichkeiten führen und eine Verständigung beeinträchtigen. Sprachmittlung umfasst die sprachlichen Prozesse der Mediation. Sprachmittlung besteht in der adressaten-, situations- und zweckangemessenen Übertragung von Informationen aus einer Sprache A in eine Sprache B für andere Personen, die anderenfalls keinen Zugang zu diesen Informationen hätten. Damit ist die Sprachmittlung eine interaktive kommunikative Kompetenz, die auf andere (fremdsprachliche) Kompetenzbereiche zurückgreift. Die Anforderungen ergeben sich aus der Vertrautheit mit den zu mittelnden Informationen, der Richtung, in der die Sprachmittlung erfolgt sowie ggf. dem Wechsel zwischen verschiedenen sprachlichen Repräsentationsformen (z. B. vom Hören zum Schreiben, vom Lesen zum Sprechen). \\\n\\\n Die Schülerinnen und Schüler können im Rahmen der ihnen zur Verfügung stehenden rezeptiven und produktiven sowie interaktionalen Teilkompetenzen adressaten-, situations- und zweckangemessen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v56/fe/e3a",
+          "notation": [
+            "5.1"
+          ],
+          "prefLabel": {
+            "de": "in beide Richtungen zwischen Deutsch und der ersten Fremdsprache sprachlich und kulturell mündlich, schriftlich sowie im Wechsel der sprachlichen Repräsentationsformen mitteln, wenn die Texte kurz, wenig komplex und in klarer und einfacher Sprache formuliert sind. Dabei sind die Kommunikations- und Interaktionsformen sowie die Themen den Schülerinnen und Schülern besonders vertraut."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v56/fe/v2z",
+          "notation": [
+            "5.2"
+          ],
+          "prefLabel": {
+            "de": "in Gesprächen eine unterstützende Rolle übernehmen, sofern die anderen Teilnehmerinnen und Teilnehmer langsam sprechen und ihnen ggf. dabei helfen, etwas beizutragen und Vorschläge zu machen."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v56/fe/s5e",
+          "notation": [
+            "5.3"
+          ],
+          "prefLabel": {
+            "de": "erkennen, wenn in Sprachmittlungs- bzw. Mediationssituationen herkunfts- oder erfahrungsbedingte Schwierigkeiten auftreten und in einfacher Sprache andeuten, welcher Art das Problem ist."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v56/fe/r6c",
+          "notation": [
+            "5.4"
+          ],
+          "prefLabel": {
+            "de": "in Sprachmittlungs- bzw. Mediationssituationen ihre Kompetenzen im eigenen Repertoire strategisch und häufig zielführend nutzen. Mitunter benötigen sie dabei Hinweise und Unterstützung."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v56/fe/r5g",
+          "notation": [
+            "5.5"
+          ],
+          "prefLabel": {
+            "de": "strategisch und zielführend in Sprachmittlungs- bzw. Mediationssituationen auf personale und mediale (digitale) Hilfen zurückgreifen. Mitunter benötigen sie dabei Hinweise und Unterstützung"
+          }
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

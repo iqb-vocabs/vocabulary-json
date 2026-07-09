@@ -1,0 +1,236 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v47/i1/>. 
+@prefix n1: <https://w3id.org/iqb/v47/i1/>. 
+
+n1:y9b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:f9r;
+	skos:prefLabel "physikalische Größen: Energie, Leistung, Wirkungsgrad"@de.
+n1:y3u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:f9r;
+	skos:prefLabel "Energieformen: Bewegungsenergie, Lageenergie, elektrische Energie, thermische Energie, Strahlungsenergie"@de.
+n1:t4s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:f9r;
+	skos:prefLabel "Energieumwandlung und Energieübertragung"@de.
+n1:u3p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4";
+	skos:broader n1:f9r;
+	skos:prefLabel "Energieerhaltung und Energieentwertung, auch quantitative Bilanzierung"@de.
+n1:v7t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5";
+	skos:broader n1:f9r;
+	skos:prefLabel "Zusammenhang zwischen Energie und Leistung, auch quantitative Betrachtungen"@de.
+n1:g5s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6";
+	skos:broader n1:f9r;
+	skos:prefLabel "nachhaltige Energieversorgung, insbesondere Energiespeicherung"@de.
+n1:f9r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Energie"@de;
+	skos:narrower 
+		n1:y9b,
+		n1:y3u,
+		n1:t4s,
+		n1:u3p,
+		n1:v7t,
+		n1:g5s.
+n1:r2y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:a7e;
+	skos:prefLabel "physikalische Größen: elektrische Energie, elektrische Ladung, elektrische Leistung, elektrische Spannung, elektrische Stromstärke, elektrischer Widerstand"@de.
+n1:r5u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:a7e;
+	skos:prefLabel "Wirkungen und Gefahren des elektrischen Stroms"@de.
+n1:z2r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n1:a7e;
+	skos:prefLabel "Zusammenhang zwischen elektrischer Spannung und elektrischer Stromstärke, auch quantitative Betrachtungen"@de.
+n1:v3f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4";
+	skos:broader n1:a7e;
+	skos:prefLabel "elektromagnetische Induktion"@de.
+n1:b6s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.5";
+	skos:broader n1:a7e;
+	skos:prefLabel "Versorgung mit elektrischer Energie"@de.
+n1:a7e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Elektrizitätslehre"@de;
+	skos:narrower 
+		n1:r2y,
+		n1:r5u,
+		n1:z2r,
+		n1:v3f,
+		n1:b6s.
+n1:r9s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n1:h2z;
+	skos:prefLabel "physikalische Größen: Geschwindigkeit, Kraft, Masse, Ort, Strecke, Zeit"@de.
+n1:f4h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2";
+	skos:broader n1:h2z;
+	skos:prefLabel "Geschwindigkeit (quantitativ) und Geschwindigkeitsänderungen"@de.
+n1:u3z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3";
+	skos:broader n1:h2z;
+	skos:prefLabel "Darstellung von Bewegungsabläufen, insbesondere in Diagrammen"@de.
+n1:z2e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.4";
+	skos:broader n1:h2z;
+	skos:prefLabel "Kräfte und ihre Wirkungen, insbesondere Geschwindigkeitsänderung (Betrag und Richtung)"@de.
+n1:h3r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.5";
+	skos:broader n1:h2z;
+	skos:prefLabel "Trägheitsprinzip"@de.
+n1:b7x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.6";
+	skos:broader n1:h2z;
+	skos:prefLabel "Masse und Gewichtskraft, auch quantitativ"@de.
+n1:h2z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Mechanik"@de;
+	skos:narrower 
+		n1:r9s,
+		n1:f4h,
+		n1:u3z,
+		n1:z2e,
+		n1:h3r,
+		n1:b7x.
+n1:b4f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1";
+	skos:broader n1:h2b;
+	skos:prefLabel "physikalische Größe: Temperatur, Wellenlänge"@de.
+n1:u2h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2";
+	skos:broader n1:h2b;
+	skos:prefLabel "Licht und Wärmestrahlung: Grenzen der Wahrnehmung durch Lebewesen und Erfassung durch Sensoren"@de.
+n1:r7q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3";
+	skos:broader n1:h2b;
+	skos:prefLabel "geradlinige Ausbreitung von Licht (Mondphasen, Finsternisse)"@de.
+n1:r3b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.4";
+	skos:broader n1:h2b;
+	skos:prefLabel "elektromagnetisches Spektrum (Mobilfunkstrahlung, Wärmestrahlung, optische Strahlung, Röntgenstrahlung)"@de.
+n1:e9g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.5";
+	skos:broader n1:h2b;
+	skos:prefLabel "Wechselwirkung von Strahlung und Materie (Reflexion, Streuung, Brechung, Absorption, Emission, Transmission)"@de.
+n1:g4t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.6";
+	skos:broader n1:h2b;
+	skos:prefLabel "Klimaphysik, insbesondere Strahlungshaushalt der Erde (Rückstrahlvermögen, mögliche Kippelemente, natürlicher und anthropogener Treibhauseffekt)"@de.
+n1:h2b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Elektromagnetische Strahlung"@de;
+	skos:narrower 
+		n1:b4f,
+		n1:u2h,
+		n1:r7q,
+		n1:r3b,
+		n1:e9g,
+		n1:g4t.
+n1:d6a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1";
+	skos:broader n1:d5d;
+	skos:prefLabel "physikalische Größen: Aktivität, Halbwertszeit, Zählrate"@de.
+n1:q5p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.2";
+	skos:broader n1:d5d;
+	skos:prefLabel "Absorption, biologische Wirkung und medizinische Nutzung ionisierender Strahlung"@de.
+n1:s9v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.3";
+	skos:broader n1:d5d;
+	skos:prefLabel "Kernumwandlungen (Spontanzerfall, Kernspaltung, Kernfusion) und Lagerung radioaktiver Abfälle"@de.
+n1:d5d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Ionisierende Strahlung"@de;
+	skos:narrower 
+		n1:d6a,
+		n1:q5p,
+		n1:s9v.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Physik MSA 2024 - Verbindliche inhaltliche Aspekte"@de;
+	dct:description """Im Folgenden werden verbindliche Inhalte definiert, an denen die in Kapitel Kompetenzbereiche des Faches Physik beschriebenen Kompetenzen aller vier Kompetenzbereiche erlernt und überprüft werden. Für die Strukturierung wurden fünf Bereiche gewählt, die jedoch Überschneidungen aufweisen und daher nicht getrennt voneinander zu betrachten sind. Die inhaltlichen Aspekte sind so gewählt, dass landesspezifische Ergänzungen und Präzisierungen vorgenommen werden können. Dabei sind regionale und zeitgemäße Kontexte zu berücksichtigen.
+
+Die in den Klammern angegebenen Konkretisierungen sind Teil der verbindlichen Inhalte. Wenn im Folgenden Formeln angewandt, Rechnungen durchgeführt oder aus Diagrammen Gesetzmäßigkeiten abgeleitet werden sollen, wird dies durch die Angabe „quantitativ“ angezeigt."""@de;
+	skos:hasTopConcept
+		n1:f9r,
+		n1:a7e,
+		n1:h2z,
+		n1:h2b,
+		n1:d5d.

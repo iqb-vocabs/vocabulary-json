@@ -1,0 +1,343 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v30/n1/>. 
+@prefix n1: <https://w3id.org/iqb/v30/n1/>. 
+
+n1:c4u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:s7e;
+	skos:prefLabel "die sich aus der Aufgabe, dem Material oder der Problemstellung ergebenden Arbeitsaufträge identifizieren"@de.
+n1:p2f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:s7e;
+	skos:prefLabel "das der Aufgabenstellung oder dem Material zugrundeliegende Thema erfassen"@de.
+n1:y4g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:s7e;
+	skos:prefLabel "den Text- bzw. Materialinhalt geordnet wiedergeben"@de.
+n1:d3r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4";
+	skos:broader n1:s7e;
+	skos:prefLabel "die eigenen Kenntnisse mit dem Thema, dem Hauptgedanken, der Problemstellung verbinden"@de.
+n1:h5u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5";
+	skos:broader n1:s7e;
+	skos:prefLabel "über die dem Thema, dem Bereich entsprechenden Fachbegriffe verfügen"@de.
+n1:x3u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6";
+	skos:broader n1:s7e;
+	skos:prefLabel "die der Aufgabe entsprechende(n) Schreibform(en) benutzen"@de.
+n1:c6g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.7";
+	skos:broader n1:s7e;
+	skos:prefLabel "die der Aufgabenstellung entsprechenden geübten Methoden und Arbeitstechniken anwenden"@de.
+n1:z9t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.8";
+	skos:broader n1:s7e;
+	skos:prefLabel "sprachnorm- und anforderungsgerecht formulieren"@de.
+n1:h7q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.9.1";
+	skos:broader n1:z9u;
+	skos:prefLabel "in der Standardsprache sprechen, vortragen"@de.
+n1:q6p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.9.2";
+	skos:broader n1:z9u;
+	skos:prefLabel "beim Sprechen, Vortrag auch Betonung, Lautstärke, Tempo/Pausen, Stimmhebung und -senkung und Medien nutzen"@de.
+n1:z9u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.9";
+	skos:broader n1:s7e;
+	skos:prefLabel "zusätzliche Anforderungen an die mündliche Darstellung"@de;
+	skos:narrower 
+		n1:h7q,
+		n1:q6p.
+n1:s7e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Anforderungsbereich I"@de; 
+	skos:definition """Verfügbarkeit der für die Bearbeitung der Aufgaben notwendigen inhaltlichen und methodischen Kenntnisse\n\nDie Leistungen umfassen im Anforderungsbereich I:"""@de;
+	skos:narrower 
+		n1:c4u,
+		n1:p2f,
+		n1:y4g,
+		n1:d3r,
+		n1:h5u,
+		n1:x3u,
+		n1:c6g,
+		n1:z9t,
+		n1:z9u.
+n1:f2x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:f6c;
+	skos:prefLabel "einen längeren oder einen komplexen Text bzw. Materialinhalt in eigenständiger Formulierung wiedergeben oder zusammenfassen"@de.
+n1:r5x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:f6c;
+	skos:prefLabel "die Hauptgedanken eines Textes und seine Argumentation differenziert erfassen"@de.
+n1:g5g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n1:f6c;
+	skos:prefLabel "Bezüge in Texten bzw. Materialien erkennen, um Aussagen zu erfassen"@de.
+n1:h7u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4";
+	skos:broader n1:f6c;
+	skos:prefLabel "poetische/stilistische/rhetorische Mittel in einem Text erkennen, beschreiben und untersuchen"@de.
+n1:p2t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.5";
+	skos:broader n1:f6c;
+	skos:prefLabel "inhaltliche und methodische Kenntnisse auf unbekannte Sachverhalte sinnvoll beziehen"@de.
+n1:c7v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.6";
+	skos:broader n1:f6c;
+	skos:prefLabel "die eigenen Ausführungen gedanklich strukturiert sowie inhaltlich klar und differenziert darstellen"@de.
+n1:q5d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.7";
+	skos:broader n1:f6c;
+	skos:prefLabel "die eigenen Ausführungen sprachlich angemessen und in Wortwahl und Satzbau differenziert darstellen"@de.
+n1:a9e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.8.1";
+	skos:broader n1:a4b;
+	skos:prefLabel "einzelne Themen jeweils in geeigneten und unterschiedlichen Formen medial aufbereiten"@de.
+n1:v4u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.8.2";
+	skos:broader n1:a4b;
+	skos:prefLabel "den Vortrag weitgehend frei (vom Stichwortzettel gelöst) gestalten"@de.
+n1:p4f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.8.3";
+	skos:broader n1:a4b;
+	skos:prefLabel "auf eine differenzierte Wortwahl, insbesondere im Hinblick auf Fremdwörter und Fachbegriffe achten"@de.
+n1:h4s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.8.4";
+	skos:broader n1:a4b;
+	skos:prefLabel "nonverbale Gestaltungsmittel sachangemessen einsetzen und den Zuhörer damit verstärkt einbeziehen (Körperhaltung, Gestik, Mimik, Blickkontakt)"@de.
+n1:a4b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.8";
+	skos:broader n1:f6c;
+	skos:prefLabel "zusätzliche Anforderungen an die mündliche Darstellung"@de;
+	skos:narrower 
+		n1:a9e,
+		n1:v4u,
+		n1:p4f,
+		n1:h4s.
+n1:f6c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Anforderungsbereich II"@de; 
+	skos:definition """Selbständiges Erfassen, Einordnen, Strukturieren und Verarbeiten der aus der Thematik, dem Material und der Aufgabenstellung erwachsenden Fragen/Probleme und deren entsprechende gedankliche und sprachliche Bearbeitung.\n\nDie Leistungen umfassen im Anforderungsbereich II:"""@de;
+	skos:narrower 
+		n1:f2x,
+		n1:r5x,
+		n1:g5g,
+		n1:h7u,
+		n1:p2t,
+		n1:c7v,
+		n1:q5d,
+		n1:a4b.
+n1:h4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n1:b2y;
+	skos:prefLabel "komplexe, anspruchsvolle Texte, Problemstellungen, Materialien erfassen und bearbeiten"@de.
+n1:t6f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2";
+	skos:broader n1:b2y;
+	skos:prefLabel "die Aussagen eines Textes, eine Problemstellung in weitere Zusammenhänge einordnen und entsprechend detailliert untersuchen"@de.
+n1:a4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3";
+	skos:broader n1:b2y;
+	skos:prefLabel "begründete Folgerungen aus der Text-, Material- oder Problembearbeitung ziehen und formulieren"@de.
+n1:q2q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.4";
+	skos:broader n1:b2y;
+	skos:prefLabel "Deutungsansätze poetischer/stilistischer/rhetorischer Mittel in einem Text entwickeln"@de.
+n1:c6h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.5";
+	skos:broader n1:b2y;
+	skos:prefLabel "spezielles Fachwissen nutzen"@de.
+n1:h9f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.6";
+	skos:broader n1:b2y;
+	skos:prefLabel "eigene Textproduktion originell und kreativ gestalten"@de.
+n1:b3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.7";
+	skos:broader n1:b2y;
+	skos:prefLabel "einen eigenen Standpunkt begründet darstellen"@de.
+n1:p3d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.8";
+	skos:broader n1:b2y;
+	skos:prefLabel "dem Thema, der Gestaltung gemäße oder auch kontrastierende Darstellungsformen entwickeln"@de.
+n1:h6p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.9";
+	skos:broader n1:b2y;
+	skos:prefLabel "begründete Vermutungen formulieren"@de.
+n1:r4c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.10";
+	skos:broader n1:b2y;
+	skos:prefLabel "selbstständige Schlussfolgerungen entwickeln"@de.
+n1:t6d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.11";
+	skos:broader n1:b2y;
+	skos:prefLabel "kritische Bewertungen vornehmen"@de.
+n1:s6s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.12";
+	skos:broader n1:b2y;
+	skos:prefLabel "eigenständige Lösungsansätze entwickeln"@de.
+n1:u6b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.13";
+	skos:broader n1:b2y;
+	skos:prefLabel "Alternativen aufzeigen"@de.
+n1:s3d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.14";
+	skos:broader n1:b2y;
+	skos:prefLabel "begründete Urteile formulieren"@de.
+n1:b2x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.15";
+	skos:broader n1:b2y;
+	skos:prefLabel "das eigene Vorgehen kritisch untersuchen und beurteilen"@de.
+n1:c4z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.16";
+	skos:broader n1:b2y;
+	skos:prefLabel "eine eigenständige gedankliche und sprachliche Darstellung umsetzen"@de.
+n1:s9b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.17.1";
+	skos:broader n1:y6y;
+	skos:prefLabel "auf Verständnisfragen zum Thema sachkompetent antworten"@de.
+n1:d9h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.17.2";
+	skos:broader n1:y6y;
+	skos:prefLabel "das Gruppengespräch strukturieren (nachfragen, Denkanstöße geben, zielorientiert zusammenfassen)"@de.
+n1:c5f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.17.3";
+	skos:broader n1:y6y;
+	skos:prefLabel "aufmerksam zuhören und Äußerungen anderer einschätzen, aufgreifen und ggf. anerkennen"@de.
+n1:y6y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.17";
+	skos:broader n1:b2y;
+	skos:prefLabel "zusätzliche Anforderungen an die mündliche Darstellung"@de;
+	skos:narrower 
+		n1:s9b,
+		n1:d9h,
+		n1:c5f.
+n1:b2y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Anforderungsbereich III"@de; 
+	skos:definition """Eigenständige Reflexion, Bewertung bzw. Beurteilung einer komplexen Problemstellung/Thematik oder entsprechenden Materials und ggf. die Entwicklung eigener Lösungsansätze.\n\nDie Leistungen umfassen im Anforderungsbereich III:"""@de;
+	skos:narrower 
+		n1:h4e,
+		n1:t6f,
+		n1:a4e,
+		n1:q2q,
+		n1:c6h,
+		n1:h9f,
+		n1:b3y,
+		n1:p3d,
+		n1:h6p,
+		n1:r4c,
+		n1:t6d,
+		n1:s6s,
+		n1:u6b,
+		n1:s3d,
+		n1:b2x,
+		n1:c4z,
+		n1:y6y.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Deutsch HSA 2004 - Anforderungsbereiche"@de;
+	dct:description "Die folgenden drei Anforderungsbereiche lassen sich unterscheiden und beschreiben:"@de;
+	skos:hasTopConcept
+		n1:s7e,
+		n1:f6c,
+		n1:b2y.

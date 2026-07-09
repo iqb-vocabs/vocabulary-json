@@ -1,0 +1,34 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v28/aq/>. 
+@prefix n1: <https://w3id.org/iqb/v28/aq/>. 
+
+n1:r4c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Eigenproduktion (IQB)"@de.
+n1:p3t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Rechte Dritter betroffen"@de.
+n1:g7f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "uneingeschränkt öffentlich"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Deutsch - Art der Quelle(n)"@de;
+	dc:title "Deutsch - Art der Quelle(n)"@de;
+	dc:description "Deutsch - Art der Quelle(n)"@de;
+	skos:hasTopConcept
+		n1:r4c,
+		n1:p3t,
+		n1:g7f.

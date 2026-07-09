@@ -1,0 +1,34 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v25/ve/>. 
+@prefix n1: <https://w3id.org/iqb/v25/ve/>. 
+
+n1:h5v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "durchgängig vertraut"@de.
+n1:y4g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "weitestgehend vertraut"@de.
+n1:g6q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "nicht vertraut"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Textvorgabe Fremdsprachen - Thematischer Vertrautheitsgrad"@de;
+	dc:title "Textvorgabe Fremdsprachen - Thematischer Vertrautheitsgrad"@de;
+	dc:description "Textvorgabe Fremdsprachen - Thematischer Vertrautheitsgrad"@de;
+	skos:hasTopConcept
+		n1:h5v,
+		n1:y4g,
+		n1:g6q.

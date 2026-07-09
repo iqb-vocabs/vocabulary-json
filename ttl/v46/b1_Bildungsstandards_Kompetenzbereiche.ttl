@@ -1,0 +1,230 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v46/b1/>. 
+@prefix n1: <https://w3id.org/iqb/v46/b1/>. 
+
+n1:z6t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 1";
+	skos:broader n1:p5c;
+	skos:prefLabel "verfügen über ein strukturiertes Basiswissen auf der Grundlage der Basiskonzepte,"@de.
+n1:g3b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 2";
+	skos:broader n1:p5c;
+	skos:prefLabel "geben ihre Kenntnisse über physikalische Grundprinzipien, Größenordnungen, Messvorschriften, Naturkonstanten sowie einfache physikalische Gesetze wieder,"@de.
+n1:s6s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 3";
+	skos:broader n1:p5c;
+	skos:prefLabel "nutzen diese Kenntnisse zur Lösung von Aufgaben und Problemen,"@de.
+n1:c2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 4";
+	skos:broader n1:p5c;
+	skos:prefLabel "wenden diese Kenntnisse in verschiedenen Kontexten an,"@de.
+n1:s6t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 5";
+	skos:broader n1:p5c;
+	skos:prefLabel "ziehen Analogien zum Lösen von Aufgaben und Problemen heran."@de.
+n1:p5c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F ";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Fachwissen"@de; 
+	skos:definition """Physikalische Phänomene, Begriffe, Prinzipien, Fakten, Gesetzmäßigkeiten kennen und Basiskonzepten zuordnen.\n\nDie Schülerinnen und Schüler ..."""@de;
+	skos:narrower 
+		n1:z6t,
+		n1:g3b,
+		n1:s6s,
+		n1:c2d,
+		n1:s6t.
+n1:p6y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 1";
+	skos:broader n1:h4h;
+	skos:prefLabel "beschreiben Phänomene und führen sie auf bekannte physikalische Zusammenhänge zurück"@de.
+n1:d3f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 2";
+	skos:broader n1:h4h;
+	skos:prefLabel "wählen Daten und Informationen aus verschiedenen Quellen zur Bearbeitung von Aufgaben und Problemen aus, prüfen sie auf Relevanz und ordnen sie,"@de.
+n1:h3p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 3";
+	skos:broader n1:h4h;
+	skos:prefLabel "verwenden Analogien und Modellvorstellungen zur Wissensgenerierung,"@de.
+n1:p5d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 4";
+	skos:broader n1:h4h;
+	skos:prefLabel "wenden einfache Formen der Mathematisierung an,"@de.
+n1:z5c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 5";
+	skos:broader n1:h4h;
+	skos:prefLabel "nehmen einfache Idealisierungen vor,"@de.
+n1:y5e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 6";
+	skos:broader n1:h4h;
+	skos:prefLabel "stellen an einfachen Beispielen Hypothesen auf,"@de.
+n1:a2b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 7";
+	skos:broader n1:h4h;
+	skos:prefLabel "führen einfache Experimente nach Anleitung durch und werten sie aus,"@de.
+n1:v5r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 8";
+	skos:broader n1:h4h;
+	skos:prefLabel "planen einfache Experimente, führen sie durch und dokumentieren die Ergebnisse,"@de.
+n1:b5h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 9";
+	skos:broader n1:h4h;
+	skos:prefLabel "werten gewonnene Daten aus, ggf. auch durch einfache Mathematisierungen,"@de.
+n1:h7r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 10";
+	skos:broader n1:h4h;
+	skos:prefLabel "beurteilen die Gültigkeit empirischer Ergebnisse und deren Verallgemeinerung."@de.
+n1:h4h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E ";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Erkenntnisgewinnung"@de; 
+	skos:definition """Experimentelle und andere Untersuchungsmethoden sowie Modelle nutzen.\n\nDie Schülerinnen und Schüler ..."""@de;
+	skos:narrower 
+		n1:p6y,
+		n1:d3f,
+		n1:h3p,
+		n1:p5d,
+		n1:z5c,
+		n1:y5e,
+		n1:a2b,
+		n1:v5r,
+		n1:b5h,
+		n1:h7r.
+n1:c3g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 1";
+	skos:broader n1:h3x;
+	skos:prefLabel "tauschen sich über physikalische Erkenntnisse und deren Anwendungen unter angemessener Verwendung der Fachsprache und fachtypischer Darstellungen aus,"@de.
+n1:d9y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 2";
+	skos:broader n1:h3x;
+	skos:prefLabel "unterscheiden zwischen alltagssprachlicher und fachsprachlicher Beschreibung von Phänomenen,"@de.
+n1:g6f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 3";
+	skos:broader n1:h3x;
+	skos:prefLabel "recherchieren in unterschiedlichen Quellen,"@de.
+n1:y3t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 4";
+	skos:broader n1:h3x;
+	skos:prefLabel "beschreiben den Aufbau einfacher technischer Geräte und deren Wirkungsweise,"@de.
+n1:g4x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 5";
+	skos:broader n1:h3x;
+	skos:prefLabel "dokumentieren die Ergebnisse ihrer Arbeit,"@de.
+n1:x3q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 6";
+	skos:broader n1:h3x;
+	skos:prefLabel "präsentieren die Ergebnisse ihrer Arbeit adressatengerecht,"@de.
+n1:a5r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 7";
+	skos:broader n1:h3x;
+	skos:prefLabel "diskutieren Arbeitsergebnisse und Sachverhalte unter physikalischen Gesichtspunkten."@de.
+n1:h3x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K ";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kommunikation"@de; 
+	skos:definition """Informationen sach- und fachbezogen erschließen und austauschen. \n\nDie Schülerinnen und Schüler ..."""@de;
+	skos:narrower 
+		n1:c3g,
+		n1:d9y,
+		n1:g6f,
+		n1:y3t,
+		n1:g4x,
+		n1:x3q,
+		n1:a5r.
+n1:h9a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B 1";
+	skos:broader n1:h4r;
+	skos:prefLabel "zeigen an einfachen Beispielen die Chancen und Grenzen physikalischer Sichtweisen bei inner- und außerfachlichen Kontexten auf,"@de.
+n1:r6s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B 2";
+	skos:broader n1:h4r;
+	skos:prefLabel "vergleichen und bewerten alternative technische Lösungen auch unter Berücksichtung physikalischer, ökonomischer, sozialer und ökologischer Aspekte,"@de.
+n1:y4a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B 3";
+	skos:broader n1:h4r;
+	skos:prefLabel "nutzen physikalisches Wissen zum Bewerten von Risiken und Sicherheitsmaßnahmen bei Experimenten, im Alltag und bei modernen Technologien,"@de.
+n1:c6c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B 4";
+	skos:broader n1:h4r;
+	skos:prefLabel "benennen Auswirkungen physikalischer Erkenntnisse in historischen und gesellschaftlichen Zusammenhängen."@de.
+n1:h4r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B ";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Bewertung"@de; 
+	skos:definition """Physikalische Sachverhalte in verschiedenen Kontexten erkennen und bewerten.\n\nDie Schülerinnen und Schüler ..."""@de;
+	skos:narrower 
+		n1:h9a,
+		n1:r6s,
+		n1:y4a,
+		n1:c6c.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Physik MSA 2004 - Standards (Kompetenzen) "@de;
+	dct:description """Im Folgenden werden für die vier Kompetenzbereiche Regelstandards formuliert, die von Schülerinnen und Schülern mit Erreichen des Mittleren Schulabschlusses zu erwerben sind. Eine Zuordnung konkreter Inhalte erfolgt exemplarisch in den Aufgabenbeispielen. Die Standards sind nach den im Kapitel 2 beschriebenen Kompetenzbereichen geordnet."""@de;
+	skos:hasTopConcept
+		n1:p5c,
+		n1:h4h,
+		n1:h3x,
+		n1:h4r.

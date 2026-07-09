@@ -1,0 +1,857 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v13/k1/>. 
+@prefix n1: <https://w3id.org/iqb/v13/k1/>. 
+
+n1:h6c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1";
+	skos:broader n1:t4u;
+	skos:prefLabel "sich an Gesprächen beteiligen,"@de.
+n1:a4c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.2";
+	skos:broader n1:t4u;
+	skos:prefLabel "gemeinsam entwickelte Gesprächsregeln beachten: z.B. andere zu Ende sprechen lassen, auf Gesprächsbeiträge anderer eingehen, beim Thema bleiben,"@de.
+n1:f4x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.3";
+	skos:broader n1:t4u;
+	skos:prefLabel "Anliegen und Konflikte gemeinsam mit anderen diskutieren und klären."@de.
+n1:t4u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:t2d;
+	skos:prefLabel "Gespräche führen"@de;
+	skos:narrower 
+		n1:h6c,
+		n1:a4c,
+		n1:f4x.
+n1:q5a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1";
+	skos:broader n1:e5f;
+	skos:prefLabel "an der gesprochenen Standardsprache orientiert und artikuliert sprechen,"@de.
+n1:q5s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.2";
+	skos:broader n1:e5f;
+	skos:prefLabel "Wirkungen der Redeweise kennen und beachten,"@de.
+n1:d7p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.3";
+	skos:broader n1:e5f;
+	skos:prefLabel "funktionsangemessen sprechen: erzählen, informieren, argumentieren, appellieren,"@de.
+n1:a4v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.4";
+	skos:broader n1:e5f;
+	skos:prefLabel "Sprechbeiträge und Gespräche situationsangemessen planen"@de.
+n1:e5f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:t2d;
+	skos:prefLabel "zu anderen sprechen"@de;
+	skos:narrower 
+		n1:q5a,
+		n1:q5s,
+		n1:d7p,
+		n1:a4v.
+n1:c6v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1";
+	skos:broader n1:q7b;
+	skos:prefLabel "Inhalte zuhörend verstehen,"@de.
+n1:v2u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2";
+	skos:broader n1:q7b;
+	skos:prefLabel "gezielt nachfragen,"@de.
+n1:y9t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.3";
+	skos:broader n1:q7b;
+	skos:prefLabel "Verstehen und Nicht-Verstehen zum Ausdruck bringen."@de.
+n1:q7b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:t2d;
+	skos:prefLabel "verstehend zuhören"@de;
+	skos:narrower 
+		n1:c6v,
+		n1:v2u,
+		n1:y9t.
+n1:e4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.1";
+	skos:broader n1:d7v;
+	skos:prefLabel "Perspektiven einnehmen,"@de.
+n1:s6q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.2";
+	skos:broader n1:d7v;
+	skos:prefLabel "sich in eine Rolle hineinversetzen und sie gestalten,"@de.
+n1:u6y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.3";
+	skos:broader n1:d7v;
+	skos:prefLabel "Situationen in verschiedenen Spielformen szenisch entfalten."@de.
+n1:d7v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4";
+	skos:broader n1:t2d;
+	skos:prefLabel "szenisch spielen"@de;
+	skos:narrower 
+		n1:e4e,
+		n1:s6q,
+		n1:u6y.
+n1:g3s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5.1";
+	skos:broader n1:f3z;
+	skos:prefLabel "Beobachtungen wiedergeben,"@de.
+n1:v2a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5.2";
+	skos:broader n1:f3z;
+	skos:prefLabel "Sachverhalte beschreiben,"@de.
+n1:f5z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5.3";
+	skos:broader n1:f3z;
+	skos:prefLabel "Begründungen und Erklärungen geben,"@de.
+n1:g4g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5.4";
+	skos:broader n1:f3z;
+	skos:prefLabel "Lernergebnisse präsentieren und dabei Fachbegriffe benutzen,"@de.
+n1:d7t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5.5";
+	skos:broader n1:f3z;
+	skos:prefLabel "über Lernerfahrungen sprechen und andere in ihren Lernprozessen unterstützen"@de.
+n1:f3z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5";
+	skos:broader n1:t2d;
+	skos:prefLabel "über Lernen sprechen"@de;
+	skos:narrower 
+		n1:g3s,
+		n1:v2a,
+		n1:f5z,
+		n1:g4g,
+		n1:d7t.
+n1:t2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sprechen und Zuhören"@de; 
+	skos:definition """Die mündliche Sprache ist ein zentrales Mittel aller schulischen und außerschulischen Kommunikation. Sprechen ist immer auch soziales Handeln.\n\nDie Kinder entwickeln eine demokratische Gesprächskultur und erweitern ihre mündliche Sprachhandlungskompetenz. Sie führen Gespräche, erzählen, geben und verarbeiten Informationen, gestalten ihr Sprechen bewusst und leisten mündliche Beiträge zum Unterricht.\n\nSie drücken ihre Gedanken und Gefühle aus und formulieren ihre Äußerungen im Hinblick auf Zuhörer und Situation angemessen, hören aufmerksam und genau zu, nehmen die Äußerungen anderer und setzen sich mit diesen konstruktiv auseinander."""@de;
+	skos:narrower 
+		n1:t4u,
+		n1:e5f,
+		n1:q7b,
+		n1:d7v,
+		n1:f3z.
+n1:z9z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.1";
+	skos:broader n1:s3a;
+	skos:prefLabel "eine gut lesbare Handschrift flüssig schreiben,"@de.
+n1:r7g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.2";
+	skos:broader n1:s3a;
+	skos:prefLabel "Texte zweckmäßig und übersichtlich gestalten,"@de.
+n1:g6s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.3";
+	skos:broader n1:s3a;
+	skos:prefLabel "den PC – wenn vorhanden - zum Schreiben verwenden und für Textgestaltung nutzen."@de.
+n1:s3a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:f9a;
+	skos:prefLabel "über Schreibfertigkeiten verfügen"@de;
+	skos:narrower 
+		n1:z9z,
+		n1:r7g,
+		n1:g6s.
+n1:q2c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.1";
+	skos:broader n1:y7a;
+	skos:prefLabel "geübte, rechtschreibwichtige Wörter normgerecht schreiben,"@de.
+n1:y3c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.2";
+	skos:broader n1:y7a;
+	skos:prefLabel "Rechtschreibstrategien verwenden: Mitsprechen, Ableiten, Einprägen,"@de.
+n1:d4f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.3";
+	skos:broader n1:y7a;
+	skos:prefLabel "Zeichensetzung beachten: Punkt, Fragezeichen, Ausrufezeichen, Zeichen bei wörtlicher Rede,"@de.
+n1:y5v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.4";
+	skos:broader n1:y7a;
+	skos:prefLabel "über Fehlersensibilität und Rechtschreibgespür verfügen,"@de.
+n1:q6p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.5.1";
+	skos:broader n1:y2d;
+	skos:prefLabel "Wörterbuch nutzen,"@de.
+n1:z7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.5.2";
+	skos:broader n1:y2d;
+	skos:prefLabel "Rechtschreibhilfen des Computers kritisch nutzen,"@de.
+n1:y2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.5";
+	skos:broader n1:y7a;
+	skos:prefLabel "Rechtschreibhilfen verwenden"@de;
+	skos:narrower 
+		n1:q6p,
+		n1:z7z.
+n1:s3x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.6.1";
+	skos:broader n1:b7q;
+	skos:prefLabel "methodisch sinnvoll abschreiben,"@de.
+n1:g4z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.6.2";
+	skos:broader n1:b7q;
+	skos:prefLabel "Übungsformen selbstständig nutzen,"@de.
+n1:p7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.6.3";
+	skos:broader n1:b7q;
+	skos:prefLabel "Texte auf orthographische Richtigkeit überprüfen und korrigieren."@de.
+n1:b7q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.6";
+	skos:broader n1:y7a;
+	skos:prefLabel "Arbeitstechniken nutzen"@de;
+	skos:narrower 
+		n1:s3x,
+		n1:g4z,
+		n1:p7z.
+n1:y7a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:f9a;
+	skos:prefLabel "richtig schreiben"@de;
+	skos:narrower 
+		n1:q2c,
+		n1:y3c,
+		n1:d4f,
+		n1:y5v,
+		n1:y2d,
+		n1:b7q.
+n1:f2c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.1.1";
+	skos:broader n1:u7v;
+	skos:prefLabel "Schreibabsicht, Schreibsituation, Adressaten und Verwendungszusammenhang klären,"@de.
+n1:u3s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.1.2";
+	skos:broader n1:u7v;
+	skos:prefLabel "sprachliche und gestalterische Mittel und Ideen sammeln: Wörter und Wortfelder, Formulierungen und Textmodelle."@de.
+n1:u7v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.1";
+	skos:broader n1:d9r;
+	skos:prefLabel "Texte planen"@de;
+	skos:narrower 
+		n1:f2c,
+		n1:u3s.
+n1:p5t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.3.1";
+	skos:broader n1:h2c;
+	skos:prefLabel "verständlich, strukturiert, adressaten- und funktionsgerecht schreiben: Erlebtes und Erfundenes; Gedanken und Gefühle; Bitten, Wünsche, Aufforderungen und Vereinbarungen; Erfahrungen und Sachverhalte"@de.
+n1:a3t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2.2";
+	skos:broader n1:h2c;
+	skos:prefLabel "Lernergebnisse geordnet festhalten und auch für eine Veröffentlichung verwenden,"@de.
+n1:x6v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2.3";
+	skos:broader n1:h2c;
+	skos:prefLabel "nach Anregungen (Texte, Bilder, Musik) eigene Texte schreiben."@de.
+n1:h2c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.2";
+	skos:broader n1:d9r;
+	skos:prefLabel "Texte schreiben"@de;
+	skos:narrower 
+		n1:p5t,
+		n1:a3t,
+		n1:x6v.
+n1:h4z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.3.1";
+	skos:broader n1:g9v;
+	skos:prefLabel "Texte an der Schreibaufgabe überprüfen,"@de.
+n1:t2c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.3.2";
+	skos:broader n1:g9v;
+	skos:prefLabel "Texte auf Verständlichkeit und Wirkung überprüfen,"@de.
+n1:f2r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.3.3";
+	skos:broader n1:g9v;
+	skos:prefLabel "Texte in Bezug auf die äußere und sprachliche Gestaltung und auf die sprachliche Richtigkeit hin optimieren,"@de.
+n1:d5r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.3.4";
+	skos:broader n1:g9v;
+	skos:prefLabel "Texte für die Veröffentlichung aufbereiten und dabei auch die Schrift gestalten"@de.
+n1:g9v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3.3";
+	skos:broader n1:d9r;
+	skos:prefLabel "Texte überarbeiten"@de;
+	skos:narrower 
+		n1:h4z,
+		n1:t2c,
+		n1:f2r,
+		n1:d5r.
+n1:d9r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n1:f9a;
+	skos:prefLabel "Texte verfassen"@de;
+	skos:narrower 
+		n1:u7v,
+		n1:h2c,
+		n1:g9v.
+n1:f9a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Schreiben"@de; 
+	skos:definition """Im Unterschied zum Sprechen wird beim Schreiben der Text langsamer und überlegter entwickelt, über Geschriebenes kann auch mit anderen nachgedacht und es kann entsprechend überarbeitet werden.\n\nDie Schülerinnen und Schüler nutzen Schreiben zur Kommunikation, zur Aufbewahrung von Informationen, zur gedanklichen Auseinandersetzung sowie zum kreativen und gestalterischen Umgang mit Sprache. Sie gestalten den Schreibprozess selbstständig und verfassen ihre Texte bewusst im Zusammenhang von Schreibabsicht, Inhaltsbezug und Verwendungszusammenhang. Dabei greifen die Teilprozesse des Schreibens ineinander: Texte planen, aufschreiben und überarbeiten.\n\nDie Kinder verfügen über grundlegende Rechtschreibstrategien. Sie können lautentsprechend verschriften und berücksichtigen orthographische und morphematische Regelungen und grammatisches Wissen. Sie haben erste Einsichten in die Prinzipien der Rechtschreibung gewonnen. Sie erproben und vergleichen Schreibweisen und denken über sie nach. Sie gelangen durch Vergleichen, Nachschlagen im Wörterbuch und Anwenden von Regeln zur richtigen Schreibweise. Sie entwickeln Rechtschreibgespür und Selbstverantwortung ihren Texten gegenüber.\n\nDie Schülerinnen und Schüler verfügen über verschiedene Möglichkeiten der ästhetischen Darstellung entsprechend dem Schreibanlass und arbeiten mit unterschiedlichen Medien. Sie schreiben eine lesbare und flüssige Handschrift."""@de;
+	skos:narrower 
+		n1:s3a,
+		n1:y7a,
+		n1:d9r.
+n1:a3b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.1";
+	skos:broader n1:p2d;
+	skos:prefLabel "altersgemäße Texte sinnverstehend lesen,"@de.
+n1:r9b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.2";
+	skos:broader n1:p2d;
+	skos:prefLabel "lebendige Vorstellungen beim Lesen und Hören literarischer Texte entwickeln."@de.
+n1:p2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n1:z4s;
+	skos:prefLabel "über Lesefähigkeiten verfügen"@de;
+	skos:narrower 
+		n1:a3b,
+		n1:r9b.
+n1:y4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1";
+	skos:broader n1:d5b;
+	skos:prefLabel "verschiedene Sorten von Sach- und Gebrauchstexten kennen,"@de.
+n1:u2r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.2";
+	skos:broader n1:d5b;
+	skos:prefLabel "Erzähltexte, lyrische und szenische Texte kennen und unterscheiden,"@de.
+n1:c9d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.3";
+	skos:broader n1:d5b;
+	skos:prefLabel "Kinderliteratur kennen: Werke, Autoren und Autorinnen, Figuren, Handlungen,"@de.
+n1:x4s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.4";
+	skos:broader n1:d5b;
+	skos:prefLabel "Texte begründet auswählen,"@de.
+n1:u7e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.5";
+	skos:broader n1:d5b;
+	skos:prefLabel "sich in einer Bücherei orientieren,"@de.
+n1:c5v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.6";
+	skos:broader n1:d5b;
+	skos:prefLabel "Angebote in Zeitungen und Zeitschriften, in Hörfunk und Fernsehen, auf Ton- und Bildträgern sowie im Netz kennen, nutzen und begründet auswählen,"@de.
+n1:q2f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.7";
+	skos:broader n1:d5b;
+	skos:prefLabel "Informationen in Druck - und – wenn vorhanden - elektronischen Medien suchen,"@de.
+n1:c6x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.8";
+	skos:broader n1:d5b;
+	skos:prefLabel "die eigene Leseerfahrung beschreiben und einschätzen."@de.
+n1:d5b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2";
+	skos:broader n1:z4s;
+	skos:prefLabel "über Leseerfahrungen verfügen"@de;
+	skos:narrower 
+		n1:y4e,
+		n1:u2r,
+		n1:c9d,
+		n1:x4s,
+		n1:u7e,
+		n1:c5v,
+		n1:q2f,
+		n1:c6x.
+n1:h5q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.1";
+	skos:broader n1:a3h;
+	skos:prefLabel "Verfahren zur ersten Orientierung über einen Text nutzen,"@de.
+n1:a2s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.2";
+	skos:broader n1:a3h;
+	skos:prefLabel "gezielt einzelne Informationen suchen,"@de.
+n1:z4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.3";
+	skos:broader n1:a3h;
+	skos:prefLabel "Texte genau lesen,"@de.
+n1:s2a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.4";
+	skos:broader n1:a3h;
+	skos:prefLabel "bei Verständnisschwierigkeiten Verstehenshilfen anwenden: nachfragen, Wörter nachschlagen, Text zerlegen,"@de.
+n1:a4t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.5";
+	skos:broader n1:a3h;
+	skos:prefLabel "Texte mit eigenen Worten wiedergeben,"@de.
+n1:s2f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.6";
+	skos:broader n1:a3h;
+	skos:prefLabel "zentrale Aussagen eines Textes erfassen und wiedergeben,"@de.
+n1:t3d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.7";
+	skos:broader n1:a3h;
+	skos:prefLabel "Aussagen mit Textstellen belegen,"@de.
+n1:s2e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.8";
+	skos:broader n1:a3h;
+	skos:prefLabel "eigene Gedanken zu Texten entwickeln, zu Texten Stellung nehmen und mit anderen über Texte sprechen,"@de.
+n1:t2a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.9";
+	skos:broader n1:a3h;
+	skos:prefLabel "bei der Beschäftigung mit literarischen Texten Sensibilität und Verständnis für Gedanken und Gefühle und zwischenmenschliche Beziehungen zeigen,"@de.
+n1:h5y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.10";
+	skos:broader n1:a3h;
+	skos:prefLabel "Unterschiede und Gemeinsamkeiten von Texten finden,"@de.
+n1:f2t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3.11";
+	skos:broader n1:a3h;
+	skos:prefLabel "handelnd mit Texten umgehen: z.B. illustrieren, inszenieren, umgestalten, collagieren."@de.
+n1:a3h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3";
+	skos:broader n1:z4s;
+	skos:prefLabel "Texte erschließen"@de;
+	skos:narrower 
+		n1:h5q,
+		n1:a2s,
+		n1:z4e,
+		n1:s2a,
+		n1:a4t,
+		n1:s2f,
+		n1:t3d,
+		n1:s2e,
+		n1:t2a,
+		n1:h5y,
+		n1:f2t.
+n1:r9d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.4.1";
+	skos:broader n1:y6b;
+	skos:prefLabel "selbstgewählte Texte zum Vorlesen vorbereiten und sinngestaltend vorlesen,"@de.
+n1:g6c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.4.2";
+	skos:broader n1:y6b;
+	skos:prefLabel "Geschichten, Gedichte und Dialoge vortragen, auch auswendig,"@de.
+n1:d5z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.4.3";
+	skos:broader n1:y6b;
+	skos:prefLabel "ein Kinderbuch selbst auswählen und vorstellen,"@de.
+n1:e3h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.4.4";
+	skos:broader n1:y6b;
+	skos:prefLabel "verschiedene Medien für Präsentationen nutzen,"@de.
+n1:t2f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.4.5";
+	skos:broader n1:y6b;
+	skos:prefLabel "bei Lesungen und Aufführungen mitwirken."@de.
+n1:y6b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.4";
+	skos:broader n1:z4s;
+	skos:prefLabel "Texte präsentieren"@de;
+	skos:narrower 
+		n1:r9d,
+		n1:g6c,
+		n1:d5z,
+		n1:e3h,
+		n1:t2f.
+n1:z4s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Lesen – mit Texten und Medien umgehen"@de; 
+	skos:definition """Lesen ist ein eigenaktiver Prozess der Sinnkonstruktion. Die Grundschule führt zum genießenden, informierenden, selektiven, interpretierenden und kritischen Lesen und legt damit eine tragfähige Grundlage für weiteres Lernen, für weiteres selbstbestimmtes Lesen und eine bewusste Auswahl geeigneter Medien.\n\nDie Kinder erfahren, dass Lesen eine Auseinandersetzung mit der Welt ermöglicht und Vergnügen bereiten kann. Dazu werden an unterschiedlichen Texten Leseinteresse, Lesebereitschaft, Lesefertigkeit und sinnverstehendes Lesen entwickelt. Beim Hören und Lesen literarischer Texte beschäftigen sich die Kinder mit wichtigen, sie bewegenden Fragen und setzen sich identifizierend und abgrenzend mit literarischen Figuren auseinander. Schülerinnen und Schüler gehen mit unterschiedlichen Textsorten in verschiedenen Medien um und können sich ihrem Alter entsprechend in der Medienwelt orientieren, d.h. in Druckmedien, in elektronischen Medien sowie in Massenmedien."""@de;
+	skos:narrower 
+		n1:p2d,
+		n1:d5b,
+		n1:a3h,
+		n1:y6b.
+n1:z7r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1";
+	skos:broader n1:f5c;
+	skos:prefLabel "Beziehung zwischen Absicht – sprachlichen Merkmalen – Wirkungen untersuchen,"@de.
+n1:d9b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.2";
+	skos:broader n1:f5c;
+	skos:prefLabel "Unterschiede von gesprochener und geschriebener Sprache kennen,"@de.
+n1:u5g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.3";
+	skos:broader n1:f5c;
+	skos:prefLabel "Rollen von Sprecher/Schreiber – Hörer/Leser untersuchen und nutzen,"@de.
+n1:r2f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.4";
+	skos:broader n1:f5c;
+	skos:prefLabel "über Verstehens- und Verständigungsprobleme sprechen."@de.
+n1:f5c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1";
+	skos:broader n1:b6p;
+	skos:prefLabel "sprachliche Verständigung untersuchen"@de;
+	skos:narrower 
+		n1:z7r,
+		n1:d9b,
+		n1:u5g,
+		n1:r2f.
+n1:t3f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1";
+	skos:broader n1:u7g;
+	skos:prefLabel "Wörter strukturieren und Möglichkeiten der Wortbildung kennen,"@de.
+n1:c2h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.2";
+	skos:broader n1:u7g;
+	skos:prefLabel "Wörter sammeln und ordnen,"@de.
+n1:r7f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.3";
+	skos:broader n1:u7g;
+	skos:prefLabel "sprachliche Operationen nutzen: umstellen, ersetzen, ergänzen, weglassen,"@de.
+n1:y6q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.4";
+	skos:broader n1:u7g;
+	skos:prefLabel "die Textproduktion und das Textverständnis durch die Anwendung von sprachlichen Operationen unterstützen,"@de.
+n1:v7x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.5";
+	skos:broader n1:u7g;
+	skos:prefLabel "mit Sprache experimentell und spielerisch umgehen."@de.
+n1:u7g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2";
+	skos:broader n1:b6p;
+	skos:prefLabel "an Wörtern, Sätzen, Texten arbeiten"@de;
+	skos:narrower 
+		n1:t3f,
+		n1:c2h,
+		n1:r7f,
+		n1:y6q,
+		n1:v7x.
+n1:p6b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.1";
+	skos:broader n1:a9r;
+	skos:prefLabel "Deutsch – Fremdsprache, Dialekt – Standardsprache; Deutsch – Muttersprachen der Kinder mit Migrationshintergrund; Deutsch – Nachbarsprachen,"@de.
+n1:r6q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.2";
+	skos:broader n1:a9r;
+	skos:prefLabel "gebräuchliche Fremdwörter untersuchen."@de.
+n1:a9r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3";
+	skos:broader n1:b6p;
+	skos:prefLabel "Gemeinsamkeiten und Unterschiede von Sprachen entdecken"@de;
+	skos:narrower 
+		n1:p6b,
+		n1:r6q.
+n1:y6p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.4.1.1";
+	skos:broader n1:h5p;
+	skos:prefLabel "Buchstabe, Laut, Selbstlaut, Mitlaut, Umlaut, Silbe, Alphabet"@de.
+n1:p5x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.4.1.2";
+	skos:broader n1:h5p;
+	skos:prefLabel """Wortfamilie, Wortstamm, Wortbaustein\n\nWortfeld\n\nWortart"""@de.
+n1:d3s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.4.1.3";
+	skos:broader n1:h5p;
+	skos:prefLabel "Nomen: Einzahl, Mehrzahl, Fall, Geschlecht"@de.
+n1:d4t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.4.1.4";
+	skos:broader n1:h5p;
+	skos:prefLabel """Verb: Grundform, gebeugte Form\n\nZeitformen: Gegenwart, Vergangenheitsformen"""@de.
+n1:p4s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.4.1.5";
+	skos:broader n1:h5p;
+	skos:prefLabel "Artikel: bestimmter Artikel, unbestimmter Artikel"@de.
+n1:f4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.4.1.6";
+	skos:broader n1:h5p;
+	skos:prefLabel "Adjektiv: Grundform, Vergleichsstufen"@de.
+n1:d6c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.4.1.7";
+	skos:broader n1:h5p;
+	skos:prefLabel "Pronomen"@de.
+n1:v3e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.4.1.8";
+	skos:broader n1:h5p;
+	skos:prefLabel "andere Wörter (alle hier nicht kategorisierten Wörter gehören zu dieser Restkategorie)"@de.
+n1:h5p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.4.1";
+	skos:broader n1:d2x;
+	skos:prefLabel "Wort"@de;
+	skos:narrower 
+		n1:y6p,
+		n1:p5x,
+		n1:d3s,
+		n1:d4t,
+		n1:p4s,
+		n1:f4e,
+		n1:d6c,
+		n1:v3e.
+n1:y7b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.4.2.1";
+	skos:broader n1:a4u;
+	skos:prefLabel """Satzzeichen: Punkt, Komma, Fragezeichen, Ausrufezeichen, Doppelpunkt, Redezeichen \n\nSatzart: Aussage-, Frage-, Ausrufesatz wörtliche Rede"""@de.
+n1:s9h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.4.2.2";
+	skos:broader n1:a4u;
+	skos:prefLabel "Subjekt"@de.
+n1:b3f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.4.2.3";
+	skos:broader n1:a4u;
+	skos:prefLabel "Prädikat/Satzkern"@de.
+n1:r5d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.4.2.4";
+	skos:broader n1:a4u;
+	skos:prefLabel "Ergänzungen: Satzglied; einteilige, mehrteilige Ergänzung"@de.
+n1:z6e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.4.2.5";
+	skos:broader n1:a4u;
+	skos:prefLabel "Vergangenheit, Gegenwart, Zukunft (als Zeitstufen)"@de.
+n1:a4u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.4.2";
+	skos:broader n1:d2x;
+	skos:prefLabel "Satz"@de;
+	skos:narrower 
+		n1:y7b,
+		n1:s9h,
+		n1:b3f,
+		n1:r5d,
+		n1:z6e.
+n1:d2x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.4";
+	skos:broader n1:b6p;
+	skos:prefLabel "grundlegende sprachliche Strukturen und Begriffe kennen und verwenden"@de; 
+	skos:definition "Es geht hier in erster Linie um die mit Begriffen und Strukturen gemeinten Kategorien. Die Bezeichnungen dafür können unterschiedlich sein."@de;
+	skos:narrower 
+		n1:h5p,
+		n1:a4u.
+n1:b6p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sprache und Sprachgebrauch untersuchen"@de; 
+	skos:definition "Anknüpfend an ihre Spracherfahrungen entwickeln die Kinder ihr Sprachgefühl weiter und gehen bewusster mit Sprache um. In altersgemäßen, lebensnahen Sprach- und Kommunikationssituationen erfahren und untersuchen die Kinder die Sprache in ihren Verwendungszusammenhängen und gehen dabei auf die inhaltliche Dimension und die Leistung von Wörtern, Sätzen und Texten ein. Sie sprechen auch über Erfahrungen mit anderen Sprachen. Sie verfügen über ein Grundwissen an grammatischen Strukturen, einen Grundbestand an Begriffen und Verfahren zum Untersuchen von Sprache."@de;
+	skos:narrower 
+		n1:f5c,
+		n1:u7g,
+		n1:a9r,
+		n1:d2x.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Deutsch Primar 2004 - Standards für die Kompetenzbereiche des Faches Deutsch"@de;
+	dc:title "Bildungsstandards Deutsch Primar 2004 - Standards für die Kompetenzbereiche des Faches Deutsch"@de;
+	dc:description "Bildungsstandards Deutsch Primar 2004 - Standards für die Kompetenzbereiche des Faches Deutsch"@de;
+	skos:hasTopConcept
+		n1:t2d,
+		n1:f9a,
+		n1:z4s,
+		n1:b6p.

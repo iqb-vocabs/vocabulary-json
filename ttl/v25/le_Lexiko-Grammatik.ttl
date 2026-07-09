@@ -1,0 +1,34 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v25/le/>. 
+@prefix n1: <https://w3id.org/iqb/v25/le/>. 
+
+n1:p4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "durchgängig einfach"@de.
+n1:a2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "einzelne komplexe Elemente"@de.
+n1:p9a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "durchgängig komplex"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Textvorgabe Fremdsprachen - Lexiko-Grammatik"@de;
+	dc:title "Textvorgabe Fremdsprachen - Lexiko-Grammatik"@de;
+	dc:description "Textvorgabe Fremdsprachen - Lexiko-Grammatik"@de;
+	skos:hasTopConcept
+		n1:p4q,
+		n1:a2d,
+		n1:p9a.

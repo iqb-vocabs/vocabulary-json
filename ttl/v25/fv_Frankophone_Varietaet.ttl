@@ -1,0 +1,83 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v25/fv/>. 
+@prefix n1: <https://w3id.org/iqb/v25/fv/>. 
+
+n1:a7v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Standardsprache"@de.
+n1:g4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Afrikanisch"@de.
+n1:u4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Belgisches Französisch"@de.
+n1:f5q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Bretonisch"@de.
+n1:h7q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kanadisch"@de.
+n1:z5v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Korsisch"@de.
+n1:x2b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kreolisch"@de.
+n1:h7h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Luxemburgisch"@de.
+n1:e5s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Schweizer Französisch"@de.
+n1:c3e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Südfranzösisch"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Textvorgabe Fremdsprachen - Frankophone Varietät"@de;
+	dc:title "Textvorgabe Fremdsprachen - Frankophone Varietät"@de;
+	dc:description "Textvorgabe Fremdsprachen - Frankophone Varietät"@de;
+	skos:hasTopConcept
+		n1:a7v,
+		n1:g4q,
+		n1:u4e,
+		n1:f5q,
+		n1:h7q,
+		n1:z5v,
+		n1:x2b,
+		n1:h7h,
+		n1:e5s,
+		n1:c3e.

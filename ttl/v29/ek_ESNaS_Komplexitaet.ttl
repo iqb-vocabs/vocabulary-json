@@ -1,0 +1,33 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v29/ek/>. 
+
+n0:p6z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Fakt/-en"@de.
+n0:s2e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Zusammenhang/-hänge"@de.
+n0:b5y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Konzept/-e"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "NaWi - ESNaS Komplexität"@de;
+	dc:title "NaWi - ESNaS Komplexität"@de;
+	dc:description "NaWi - ESNaS Komplexität"@de;
+	skos:hasTopConcept
+		n0:p6z,
+		n0:s2e,
+		n0:b5y.

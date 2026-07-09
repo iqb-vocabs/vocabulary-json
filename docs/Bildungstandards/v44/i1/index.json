@@ -1,0 +1,349 @@
+{
+  "id": "https://w3id.org/iqb/v44/i1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Biologie MSA 2024 - Verbindliche inhaltliche Aspekte"
+  },
+  "description": {
+    "de": "Die Liste verbindlicher inhaltlicher Aspekte dient dazu, einen einheitlichen Grundstock an Inhalten zu benennen, mithilfe derer die in den Bildungsstandards für das Fach Biologie definierten Kompetenzen erworben und überprüft werden. Diese Inhalte sollen in Grundzügen behandelt oder an Beispielen ausgewählt zum Kompetenzaufbau beitragen. Entsprechende Präzisierungen können landesspezifisch vorgenommen werden."
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v44/i1/f6y",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Lebewesen bestehen aus Zellen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v44/i1/e6u",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "Kennzeichen des Lebendigen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v44/i1/s4v",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "Zellen, Mitose, Meiose"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v44/i1/d9q",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "Fotosynthese und Zellatmung"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v44/i1/u5c",
+          "notation": [
+            "1.4"
+          ],
+          "prefLabel": {
+            "de": "Enzymreaktion"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v44/i1/c7q",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Vielfalt und Veränderung von Lebewesen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v44/i1/a3f",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "Evolutionstheorie"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v44/i1/b7y",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "Vererbung, genetische Variabilität"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v44/i1/e5q",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "Angepasstheit, Artbildung, Verwandtschaft"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v44/i1/b6d",
+          "notation": [
+            "2.4"
+          ],
+          "prefLabel": {
+            "de": "Stammesgeschichte des Menschen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v44/i1/e5b",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Der Mensch als Lebewesen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v44/i1/d2f",
+          "notation": [
+            "3.1"
+          ],
+          "prefLabel": {
+            "de": "Organsysteme"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v44/i1/q2a",
+          "notation": [
+            "3.2"
+          ],
+          "prefLabel": {
+            "de": "Mechanismen der Immunabwehr, Impfung"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v44/i1/d2r",
+          "notation": [
+            "3.3"
+          ],
+          "prefLabel": {
+            "de": "Gesundheitsbildung, Ernährung, Suchtprävention"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v44/i1/h5z",
+          "notation": [
+            "3.4"
+          ],
+          "prefLabel": {
+            "de": "Sexualbildung und Diversität, Pubertät, Fortpflanzung"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v44/i1/r7z",
+      "notation": [
+        "4"
+      ],
+      "prefLabel": {
+        "de": "Lebewesen in ihrer Umwelt"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v44/i1/c6p",
+          "notation": [
+            "4.1"
+          ],
+          "prefLabel": {
+            "de": "Ökosysteme, Biodiversität, Naturschutz"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v44/i1/g4f",
+          "notation": [
+            "4.2"
+          ],
+          "prefLabel": {
+            "de": "Artenkenntnis, Wechselbeziehungen zwischen Lebewesen und ihrer Umwelt"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v44/i1/b7b",
+          "notation": [
+            "4.3"
+          ],
+          "prefLabel": {
+            "de": "Kohlenstoffkreislauf, Energiefluss und Trophiestufen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v44/i1/t6r",
+          "notation": [
+            "4.4"
+          ],
+          "prefLabel": {
+            "de": "Klimawandel, Klimafolgen, Nachhaltigkeit"
+          }
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

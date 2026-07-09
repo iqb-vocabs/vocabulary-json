@@ -1,0 +1,111 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v59/f3/>. 
+@prefix n1: <https://w3id.org/iqb/v59/f3/>. 
+
+n1:v5z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:h9x;
+	skos:prefLabel "sprachlich und inhaltlich komplexe, literarische und nicht-literarische Texte verstehen und strukturiert zusammenfassen"@de.
+n1:d2s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:h9x;
+	skos:prefLabel "mithilfe sprachlichen, inhaltlichen sowie textsortenspezifischen und ggf. stilistisch-rhetorischen Wissens literarische und nicht-literarische Texte aufgabenbezogen analysieren, deuten und die gewonnenen Aussagen am Text belegen"@de.
+n1:b7d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:h9x;
+	skos:prefLabel "die Wirkung spezifischer Gestaltungsmittel medial vermittelter Texte erkennen und deuten"@de.
+n1:b4s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4";
+	skos:broader n1:h9x;
+	skos:prefLabel "sich mit den Perspektiven und Handlungsmustern von Akteuren, Charakteren und Figuren auseinandersetzen und ggf. einen Perspektivenwechsel vollziehen"@de.
+n1:v4r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5";
+	skos:broader n1:h9x;
+	skos:prefLabel "bei der Deutung eine eigene Perspektive herausarbeiten und plausibel darstellen"@de.
+n1:h4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6";
+	skos:broader n1:h9x;
+	skos:prefLabel "Textvorlagen durch das Verfassen eigener – auch kreativer – Texte erschließen, interpretieren und ggf. weiterführen"@de.
+n1:c6a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.7";
+	skos:broader n1:h9x;
+	skos:prefLabel "ihr Erstverstehen kritisch reflektieren, relativieren und ggf. revidieren"@de.
+n1:s4c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.8";
+	skos:broader n1:h9x;
+	skos:prefLabel "Hilfsmittel zum vertieften sprachlichen, inhaltlichen und textuellen Verstehen und Produzieren von Texten selbstständig verwenden"@de.
+n1:h9x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Grundlegendes Niveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:v5z,
+		n1:d2s,
+		n1:b7d,
+		n1:b4s,
+		n1:v4r,
+		n1:h4q,
+		n1:c6a,
+		n1:s4c.
+n1:p7c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:e6s;
+	skos:prefLabel "Gestaltungsmittel in ihrer Wirkung erkennen, deuten und bewerten"@de.
+n1:x7r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:e6s;
+	skos:prefLabel "die von ihnen vollzogenen Deutungs- und Produktionsprozesse reflektieren und darlegen"@de.
+n1:h4b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n1:e6s;
+	skos:prefLabel "Textvorlagen unter Berücksichtigung von Hintergrundwissen in ihrem historischen und sozialen Kontext interpretieren"@de.
+n1:e6s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Erhöhtes Niveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können darüber hinaus"@de;
+	skos:narrower 
+		n1:p7c,
+		n1:x7r,
+		n1:h4b.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Fremdsprachen Sek II 2012 - Text- und Medienkompetenz"@de;
+	dct:description """Text- und Medienkompetenz umfasst die Fähigkeit, Texte selbstständig, zielbezogen sowie in ihren historischen und sozialen Kontexten zu verstehen, zu deuten und eine Interpretation zu begründen. Text- und Medienkompetenz schließt überdies die Fähigkeit mit ein, die gewonnenen Erkenntnisse über die Bedingungen und Techniken der Erstellung von Texten zur Produktion eigener Texte unterschiedlicher Textsorten zu nutzen. Alle mündlich, schriftlich und medial vermittelten Produkte, die Schülerinnen und Schüler rezipieren, produzieren oder austauschen, werden als „Text“ verstanden. Der Medienbegriff umfasst alle Mittel und Verfahren der Informationsverarbeitung und verbreitung.
+
+Als komplexe, integrative Kompetenz geht die Text- und Medienkompetenz über die in den zugrunde liegenden funktionalen kommunikativen Kompetenzen definierten Anforderungen hinaus (insbesondere im Vergleich zum Lese- und Hör-/Hörsehverstehen). Dies entspricht dem zentralen Stellenwert von Texten und Medien für alle Zielsetzungen des gymnasialen Oberstufenunterrichts. Die Schülerinnen und Schüler greifen im Sinne des vernetzenden Lernens auf Wissen zurück, das sie in schulischen Lernangeboten und außerhalb der Schule erworben haben, und entwickeln es weiter.
+
+Text- und Medienkompetenz ermöglicht das Verstehen und Deuten von kontinuierlichen und diskontinuierlichen –auch audio- und audiovisuellen – Texten in ihren Bezügen und Voraussetzungen. Sie umfasst das Erkennen konventionalisierter, kulturspezifisch geprägter Charakteristika von Texten und Medien, die Verwendung dieser Charakteristik bei der Produktion eigener Texte sowie die Reflektion des individuellen Rezeptions- und Produktionsprozesses."""@de;
+	skos:hasTopConcept
+		n1:h9x,
+		n1:e6s.

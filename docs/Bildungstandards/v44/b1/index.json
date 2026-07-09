@@ -1,0 +1,233 @@
+{
+  "id": "https://w3id.org/iqb/v44/b1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Biologie MSA 2024 - Basiskonzepte"
+  },
+  "description": {
+    "de": "Der Beschreibung und Erklärung von biologischen Sachverhalten liegen fachspezifische Gemeinsamkeiten zugrunde, die sich in Form von Basiskonzepten strukturieren lassen. Die Basiskonzepte im Fach Biologie ermöglichen die Vernetzung fachlicher Inhalte und deren Betrachtung aus verschiedenen Perspektiven. Die Basiskonzepte werden übergreifend auf alle Kompetenzbereiche bezogen und sind damit für alle Standards bedeutsam. Sie können kumulativ den Aufbau von strukturiertem Wissen und die Erschließung neuer Inhalte fördern.\n\nLebewesen stehen in stofflichen, energetischen und informatorischen Wechselwirkungen mit ihrer Umwelt, sind offene Systeme, zu Selbstregulation fähig und entwickeln sich individuell und evolutiv. Daraus werden folgende Basiskonzepte für den Biologieunterricht abgeleitet: Struktur und Funktion, Stoff- und Energieumwandlung, Information und Kommunikation, Steuerung und Regelung sowie individuelle und evolutive Entwicklung. Diese Basiskonzepte ermöglichen eine multiperspektivische, vernetzte und vertiefte Herangehensweise an Themen und Problemstellungen des Biologieunterrichts und eine Fokussierung auf zentrale Aspekte innerhalb der Vielfalt biologischer Phänomene. Basiskonzepte lassen sich auf verschiedenen Systemebenen betrachten.\n\nBasiskonzepte unterstützen durch das Entdecken gleicher Erklärungsmuster zum einen die Vertiefung der bis zum Mittleren Schulabschluss erworbenen Kompetenzen, zum anderen erleichtern sie die Entwicklung fachbezogener Kompetenzen, indem sie einen nachhaltigen und vernetzten Wissenserwerb fördern."
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v44/b1/b3z",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Struktur und Funktion"
+      },
+      "definition": {
+        "de": "Das Basiskonzept Struktur und Funktion beschreibt den Sachverhalt, dass es zwischen einer Struktur und deren Funktion oft einen Zusammenhang gibt. Der Zusammenhang von Struktur und Funktion ist auf verschiedenen Systemebenen relevant und gilt für Lebewesen und Lebensvorgänge."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v44/b1/p4e",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Stoff- und Energieumwandlung"
+      },
+      "definition": {
+        "de": "Das Basiskonzept Stoff- und Energieumwandlung beschreibt den Sachverhalt, dass biologische Systeme offene, sich selbst organisierende Systeme sind, die im ständigen Austausch mit der Umwelt stehen. Alle Lebensprozesse benötigen Energie und laufen unter Energieumwandlungen ab. Lebewesen nehmen Stoffe auf, wandeln sie um und scheiden Stoffe wieder aus."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v44/b1/c6f",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Information und Kommunikation"
+      },
+      "definition": {
+        "de": "Das Basiskonzept Information und Kommunikation beschreibt den Sachverhalt, dass Lebewesen Informationen aufnehmen, weiterleiten, verarbeiten, speichern und auf sie reagieren. Kommuni-kation findet auf verschiedenen Systemebenen statt. In einem vielzelligen Organismus sind alle Organe, Gewebe, Zellen und deren Bestandteile beständig an der Kommunikation beteiligt. Auch zwischen Organismen findet Kommunikation auf vielfältige Weise statt."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v44/b1/c2u",
+      "notation": [
+        "4"
+      ],
+      "prefLabel": {
+        "de": "Steuerung und Regelung"
+      },
+      "definition": {
+        "de": "Das Basiskonzept Steuerung und Regelung beschreibt den Sachverhalt, dass biologische Sys-teme viele Zustandsgrößen in Grenzen halten, auch wenn innere oder äußere Faktoren sich kurz-fristig stark ändern. Dabei werden innere Zustände durch Kontrollmechnismen aufrechterhalten oder funktionsbezogen verändert."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v44/b1/t2r",
+      "notation": [
+        "5"
+      ],
+      "prefLabel": {
+        "de": "Individuelle Entwicklung"
+      },
+      "definition": {
+        "de": "Das Basiskonzept individuelle Entwicklung beschreibt den Sachverhalt, dass sich lebende Systeme stetig verändern. Dies geschieht im Wachstum aus einer Zelle durch genetische Programmabläufe über Zellteilung, Zelldifferenzierung, Formbildung sowie Fortpflanzung und Altern bis zum Tod."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v44/b1/y9u",
+      "notation": [
+        "6"
+      ],
+      "prefLabel": {
+        "de": "Evolutive Entwicklung"
+      },
+      "definition": {
+        "de": "Das Basiskonzept evolutive Entwicklung beschreibt den Sachverhalt, dass sich lebende Systeme über verschiedene Zeiträume im Zusammenhang mit Umwelteinflüssen verändern. Die sexuelle Fortpflanzung von Lebewesen führt zur Rekombination von genetischem Material, was die genetische Variation erhöht. Zusammen mit Selektion ist genetische Variation eine wichtige Ursache für Artwandel."
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

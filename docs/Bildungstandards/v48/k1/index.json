@@ -1,0 +1,703 @@
+{
+  "id": "https://w3id.org/iqb/v48/k1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Physik Sek II 2020 - Bildungsstandards für die Kompetenzbereiche im Faches Physik"
+  },
+  "description": {
+    "de": "Die Bildungsstandards für die Allgemeine Hochschulreife definieren die Kompetenzen, die Lernende bis zum Ende der Qualifikationsphase erwerben sollen. Diese werden im Unterricht sowohl auf grundlegendem als auch auf erhöhtem Anforderungsniveau entwickelt.\n\nUnterricht auf grundlegendem Anforderungsniveau repräsentiert gemäß der Vereinbarung zur Gestaltung der gymnasialen Oberstufe und der Abiturprüfung (i. d. F. vom 15.02.2018, Ziffer 3.2) „das Lernniveau der gymnasialen Oberstufe unter dem Aspekt einer wissenschaftspropädeutischen Bildung. Unterricht mit erhöhtem Anforderungsniveau repräsentiert das Lernniveau der gymnasialen Oberstufe unter dem Aspekt einer wissenschaftspropädeutischen Bildung, die exemplarisch vertieft wird.“\n\nDer Unterschied in den Anforderungen der beiden Anforderungsniveaus liegt im Umfang und in der Tiefe der gewonnenen Kenntnisse und des Wissens über deren Verknüpfungen. Zudem unterscheiden sie sich im Maß der Selbststeuerung bei der Bearbeitung von Problemstellungen.\n\nDas erhöhte Anforderungsniveau äußert sich im Physikunterricht im Bereich der Sachkompetenz darin, dass zu bestimmten Themen mehr Sachverhalte evtl. in höherer Komplexität der verwendeten Modelle detaillierter betrachtet werden. Darüber hinaus nutzen Lernende des erhöhten Anforderungsniveaus auch eine deutlich umfangreichere und tiefere Mathematisierung.\n\nIm Bereich der Erkenntnisgewinnungskompetenz wird auf erhöhtem Anforderungsniveau vermehrt auf einen formalen Umgang mit Messunsicherheiten und auf die Reflexion über Vor- und Nachteile oder die Aussagekraft verschiedener Mess- und Auswertungsverfahren Wert gelegt.\n\nDie Lernenden des erhöhten Anforderungsniveaus besitzen im Bereich der Kommunikationskompetenz ein umfangreicheres Fachvokabular und drücken sich fachlich präziser aus. Sie sind in der Lage, sprachlich und inhaltlich komplexere Fachtexte zu verstehen.\n\nIm Bereich der Bewertungskompetenz können Lernende auf erhöhtem Anforderungsniveau mehr und komplexere Ar-\ngumente mit Belegen heranziehen. Auch gelingt es ihnen, eigene Standpunkte differenzierter zu begründen und so\nbesser gegen sachliche Kritik zu verteidigen.\n\nIm Folgenden werden die einzelnen Kompetenzbereiche definiert und näher beschrieben. Sie werden in Form von Standards präzisiert. Dabei gelten die formulierten Standards für beide Anforderungsniveaus. Die Inhalte, an denen die Kompetenzen erworben werden, sind im Textfassung Kapitel 2.6 aufgeführt."
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v48/k1/p2s",
+      "notation": [
+        "B "
+      ],
+      "prefLabel": {
+        "de": "Bewertungskompetenz"
+      },
+      "definition": {
+        "de": "Die Bewertungskompetenz der Lernenden zeigt sich in der Kenntnis von fachlichen und überfachlichen Perspektiven und Bewertungsverfahren und in der Fähigkeit, diese zu nutzen, um Aussagen bzw. Daten anhand verschiedener Kriterien zu beurteilen, sich dazu begründet Meinungen zu bilden, Entscheidungen auch auf ethischer Grundlage zu treffen und Entscheidungsprozesse und deren Folgen zu reflektieren.\\\n\\\nUm in Praxissituationen einen Bewertungsprozess durchführen zu können, ist es notwendig, Wissen über Bewertungsverfahren zu haben, wissenschaftliche sowie nicht wissenschaftliche Aussagen anhand von formalen und inhaltlichen Kriterien prüfen und den Einfluss von Werten, Normen und Interessen auf Bewertungsergebnisse einschätzen zu können. Im Zentrum des Bewertungsprozesses stehen dabei das Entwickeln und Reflektieren geeigneter Kriterien als Grundlage für eine Entscheidung oder Meinungsbildung und das Zusammentragen physikalischer Erkenntnisse, die – organisiert anhand der Kriterien – als Argumente dienen.\\\n\\\nUm selbstbestimmt an gesellschaftlichen Meinungsbildungsprozessen teilhaben zu können, beziehen Lernende im Kompetenzbereich Bewerten bei gesellschaftlich relevanten Fragestellungen mit fachlichem Bezug kriteriengeleitet einen eigenen Standpunkt und treffen sachgerechte Entscheidungen. Dazu tragen sie relevante physikalische, aber auch nicht physikalische (z. B. ökonomische, ökologische, soziale, politische oder ethische) Kriterien zusammen, sammeln geeignete Belege und wägen sie unter Berücksichtigung von Normen, Werten und Interessen gegeneinander ab. Physikalisch kompetent bewerten heißt also, über die rein sachliche Beurteilung von physikalischen Aussagen hinauszugehen, weshalb rein innerfachliche Bewertungen z. B. der Anwendbarkeit eines Modells, der Güte von Experimentierergebnissen oder der Korrektheit fachwissenschaftlicher Argumentationen den anderen drei Kompetenzbereichen zugeordnet sind."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v48/k1/c2q",
+          "notation": [
+            "B 1"
+          ],
+          "prefLabel": {
+            "de": "Sachverhalte und Informationen multiperspektivisch beurteilen"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v48/k1/f9p",
+              "notation": [
+                "B 1.1"
+              ],
+              "prefLabel": {
+                "de": "B1: erläutern aus verschiedenen Perspektiven Eigenschaften einer schlüssigen und überzeugenden Argumentation;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/c9g",
+              "notation": [
+                "B 1.2"
+              ],
+              "prefLabel": {
+                "de": "B2: beurteilen Informationen und deren Darstellung aus Quellen unterschiedlicher Art hinsichtlich Vertrauenswürdigkeit und Relevanz."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v48/k1/e3q",
+          "notation": [
+            "B 2"
+          ],
+          "prefLabel": {
+            "de": "Kriteriengeleitet Meinungen bilden und Entscheidungen treffen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v48/k1/d7r",
+              "notation": [
+                "B 2.1"
+              ],
+              "prefLabel": {
+                "de": "B3: entwickeln anhand relevanter Bewertungskriterien Handlungsoptionen in gesellschaftlich- oder alltagsrelevanten Entscheidungssituationen mit fachlichem Bezug und wägen sie gegeneinander ab;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/s6t",
+              "notation": [
+                "B 2.2"
+              ],
+              "prefLabel": {
+                "de": "B4: bilden sich reflektiert und rational in außerfachlichen Kontexten ein eigenes Urteil."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v48/k1/z7e",
+          "notation": [
+            "B 3"
+          ],
+          "prefLabel": {
+            "de": "Entscheidungsprozesse und Folgen reflektieren"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v48/k1/c9v",
+              "notation": [
+                "B 3.1"
+              ],
+              "prefLabel": {
+                "de": "B5: reflektieren Bewertungen von Technologien und Sicherheitsmaßnahmen oder Risikoeinschätzungen hinsichtlich der Güte des durchgeführten Bewertungsprozesses;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/c6q",
+              "notation": [
+                "B 3.2"
+              ],
+              "prefLabel": {
+                "de": "B6: beurteilen Technologien und Sicherheitsmaßnahmen hinsichtlich ihrer Eignung und Konsequenzen und schätzen Risiken, auch in Alltagssituationen, ein;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/p3q",
+              "notation": [
+                "B 3.3"
+              ],
+              "prefLabel": {
+                "de": "B7: reflektieren kurz- und langfristige, lokale und globale Folgen eigener und gesellschaftlicher Entscheidungen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/q9z",
+              "notation": [
+                "B 3.4"
+              ],
+              "prefLabel": {
+                "de": "B8: reflektieren Auswirkungen physikalischer Weltbetrachtung sowie die Bedeutung physikalischer Kompetenzen in historischen, gesellschaftlichen oder alltäglichen Zusammenhängen."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v48/k1/g2p",
+      "notation": [
+        "E "
+      ],
+      "prefLabel": {
+        "de": "Erkenntnisgewinnungskompetenz"
+      },
+      "definition": {
+        "de": "Die Erkenntnisgewinnungskompetenz der Lernenden zeigt sich in der Kenntnis von naturwissenschaftlichen Denk- und Arbeitsweisen und in der Fähigkeit, diese zu beschreiben, zu erklären und zu verknüpfen, um Erkenntnisprozesse nachvollziehen oder gestalten zu können und deren Möglichkeiten und Grenzen zu reflektieren.\\\n\\\nPhysikalische Erkenntnisgewinnung ist zum einen bestimmt durch die theoretische Beschreibung der Natur, die mit der Bildung von Fachbegriffen, Modellen und Theorien einhergeht, und zum anderen durch empirische Methoden, v. a. das Experimentieren, mit denen Gültigkeit und Relevanz dieser Beschreibung abgesichert werden.\\\n\\\nDieses Wechselspiel von Theorie und Experiment in der naturwissenschaftlichen Forschung umfasst typischerweise folgende zentrale Schritte:\\\n\\\n - Formulierung von Fragestellungen,\\\n\\\n - Ableitung von Hypothesen,\\\n\\\n - Planung und Durchführung von Untersuchungen,\\\n\\\n - Auswertung, Interpretation und methodische Reflexion zur Widerlegung bzw. Stützung der Hypothese sowie zur Beantwortung der Fragestellung. Experimentelle Ergebnisse und aus Modellen abgeleitete Annahmen werden interpretiert und der gesamte Erkenntnisgewinnungsprozess wird im Hinblick auf wissenschaftliche Güte reflektiert. Auf der Metaebene werden die Merkmale naturwissenschaftlicher Verfahren und Methoden charakterisiert und von den nicht-naturwissenschaftlichen abgegrenzt. Das Durchführen eines erlernten Verfahrens oder einer bekannten Methode ohne die Einbettung in den Prozess der Erkenntnisgewinnung als Ganzes ist in den Bildungsstandards der Sachkompetenz zugeordnet."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v48/k1/c6h",
+          "notation": [
+            "E 1"
+          ],
+          "prefLabel": {
+            "de": "Fragestellungen und Hypothesen auf Basis von Beobachtungen und Theorien bilden"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v48/k1/t6q",
+              "notation": [
+                "E 1.1"
+              ],
+              "prefLabel": {
+                "de": "E1: identifizieren und entwickeln Fragestellungen zu physikalischen Sachverhalten;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/x4e",
+              "notation": [
+                "E 1.2"
+              ],
+              "prefLabel": {
+                "de": "E2: stellen theoriegeleitet Hypothesen zur Bearbeitung von Fragestellungen auf."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v48/k1/s3y",
+          "notation": [
+            "E 2"
+          ],
+          "prefLabel": {
+            "de": "Fachspezifische Modelle und Verfahren charakterisieren, auswählen und zur Untersuchung von Sachverhalten nutzen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v48/k1/x5e",
+              "notation": [
+                "E 2.1"
+              ],
+              "prefLabel": {
+                "de": "E3: beurteilen die Eignung von Untersuchungsverfahren zur Prüfung bestimmter Hypothesen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/q2p",
+              "notation": [
+                "E 2.2"
+              ],
+              "prefLabel": {
+                "de": "E4: modellieren Phänomene physikalisch, auch mithilfe mathematischer Darstellungen und digitaler Werkzeuge, wobei sie theoretische Überlegungen und experimentelle Erkenntnisse aufeinander beziehen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/e5r",
+              "notation": [
+                "E 2.3"
+              ],
+              "prefLabel": {
+                "de": "E5: planen geeignete Experimente und Auswertungen zur Untersuchung einer physikalischen Fragestellung."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v48/k1/q2c",
+          "notation": [
+            "E 3"
+          ],
+          "prefLabel": {
+            "de": "Erkenntnisprozesse und Ergebnisse interpretieren und reflektieren"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v48/k1/e4v",
+              "notation": [
+                "E 3.1"
+              ],
+              "prefLabel": {
+                "de": "E6: erklären mithilfe bekannter Modelle und Theorien die in erhobenen oder recherchierten Daten gefundenen Strukturen und Beziehungen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/x5d",
+              "notation": [
+                "E 3.2"
+              ],
+              "prefLabel": {
+                "de": "E7: berücksichtigen Messunsicherheiten und analysieren die Konsequenzen für die Interpretation des Ergebnisses;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/f7g",
+              "notation": [
+                "E 3.3"
+              ],
+              "prefLabel": {
+                "de": "E8: beurteilen die Eignung physikalischer Modelle und Theorien für die Lösung von Problemen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/d3z",
+              "notation": [
+                "E 3.4"
+              ],
+              "prefLabel": {
+                "de": "E9: reflektieren die Relevanz von Modellen, Theorien, Hypothesen und Experimenten für die physikalische Erkenntnisgewinnung."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v48/k1/h7d",
+          "notation": [
+            "E 4"
+          ],
+          "prefLabel": {
+            "de": "Merkmale wissenschaftlicher Aussagen und Methoden charakterisieren und reflektieren"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v48/k1/a6g",
+              "notation": [
+                "E 4.1"
+              ],
+              "prefLabel": {
+                "de": "E10: beziehen theoretische Überlegungen und Modelle zurück auf Alltagssituationen und reflektieren ihre Generalisierbarkeit;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/e3h",
+              "notation": [
+                "E 4.2"
+              ],
+              "prefLabel": {
+                "de": "E11: reflektieren Möglichkeiten und Grenzen des konkreten Erkenntnisgewinnungsprozesses sowie der gewonnenen Erkenntnisse (z.B. Reproduzierbarkeit, Falsifizierbarkeit, Intersubjektivität, logische Konsistenz, Vorläufigkeit)."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v48/k1/t3d",
+      "notation": [
+        "K "
+      ],
+      "prefLabel": {
+        "de": "Kommunikationskompetenz"
+      },
+      "definition": {
+        "de": "Die Kommunikationskompetenz der Lernenden zeigt sich in der Kenntnis von Fachsprache, fachtypischen Darstellungen und Argumentationsstrukturen und in der Fähigkeit, diese zu nutzen, um fachbezogene Informationen zu erschließen, adressaten- und situationsgerecht darzustellen und auszutauschen.\\\n\\\nDie Physik hat ihre spezifische Art, Kommunikation zu gestalten. Die strukturierten und standardisierten Formulierungen sind grundlegend für eine rationale, fakten- oder evidenzbasierte Kommunikation. Das Verständnis dieser Art der Kommunikation und die Fähigkeit, sie mitzugestalten, ermöglichen die selbstbestimmte Teilhabe an wissenschaftlichen und gesellschaftlich relevanten Diskussionen.\\\n\\\nPhysikalische Kommunikationskompetenz zeigt sich im Verständnis und in der Nutzung von definierten Begrifflichkeiten, fachtypischen Darstellungen und Argumentationsstrukturen, die mathematische Logik und verlässliche Quellen als Belege für die Glaubwürdigkeit und Objektivität von Aussagen und Argumenten verwenden. Das physikalische Fachvokabular setzt sich dabei zusammen aus etablierten Fachbegriffen, abstrakten Symbolen und standardisierten Einheiten. Für Diskussionen außerhalb der Physik sind vor allem die physiktypische Nutzung bestimmter Arten von Abbildungen, Diagrammen und Symbolen, die Betonung logischer Verknüpfungen und der Wechsel zwischen situationsspezifischen und verallgemeinerten Aussagen und mehreren Darstellungsformen relevant.\\\n\\\nPhysikalisch kompetentes Kommunizieren bedingt ein Durchdringen der Teilkompetenzbereiche Erschließen, Aufbereiten und Austauschen. Im Fach Physik tauschen die Lernenden Informationen mit Kommunikationspartnern kompetent aus, wenn sie Informationen aus Quellen entnehmen, überzeugend präsentieren und sich reflektiert an fachlichen Diskussionen beteiligen. Die sprachliche sowie mathematische Darstellung von Zusammenhängen und Lösungswegen ist dagegen Ausdruck von Sach- bzw. Erkenntnisgewinnungskompetenz, die Berücksichtigung von außerfachlichen Aspekten für die Meinungsbildung und die Entscheidungsfindung ist in den Bildungsstandards im Kompetenzbereich Bewerten enthalten."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v48/k1/t2p",
+          "notation": [
+            "K 1"
+          ],
+          "prefLabel": {
+            "de": "Informationen erschließen"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v48/k1/s6d",
+              "notation": [
+                "K 1.1"
+              ],
+              "prefLabel": {
+                "de": "K1: recherchieren zu physikalischen Sachverhalten zielgerichtet in analogen und digitalen Medien und wählen für ihre Zwecke passende Quellen aus;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/z4p",
+              "notation": [
+                "K 1.2"
+              ],
+              "prefLabel": {
+                "de": "K2: prüfen verwendete Quellen hinsichtlich der Kriterien Korrektheit, Fachsprache und Relevanz für den untersuchten Sachverhalt;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/g4d",
+              "notation": [
+                "K 1.3"
+              ],
+              "prefLabel": {
+                "de": "K3: entnehmen unter Berücksichtigung ihres Vorwissens aus Beobachtungen, Darstellungen und Texten relevante Informationen und geben diese in passender Struktur und angemessener Fachsprache wieder."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v48/k1/s4e",
+          "notation": [
+            "K 2"
+          ],
+          "prefLabel": {
+            "de": "Informationen aufbereiten"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v48/k1/a6a",
+              "notation": [
+                "K 2.1"
+              ],
+              "prefLabel": {
+                "de": "K4: formulieren unter Verwendung der Fachsprache chronologisch und kausal korrekt strukturiert;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/u2g",
+              "notation": [
+                "K 2.2"
+              ],
+              "prefLabel": {
+                "de": "K5: wählen ziel-, sach- und adressatengerecht geeignete Schwerpunkte für die Inhalte von Präsentationen, Diskussionen oder anderen Kommunikationsformen aus;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/u7b",
+              "notation": [
+                "K 2.3"
+              ],
+              "prefLabel": {
+                "de": "K6: veranschaulichen Informationen und Daten in ziel-, sach- und adressatengerechten Darstellungsformen, auch mithilfe digitaler Werkzeuge;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/r7a",
+              "notation": [
+                "K 2.4"
+              ],
+              "prefLabel": {
+                "de": "K7: präsentieren physikalische Sachverhalte sowie Lern- und Arbeitsergebnisse sach-, adressaten- und situationsgerecht unter Einsatz geeigneter analoger und digitaler Medien."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v48/k1/s4z",
+          "notation": [
+            "K 3"
+          ],
+          "prefLabel": {
+            "de": "Informationen austauschen und wissenschaftlich diskutieren"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v48/k1/x9a",
+              "notation": [
+                "K 3.1"
+              ],
+              "prefLabel": {
+                "de": "K8: nutzen ihr Wissen über aus physikalischer Sicht gültige Argumentationsketten zur Beurteilung vorgegebener und zur Entwicklung eigener innerfachlicher Argumentationen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/t6y",
+              "notation": [
+                "K 3.2"
+              ],
+              "prefLabel": {
+                "de": "K9: tauschen sich mit anderen konstruktiv über physikalische Sachverhalte aus, vertreten, reflektieren und korrigieren gegebenenfalls den eigenen Standpunkt;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/s6x",
+              "notation": [
+                "K 3.3"
+              ],
+              "prefLabel": {
+                "de": "K10: prüfen die Urheberschaft, belegen verwendete Quellen und kennzeichnen Zitate."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v48/k1/e4r",
+      "notation": [
+        "S "
+      ],
+      "prefLabel": {
+        "de": "Sachkompetenz"
+      },
+      "definition": {
+        "de": "Die Sachkompetenz der Lernenden zeigt sich in der Kenntnis naturwissenschaftlicher Konzepte, Theorien und Verfahren und der Fähigkeit, diese zu beschreiben und zu erklären sowie geeignet auszuwählen und zu nutzen, um Sachverhalte aus fach- und alltagsbezogenen Anwendungsbereichen zu verarbeiten.\\\n\\\nDas wissenschaftliche Vorgehen der Physik lässt sich im Wesentlichen in zwei fundamentale Bereiche einteilen, die eine starke Wechselwirkung und gegenseitige Durchdringung aufweisen: die theoretische Beschreibung von Phänomenen und das experimentelle Arbeiten. Die Vertrautheit mit physikalischem Fachwissen sowie mit der Nutzung physikalischer Grundprinzipien und Arbeitsweisen bildet eine unverzichtbare Grundlage für das Verständnis wissenschaftlicher sowie alltäglicher Sachverhalte aus vielen Bereichen, z. B. aus den anderen Naturwissenschaften, der Technik oder auch der Medizin. Daher leistet physikalische Sachkompetenz einen wichtigen Beitrag sowohl zur Studierfähigkeit als auch zur Allgemeinbildung.\\\n\\\nSachkompetenz zeigt sich in der Physik in der Nutzung von Fachwissen zur Bearbeitung von sowohl innerfachlichen als auch anwendungsbezogenen Aufgaben und Problemen. Dazu gehört die theoriebasierte Beschreibung von Phänomenen ebenso wie die qualitative und quantitative Auswertung von Messergebnissen anhand geeigneter Theorien und Modelle. Ihre Eigenschaften wie Gültigkeitsbereiche, theoretische Einbettungen und Angemessenheit ebenso wie ein angemessener Grad der Mathematisierung sind dabei zu berücksichtigen.\\\n\\\nFertigkeiten wie das Durchführen eines Experiments nach einer Anleitung, der Umgang mit Messgeräten oder die Anwendung bekannter Auswerteverfahren sind Bestandteil der Sachkompetenz. Die Planung und Konzeption von Experimenten hingegen ist dem Kompetenzbereich Erkenntnisgewinnung zugeordnet."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v48/k1/u9f",
+          "notation": [
+            "S 1"
+          ],
+          "prefLabel": {
+            "de": "Modelle und Theorien zur Bearbeitung von Aufgaben und Problemen nutzen"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v48/k1/c9x",
+              "notation": [
+                "S 1.1"
+              ],
+              "prefLabel": {
+                "de": "S1: erklären Phänomene unter Nutzung bekannter physikalischer Modelle und Theorien;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/q2r",
+              "notation": [
+                "S 1.2"
+              ],
+              "prefLabel": {
+                "de": "S2: erläutern Gültigkeitsbereiche von Modellen und Theorien und beschreiben deren Aussage- und Vorhersagemöglichkeiten;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/v4b",
+              "notation": [
+                "S 1.3"
+              ],
+              "prefLabel": {
+                "de": "S3: wählen aus bekannten Modellen bzw. Theorien geeignete aus, um sie zur Lösung physikalischer Probleme zu nutzen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v48/k1/a4r",
+          "notation": [
+            "S 2"
+          ],
+          "prefLabel": {
+            "de": "Verfahren und Experimente zur Bearbeitung von Aufgaben und Problemen nutzen"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v48/k1/f7d",
+              "notation": [
+                "S 2.1"
+              ],
+              "prefLabel": {
+                "de": "S4: bauen Versuchsanordnungen auch unter Verwendung von digitalen Messwerterfassungssystemen nach Anleitungen auf, führen Experimente durch und protokollieren ihre Beobachtungen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/p4c",
+              "notation": [
+                "S 2.2"
+              ],
+              "prefLabel": {
+                "de": "S5: erklären bekannte Messverfahren sowie die Funktion einzelner Komponenten eines Versuchsaufbaus;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/v9a",
+              "notation": [
+                "S 2.3"
+              ],
+              "prefLabel": {
+                "de": "S6: erklären bekannte Auswerteverfahren und wenden sie auf Messergebnisse an;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v48/k1/q5v",
+              "notation": [
+                "S 2.4"
+              ],
+              "prefLabel": {
+                "de": "wenden bekannte mathematische Verfahren auf physikalische Sachverhalte an."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

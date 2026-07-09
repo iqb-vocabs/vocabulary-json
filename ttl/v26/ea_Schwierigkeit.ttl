@@ -1,0 +1,48 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v26/ea/>. 
+@prefix n1: <https://w3id.org/iqb/v26/ea/>. 
+
+n1:e6g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "sehr gering"@de.
+n1:g9z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "gering"@de.
+n1:b9r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "mittel"@de.
+n1:t2c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "hoch"@de.
+n1:s9f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "sehr hoch"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Allgemeine Kompetenzen Fremdsprachen - Geschätzte Schwierigkeit"@de;
+	dc:title "Allgemeine Kompetenzen Fremdsprachen - Geschätzte Schwierigkeit"@de;
+	dc:description "Allgemeine Kompetenzen Fremdsprachen - Geschätzte Schwierigkeit"@de;
+	skos:hasTopConcept
+		n1:e6g,
+		n1:g9z,
+		n1:b9r,
+		n1:t2c,
+		n1:s9f.

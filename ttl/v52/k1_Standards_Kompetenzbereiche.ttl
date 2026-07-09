@@ -1,0 +1,325 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v52/k1/>. 
+@prefix n1: <https://w3id.org/iqb/v52/k1/>. 
+
+n1:v5f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.1";
+	skos:broader n1:y6g;
+	skos:prefLabel "nutzen sinntragende Vorstellungen von rationalen Zahlen, insbesondere von natürlichen, ganzen und gebrochenen Zahlen entsprechend der Verwendungsnotwendigkeit,"@de.
+n1:h6t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.2";
+	skos:broader n1:y6g;
+	skos:prefLabel "stellen Zahlen der Situation angemessen dar, unter anderem in Zehnerpotenzschreibweise,"@de.
+n1:a9q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.3";
+	skos:broader n1:y6g;
+	skos:prefLabel "rechnen mit natürlichen, gebrochenen und negativen Zahlen, die im täglichen Leben vorkommen, auch im Kopf,"@de.
+n1:z3q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.4";
+	skos:broader n1:y6g;
+	skos:prefLabel "nutzen Rechengesetze, auch zum vorteilhaften Rechnen,"@de.
+n1:p3s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.5";
+	skos:broader n1:y6g;
+	skos:prefLabel "nutzen Überschlagsrechnungen,"@de.
+n1:z4c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.6";
+	skos:broader n1:y6g;
+	skos:prefLabel "runden Zahlen dem Sachverhalt entsprechend sinnvoll,"@de.
+n1:g3g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.7";
+	skos:broader n1:y6g;
+	skos:prefLabel "verwenden Prozent- und Zinsrechnung sachgerecht,"@de.
+n1:z7b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.8";
+	skos:broader n1:y6g;
+	skos:prefLabel "erläutern an Beispielen den Zusammenhang zwischen Rechenoperationen und deren Umkehrungen und nutzen diese Zusammenhänge,"@de.
+n1:b3g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.9";
+	skos:broader n1:y6g;
+	skos:prefLabel "wählen und beschreiben Vorgehensweisen und Verfahren, denen Algorithmen bzw. Kalküle zu Grunde liegen,"@de.
+n1:f6v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.10";
+	skos:broader n1:y6g;
+	skos:prefLabel "prüfen und interpretieren Ergebnisse in Sachsituationen."@de.
+n1:y6g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1";
+	skos:broader n1:u3z;
+	skos:prefLabel "Leitidee Zahl"@de; 
+	skos:definition "Die Schülerinnen und Schüler ..."@de;
+	skos:narrower 
+		n1:v5f,
+		n1:h6t,
+		n1:a9q,
+		n1:z3q,
+		n1:p3s,
+		n1:z4c,
+		n1:g3g,
+		n1:z7b,
+		n1:b3g,
+		n1:f6v.
+n1:p2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.1";
+	skos:broader n1:b4q;
+	skos:prefLabel "nutzen das Grundprinzip des Messens, insbesondere bei der Längen-, Flächen- und Volumenmessung, auch in Naturwissenschaften und in anderen Bereichen,"@de.
+n1:a4s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.2";
+	skos:broader n1:b4q;
+	skos:prefLabel "wählen Einheiten von Größen situationsgerecht aus (insbesondere für Zeit, Masse, Geld, Länge, Fläche, Volumen und Winkel) und wandeln sie ggf. um,"@de.
+n1:b6u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.3";
+	skos:broader n1:b4q;
+	skos:prefLabel "schätzen Größen mit Hilfe von Vorstellungen über alltagsbezogene Repräsentanten,"@de.
+n1:f6h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.4";
+	skos:broader n1:b4q;
+	skos:prefLabel "ermitteln Flächeninhalt und Umfang von Rechteck, Dreieck und Kreis sowie daraus zusammengesetzten Figuren,"@de.
+n1:y2f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.5";
+	skos:broader n1:b4q;
+	skos:prefLabel "ermitteln Volumen und Oberflächeninhalt von Prisma, Pyramide und Zylinder sowie daraus zusammengesetzten Körpern,"@de.
+n1:x4p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.6";
+	skos:broader n1:b4q;
+	skos:prefLabel "nehmen in ihrer Umwelt gezielt Messungen vor oder entnehmen Maßangaben aus Quellenmaterial, führen damit Berechnungen durch und bewerten die Ergebnisse sowie den gewählten Weg in Bezug auf die Sachsituation."@de.
+n1:b4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2";
+	skos:broader n1:u3z;
+	skos:prefLabel "Leitidee Messen"@de; 
+	skos:definition "Die Schülerinnen und Schüler"@de;
+	skos:narrower 
+		n1:p2d,
+		n1:a4s,
+		n1:b6u,
+		n1:f6h,
+		n1:y2f,
+		n1:x4p.
+n1:s3p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.1";
+	skos:broader n1:z5a;
+	skos:prefLabel "erkennen und beschreiben geometrische Objekte und Beziehungen in der Umwelt,"@de.
+n1:r2t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.2";
+	skos:broader n1:z5a;
+	skos:prefLabel "operieren gedanklich mit Strecken, Flächen und Körpern,"@de.
+n1:f5s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.3";
+	skos:broader n1:z5a;
+	skos:prefLabel "stellen geometrische Figuren und elementare geometrische Abbildungen im ebenen kartesischen Koordinatensystem dar,"@de.
+n1:q5q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.4";
+	skos:broader n1:z5a;
+	skos:prefLabel "fertigen Netze, Schrägbilder und Modelle von ausgewählten Körpern an und erkennen Körper aus ihren entsprechenden Darstellungen,"@de.
+n1:v4x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.5";
+	skos:broader n1:z5a;
+	skos:prefLabel "klassifizieren Winkel, Dreiecke, Vierecke und Körper,"@de.
+n1:s3s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.6";
+	skos:broader n1:z5a;
+	skos:prefLabel "erkennen und erzeugen Symmetrien,"@de.
+n1:a3c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.7";
+	skos:broader n1:z5a;
+	skos:prefLabel "wenden Sätze der ebenen Geometrie bei Konstruktionen und Berechnungen an, insbesondere den Satz des Pythagoras,"@de.
+n1:e2e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.8";
+	skos:broader n1:z5a;
+	skos:prefLabel "zeichnen und konstruieren geometrische Figuren unter Verwendung angemessener Hilfsmittel, wie Zirkel, Lineal, Geodreieck oder dynamische Geometrie-Software."@de.
+n1:z5a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3";
+	skos:broader n1:u3z;
+	skos:prefLabel "Leitidee Raum und Form"@de; 
+	skos:definition "Die Schülerinnen und Schüler"@de;
+	skos:narrower 
+		n1:s3p,
+		n1:r2t,
+		n1:f5s,
+		n1:q5q,
+		n1:v4x,
+		n1:s3s,
+		n1:a3c,
+		n1:e2e.
+n1:b6b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.1";
+	skos:broader n1:y5a;
+	skos:prefLabel "beschreiben und interpretieren funktionale Zusammenhänge und ihre Darstellungen in Alltagssituationen,"@de.
+n1:b5e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.2";
+	skos:broader n1:y5a;
+	skos:prefLabel "verwenden für funktionale Zusammenhänge unterschiedliche Darstellungsformen,"@de.
+n1:t6p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.3";
+	skos:broader n1:y5a;
+	skos:prefLabel "unterscheiden proportionale und antiproportionale Zuordnungen in Sachzusammenhängen und stellen damit Berechnungen an,"@de.
+n1:u7r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.4";
+	skos:broader n1:y5a;
+	skos:prefLabel "nutzen die Prozentrechnung bei Wachstumsprozessen (beispielsweise bei der Zinsrechnung), auch unter Verwendung eines Tabellenkalkulationsprogramms,"@de.
+n1:q7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.5";
+	skos:broader n1:y5a;
+	skos:prefLabel "nutzen Maßstäbe beim Lesen und Anfertigen von Zeichnungen situationsgerecht,"@de.
+n1:h3z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.6";
+	skos:broader n1:y5a;
+	skos:prefLabel "lösen einfache lineare Gleichungen,"@de.
+n1:s5q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.7";
+	skos:broader n1:y5a;
+	skos:prefLabel "vergleichen ihr Vorgehen beim Lösen einfacher linearer Gleichungen mit anderen Lösungsverfahren (wie inhaltlichem Lösen oder systematischem Probieren)."@de.
+n1:y5a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4";
+	skos:broader n1:u3z;
+	skos:prefLabel "Leitidee Funktionaler Zusammenhang"@de; 
+	skos:definition "Die Schülerinnen und Schüler"@de;
+	skos:narrower 
+		n1:b6b,
+		n1:b5e,
+		n1:t6p,
+		n1:u7r,
+		n1:q7z,
+		n1:h3z,
+		n1:s5q.
+n1:v2e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.1";
+	skos:broader n1:x4s;
+	skos:prefLabel "werten graphische Darstellungen und Tabellen von statistischen Erhebungen aus,"@de.
+n1:s7t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.2";
+	skos:broader n1:x4s;
+	skos:prefLabel "sammeln systematisch Daten, erfassen sie in Tabellen und stellen sie graphisch dar, auch unter Verwendung geeigneter Hilfsmittel wie Software,"@de.
+n1:u9d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.3";
+	skos:broader n1:x4s;
+	skos:prefLabel "berechnen und interpretieren Häufigkeiten und Mittelwerte,"@de.
+n1:u5u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.4";
+	skos:broader n1:x4s;
+	skos:prefLabel "beschreiben Zufallserscheinungen in alltäglichen Situationen,"@de.
+n1:g9v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.5";
+	skos:broader n1:x4s;
+	skos:prefLabel "interpretieren Wahrscheinlichkeitsaussagen aus dem Alltag,"@de.
+n1:f3e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.6";
+	skos:broader n1:x4s;
+	skos:prefLabel "bestimmen Wahrscheinlichkeiten bei einfachen Zufallsexperimenten."@de.
+n1:x4s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5";
+	skos:broader n1:u3z;
+	skos:prefLabel "Leitidee Daten und Zufall"@de; 
+	skos:definition "Die Schülerinnen und Schüler"@de;
+	skos:narrower 
+		n1:v2e,
+		n1:s7t,
+		n1:u9d,
+		n1:u5u,
+		n1:g9v,
+		n1:f3e.
+n1:u3z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L ";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Inhaltsbezogene Kompetenzen"@de;
+	skos:narrower 
+		n1:y6g,
+		n1:b4q,
+		n1:z5a,
+		n1:y5a,
+		n1:x4s.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Mathematik HSA 2004 - Inhaltsbezogene Kompetenzen"@de;
+	dc:title "Bildungsstandards Mathematik HSA 2004 - Inhaltsbezogene Kompetenzen"@de;
+	dc:description "Bildungsstandards Mathematik HSA 2004 - Inhaltsbezogene Kompetenzen"@de;
+	skos:hasTopConcept
+		n1:u3z.

@@ -1,0 +1,82 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v27/ti/>. 
+
+n0:h9s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Bild"@de.
+n0:e2e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Audio"@de.
+n0:p3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Video"@de.
+n0:b3t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Optionsfelder"@de.
+n0:s5g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kontrollkästchen"@de.
+n0:b5v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sortierliste"@de.
+n0:q6p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Rechenkästchen"@de.
+n0:a2u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "GeoGebra"@de.
+n0:d9q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Tabellenkalkulation"@de.
+n0:d7u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Simulation"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Itemformat - Technische Itemkategorie"@de;
+	dc:title "Itemformat - Technische Itemkategorie"@de;
+	dc:description "Itemformat - Technische Itemkategorie"@de;
+	skos:hasTopConcept
+		n0:h9s,
+		n0:e2e,
+		n0:p3y,
+		n0:b3t,
+		n0:s5g,
+		n0:b5v,
+		n0:q6p,
+		n0:a2u,
+		n0:d9q,
+		n0:d7u.

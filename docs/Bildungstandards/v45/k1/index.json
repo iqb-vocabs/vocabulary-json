@@ -1,0 +1,841 @@
+{
+  "id": "https://w3id.org/iqb/v45/k1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Biologie Sek II 2020 - Kompetenzbereiche im Fach Biologie"
+  },
+  "description": {
+    "de": "Die Bildungsstandards für die Allgemeine Hochschulreife definieren die Kompetenzen, die Lernende bis zum Ende der Qualifikationsphase erwerben sollen. Diese werden im Unterricht sowohl auf grundlegendem als auch auf erhöhtem Anforderungsniveau entwickelt.\n\nUnterricht auf grundlegendem Anforderungsniveau repräsentiert gemäß der Vereinbarung zur Gestaltung der gymnasialen Oberstufe und der Abiturprüfung (i. d. F. vom 15.02.2018, Ziffer 3.2) „das Lernniveau der gymnasialen Oberstufe unter dem Aspekt einer wissenschaftspropädeutischen Bildung. Unterricht mit erhöhtem Anforderungsniveau repräsentiert das Lernniveau der gymnasialen Oberstufe unter dem Aspekt einer wissenschaftspropädeutischen Bildung, die exemplarisch vertieft wird.“ \n\nDer Unterschied in den Anforderungen der beiden Anforderungsniveaus liegt im Umfang und in der Tiefe der gewonnenen Kenntnisse und des Wissens über deren Verknüpfungen. Zudem unterscheiden sie sich im Maß der Selbststeuerung bei der Bearbeitung von Problemstellungen.\n\nDas erhöhte Anforderungsniveau zeichnet sich durch eine Zunahme von Komplexität, Abstraktheit, Breite und Tiefe sowie Differenziertheit aus. Dies äußert sich im Biologieunterricht im Bereich der Sachkompetenz darin, dass im Vergleich zum grundlegenden Niveau zu bestimmten Themen mehr Sachverhalte in höherer Komplexität und Tiefebetrachtet werden. Im Bereich der Erkenntnisgewinnungskompetenz bedingt das erhöhte Anforderungsniveau eine höhere Komplexität der bearbeiteten Fragestellungen, ihrer Umsetzung in konkreten Denk- und Arbeitsweisen sowie eine vertiefte Reflexion des Prozesses der Erkenntnisgewinnung. Die Lernenden des erhöhten Anforderungsniveaus besitzen im Bereich der Kommunikationskompetenz ein umfangreicheres Fachvokabular und sind in der Lage, Fachtexte zu komplexeren Inhalten zu verstehen. Im Bereich der Bewertungskompetenz von naturwissenschaftlichen Sachverhalten können Lernende auf erhöhtem Anforderungsniveau komplexere Argumente mit Belegen heranziehen und damit eigene Standpunkte differenzierter begründen. \n\nIm Folgenden werden die einzelnen Kompetenzbereiche definiert und näher beschrieben. Sie werden in Form von Standards präzisiert. Dabei gelten die formulierten Standards für beide Anforderungsniveaus. Die Inhalte, an denen die Kompetenzen erworben werden, sind im Textfassung Kapitel 2.6 aufgeführt."
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v45/k1/d6y",
+      "notation": [
+        "B "
+      ],
+      "prefLabel": {
+        "de": "Bewertungskompetenz"
+      },
+      "definition": {
+        "de": "Die Bewertungskompetenz der Lernenden zeigt sich in der Kenntnis von fachlichen und überfachlichen Perspektiven und Bewertungsverfahren und in der Fähigkeit, diese zu nutzen, um Aussagen bzw. Daten anhand verschiedener Kriterien zu beurteilen, sich dazu begründet Meinungen zu bilden, Entscheidungen auch auf ethischer Grundlage zu treffen und Entscheidungsprozesse und deren Folgen zu reflektieren. Bewertungskompetenz umfasst dabei die Fähigkeit, bewertungsrelevante Situationen wahrzunehmen und relevante Sachinformationen und Argumente und deren Herkunft sowie damit verbundene Werte zu identifizieren. In einem Bewertungsprozess werden Handlungsoptionen ausgewertet, Entscheidungen in Bezug auf biologische Aspekte aufgrund von gesellschaftlich akzeptierten und persönlich relevanten Werten und Normen getroffen, begründet sowie reflektiert."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v45/k1/z4v",
+          "notation": [
+            "B 1"
+          ],
+          "prefLabel": {
+            "de": "Sachverhalte und Informationen multiperspektivisch beurteilen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v45/k1/t5t",
+              "notation": [
+                "B 1.1"
+              ],
+              "prefLabel": {
+                "de": "B1: analysieren Sachverhalte im Hinblick auf ihre Bewertungsrelevanz;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/d9b",
+              "notation": [
+                "B 1.2"
+              ],
+              "prefLabel": {
+                "de": "B2: betrachten Sachverhalte aus unterschiedlichen Perspektiven;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/s3r",
+              "notation": [
+                "B 1.3"
+              ],
+              "prefLabel": {
+                "de": "B3: unterscheiden deskriptive und normative Aussagen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/r7r",
+              "notation": [
+                "B 1.4"
+              ],
+              "prefLabel": {
+                "de": "B4: identifizieren Werte, die normativen Aussagen zugrunde liegen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/f4d",
+              "notation": [
+                "B 1.5"
+              ],
+              "prefLabel": {
+                "de": "B5: beurteilen Quellen hinsichtlich ihrer Herkunft und in Bezug auf spezifische Interessenlagen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/t9y",
+              "notation": [
+                "B 1.6"
+              ],
+              "prefLabel": {
+                "de": "B6: beurteilen Möglichkeiten und Grenzen biologischer Sichtweisen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v45/k1/t2h",
+          "notation": [
+            "B 2"
+          ],
+          "prefLabel": {
+            "de": "Kriteriengeleitet Meinungen bilden und Entscheidungen treffen"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v45/k1/v9y",
+              "notation": [
+                "B 2.1"
+              ],
+              "prefLabel": {
+                "de": "B7: stellen Bewertungskriterien auf, auch unter Berücksichtigung außerfachlicher Aspekte;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/y2p",
+              "notation": [
+                "B 2.2"
+              ],
+              "prefLabel": {
+                "de": "B8: entwickeln anhand relevanter Bewertungskriterien Handlungsoptionen in gesellschaftlich- oder alltagsrelevanten Entscheidungssituationen mit fachlichem Bezug und wägen sie ab;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/x4f",
+              "notation": [
+                "B 2.3"
+              ],
+              "prefLabel": {
+                "de": "B9: bilden sich kriteriengeleitet Meinungen und treffen Entscheidungen auf der Grundlage von Sachinformationen und Werten."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v45/k1/x9c",
+          "notation": [
+            "B 3"
+          ],
+          "prefLabel": {
+            "de": "Entscheidungsprozesse und Folgen reflektieren"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v45/k1/b7r",
+              "notation": [
+                "B 3.1"
+              ],
+              "prefLabel": {
+                "de": "B10: reflektieren kurz- und langfristige, lokale und globale Folgen eigener und gesellschaftlicher Entscheidungen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/q2g",
+              "notation": [
+                "B 3.2"
+              ],
+              "prefLabel": {
+                "de": "B11: reflektieren den Prozess der Bewertung aus persönlicher, gesellschaftlicher und ethischer Perspektive;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/c2c",
+              "notation": [
+                "B 3.3"
+              ],
+              "prefLabel": {
+                "de": "B12: beurteilen und bewerten Auswirkungen von Anwendungen der Biologie im Sinne einer nachhaltigen Entwicklung aus ökologischer, ökonomischer, politischer und sozialer Perspektive."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v45/k1/p3q",
+      "notation": [
+        "E "
+      ],
+      "prefLabel": {
+        "de": "Erkenntnisgewinnungskompetenz"
+      },
+      "definition": {
+        "de": "Die Erkenntnisgewinnungskompetenz der Lernenden zeigt sich in der Kenntnis von naturwissenschaftlichen Denk- und Arbeitsweisen und in der Fähigkeit, diese zu beschreiben, zu erklären und zu verknüpfen, um Erkenntnisprozesse nachvollziehen oder gestalten zu können und deren Möglichkeiten und Grenzen zu reflektieren.\\\n\\\nSie zeichnen sich insbesondere dadurch aus, dass sie der hohen Komplexität biologischer Systeme Rechnung tragen sowie dem Umstand, dass es sich um lebende Systeme handelt. Dies wirft neben wissenschaftspropädeutischen auch ethische Fragen auf. Die Grenzen dieser Methoden in ihrer Anwendung auf Lebewesen sind evidenzbasiert zu erarbeiten, und zwar in wissenschaftspropädeutischer und ethischer Hinsicht. Dabei besteht naturgemäß eine Verzahnung zum Kompetenzbereich Bewertung.\\\n\\\n\\\n\\\nWissenschaftliches Arbeiten in der Biologie umfasst im Sinne des hypothetisch-deduktiven Vorgehens ausgehend von einem Phänomen die Verknüpfung der folgenden Schritte:\\\n\\\n - Formulierung von Fragestellungen,\\\n\\\n - Ableitung von Hypothesen,\\\n\\\n - Planung und Durchführung von Untersuchungen,\\\n\\\n - Auswertung, Interpretation und methodische Reflexion zur Widerlegung bzw. Stützung der Hypothese sowie zur Beantwortung der Fragestellung.\\\n\\\nDer Erkenntnisprozess ist in der Regel von Anfang an und durchgehend theoriebasiert, wobei auch explorative Erkenntnisprozesse wie das Entwickeln von Hypothesen zum wissenschaftlichen Vorgehen gehören.\\\n\\\nBiologiespezifisch ist die Unterscheidung von funktionalen und kausalen wie auch von proximaten und ultimaten Erklärungsweisen.\\\n\\\nJe nach Forschungsgegenstand und Fragestellung wird der hypothetisch-deduktive Erkenntnisprozess in verschiedenen biologischen Arbeitsweisen umgesetzt, nämlich dem Beobachten, Vergleichen/Ordnen, Experimentieren sowie Modellieren."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v45/k1/u7f",
+          "notation": [
+            "E 1"
+          ],
+          "prefLabel": {
+            "de": "Fragestellungen und Hypothesen auf Basis von Beobachtungen und Theorien entwickeln"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v45/k1/x7q",
+              "notation": [
+                "E 1.1"
+              ],
+              "prefLabel": {
+                "de": "E1: beschreiben Phänomene und Beobachtungen als Ausgangspunkte von Untersuchungen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/d9g",
+              "notation": [
+                "E 1.2"
+              ],
+              "prefLabel": {
+                "de": "E2: identifizieren und entwickeln Fragestellungen zu biologischen Sachverhalten;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/t7y",
+              "notation": [
+                "E 1.3"
+              ],
+              "prefLabel": {
+                "de": "E3: stellen theoriegeleitet Hypothesen zur Bearbeitung von Fragestellungen auf."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v45/k1/r3g",
+          "notation": [
+            "E 2"
+          ],
+          "prefLabel": {
+            "de": "Fachspezifische Modelle und Verfahren charakterisieren, auswählen und zur Untersuchung von Sachverhalten nutzen"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v45/k1/u3b",
+              "notation": [
+                "E 2.1"
+              ],
+              "prefLabel": {
+                "de": "E4: planen und führen hypothesengeleitete Beobachtungen, Vergleiche, Experimente und Modellierungen durch und protokollieren sie;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/f3z",
+              "notation": [
+                "E 2.2"
+              ],
+              "prefLabel": {
+                "de": "E5: berücksichtigen bei der Planung von Beobachtungen, Vergleichen, Experimenten sowie Modellierungen das jeweilige Variablengefüge;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/e5e",
+              "notation": [
+                "E 2.3"
+              ],
+              "prefLabel": {
+                "de": "E6: berücksichtigen die Variablenkontrolle beim Experimentieren;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/v9g",
+              "notation": [
+                "E 2.4"
+              ],
+              "prefLabel": {
+                "de": "E7: nehmen qualitative und quantitative Daten auch mithilfe digitaler Werkzeuge auf und werten sie aus;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/t6d",
+              "notation": [
+                "E 2.5"
+              ],
+              "prefLabel": {
+                "de": "E8: wenden Labor- und freilandbiologische Geräte und Techniken sachgerecht und unter Berücksichtigung der Sicherheitsbestimmungen an."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v45/k1/h3u",
+          "notation": [
+            "E 3"
+          ],
+          "prefLabel": {
+            "de": "Erkenntnisprozesse und Ergebnisse interpretieren und reflektieren"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v45/k1/s5r",
+              "notation": [
+                "E 3.1"
+              ],
+              "prefLabel": {
+                "de": "E9: finden in erhobenen oder recherchierten Daten Strukturen, Beziehungen und Trends, erklären diese theoriebezogen und ziehen Schlussfolgerungen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/b6a",
+              "notation": [
+                "E 3.2"
+              ],
+              "prefLabel": {
+                "de": "E10: beurteilen die Gültigkeit von Daten und ermitteln mögliche Fehlerquellen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/r5s",
+              "notation": [
+                "E 3.3"
+              ],
+              "prefLabel": {
+                "de": "E11: widerlegen oder stützen die Hypothese (Hypothesenrückbezug);"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/a4a",
+              "notation": [
+                "E 3.4"
+              ],
+              "prefLabel": {
+                "de": "E12: diskutieren Möglichkeiten und Grenzen von Modellen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/a3z",
+              "notation": [
+                "E 3.5"
+              ],
+              "prefLabel": {
+                "de": "E13: reflektieren die eigenen Ergebnisse und den eigenen Prozess der Erkenntnisgewinnung;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/s2u",
+              "notation": [
+                "E 3.6"
+              ],
+              "prefLabel": {
+                "de": "E14: stellen bei der Interpretation von Untersuchungsbefunden fachübergreifende Bezüge her."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v45/k1/e3d",
+          "notation": [
+            "E 4"
+          ],
+          "prefLabel": {
+            "de": "Merkmale wissenschaftlicher Aussagen und Methoden charakterisieren und reflektieren"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v45/k1/c3v",
+              "notation": [
+                "E 4.1"
+              ],
+              "prefLabel": {
+                "de": "E15: reflektieren Möglichkeiten und Grenzen des konkreten Erkenntnisgewinnungsprozesses sowie der gewonnenen Erkenntnisse (z. B. Reproduzierbarkeit, Falsifizierbarkeit, Intersubjektivität, logische Konsistenz, Vorläufigkeit);"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/q6y",
+              "notation": [
+                "E 4.2"
+              ],
+              "prefLabel": {
+                "de": "E16: reflektieren die Kriterien wissenschaftlicher Wissensproduktion (Evidenzbasierung, Theorieorientierung);"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/z4p",
+              "notation": [
+                "E 4.3"
+              ],
+              "prefLabel": {
+                "de": "E17: reflektieren Bedingungen und Eigenschaften biologischer Erkenntnisgewinnung."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v45/k1/v2r",
+      "notation": [
+        "K "
+      ],
+      "prefLabel": {
+        "de": "Kommunikationskompetenz"
+      },
+      "definition": {
+        "de": "Die Kommunikationskompetenz der Lernenden zeigt sich in der Kenntnis von Fachsprache, fachtypischen Darstellungen und Argumentationsstrukturen und in der Fähigkeit, diese zu nutzen, um fachbezogene Informationen zu erschließen, adressaten- und situationsgerecht darzustellen und auszutauschen. Biologisch kompetent Kommunizieren bedingt ein Durchdringen der Teilkompetenzbereiche Erschließen, Aufbereiten und Austauschen.\\\n\\\nDas Erschließen umfasst die zielgerichtete und selbstständige Recherche zu biologischen Sachverhalten in analogen und digitalen Medien. Relevante, aussagekräftige Informationen und Daten werden ausgewählt und Informationen aus Quellen mittels verschiedener, auch komplexer Darstellungsformen erschlossen.\\\n\\\nZur Aufbereitung gehört die kriteriengeleitete Auswahl fach- und problembezogener Sachverhalte. Es folgen Strukturierung, Interpretation, Dokumentation auch mit Hilfe digitaler Werkzeuge in fachtypischen Darstellungsformen und die Ableitung von Schlussfolgerungen sowie die Angabe von Quellen. Dabei ist zwischen funktionalen und kausalen wie auch proximaten und ultimaten Erklärungen zu unterscheiden, ohne dabei unangemessene finale Begründungen zu nutzen.\\\n\\\nDer Austausch individuell verarbeiteter Informationen erfolgt jeweils unter Verwendung der Fachsprache sowie sach- und adressatengerecht. Der eigene Standpunkt sowie Lösungsvorschläge werden klar und begründet mitgeteilt."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v45/k1/b5u",
+          "notation": [
+            "K 1"
+          ],
+          "prefLabel": {
+            "de": "Informationen erschließen"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v45/k1/c6u",
+              "notation": [
+                "K 1.1"
+              ],
+              "prefLabel": {
+                "de": "K1: recherchieren zu biologischen Sachverhalten zielgerichtet in analogen und digitalen Medien und wählen für ihre Zwecke passende Quellen aus;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/h7y",
+              "notation": [
+                "K 1.2"
+              ],
+              "prefLabel": {
+                "de": "K2: wählen relevante und aussagekräftige Informationen und Daten zu biologischen Sachverhalten und anwendungsbezogenen Fragestellungen aus und erschließen Informationen aus Quellen mit verschiedenen, auch komplexen Darstellungsformen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/v4a",
+              "notation": [
+                "K 1.3"
+              ],
+              "prefLabel": {
+                "de": "K3: prüfen die Übereinstimmung verschiedener Quellen oder Darstellungsformen im Hinblick auf deren Aussagen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/x5p",
+              "notation": [
+                "K 1.4"
+              ],
+              "prefLabel": {
+                "de": "K4: analysieren Herkunft, Qualität und Vertrauenswürdigkeit von verwendeten Quellen und Medien sowie darin enthaltene Darstellungsformen im Zusammenhang mit der Intention der Autorin/des Autors."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v45/k1/t3p",
+          "notation": [
+            "K 2"
+          ],
+          "prefLabel": {
+            "de": "Informationen aufbereiten"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v45/k1/a9f",
+              "notation": [
+                "K 2.1"
+              ],
+              "prefLabel": {
+                "de": "K5: strukturieren und interpretieren ausgewählte Informationen und leiten Schlussfolgerungen ab;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/t9v",
+              "notation": [
+                "K 2.2"
+              ],
+              "prefLabel": {
+                "de": "K6: unterscheiden zwischen Alltags- und Fachsprache;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/r3t",
+              "notation": [
+                "K 2.3"
+              ],
+              "prefLabel": {
+                "de": "K7: erklären Sachverhalte aus ultimater und proximater Sicht, ohne dabei unangemessene finale Begründungen zu nutzen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/d2h",
+              "notation": [
+                "K 2.4"
+              ],
+              "prefLabel": {
+                "de": "K8: unterscheiden zwischen funktionalen und kausalen Erklärungen;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/c2x",
+              "notation": [
+                "K 2.5"
+              ],
+              "prefLabel": {
+                "de": "K9: nutzen geeignete Darstellungsformen für biologische Sachverhalte und überführen diese ineinander;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/h6e",
+              "notation": [
+                "K 2.6"
+              ],
+              "prefLabel": {
+                "de": "K10: verarbeiten sach-, adressaten- und situationsgerecht Informationen zu biologischen Sachverhalten."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v45/k1/y5x",
+          "notation": [
+            "K 3"
+          ],
+          "prefLabel": {
+            "de": "Informationen austauschen und wissenschaftlich diskutieren"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v45/k1/d3y",
+              "notation": [
+                "K 3.1"
+              ],
+              "prefLabel": {
+                "de": "K11: präsentieren biologische Sachverhalte sowie Lern- und Arbeitsergebnisse sach-, adressaten- und situationsgerecht unter Einsatz geeigneter analoger und digitaler Medien;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/x3c",
+              "notation": [
+                "K 3.2"
+              ],
+              "prefLabel": {
+                "de": "K12: prüfen die Urheberschaft, belegen verwendete Quellen und kennzeichnen Zitate;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/v9e",
+              "notation": [
+                "K 3.3"
+              ],
+              "prefLabel": {
+                "de": "K13: tauschen sich mit anderen konstruktiv über biologische Sachverhalte aus, vertreten, reflektieren und korrigieren gegebenenfalls den eigenen Standpunkt;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/f4b",
+              "notation": [
+                "K 3.4"
+              ],
+              "prefLabel": {
+                "de": "K14: argumentieren wissenschaftlich zu biologischen Sachverhalten kriterien- und evidenzbasiert sowie situationsgerecht."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v45/k1/z9z",
+      "notation": [
+        "S "
+      ],
+      "prefLabel": {
+        "de": "Sachkompetenz"
+      },
+      "definition": {
+        "de": "Die Sachkompetenz der Lernenden zeigt sich in der Kenntnis naturwissenschaftlicher Konzepte, Theorien und Verfahren und der Fähigkeit, diese zu beschreiben und zu erklären sowie geeignet auszuwählen und zu nutzen, um Sachverhalte aus fach- und alltagsbezogenen Anwendungsbereichen zu verarbeiten. \\\n\\\nLernende erhalten die Möglichkeit, im Bereich der Sachkompetenz fundiertes Wissen über biologische Sachverhalte wie beispielsweise Phänomene, Konzepte, Theorien und Verfahren zu erwerben und Kompetenzen im Sinne einer vertieften Allgemeinbildung aufzubauen. Diese Kompetenzen ermöglichen es ihnen, u. a. theoriegeleitet Fragen zu stellen sowie anspruchsvolle Problemstellungen im Zusammenhang mit biologischen Sachverhalten zu bewältigen bzw. Alltagsfragen zu naturwissenschaftlichen Sachverhalten zu beantworten. Im Rahmen der Erarbeitung von und der Auseinandersetzung mit biologiespezifischen Sachverhalten bekommen die Lernenden die Möglichkeit, fachliche und naturwissenschaftliche Kompetenzen aufzubauen.\\\n\\\nZur Sachkompetenz im Bereich der Biologie gehört das Beschreiben, Erklären, Erläutern sowie das theoriegeleitete Interpretieren von biologischen Phänomenen. Dabei werden Zusammenhänge strukturiert sowie qualitativ und quantitativ erläutert sowie Vernetzungen zwischen Systemebenen von der molekularen Ebene bis zur Ebene der Biosphäre aufgezeigt. Jede der Systemebenen beinhaltet häufig Eigenschaften, die in der vorherigen Ebene nicht erkennbar sind. Biodiversität wird auf der genetischen, organismischen und ökologischen Ebene beschrieben und die Notwendigkeit des Erhalts und Schutzes der Biodiversität wird mit der Bedeutung von Einheitlichkeit und Mannigfaltigkeit erläutert. Die Synthetische Evolutionstheorie wird als grundlegende Erklärungstheorie biologischer Phänomene genutzt. Möglichkeiten der Anwendung naturwissenschaftlichen Wissens zur Bewältigung aktueller und zukünftiger wissenschaftlicher, wirtschaftlicher und gesellschaftlicher Schlüsselprobleme werden erläutert; hier ergeben sich Überschneidungen zum Kompetenzbereich Bewertung."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v45/k1/h2g",
+          "notation": [
+            "S 1"
+          ],
+          "prefLabel": {
+            "de": "Biologische Sachverhalte betrachten"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v45/k1/f7u",
+              "notation": [
+                "S 1.1"
+              ],
+              "prefLabel": {
+                "de": "S1: beschreiben biologische Sachverhalte sowie Anwendungen der Biologie sachgerecht;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/h4s",
+              "notation": [
+                "S 1.2"
+              ],
+              "prefLabel": {
+                "de": "S2: strukturieren und erschließen biologische Phänomene sowie Anwendungen der Biologie auch mithilfe von Basiskonzepten;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/q4e",
+              "notation": [
+                "S 1.3"
+              ],
+              "prefLabel": {
+                "de": "S3: erläutern biologische Sachverhalte, auch indem sie Basiskonzepte nutzen und fachübergreifende Aspekte einbinden;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/x7f",
+              "notation": [
+                "S 1.4"
+              ],
+              "prefLabel": {
+                "de": "S4: formulieren zu biologischen Phänomenen sowie Anwendungen der Biologie theoriegeleitet Hypothesen und Aussagen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v45/k1/h5z",
+          "notation": [
+            "S 2"
+          ],
+          "prefLabel": {
+            "de": "Zusammenhänge in lebenden Systemen betrachten"
+          },
+          "definition": {
+            "de": "Die Lernenden …"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v45/k1/d5a",
+              "notation": [
+                "S 2.1"
+              ],
+              "prefLabel": {
+                "de": "S5: strukturieren und erschließen die Eigenschaften lebender Systeme auch mithilfe von Basiskonzepten und erläutern die Eigenschaften unter qualitativen und quantitativen Aspekten;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/a3b",
+              "notation": [
+                "S 2.2"
+              ],
+              "prefLabel": {
+                "de": "S6: stellen Vernetzungen zwischen Systemebenen (Molekular- bis Biosphärenebene) dar;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/f9c",
+              "notation": [
+                "S 2.3"
+              ],
+              "prefLabel": {
+                "de": "S7: erläutern Prozesse in und zwischen lebenden Systemen sowie zwischen lebenden Systemen und ihrer Umwelt;"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v45/k1/x9b",
+              "notation": [
+                "S 2.4"
+              ],
+              "prefLabel": {
+                "de": "S8: erläutern die Entstehung und Bedeutung von Biodiversität sowie Gründe für deren Schutz und nachhaltige Nutzung."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

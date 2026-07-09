@@ -1,0 +1,893 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v36/b1/>. 
+@prefix n1: <https://w3id.org/iqb/v36/b1/>. 
+
+n1:e5t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:d4b;
+	skos:prefLabel "in ihren Gesprächen auf Verständigung zielen und respektvolles Gesprächsverhalten zeigen"@de.
+n1:y2g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:d4b;
+	skos:prefLabel "in verschiedenen Gesprächsformen und in unterschiedlichen Rollen kommunikativ handeln und dabei nonverbale sowie stimmliche Mittel bewusst nutzen"@de.
+n1:a9y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:d4b;
+	skos:prefLabel "zur Analyse mündlicher Kommunikationssituationen exemplarisch auditive und audiovisuelle Aufzeichnungen sowie Mitschriften nutzen"@de.
+n1:r4x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.1.1";
+	skos:broader n1:z3f;
+	skos:prefLabel "während des Zuhörens parallel eigene Äußerungen planen und diese in ihrer Wirkung einschätzen"@de.
+n1:q9g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.1.2";
+	skos:broader n1:z3f;
+	skos:prefLabel "sich in eigenen Gesprächsbeiträgen explizit und zielführend auf andere beziehen"@de.
+n1:u3g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.1.3";
+	skos:broader n1:z3f;
+	skos:prefLabel "in Kontroversen Strittiges identifizieren und eigene Positionen vertreten"@de.
+n1:x4u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.1.4";
+	skos:broader n1:z3f;
+	skos:prefLabel "auf konstruktive Weise eigenes und fremdes Gesprächsverhalten beobachten, reflektieren und besprechen"@de.
+n1:e6v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.1.5";
+	skos:broader n1:z3f;
+	skos:prefLabel "nach Geboten der Fairness kommunizieren und Strategien unfairer Kommunikation erkennen"@de.
+n1:e3h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.1.6";
+	skos:broader n1:z3f;
+	skos:prefLabel "Diskussionen, Debatten und Präsentationen selbstständig moderieren"@de.
+n1:z7y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.1.7";
+	skos:broader n1:z3f;
+	skos:prefLabel "in Simulationen von Prüfungs- und Bewerbungsgesprächen angemessen verbal und nonverbal handeln"@de.
+n1:z3f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.1";
+	skos:broader n1:u2q;
+	skos:prefLabel "Dialogische Gesprächsformen: mit anderen sprechen"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:r4x,
+		n1:q9g,
+		n1:u3g,
+		n1:x4u,
+		n1:e6v,
+		n1:e3h,
+		n1:z7y.
+n1:t5h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.2.1";
+	skos:broader n1:h4q;
+	skos:prefLabel "anspruchsvolle Fachinhalte Verständnis fördernd referieren, auch unter Verwendung selbst verfasster stützender Texte"@de.
+n1:e9s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.2.2";
+	skos:broader n1:h4q;
+	skos:prefLabel "literarische und pragmatische Texte sinngebend und der Form entsprechend vortragen"@de.
+n1:b3z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.2.3";
+	skos:broader n1:h4q;
+	skos:prefLabel "einzeln und gemeinsam mit anderen argumentierende und erklärende Beiträge präsentieren"@de.
+n1:p7p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.2.4";
+	skos:broader n1:h4q;
+	skos:prefLabel "kontextangemessen, funktional, kreativ verschiedene Medien und Präsentationstechniken einsetzen und das eigene Vorgehen erläutern"@de.
+n1:a2t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.2.5";
+	skos:broader n1:h4q;
+	skos:prefLabel "umfangreiche Redebeiträge zu komplexen Sachverhalten selbstständig und adressatengerecht präsentieren"@de.
+n1:h4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.2";
+	skos:broader n1:u2q;
+	skos:prefLabel "Monologische Gesprächsformen: vor anderen sprechen"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:t5h,
+		n1:e9s,
+		n1:b3z,
+		n1:p7p,
+		n1:a2t.
+n1:u2q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4";
+	skos:broader n1:d4b;
+	skos:prefLabel "den Verlauf fachlich anspruchsvoller monologischer und dialogischer Gesprächsformen konzentriert verfolgen, um Argumentation und Intention der Gesprächspartner wiederzugeben bzw. zusammenzufassen sowie ihr Verständnis durch Mitschriften und Notizen zu sichern"@de;
+	skos:narrower 
+		n1:z3f,
+		n1:h4q.
+n1:d4b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sprechen und Zuhören"@de; 
+	skos:definition """Die Schülerinnen und Schüler handeln in persönlichen, fach- und berufsbezogenen und öffentlichen Kommunikationssituationen angemessen und adressatengerecht. Diese Situationen sind in ihrer Mündlichkeit durch Interaktivität, Unmittelbarkeit, Flüchtigkeit und die Nutzung para- und nonverbaler Zeichen gekennzeichnet.\n\nDie Schülerinnen und Schüler können"""@de;
+	skos:narrower 
+		n1:e5t,
+		n1:y2g,
+		n1:a9y,
+		n1:u2q.
+n1:q2r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.1";
+	skos:broader n1:a4x;
+	skos:prefLabel "Texte orthografisch und grammatisch korrekt sowie fachsprachlich präzise, prägnant und stilistisch angemessen verfassen"@de.
+n1:r3h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.2";
+	skos:broader n1:a4x;
+	skos:prefLabel "anspruchsvolle Aufgabenstellungen in konkrete Schreibziele und Schreibpläne überführen und komplexe Texte unter Beachtung von Textkonventionen eigenständig oder kooperativ strukturieren und dabei auch digitale Werkzeuge einsetzen"@de.
+n1:d5a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.3";
+	skos:broader n1:a4x;
+	skos:prefLabel "aus selbst recherchierten Informationsquellen Relevantes für die eigene Textproduktion auswählen und in geeigneter Form aufbereiten"@de.
+n1:g4a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.4";
+	skos:broader n1:a4x;
+	skos:prefLabel "Textbelege und andere Quellen korrekt zitieren bzw. paraphrasieren"@de.
+n1:v5d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.5";
+	skos:broader n1:a4x;
+	skos:prefLabel "Texte hinsichtlich inhaltlicher, funktionaler und stilistischer Kriterien ergebnisorientiert und im Hinblick auf die Geschlossenheit der Darstellung überarbeiten"@de.
+n1:e7s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.6";
+	skos:broader n1:a4x;
+	skos:prefLabel "die Stadien ihrer Schreibprozesse und Kompetenzentwicklung dokumentieren und reflektieren"@de.
+n1:a4x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:v6z;
+	skos:prefLabel "Schreibstrategien anwenden"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:q2r,
+		n1:r3h,
+		n1:d5a,
+		n1:g4a,
+		n1:v5d,
+		n1:e7s.
+n1:p2v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.1.1";
+	skos:broader n1:f7q;
+	skos:prefLabel "eigenes Wissen über literarische, sprachliche und andere Sachverhalte geordnet und differenziert darstellen"@de.
+n1:g6g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.1.2";
+	skos:broader n1:f7q;
+	skos:prefLabel "Aufbau, inhaltlichen Zusammenhang und sprachlich-stilistische Merkmale eines Textes selbstständig fachgerecht beschreiben"@de.
+n1:h6t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.1.3";
+	skos:broader n1:f7q;
+	skos:prefLabel "Inhalte und Argumentationen komplexer Texte zusammenfassen, exzerpieren und referieren"@de.
+n1:f7q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.1";
+	skos:broader n1:e3y;
+	skos:prefLabel "Informierend schreiben"@de; 
+	skos:definition """Die Schülerinnen und Schüler informieren adressatenbezogen, zielorientiert und geordnet über Sachverhalte und Texte.\n\nDie Schülerinnen und Schüler können"""@de;
+	skos:narrower 
+		n1:p2v,
+		n1:g6g,
+		n1:h6t.
+n1:u7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.2.1";
+	skos:broader n1:h2p;
+	skos:prefLabel "zu einem gegebenen komplexen Sachverhalt eine Untersuchungsfrage formulieren, die Auswahl der Untersuchungsaspekte begründen und den Untersuchungsgang skizzieren"@de.
+n1:e9q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.2.2";
+	skos:broader n1:h2p;
+	skos:prefLabel "Schlussfolgerungen aus ihren Analysen, Vergleichen oder Diskussionen von Sachverhalten und Texten ziehen und die Ergebnisse in kohärenter Weise darstellen"@de.
+n1:z9t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.2.3";
+	skos:broader n1:h2p;
+	skos:prefLabel "eigene Interpretationsansätze zu literarischen Texten entwickeln und diese argumentativ-erklärend darstellen, auch unter Berücksichtigung von Ideengehalt, gattungs- und epochenspezifischen Merkmalen sowie literaturtheoretischen Ansätzen"@de.
+n1:c5v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.2.4";
+	skos:broader n1:h2p;
+	skos:prefLabel "bei der Auseinandersetzung mit Texten deren historische, kulturelle, philosophische, politische oder weltanschauliche Bezüge, auch in ihrer Relevanz für die Arbeitswelt, verdeutlichen"@de.
+n1:y7x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.2.5";
+	skos:broader n1:h2p;
+	skos:prefLabel "zu fachlich strittigen Sachverhalten und Texten differenzierte Argumentationen entwerfen, diese strukturiert entfalten und die Prämissen ihrer Argumentationen reflektieren"@de.
+n1:g6p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.2.6";
+	skos:broader n1:h2p;
+	skos:prefLabel "in Anlehnung an journalistische, populärwissenschaftliche oder medienspezifische Textformen eigene Texte schreiben"@de.
+n1:q2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.2.7";
+	skos:broader n1:h2p;
+	skos:prefLabel "wissenschaftspropädeutische Texte, zum Beispiel Fach- oder Seminararbeiten, planen, strukturieren, verfassen und überarbeiten"@de.
+n1:h2p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.2";
+	skos:broader n1:e3y;
+	skos:prefLabel "Erklärend und argumentierend schreiben"@de; 
+	skos:definition """Die Schülerinnen und Schüler schreiben erklärend und argumentierend über strittige oder fragliche Sachverhalte unter Bezug auf literarische oder pragmatische Texte unterschiedlicher medialer Form und auf eigenes Wissen. Sie integrieren informierende Textpassagen in erklärende und argumentierende Textformen.\n\nDie Schülerinnen und Schüler können"""@de;
+	skos:narrower 
+		n1:u7z,
+		n1:e9q,
+		n1:z9t,
+		n1:c5v,
+		n1:y7x,
+		n1:g6p,
+		n1:q2d.
+n1:r2x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.3.1";
+	skos:broader n1:c4b;
+	skos:prefLabel "nach literarischen oder nicht-literarischen Vorlagen Texte neu, um- oder weiterschreiben, die Korrespondenz von Vorlage und eigenem Text beachten und dabei ein ästhetisches Ausdrucksvermögen entfalten"@de.
+n1:y5f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.3.2";
+	skos:broader n1:c4b;
+	skos:prefLabel "ästhetische, epistemische, reflexive Textformen wie Essay, Tagebuch, Gedicht, Brief zur Selbstreflexion, Wissensbildung und Entfaltung des ästhetischen Ausdrucksvermögens in literarischen oder pragmatischen Zusammenhängen verwenden"@de.
+n1:h7c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.3.3";
+	skos:broader n1:c4b;
+	skos:prefLabel "Texte für unterschiedliche Medien gestaltend schreiben"@de.
+n1:c4b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.3";
+	skos:broader n1:e3y;
+	skos:prefLabel "Gestaltend schreiben"@de; 
+	skos:definition """Die Schülerinnen und Schüler halten eigene Ideen, Fragestellungen, Ergebnisse von Textanalysen und -interpretationen in kreativ gestalteten Texten fest.\n\nDie Schülerinnen und Schüler können"""@de;
+	skos:narrower 
+		n1:r2x,
+		n1:y5f,
+		n1:h7c.
+n1:e3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:v6z;
+	skos:prefLabel "In unterschiedlichen Textformen schreiben"@de; 
+	skos:definition "Die Schülerinnen und Schüler nutzen Schreibstrategien für die Produktion komplexer informierender, erklärender und argumentierender sowie gestaltender Textformen selbstständig und aufgabenbezogen, auch für die Verwendung in digitalen Medien. Der Begriff der Textform zielt darauf ab, dass die Schülerinnen und Schüler gegebene Textmuster für die eigene Textproduktion verwenden."@de;
+	skos:narrower 
+		n1:f7q,
+		n1:h2p,
+		n1:c4b.
+n1:v6z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Schreiben"@de; 
+	skos:definition "Die Schülerinnen und Schüler verfassen inhaltlich angemessene kohärente Texte, die sie aufgabenadäquat, konzeptgeleitet, adressaten- und zielorientiert, normgerecht, sprachlich variabel und stilistisch stimmig gestalten. Dabei schreiben sie entsprechend der jeweiligen Aufgabe in unterschiedlichen Textformen."@de;
+	skos:narrower 
+		n1:a4x,
+		n1:e3y.
+n1:h7e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n1:d4f;
+	skos:prefLabel "den komplexen Zusammenhang zwischen Teilaspekten und dem Textganzen erschließen"@de.
+n1:g4b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2";
+	skos:broader n1:d4f;
+	skos:prefLabel "aus anspruchsvollen Aufgabenstellungen angemessene Leseziele ableiten und diese für die Textrezeption nutzen"@de.
+n1:e9e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3";
+	skos:broader n1:d4f;
+	skos:prefLabel "im Leseprozess ihre auf unterschiedlichen Interpretations- und Analyseverfahren beruhenden Verstehensentwürfe überprüfen"@de.
+n1:v7u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.4";
+	skos:broader n1:d4f;
+	skos:prefLabel "die Einsicht in die Vorläufigkeit ihrer Verstehensentwürfe zur kontinuierlichen Überarbeitung ihrer Hypothesen nutzen"@de.
+n1:b9a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.5";
+	skos:broader n1:d4f;
+	skos:prefLabel "Verstehensbarrieren identifizieren und sie zum Anlass eines textnahen Lesens nehmen"@de.
+n1:f5f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.6";
+	skos:broader n1:d4f;
+	skos:prefLabel "Kontextwissen heranziehen, um Verstehensbarrieren zu überwinden"@de.
+n1:x5e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.7";
+	skos:broader n1:d4f;
+	skos:prefLabel "Rückschlüsse aus der medialen Präsentation und Verbreitungsform eines Textes ziehen"@de.
+n1:c9e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.8";
+	skos:broader n1:d4f;
+	skos:prefLabel "Geltungsansprüche von Texten reflektieren und das Ergebnis in das Textverstehen einbeziehen"@de.
+n1:a5p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.9";
+	skos:broader n1:d4f;
+	skos:prefLabel "die Qualität von Textinformationen vor dem Hintergrund ihres fachlichen Wissens prüfen und beurteilen"@de.
+n1:g5d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.10";
+	skos:broader n1:d4f;
+	skos:prefLabel "ihr Fach- und Weltwissen flexibel einsetzen, um das Textverständnis zu vertiefen und die Relevanz des Gelesenen einzuschätzen"@de.
+n1:e6q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.11";
+	skos:broader n1:d4f;
+	skos:prefLabel "sich in der Anschlusskommunikation über eigene und fremde Verstehensvoraussetzungen verständigen"@de.
+n1:y7q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.12";
+	skos:broader n1:d4f;
+	skos:prefLabel "im Leseprozess ihr fachliches Wissen selbstständig zur Erschließung und Nutzung voraussetzungsreicher Texte heranziehen"@de.
+n1:d4f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Lesen"@de; 
+	skos:definition "Die Schülerinnen und Schüler sind in der Lage, selbstständig Strategien und Techniken zur Erschließung von linearen und nichtlinearen Texten unterschiedlicher medialer Form anzuwenden und zu reflektieren. Lesend erweitern sie ihr kulturhistorisches und domänenspezifisches Orientierungswissen und bewältigen dabei umfangreiche und komplexe Texte.\n\nDie Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:h7e,
+		n1:g4b,
+		n1:e9e,
+		n1:v7u,
+		n1:b9a,
+		n1:f5f,
+		n1:x5e,
+		n1:c9e,
+		n1:a5p,
+		n1:g5d,
+		n1:e6q,
+		n1:y7q.
+n1:g7g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1.1";
+	skos:broader n1:p2x;
+	skos:prefLabel "Inhalt, Aufbau und sprachliche Gestaltung literarischer Texte analysieren, Sinnzusammenhänge zwischen einzelnen Einheiten dieser Texte herstellen und sie als Geflechte innerer Bezüge und Abhängigkeiten erfassen"@de.
+n1:e9y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1.2";
+	skos:broader n1:p2x;
+	skos:prefLabel "eigenständig ein Textverständnis formulieren, in das sie persönliche Leseerfahrungen und alternative Lesarten des Textes einbeziehen, und auf der Basis eigener Analyseergebnisse begründen"@de.
+n1:r9g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1.3";
+	skos:broader n1:p2x;
+	skos:prefLabel "ihr Textverständnis argumentativ durch gattungspoetologische und literaturgeschichtliche Kenntnisse über die Literaturepochen von der Aufklärung bis zur Gegenwart stützen"@de.
+n1:r7v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1.4";
+	skos:broader n1:p2x;
+	skos:prefLabel "relevante Motive, Themen und Strukturen literarischer Schriften, die auch über Barock und Mittelalter bis in die Antike zurückreichen können, vergleichen und in ihre Texterschließung einbeziehen"@de.
+n1:f2g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1.5";
+	skos:broader n1:p2x;
+	skos:prefLabel "Mehrdeutigkeit als konstitutives Merkmal literarischer Texte nachweisen"@de.
+n1:s7y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1.6";
+	skos:broader n1:p2x;
+	skos:prefLabel "literarische Texte aller Gattungen als Produkte künstlerischer Gestaltung erschließen"@de.
+n1:d9p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1.7";
+	skos:broader n1:p2x;
+	skos:prefLabel "die besondere ästhetische Qualität eines literarischen Produktes aufgrund eines breit angelegten literarischen Vorwissens erfassen und ihre Befunde in das Textverständnis einbeziehen"@de.
+n1:h2u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1.8";
+	skos:broader n1:p2x;
+	skos:prefLabel "diachrone und synchrone Zusammenhänge zwischen literarischen Texten ermitteln und Bezüge zu weiteren Kontexten herstellen"@de.
+n1:d5h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1.9";
+	skos:broader n1:p2x;
+	skos:prefLabel "die in literarischen Werken enthaltenen Herausforderungen und Fremdheitserfahrungen kritisch zu eigenen Wertvorstellungen, Welt- und Selbstkonzepten in Beziehung setzen"@de.
+n1:c5h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1.10";
+	skos:broader n1:p2x;
+	skos:prefLabel "literarische Texte auf der Basis von nachvollziehbaren, sachlich fundierten Kriterien bewerten und dabei auch textexterne Bezüge wie Produktions-, Rezeptions- und Wirkungsbedingungen berücksichtigen"@de.
+n1:c9p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1.11";
+	skos:broader n1:p2x;
+	skos:prefLabel "kreativ Texte im Sinne literarischen Probehandelns gestalten"@de.
+n1:p2x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1";
+	skos:broader n1:f3p;
+	skos:prefLabel "Grundlegendes Niveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:g7g,
+		n1:e9y,
+		n1:r9g,
+		n1:r7v,
+		n1:f2g,
+		n1:s7y,
+		n1:d9p,
+		n1:h2u,
+		n1:d5h,
+		n1:c5h,
+		n1:c9p.
+n1:x3t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.2.1";
+	skos:broader n1:s4z;
+	skos:prefLabel "den besonderen poetischen Anspruch und die ästhetische Qualität literarischer Texte vor dem Hintergrund ihrer Kenntnisse in den Bereichen Poetologie und Ästhetik erläutern"@de.
+n1:u5e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.2.2";
+	skos:broader n1:s4z;
+	skos:prefLabel "Kenntnisse wissenschaftlicher Sekundärtexte, philosophischer Schriften und historischer Abhandlungen in die Kontextualisierung literarischer Werke einbeziehen"@de.
+n1:p5g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.2.3";
+	skos:broader n1:s4z;
+	skos:prefLabel "in ihre Erörterung der in literarischen Werken enthaltenen Herausforderungen und Fremdheitserfahrungen geistes-, kultur- und sozialgeschichtliche Entwicklungen einbeziehen"@de.
+n1:e2r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.2.4";
+	skos:broader n1:s4z;
+	skos:prefLabel "ihre literarischen Wertungen differenziert begründen und dabei auf ihr größeres und komplexeres Kontextwissen zurückgreifen"@de.
+n1:s4z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.2";
+	skos:broader n1:f3p;
+	skos:prefLabel "Erhöhtes Niveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können darüber hinaus"@de;
+	skos:narrower 
+		n1:x3t,
+		n1:u5e,
+		n1:p5g,
+		n1:e2r.
+n1:f3p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1";
+	skos:broader n1:t2q;
+	skos:prefLabel "Sich mit literarischen Texten auseinandersetzen"@de; 
+	skos:definition "Die Schülerinnen und Schüler erschließen sich literarische Texte von der Aufklärung bis zur Gegenwart und verstehen das Ästhetische als eine spezifische Weise der Wahrnehmung, der Gestaltung und der Erkenntnis. Sie verfügen über ein literaturgeschichtliches und poetologisches Überblickswissen, das Werke aller Gattungen umfasst, und stellen Zusammenhänge zwischen literarischer Tradition und Gegenwartsliteratur auch unter interkulturellen Gesichtspunkten her."@de;
+	skos:narrower 
+		n1:p2x,
+		n1:s4z.
+n1:q3c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1.1";
+	skos:broader n1:c9a;
+	skos:prefLabel "den inhaltlichen Zusammenhang voraussetzungsreicher Texte sichern und diese Texte terminologisch präzise und sachgerecht zusammenfassen"@de.
+n1:t4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1.2";
+	skos:broader n1:c9a;
+	skos:prefLabel "ein umfassendes, Textfunktionen, Situationen und Adressaten beachtendes Textverständnis formulieren"@de.
+n1:d9b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1.3";
+	skos:broader n1:c9a;
+	skos:prefLabel "die in pragmatischen Texten enthaltenen sprachlichen Handlungen ermitteln"@de.
+n1:t2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1.4";
+	skos:broader n1:c9a;
+	skos:prefLabel "die Funktionen eines pragmatischen Textes bestimmen und dessen mögliche Wirkungsabsichten beurteilen"@de.
+n1:y4b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1.5";
+	skos:broader n1:c9a;
+	skos:prefLabel "die sprachlich-stilistische Gestaltung eines pragmatischen Textes fachgerecht beschreiben und deren Wirkungsweise erläutern"@de.
+n1:p6z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1.6";
+	skos:broader n1:c9a;
+	skos:prefLabel "Elemente der Textgestaltung einschließlich nichtsprachlicher Bestandteile in ihrer Funktion analysieren"@de.
+n1:z4c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1.7";
+	skos:broader n1:c9a;
+	skos:prefLabel "zielgerichtet Zusammenhänge zu weiteren ihnen bekannten Texten herstellen und hierfür passende Wissensbestände aktivieren"@de.
+n1:q3r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1.8";
+	skos:broader n1:c9a;
+	skos:prefLabel "themengleiche Texte methodisch fachgerecht vergleichen"@de.
+n1:u9y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1.9";
+	skos:broader n1:c9a;
+	skos:prefLabel "sich mittels pragmatischer Texte mit den eigenen Welt- und Wertvorstellungen, auch in einer interkulturellen Perspektive, auseinandersetzen"@de.
+n1:c9a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1";
+	skos:broader n1:u5h;
+	skos:prefLabel "Grundlegendes Niveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:q3c,
+		n1:t4q,
+		n1:d9b,
+		n1:t2d,
+		n1:y4b,
+		n1:p6z,
+		n1:z4c,
+		n1:q3r,
+		n1:u9y.
+n1:e6t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.2.1";
+	skos:broader n1:a9u;
+	skos:prefLabel "die Zuordnung von Texten zu Textformen2 und Textsorten reflektieren"@de.
+n1:b3b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.2.2";
+	skos:broader n1:a9u;
+	skos:prefLabel "die in argumentativen Texten enthaltenen Argumentationsstrukturen theoriegestützt analysieren"@de.
+n1:a2v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.2.3";
+	skos:broader n1:a9u;
+	skos:prefLabel "die Beziehung zwischen pragmatischen Texten und ihren Produktionsbedingungen ermitteln"@de.
+n1:a9u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.2";
+	skos:broader n1:u5h;
+	skos:prefLabel "Erhöhtes Niveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können darüber hinaus"@de;
+	skos:narrower 
+		n1:e6t,
+		n1:b3b,
+		n1:a2v.
+n1:u5h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2";
+	skos:broader n1:t2q;
+	skos:prefLabel "Sich mit pragmatischen Texten auseinandersetzen"@de; 
+	skos:definition "Die Schülerinnen und Schüler nutzen für den eigenen Erkenntnisprozess vielschichtige, voraussetzungsreiche Sachtexte, darunter auch wissenschaftsnahe und berufsbezogene Fachtexte aus unterschiedlichen Domänen. Sie erschließen, analysieren und beurteilen Gehalt, Kontext und Wirkungsabsicht pragmatischer Texte."@de;
+	skos:narrower 
+		n1:c9a,
+		n1:a9u.
+n1:y2a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.1.1";
+	skos:broader n1:h3g;
+	skos:prefLabel "Theaterinszenierungen und Literaturverfilmungen als Textinterpretationen erfassen und beurteilen"@de.
+n1:v6s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.1.2";
+	skos:broader n1:h3g;
+	skos:prefLabel "Theaterinszenierungen, Hörtexte und Filme sachgerecht analysieren"@de.
+n1:r3f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.1.3";
+	skos:broader n1:h3g;
+	skos:prefLabel "eigene Hörtexte, Filme oder andere audiovisuelle Präsentationsformen erstellen bzw. Textvorlagen szenisch umsetzen"@de.
+n1:f5u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.1.4";
+	skos:broader n1:h3g;
+	skos:prefLabel "sich bei der Rezeption oder Produktion von Hörtexten und Filmen und bei der Rezeption von Theaterinszenierungen mit den eigenen Welt- und Wertvorstellungen, auch in einer interkulturellen Perspektive, auseinandersetzen"@de.
+n1:h3g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.1";
+	skos:broader n1:t6t;
+	skos:prefLabel "Grundlegendes Niveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:y2a,
+		n1:v6s,
+		n1:r3f,
+		n1:f5u.
+n1:r9u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.2.1";
+	skos:broader n1:y5a;
+	skos:prefLabel "die ästhetische Qualität von Theaterinszenierungen, Hörtexten oder Filmen beurteilen, auch vor dem Hintergrund ihrer kulturellen und historischen Dimension"@de.
+n1:p9d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.2.2";
+	skos:broader n1:y5a;
+	skos:prefLabel "sich mit Filmkritik und Aspekten der Filmtheorie auseinandersetzen"@de.
+n1:y5a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3.2";
+	skos:broader n1:t6t;
+	skos:prefLabel "Erhöhtes Niveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können darüber hinaus"@de;
+	skos:narrower 
+		n1:r9u,
+		n1:p9d.
+n1:t6t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.3";
+	skos:broader n1:t2q;
+	skos:prefLabel "Sich mit Texten unterschiedlicher medialer Form und Theaterinszenierungen auseinandersetzen"@de; 
+	skos:definition "Die Schülerinnen und Schüler analysieren die spezifische Gestaltung von Texten unterschiedlicher medialer Form, erläutern ihre Wirkung und beurteilen die ästhetische Qualität. Sie setzen sich fachgerecht mit exemplarischen Theaterinszenierungen, Hörtexten und Filmen auseinander."@de;
+	skos:narrower 
+		n1:h3g,
+		n1:y5a.
+n1:t2q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sich mit Texten und Medien auseinandersetzen"@de; 
+	skos:definition "Die Schülerinnen und Schüler erschließen sich literarische und pragmatische Texte unterschiedlicher medialer Form unter reflektierter Nutzung von fachlichem Wissen."@de;
+	skos:narrower 
+		n1:f3p,
+		n1:u5h,
+		n1:t6t.
+n1:h4x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1.1";
+	skos:broader n1:t4e;
+	skos:prefLabel "ein grundlegendes Verständnis der kognitiven und kommunikativen Funktion von Sprache formulieren"@de.
+n1:p2p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1.2";
+	skos:broader n1:t4e;
+	skos:prefLabel "sprachliche Äußerungen kriterienorientiert analysieren und ihre Einsichten in der Auseinandersetzung mit Texten und Sachverhalten dokumentieren"@de.
+n1:v7p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1.3";
+	skos:broader n1:t4e;
+	skos:prefLabel "sprachliche Strukturen und Bedeutungen auf der Basis eines gesicherten Grammatikwissens und semantischer Kategorien erläutern"@de.
+n1:h2z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1.4";
+	skos:broader n1:t4e;
+	skos:prefLabel "Strukturen und Funktionen von Sprachvarietäten beschreiben"@de.
+n1:z9a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1.5";
+	skos:broader n1:t4e;
+	skos:prefLabel "Bedingungen gelingender Kommunikation analysieren, auch auf der Basis theoretischer Modelle"@de.
+n1:z6a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1.6";
+	skos:broader n1:t4e;
+	skos:prefLabel "verbale, paraverbale und nonverbale Gestaltungsmittel in unterschiedlichen kommunikativen Zusammenhängen analysieren, ihre Funktion beschreiben und ihre Angemessenheit bewerten"@de.
+n1:h7p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1.7";
+	skos:broader n1:t4e;
+	skos:prefLabel "verbale, paraverbale und nonverbale Signale für Macht- und Dominanzverhältnisse identifizieren"@de.
+n1:y5p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1.8";
+	skos:broader n1:t4e;
+	skos:prefLabel "sprachliche Handlungen kriterienorientiert in authentischen und fiktiven Kommunikationssituationen bewerten"@de.
+n1:b7a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1.9";
+	skos:broader n1:t4e;
+	skos:prefLabel "Auswirkungen der Sprachenvielfalt und der Mehrsprachigkeit analysieren"@de.
+n1:q3f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1.10";
+	skos:broader n1:t4e;
+	skos:prefLabel "auf der Grundlage sprachkritischer Texte Entwicklungstendenzen der Gegenwartssprache beschreiben und bewerten"@de.
+n1:t9x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1.11";
+	skos:broader n1:t4e;
+	skos:prefLabel "persuasive und manipulative Strategien in öffentlichen Bereichen analysieren und sie kritisch bewerten"@de.
+n1:t4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1";
+	skos:broader n1:z5p;
+	skos:prefLabel "Grundlegendes Niveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:h4x,
+		n1:p2p,
+		n1:v7p,
+		n1:h2z,
+		n1:z9a,
+		n1:z6a,
+		n1:h7p,
+		n1:y5p,
+		n1:b7a,
+		n1:q3f,
+		n1:t9x.
+n1:x2c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.2.1";
+	skos:broader n1:r5s;
+	skos:prefLabel "sprachphilosophische Positionen zur Analyse von Sprache und Kommunikation heranziehen"@de.
+n1:y6p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.2.2";
+	skos:broader n1:r5s;
+	skos:prefLabel "sprachliche Handlungen in authentischen und fiktiven Kommunikationssituationen theoriegestützt beschreiben"@de.
+n1:s5z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.2.3";
+	skos:broader n1:r5s;
+	skos:prefLabel "Phänomene des Sprachwandels und des Spracherwerbs theoriegestützt beschreiben"@de.
+n1:r3p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.2.4";
+	skos:broader n1:r5s;
+	skos:prefLabel "in geeigneten Nutzungszusammenhängen mit grammatischen und semantischen Kategorien argumentieren"@de.
+n1:r5s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.2";
+	skos:broader n1:z5p;
+	skos:prefLabel "Erhöhtes Niveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können darüber hinaus"@de;
+	skos:narrower 
+		n1:x2c,
+		n1:y6p,
+		n1:s5z,
+		n1:r3p.
+n1:z5p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sprache und Sprachgebrauch reflektieren"@de; 
+	skos:definition "Die Schülerinnen und Schüler analysieren Sprache als System und als historisch gewordenes Kommunikationsmedium und erweitern so ihr Sprachwissen und ihre Sprachbewusstheit. Sie nutzen beides für die mündliche und schriftliche Kommunikation."@de;
+	skos:narrower 
+		n1:t4e,
+		n1:r5s.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Deutsch Sek II 2012 - Bildungsstandards für die Kompetenzbereiche im Fach Deutsch"@de;
+	dct:description """Die Kompetenzbereiche „Sprechen und Zuhören“, „Schreiben“ und „Lesen“ (Textfassung: vgl. Abschnitte 2.1 bis 2.3) formulieren prozessbezogene Bildungsstandards. Sie sind für alle Schülerinnen und Schüler im Sinne der propädeutischen Zielsetzung der gymnasialen Oberstufe – gleichsam als Handwerkszeug – unverzichtbar. Die Nutzung dieser Kompetenzen
+ermöglicht allen Schülerinnen und Schülern eine angemessene mündliche und schriftliche Verständigung sowie eine differenzierte Anwendung von Texterschließungsverfahren und Arbeitstechniken.
+
+ Unterschiedliche Anforderungen auf grundlegendem bzw. erhöhtem Niveau ergeben sich für diese Kompetenzbereiche in der Verschränkung mit den beiden domänenspezifischen Kompetenzbereichen „Sich mit Texten und Medien auseinandersetzen“ und „Sprache und Sprachgebrauch reflektieren“ (Textfassung: vgl. Abschnitte 2.4 und 2.5). Beide Kompetenzbereiche basieren auf den fachspezifischen Domänen, in denen die prozessbezogenen Kompetenzen verbindlich konkretisiert und hinsichtlich der beiden unterschiedlichen Anforderungsniveaus für Kurse auf grundlegendem bzw. erhöhtem Niveau deutlich differenziert werden. In beiden Kompetenzbereichen werden durchgängig zusätzlich zu den Kompetenzerwartungen für das grundlegende Anforderungsniveau solche für das erhöhte Anforderungsniveau ausgewiesen,
+sodass durch diese qualitative und quantitative Steigerung eine thematische Erweiterung und Differenzierung sowie eine theoretische Vertiefung gesichert ist.
+
+Die Niveaustufung erfolgt zudem durch die Auswahl des Gegenstands und die Aufgabenstellung. Je nach Voraussetzungsreichtum, sprachlicher Komplexität und Informationsdichte der Texte variiert der Grad an Kenntnissen, Selbstständigkeit und Reflexionsvermögen, den Schülerinnen und Schüler auf grundlegendem oder erhöhtem Anforderungsniveau benötigen. Aufgaben auf erhöhtem Niveau fordern von den Schülerinnen und Schülern ein größeres Maß an Eigenständigkeit und Reflexion.
+
+Der Kompetenzerwerb soll im Sinne kumulativen Lernens vernetzt erfolgen. Die Reihenfolge der Bildungsstandards ist daher nicht als Abbildung einer möglichen Chronologie des Kompetenzaufbaus aufzufassen."""@de;
+	skos:hasTopConcept
+		n1:d4b,
+		n1:v6z,
+		n1:d4f,
+		n1:t2q,
+		n1:z5p.

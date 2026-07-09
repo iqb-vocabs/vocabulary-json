@@ -1,0 +1,478 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v56/fe/>. 
+@prefix n1: <https://w3id.org/iqb/v56/fe/>. 
+
+n1:b7t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:s4e;
+	skos:prefLabel "in kurzen einfachen Hörtexten Hauptaussagen verstehen und wichtige Informationen erfassen, wenn es um konkrete alltägliche Dinge geht, langsam und deutlich gesprochen und ein frequenter Wortschatz verwendet wird."@de.
+n1:f7f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:s4e;
+	skos:prefLabel "das Wesentliche von kurzen, klaren und einfachen Durchsagen, Mitteilungen erfassen."@de.
+n1:r9d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:s4e;
+	skos:prefLabel "das Thema von Gesprächen zwischen Anderen erfassen und erkennen, ob Sprechende in einem Gespräch zustimmen oder nicht."@de.
+n1:p2z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4";
+	skos:broader n1:s4e;
+	skos:prefLabel "in einfachen Präsentationen die Hauptaussagen verstehen, wenn es um Dinge von unmittelbarer Bedeutung geht."@de.
+n1:a4v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5";
+	skos:broader n1:s4e;
+	skos:prefLabel "bei kurzen Hörtexten und audiovisuellen Texten anhand erfasster Hauptaussagen Vorhersagen über den weiteren Inhalt treffen."@de.
+n1:f2a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6";
+	skos:broader n1:s4e;
+	skos:prefLabel "die Hauptaussagen in kurzen audiovisuellen Texten erfassen, wenn die sprachlich vermittelte Information durch Bilder unterstützt wird und langsam und deutlich gesprochen wird."@de.
+n1:r6s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.7";
+	skos:broader n1:s4e;
+	skos:prefLabel "in kurzen, einfachen literarisch-ästhetischen Hörtexten und audiovisuellen Texten zentrale Themen oder Figuren erkennen, sofern diese anhand vertrauter Situationen erschlossen werden können."@de.
+n1:q3g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.8";
+	skos:broader n1:s4e;
+	skos:prefLabel "auf ihnen vertraute (digitale) Werkzeuge bei der Rezeption von Hörtexten und audiovisuellen Texten zurückgreifen. Mitunter benötigen sie dabei Hinweise und Unterstützung."@de.
+n1:s4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Rezeption: Hörverstehen / audiovisuelles Verstehen"@de; 
+	skos:definition """Hörverstehen ermöglicht die Teilhabe an Kommunikationssituationen, in denen die Rezeption von auditiv vermittelten Texten im Mittelpunkt steht. Die Anforderungen in den rezeptiven Anteilen solcher Kommunikationssituationen werden durch die Merkmale der Hörtexte geprägt (z. B. Flüchtigkeit des Gesagten, Phänomene gesprochener Sprache wie unvollständige Sätze und ggfs. undeutliche Aussprache) und hängen außerdem von den konkreten Verstehensabsichten ab (z. B. das Thema erfassen, die eher implizit vermittelte Meinung der sprechenden Person zum Thema verstehen, sich eine ganz bestimmte Information merken). Audiovisuelles Verstehen ist, wie das Hörverstehen, auf die Verarbeitung von (eher) mündlichen Texten ausgerichtet. Die Modalität der zu verarbeitenden Informationen wird durch ein visuelles Medium erweitert, ggf. auch durch weitere Medien, insbesondere in digital vermittelten mündlichen Texten. Diese Art des Textverstehens entspricht demnach der Fähigkeit, mit lautlich, sprachlich und visuell kodierten Texten gleich zeitig umzugehen. \n\n Die Schülerinnen und Schüler können"""@de;
+	skos:narrower 
+		n1:b7t,
+		n1:f7f,
+		n1:r9d,
+		n1:p2z,
+		n1:a4v,
+		n1:f2a,
+		n1:r6s,
+		n1:q3g.
+n1:f6z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:p4q;
+	skos:prefLabel "kurze, einfache Korrespondenz zu vertrauten Themen einschließlich der verwendeten Umgangsformen verstehen."@de.
+n1:t7x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:p4q;
+	skos:prefLabel "konkrete, voraussagbare Informationen in einfachen Gebrauchsstexten auffinden und verstehen."@de.
+n1:h9s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n1:p4q;
+	skos:prefLabel "kurze, einfache Anleitungen oder Anweisungen verstehen, die einen frequenten Wortschatz verwenden und ggf. durch Bilder veranschaulicht werden."@de.
+n1:d6u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4";
+	skos:broader n1:p4q;
+	skos:prefLabel "in kurzen einfachen Sachtexten Hauptaussagen erkennen und wichtige Informationen erfassen, wenn es um Dinge von unmittelbarer Bedeutung geht."@de.
+n1:e6v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.5";
+	skos:broader n1:p4q;
+	skos:prefLabel "in kurzen, einfachen literarisch-ästhetischen Texten zentrale Themen oder Figuren erkennen, sofern diese Texte vertraute Situationen und einen frequenten Wortschatz enthalten."@de.
+n1:h3s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.6";
+	skos:broader n1:p4q;
+	skos:prefLabel "die eigene emotionale oder gedankliche Reaktion auf kurze, einfache literarisch-ästhetische Texte erfassen."@de.
+n1:y4s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.7";
+	skos:broader n1:p4q;
+	skos:prefLabel "beim Lesen auf ihnen vertraute (digitale) Werkzeuge zurückgreifen. Mitunter benötigen sie dabei Hinweise und Unterstützung."@de.
+n1:y2b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.8";
+	skos:broader n1:p4q;
+	skos:prefLabel "bekannte Wörter bzw. den Kontext nutzen, um die Bedeutung unbekannter Wörter in routinemäßigen Alltagskontexten zu erschließen."@de.
+n1:e6p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.9";
+	skos:broader n1:p4q;
+	skos:prefLabel "bei kurzen Texten mit Unterstützung Vorhersagen über deren Hauptaussagen treffen."@de.
+n1:f6h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.10";
+	skos:broader n1:p4q;
+	skos:prefLabel "auf die in einer Sprache/weiteren Sprachen verfügbaren Kenntnisse und erlernten Strategien zurückgreifen, um zielsprachige Texte zu verstehen. Mitunter benötigen sie dabei Hinweise und Unterstützung."@de.
+n1:p4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Rezeption: Leseverstehen"@de; 
+	skos:definition """Das Leseverstehen ermöglicht die Teilhabe an Kommunikationssituationen, in denen die Rezeption schriftlich vermittelter Texte im Mittel punkt steht. Die Anforderungen in den rezeptiven Anteilen solcher Kommunikationssituationen werden durch Merkmale der Texte (z. B. Länge, sprachliche Komplexität, Struktur oder Genre) und durch spezifische Verstehensabsichten (z. B. das Thema erfassen, eine bestimmte Information auffinden) geprägt. \n\n Die Schülerinnen und Schüler können"""@de;
+	skos:narrower 
+		n1:f6z,
+		n1:t7x,
+		n1:h9s,
+		n1:d6u,
+		n1:e6v,
+		n1:h3s,
+		n1:y4s,
+		n1:y2b,
+		n1:e6p,
+		n1:f6h.
+n1:q7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.1";
+	skos:broader n1:p7b;
+	skos:prefLabel "sich in kurzen und einfachen Situationen verständigen, in denen es um einen unkomplizierten und direkten Austausch von Informationen über vertraute Themen geht."@de.
+n1:h7r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.2";
+	skos:broader n1:p7b;
+	skos:prefLabel "einfache, alltägliche Höflichkeitsformeln verwenden, um soziale Kontakte herzustellen."@de.
+n1:g7r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.3";
+	skos:broader n1:p7b;
+	skos:prefLabel "im Allgemeinen verstehen, wenn in deutlich artikulierter Standardsprache über vertraute Themen langsam gesprochen wird, vorausgesetzt sie können ab und zu darum bitten, dass etwas wiederholt, anders formuliert bzw. erläutert wird."@de.
+n1:a6d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.4";
+	skos:broader n1:p7b;
+	skos:prefLabel "relevante Informationen austauschen und, wenn direkt danach gefragt, die eigene Meinung zu einer praktischen Frage äußern, sofern sie Hilfe beim Formulieren erhalten und wenn nötig darum bitten können, dass Kernpunkte wiederholt werden."@de.
+n1:p7v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.5";
+	skos:broader n1:p7b;
+	skos:prefLabel "einfache Sachinformationen weitergeben und auf entsprechende einfache Fragen antworten."@de.
+n1:t2s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.6";
+	skos:broader n1:p7b;
+	skos:prefLabel "(digitale) Hilfsmittel nutzen, um einfache Nachrichten auszutauschen, Pläne zu machen und Verabredungen zu treffen. Mitunter benötigen sie dabei Hinweise und Unterstützung."@de.
+n1:e7v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.7";
+	skos:broader n1:p7b;
+	skos:prefLabel "aus dem eigenen Repertoire passende Wendungen abrufen und erproben."@de.
+n1:x2v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.8";
+	skos:broader n1:p7b;
+	skos:prefLabel "Gesten oder ein nicht ganz passendes Wort aus dem eigenen Repertoire verwenden, um eigene Aussagen zu verdeutlichen."@de.
+n1:v4d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.9";
+	skos:broader n1:p7b;
+	skos:prefLabel "einfache Mittel anwenden, um ein kurzes Gespräch adressaten-, situations- und zweckangemessen zu beginnen, in Gang zu halten und zu beenden. Mitunter benötigen sie dabei Hinweise und Unterstützung."@de.
+n1:z5v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.10";
+	skos:broader n1:p7b;
+	skos:prefLabel "die in einer Sprache/weiteren Sprachen verfügbaren Kenntnisse, Fertigkeiten und erlernten Strategien aktivieren, um Informationen in der Zielsprache auszutauschen. Mitunter benötigen sie dabei Hinweise und Unterstützung."@de.
+n1:p7b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n1:r6v;
+	skos:prefLabel "Mündliche Interaktion"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:q7z,
+		n1:h7r,
+		n1:g7r,
+		n1:a6d,
+		n1:p7v,
+		n1:t2s,
+		n1:e7v,
+		n1:x2v,
+		n1:v4d,
+		n1:z5v.
+n1:q2z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1";
+	skos:broader n1:h4e;
+	skos:prefLabel "einfache Beschreibungen und Darstellungen zu vertrauten Themen geben, und zwar in kurzen, listenhaften Abfolgen aus einfachen Wendungen und Sätzen."@de.
+n1:f5u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.2";
+	skos:broader n1:h4e;
+	skos:prefLabel "mit einfachen Worten Personen, Orte, Dinge beschreiben."@de.
+n1:u6y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.3";
+	skos:broader n1:h4e;
+	skos:prefLabel "kurz und einfach über Ereignisse oder eine Tätigkeit berichten."@de.
+n1:d6r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.4";
+	skos:broader n1:h4e;
+	skos:prefLabel "ihre Meinung mit einfachen Worten vorstellen."@de.
+n1:u5d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.5";
+	skos:broader n1:h4e;
+	skos:prefLabel "eingeübte kurze Präsentationen zu vertrauten Themen in verschiedenen Kommunikationsformen vortragen und dabei Erläuterungen geben."@de.
+n1:u7c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.6";
+	skos:broader n1:h4e;
+	skos:prefLabel "(digitale) Hilfsmittel nutzen, um zusammenhängende mündliche Äußerungen zu vertrauten Themen zu verfassen. Mitunter benötigen sie dabei Hinweise und Unterstützung."@de.
+n1:d2r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.7";
+	skos:broader n1:h4e;
+	skos:prefLabel "ihre begrenzten Kompetenzen in den verschiedenen ihnen eventuell zur Verfügung stehenden Sprachen für zusammenhängende Beschreibungen und Berichte in der Zielsprache nutzen. Mitunter benötigen sie dabei Hinweise und Unterstützung."@de.
+n1:h4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2";
+	skos:broader n1:r6v;
+	skos:prefLabel "Mündliche Produktion"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:q2z,
+		n1:f5u,
+		n1:u6y,
+		n1:d6r,
+		n1:u5d,
+		n1:u7c,
+		n1:d2r.
+n1:r6v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sprechen"@de; 
+	skos:definition "Sprechen ist auf die Produktion mündlicher Texte ausgerichtet. Dabei ist Sprechen stets – selbst in der Form eines Vortrags – ein interaktiver Vorgang, da die Reaktionen eines Publikums u.a. eingeplant, antizipiert, aufgegriffen werden. Im Folgenden wird jedoch unterschieden zwischen mündlicher Interaktion als Form dialogischen Sprechens und mündlicher Produktion als Form monologischen Sprechens, da diese jeweils unterschiedliche Teilkompetenzen und Strategien erfordern. Beide Formen mündlicher Kommunikation umfassen narrative, expositorische und argumentative Genres, die für die Alltagskommunikation der Schülerinnen und Schüler relevant sind. Diese Kommunikation findet sowohl face-to-face als auch im digitalen Raum statt. So sind durch den Einsatz digitaler Medien neue Formen der Mündlichkeit entstanden."@de;
+	skos:narrower 
+		n1:p7b,
+		n1:h4e.
+n1:z5s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1";
+	skos:broader n1:q4q;
+	skos:prefLabel "aufgabenbezogen bzw. zweckgerichtet in sehr einfachen Texten zu vertrauten Themen schriftlich interagieren."@de.
+n1:c3p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.2";
+	skos:broader n1:q4q;
+	skos:prefLabel "kurze, einfache, formelhafte Korrespondenzen verfassen, um andere über unmittelbar notwendige Sachverhalte zu informieren."@de.
+n1:y2x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.3";
+	skos:broader n1:q4q;
+	skos:prefLabel "in kurzen Korrespondenzen Informationen austauschen und dabei auf die Fragen einer anderen Person eingehen und antworten."@de.
+n1:s9r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.4";
+	skos:broader n1:q4q;
+	skos:prefLabel "kurze, einfache Notizen und Mitteilungen formulieren, die sich auf unmittelbare Bedürfnisse beziehen."@de.
+n1:f2f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.5";
+	skos:broader n1:q4q;
+	skos:prefLabel "sich an einfacher sozialer Kommunikation online beteiligen."@de.
+n1:g2s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.6";
+	skos:broader n1:q4q;
+	skos:prefLabel "die eigenen Reaktionen auf einen literarisch-ästhetischen Text und die eigenen Gefühle und Gedanken dazu in einfacher Sprache ausdrücken. Mitunter benötigen sie dabei Hinweise und Unterstützung."@de.
+n1:t7a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.7";
+	skos:broader n1:q4q;
+	skos:prefLabel "(digitale) Hilfsmittel nutzen, um in einfachen Texten schriftlich zu interagieren. Mitunter benötigen sie dabei Hinweise und Unterstützung."@de.
+n1:r2g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.8";
+	skos:broader n1:q4q;
+	skos:prefLabel "aus dem eigenen Repertoire passende Wendungen abrufen und erproben."@de.
+n1:f9b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.9";
+	skos:broader n1:q4q;
+	skos:prefLabel "mithilfe von Routinewendungen um Wiederholung oder Klärung von Schlüsselwörtern in digitalen Kommunikationsformen bitten."@de.
+n1:d5u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.10";
+	skos:broader n1:q4q;
+	skos:prefLabel "die in einer Sprache/weiteren Sprachen verfügbaren Kenntnisse, Fertigkeiten und erlernten Strategien aktivieren, um schriftlich in der Zielsprache zu interagieren. Mitunter benötigen sie dabei Hinweise und Unterstützung."@de.
+n1:q4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1";
+	skos:broader n1:z2p;
+	skos:prefLabel "Schriftliche Interaktion"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:z5s,
+		n1:c3p,
+		n1:y2x,
+		n1:s9r,
+		n1:f2f,
+		n1:g2s,
+		n1:t7a,
+		n1:r2g,
+		n1:f9b,
+		n1:d5u.
+n1:s4b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1";
+	skos:broader n1:z3y;
+	skos:prefLabel "sehr einfache Texte zu vertrauten Themen verfassen, wobei einzelne kürzere Teile in linearer Abfolge verbunden werden."@de.
+n1:u2u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.2";
+	skos:broader n1:z3y;
+	skos:prefLabel "einfache Geschichten erzählen."@de.
+n1:g5q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.3";
+	skos:broader n1:z3y;
+	skos:prefLabel "eigene Eindrücke und Meinungen zu vertrauten Themen äußern und dabei elementare Alltagswörter und Ausdrücke verwenden."@de.
+n1:b6s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.4";
+	skos:broader n1:z3y;
+	skos:prefLabel "(digitale) Hilfsmittel nutzen, um einfache Texte schriftlich zu verfassen. Mitunter benötigen sie dabei Hinweise und Unterstützung."@de.
+n1:h9h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.5";
+	skos:broader n1:z3y;
+	skos:prefLabel "auf die in einer Sprache/weiteren Sprachen verfügbaren Kenntnisse, Fertigkeiten und erlernten Strategien zurückgreifen, um einfache Texte in der Zielsprache zu verfassen. Mitunter benötigen sie dabei Hinweise und Unterstützung."@de.
+n1:z3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2";
+	skos:broader n1:z2p;
+	skos:prefLabel "Schriftliche Produktion"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:s4b,
+		n1:u2u,
+		n1:g5q,
+		n1:b6s,
+		n1:h9h.
+n1:z2p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Schreiben"@de; 
+	skos:definition "Schreiben ist auf die Produktion schriftlicher Texte ausgerichtet. Dabei ist es in der Regel eine auf die zwischenmenschliche Kommunikation zielende Aktivität, die allerdings auch individuellen Lern-, Erkenntnis- und Reflexionsprozessen dienen kann. Es wird jedoch im Folgenden zwischen schriftlicher Interaktion (Kommunikation zwischen zwei oder mehreren Partnern) und schriftlicher Produktion (Verfassen von Texten, die keine direkte Reaktion beabsichtigen) unterschieden, da sie unterschiedliche Teilkompetenzen und Strategien erfordern. Die schriftliche Kommunikation umfasst unterschiedliche Genres, d.h. diskurse Textformen, die für die Alltagskommunikation der Schülerinnen und Schüler relevant sind. Durch die digitale Transformation hat die schriftliche Kommunikation an Bedeutung gewonnen und neue (multimodale) Textsorten sind entstanden."@de;
+	skos:narrower 
+		n1:q4q,
+		n1:z3y.
+n1:e3a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1";
+	skos:broader n1:q4r;
+	skos:prefLabel "in beide Richtungen zwischen Deutsch und der ersten Fremdsprache sprachlich und kulturell mündlich, schriftlich sowie im Wechsel der sprachlichen Repräsentationsformen mitteln, wenn die Texte kurz, wenig komplex und in klarer und einfacher Sprache formuliert sind. Dabei sind die Kommunikations- und Interaktionsformen sowie die Themen den Schülerinnen und Schülern besonders vertraut."@de.
+n1:v2z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.2";
+	skos:broader n1:q4r;
+	skos:prefLabel "in Gesprächen eine unterstützende Rolle übernehmen, sofern die anderen Teilnehmerinnen und Teilnehmer langsam sprechen und ihnen ggf. dabei helfen, etwas beizutragen und Vorschläge zu machen."@de.
+n1:s5e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.3";
+	skos:broader n1:q4r;
+	skos:prefLabel "erkennen, wenn in Sprachmittlungs- bzw. Mediationssituationen herkunfts- oder erfahrungsbedingte Schwierigkeiten auftreten und in einfacher Sprache andeuten, welcher Art das Problem ist."@de.
+n1:r6c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.4";
+	skos:broader n1:q4r;
+	skos:prefLabel "in Sprachmittlungs- bzw. Mediationssituationen ihre Kompetenzen im eigenen Repertoire strategisch und häufig zielführend nutzen. Mitunter benötigen sie dabei Hinweise und Unterstützung."@de.
+n1:r5g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.5";
+	skos:broader n1:q4r;
+	skos:prefLabel "strategisch und zielführend in Sprachmittlungs- bzw. Mediationssituationen auf personale und mediale (digitale) Hilfen zurückgreifen. Mitunter benötigen sie dabei Hinweise und Unterstützung"@de.
+n1:q4r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Mediation / Sprachmittlung"@de; 
+	skos:definition """Mediation ist ein interaktiver Prozess, mit dem Kommunikation, Verständnis und Kooperation zwischen Personen ermöglicht und aufrechterhalten werden. Dieser Prozess vollzieht sich zum Beispiel beim Mitteln von Textinhalten und Konzepten sowie beim Ermöglichen und Gestalten von Kommunikation zwischen Menschen, die aufgrund ihrer Herkunft und Erfahrungen unterschiedliche individuelle, soziale, kulturelle oder sprachliche Grundlagen und Kompetenzen haben. Diese können zu verschiedenen kommunikativ-interaktiven Voraussetzungen und folglich unterschiedlichen Verstehensmöglichkeiten führen und eine Verständigung beeinträchtigen. Sprachmittlung umfasst die sprachlichen Prozesse der Mediation. Sprachmittlung besteht in der adressaten-, situations- und zweckangemessenen Übertragung von Informationen aus einer Sprache A in eine Sprache B für andere Personen, die anderenfalls keinen Zugang zu diesen Informationen hätten. Damit ist die Sprachmittlung eine interaktive kommunikative Kompetenz, die auf andere (fremdsprachliche) Kompetenzbereiche zurückgreift. Die Anforderungen ergeben sich aus der Vertrautheit mit den zu mittelnden Informationen, der Richtung, in der die Sprachmittlung erfolgt sowie ggf. dem Wechsel zwischen verschiedenen sprachlichen Repräsentationsformen (z. B. vom Hören zum Schreiben, vom Lesen zum Sprechen). \n\n Die Schülerinnen und Schüler können im Rahmen der ihnen zur Verfügung stehenden rezeptiven und produktiven sowie interaktionalen Teilkompetenzen adressaten-, situations- und zweckangemessen"""@de;
+	skos:narrower 
+		n1:e3a,
+		n1:v2z,
+		n1:s5e,
+		n1:r6c,
+		n1:r5g.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Fremdsprachen Sek I 2023 - ESA Funktionale kommunikative Kompetenz"@de;
+	dct:description "Bis zum Ersten Schulabschluss erreichen die Schülerinnen und Schüler im Wesentlichen das Niveau A2 des Gemeinsamen europäischen Referenzrahmens."@de;
+	skos:hasTopConcept
+		n1:s4e,
+		n1:p4q,
+		n1:r6v,
+		n1:z2p,
+		n1:q4r.

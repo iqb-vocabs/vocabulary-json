@@ -1,0 +1,54 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v71/cm2/>. 
+
+n0:e9g
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe I"@de; 
+	skos:definition "Erkennen überprüfbarer Fragestellungen und Kennen einfacher Versuchsanordnungen und Modelle"@de.
+n0:f3d
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe II"@de; 
+	skos:definition "Nutzen einfacher Modelle, Anwenden einzelner Schritte der naturwissenschaftlichen Erkenntnisgewinnung"@de.
+n0:q7e
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe III"@de; 
+	skos:definition "Anwenden von naturwissenschaftlichen Methoden der Erkenntnisgewinnung und Modellen in einfachen fachlichen Zusammenhängen"@de.
+n0:s4e
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe IV"@de; 
+	skos:definition "Begründetes Auswählen und Nutzen von naturwissenschaftlichen Methoden der Erkenntnisgewinnung (Experimente und Modelle) in komplexen Zusammenhängen"@de.
+n0:y3r
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe V"@de; 
+	skos:definition "Berücksichtigung von Möglichkeiten und Grenzen von Experimenten und Modellen"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Kompetenzstufenmodelle - Chemie MSA - Erkenntnisgewinnung"@de;
+	dct:description """Kompetenzstufenmodelle zu den Bildungsstandards im Fach Chemie für den Mittleren Schulabschluss
+
+Kompetenzbereiche „Erkenntnisgewinnung“"""@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
+	skos:hasTopConcept
+		n0:e9g,
+		n0:f3d,
+		n0:q7e,
+		n0:s4e,
+		n0:y3r.

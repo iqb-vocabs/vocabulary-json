@@ -1,0 +1,550 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v59/f1/>. 
+@prefix n1: <https://w3id.org/iqb/v59/f1/>. 
+
+n1:z9c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1";
+	skos:broader n1:d6b;
+	skos:prefLabel "einem Hör- bzw. Hörsehtext die Hauptaussagen oder Einzelinformationen entsprechend der Hör- bzw. Hörseh-Absicht entnehmen"@de.
+n1:a4b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.2";
+	skos:broader n1:d6b;
+	skos:prefLabel "textinterne Informationen und textexternes Wissen kombinieren"@de.
+n1:r5b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.3";
+	skos:broader n1:d6b;
+	skos:prefLabel "in Abhängigkeit von der jeweiligen Hör-/Hörseh-Absicht Rezeptionsstrategien anwenden"@de.
+n1:q2f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.4";
+	skos:broader n1:d6b;
+	skos:prefLabel "angemessene Strategien zur Lösung von Verständnisproblemen einsetzen"@de.
+n1:x9a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.5";
+	skos:broader n1:d6b;
+	skos:prefLabel "Stimmungen und Einstellungen der Sprechenden erfassen"@de.
+n1:t5a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.6";
+	skos:broader n1:d6b;
+	skos:prefLabel "gehörte und gesehene Informationen aufeinander beziehen und in ihrem kulturellen Zusammenhang verstehen"@de.
+n1:d6b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:y9x;
+	skos:prefLabel "Grundlegendes Niveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:z9c,
+		n1:a4b,
+		n1:r5b,
+		n1:q2f,
+		n1:x9a,
+		n1:t5a.
+n1:f6h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1";
+	skos:broader n1:s4q;
+	skos:prefLabel "(Englisch: komplexe) Hör- und Hörsehtexte auch zu wenig vertrauten Themen erschließen"@de.
+n1:g4b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.2";
+	skos:broader n1:s4q;
+	skos:prefLabel "implizite Informationen erkennen und einordnen und deren Wirkung interpretieren"@de.
+n1:h2y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.3";
+	skos:broader n1:s4q;
+	skos:prefLabel "implizite Einstellungen oder Beziehungen zwischen Sprechenden erfassen"@de.
+n1:s7t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.4";
+	skos:broader n1:s4q;
+	skos:prefLabel "Hör- und Hörsehtexte (Französisch: im Wesentlichen) verstehen, auch wenn schnell gesprochen oder nicht Standardsprache verwendet wird"@de.
+n1:a9f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.5";
+	skos:broader n1:s4q;
+	skos:prefLabel "(Englisch) einem Hör- bzw. Hörsehtext die Hauptaussagen oder Einzelinformationen entsprechend der Hör- bzw. Hörseh-Absicht entnehmen, auch wenn Hintergrundgeräusche oder die Art der Wiedergabe das Verstehen beeinflussen"@de.
+n1:s4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:y9x;
+	skos:prefLabel "Erhöhtes Niveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können darüber hinaus"@de;
+	skos:narrower 
+		n1:f6h,
+		n1:g4b,
+		n1:h2y,
+		n1:s7t,
+		n1:a9f.
+n1:y9x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Hör-/Hörsehverstehen"@de; 
+	skos:definition "Die Schülerinnen und Schüler können authentische Hör- und Hörsehtexte verstehen, sofern repräsentative Varietäten der Zielsprache gesprochen werden. Sie können dabei Hauptaussagen und Einzelinformationen entnehmen und diese Informationen in thematische Zusammenhänge einordnen."@de;
+	skos:narrower 
+		n1:d6b,
+		n1:s4q.
+n1:t2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.1";
+	skos:broader n1:d2x;
+	skos:prefLabel "Texte unterschiedlicher Textsorten und Entstehungszeiten erschließen"@de.
+n1:c4a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.2";
+	skos:broader n1:d2x;
+	skos:prefLabel "explizite und implizite Aussagen von Texten sowie deren Wirkungspotenzial erkennen und einschätzen"@de.
+n1:f7y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.3";
+	skos:broader n1:d2x;
+	skos:prefLabel "Texte und Textteile mit Bezug auf ein spezifisches Leseziel auswählen"@de.
+n1:f3q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.4";
+	skos:broader n1:d2x;
+	skos:prefLabel "der Leseabsicht entsprechende Rezeptionsstrategien selbstständig anwenden"@de.
+n1:p2v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.5";
+	skos:broader n1:d2x;
+	skos:prefLabel "die Hauptaussagen und deren unterstützende sprachliche und / oder inhaltliche Einzelinformationen erfassen"@de.
+n1:h2a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.6";
+	skos:broader n1:d2x;
+	skos:prefLabel "die inhaltliche Struktur eines Textes nachvollziehen und Gestaltungsmerkmale in ihrer Wirkung erfassen"@de.
+n1:z5d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.7";
+	skos:broader n1:d2x;
+	skos:prefLabel "die Absicht und Wirkung von Texten in deren zielkulturellen Zusammenhängen erkennen"@de.
+n1:c3g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1.8";
+	skos:broader n1:d2x;
+	skos:prefLabel "mehrfach kodierte Texte und Textteile, z. B. in Werbeanzeigen, Plakaten, Flugblättern, aufeinander beziehen und in ihrer Einzel- und Gesamtaussage erkennen, analysieren und bewerten"@de.
+n1:d2x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:d2t;
+	skos:prefLabel "Grundlegendes Niveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:t2d,
+		n1:c4a,
+		n1:f7y,
+		n1:f3q,
+		n1:p2v,
+		n1:h2a,
+		n1:z5d,
+		n1:c3g.
+n1:q6s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.1";
+	skos:broader n1:a3h;
+	skos:prefLabel "selbstständig (Englisch: komplexe) Texte unterschiedlicher Textsorten und Entstehungszeiten auch zu wenig vertrauten Themen erschließen"@de.
+n1:z7r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.2";
+	skos:broader n1:a3h;
+	skos:prefLabel "die inhaltliche Struktur von komplexen Texten erkennen und dabei Gestaltungsmerkmale in ihrer Funktion und Wirkung analysieren"@de.
+n1:r5x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2.3";
+	skos:broader n1:a3h;
+	skos:prefLabel "die Wirkung von Texten in deren zielkulturellen Zusammenhängen analysieren"@de.
+n1:a3h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:d2t;
+	skos:prefLabel "Erhöhtes Niveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können darüber hinaus"@de;
+	skos:narrower 
+		n1:q6s,
+		n1:z7r,
+		n1:r5x.
+n1:d2t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Leseverstehen"@de; 
+	skos:definition "Die Schülerinnen und Schüler können authentische Texte auch zu abstrakteren Themen verstehen. Sie können ein umfassendes Textverständnis aufbauen, indem sie Hauptaussagen und Einzelinformationen entnehmen, diese Informationen in thematische Zusammenhänge einordnen, gezielt textinterne Informationen und externes Wissen heranziehen und auch wichtige implizite Aussagen erschließen."@de;
+	skos:narrower 
+		n1:d2x,
+		n1:a3h.
+n1:d6y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.1";
+	skos:broader n1:u2d;
+	skos:prefLabel "ein adressatengerechtes und situationsangemessenes Gespräch in der Fremdsprache führen"@de.
+n1:d9d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.2";
+	skos:broader n1:u2d;
+	skos:prefLabel "verbale und nicht-verbale Gesprächskonventionen situationsangemessen anwenden, um z. B. ein Gespräch oder eine Diskussion zu eröffnen, auf Aussagen anderer Sprecher einzugehen, sich auf Gesprächspartner einzustellen und ein Gespräch zu beenden"@de.
+n1:x5r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.3";
+	skos:broader n1:u2d;
+	skos:prefLabel "angemessene kommunikative Strategien bewusst einsetzen, um mit Nichtverstehen und Missverständnissen umzugehen"@de.
+n1:h4g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.4";
+	skos:broader n1:u2d;
+	skos:prefLabel "sich zu vertrauten Themen aktiv an Diskussionen beteiligen sowie eigene Positionen vertreten"@de.
+n1:x9u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.5";
+	skos:broader n1:u2d;
+	skos:prefLabel "in informellen und formellen Situationen persönliche Meinungen unter Beachtung kultureller Gesprächskonventionen ausdrücken und begründen"@de.
+n1:e9h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.6";
+	skos:broader n1:u2d;
+	skos:prefLabel "zu aktuell bedeutsamen Sachverhalten in Gesprächen oder Diskussionen Stellung nehmen"@de.
+n1:u2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n1:b7f;
+	skos:prefLabel "Grundlegendes Niveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:d6y,
+		n1:d9d,
+		n1:x5r,
+		n1:h4g,
+		n1:x9u,
+		n1:e9h.
+n1:e3q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.1";
+	skos:broader n1:h6e;
+	skos:prefLabel "sich an Diskussionen zu weniger vertrauten Themen aktiv beteiligen, auf differenzierte Äußerungen anderer angemessen reagieren sowie eigene Positionen vertreten"@de.
+n1:c9g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.2";
+	skos:broader n1:h6e;
+	skos:prefLabel "ein adressatengerechtes und situationsangemessenes Gespräch in der Fremdsprache führen und sich dabei spontan und weitgehend flüssig äußern"@de.
+n1:f5y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2.3";
+	skos:broader n1:h6e;
+	skos:prefLabel "zu aktuellen wie generell bedeutsamen Sachverhalten Stellung nehmen und in Diskussionen ggf. verschiedene Positionen sprachlich differenziert formulieren"@de.
+n1:h6e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2";
+	skos:broader n1:b7f;
+	skos:prefLabel "Erhöhtes Niveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können darüber hinaus"@de;
+	skos:narrower 
+		n1:e3q,
+		n1:c9g,
+		n1:f5y.
+n1:b7f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel " Sprechen"@de; 
+	skos:definition """An Gesprächen teilnehmen\n\nDie Schülerinnen und Schüler können sich weitgehend flüssig, sprachlich korrekt und adressatengerecht sowie situationsangemessen an Gesprächen beteiligen. Sie sind bereit und in der Lage, in einer gegebenen Sprechsituation zu interagieren, auch wenn abstrakte und in einzelnen Fällen weniger vertraute Themen behandelt werden."""@de;
+	skos:narrower 
+		n1:u2d,
+		n1:h6e.
+n1:s2y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.1";
+	skos:broader n1:g2t;
+	skos:prefLabel "Schreibprozesse selbstständig planen, umsetzen und reflektieren"@de.
+n1:f5x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.2";
+	skos:broader n1:g2t;
+	skos:prefLabel "Texte in formeller oder persönlich-informeller Sprache verfassen und dabei wesentliche Konventionen der jeweiligen Textsorten beachten"@de.
+n1:a2z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.3";
+	skos:broader n1:g2t;
+	skos:prefLabel "Informationen strukturiert und kohärent vermitteln"@de.
+n1:s6h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.4";
+	skos:broader n1:g2t;
+	skos:prefLabel "sich argumentativ mit unterschiedlichen Positionen auseinandersetzen"@de.
+n1:v5c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.5";
+	skos:broader n1:g2t;
+	skos:prefLabel "Texte zu literarischen und nicht-literarischen Textvorlagen verfassen"@de.
+n1:z2y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.6";
+	skos:broader n1:g2t;
+	skos:prefLabel "eigene kreative Texte verfassen, ggf. in Anbindung an eine Textvorlage"@de.
+n1:x9z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.7";
+	skos:broader n1:g2t;
+	skos:prefLabel "Textsorten zielorientiert in eigenen Textproduktionen situationsangemessen verwenden"@de.
+n1:d4h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1.8";
+	skos:broader n1:g2t;
+	skos:prefLabel "diskontinuierliche Vorlagen in kontinuierliche Texte umschreiben"@de.
+n1:g2t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.1";
+	skos:broader n1:u9g;
+	skos:prefLabel "Grundlegendes Niveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:s2y,
+		n1:f5x,
+		n1:a2z,
+		n1:s6h,
+		n1:v5c,
+		n1:z2y,
+		n1:x9z,
+		n1:d4h.
+n1:z4s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.1";
+	skos:broader n1:t4b;
+	skos:prefLabel "aus einem breiten Spektrum eine Textsorte auswählen, in eigenen Textproduktionen situationsangemessen und adressatengerecht umsetzen und dabei die Konventionen der jeweiligen Textsorte beachten"@de.
+n1:v2s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.2";
+	skos:broader n1:t4b;
+	skos:prefLabel "bei der Textgestaltung funktionale Gesichtspunkte, z. B. Leserlenkung und Fokussierung, beachten"@de.
+n1:v4c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2.3";
+	skos:broader n1:t4b;
+	skos:prefLabel "literarische und nicht-literarische Textvorlagen transformieren, z. B. einen historischen Text in einen modernen Text umwandeln, einen Text mit fachsprachlichen Elementen für eine andere Zielgruppe adaptieren"@de.
+n1:t4b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4.2";
+	skos:broader n1:u9g;
+	skos:prefLabel "Erhöhtes Niveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können darüber hinaus"@de;
+	skos:narrower 
+		n1:z4s,
+		n1:v2s,
+		n1:v4c.
+n1:u9g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Schreiben"@de; 
+	skos:definition "Die Schülerinnen und Schüler können Texte zu einem breiten Spektrum von Themen des fachlichen und persönlichen Interesses adressatengerecht und textsortenspezifisch verfassen. Sie verfügen über Techniken und Strategien des formellen, informellen und kreativen Schreibens."@de;
+	skos:narrower 
+		n1:g2t,
+		n1:t4b.
+n1:e2q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1.1";
+	skos:broader n1:d3q;
+	skos:prefLabel "Informationen adressatengerecht und situationsangemessen in der jeweils anderen Sprache zusammenfassend wiedergeben"@de.
+n1:q6v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1.2";
+	skos:broader n1:d3q;
+	skos:prefLabel "interkulturelle Kompetenz und entsprechende kommunikative Strategien einsetzen, um adressatenrelevante Inhalte und Absichten in der jeweils anderen Sprache zu vermitteln"@de.
+n1:t7v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1.3";
+	skos:broader n1:d3q;
+	skos:prefLabel "bei der Vermittlung von Informationen gegebenenfalls auf Nachfragen eingehen"@de.
+n1:p6t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1.4";
+	skos:broader n1:d3q;
+	skos:prefLabel "Inhalte unter Nutzung von Hilfsmitteln, wie z. B. Wörterbüchern, durch Kompensationsstrategien, wie z. B. Paraphrasieren, und gegebenenfalls Nutzung von Gestik und Mimik adressatengerecht und situationsangemessen sinngemäß übertragen"@de.
+n1:d3q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1";
+	skos:broader n1:d5d;
+	skos:prefLabel "Grundlegendes Niveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können mündlich und schriftlicn"@de;
+	skos:narrower 
+		n1:e2q,
+		n1:q6v,
+		n1:t7v,
+		n1:p6t.
+n1:a3d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.2.1";
+	skos:broader n1:t5d;
+	skos:prefLabel "für das Verstehen erforderliche Erläuterungen hinzufügen"@de.
+n1:s6f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.2.2";
+	skos:broader n1:t5d;
+	skos:prefLabel "zur Bewältigung der Sprachmittlung kreativ mit den beteiligten Sprachen umgehen"@de.
+n1:t5d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.2";
+	skos:broader n1:d5d;
+	skos:prefLabel "Erhöhtes Niveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können darüber hinaus"@de;
+	skos:narrower 
+		n1:a3d,
+		n1:s6f.
+n1:d5d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sprachmittlung"@de; 
+	skos:definition "Die Schülerinnen und Schüler können – auch unter Verwendung von Hilfsmitteln und Strategien – wesentliche Inhalte authentischer mündlicher oder schriftlicher Texte, auch zu weniger vertrauten Themen, in der jeweils anderen Sprache sowohl schriftlich als auch mündlich adressatengerecht und situationsangemessen für einen bestimmten Zweck wiedergeben."@de;
+	skos:narrower 
+		n1:d3q,
+		n1:t5d.
+n1:e7y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.1";
+	skos:broader n1:e4x;
+	skos:prefLabel "einen erweiterten allgemeinen und thematischen Wortschatz sowie einen Funktions- und Interpretationswortschatz nutzen"@de.
+n1:x9c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.2";
+	skos:broader n1:e4x;
+	skos:prefLabel "ihre lexikalischen Bestände kontextorientiert und vernetzt verwenden und dabei auch Wörter und Wendungen aus dem Bereich informeller mündlicher Sprachverwendung einsetzen"@de.
+n1:p9r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.3";
+	skos:broader n1:e4x;
+	skos:prefLabel "ein gefestigtes Repertoire der grundlegenden grammatischen Strukturen für die Realisierung ihrer Sprech- und Schreibabsichten nutzen"@de.
+n1:r5y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.4";
+	skos:broader n1:e4x;
+	skos:prefLabel "ein gefestigtes Repertoire typischer Aussprache- und Intonationsmuster verwenden und dabei eine meist klar verständliche Aussprache und angemessene Intonation zeigen"@de.
+n1:y4a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.5";
+	skos:broader n1:e4x;
+	skos:prefLabel "mit repräsentativen Varietäten der Standardsprache umgehen, wenn klar artikuliert gesprochen wird"@de.
+n1:a4g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.6";
+	skos:broader n1:e4x;
+	skos:prefLabel "ihre erweiterten Kenntnisse zu den Regelmäßigkeiten der Orthografie und Zeichensetzung nutzen und ihren aktiven Wortschatz weitgehend regelkonform verwenden"@de.
+n1:c7g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.7";
+	skos:broader n1:e4x;
+	skos:prefLabel "emotional markierte Sprache identifizieren und einschätzen und auf emotionale Äußerungen angemessen reagieren"@de.
+n1:c7c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.8";
+	skos:broader n1:e4x;
+	skos:prefLabel "(Englisch: rezeptiv) sich auf repräsentative Varietäten einstellen, auch wenn nicht durchgehend artikuliert gesprochen wird"@de.
+n1:e4x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Verfügen über sprachliche Mittel"@de; 
+	skos:definition """Die sprachlichen Mittel – Wortschatz, Grammatik, Aussprache, Prosodie und Orthografie – sind Kompetenz bildende, funktionale Bestandteile des sprachlichen Systems und der Kommunikation. Die sprachlichen Mittel haben grundsätzlich dienende Funktion, wobei die gelingende Kommunikation im Vordergrund steht. Die Schülerinnen und Schüler greifen bei der Sprachrezeption und -produktion auf ein breites Repertoire lexikalischer, grammatischer, textueller und diskursiver Strukturen zurück, um die Fremdsprache auch als Arbeitssprache in der Auseinandersetzung mit komplexen Sachverhalten zu verwenden.\n\nDie Schülerinnen und Schüler können"""@de;
+	skos:narrower 
+		n1:e7y,
+		n1:x9c,
+		n1:p9r,
+		n1:r5y,
+		n1:y4a,
+		n1:a4g,
+		n1:c7g,
+		n1:c7c.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Fremdsprachen Sek II 2012 - Funktionale kommunikative Kompetenz"@de;
+	dct:description """Am Ende der gymnasialen Oberstufe wird von Schülerinnen und Schülern im Bereich der funktionalen kommunikativen Kompetenz das Niveau B2 des GeR (Englisch: in rezeptiven Teilkompetenzen auch das Niveau C1) erwartet. Sprachlicher Orientierungspunkt sind Standardsprache(n) sowie Register, Varietäten und Akzente, deren Färbung ein Verstehen nicht generell behindert. In den Bildungsstandards werden die Teilkompetenzen der funktionalen kommunikativen Kompetenz nach dem Muster des GeR jeweils getrennt aufgeführt. In der Sprachverwendung kommen die einzelnen Kompetenzen hingegen vorwiegend integrativ zum Tragen. Die Schülerinnen und Schüler bringen situationsangemessen thematisches Wissen und interkulturelle Kompetenz ein. 
+
+Zu differenziertem kommunikativem Sprachhandeln gehört der angemessene Gebrauch sprachlicher Mittel – Wortschatz, Grammatik, Aussprache, Prosodie und Orthografie – und kommunikativer Strategien. Sprachliche Mittel und kommunikative Strategien haben in allen Kompetenzbereichen dienende Funktion. Die kommunikativen Strategien sind jeweils bei den sprachlichen Teilkompetenzen mitberücksichtigt, die sprachlichen Mittel im Anschluss an die funktionalen kommunikativen Teilkompetenzen dargestellt."""@de;
+	skos:hasTopConcept
+		n1:y9x,
+		n1:d2t,
+		n1:b7f,
+		n1:u9g,
+		n1:d5d,
+		n1:e4x.

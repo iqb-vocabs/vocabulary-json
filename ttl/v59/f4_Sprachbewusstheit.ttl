@@ -1,0 +1,102 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v59/f4/>. 
+@prefix n1: <https://w3id.org/iqb/v59/f4/>. 
+
+n1:e4b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:g9e;
+	skos:prefLabel "grundlegende Ausprägungen des fremdsprachigen Systems an Beispielen erkennen und benennen, Hypothesen im Bereich sprachlicher Regelmäßigkeiten formulieren und Ausdrucksvarianten einschätzen"@de.
+n1:s9c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:g9e;
+	skos:prefLabel "regionale, soziale und kulturell geprägte Varietäten des Sprachgebrauchs erkennen"@de.
+n1:g6q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:g9e;
+	skos:prefLabel "sprachliche Kommunikationsprobleme erkennen und Möglichkeiten ihrer Lösung,"@de.
+n1:u7y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4";
+	skos:broader n1:g9e;
+	skos:prefLabel "u. a. durch den Einsatz von Kompensationsstrategien abwägen"@de.
+n1:a5h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5";
+	skos:broader n1:g9e;
+	skos:prefLabel "wichtige Beziehungen zwischen Sprach- und Kulturphänomenen an Beispielen belegen und reflektieren"@de.
+n1:p4p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6";
+	skos:broader n1:g9e;
+	skos:prefLabel "Gemeinsamkeiten, Unterschiede und Beziehungen zwischen Sprachen erkennen und reflektieren"@de.
+n1:z2p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.7";
+	skos:broader n1:g9e;
+	skos:prefLabel "über Sprache gesteuerte Beeinflussungsstrategien erkennen, beschreiben und bewerten"@de.
+n1:s7a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.8";
+	skos:broader n1:g9e;
+	skos:prefLabel "aufgrund ihrer Einsichten in die Elemente, Regelmäßigkeiten und Ausdrucksvarianten der Fremdsprache den eigenen Sprachgebrauch steuern"@de.
+n1:g9e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Grundlegendes Niveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:e4b,
+		n1:s9c,
+		n1:g6q,
+		n1:u7y,
+		n1:a5h,
+		n1:p4p,
+		n1:z2p,
+		n1:s7a.
+n1:q4z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:p4s;
+	skos:prefLabel "Varietäten des Sprachgebrauchs sprachvergleichend einordnen"@de.
+n1:t3u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:p4s;
+	skos:prefLabel "die Erfordernisse einer kommunikativen Situation (u. a. bezogen auf Medium, Adressatenbezug, Absicht, Stil, Register) reflektieren und in ihrem Sprachhandeln berücksichtigen"@de.
+n1:p4s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Erhöhtes Niveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können darüber hinaus"@de;
+	skos:narrower 
+		n1:q4z,
+		n1:t3u.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Fremdsprachen Sek II 2012 - Sprachbewusstheit"@de;
+	dct:description """Sprachbewusstheit bedeutet Sensibilität für und Nachdenken über Sprache und sprachlich vermittelte Kommunikation. Sie ermöglicht Schülerinnen und Schülern, die Ausdrucksmittel und Varianten einer Sprache bewusst zu nutzen; dies schließt eine Sensibilität für Stil und Register sowie für kulturell bestimmte Formen des Sprachgebrauchs, z. B. Formen der Höflichkeit, ein. Die Reflexion über Sprache richtet sich auch auf die Rolle und Verwendung von Sprachen in der Welt, z. B. im Kontext kultureller und politischer Einflüsse. Da Sprache stets soziokulturell geprägt ist, führt Sprachbewusstheit darüber hinaus zu einer sensiblen Gestaltung der sprachlich-diskursiven Beziehungen mit anderen Menschen. Damit leistet die Entwicklung von Sprachbewusstheit einen wichtigen Beitrag zum Aufbau fremdsprachiger Kompetenz und über diese hinaus zum interkulturellen Lernen sowie zur Persönlichkeitsbildung.
+
+Die Schülerinnen und Schüler können ihre Einsichten in Struktur und Gebrauch der Zielsprache und anderer Sprachen nutzen, um mündliche und schriftliche Kommunikationsprozesse sicher zu bewältigen. """@de;
+	skos:hasTopConcept
+		n1:g9e,
+		n1:p4s.

@@ -1,0 +1,52 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v71/dp1/>. 
+
+n0:r2r
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe I"@de; 
+	skos:definition "prominente Einzelinformationen wiedererkennen"@de.
+n0:q4u
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe II"@de; 
+	skos:definition "benachbarte Informationen verknüpfen und weniger prominente Einzelinformationen wiedergeben"@de.
+n0:u9c
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe III"@de; 
+	skos:definition "verstreute Informationen miteinander verknüpfen und den Text ansatzweise als Ganzen erfassen"@de.
+n0:h7u
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe IV"@de; 
+	skos:definition "auf der Ebene des Textes wesentliche Zusammenhänge erkennen und Details im Kontext verstehen"@de.
+n0:c5h
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kompetenzstufe V"@de; 
+	skos:definition "auf zentrale Aspekte des Textes bezogene Aussagen eigenständig beurteilen und begründen"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Kompetenzstufenmodelle - Deutsch Primar - Zuhören "@de;
+	dct:description "Kompetenzstufenmodell zu den Bildungsstandards für das Fach Deutsch im Kompetenzbereich „Sprechen und Zuhören“ – Primarbereich –"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
+	skos:hasTopConcept
+		n0:r2r,
+		n0:q4u,
+		n0:u9c,
+		n0:h7u,
+		n0:c5h.

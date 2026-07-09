@@ -1,0 +1,40 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v09/n1/>. 
+@prefix n1: <https://w3id.org/iqb/v09/n1/>. 
+
+n1:x2r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "I";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Reproduzieren"@de; 
+	skos:definition "Das Lösen der Aufgabe erfordert Grundwissen und das Ausführen von Routinetätigkeiten."@de.
+n1:c4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "II";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Zusammenhänge herstellen"@de; 
+	skos:definition "Das Lösen der Aufgabe erfordert das Erkennen und Nutzen von Zusammenhängen."@de.
+n1:v3e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "III";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Verallgemeinern und Reflektieren"@de; 
+	skos:definition "Das Lösen der Aufgabe erfordert komplexe Tätigkeiten wie Strukturieren, Entwickeln von Strategien, Beurteilen und Verallgemeinern."@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Mathematik Primar 2004 - Anforderungsbereiche"@de;
+	dct:description """Die folgenden Aufgabenbeispiele zeigen die Bandbreite unterschiedlicher Anforderungen. Manche Aufgaben bzw. Teilaufgaben lassen sich durch Reproduzieren im Rahmen gelernter und geübter Verfahren in einem abgegrenzten Gebiet lösen. Andere verlangen den selbstständigen, kreativen Umgang mit erworbenen mathematischen Kompetenzen.
+
+Wenn die Beispielaufgaben als Repräsentanten eines bestimmten Anforderungsbereichs definiert und entsprechend gekennzeichnet sind, so handelt es sich hierbei um eine vorläufige, empirisch nicht validierte Zuordnung, die nicht immer eindeutig zu treffen ist. Es werden hier so genannte 'große Aufgaben' vorgestellt, die der Leistungsheterogenität von Grundschülern dadurch Rechnung tragen, dass sie im gleichen inhaltlichen Kontext ein breites Spektrum an unterschiedlichen Anforderungen und Schwierigkeiten abdecken. Dadurch können die Aufgabenbeispiele zugleich als Muster für einen differenzierenden Unterricht fungieren, in dem alle Kinder am gleichen Inhalt arbeiten, aber nicht unbedingt dieselben Aufgaben lösen.
+
+Bei den Aufgabenbeispielen lassen sich folgende Anforderungsbereiche unterscheiden:"""@de;
+	skos:hasTopConcept
+		n1:x2r,
+		n1:c4q,
+		n1:v3e.

@@ -1,0 +1,443 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v43/k1/>. 
+@prefix n1: <https://w3id.org/iqb/v43/k1/>. 
+
+n1:e5g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 1.1";
+	skos:broader n1:g4b;
+	skos:prefLabel "verstehen die Zelle als System,"@de.
+n1:a7a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 1.2";
+	skos:broader n1:g4b;
+	skos:prefLabel "erklären den Organismus und Organismengruppen als System,"@de.
+n1:y2a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 1.3";
+	skos:broader n1:g4b;
+	skos:prefLabel "erklären Ökosystem und Biosphäre als System,"@de.
+n1:b3c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 1.4";
+	skos:broader n1:g4b;
+	skos:prefLabel "beschreiben und erklären Wechselwirkungen im Organismus, zwischen Organismen sowie zwischen Organismen und unbelebter Materie,"@de.
+n1:g5a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 1.5";
+	skos:broader n1:g4b;
+	skos:prefLabel "wechseln zwischen den Systemebenen,"@de.
+n1:u7p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 1.6";
+	skos:broader n1:g4b;
+	skos:prefLabel "stellen einen Stoffkreislauf sowie den Energiefluss in einem Ökosystem dar,"@de.
+n1:y3e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 1.7";
+	skos:broader n1:g4b;
+	skos:prefLabel "beschreiben Wechselwirkungen zwischen Biosphäre und den anderen Sphären der Erde,"@de.
+n1:a9g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 1.8";
+	skos:broader n1:g4b;
+	skos:prefLabel "kennen und verstehen die grundlegenden Kriterien von nachhaltiger Entwicklung."@de.
+n1:g4b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 1";
+	skos:broader n1:z5t;
+	skos:prefLabel "System"@de; 
+	skos:definition "Die Schülerinnen und Schüler …"@de;
+	skos:narrower 
+		n1:e5g,
+		n1:a7a,
+		n1:y2a,
+		n1:b3c,
+		n1:g5a,
+		n1:u7p,
+		n1:y3e,
+		n1:a9g.
+n1:f9z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 2.1";
+	skos:broader n1:p7b;
+	skos:prefLabel "beschreiben Zellen als strukturelle und funktionelle Grundbaueinheiten von Lebewesen,"@de.
+n1:d4s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 2.2";
+	skos:broader n1:p7b;
+	skos:prefLabel "vergleichen die bakterielle, pflanzliche und tierliche Zelle in Struktur und Funktion,"@de.
+n1:p7e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 2.3";
+	skos:broader n1:p7b;
+	skos:prefLabel "stellen strukturelle und funktionelle Gemeinsamkeiten und Unterschiede von Organismen und Organismengruppen dar,"@de.
+n1:v5q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 2.4";
+	skos:broader n1:p7b;
+	skos:prefLabel "beschreiben und erklären Struktur und Funktion von Organen und Organsystemen, z. B. bei der Stoff- und Energieumwandlung, Steuerung und Regelung, Informationsverarbeitung, Vererbung und Reproduktion,"@de.
+n1:b7r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 2.5";
+	skos:broader n1:p7b;
+	skos:prefLabel "beschreiben die strukturelle und funktionelle Organisation im Ökosystem,"@de.
+n1:r5b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 2.6";
+	skos:broader n1:p7b;
+	skos:prefLabel "beschreiben und erklären die Angepasstheit ausgewählter Organismen an die Umwelt."@de.
+n1:p7b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 2";
+	skos:broader n1:z5t;
+	skos:prefLabel "Struktur und Funktion"@de; 
+	skos:definition "Die Schülerinnen und Schüler …"@de;
+	skos:narrower 
+		n1:f9z,
+		n1:d4s,
+		n1:p7e,
+		n1:v5q,
+		n1:b7r,
+		n1:r5b.
+n1:c5z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 3.1";
+	skos:broader n1:b3x;
+	skos:prefLabel "erläutern die Bedeutung der Zellteilung für Wachstum, Fortpflanzung und Vermehrung,"@de.
+n1:g3p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 3.2";
+	skos:broader n1:b3x;
+	skos:prefLabel "beschreiben die artspezifische Individualentwicklung von Organismen,"@de.
+n1:a3t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 3.3";
+	skos:broader n1:b3x;
+	skos:prefLabel "beschreiben verschiedene Formen der Fortpflanzung,"@de.
+n1:u6s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 3.4";
+	skos:broader n1:b3x;
+	skos:prefLabel "beschreiben ein Ökosystem in zeitlicher Veränderung,"@de.
+n1:x4y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 3.5";
+	skos:broader n1:b3x;
+	skos:prefLabel "beschreiben und erklären stammesgeschichtliche Verwandtschaft von Organismen,"@de.
+n1:v9q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 3.6";
+	skos:broader n1:b3x;
+	skos:prefLabel "beschreiben und erklären Verlauf und Ursachen der Evolution an ausgewählten Lebewesen,"@de.
+n1:u3v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 3.7";
+	skos:broader n1:b3x;
+	skos:prefLabel "erklären die Variabilität von Lebewesen,"@de.
+n1:r2f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 3.8";
+	skos:broader n1:b3x;
+	skos:prefLabel "kennen und erörtern Eingriffe des Menschen in die Natur und Kriterien für solche Entscheidungen."@de.
+n1:b3x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F 3";
+	skos:broader n1:z5t;
+	skos:prefLabel "Entwicklung"@de; 
+	skos:definition "Die Schülerinnen und Schüler …"@de;
+	skos:narrower 
+		n1:c5z,
+		n1:g3p,
+		n1:a3t,
+		n1:u6s,
+		n1:x4y,
+		n1:v9q,
+		n1:u3v,
+		n1:r2f.
+n1:z5t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "F ";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Fachwissen"@de; 
+	skos:definition "Lebewesen, biologische Phänomene, Begriffe, Prinzipien und Fakten kennen und den Basiskonzepten zuordnen"@de;
+	skos:narrower 
+		n1:g4b,
+		n1:p7b,
+		n1:b3x.
+n1:c2t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 1";
+	skos:broader n1:y5p;
+	skos:prefLabel "mikroskopieren Zellen und stellen sie in einer Zeichnung dar,"@de.
+n1:s9d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 2";
+	skos:broader n1:y5p;
+	skos:prefLabel "beschreiben und vergleichen Anatomie und Morphologie von Organismen,"@de.
+n1:u5u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 3";
+	skos:broader n1:y5p;
+	skos:prefLabel "analysieren die stammesgeschichtliche Verwandtschaft bzw. ökologisch bedingte Ähnlichkeit bei Organismen durch kriteriengeleitetes Vergleichen,"@de.
+n1:q5h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 4";
+	skos:broader n1:y5p;
+	skos:prefLabel "ermitteln mithilfe geeigneter Bestimmungsliteratur im Ökosystem häufig vorkommende Arten,"@de.
+n1:r6g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 5";
+	skos:broader n1:y5p;
+	skos:prefLabel "führen Untersuchungen mit geeigneten qualifizierenden oder quantifizierenden Verfahren durch,"@de.
+n1:a3u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 6";
+	skos:broader n1:y5p;
+	skos:prefLabel "planen einfache Experimente, führen die Experimente durch und/oder werten sie aus,"@de.
+n1:g6h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 7";
+	skos:broader n1:y5p;
+	skos:prefLabel "wenden Schritte aus dem experimentellen Weg der Erkenntnisgewinnung zur Erklärung an,"@de.
+n1:t2t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 8";
+	skos:broader n1:y5p;
+	skos:prefLabel "erörtern Tragweite und Grenzen von Untersuchungsanlage, -schritten und -ergebnissen,"@de.
+n1:s2z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 9";
+	skos:broader n1:y5p;
+	skos:prefLabel "wenden Modelle zur Veranschaulichung von Struktur und Funktion an,"@de.
+n1:b6y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 10";
+	skos:broader n1:y5p;
+	skos:prefLabel "analysieren Wechselwirkungen mit Hilfe von Modellen,"@de.
+n1:c2e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 11";
+	skos:broader n1:y5p;
+	skos:prefLabel "beschreiben Speicherung und Weitergabe genetischer Information auch unter Anwendung geeigneter Modelle,"@de.
+n1:a9f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 12";
+	skos:broader n1:y5p;
+	skos:prefLabel "erklären dynamische Prozesse in Ökosystemen mithilfe von Modellvorstellungen,"@de.
+n1:u7a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E 13";
+	skos:broader n1:y5p;
+	skos:prefLabel "beurteilen die Aussagekraft eines Modells."@de.
+n1:y5p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "E ";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Erkenntnisgewinnung"@de; 
+	skos:definition "Beobachten, Vergleichen, Experimentieren, Modelle nutzen und Arbeitstechniken anwenden. Die Schülerinnen und Schüler …"@de;
+	skos:narrower 
+		n1:c2t,
+		n1:s9d,
+		n1:u5u,
+		n1:q5h,
+		n1:r6g,
+		n1:a3u,
+		n1:g6h,
+		n1:t2t,
+		n1:s2z,
+		n1:b6y,
+		n1:c2e,
+		n1:a9f,
+		n1:u7a.
+n1:y6r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 1";
+	skos:broader n1:u2x;
+	skos:prefLabel "kommunizieren und argumentieren in verschiedenen Sozialformen,"@de.
+n1:a4c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 2";
+	skos:broader n1:u2x;
+	skos:prefLabel "beschreiben und erklären Originale oder naturgetreue Abbildungen mit Zeichnungen oder idealtypischen Bildern,"@de.
+n1:g6r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 3";
+	skos:broader n1:u2x;
+	skos:prefLabel "veranschaulichen Daten messbarer Größen zu Systemen, Struktur und Funktion sowie Entwicklung angemessen mit sprachlichen, mathematischen oder bildlichen Gestaltungsmitteln,"@de.
+n1:z7g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 4";
+	skos:broader n1:u2x;
+	skos:prefLabel "werten Informationen zu biologischen Fragestellungen aus verschiedenen Quellen zielgerichtet aus und verarbeiten diese auch mit Hilfe verschiedener Techniken und Methoden adressaten- und situationsgerecht,"@de.
+n1:c5u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 5";
+	skos:broader n1:u2x;
+	skos:prefLabel "stellen biologische Systeme, z. B. Organismen, sachgerecht, situationsgerecht und adressatengerecht dar,"@de.
+n1:a5e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 6";
+	skos:broader n1:u2x;
+	skos:prefLabel "stellen Ergebnisse und Methoden biologischer Untersuchung dar und argumentieren damit,"@de.
+n1:s7c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 7";
+	skos:broader n1:u2x;
+	skos:prefLabel "referieren zu gesellschafts- oder alltagsrelevanten biologischen Themen,"@de.
+n1:x3p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 8";
+	skos:broader n1:u2x;
+	skos:prefLabel "erklären biologische Phänomene und setzen Alltagsvorstellungen dazu in Beziehung,"@de.
+n1:y4a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 9";
+	skos:broader n1:u2x;
+	skos:prefLabel "beschreiben und erklären den Bedeutungsgehalt von fachsprachlichen bzw. alltagssprachlichen Texten und von Bildern in strukturierter sprachlicher Darstellung,"@de.
+n1:z4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K 10";
+	skos:broader n1:u2x;
+	skos:prefLabel "wenden idealtypische Darstellungen, Schemazeichnungen, Diagramme und Symbolsprache auf komplexe Sachverhalte an."@de.
+n1:u2x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "K ";
+	skos:topConceptOf n0:;
+	skos:prefLabel " Kommunikation"@de; 
+	skos:definition "Informationen sach- und fachbezogen erschließen und austauschen. Die Schülerinnen und Schüler …"@de;
+	skos:narrower 
+		n1:y6r,
+		n1:a4c,
+		n1:g6r,
+		n1:z7g,
+		n1:c5u,
+		n1:a5e,
+		n1:s7c,
+		n1:x3p,
+		n1:y4a,
+		n1:z4q.
+n1:c3r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B 1";
+	skos:broader n1:r9d;
+	skos:prefLabel "unterscheiden zwischen beschreibenden (naturwissenschaftlichen) und normativen (ethischen) Aussagen,"@de.
+n1:v7v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B 2";
+	skos:broader n1:r9d;
+	skos:prefLabel "beurteilen verschiedene Maßnahmen und Verhaltensweisen zur Erhaltung der eigenen Gesundheit und zur sozialen Verantwortung,"@de.
+n1:x7e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B 3";
+	skos:broader n1:r9d;
+	skos:prefLabel "beschreiben und beurteilen Erkenntnisse und Methoden in ausgewählten aktuellen Bezügen wie zu Medizin, Biotechnik und Gentechnik, und zwar unter Berücksichtigung gesellschaftlich verhandelbarer Werte,"@de.
+n1:t7c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B 4";
+	skos:broader n1:r9d;
+	skos:prefLabel "beschreiben und beurteilen die Haltung von Heim- und Nutztieren,"@de.
+n1:g5q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B 5";
+	skos:broader n1:r9d;
+	skos:prefLabel "beschreiben und beurteilen die Auswirkungen menschlicher Eingriffe in einem Ökosystem,"@de.
+n1:v7y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B 6";
+	skos:broader n1:r9d;
+	skos:prefLabel "bewerten die Beeinflussung globaler Kreisläufe und Stoffströme unter dem Aspekt der nachhaltigen Entwicklung,"@de.
+n1:s6p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B 7";
+	skos:broader n1:r9d;
+	skos:prefLabel "erörtern Handlungsoptionen einer umwelt- und naturverträglichen Teilhabe im Sinne der Nachhaltigkeit."@de.
+n1:r9d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "B ";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Bewertung"@de; 
+	skos:definition """Biologische Sachverhalte in verschiedenen Kontexten erkennen und bewerten.\n\nDie Schülerinnen und Schüler …"""@de;
+	skos:narrower 
+		n1:c3r,
+		n1:v7v,
+		n1:x7e,
+		n1:t7c,
+		n1:g5q,
+		n1:v7y,
+		n1:s6p.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Biologie MSA 2004 - Standards (Kompetenzen)"@de;
+	dct:description """Kompetenzen werden an Inhalten erworben. Die Breite der Fachwissenschaft Biologie und ihr hoher Wissensstand sowie die gegenwärtige Dynamik der Biologie erfordern für den Biologieunterricht eine Reduktion der Inhalte auf den Kern von biologischem Wissen und ein exemplarisches Vorgehen. Dieses Wissen wird auf der Grundlage von drei in sich vernetzten Basiskonzepten erarbeitet, die ein systemisches und multiperspektivisches Denken sowie eine Beschränkung auf das Wesentliche fördern. 
+
+Für den Mittleren Schulabschluss werden die Inhalte im Fach Biologie in den folgenden drei Basiskonzepten strukturiert:
+
+System, Struktur und Funktion, Entwicklung"""@de;
+	skos:hasTopConcept
+		n1:z5t,
+		n1:y5p,
+		n1:u2x,
+		n1:r9d.

@@ -1,0 +1,490 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v55/l1/>. 
+@prefix n1: <https://w3id.org/iqb/v55/l1/>. 
+
+n1:b3c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.1.1";
+	skos:broader n1:e7x;
+	skos:prefLabel "geeignete Verfahren zur Lösung von Gleichungen und Gleichungssystemen auswählen"@de.
+n1:x7e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.1.2";
+	skos:broader n1:e7x;
+	skos:prefLabel "ein algorithmisches Lösungsverfahren für lineare Gleichungssysteme erläutern und es anwenden"@de.
+n1:q9d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.1.3";
+	skos:broader n1:e7x;
+	skos:prefLabel "Grenzwerte auf der Grundlage eines propädeutischen Grenzwertbegriffs insbesondere bei der Bestimmung von Ableitung und Integral nutzen"@de.
+n1:e9s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.1.4";
+	skos:broader n1:e7x;
+	skos:prefLabel "einfache Sachverhalte mit Tupeln oder Matrizen beschreiben"@de.
+n1:e5p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.1.5";
+	skos:broader n1:e7x;
+	skos:prefLabel "mathematische Prozesse durch Matrizen unter Nutzung von Matrizenmultiplikation und inversen Matrizen beschreiben (A1)"@de.
+n1:e7x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.1";
+	skos:broader n1:v2f;
+	skos:prefLabel "Grundlegendes und erhöhtes Anforderungsniveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:b3c,
+		n1:x7e,
+		n1:q9d,
+		n1:e9s,
+		n1:e5p.
+n1:d6g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.2.1";
+	skos:broader n1:x3d;
+	skos:prefLabel "Potenzen von Matrizen bei mehrstufigen Prozessen nutzen (A1)"@de.
+n1:t7q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.2.2";
+	skos:broader n1:x3d;
+	skos:prefLabel "Grenzmatrizen sowie Fixvektoren interpretieren (A1)"@de.
+n1:x3d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1.2";
+	skos:broader n1:v2f;
+	skos:prefLabel "Erhöhtes Anforderungsniveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können darüber hinaus"@de;
+	skos:narrower 
+		n1:d6g,
+		n1:t7q.
+n1:v2f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 1";
+	skos:broader n1:s5r;
+	skos:prefLabel "Algorithmus und Zahl"@de; 
+	skos:definition """Diese Leitidee verallgemeinert zum einen den Zahlbegriff der Sekundarstufe I zu Tupeln und Matrizen einschließlich zugehöriger Operationen. Die Leitidee erweitert zum anderen die Vorstellungen von den reellen Zahlen durch Approximationen mittels infinitesimaler Methoden. Weiter umfasst die Leitidee die Kenntnis, das Verstehen und das Anwenden mathematischer Verfahren, die prinzipiell automatisierbar und damit einer Rechnernutzung zugänglich sind.\n\nDie darauf bezogenen mathematischen Sachgebiete der Sekundarstufe II sind die Anfänge der Analysis und die Lineare Algebra."""@de;
+	skos:narrower 
+		n1:e7x,
+		n1:x3d.
+n1:c6a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.1.1";
+	skos:broader n1:f5d;
+	skos:prefLabel "Streckenlängen und Winkelgrößen im Raum3 auch mithilfe des Skalarprodukts bestimmen"@de.
+n1:r2e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.1.2";
+	skos:broader n1:f5d;
+	skos:prefLabel "Sekanten- und Tangentensteigungen an Funktionsgraphen bestimmen"@de.
+n1:z5g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.1.3";
+	skos:broader n1:f5d;
+	skos:prefLabel "Änderungsraten berechnen und deuten"@de.
+n1:q3h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.1.4";
+	skos:broader n1:f5d;
+	skos:prefLabel "Inhalte von Flächen, die durch Funktionsgraphen begrenzt sind, bestimmen"@de.
+n1:f4r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.1.5";
+	skos:broader n1:f5d;
+	skos:prefLabel "Bestände aus Änderungsraten und Anfangsbestand berechnen"@de.
+n1:e9d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.1.6";
+	skos:broader n1:f5d;
+	skos:prefLabel "Lage- und Streumaße einer Stichprobe bestimmen und deuten"@de.
+n1:a5g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.1.7";
+	skos:broader n1:f5d;
+	skos:prefLabel "Erwartungswert und Standardabweichung diskreter Zufallsgrößen bestimmen und deuten"@de.
+n1:f5d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.1";
+	skos:broader n1:y2d;
+	skos:prefLabel "Grundlegendes und erhöhtes Anforderungsniveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:c6a,
+		n1:r2e,
+		n1:z5g,
+		n1:q3h,
+		n1:f4r,
+		n1:e9d,
+		n1:a5g.
+n1:g3c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.2.1";
+	skos:broader n1:h4u;
+	skos:prefLabel "Abstände zwischen Punkten, Geraden und Ebenen bestimmen (A2)"@de.
+n1:h2b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.2.2";
+	skos:broader n1:h4u;
+	skos:prefLabel "das Volumen von Körpern bestimmen, die durch Rotation um die Abszissenachse entstehen"@de.
+n1:h4u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2.2";
+	skos:broader n1:y2d;
+	skos:prefLabel "Erhöhtes Anforderungsniveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können darüber hinaus"@de;
+	skos:narrower 
+		n1:g3c,
+		n1:h2b.
+n1:y2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 2";
+	skos:broader n1:s5r;
+	skos:prefLabel "Messen"@de; 
+	skos:definition """Diese Leitidee erweitert das Bestimmen und Deuten von Größen aus der Sekundarstufe I um infinitesimale, numerische und analytisch-geometrische Methoden. Dies betrifft sowohl funktionale Größen wie Änderungsraten und (re-)konstruierte Bestände als auch Größen im Koordinatensystem wie Winkelgrößen, Längen, Flächeninhalte und Volumina. Weiter umfasst die Leitidee stochastische Kenngrößen, die als Ergebnisse von Messprozessen im weiteren Sinne aufgefasst werden.\n\nDie darauf bezogenen mathematischen Sachgebiete der Sekundarstufe II sind die Analysis, die Analytische Geometrie und die Stochastik."""@de;
+	skos:narrower 
+		n1:f5d,
+		n1:h4u.
+n1:a9h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.1.1";
+	skos:broader n1:s3t;
+	skos:prefLabel "geometrische Sachverhalte in Ebene und Raum koordinatisieren"@de.
+n1:e9r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.1.2";
+	skos:broader n1:s3t;
+	skos:prefLabel "elementare Operationen mit geometrischen Vektoren ausführen und Vektoren auf Kollinearität untersuchen"@de.
+n1:g4p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.1.3";
+	skos:broader n1:s3t;
+	skos:prefLabel "das Skalarprodukt geometrisch deuten"@de.
+n1:g2p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.1.4";
+	skos:broader n1:s3t;
+	skos:prefLabel "Vektoren beim Arbeiten mit geradlinig bzw. ebenflächig begrenzten geometrischen Objekten anwenden (A2)"@de.
+n1:x4u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.1.5";
+	skos:broader n1:s3t;
+	skos:prefLabel "Geraden und Ebenen analytisch beschreiben und die Lagebeziehungen von Geraden untersuchen (A2)"@de.
+n1:s3t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.1";
+	skos:broader n1:h2u;
+	skos:prefLabel "Grundlegendes und erhöhtes Anforderungsniveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:a9h,
+		n1:e9r,
+		n1:g4p,
+		n1:g2p,
+		n1:x4u.
+n1:s4q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.2.1";
+	skos:broader n1:e5c;
+	skos:prefLabel "die Lagebeziehungen von Geraden und Ebenen untersuchen (A2)"@de.
+n1:e5c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3.2";
+	skos:broader n1:h2u;
+	skos:prefLabel "Erhöhtes Anforderungsniveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können darüber hinaus"@de;
+	skos:narrower 
+		n1:s4q.
+n1:h2u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 3";
+	skos:broader n1:s5r;
+	skos:prefLabel "Raum und Form"@de; 
+	skos:definition """Diese Leitidee ist auf die Weiterentwicklung des räumlichen Vorstellungsvermögens aus der Sekundarstufe I gerichtet. Sie beinhaltet den Umgang mit Objekten im Raum. Es geht hier sowohl um Eigenschaften und Beziehungen dieser Objekte als auch um Darstellungen mit geeigneten Hilfsmitteln einschließlich Geometriesoftware.\n\nDas zugehörige mathematische Sachgebiet der Sekundarstufe II ist die Analytische Geometrie."""@de;
+	skos:narrower 
+		n1:s3t,
+		n1:e5c.
+n1:p9a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.1.1";
+	skos:broader n1:a7a;
+	skos:prefLabel "die sich aus den Funktionen der Sekundarstufe I ergebenden Funktionsklassen zur Beschreibung und Untersuchung quantifizierbarer Zusammenhänge nutzen"@de.
+n1:t5y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.1.2";
+	skos:broader n1:a7a;
+	skos:prefLabel "in einfachen Fällen Verknüpfungen und Verkettungen von Funktionen zur Beschreibung quantifizierbarer Zusammenhänge nutzen"@de.
+n1:s6a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.1.3";
+	skos:broader n1:a7a;
+	skos:prefLabel "die Ableitung insbesondere als lokale Änderungsrate deuten"@de.
+n1:z3c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.1.4";
+	skos:broader n1:a7a;
+	skos:prefLabel "Änderungsraten funktional beschreiben (Ableitungsfunktion) und interpretieren"@de.
+n1:s3p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.1.5";
+	skos:broader n1:a7a;
+	skos:prefLabel "die Funktionen der Sekundarstufe I ableiten, auch unter Nutzung der Faktor- und Summenregel"@de.
+n1:q4u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.1.6";
+	skos:broader n1:a7a;
+	skos:prefLabel "die Produktregel zum Ableiten von Funktionen verwenden"@de.
+n1:t9y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.1.7";
+	skos:broader n1:a7a;
+	skos:prefLabel "die Ableitung zur Bestimmung von Monotonie und Extrema von Funktionen nutzen"@de.
+n1:s5a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.1.8";
+	skos:broader n1:a7a;
+	skos:prefLabel "den Ableitungsgraphen aus dem Funktionsgraphen und umgekehrt entwickeln"@de.
+n1:f3h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.1.9";
+	skos:broader n1:a7a;
+	skos:prefLabel "das bestimmte Integral deuten, insbesondere als (re-)konstruierten Bestand"@de.
+n1:h4z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.1.10";
+	skos:broader n1:a7a;
+	skos:prefLabel "geometrisch-anschaulich den Hauptsatz als Beziehung zwischen Ableitungs- und Integralbegriff begründen"@de.
+n1:b4c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.1.11";
+	skos:broader n1:a7a;
+	skos:prefLabel "Funktionen mittels Stammfunktionen integrieren"@de.
+n1:r5p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.1.12";
+	skos:broader n1:a7a;
+	skos:prefLabel "Zufallsgrößen und Wahrscheinlichkeitsverteilungen zur Beschreibung stochastischer Situationen nutzen"@de.
+n1:a7a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.1";
+	skos:broader n1:g2x;
+	skos:prefLabel "Grundlegendes und erhöhtes Anforderungsniveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:p9a,
+		n1:t5y,
+		n1:s6a,
+		n1:z3c,
+		n1:s3p,
+		n1:q4u,
+		n1:t9y,
+		n1:s5a,
+		n1:f3h,
+		n1:h4z,
+		n1:b4c,
+		n1:r5p.
+n1:e4g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.2.1";
+	skos:broader n1:b2r;
+	skos:prefLabel "die Ableitung mithilfe der Approximation durch lineare Funktionen deuten"@de.
+n1:a6r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.2.2";
+	skos:broader n1:b2r;
+	skos:prefLabel "die Kettenregel zum Ableiten von Funktionen verwenden"@de.
+n1:r3s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.2.3";
+	skos:broader n1:b2r;
+	skos:prefLabel "die ln-Funktion als Stammfunktion von x |-> 1/x und als Umkehrfunktion der e-Funktion nutzen"@de.
+n1:b2r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4.2";
+	skos:broader n1:g2x;
+	skos:prefLabel "Erhöhtes Anforderungsniveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können darüber hinaus"@de;
+	skos:narrower 
+		n1:e4g,
+		n1:a6r,
+		n1:r3s.
+n1:g2x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 4";
+	skos:broader n1:s5r;
+	skos:prefLabel "Funktionaler Zusammenhang"@de;
+	skos:narrower 
+		n1:a7a,
+		n1:b2r.
+n1:d3a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.1.1";
+	skos:broader n1:a9x;
+	skos:prefLabel "exemplarisch statistische Erhebungen planen und beurteilen"@de.
+n1:z9a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.1.2";
+	skos:broader n1:a9x;
+	skos:prefLabel "Sachverhalte mithilfe von Baumdiagrammen oder Vierfeldertafeln untersuchen und damit Problemstellungen im Kontext bedingter Wahrscheinlichkeiten lösen"@de.
+n1:d6x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.1.3";
+	skos:broader n1:a9x;
+	skos:prefLabel "Teilvorgänge mehrstufiger Zufallsexperimente auf stochastische Unabhängigkeit anhand einfacher Beispiele untersuchen"@de.
+n1:f4f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.1.4";
+	skos:broader n1:a9x;
+	skos:prefLabel "die Binomialverteilung und ihre Kenngrößen nutzen"@de.
+n1:g7x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.1.5";
+	skos:broader n1:a9x;
+	skos:prefLabel "Simulationen zur Untersuchung stochastischer Situationen verwenden"@de.
+n1:x6t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.1.6";
+	skos:broader n1:a9x;
+	skos:prefLabel "in einfachen Fällen aufgrund von Stichproben auf die Gesamtheit schließen"@de.
+n1:a9x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.1";
+	skos:broader n1:c3z;
+	skos:prefLabel "Grundlegendes und erhöhtes Anforderungsniveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:d3a,
+		n1:z9a,
+		n1:d6x,
+		n1:f4f,
+		n1:g7x,
+		n1:x6t.
+n1:f9p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.2.1";
+	skos:broader n1:g5x;
+	skos:prefLabel "für binomialverteilte Zufallsgrößen Aussagen über die unbekannte Wahrscheinlichkeit sowie die Unsicherheit und Genauigkeit dieser Aussagen begründen (B1)"@de.
+n1:s4c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.2.2";
+	skos:broader n1:g5x;
+	skos:prefLabel "Hypothesentests interpretieren und die Unsicherheit und Genauigkeit der Ergebnisse begründen (B2)"@de.
+n1:r5q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.2.3";
+	skos:broader n1:g5x;
+	skos:prefLabel "exemplarisch diskrete und stetige Zufallsgrößen unterscheiden und die „Glockenform“ als Grundvorstellung von normalverteilten Zufallsgrößen nutzen"@de.
+n1:t6v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.2.4";
+	skos:broader n1:g5x;
+	skos:prefLabel "stochastische Situationen untersuchen, die zu annähernd normalverteilten Zufallsgrößen führen"@de.
+n1:g5x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5.2";
+	skos:broader n1:c3z;
+	skos:prefLabel "Erhöhtes Anforderungsniveau"@de; 
+	skos:definition "Die Schülerinnen und Schüler können darüber hinaus"@de;
+	skos:narrower 
+		n1:f9p,
+		n1:s4c,
+		n1:r5q,
+		n1:t6v.
+n1:c3z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L 5";
+	skos:broader n1:s5r;
+	skos:prefLabel "Daten und Zufall"@de; 
+	skos:definition """Diese Leitidee vernetzt Begriffe und Methoden zur Aufbereitung und Interpretation von statistischen Daten mit solchen zur Beschreibung und Modellierung von zufallsabhängigen Situationen. In Ausweitung und Vertiefung stochastischer Vorstellungen der Sekundarstufe I umfasst diese Leitidee insbesondere den Umgang mit mehrstufigen Zufallsexperimenten, die Untersuchung und Nutzung von Verteilungen sowie einen Einblick in Methoden der beurteilenden Statistik, auch mithilfe von Simulationen und unter Verwendung einschlägiger Software.\n\nDas darauf bezogene mathematische Sachgebiet der Sekundarstufe II ist die Stochastik."""@de;
+	skos:narrower 
+		n1:a9x,
+		n1:g5x.
+n1:s5r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "L ";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Die mathematischen Leitideen"@de; 
+	skos:definition """Die Bewältigung mathematischer Problemsituationen erfordert das permanente Zusammenspiel von prozess- und inhaltsbezogenen Kompetenzen. Insofern sind die folgenden – in der Sekundarstufe II verbindlichen – Inhalte immer im Kontext allgemeiner mathematischer Kompetenzen und deren Anforderungsbereichen zu sehen. Unter „Inhalten“ werden dabei insbesondere auch adäquate Grundvorstellungen verstanden, die ein Verständnis dieser Inhalte erst konstituieren. Die inhaltsbezogenen Kompetenzen werden jeweils übergreifenden Leitideen zugeordnet, die nicht auf bestimmte klassische mathematische Sachgebiete (Analysis, Lineare Algebra/Analytische Geometrie, Stochastik) begrenzt sind. Die Leitideen tragen damit zur Vernetzung dieser traditionellen klassischen Sachgebiete bei.\n\nBei allen Leitideen wird zuerst ein inhaltlicher Kernbereich beschrieben, der das grundlegende Anforderungsniveau charakterisiert. Danach werden die zusätzlichen Inhalte für das erhöhte Anforderungsniveau aufgeführt.\n\nInnerhalb der Leitideen können die Länder den Schwerpunkt alternativ auf die Beschreibung mathematischer Prozesse durch Matrizen (Alternative A1) oder die vektorielle Analytische Geometrie (Alternative A2) setzen.\n\nEbenso können die Länder den Schwerpunkt auf die Schätzung von Parametern (Alternative B1) oder auf die Testung von Hypothesen (Alternative B2) setzen."""@de;
+	skos:narrower 
+		n1:v2f,
+		n1:y2d,
+		n1:h2u,
+		n1:g2x,
+		n1:c3z.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Mathematik Sek II 2012 - Die mathematischen Leitideen"@de;
+	dct:description """Die Bewältigung mathematischer Problemsituationen erfordert das permanente Zusammenspiel von prozess- und inhaltsbezogenen Kompetenzen. Insofern sind die folgenden – in der Sekundarstufe II verbindlichen – Inhalte immer im Kontext allgemeiner mathematischer Kompetenzen und deren Anforderungsbereichen zu sehen. Unter „Inhalten“ werden dabei insbesondere auch adäquate Grundvorstellungen verstanden, die ein Verständnis dieser Inhalte erst konstituieren. Die inhaltsbezogenen Kompetenzen werden jeweils übergreifenden Leitideen zugeordnet, die nicht auf bestimmte klassische mathematische Sachgebiete (Analysis, Lineare Algebra/Analytische Geometrie, Stochastik) begrenzt sind. Die Leitideen tragen damit zur Vernetzung dieser traditionellen klassischen Sachgebiete bei.
+
+Bei allen Leitideen wird zuerst ein inhaltlicher Kernbereich beschrieben, der das grundlegende Anforderungsniveau charakterisiert. Danach werden die zusätzlichen Inhalte für das erhöhte Anforderungsniveau aufgeführt.
+
+Innerhalb der Leitideen können die Länder den Schwerpunkt alternativ auf die Beschreibung mathematischer Prozesse durch Matrizen (Alternative A1) oder die vektorielle Analytische Geometrie (Alternative A2) setzen.
+
+Ebenso können die Länder den Schwerpunkt auf die Schätzung von Parametern (Alternative B1) oder auf die Testung von Hypothesen (Alternative B2) setzen."""@de;
+	skos:hasTopConcept
+		n1:s5r.

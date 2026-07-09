@@ -1,0 +1,805 @@
+{
+  "id": "https://w3id.org/iqb/v55/l1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Mathematik Sek II 2012 - Die mathematischen Leitideen"
+  },
+  "description": {
+    "de": "Die Bewältigung mathematischer Problemsituationen erfordert das permanente Zusammenspiel von prozess- und inhaltsbezogenen Kompetenzen. Insofern sind die folgenden – in der Sekundarstufe II verbindlichen – Inhalte immer im Kontext allgemeiner mathematischer Kompetenzen und deren Anforderungsbereichen zu sehen. Unter „Inhalten“ werden dabei insbesondere auch adäquate Grundvorstellungen verstanden, die ein Verständnis dieser Inhalte erst konstituieren. Die inhaltsbezogenen Kompetenzen werden jeweils übergreifenden Leitideen zugeordnet, die nicht auf bestimmte klassische mathematische Sachgebiete (Analysis, Lineare Algebra/Analytische Geometrie, Stochastik) begrenzt sind. Die Leitideen tragen damit zur Vernetzung dieser traditionellen klassischen Sachgebiete bei.\n\nBei allen Leitideen wird zuerst ein inhaltlicher Kernbereich beschrieben, der das grundlegende Anforderungsniveau charakterisiert. Danach werden die zusätzlichen Inhalte für das erhöhte Anforderungsniveau aufgeführt.\n\nInnerhalb der Leitideen können die Länder den Schwerpunkt alternativ auf die Beschreibung mathematischer Prozesse durch Matrizen (Alternative A1) oder die vektorielle Analytische Geometrie (Alternative A2) setzen.\n\nEbenso können die Länder den Schwerpunkt auf die Schätzung von Parametern (Alternative B1) oder auf die Testung von Hypothesen (Alternative B2) setzen."
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v55/l1/s5r",
+      "notation": [
+        "L "
+      ],
+      "prefLabel": {
+        "de": "Die mathematischen Leitideen"
+      },
+      "definition": {
+        "de": "Die Bewältigung mathematischer Problemsituationen erfordert das permanente Zusammenspiel von prozess- und inhaltsbezogenen Kompetenzen. Insofern sind die folgenden – in der Sekundarstufe II verbindlichen – Inhalte immer im Kontext allgemeiner mathematischer Kompetenzen und deren Anforderungsbereichen zu sehen. Unter „Inhalten“ werden dabei insbesondere auch adäquate Grundvorstellungen verstanden, die ein Verständnis dieser Inhalte erst konstituieren. Die inhaltsbezogenen Kompetenzen werden jeweils übergreifenden Leitideen zugeordnet, die nicht auf bestimmte klassische mathematische Sachgebiete (Analysis, Lineare Algebra/Analytische Geometrie, Stochastik) begrenzt sind. Die Leitideen tragen damit zur Vernetzung dieser traditionellen klassischen Sachgebiete bei.\\\n\\\nBei allen Leitideen wird zuerst ein inhaltlicher Kernbereich beschrieben, der das grundlegende Anforderungsniveau charakterisiert. Danach werden die zusätzlichen Inhalte für das erhöhte Anforderungsniveau aufgeführt.\\\n\\\nInnerhalb der Leitideen können die Länder den Schwerpunkt alternativ auf die Beschreibung mathematischer Prozesse durch Matrizen (Alternative A1) oder die vektorielle Analytische Geometrie (Alternative A2) setzen.\\\n\\\nEbenso können die Länder den Schwerpunkt auf die Schätzung von Parametern (Alternative B1) oder auf die Testung von Hypothesen (Alternative B2) setzen."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v55/l1/v2f",
+          "notation": [
+            "L 1"
+          ],
+          "prefLabel": {
+            "de": "Algorithmus und Zahl"
+          },
+          "definition": {
+            "de": "Diese Leitidee verallgemeinert zum einen den Zahlbegriff der Sekundarstufe I zu Tupeln und Matrizen einschließlich zugehöriger Operationen. Die Leitidee erweitert zum anderen die Vorstellungen von den reellen Zahlen durch Approximationen mittels infinitesimaler Methoden. Weiter umfasst die Leitidee die Kenntnis, das Verstehen und das Anwenden mathematischer Verfahren, die prinzipiell automatisierbar und damit einer Rechnernutzung zugänglich sind.\\\n\\\nDie darauf bezogenen mathematischen Sachgebiete der Sekundarstufe II sind die Anfänge der Analysis und die Lineare Algebra."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v55/l1/e7x",
+              "notation": [
+                "L 1.1"
+              ],
+              "prefLabel": {
+                "de": "Grundlegendes und erhöhtes Anforderungsniveau"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/b3c",
+                  "notation": [
+                    "L 1.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "geeignete Verfahren zur Lösung von Gleichungen und Gleichungssystemen auswählen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/x7e",
+                  "notation": [
+                    "L 1.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "ein algorithmisches Lösungsverfahren für lineare Gleichungssysteme erläutern und es anwenden"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/q9d",
+                  "notation": [
+                    "L 1.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Grenzwerte auf der Grundlage eines propädeutischen Grenzwertbegriffs insbesondere bei der Bestimmung von Ableitung und Integral nutzen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/e9s",
+                  "notation": [
+                    "L 1.1.4"
+                  ],
+                  "prefLabel": {
+                    "de": "einfache Sachverhalte mit Tupeln oder Matrizen beschreiben"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/e5p",
+                  "notation": [
+                    "L 1.1.5"
+                  ],
+                  "prefLabel": {
+                    "de": "mathematische Prozesse durch Matrizen unter Nutzung von Matrizenmultiplikation und inversen Matrizen beschreiben (A1)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v55/l1/x3d",
+              "notation": [
+                "L 1.2"
+              ],
+              "prefLabel": {
+                "de": "Erhöhtes Anforderungsniveau"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können darüber hinaus"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/d6g",
+                  "notation": [
+                    "L 1.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Potenzen von Matrizen bei mehrstufigen Prozessen nutzen (A1)"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/t7q",
+                  "notation": [
+                    "L 1.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Grenzmatrizen sowie Fixvektoren interpretieren (A1)"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v55/l1/y2d",
+          "notation": [
+            "L 2"
+          ],
+          "prefLabel": {
+            "de": "Messen"
+          },
+          "definition": {
+            "de": "Diese Leitidee erweitert das Bestimmen und Deuten von Größen aus der Sekundarstufe I um infinitesimale, numerische und analytisch-geometrische Methoden. Dies betrifft sowohl funktionale Größen wie Änderungsraten und (re-)konstruierte Bestände als auch Größen im Koordinatensystem wie Winkelgrößen, Längen, Flächeninhalte und Volumina. Weiter umfasst die Leitidee stochastische Kenngrößen, die als Ergebnisse von Messprozessen im weiteren Sinne aufgefasst werden.\\\n\\\nDie darauf bezogenen mathematischen Sachgebiete der Sekundarstufe II sind die Analysis, die Analytische Geometrie und die Stochastik."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v55/l1/f5d",
+              "notation": [
+                "L 2.1"
+              ],
+              "prefLabel": {
+                "de": "Grundlegendes und erhöhtes Anforderungsniveau"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/c6a",
+                  "notation": [
+                    "L 2.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Streckenlängen und Winkelgrößen im Raum3 auch mithilfe des Skalarprodukts bestimmen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/r2e",
+                  "notation": [
+                    "L 2.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Sekanten- und Tangentensteigungen an Funktionsgraphen bestimmen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/z5g",
+                  "notation": [
+                    "L 2.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Änderungsraten berechnen und deuten"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/q3h",
+                  "notation": [
+                    "L 2.1.4"
+                  ],
+                  "prefLabel": {
+                    "de": "Inhalte von Flächen, die durch Funktionsgraphen begrenzt sind, bestimmen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/f4r",
+                  "notation": [
+                    "L 2.1.5"
+                  ],
+                  "prefLabel": {
+                    "de": "Bestände aus Änderungsraten und Anfangsbestand berechnen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/e9d",
+                  "notation": [
+                    "L 2.1.6"
+                  ],
+                  "prefLabel": {
+                    "de": "Lage- und Streumaße einer Stichprobe bestimmen und deuten"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/a5g",
+                  "notation": [
+                    "L 2.1.7"
+                  ],
+                  "prefLabel": {
+                    "de": "Erwartungswert und Standardabweichung diskreter Zufallsgrößen bestimmen und deuten"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v55/l1/h4u",
+              "notation": [
+                "L 2.2"
+              ],
+              "prefLabel": {
+                "de": "Erhöhtes Anforderungsniveau"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können darüber hinaus"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/g3c",
+                  "notation": [
+                    "L 2.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Abstände zwischen Punkten, Geraden und Ebenen bestimmen (A2)"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/h2b",
+                  "notation": [
+                    "L 2.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "das Volumen von Körpern bestimmen, die durch Rotation um die Abszissenachse entstehen"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v55/l1/h2u",
+          "notation": [
+            "L 3"
+          ],
+          "prefLabel": {
+            "de": "Raum und Form"
+          },
+          "definition": {
+            "de": "Diese Leitidee ist auf die Weiterentwicklung des räumlichen Vorstellungsvermögens aus der Sekundarstufe I gerichtet. Sie beinhaltet den Umgang mit Objekten im Raum. Es geht hier sowohl um Eigenschaften und Beziehungen dieser Objekte als auch um Darstellungen mit geeigneten Hilfsmitteln einschließlich Geometriesoftware.\\\n\\\nDas zugehörige mathematische Sachgebiet der Sekundarstufe II ist die Analytische Geometrie."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v55/l1/s3t",
+              "notation": [
+                "L 3.1"
+              ],
+              "prefLabel": {
+                "de": "Grundlegendes und erhöhtes Anforderungsniveau"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/a9h",
+                  "notation": [
+                    "L 3.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "geometrische Sachverhalte in Ebene und Raum koordinatisieren"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/e9r",
+                  "notation": [
+                    "L 3.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "elementare Operationen mit geometrischen Vektoren ausführen und Vektoren auf Kollinearität untersuchen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/g4p",
+                  "notation": [
+                    "L 3.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "das Skalarprodukt geometrisch deuten"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/g2p",
+                  "notation": [
+                    "L 3.1.4"
+                  ],
+                  "prefLabel": {
+                    "de": "Vektoren beim Arbeiten mit geradlinig bzw. ebenflächig begrenzten geometrischen Objekten anwenden (A2)"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/x4u",
+                  "notation": [
+                    "L 3.1.5"
+                  ],
+                  "prefLabel": {
+                    "de": "Geraden und Ebenen analytisch beschreiben und die Lagebeziehungen von Geraden untersuchen (A2)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v55/l1/e5c",
+              "notation": [
+                "L 3.2"
+              ],
+              "prefLabel": {
+                "de": "Erhöhtes Anforderungsniveau"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können darüber hinaus"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/s4q",
+                  "notation": [
+                    "L 3.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "die Lagebeziehungen von Geraden und Ebenen untersuchen (A2)"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v55/l1/g2x",
+          "notation": [
+            "L 4"
+          ],
+          "prefLabel": {
+            "de": "Funktionaler Zusammenhang"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v55/l1/a7a",
+              "notation": [
+                "L 4.1"
+              ],
+              "prefLabel": {
+                "de": "Grundlegendes und erhöhtes Anforderungsniveau"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/p9a",
+                  "notation": [
+                    "L 4.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "die sich aus den Funktionen der Sekundarstufe I ergebenden Funktionsklassen zur Beschreibung und Untersuchung quantifizierbarer Zusammenhänge nutzen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/t5y",
+                  "notation": [
+                    "L 4.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "in einfachen Fällen Verknüpfungen und Verkettungen von Funktionen zur Beschreibung quantifizierbarer Zusammenhänge nutzen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/s6a",
+                  "notation": [
+                    "L 4.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "die Ableitung insbesondere als lokale Änderungsrate deuten"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/z3c",
+                  "notation": [
+                    "L 4.1.4"
+                  ],
+                  "prefLabel": {
+                    "de": "Änderungsraten funktional beschreiben (Ableitungsfunktion) und interpretieren"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/s3p",
+                  "notation": [
+                    "L 4.1.5"
+                  ],
+                  "prefLabel": {
+                    "de": "die Funktionen der Sekundarstufe I ableiten, auch unter Nutzung der Faktor- und Summenregel"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/q4u",
+                  "notation": [
+                    "L 4.1.6"
+                  ],
+                  "prefLabel": {
+                    "de": "die Produktregel zum Ableiten von Funktionen verwenden"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/t9y",
+                  "notation": [
+                    "L 4.1.7"
+                  ],
+                  "prefLabel": {
+                    "de": "die Ableitung zur Bestimmung von Monotonie und Extrema von Funktionen nutzen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/s5a",
+                  "notation": [
+                    "L 4.1.8"
+                  ],
+                  "prefLabel": {
+                    "de": "den Ableitungsgraphen aus dem Funktionsgraphen und umgekehrt entwickeln"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/f3h",
+                  "notation": [
+                    "L 4.1.9"
+                  ],
+                  "prefLabel": {
+                    "de": "das bestimmte Integral deuten, insbesondere als (re-)konstruierten Bestand"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/h4z",
+                  "notation": [
+                    "L 4.1.10"
+                  ],
+                  "prefLabel": {
+                    "de": "geometrisch-anschaulich den Hauptsatz als Beziehung zwischen Ableitungs- und Integralbegriff begründen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/b4c",
+                  "notation": [
+                    "L 4.1.11"
+                  ],
+                  "prefLabel": {
+                    "de": "Funktionen mittels Stammfunktionen integrieren"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/r5p",
+                  "notation": [
+                    "L 4.1.12"
+                  ],
+                  "prefLabel": {
+                    "de": "Zufallsgrößen und Wahrscheinlichkeitsverteilungen zur Beschreibung stochastischer Situationen nutzen"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v55/l1/b2r",
+              "notation": [
+                "L 4.2"
+              ],
+              "prefLabel": {
+                "de": "Erhöhtes Anforderungsniveau"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können darüber hinaus"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/e4g",
+                  "notation": [
+                    "L 4.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "die Ableitung mithilfe der Approximation durch lineare Funktionen deuten"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/a6r",
+                  "notation": [
+                    "L 4.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "die Kettenregel zum Ableiten von Funktionen verwenden"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/r3s",
+                  "notation": [
+                    "L 4.2.3"
+                  ],
+                  "prefLabel": {
+                    "de": "die ln-Funktion als Stammfunktion von x |-> 1/x und als Umkehrfunktion der e-Funktion nutzen"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v55/l1/c3z",
+          "notation": [
+            "L 5"
+          ],
+          "prefLabel": {
+            "de": "Daten und Zufall"
+          },
+          "definition": {
+            "de": "Diese Leitidee vernetzt Begriffe und Methoden zur Aufbereitung und Interpretation von statistischen Daten mit solchen zur Beschreibung und Modellierung von zufallsabhängigen Situationen. In Ausweitung und Vertiefung stochastischer Vorstellungen der Sekundarstufe I umfasst diese Leitidee insbesondere den Umgang mit mehrstufigen Zufallsexperimenten, die Untersuchung und Nutzung von Verteilungen sowie einen Einblick in Methoden der beurteilenden Statistik, auch mithilfe von Simulationen und unter Verwendung einschlägiger Software.\\\n\\\nDas darauf bezogene mathematische Sachgebiet der Sekundarstufe II ist die Stochastik."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v55/l1/a9x",
+              "notation": [
+                "L 5.1"
+              ],
+              "prefLabel": {
+                "de": "Grundlegendes und erhöhtes Anforderungsniveau"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/d3a",
+                  "notation": [
+                    "L 5.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "exemplarisch statistische Erhebungen planen und beurteilen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/z9a",
+                  "notation": [
+                    "L 5.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Sachverhalte mithilfe von Baumdiagrammen oder Vierfeldertafeln untersuchen und damit Problemstellungen im Kontext bedingter Wahrscheinlichkeiten lösen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/d6x",
+                  "notation": [
+                    "L 5.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Teilvorgänge mehrstufiger Zufallsexperimente auf stochastische Unabhängigkeit anhand einfacher Beispiele untersuchen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/f4f",
+                  "notation": [
+                    "L 5.1.4"
+                  ],
+                  "prefLabel": {
+                    "de": "die Binomialverteilung und ihre Kenngrößen nutzen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/g7x",
+                  "notation": [
+                    "L 5.1.5"
+                  ],
+                  "prefLabel": {
+                    "de": "Simulationen zur Untersuchung stochastischer Situationen verwenden"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/x6t",
+                  "notation": [
+                    "L 5.1.6"
+                  ],
+                  "prefLabel": {
+                    "de": "in einfachen Fällen aufgrund von Stichproben auf die Gesamtheit schließen"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v55/l1/g5x",
+              "notation": [
+                "L 5.2"
+              ],
+              "prefLabel": {
+                "de": "Erhöhtes Anforderungsniveau"
+              },
+              "definition": {
+                "de": "Die Schülerinnen und Schüler können darüber hinaus"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/f9p",
+                  "notation": [
+                    "L 5.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "für binomialverteilte Zufallsgrößen Aussagen über die unbekannte Wahrscheinlichkeit sowie die Unsicherheit und Genauigkeit dieser Aussagen begründen (B1)"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/s4c",
+                  "notation": [
+                    "L 5.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Hypothesentests interpretieren und die Unsicherheit und Genauigkeit der Ergebnisse begründen (B2)"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/r5q",
+                  "notation": [
+                    "L 5.2.3"
+                  ],
+                  "prefLabel": {
+                    "de": "exemplarisch diskrete und stetige Zufallsgrößen unterscheiden und die „Glockenform“ als Grundvorstellung von normalverteilten Zufallsgrößen nutzen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v55/l1/t6v",
+                  "notation": [
+                    "L 5.2.4"
+                  ],
+                  "prefLabel": {
+                    "de": "stochastische Situationen untersuchen, die zu annähernd normalverteilten Zufallsgrößen führen"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

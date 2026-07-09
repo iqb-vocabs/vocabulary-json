@@ -1,0 +1,34 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v25/sp/>. 
+@prefix n1: <https://w3id.org/iqb/v25/sp/>. 
+
+n1:d6z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "langsam"@de.
+n1:a6b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "normal"@de.
+n1:y7b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "schnell"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Textvorgabe Fremdsprachen - Sprechtempo"@de;
+	dc:title "Textvorgabe Fremdsprachen - Sprechtempo"@de;
+	dc:description "Textvorgabe Fremdsprachen - Sprechtempo"@de;
+	skos:hasTopConcept
+		n1:d6z,
+		n1:a6b,
+		n1:y7b.

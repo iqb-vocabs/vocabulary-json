@@ -1,0 +1,279 @@
+{
+  "id": "https://w3id.org/iqb/v59/f4/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Fremdsprachen Sek II 2012 - Sprachbewusstheit"
+  },
+  "description": {
+    "de": "Sprachbewusstheit bedeutet Sensibilität für und Nachdenken über Sprache und sprachlich vermittelte Kommunikation. Sie ermöglicht Schülerinnen und Schülern, die Ausdrucksmittel und Varianten einer Sprache bewusst zu nutzen; dies schließt eine Sensibilität für Stil und Register sowie für kulturell bestimmte Formen des Sprachgebrauchs, z. B. Formen der Höflichkeit, ein. Die Reflexion über Sprache richtet sich auch auf die Rolle und Verwendung von Sprachen in der Welt, z. B. im Kontext kultureller und politischer Einflüsse. Da Sprache stets soziokulturell geprägt ist, führt Sprachbewusstheit darüber hinaus zu einer sensiblen Gestaltung der sprachlich-diskursiven Beziehungen mit anderen Menschen. Damit leistet die Entwicklung von Sprachbewusstheit einen wichtigen Beitrag zum Aufbau fremdsprachiger Kompetenz und über diese hinaus zum interkulturellen Lernen sowie zur Persönlichkeitsbildung.\n\nDie Schülerinnen und Schüler können ihre Einsichten in Struktur und Gebrauch der Zielsprache und anderer Sprachen nutzen, um mündliche und schriftliche Kommunikationsprozesse sicher zu bewältigen. "
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v59/f4/g9e",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Grundlegendes Niveau"
+      },
+      "definition": {
+        "de": "Die Schülerinnen und Schüler können"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v59/f4/e4b",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "grundlegende Ausprägungen des fremdsprachigen Systems an Beispielen erkennen und benennen, Hypothesen im Bereich sprachlicher Regelmäßigkeiten formulieren und Ausdrucksvarianten einschätzen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f4/s9c",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "regionale, soziale und kulturell geprägte Varietäten des Sprachgebrauchs erkennen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f4/g6q",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "sprachliche Kommunikationsprobleme erkennen und Möglichkeiten ihrer Lösung,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f4/u7y",
+          "notation": [
+            "1.4"
+          ],
+          "prefLabel": {
+            "de": "u. a. durch den Einsatz von Kompensationsstrategien abwägen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f4/a5h",
+          "notation": [
+            "1.5"
+          ],
+          "prefLabel": {
+            "de": "wichtige Beziehungen zwischen Sprach- und Kulturphänomenen an Beispielen belegen und reflektieren"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f4/p4p",
+          "notation": [
+            "1.6"
+          ],
+          "prefLabel": {
+            "de": "Gemeinsamkeiten, Unterschiede und Beziehungen zwischen Sprachen erkennen und reflektieren"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f4/z2p",
+          "notation": [
+            "1.7"
+          ],
+          "prefLabel": {
+            "de": "über Sprache gesteuerte Beeinflussungsstrategien erkennen, beschreiben und bewerten"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f4/s7a",
+          "notation": [
+            "1.8"
+          ],
+          "prefLabel": {
+            "de": "aufgrund ihrer Einsichten in die Elemente, Regelmäßigkeiten und Ausdrucksvarianten der Fremdsprache den eigenen Sprachgebrauch steuern"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v59/f4/p4s",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Erhöhtes Niveau"
+      },
+      "definition": {
+        "de": "Die Schülerinnen und Schüler können darüber hinaus"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v59/f4/q4z",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "Varietäten des Sprachgebrauchs sprachvergleichend einordnen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v59/f4/t3u",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "die Erfordernisse einer kommunikativen Situation (u. a. bezogen auf Medium, Adressatenbezug, Absicht, Stil, Register) reflektieren und in ihrem Sprachhandeln berücksichtigen"
+          }
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v44/b1/>. 
+
+n0:b3z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Struktur und Funktion"@de; 
+	skos:definition "Das Basiskonzept Struktur und Funktion beschreibt den Sachverhalt, dass es zwischen einer Struktur und deren Funktion oft einen Zusammenhang gibt. Der Zusammenhang von Struktur und Funktion ist auf verschiedenen Systemebenen relevant und gilt für Lebewesen und Lebensvorgänge."@de.
+n0:p4e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Stoff- und Energieumwandlung"@de; 
+	skos:definition "Das Basiskonzept Stoff- und Energieumwandlung beschreibt den Sachverhalt, dass biologische Systeme offene, sich selbst organisierende Systeme sind, die im ständigen Austausch mit der Umwelt stehen. Alle Lebensprozesse benötigen Energie und laufen unter Energieumwandlungen ab. Lebewesen nehmen Stoffe auf, wandeln sie um und scheiden Stoffe wieder aus."@de.
+n0:c6f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Information und Kommunikation"@de; 
+	skos:definition "Das Basiskonzept Information und Kommunikation beschreibt den Sachverhalt, dass Lebewesen Informationen aufnehmen, weiterleiten, verarbeiten, speichern und auf sie reagieren. Kommuni-kation findet auf verschiedenen Systemebenen statt. In einem vielzelligen Organismus sind alle Organe, Gewebe, Zellen und deren Bestandteile beständig an der Kommunikation beteiligt. Auch zwischen Organismen findet Kommunikation auf vielfältige Weise statt."@de.
+n0:c2u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Steuerung und Regelung"@de; 
+	skos:definition "Das Basiskonzept Steuerung und Regelung beschreibt den Sachverhalt, dass biologische Sys-teme viele Zustandsgrößen in Grenzen halten, auch wenn innere oder äußere Faktoren sich kurz-fristig stark ändern. Dabei werden innere Zustände durch Kontrollmechnismen aufrechterhalten oder funktionsbezogen verändert."@de.
+n0:t2r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Individuelle Entwicklung"@de; 
+	skos:definition "Das Basiskonzept individuelle Entwicklung beschreibt den Sachverhalt, dass sich lebende Systeme stetig verändern. Dies geschieht im Wachstum aus einer Zelle durch genetische Programmabläufe über Zellteilung, Zelldifferenzierung, Formbildung sowie Fortpflanzung und Altern bis zum Tod."@de.
+n0:y9u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Evolutive Entwicklung"@de; 
+	skos:definition "Das Basiskonzept evolutive Entwicklung beschreibt den Sachverhalt, dass sich lebende Systeme über verschiedene Zeiträume im Zusammenhang mit Umwelteinflüssen verändern. Die sexuelle Fortpflanzung von Lebewesen führt zur Rekombination von genetischem Material, was die genetische Variation erhöht. Zusammen mit Selektion ist genetische Variation eine wichtige Ursache für Artwandel."@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Biologie MSA 2024 - Basiskonzepte"@de;
+	dct:description """Der Beschreibung und Erklärung von biologischen Sachverhalten liegen fachspezifische Gemeinsamkeiten zugrunde, die sich in Form von Basiskonzepten strukturieren lassen. Die Basiskonzepte im Fach Biologie ermöglichen die Vernetzung fachlicher Inhalte und deren Betrachtung aus verschiedenen Perspektiven. Die Basiskonzepte werden übergreifend auf alle Kompetenzbereiche bezogen und sind damit für alle Standards bedeutsam. Sie können kumulativ den Aufbau von strukturiertem Wissen und die Erschließung neuer Inhalte fördern.
+
+Lebewesen stehen in stofflichen, energetischen und informatorischen Wechselwirkungen mit ihrer Umwelt, sind offene Systeme, zu Selbstregulation fähig und entwickeln sich individuell und evolutiv. Daraus werden folgende Basiskonzepte für den Biologieunterricht abgeleitet: Struktur und Funktion, Stoff- und Energieumwandlung, Information und Kommunikation, Steuerung und Regelung sowie individuelle und evolutive Entwicklung. Diese Basiskonzepte ermöglichen eine multiperspektivische, vernetzte und vertiefte Herangehensweise an Themen und Problemstellungen des Biologieunterrichts und eine Fokussierung auf zentrale Aspekte innerhalb der Vielfalt biologischer Phänomene. Basiskonzepte lassen sich auf verschiedenen Systemebenen betrachten.
+
+Basiskonzepte unterstützen durch das Entdecken gleicher Erklärungsmuster zum einen die Vertiefung der bis zum Mittleren Schulabschluss erworbenen Kompetenzen, zum anderen erleichtern sie die Entwicklung fachbezogener Kompetenzen, indem sie einen nachhaltigen und vernetzten Wissenserwerb fördern."""@de;
+	skos:hasTopConcept
+		n0:b3z,
+		n0:p4e,
+		n0:c6f,
+		n0:c2u,
+		n0:t2r,
+		n0:y9u.

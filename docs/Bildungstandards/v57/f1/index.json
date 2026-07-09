@@ -1,0 +1,1116 @@
+{
+  "id": "https://w3id.org/iqb/v57/f1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards erste Fremdsprache MSA 2003 - Mittlerer Schulabschluss Französisch"
+  },
+  "description": {
+    "de": "In diesem Kapitel werden die von den Schülerinnen und Schülern zu erwerbenden zentralen Kompetenzen für den Mittleren Schulabschluss beschrieben. Die Beschreibung erfolgt in enger Anlehnung an den Gemeinsamen europäischen Referenzrahmen (GeR).2) Sofern der GeR seinerseits Niveaustufen der Sprachbeherrschung definiert, werden diese auch hier verwendet. Insofern werden für die Kommunikativen Fertigkeiten (Kapitel 3.1) und die Verfügbarkeit der sprachlichen Mittel (Kapitel 3.2) Niveaustufen des Referenzrahmens angeführt. Für die Interkulturellen Kompetenzen (Kapitel 3.3) und die Methodenkompetenzen (Kapitel 3.4) werden entsprechend keine Stufungen vorgenommen. Die Niveaustufe beschreibt jeweils das mittlere sprachliche Niveau, das die Schülerinnen und Schüler bis zum Erwerb des Mittleren Schulabschlusses erreichen sollen."
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v57/f1/p2b",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Kommunikative Fertigkeiten"
+      },
+      "definition": {
+        "de": "Bis zum Mittleren Schulabschluss erreichen die Schülerinnen und Schüler im Wesentlichen das Niveau B1 des Gemeinsamen europäischen Referenzrahmens. In Abhängigkeit von den Eigenbedingungen schulischen Fremdsprachenlernens sind jedoch in einigen Kompetenzbereichen höhere oder niedrigere Anforderungsniveaus etabliert, die hier entsprechend berücksichtigt wurden (z. B. mit der Ausweisung von B1+ oder A2). Das Niveau des Referenzrahmens – soweit dort ausgewiesen – ist für jeden Standard in Klammern angegeben."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v57/f1/e4f",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "Hör- und Hör-/Sehverstehen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v57/f1/b7f",
+              "notation": [
+                "1.1.1"
+              ],
+              "prefLabel": {
+                "de": "im Allgemeinen den Hauptpunkten von längeren Gesprächen folgen, die in ihrer Gegenwart geführt werden (B1),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/b7u",
+              "notation": [
+                "1.1.2"
+              ],
+              "prefLabel": {
+                "de": "Vorträge verstehen, wenn die Thematik vertraut und die Darstellung unkompliziert und klar strukturiert ist (B1+),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/q5s",
+              "notation": [
+                "1.1.3"
+              ],
+              "prefLabel": {
+                "de": "Ankündigungen und Mitteilungen zu konkreten Themen verstehen, die in normaler Geschwindigkeit in Standardsprache gesprochen werden (B2),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/b7s",
+              "notation": [
+                "1.1.4"
+              ],
+              "prefLabel": {
+                "de": "vielen Filmen folgen, deren Handlung im Wesentlichen durch Bild und Aktion getragen wird (B1)."
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/x3r",
+              "notation": [
+                "1.1.5"
+              ],
+              "prefLabel": {
+                "de": "in Radionachrichten und in einfacheren Tonaufnahmen über vertraute Themen die Hauptpunkte verstehen, wenn relativ langsam und deutlich gesprochen wird (B1),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/c6u",
+              "notation": [
+                "1.1.6"
+              ],
+              "prefLabel": {
+                "de": "das Wesentliche von Fernsehsendungen zu vertrauten Themen verstehen, sofern darin relativ langsam und deutlich gesprochen wird (B1)."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v57/f1/h3g",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "Leseverstehen"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können verschiedene unkomplizierte Texte aus Themenfeldern ihres Interessen- und Erfahrungsbereiches lesen und verstehen (B1)."
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v57/f1/s6g",
+              "notation": [
+                "1.2.1"
+              ],
+              "prefLabel": {
+                "de": "Korrespondenz lesen, die sich auf das eigene Interessengebiet bezieht und die wesentliche Aussage erfassen (B2),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/q2d",
+              "notation": [
+                "1.2.2"
+              ],
+              "prefLabel": {
+                "de": "klar formulierte Anweisungen, unkomplizierte Anleitungen, Hinweise und Vorschriften verstehen (B1/ B2),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/u5v",
+              "notation": [
+                "1.2.3"
+              ],
+              "prefLabel": {
+                "de": "längere Texte nach gewünschten Informationen durchsuchen und Informationen aus verschiedenen Texten zusammentragen, um eine bestimmte Aufgabe zu lösen (B1+),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/p6s",
+              "notation": [
+                "1.2.4"
+              ],
+              "prefLabel": {
+                "de": "in kürzeren literarischen Texten (z. B. Short Stories) die wesentlichen Aussagen erfassen und diese zusammentragen, um eine bestimmte Aufgabe zu lösen (B1),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/y4q",
+              "notation": [
+                "1.2.5"
+              ],
+              "prefLabel": {
+                "de": "die Aussagen einfacher literarischer Texte verstehen,"
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v57/f1/y2d",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "Sprechen - An Gesprächen teilnehmen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v57/f1/s9d",
+              "notation": [
+                "1.3.1"
+              ],
+              "prefLabel": {
+                "de": "soziale Kontakte herstellen durch Begrüßung, Abschied, Sich-Vorstellen, Danken und Höflichkeitsformeln verwenden (A2),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/v6x",
+              "notation": [
+                "1.3.2"
+              ],
+              "prefLabel": {
+                "de": "Gefühle wie Überraschung, Freude, Trauer, Interesse und Gleichgültigkeit ausdrücken und auf entsprechende Gefühlsäußerungen reagieren (B1),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/t7t",
+              "notation": [
+                "1.3.3"
+              ],
+              "prefLabel": {
+                "de": "ein Gespräch oder eine Diskussion beginnen, fortführen und auch bei sprachlichen Schwierigkeiten aufrechterhalten (B1),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/h3x",
+              "notation": [
+                "1.3.4"
+              ],
+              "prefLabel": {
+                "de": "die meisten Dienstleistungsgespräche und routinemäßigen Situationen bewältigen, z. B. Umgang mit öffentlichen Einrichtungen während eines Auslandsaufenthaltes, Einkauf, Essen (B1),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/r3d",
+              "notation": [
+                "1.3.5"
+              ],
+              "prefLabel": {
+                "de": "in einem Interview konkrete Auskünfte geben, z. B. in Bewerbungsgesprächen (B1+),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/v7p",
+              "notation": [
+                "1.3.6"
+              ],
+              "prefLabel": {
+                "de": "eine kurze Geschichte, einen Artikel, einen Vortrag, ein Interview oder eine Dokumentarsendung zu vertrauten Themen einem Gesprächspartner vorstellen und Informationsfragen dazu beantworten (B1+),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/a5g",
+              "notation": [
+                "1.3.7"
+              ],
+              "prefLabel": {
+                "de": "in Gesprächen und Diskussionen kurz zu den Standpunkten anderer Stellung nehmen und höflich Überzeugungen und Meinungen, Zustimmung und Ablehnung ausdrücken (B1/ B1+)."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v57/f1/c9f",
+          "notation": [
+            "1.4"
+          ],
+          "prefLabel": {
+            "de": "Sprechen - Zusammenhängendes Sprechen"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können Erfahrungen und Sachverhalte zusammenhängend darstellen, z. B. beschreiben, berichten, erzählen und bewerten (B1).\\\n\\\nDie Schülerinnen und Schüler können"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v57/f1/u9u",
+              "notation": [
+                "1.4.1"
+              ],
+              "prefLabel": {
+                "de": "mit einfachen Mitteln Gegenstände und Vorgänge des Alltags beschreiben, z. B. Rezepte, Wegbeschreibungen, Spielregeln, Bedienungsanleitungen (A2),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/u9s",
+              "notation": [
+                "1.4.2"
+              ],
+              "prefLabel": {
+                "de": "eine vorbereitete Präsentation zu einem vertrauten Thema vortragen, wobei die Hauptpunkte hinreichend präzise erläutert werden (B1),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/p7z",
+              "notation": [
+                "1.4.3"
+              ],
+              "prefLabel": {
+                "de": "für Ansichten, Pläne oder Handlungen kurze Begründungen oder Erklärungen geben (B1)."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v57/f1/u4h",
+          "notation": [
+            "1.5"
+          ],
+          "prefLabel": {
+            "de": "Schreiben"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können zusammenhängende Texte zu vertrauten Themen aus ihrem Interessengebiet verfassen (B1).\\\n\\\nSchülerinnen und Schüler können"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v57/f1/s5g",
+              "notation": [
+                "1.5.1"
+              ],
+              "prefLabel": {
+                "de": "eine Nachricht notieren, wenn jemand nach Informationen fragt oder ein Problem erläutert (B1+),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/u5s",
+              "notation": [
+                "1.5.2"
+              ],
+              "prefLabel": {
+                "de": "in persönlichen Briefen Mitteilungen, einfache Informationen und Gedanken darlegen (B1),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/t2r",
+              "notation": [
+                "1.5.3"
+              ],
+              "prefLabel": {
+                "de": "einfache standardisierte Briefe und E-Mails adressatengerecht formulieren, z. B. Anfragen, Bewerbungen (B1),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/y7d",
+              "notation": [
+                "1.5.4"
+              ],
+              "prefLabel": {
+                "de": "unkomplizierte, detaillierte Texte zu einer Reihe verschiedener Themen aus ihren Interessengebieten verfassen, z. B. Erfahrungsberichte, Geschichten, Beschreibungen (B1),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/r4d",
+              "notation": [
+                "1.5.5"
+              ],
+              "prefLabel": {
+                "de": "kurze einfache Aufsätze zu Themen von allgemeinem Interesse schreiben (B1),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/c3h",
+              "notation": [
+                "1.5.6"
+              ],
+              "prefLabel": {
+                "de": "kurze Berichte zu vertrauten Themen schreiben, darin Informationen weitergeben, Gründe für Handlungen angeben und Stellung nehmen (B 1+)."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v57/f1/c3x",
+          "notation": [
+            "1.6"
+          ],
+          "prefLabel": {
+            "de": "Sprachmittlung"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können mündlich in Routinesituationen und schriftlich zu vertrauten Themen zusammenhängende sprachliche Äußerungen und Texte sinngemäß von der einen in die andere Sprache übertragen.\\\n\\\nDie Schülerinnen und Schüler können"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v57/f1/q9z",
+              "notation": [
+                "1.6.1"
+              ],
+              "prefLabel": {
+                "de": "in Alltagssituationen sprachmittelnd agieren,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/t9z",
+              "notation": [
+                "1.6.2"
+              ],
+              "prefLabel": {
+                "de": "persönliche und einfache Sach- und Gebrauchstexte sinngemäß übertragen."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v57/f1/v9h",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Verfügung über die sprachlichen Mittel"
+      },
+      "definition": {
+        "de": "Die sprachlichen Mittel Wortschatz, Grammatik, Aussprache, Intonation und Orthographie sind funktionale Bestandteile der Kommunikation. Anzustreben ist ihre höchstmögliche Verfügbarkeit, allerdings haben sie grundsätzlich dienende Funktion. Im Vordergrund steht die gelungene Kommunikation. Für die folgenden Bereiche werden keine detaillierten Listen angeführt. Die Entscheidung darüber bleibt den einzelnen Ländern vorbehalten. In diesem Zusammenhang sei auch auf die Ausführungen im Kapitel 5.2.1 – Linguistische Kompetenzen – des Gemeinsamen europäischen Referenzrahmens verwiesen (http://www.goethe.de/z/50/commeuro/deindex.htm). Bis zum Mittleren Schulabschluss erreichen die Schülerinnen und Schüler im Wesentlichen das Niveau B1 des Gemeinsamen europäischen Referenzrahmens."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v57/f1/r5r",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "Wortschatz"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler verfügen über einen hinreichend großen Wortschatz, um sich mit Hilfe von einigen Umschreibungen über die häufigsten Alltagsthemen der eigenen und der fremdsprachlichen Gesellschaft und Kultur (vgl. Kapitel 3.3) äußern zu können. Darüber hinaus sind sie in der Lage, zusätzliche lexikalische Einheiten hörend oder lesend zu verstehen (rezeptiver Wortschatz) oder selbstständig aus Texten zu erschließen (potentieller Wortschatz). Die Schülerinnen und Schüler machen aber noch elementare Fehler, wenn es darum geht, komplexere Sachverhalte auszudrücken und wenig vertraute Themen und Situationen zu bewältigen."
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v57/f1/z4h",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "Grammatik"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler verfügen im Allgemeinen über verwendungshäufige grammatische Strukturen, können diese intentions- und situationsangemessen anwenden und haben ein elementares Strukturbewusstsein entwickelt. Sie machen zwar noch Fehler, aber es bleibt klar, was sie zum Ausdruck bringen möchten. Darüber hinaus können sie ein Repertoire von häufig verwendeten Redefloskeln und von Wendungen ausreichend korrekt verwenden. Die Reichweite der rezeptiv verfügbaren Strukturen ist größer als die der produktiv verfügbaren Strukturen.\\\n\\\nSie können unter anderem"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v57/f1/p6z",
+              "notation": [
+                "2.2.1"
+              ],
+              "prefLabel": {
+                "de": "Aussagen, Fragen und Aufforderungen in bejahter und verneinter Form verstehen und formulieren,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/z2c",
+              "notation": [
+                "2.2.2"
+              ],
+              "prefLabel": {
+                "de": "Handlungen, Ereignisse und Sachverhalte als gegenwärtig, vergangen, zukünftig oder zeitlos, mehrere Geschehnisse als gleichzeitig oder aufeinanderfolgend bzw. unter Berücksichtigung von Vor- und Nachzeitigkeit erkennen und wiedergeben,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/g6r",
+              "notation": [
+                "2.2.3"
+              ],
+              "prefLabel": {
+                "de": "räumliche, zeitliche und logische Beziehungen erkennen und herstellen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/d6t",
+              "notation": [
+                "2.2.4"
+              ],
+              "prefLabel": {
+                "de": "Handlungsperspektiven (aktive und passive Satzkonstruktionen) verstehen und selbst formulieren,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/t5c",
+              "notation": [
+                "2.2.5"
+              ],
+              "prefLabel": {
+                "de": "Anzahl, Art und Zugehörigkeit von Gegenständen, Lebewesen und Sachverhalten erkennen und beschreiben,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/p6c",
+              "notation": [
+                "2.2.6"
+              ],
+              "prefLabel": {
+                "de": "Informationen wörtlich und vermittelt wiedergeben (direkte/indirekte Rede),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/c2h",
+              "notation": [
+                "2.2.7"
+              ],
+              "prefLabel": {
+                "de": "Bedingungen und Bezüge formulieren."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v57/f1/t6x",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "Aussprache und Intonation"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v57/f1/x5r",
+              "notation": [
+                "2.3.1"
+              ],
+              "prefLabel": {
+                "de": "können verschiedenartige Aussprachevarianten der Zielsprache verstehen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/v2q",
+              "notation": [
+                "2.3.2"
+              ],
+              "prefLabel": {
+                "de": "beherrschen die Aussprache in der Weise, dass diese i.d.R. weder auf der Wort- noch auf der Satzebene zu Missverständnissen führt,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/e4z",
+              "notation": [
+                "2.3.3"
+              ],
+              "prefLabel": {
+                "de": "können die Zeichen der Lautschrift sprachlich umsetzen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v57/f1/n",
+          "notation": [
+            "2.4"
+          ],
+          "prefLabel": {
+            "de": "Orthographie"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können unter Anwendung der Rechtschreib- und Zeichensetzungsregeln der Zielsprache ausreichend korrekt und verständlich schreiben."
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v57/f1/v2f",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Interkulturelle Kompetenzen"
+      },
+      "definition": {
+        "de": "Interkulturelle Kompetenzen sind mehr als Wissen und mehr als eine Technik. Sie sind auch und vor allem Haltungen, die ihren Ausdruck gleichermaßen im Denken, Fühlen und Handeln und ihre Verankerung in entsprechenden Lebenserfahrungen und ethischen Prinzipien haben.\\\n\\\nInterkulturelle Kompetenzen beinhalten Einsicht in die Kulturabhängigkeit des eigenen Denkens, Handelns und Verhaltens sowie die Fähigkeit und Bereitschaft zur Wahrnehmung und Analyse fremdkultureller Perspektiven.\\\n\\\nZum Zeitpunkt des Erwerbs des Mittleren Schulabschlusses heißt das:\\\n\\\nDie Schülerinnen und Schüler"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v57/f1/t3e",
+          "notation": [
+            "3.1"
+          ],
+          "prefLabel": {
+            "de": "Kompetenzen"
+          },
+          "definition": {
+            "de": "Interkulturelle Kompetenzen sind mehr als Wissen und mehr als eine Technik. Sie sind auch und vor allem Haltungen, die ihren Ausdruck gleichermaßen im Denken, Fühlen und Handeln und ihre Verankerung in entsprechenden Lebenserfahrungen und ethischen Prinzipien haben. Interkulturelle Kompetenzen beinhalten Einsicht in die Kulturabhängigkeit des eigenen Denkens, Handelns und Verhaltens sowie die Fähigkeit und Bereitschaft zur Wahrnehmung und Analyse fremdkultureller Perspektiven. \\\n\\\nZum Zeitpunkt des Erwerbs des Mittleren Schulabschlusses heißt das: \\\n\\\nDie Schülerinnen und Schüler"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v57/f1/s3u",
+              "notation": [
+                "3.1.1"
+              ],
+              "prefLabel": {
+                "de": "kennen elementare spezifische Kommunikations- und Interaktionsregeln ausgewählter französischsprachiger Länder und verfügen über ein entsprechendes Sprachregister, das sie in vertrauten Situationen anwenden können,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/g6q",
+              "notation": [
+                "3.1.2"
+              ],
+              "prefLabel": {
+                "de": "sind neugierig auf Fremdes, aufgeschlossen für andere Kulturen und akzeptieren kulturelle Vielfalt,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/q9g",
+              "notation": [
+                "3.1.3"
+              ],
+              "prefLabel": {
+                "de": "sind bereit, sich auf fremde Situationen einzustellen und sich in Situationen des Alltagslebens angemessen zu verhalten,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/u5r",
+              "notation": [
+                "3.1.4"
+              ],
+              "prefLabel": {
+                "de": "sind in der Lage, ungewohnte Erfahrungen auszuhalten, mit ihnen sinnvoll und angemessen umzugehen und das Fremde nicht als etwas wahrzunehmen, das Angst macht,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/s2z",
+              "notation": [
+                "3.1.5"
+              ],
+              "prefLabel": {
+                "de": "können sich in Bezug auf die Befindlichkeiten und Denkweisen in den fremdkulturellen Partner hineinversetzen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/b9r",
+              "notation": [
+                "3.1.6"
+              ],
+              "prefLabel": {
+                "de": "kennen gängige Sicht- und Wahrnehmungsweisen, Vorurteile und Stereotype des eigenen und des fremdkulturellen Landes und setzen sich mit ihnen auseinander,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/t6y",
+              "notation": [
+                "3.1.7"
+              ],
+              "prefLabel": {
+                "de": "können kulturelle Differenzen, Missverständnisse und Konfliktsituationen bewusst wahrnehmen, sich darüber verständigen und gegebenenfalls gemeinsam handeln."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v57/f1/g5b",
+          "notation": [
+            "3.2"
+          ],
+          "prefLabel": {
+            "de": "Bezüge der Kompetenzen"
+          },
+          "definition": {
+            "de": "Die Kenntnisse und Fertigkeiten beziehen sich insbesondere auf Charakteristika der eigenen und der fremdsprachlichen Gesellschaft und Kultur aus folgenden Bereichen:"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v57/f1/b3e",
+              "notation": [
+                "3.2.1"
+              ],
+              "prefLabel": {
+                "de": "das tägliche Leben (Alltag, Schule und Freizeit, Essen und Trinken, Arbeitszeiten und -gewohnheiten, Feiertage u.a.),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/s7d",
+              "notation": [
+                "3.2.2"
+              ],
+              "prefLabel": {
+                "de": "Lebensbedingungen (Lebensstandard, geografische, soziokulturelle Merkmale, u.a.),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/p4z",
+              "notation": [
+                "3.2.3"
+              ],
+              "prefLabel": {
+                "de": "zwischenmenschliche Beziehungen (Geschlechterbeziehungen, Familienstrukturen, Generationsbeziehungen, u.a.),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/c4y",
+              "notation": [
+                "3.2.4"
+              ],
+              "prefLabel": {
+                "de": "Werte, Normen, Überzeugungen, Einstellungen (in Bezug auf regionale Kulturen, Traditionen, Geschichte, Minderheiten, Kunst, u.a.)."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v57/f1/e2b",
+      "notation": [
+        "4"
+      ],
+      "prefLabel": {
+        "de": "Methodenkompetenzen"
+      },
+      "definition": {
+        "de": "Die Schülerinnen und Schüler verfügen ihrem Alter und Bildungsgang entsprechend über fachliche und fachübergreifende Arbeitstechniken und Methoden."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v57/f1/a7a",
+          "notation": [
+            "4.1"
+          ],
+          "prefLabel": {
+            "de": "Textrezeption (Leseverstehen und Hörverstehen)"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v57/f1/s4t",
+              "notation": [
+                "4.1.1"
+              ],
+              "prefLabel": {
+                "de": "verschiedene Hör- und Lesetechniken auf unterschiedliche Textarten (z. B. Sachtexte, Artikel, literarische Kleinformen) anwenden,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/d3a",
+              "notation": [
+                "4.1.2"
+              ],
+              "prefLabel": {
+                "de": "sich schnell einen groben Überblick über den Inhalt eines Textes verschaffen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/h7h",
+              "notation": [
+                "4.1.3"
+              ],
+              "prefLabel": {
+                "de": "wichtige Details durch Unterstreichen markieren,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/z9c",
+              "notation": [
+                "4.1.4"
+              ],
+              "prefLabel": {
+                "de": "wichtige Textstellen durch farbliches Hervorheben, durch das Notieren von Stichworten und durch ordnende ergänzende Randnotizen besonders kenntlich machen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v57/f1/s4z",
+          "notation": [
+            "4.2"
+          ],
+          "prefLabel": {
+            "de": "Interaktion"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v57/f1/g7v",
+              "notation": [
+                "4.2.1"
+              ],
+              "prefLabel": {
+                "de": "sich in der Klasse, mit Partnern und in Gruppen in der Fremdsprache verständigen und Kommunikationsprozesse aufrecht erhalten,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/p7c",
+              "notation": [
+                "4.2.2"
+              ],
+              "prefLabel": {
+                "de": "sich in realen Alltagssituationen mit unterschiedlichen, französischsprachigen Personen verständigen und Verständigungsprobleme durch Rückfragen, durch Vereinfachungen, durch Höflichkeitsformeln und nonverbale Mittel überwinden,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/b2c",
+              "notation": [
+                "4.2.3"
+              ],
+              "prefLabel": {
+                "de": "Techniken des Vermittelns zwischen zwei Sprachen einsetzen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v57/f1/p4y",
+          "notation": [
+            "4.3"
+          ],
+          "prefLabel": {
+            "de": "Textproduktion (Sprechen und Schreiben)"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v57/f1/d2f",
+              "notation": [
+                "4.3.1"
+              ],
+              "prefLabel": {
+                "de": "sich Informationen aus unterschiedlichen fremdsprachlichen Textquellen beschaffen, die se vergleichen, auswählen und bearbeiten,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/e3r",
+              "notation": [
+                "4.3.2"
+              ],
+              "prefLabel": {
+                "de": "Techniken des Notierens zur Vorbereitung eigener Texte oder Präsentationen nutzen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/p9u",
+              "notation": [
+                "4.3.3"
+              ],
+              "prefLabel": {
+                "de": "mit Hilfe von Stichworten, Gliederungen, Handlungsgeländern Texte mündlich vortragen oder schriftlich verfassen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/d3u",
+              "notation": [
+                "4.3.4"
+              ],
+              "prefLabel": {
+                "de": "die Phasen des Schreibprozesses (Entwerfen, Schreiben, Überarbeiten) selbstständig durchführen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v57/f1/q3x",
+          "notation": [
+            "4.4"
+          ],
+          "prefLabel": {
+            "de": "Lernstrategien"
+          },
+          "definition": {
+            "de": "Lernstrategien beziehen sich auf sprachliche Mittel, auf Aussprache, Intonation, Orthographie sowie auf Grammatik.\\\n\\\nDie Schülerinnen und Schüler können"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v57/f1/r6e",
+              "notation": [
+                "4.4.1"
+              ],
+              "prefLabel": {
+                "de": "Hilfsmittel zum Nachschlagen und Lernen, z. B. Wörterbücher, Grammatikbücher usw. selbstständig nutzen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/h5a",
+              "notation": [
+                "4.4.2"
+              ],
+              "prefLabel": {
+                "de": "Verfahren zur Vernetzung, Strukturierung, Memorierung und Speicherung von sprachlichen Inputs, z. B. von Wortschatz, anwenden."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v57/f1/c3f",
+          "notation": [
+            "4.5"
+          ],
+          "prefLabel": {
+            "de": "Präsentation und Medien"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v57/f1/x5c",
+              "notation": [
+                "4.5.1"
+              ],
+              "prefLabel": {
+                "de": "Präsentationstechniken einsetzen (Medienwahl, Gliederungstechniken, Visualisierungstechniken, Gruppenpräsentation),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/h6a",
+              "notation": [
+                "4.5.2"
+              ],
+              "prefLabel": {
+                "de": "mit Lernprogrammen (auch Multimedia) arbeiten,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/e4b",
+              "notation": [
+                "4.5.3"
+              ],
+              "prefLabel": {
+                "de": "Neue Technologien zur Informationsbeschaffung, zur kommunikativen Interaktion (E-Mail) und zur Präsentation der Ergebnisse nutzen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v57/f1/s4g",
+          "notation": [
+            "4.6"
+          ],
+          "prefLabel": {
+            "de": "Lernbewusstheit und Lernorganisation"
+          },
+          "definition": {
+            "de": "Die Schülerinnen und Schüler können"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v57/f1/q6p",
+              "notation": [
+                "4.6.1"
+              ],
+              "prefLabel": {
+                "de": "den Nutzen der Fremdsprache zur Pflege von persönlichen und beruflichen Kontakten einschätzen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/c4z",
+              "notation": [
+                "4.6.2"
+              ],
+              "prefLabel": {
+                "de": "selbstständig, mit einem Partner oder in Gruppen längere Zeit arbeiten,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/p6d",
+              "notation": [
+                "4.6.3"
+              ],
+              "prefLabel": {
+                "de": "ausgewählte Projekte (z. B. bilinguale Projekte) bearbeiten"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/g2g",
+              "notation": [
+                "4.6.4"
+              ],
+              "prefLabel": {
+                "de": "für sie förderliche Lernbedingungen erkennen und nutzen, ihre Lernarbeit organisieren und die Zeit einteilen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/x2u",
+              "notation": [
+                "4.6.5"
+              ],
+              "prefLabel": {
+                "de": "Fehler erkennen und diese Erkenntnisse für den eigenen Lernprozess nutzen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/z4t",
+              "notation": [
+                "4.6.6"
+              ],
+              "prefLabel": {
+                "de": "ihren eigenen Lernfortschritt beschreiben und ggf. in einem Portfolio dokumentieren,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v57/f1/p6a",
+              "notation": [
+                "4.6.7"
+              ],
+              "prefLabel": {
+                "de": "Methoden des Spracherwerbs reflektieren und diese auf das Lernen weiterer Sprachen übertragen."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

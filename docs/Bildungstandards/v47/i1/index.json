@@ -1,0 +1,450 @@
+{
+  "id": "https://w3id.org/iqb/v47/i1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Physik MSA 2024 - Verbindliche inhaltliche Aspekte"
+  },
+  "description": {
+    "de": "Im Folgenden werden verbindliche Inhalte definiert, an denen die in Kapitel Kompetenzbereiche des Faches Physik beschriebenen Kompetenzen aller vier Kompetenzbereiche erlernt und überprüft werden. Für die Strukturierung wurden fünf Bereiche gewählt, die jedoch Überschneidungen aufweisen und daher nicht getrennt voneinander zu betrachten sind. Die inhaltlichen Aspekte sind so gewählt, dass landesspezifische Ergänzungen und Präzisierungen vorgenommen werden können. Dabei sind regionale und zeitgemäße Kontexte zu berücksichtigen.\n\nDie in den Klammern angegebenen Konkretisierungen sind Teil der verbindlichen Inhalte. Wenn im Folgenden Formeln angewandt, Rechnungen durchgeführt oder aus Diagrammen Gesetzmäßigkeiten abgeleitet werden sollen, wird dies durch die Angabe „quantitativ“ angezeigt."
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v47/i1/f9r",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Energie"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v47/i1/y9b",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "physikalische Größen: Energie, Leistung, Wirkungsgrad"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v47/i1/y3u",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "Energieformen: Bewegungsenergie, Lageenergie, elektrische Energie, thermische Energie, Strahlungsenergie"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v47/i1/t4s",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "Energieumwandlung und Energieübertragung"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v47/i1/u3p",
+          "notation": [
+            "1.4"
+          ],
+          "prefLabel": {
+            "de": "Energieerhaltung und Energieentwertung, auch quantitative Bilanzierung"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v47/i1/v7t",
+          "notation": [
+            "1.5"
+          ],
+          "prefLabel": {
+            "de": "Zusammenhang zwischen Energie und Leistung, auch quantitative Betrachtungen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v47/i1/g5s",
+          "notation": [
+            "1.6"
+          ],
+          "prefLabel": {
+            "de": "nachhaltige Energieversorgung, insbesondere Energiespeicherung"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v47/i1/a7e",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Elektrizitätslehre"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v47/i1/r2y",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "physikalische Größen: elektrische Energie, elektrische Ladung, elektrische Leistung, elektrische Spannung, elektrische Stromstärke, elektrischer Widerstand"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v47/i1/r5u",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "Wirkungen und Gefahren des elektrischen Stroms"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v47/i1/z2r",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "Zusammenhang zwischen elektrischer Spannung und elektrischer Stromstärke, auch quantitative Betrachtungen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v47/i1/v3f",
+          "notation": [
+            "2.4"
+          ],
+          "prefLabel": {
+            "de": "elektromagnetische Induktion"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v47/i1/b6s",
+          "notation": [
+            "2.5"
+          ],
+          "prefLabel": {
+            "de": "Versorgung mit elektrischer Energie"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v47/i1/h2z",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Mechanik"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v47/i1/r9s",
+          "notation": [
+            "3.1"
+          ],
+          "prefLabel": {
+            "de": "physikalische Größen: Geschwindigkeit, Kraft, Masse, Ort, Strecke, Zeit"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v47/i1/f4h",
+          "notation": [
+            "3.2"
+          ],
+          "prefLabel": {
+            "de": "Geschwindigkeit (quantitativ) und Geschwindigkeitsänderungen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v47/i1/u3z",
+          "notation": [
+            "3.3"
+          ],
+          "prefLabel": {
+            "de": "Darstellung von Bewegungsabläufen, insbesondere in Diagrammen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v47/i1/z2e",
+          "notation": [
+            "3.4"
+          ],
+          "prefLabel": {
+            "de": "Kräfte und ihre Wirkungen, insbesondere Geschwindigkeitsänderung (Betrag und Richtung)"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v47/i1/h3r",
+          "notation": [
+            "3.5"
+          ],
+          "prefLabel": {
+            "de": "Trägheitsprinzip"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v47/i1/b7x",
+          "notation": [
+            "3.6"
+          ],
+          "prefLabel": {
+            "de": "Masse und Gewichtskraft, auch quantitativ"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v47/i1/h2b",
+      "notation": [
+        "4"
+      ],
+      "prefLabel": {
+        "de": "Elektromagnetische Strahlung"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v47/i1/b4f",
+          "notation": [
+            "4.1"
+          ],
+          "prefLabel": {
+            "de": "physikalische Größe: Temperatur, Wellenlänge"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v47/i1/u2h",
+          "notation": [
+            "4.2"
+          ],
+          "prefLabel": {
+            "de": "Licht und Wärmestrahlung: Grenzen der Wahrnehmung durch Lebewesen und Erfassung durch Sensoren"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v47/i1/r7q",
+          "notation": [
+            "4.3"
+          ],
+          "prefLabel": {
+            "de": "geradlinige Ausbreitung von Licht (Mondphasen, Finsternisse)"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v47/i1/r3b",
+          "notation": [
+            "4.4"
+          ],
+          "prefLabel": {
+            "de": "elektromagnetisches Spektrum (Mobilfunkstrahlung, Wärmestrahlung, optische Strahlung, Röntgenstrahlung)"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v47/i1/e9g",
+          "notation": [
+            "4.5"
+          ],
+          "prefLabel": {
+            "de": "Wechselwirkung von Strahlung und Materie (Reflexion, Streuung, Brechung, Absorption, Emission, Transmission)"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v47/i1/g4t",
+          "notation": [
+            "4.6"
+          ],
+          "prefLabel": {
+            "de": "Klimaphysik, insbesondere Strahlungshaushalt der Erde (Rückstrahlvermögen, mögliche Kippelemente, natürlicher und anthropogener Treibhauseffekt)"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v47/i1/d5d",
+      "notation": [
+        "5"
+      ],
+      "prefLabel": {
+        "de": "Ionisierende Strahlung"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v47/i1/d6a",
+          "notation": [
+            "5.1"
+          ],
+          "prefLabel": {
+            "de": "physikalische Größen: Aktivität, Halbwertszeit, Zählrate"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v47/i1/q5p",
+          "notation": [
+            "5.2"
+          ],
+          "prefLabel": {
+            "de": "Absorption, biologische Wirkung und medizinische Nutzung ionisierender Strahlung"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v47/i1/s9v",
+          "notation": [
+            "5.3"
+          ],
+          "prefLabel": {
+            "de": "Kernumwandlungen (Spontanzerfall, Kernspaltung, Kernfusion) und Lagerung radioaktiver Abfälle"
+          }
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

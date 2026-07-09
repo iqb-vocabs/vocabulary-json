@@ -1,0 +1,308 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v87/ca/>. 
+@prefix n1: <https://w3id.org/iqb/v87/ca/>. 
+
+n1:c5
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:c3;
+	skos:prefLabel "Mathematische Kompetenz"@de.
+n1:c28
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1";
+	skos:broader n1:c6;
+	skos:prefLabel "Kompetenzen im Fach Biologie"@de.
+n1:c37
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.2";
+	skos:broader n1:c6;
+	skos:prefLabel "Kompetenzen im Fach Chemie"@de.
+n1:c46
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.3";
+	skos:broader n1:c6;
+	skos:prefLabel "Kompetenzen im Fach Physik"@de.
+n1:c6
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:c3;
+	skos:prefLabel "Naturwissenschaftliche Kompetenz"@de;
+	skos:narrower 
+		n1:c28,
+		n1:c37,
+		n1:c46.
+n1:c60
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.1.1";
+	skos:broader n1:c58;
+	skos:prefLabel "Lesen"@de.
+n1:c61
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.1.2";
+	skos:broader n1:c58;
+	skos:prefLabel "Hörverstehen"@de.
+n1:c64
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.1.3";
+	skos:broader n1:c58;
+	skos:prefLabel "Phonologische Bewusstheit"@de.
+n1:c66
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.1.4";
+	skos:broader n1:c58;
+	skos:prefLabel "Wortschatz, passiv (Lexik)"@de.
+n1:c58
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.1";
+	skos:broader n1:c57;
+	skos:prefLabel "Rezeptiv"@de;
+	skos:narrower 
+		n1:c60,
+		n1:c61,
+		n1:c64,
+		n1:c66.
+n1:c62
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.2.1";
+	skos:broader n1:c59;
+	skos:prefLabel "Sprechen"@de.
+n1:c63
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.2.2";
+	skos:broader n1:c59;
+	skos:prefLabel "Schreiben"@de.
+n1:c65
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.2.3";
+	skos:broader n1:c59;
+	skos:prefLabel "Orthographie (Rechtschreibung)"@de.
+n1:c67
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.2.4";
+	skos:broader n1:c59;
+	skos:prefLabel "Wortschatz, aktiv (Lexik)"@de.
+n1:c59
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.2";
+	skos:broader n1:c57;
+	skos:prefLabel "Produktiv"@de;
+	skos:narrower 
+		n1:c62,
+		n1:c63,
+		n1:c65,
+		n1:c67.
+n1:c57
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1";
+	skos:broader n1:c7;
+	skos:prefLabel "Deutsch"@de;
+	skos:narrower 
+		n1:c58,
+		n1:c59.
+n1:c75
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.1.1";
+	skos:broader n1:c72;
+	skos:prefLabel "Hör-/ Hörsehverstehen"@de.
+n1:c76
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.1.2";
+	skos:broader n1:c72;
+	skos:prefLabel "Leseverstehen"@de.
+n1:c77
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.1.3";
+	skos:broader n1:c72;
+	skos:prefLabel "Schreiben"@de.
+n1:c78
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.1.4";
+	skos:broader n1:c72;
+	skos:prefLabel "Sprechen"@de.
+n1:c72
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.1";
+	skos:broader n1:c71;
+	skos:prefLabel "Sprachkompetenzen Englisch"@de;
+	skos:narrower 
+		n1:c75,
+		n1:c76,
+		n1:c77,
+		n1:c78.
+n1:c88
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.2.1";
+	skos:broader n1:c83;
+	skos:prefLabel "Hör-/ Hörsehverstehen"@de.
+n1:c89
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.2.2";
+	skos:broader n1:c83;
+	skos:prefLabel "Leseverstehen"@de.
+n1:c90
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.2.3";
+	skos:broader n1:c83;
+	skos:prefLabel "Schreiben"@de.
+n1:c91
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.2.4";
+	skos:broader n1:c83;
+	skos:prefLabel "Sprechen"@de.
+n1:c83
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.2";
+	skos:broader n1:c71;
+	skos:prefLabel "Sprachkompetenzen Französisch"@de;
+	skos:narrower 
+		n1:c88,
+		n1:c89,
+		n1:c90,
+		n1:c91.
+n1:c94
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.3";
+	skos:broader n1:c71;
+	skos:prefLabel "Sonstige Fremdsprachenkompetenz"@de.
+n1:c71
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2";
+	skos:broader n1:c7;
+	skos:prefLabel "Fremdsprachenkompetenzen"@de;
+	skos:narrower 
+		n1:c72,
+		n1:c83,
+		n1:c94.
+n1:c7
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:c3;
+	skos:prefLabel "Sprachliche Kompetenz"@de;
+	skos:narrower 
+		n1:c57,
+		n1:c71.
+n1:c10
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4";
+	skos:broader n1:c3;
+	skos:prefLabel "Kompetenzen in weiteren Schulfächern"@de; 
+	skos:definition "z. B.: Geschichte/Geschichtswissenschaften, Geografie, Sozialkunde, Politik/Politische Weltkunde"@de.
+n1:c114
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5";
+	skos:broader n1:c3;
+	skos:prefLabel "Musikalische Kompetenzen"@de; 
+	skos:definition "Melodie, Rhythmus, Musik, Gesang, Metrum"@de.
+n1:c120
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6";
+	skos:broader n1:c3;
+	skos:prefLabel "Computer- und informationsbezogene Kompetenzen"@de; 
+	skos:definition "Computer Literacy, Information and Communication Technology (ICT)"@de.
+n1:c3
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Domänespezifische kognitive Kompetenzen"@de;
+	skos:narrower 
+		n1:c5,
+		n1:c6,
+		n1:c7,
+		n1:c10,
+		n1:c114,
+		n1:c120.
+n1:c4
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Domänenübergreifende kognitive Fähigkeiten"@de; 
+	skos:definition "z. B.: Intelligenz, Gedächtnis, Kreativität, Reasoning, Aufmerksamkeit und Konzentrationsfähigkeit, Wahrnehmungs- und Informationsverarbeitungsgeschwindigkeit"@de.
+n1:c12
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Metakognitive und selbstregulative Fähigkeiten"@de.
+n1:c13
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstiges"@de.
+n1:c112
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1.1";
+	skos:broader n1:c100;
+	skos:prefLabel "diagnostische Kompetenz (Lehrkräfte)"@de.
+n1:c100
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1";
+	skos:broader n1:c99;
+	skos:prefLabel "Fachkompetenz (Lehrkräfte)"@de;
+	skos:narrower 
+		n1:c112.
+n1:c101
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.2";
+	skos:broader n1:c99;
+	skos:prefLabel "Sozialkompetenz"@de.
+n1:c99
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Handlungskompetenz"@de;
+	skos:narrower 
+		n1:c100,
+		n1:c101.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Forschungsdatenzentrum Konstrukte - Tests (Leistungstests)"@de;
+	dc:title "Forschungsdatenzentrum Konstrukte - Tests (Leistungstests)"@de;
+	dc:description "Forschungsdatenzentrum Konstrukte - Tests (Leistungstests)"@de;
+	skos:hasTopConcept
+		n1:c3,
+		n1:c4,
+		n1:c12,
+		n1:c13,
+		n1:c99.

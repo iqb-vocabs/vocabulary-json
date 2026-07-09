@@ -1,0 +1,596 @@
+{
+  "id": "https://w3id.org/iqb/v30/n1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Deutsch HSA 2004 - Anforderungsbereiche"
+  },
+  "description": {
+    "de": "Die folgenden drei Anforderungsbereiche lassen sich unterscheiden und beschreiben:"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v30/n1/s7e",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Anforderungsbereich I"
+      },
+      "definition": {
+        "de": "Verfügbarkeit der für die Bearbeitung der Aufgaben notwendigen inhaltlichen und methodischen Kenntnisse\\\n\\\nDie Leistungen umfassen im Anforderungsbereich I:"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v30/n1/c4u",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "die sich aus der Aufgabe, dem Material oder der Problemstellung ergebenden Arbeitsaufträge identifizieren"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/p2f",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "das der Aufgabenstellung oder dem Material zugrundeliegende Thema erfassen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/y4g",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "den Text- bzw. Materialinhalt geordnet wiedergeben"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/d3r",
+          "notation": [
+            "1.4"
+          ],
+          "prefLabel": {
+            "de": "die eigenen Kenntnisse mit dem Thema, dem Hauptgedanken, der Problemstellung verbinden"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/h5u",
+          "notation": [
+            "1.5"
+          ],
+          "prefLabel": {
+            "de": "über die dem Thema, dem Bereich entsprechenden Fachbegriffe verfügen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/x3u",
+          "notation": [
+            "1.6"
+          ],
+          "prefLabel": {
+            "de": "die der Aufgabe entsprechende(n) Schreibform(en) benutzen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/c6g",
+          "notation": [
+            "1.7"
+          ],
+          "prefLabel": {
+            "de": "die der Aufgabenstellung entsprechenden geübten Methoden und Arbeitstechniken anwenden"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/z9t",
+          "notation": [
+            "1.8"
+          ],
+          "prefLabel": {
+            "de": "sprachnorm- und anforderungsgerecht formulieren"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/z9u",
+          "notation": [
+            "1.9"
+          ],
+          "prefLabel": {
+            "de": "zusätzliche Anforderungen an die mündliche Darstellung"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v30/n1/h7q",
+              "notation": [
+                "1.9.1"
+              ],
+              "prefLabel": {
+                "de": "in der Standardsprache sprechen, vortragen"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v30/n1/q6p",
+              "notation": [
+                "1.9.2"
+              ],
+              "prefLabel": {
+                "de": "beim Sprechen, Vortrag auch Betonung, Lautstärke, Tempo/Pausen, Stimmhebung und -senkung und Medien nutzen"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v30/n1/f6c",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Anforderungsbereich II"
+      },
+      "definition": {
+        "de": "Selbständiges Erfassen, Einordnen, Strukturieren und Verarbeiten der aus der Thematik, dem Material und der Aufgabenstellung erwachsenden Fragen/Probleme und deren entsprechende gedankliche und sprachliche Bearbeitung.\\\n\\\nDie Leistungen umfassen im Anforderungsbereich II:"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v30/n1/f2x",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "einen längeren oder einen komplexen Text bzw. Materialinhalt in eigenständiger Formulierung wiedergeben oder zusammenfassen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/r5x",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "die Hauptgedanken eines Textes und seine Argumentation differenziert erfassen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/g5g",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "Bezüge in Texten bzw. Materialien erkennen, um Aussagen zu erfassen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/h7u",
+          "notation": [
+            "2.4"
+          ],
+          "prefLabel": {
+            "de": "poetische/stilistische/rhetorische Mittel in einem Text erkennen, beschreiben und untersuchen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/p2t",
+          "notation": [
+            "2.5"
+          ],
+          "prefLabel": {
+            "de": "inhaltliche und methodische Kenntnisse auf unbekannte Sachverhalte sinnvoll beziehen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/c7v",
+          "notation": [
+            "2.6"
+          ],
+          "prefLabel": {
+            "de": "die eigenen Ausführungen gedanklich strukturiert sowie inhaltlich klar und differenziert darstellen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/q5d",
+          "notation": [
+            "2.7"
+          ],
+          "prefLabel": {
+            "de": "die eigenen Ausführungen sprachlich angemessen und in Wortwahl und Satzbau differenziert darstellen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/a4b",
+          "notation": [
+            "2.8"
+          ],
+          "prefLabel": {
+            "de": "zusätzliche Anforderungen an die mündliche Darstellung"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v30/n1/a9e",
+              "notation": [
+                "2.8.1"
+              ],
+              "prefLabel": {
+                "de": "einzelne Themen jeweils in geeigneten und unterschiedlichen Formen medial aufbereiten"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v30/n1/v4u",
+              "notation": [
+                "2.8.2"
+              ],
+              "prefLabel": {
+                "de": "den Vortrag weitgehend frei (vom Stichwortzettel gelöst) gestalten"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v30/n1/p4f",
+              "notation": [
+                "2.8.3"
+              ],
+              "prefLabel": {
+                "de": "auf eine differenzierte Wortwahl, insbesondere im Hinblick auf Fremdwörter und Fachbegriffe achten"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v30/n1/h4s",
+              "notation": [
+                "2.8.4"
+              ],
+              "prefLabel": {
+                "de": "nonverbale Gestaltungsmittel sachangemessen einsetzen und den Zuhörer damit verstärkt einbeziehen (Körperhaltung, Gestik, Mimik, Blickkontakt)"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v30/n1/b2y",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Anforderungsbereich III"
+      },
+      "definition": {
+        "de": "Eigenständige Reflexion, Bewertung bzw. Beurteilung einer komplexen Problemstellung/Thematik oder entsprechenden Materials und ggf. die Entwicklung eigener Lösungsansätze.\\\n\\\nDie Leistungen umfassen im Anforderungsbereich III:"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v30/n1/h4e",
+          "notation": [
+            "3.1"
+          ],
+          "prefLabel": {
+            "de": "komplexe, anspruchsvolle Texte, Problemstellungen, Materialien erfassen und bearbeiten"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/t6f",
+          "notation": [
+            "3.2"
+          ],
+          "prefLabel": {
+            "de": "die Aussagen eines Textes, eine Problemstellung in weitere Zusammenhänge einordnen und entsprechend detailliert untersuchen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/a4e",
+          "notation": [
+            "3.3"
+          ],
+          "prefLabel": {
+            "de": "begründete Folgerungen aus der Text-, Material- oder Problembearbeitung ziehen und formulieren"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/q2q",
+          "notation": [
+            "3.4"
+          ],
+          "prefLabel": {
+            "de": "Deutungsansätze poetischer/stilistischer/rhetorischer Mittel in einem Text entwickeln"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/c6h",
+          "notation": [
+            "3.5"
+          ],
+          "prefLabel": {
+            "de": "spezielles Fachwissen nutzen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/h9f",
+          "notation": [
+            "3.6"
+          ],
+          "prefLabel": {
+            "de": "eigene Textproduktion originell und kreativ gestalten"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/b3y",
+          "notation": [
+            "3.7"
+          ],
+          "prefLabel": {
+            "de": "einen eigenen Standpunkt begründet darstellen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/p3d",
+          "notation": [
+            "3.8"
+          ],
+          "prefLabel": {
+            "de": "dem Thema, der Gestaltung gemäße oder auch kontrastierende Darstellungsformen entwickeln"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/h6p",
+          "notation": [
+            "3.9"
+          ],
+          "prefLabel": {
+            "de": "begründete Vermutungen formulieren"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/r4c",
+          "notation": [
+            "3.10"
+          ],
+          "prefLabel": {
+            "de": "selbstständige Schlussfolgerungen entwickeln"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/t6d",
+          "notation": [
+            "3.11"
+          ],
+          "prefLabel": {
+            "de": "kritische Bewertungen vornehmen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/s6s",
+          "notation": [
+            "3.12"
+          ],
+          "prefLabel": {
+            "de": "eigenständige Lösungsansätze entwickeln"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/u6b",
+          "notation": [
+            "3.13"
+          ],
+          "prefLabel": {
+            "de": "Alternativen aufzeigen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/s3d",
+          "notation": [
+            "3.14"
+          ],
+          "prefLabel": {
+            "de": "begründete Urteile formulieren"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/b2x",
+          "notation": [
+            "3.15"
+          ],
+          "prefLabel": {
+            "de": "das eigene Vorgehen kritisch untersuchen und beurteilen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/c4z",
+          "notation": [
+            "3.16"
+          ],
+          "prefLabel": {
+            "de": "eine eigenständige gedankliche und sprachliche Darstellung umsetzen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v30/n1/y6y",
+          "notation": [
+            "3.17"
+          ],
+          "prefLabel": {
+            "de": "zusätzliche Anforderungen an die mündliche Darstellung"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v30/n1/s9b",
+              "notation": [
+                "3.17.1"
+              ],
+              "prefLabel": {
+                "de": "auf Verständnisfragen zum Thema sachkompetent antworten"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v30/n1/d9h",
+              "notation": [
+                "3.17.2"
+              ],
+              "prefLabel": {
+                "de": "das Gruppengespräch strukturieren (nachfragen, Denkanstöße geben, zielorientiert zusammenfassen)"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v30/n1/c5f",
+              "notation": [
+                "3.17.3"
+              ],
+              "prefLabel": {
+                "de": "aufmerksam zuhören und Äußerungen anderer einschätzen, aufgreifen und ggf. anerkennen"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

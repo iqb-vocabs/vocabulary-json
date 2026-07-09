@@ -1,0 +1,1261 @@
+{
+  "id": "https://w3id.org/iqb/v42/i1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Chemie Sek II 2020 - Inhalte"
+  },
+  "description": {
+    "de": "Im Folgenden sind zentrale Inhalte aufgeführt, über die die Lernenden zum Zeitpunkt des Erwerbs der Allgemeinen Hochschulreife verfügen sollen. Dabei wird in ein grundlegendes Anforderungsniveau und ein erhöhtes Anforderungsniveau unterschieden. Diese Inhalte sind Grundlage für die Erstellung von Aufgaben im Rahmen der Prüfung für die Allgemeine Hochschulreife. Einige der zentralen Inhalte werden in manchen Ländern üblicherweise in der Sekundarstufe I oder in der Einführungsphase vermittelt."
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v42/i1/q3u",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Inhaltsbereich: Stoffe, Strukturen, Eigenschaften"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v42/i1/q4r",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "Verbindungen mit funktionellen Gruppen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/i1/b6f",
+              "notation": [
+                "1.1.1"
+              ],
+              "prefLabel": {
+                "de": "Inhalte für das grundlegende und erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/g9t",
+                  "notation": [
+                    "1.1.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Mehrfachbindungen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/b5a",
+                  "notation": [
+                    "1.1.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Hydroxy-, Carbonyl-, Carboxy-, Estergruppe"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/y3r",
+                  "notation": [
+                    "1.1.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Aminogruppe"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/i1/p6q",
+              "notation": [
+                "1.1.2"
+              ],
+              "prefLabel": {
+                "de": "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/t9r",
+                  "notation": [
+                    "1.1.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "aromatisches System"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/i1/y7f",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "Chemische Bindung"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/i1/p2f",
+              "notation": [
+                "1.2.1"
+              ],
+              "prefLabel": {
+                "de": "Inhalte für das grundlegende und erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/d7z",
+                  "notation": [
+                    "1.2.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Elektronenpaarbindung"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/c4h",
+                  "notation": [
+                    "1.2.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Ionenbindung"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/s5f",
+                  "notation": [
+                    "1.2.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Metallbindung"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/i1/f7e",
+              "notation": [
+                "1.2.2"
+              ],
+              "prefLabel": {
+                "de": "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/g3y",
+                  "notation": [
+                    "1.2.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "koordinative Bindung"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/i1/c5a",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "Strukturen ausgewählter organischer und anorganischer Stoffe"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/i1/z4g",
+              "notation": [
+                "1.3.1"
+              ],
+              "prefLabel": {
+                "de": "Inhalte für das grundlegende und erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/b7r",
+                  "notation": [
+                    "1.3.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "inter- und intramolekulare Wechselwirkungen(einschließlich Ionen-Dipol-Wechselwirkungen)"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/t7e",
+                  "notation": [
+                    "1.3.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Ionengitter"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/u6s",
+                  "notation": [
+                    "1.3.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Metallgitter"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/r9q",
+                  "notation": [
+                    "1.3.1.4"
+                  ],
+                  "prefLabel": {
+                    "de": "Molekülgeometrie (EPA-Modell)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/i1/z4h",
+              "notation": [
+                "1.3.2"
+              ],
+              "prefLabel": {
+                "de": "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/s9c",
+                  "notation": [
+                    "1.3.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Chiralität"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/g7z",
+                  "notation": [
+                    "1.3.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Nanostrukturen"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/i1/d5e",
+          "notation": [
+            "1.4"
+          ],
+          "prefLabel": {
+            "de": "Natürliche und synthetische Stoffe"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/i1/r9u",
+              "notation": [
+                "1.4.1"
+              ],
+              "prefLabel": {
+                "de": "Anhalte für das grundlegende und erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/v3r",
+                  "notation": [
+                    "1.4.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Kunststoffe"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/x6h",
+                  "notation": [
+                    "1.4.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Fette oder Proteine oder Kohlenhydrate"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/i1/f4s",
+              "notation": [
+                "1.4.2"
+              ],
+              "prefLabel": {
+                "de": "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/h3y",
+                  "notation": [
+                    "1.4.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "ein zusätzlicher Inhalt: Fette, Proteine, Kohlenhydrate oder Farbstoffe"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v42/i1/d6y",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Inhaltsbereich: Chemische Reaktionen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v42/i1/s2v",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "Protonenübergänge"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/i1/q5t",
+              "notation": [
+                "2.1.1"
+              ],
+              "prefLabel": {
+                "de": "Inhalte für das grundlegende und erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/a2v",
+                  "notation": [
+                    "2.1.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Säure-Base-Konzept nach Brönsted"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/z4f",
+                  "notation": [
+                    "2.1.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Säure-Base-Konstanten"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/d3p",
+                  "notation": [
+                    "2.1.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "pH-Wert-Berechnungen wässriger Lösungen von Säuren und Basen (bei vollständiger Protolyse)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/i1/u4b",
+              "notation": [
+                "2.1.2"
+              ],
+              "prefLabel": {
+                "de": "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/q5f",
+                  "notation": [
+                    "2.1.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "pH-Wert-Berechnungen wässriger Lösungen von Säuren und Basen (bei nicht vollständiger Protolyse)"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/q7g",
+                  "notation": [
+                    "2.1.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Puffersysteme"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/i1/a4y",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "Elektronenübergänge"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/i1/r3s",
+              "notation": [
+                "2.2.1"
+              ],
+              "prefLabel": {
+                "de": "Inhalte für das grundlegende und erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/q2q",
+                  "notation": [
+                    "2.2.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Redoxreaktionen als Elektronenübergang"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/q3a",
+                  "notation": [
+                    "2.2.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "elektrochemische Spannungsreihe"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/p2h",
+                  "notation": [
+                    "2.2.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Berechnung der Zellspannung"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/e9f",
+                  "notation": [
+                    "2.2.1.4"
+                  ],
+                  "prefLabel": {
+                    "de": "elektrochemische Spannungsquellen"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/v6r",
+                  "notation": [
+                    "2.2.1.5"
+                  ],
+                  "prefLabel": {
+                    "de": "Elektrolyse"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/r7a",
+                  "notation": [
+                    "2.2.1.6"
+                  ],
+                  "prefLabel": {
+                    "de": "Korrosion"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/i1/h7h",
+              "notation": [
+                "2.2.2"
+              ],
+              "prefLabel": {
+                "de": "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/r5v",
+                  "notation": [
+                    "2.2.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Nernst-Gleichung"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/s6v",
+                  "notation": [
+                    "2.2.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Faraday-Gesetze"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/q9y",
+                  "notation": [
+                    "2.2.2.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Überspannung"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/i1/x2s",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "Reaktionsmechanismen in der organischen Chemie"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/i1/v7v",
+              "notation": [
+                "2.3.1"
+              ],
+              "prefLabel": {
+                "de": "Inhalte für das grundlegende und erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/g6s",
+                  "notation": [
+                    "2.3.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "radikalische Substitution"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/p2x",
+                  "notation": [
+                    "2.3.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "elektrophile Addition"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/i1/z3r",
+              "notation": [
+                "2.3.2"
+              ],
+              "prefLabel": {
+                "de": "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/z5d",
+                  "notation": [
+                    "2.3.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "nucleophile und elektrophile Substitution"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/i1/v3x",
+          "notation": [
+            "2.4"
+          ],
+          "prefLabel": {
+            "de": "Energetische und kinetische Aspekte chemischer Reaktionen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/i1/h3h",
+              "notation": [
+                "2.4.1"
+              ],
+              "prefLabel": {
+                "de": "Inhalte für das grundlegende und erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/g5g",
+                  "notation": [
+                    "2.4.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Reaktionsgeschwindigkeit"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/f2x",
+                  "notation": [
+                    "2.4.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Katalyse"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/g2v",
+                  "notation": [
+                    "2.4.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "1. Hauptsatz der Thermodynamik"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/f5s",
+                  "notation": [
+                    "2.4.1.4"
+                  ],
+                  "prefLabel": {
+                    "de": "Enthalpie"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/d4g",
+                  "notation": [
+                    "2.4.1.5"
+                  ],
+                  "prefLabel": {
+                    "de": "Satz von Hess"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/i1/b9c",
+              "notation": [
+                "2.4.2"
+              ],
+              "prefLabel": {
+                "de": "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/b7e",
+                  "notation": [
+                    "2.4.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "2. Hauptsatz der Thermodynamik"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/f3c",
+                  "notation": [
+                    "2.4.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Entropie"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/d7t",
+                  "notation": [
+                    "2.4.2.3"
+                  ],
+                  "prefLabel": {
+                    "de": "freie Enthalpie"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/a7q",
+                  "notation": [
+                    "2.4.2.4"
+                  ],
+                  "prefLabel": {
+                    "de": "Gibbs-Helmholtz-Gleichung"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/i1/t9f",
+          "notation": [
+            "2.5"
+          ],
+          "prefLabel": {
+            "de": "Gleichgewichtsreaktionen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/i1/a4d",
+              "notation": [
+                "2.5.1"
+              ],
+              "prefLabel": {
+                "de": "nhalte für das grundlegende und erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/u4y",
+                  "notation": [
+                    "2.5.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "chemisches Gleichgewicht"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/a7a",
+                  "notation": [
+                    "2.5.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Prinzip von Le Chatelier"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/z2z",
+                  "notation": [
+                    "2.5.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Massenwirkungsgesetz (Kc)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/i1/x5p",
+              "notation": [
+                "2.5.2"
+              ],
+              "prefLabel": {
+                "de": "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/c5r",
+                  "notation": [
+                    "2.5.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Löslichkeitsgleichgewichte"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v42/i1/a2f",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Inhaltsbereich: Arbeitsweisen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v42/i1/g5y",
+          "notation": [
+            "3.1"
+          ],
+          "prefLabel": {
+            "de": "Qualitative Analyse"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/i1/y2c",
+              "notation": [
+                "3.1.1"
+              ],
+              "prefLabel": {
+                "de": "Inhalte für das grundlegende und erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/b6h",
+                  "notation": [
+                    "3.1.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Nachweis von Ionen und funktionellen Gruppen "
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/i1/e4q",
+              "notation": [
+                "3.1.2"
+              ],
+              "prefLabel": {
+                "de": "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/c2g",
+                  "notation": [
+                    "3.1.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Chromatografie"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/i1/v2f",
+          "notation": [
+            "3.2"
+          ],
+          "prefLabel": {
+            "de": "Quantitative und instrumentelle Analyse"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/i1/e6r",
+              "notation": [
+                "3.2.1"
+              ],
+              "prefLabel": {
+                "de": "Inhalte für das grundlegende und erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/s9f",
+                  "notation": [
+                    "3.2.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Säure-Base-Titration (mit Umschlagspunkt)"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/i1/y4t",
+              "notation": [
+                "3.2.2"
+              ],
+              "prefLabel": {
+                "de": "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/v2d",
+                  "notation": [
+                    "3.2.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Säure-Base-Titration (mit Titrationskurve)"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/x6y",
+                  "notation": [
+                    "3.2.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Redoxtitration"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/r6r",
+                  "notation": [
+                    "3.2.2.3"
+                  ],
+                  "prefLabel": {
+                    "de": "ein Verfahren der instrumentellen Analyse (z. B. Konduktometrie, potentiometrische pH-Messung, Fotometrie, Polarimetrie)"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/i1/f6b",
+          "notation": [
+            "3.3"
+          ],
+          "prefLabel": {
+            "de": "Synthesen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/i1/z4z",
+              "notation": [
+                "3.3.1"
+              ],
+              "prefLabel": {
+                "de": "Inhalte für das grundlegende und erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/s6s",
+                  "notation": [
+                    "3.3.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Estersynthese"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/a6a",
+                  "notation": [
+                    "3.3.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Kunststoffsynthese"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/i1/z3z",
+              "notation": [
+                "3.3.2"
+              ],
+              "prefLabel": {
+                "de": "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/c6f",
+                  "notation": [
+                    "3.3.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Mechanistische Betrachtung der Estersynthese"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/y2d",
+                  "notation": [
+                    "3.3.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Mechanistische Betrachtung einer Kunststoffsynthese"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v42/i1/q7f",
+      "notation": [
+        "4"
+      ],
+      "prefLabel": {
+        "de": "Inhaltsbereich: Lebenswelt und Gesellschaf"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v42/i1/s5q",
+          "notation": [
+            "4.1"
+          ],
+          "prefLabel": {
+            "de": "Aktuelle Technologien und chemische Produkte"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/i1/b9t",
+              "notation": [
+                "4.1.1"
+              ],
+              "prefLabel": {
+                "de": "Inhalte für das grundlegende und erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/z2s",
+                  "notation": [
+                    "4.1.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "moderne Werkstoffe"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/g7t",
+                  "notation": [
+                    "4.1.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Rohstoffgewinnung und -verarbeitung"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/v7c",
+                  "notation": [
+                    "4.1.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Recycling"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/i1/s2t",
+              "notation": [
+                "4.1.2"
+              ],
+              "prefLabel": {
+                "de": "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/f4q",
+                  "notation": [
+                    "4.1.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Nanomaterialien"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/y4a",
+                  "notation": [
+                    "4.1.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "ein technisches Syntheseverfahren"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v42/i1/h3x",
+          "notation": [
+            "4.2"
+          ],
+          "prefLabel": {
+            "de": "Ökonomische und ökologische Aspekte der Chemie"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v42/i1/q6a",
+              "notation": [
+                "4.2.1"
+              ],
+              "prefLabel": {
+                "de": "Inhalte für das grundlegende und erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/p6g",
+                  "notation": [
+                    "4.2.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "alternative Energieträger"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/g3b",
+                  "notation": [
+                    "4.2.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Recycling"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v42/i1/z5b",
+              "notation": [
+                "4.2.2"
+              ],
+              "prefLabel": {
+                "de": "Zusätzliche Inhalte für das erhöhte Anforderungsniveau"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/x7c",
+                  "notation": [
+                    "4.2.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Energiespeicherung"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v42/i1/t4t",
+                  "notation": [
+                    "4.2.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Wertstoffkreisläufe"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

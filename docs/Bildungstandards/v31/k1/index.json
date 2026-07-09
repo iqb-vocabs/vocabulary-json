@@ -1,0 +1,1599 @@
+{
+  "id": "https://w3id.org/iqb/v31/k1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Deutsch MSA 2003 - Standards für die Kompetenzbereiche im Fach Deutsch"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v31/k1/f2z",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Sprechen und Zuhören"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v31/k1/y7z",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "zu anderen sprechen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v31/k1/r7a",
+              "notation": [
+                "1.1.1"
+              ],
+              "prefLabel": {
+                "de": "sich artikuliert, verständlich, sach- und situationsangemessen äußern,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/g7q",
+              "notation": [
+                "1.1.2"
+              ],
+              "prefLabel": {
+                "de": "über einen umfangreichen und differenzierten Wortschatz verfügen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/p4r",
+              "notation": [
+                "1.1.3"
+              ],
+              "prefLabel": {
+                "de": "verschiedene Formen mündlicher Darstellung unterscheiden und anwenden, insbesondere erzählen, berichten, informieren, beschreiben, schildern, appellieren, argumentieren, erörtern,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/z4z",
+              "notation": [
+                "1.1.4"
+              ],
+              "prefLabel": {
+                "de": "Wirkungen der Redeweise kennen, beachten und situations- sowie adressatengerecht anwenden: Lautstärke, Betonung, Sprechtempo, Klangfarbe, Stimmführung; Körpersprache (Gestik, Mimik),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/r6u",
+              "notation": [
+                "1.1.5"
+              ],
+              "prefLabel": {
+                "de": "unterschiedliche Sprechsituationen gestalten, insbesondere Vorstellungsgespräch/Bewerbungsgespräch; Antragstellung, Beschwerde, Entschuldigung; Gesprächsleitung."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v31/k1/v2s",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "vor anderen sprechen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v31/k1/x4b",
+              "notation": [
+                "1.2.1"
+              ],
+              "prefLabel": {
+                "de": "Texte sinngebend und gestaltend vorlesen und (frei) vortragen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/v5b",
+              "notation": [
+                "1.2.2"
+              ],
+              "prefLabel": {
+                "de": "längere freie Redebeiträge leisten, Kurzdarstellungen und Referate frei vortragen: ggf. mit Hilfe eines Stichwortzettels/einer Gliederung,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/f9c",
+              "notation": [
+                "1.2.3"
+              ],
+              "prefLabel": {
+                "de": "verschiedene Medien für die Darstellung von Sachverhalten nutzen (Präsentationstechniken): z.B. Tafel, Folie, Plakat, Moderationskarten."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v31/k1/u4r",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "mit anderen sprechen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v31/k1/f4e",
+              "notation": [
+                "1.3.1"
+              ],
+              "prefLabel": {
+                "de": "sich konstruktiv an einem Gespräch beteiligen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/h4x",
+              "notation": [
+                "1.3.2"
+              ],
+              "prefLabel": {
+                "de": "durch gezieltes Fragen notwendige Informationen beschaffen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/c2s",
+              "notation": [
+                "1.3.3"
+              ],
+              "prefLabel": {
+                "de": "Gesprächsregeln einhalten,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/x9r",
+              "notation": [
+                "1.3.4"
+              ],
+              "prefLabel": {
+                "de": "die eigene Meinung begründet und nachvollziehbar vertreten,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/t2d",
+              "notation": [
+                "1.3.5"
+              ],
+              "prefLabel": {
+                "de": "auf Gegenpositionen sachlich und argumentierend eingehen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/v6f",
+              "notation": [
+                "1.3.6"
+              ],
+              "prefLabel": {
+                "de": "kriterienorientiert das eigene Gesprächsverhalten und das anderer beobachten, reflektieren und bewerten."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v31/k1/g3a",
+          "notation": [
+            "1.4"
+          ],
+          "prefLabel": {
+            "de": "verstehend zuhören"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v31/k1/z6p",
+              "notation": [
+                "1.4.1"
+              ],
+              "prefLabel": {
+                "de": "Gesprächsbeiträge anderer verfolgen und aufnehmen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/z5t",
+              "notation": [
+                "1.4.2"
+              ],
+              "prefLabel": {
+                "de": "wesentliche Aussagen aus umfangreichen gesprochenen Texten verstehen, diese Informationen sichern und wiedergeben,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/a7h",
+              "notation": [
+                "1.4.3"
+              ],
+              "prefLabel": {
+                "de": "Aufmerksamkeit für verbale und nonverbale Äußerungen (z.B. Stimmführung, Körpersprache) entwickeln."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v31/k1/g9c",
+          "notation": [
+            "1.5"
+          ],
+          "prefLabel": {
+            "de": "szenisch spielen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v31/k1/r4a",
+              "notation": [
+                "1.5.1"
+              ],
+              "prefLabel": {
+                "de": "eigene Erlebnisse, Haltungen, Situationen szenisch darstellen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/v4y",
+              "notation": [
+                "1.5.2"
+              ],
+              "prefLabel": {
+                "de": "Texte (medial unterschiedlich vermittelt) szenisch gestalten."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v31/k1/u6d",
+          "notation": [
+            "1.6"
+          ],
+          "prefLabel": {
+            "de": "Methoden und Arbeitstechniken"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v31/k1/h4c",
+              "notation": [
+                "1.6.1"
+              ],
+              "prefLabel": {
+                "de": "verschiedene Gesprächsformen praktizieren, z.B. Dialoge, Streitgespräche, Diskussionen, Rollendiskussionen, Debatten vorbereiten und durchführen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/t6b",
+              "notation": [
+                "1.6.2"
+              ],
+              "prefLabel": {
+                "de": "Gesprächsformen moderieren, leiten, beobachten, reflektieren,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/v3t",
+              "notation": [
+                "1.6.3"
+              ],
+              "prefLabel": {
+                "de": "Redestrategien einsetzen: z.B. Fünfsatz, Anknüpfungen formulieren, rhetorische Mittel verwenden,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/u3d",
+              "notation": [
+                "1.6.4"
+              ],
+              "prefLabel": {
+                "de": "sich gezielt sachgerechte Stichwörter aufschreiben,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/y7a",
+              "notation": [
+                "1.6.5"
+              ],
+              "prefLabel": {
+                "de": "eine Mitschrift anfertigen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/z3c",
+              "notation": [
+                "1.6.6"
+              ],
+              "prefLabel": {
+                "de": "Notizen selbstständig strukturieren und Notizen zur Reproduktion des Gehörten nutzen, dabei sachlogische sprachliche Verknüpfungen herstellen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/p3f",
+              "notation": [
+                "1.6.7"
+              ],
+              "prefLabel": {
+                "de": "Video-Feedback nutzen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/f5h",
+              "notation": [
+                "1.6.8"
+              ],
+              "prefLabel": {
+                "de": "Portfolio (Sammlung und Vereinbarungen über Gesprächsregeln, Kriterienlisten, Stichwortkonzepte, Selbsteinschätzungen, Beobachtungsbögen von anderen, vereinbarte Lernziele etc.) nutzen."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v31/k1/y9g",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Schreiben"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v31/k1/f7e",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "über Schreibfertigkeiten verfügen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v31/k1/b7g",
+              "notation": [
+                "2.1.1"
+              ],
+              "prefLabel": {
+                "de": "Texte in gut lesbarer handschriftlicher Form und in einem der Situation entsprechenden Tempo schreiben,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/t9a",
+              "notation": [
+                "2.1.2"
+              ],
+              "prefLabel": {
+                "de": "Texte dem Zweck entsprechend und adressatengerecht gestalten, sinnvoll aufbauen und strukturieren: z.B. Blattaufteilung, Rand, Absätze,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/g5a",
+              "notation": [
+                "2.1.3"
+              ],
+              "prefLabel": {
+                "de": "Textverarbeitungsprogramme und ihre Möglichkeiten nutzen: z.B. Formatierung, Präsentation,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/c2b",
+              "notation": [
+                "2.1.4"
+              ],
+              "prefLabel": {
+                "de": "Formulare ausfüllen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v31/k1/r5z",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "richtig schreiben"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v31/k1/e6x",
+              "notation": [
+                "2.2.1"
+              ],
+              "prefLabel": {
+                "de": "Grundregeln der Rechtschreibung und Zeichensetzung sicher beherrschen und häufig vorkommende Wörter, Fachbegriffe und Fremdwörter richtig schreiben,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/s5p",
+              "notation": [
+                "2.2.2"
+              ],
+              "prefLabel": {
+                "de": "individuelle Fehlerschwerpunkte erkennen und mit Hilfe von Rechtschreibstrategien abbauen, insbesondere Nachschlagen, Ableiten, Wortverwandtschaften suchen, grammatisches Wissen anwenden."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v31/k1/e9z",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "einen Schreibprozess eigenverantwortlich gestalten"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v31/k1/y2h",
+              "notation": [
+                "2.3.1"
+              ],
+              "prefLabel": {
+                "de": "Texte planen und entwerfen"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/t6y",
+                  "notation": [
+                    "2.3.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "gemäß den Aufgaben und der Zeitvorgabe einen Schreibplan erstellen, sich für die angemessene Textsorte entscheiden und Texte ziel-, adressaten- und situationsbezogen, ggf. materialorientiert konzipieren,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/s7h",
+                  "notation": [
+                    "2.3.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Informationsquellen gezielt nutzen, insbesondere Bibliotheken, Nachschlagewerke, Zeitungen, Internet,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/p6b",
+                  "notation": [
+                    "2.3.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Stoffsammlung erstellen, ordnen und eine Gliederung anfertigen: z.B. numerische Gliederung, Cluster, Ideenstern, Mindmap, Flussdiagramm."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/f7y",
+              "notation": [
+                "2.3.2"
+              ],
+              "prefLabel": {
+                "de": "Texte schreiben"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/b5x",
+                  "notation": [
+                    "2.3.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "formalisierte lineare Texte/nichtlineare Texte verfassen: z.B. sachlicher Brief, Lebenslauf, Bewerbung, Bewerbungsschreiben, Protokoll, Annonce/Ausfüllen von Formularen, Diagramm, Schaubild, Statistik,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/z6f",
+                  "notation": [
+                    "2.3.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "zentrale Schreibformen beherrschen und sachgerecht nutzen: informierende (berichten, beschreiben, schildern), argumentierende (erörtern, kommentieren), appellierende, untersuchende (analysieren, interpretieren), gestaltende (erzählen, kreativ schreiben),"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/c7h",
+                  "notation": [
+                    "2.3.2.3"
+                  ],
+                  "prefLabel": {
+                    "de": "produktive Schreibformen nutzen: z.B. umschreiben, weiterschreiben, ausgestalten,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/g3t",
+                  "notation": [
+                    "2.3.2.4"
+                  ],
+                  "prefLabel": {
+                    "de": "Ergebnisse einer Textuntersuchung darstellen: z.B"
+                  },
+                  "narrower": [
+                    {
+                      "id": "https://w3id.org/iqb/v31/k1/y3x",
+                      "notation": [
+                        "2.3.2.4.1"
+                      ],
+                      "prefLabel": {
+                        "de": "Inhalte auch längerer und komplexerer Texte verkürzt und abstrahierend wiedergeben,"
+                      }
+                    },
+                    {
+                      "id": "https://w3id.org/iqb/v31/k1/t3d",
+                      "notation": [
+                        "2.3.2.4.2"
+                      ],
+                      "prefLabel": {
+                        "de": "Informationen aus linearen und nichtlinearen Texten zusammenfassen und so wiedergeben, dass insgesamt eine kohärente Darstellung entsteht,"
+                      }
+                    },
+                    {
+                      "id": "https://w3id.org/iqb/v31/k1/f4p",
+                      "notation": [
+                        "2.3.2.4.3"
+                      ],
+                      "prefLabel": {
+                        "de": "formale und sprachlich stilistische Gestaltungsmittel und ihre Wirkungsweise an Beispielen darstellen,"
+                      }
+                    },
+                    {
+                      "id": "https://w3id.org/iqb/v31/k1/b6e",
+                      "notation": [
+                        "2.3.2.4.4"
+                      ],
+                      "prefLabel": {
+                        "de": "Textdeutungen begründen,"
+                      }
+                    },
+                    {
+                      "id": "https://w3id.org/iqb/v31/k1/p5e",
+                      "notation": [
+                        "2.3.2.4.5"
+                      ],
+                      "prefLabel": {
+                        "de": "sprachliche Bilder deuten,"
+                      }
+                    },
+                    {
+                      "id": "https://w3id.org/iqb/v31/k1/e9t",
+                      "notation": [
+                        "2.3.2.4.6"
+                      ],
+                      "prefLabel": {
+                        "de": "Thesen formulieren,"
+                      }
+                    },
+                    {
+                      "id": "https://w3id.org/iqb/v31/k1/f6s",
+                      "notation": [
+                        "2.3.2.4.7"
+                      ],
+                      "prefLabel": {
+                        "de": "Argumente zu einer Argumentationskette verknüpfen,"
+                      }
+                    },
+                    {
+                      "id": "https://w3id.org/iqb/v31/k1/p7z",
+                      "notation": [
+                        "2.3.2.4.8"
+                      ],
+                      "prefLabel": {
+                        "de": "Gegenargumente formulieren, überdenken und einbeziehen,"
+                      }
+                    },
+                    {
+                      "id": "https://w3id.org/iqb/v31/k1/v6t",
+                      "notation": [
+                        "2.3.2.4.9"
+                      ],
+                      "prefLabel": {
+                        "de": "Argumente gewichten und Schlüsse ziehen,"
+                      }
+                    },
+                    {
+                      "id": "https://w3id.org/iqb/v31/k1/c9d",
+                      "notation": [
+                        "2.3.2.4.10"
+                      ],
+                      "prefLabel": {
+                        "de": "begründet Stellung nehmen,"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/e6t",
+                  "notation": [
+                    "2.3.2.5"
+                  ],
+                  "prefLabel": {
+                    "de": "Texte sprachlich gestalten"
+                  },
+                  "narrower": [
+                    {
+                      "id": "https://w3id.org/iqb/v31/k1/a3x",
+                      "notation": [
+                        "2.3.2.5.1"
+                      ],
+                      "prefLabel": {
+                        "de": "strukturiert, verständlich, sprachlich variabel und stilistisch stimmig zur Aussage schreiben,"
+                      }
+                    },
+                    {
+                      "id": "https://w3id.org/iqb/v31/k1/r5d",
+                      "notation": [
+                        "2.3.2.5.2"
+                      ],
+                      "prefLabel": {
+                        "de": "sprachliche Mittel gezielt einsetzen: z.B. Vergleiche, Bilder, Wiederholung,"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/v5t",
+                  "notation": [
+                    "2.3.2.6"
+                  ],
+                  "prefLabel": {
+                    "de": "Texte mit Hilfe von neuen Medien verfassen: z.B. E-Mails, Chatroom"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/g6c",
+              "notation": [
+                "2.3.3"
+              ],
+              "prefLabel": {
+                "de": "Texte überarbeiten"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/y3c",
+                  "notation": [
+                    "2.3.3.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Aufbau, Inhalt und Formulierungen eigener Texte hinsichtlich der Aufgabenstellung überprüfen (Schreibsituation, Schreibanlass),"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/u6z",
+                  "notation": [
+                    "2.3.3.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Strategien zur Überprüfung der sprachlichen Richtigkeit und Rechtschreibung anwenden."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v31/k1/c7t",
+          "notation": [
+            "2.4"
+          ],
+          "prefLabel": {
+            "de": "Methoden und Arbeitstechniken"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v31/k1/y6v",
+              "notation": [
+                "2.4.1"
+              ],
+              "prefLabel": {
+                "de": "Vorgehensweise aus Aufgabenstellung herleiten,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/d3z",
+              "notation": [
+                "2.4.2"
+              ],
+              "prefLabel": {
+                "de": "Arbeitspläne/Konzepte entwerfen, Arbeitsschritte festlegen: Informationen sammeln, ordnen, ergänzen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/r6q",
+              "notation": [
+                "2.4.3"
+              ],
+              "prefLabel": {
+                "de": "Fragen und Arbeitshypothesen formulieren,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/z4g",
+              "notation": [
+                "2.4.4"
+              ],
+              "prefLabel": {
+                "de": "Texte inhaltlich und sprachlich überarbeiten: z. B. Textpassagen umstellen, Wirksamkeit und Angemessenheit sprachlicher Gestaltungsmittel prüfen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/b2t",
+              "notation": [
+                "2.4.5"
+              ],
+              "prefLabel": {
+                "de": "Zitate in den eigenen Text integrieren,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/z7p",
+              "notation": [
+                "2.4.6"
+              ],
+              "prefLabel": {
+                "de": "Einhaltung orthografischer und grammatischer Normen kontrollieren"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/d9t",
+              "notation": [
+                "2.4.7"
+              ],
+              "prefLabel": {
+                "de": "mit Textverarbeitungsprogrammen umgehen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/s5d",
+              "notation": [
+                "2.4.8"
+              ],
+              "prefLabel": {
+                "de": "Schreibkonferenzen/Schreibwerkstatt durchführen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/s5b",
+              "notation": [
+                "2.4.9"
+              ],
+              "prefLabel": {
+                "de": "Portfolio (selbst verfasste und für gut befundene Texte, Kriterienlisten, Stichwortkonzepte, Selbsteinschätzungen, Beobachtungsbögen von anderen, vereinbarte Lernziele etc.) anlegen und nutzen."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v31/k1/a4x",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Lesen – mit Texten und Medien umgehen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v31/k1/y4q",
+          "notation": [
+            "3.1"
+          ],
+          "prefLabel": {
+            "de": "verschiedene Lesetechniken beherrschen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v31/k1/v4x",
+              "notation": [
+                "3.1.1"
+              ],
+              "prefLabel": {
+                "de": "über grundlegende Lesefertigkeiten verfügen: flüssig, sinnbezogen, überfliegend, selektiv, navigierend (z.B. Bild-Ton-Text integrierend) lesen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v31/k1/t4d",
+          "notation": [
+            "3.2"
+          ],
+          "prefLabel": {
+            "de": "Strategien zum Leseverstehen kennen und anwenden"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v31/k1/z4b",
+              "notation": [
+                "3.2.1"
+              ],
+              "prefLabel": {
+                "de": "Leseerwartungen und -erfahrungen bewusst nutzen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/f9q",
+              "notation": [
+                "3.2.2"
+              ],
+              "prefLabel": {
+                "de": "Wortbedeutungen klären,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/e9v",
+              "notation": [
+                "3.2.3"
+              ],
+              "prefLabel": {
+                "de": "Textschemata erfassen: z.B. Textsorte, Aufbau des Textes,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/c3f",
+              "notation": [
+                "3.2.4"
+              ],
+              "prefLabel": {
+                "de": "Verfahren zur Textstrukturierung kennen und selbstständig anwenden: z.B. Zwischenüberschriften formulieren, wesentliche Textstellen kennzeichnen, Bezüge zwischen Textteilen herstellen, Fragen aus dem Text ableiten und beantworten,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/v2q",
+              "notation": [
+                "3.2.5"
+              ],
+              "prefLabel": {
+                "de": "Verfahren zur Textaufnahme kennen und nutzen: z.B. Aussagen erklären und konkretisieren, Stichwörter formulieren, Texte und Textabschnitte zusammenfassen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v31/k1/b6f",
+          "notation": [
+            "3.3"
+          ],
+          "prefLabel": {
+            "de": "Texte verstehen und nutzen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v31/k1/p3v",
+              "notation": [
+                "3.3.1"
+              ],
+              "prefLabel": {
+                "de": "literarische Texte verstehen und nutzen"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/c5a",
+                  "notation": [
+                    "3.3.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "ein Spektrum altersangemessener Werke – auch Jugendliteratur – bedeutender Autorinnen und Autoren kennen,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/e2z",
+                  "notation": [
+                    "3.3.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "epische, lyrische, dramatische Texte unterscheiden, insbesondere epische Kleinformen, Novelle, längere Erzählung, Kurzgeschichte, Roman, Schauspiel, Gedichte,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/b7q",
+                  "notation": [
+                    "3.3.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Zusammenhänge zwischen Text, Entstehungszeit und Leben des Autors/der Autorin bei der Arbeit an Texten aus Gegenwart und Vergangenheit herstellen,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/s9g",
+                  "notation": [
+                    "3.3.1.4"
+                  ],
+                  "prefLabel": {
+                    "de": "zentrale Inhalte erschließen,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/u3t",
+                  "notation": [
+                    "3.3.1.5"
+                  ],
+                  "prefLabel": {
+                    "de": "wesentliche Elemente eines Textes erfassen: z.B. Figuren, Raum- und Zeitdarstellung, Konfliktverlauf,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/t3b",
+                  "notation": [
+                    "3.3.1.6"
+                  ],
+                  "prefLabel": {
+                    "de": "wesentliche Fachbegriffe zur Erschließung von Literatur kennen und anwenden, insbesondere Erzähler, Erzählperspektive, Monolog, Dialog, sprachliche Bilder, Metapher, Reim, lyrisches Ich,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/h7a",
+                  "notation": [
+                    "3.3.1.7"
+                  ],
+                  "prefLabel": {
+                    "de": "sprachliche Gestaltungsmittel in ihren Wirkungszusammenhängen und in ihrer historischen Bedingtheit erkennen: z.B. Wort-, Satz- und Gedankenfiguren, Bildsprache (Metaphern),"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/b7d",
+                  "notation": [
+                    "3.3.1.8"
+                  ],
+                  "prefLabel": {
+                    "de": "eigene Deutungen des Textes entwickeln, am Text belegen und sich mit anderen darüber verständigen,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/d7x",
+                  "notation": [
+                    "3.3.1.9"
+                  ],
+                  "prefLabel": {
+                    "de": "analytische Methoden anwenden: z.B. Texte untersuchen, vergleichen, kommentieren,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/c6b",
+                  "notation": [
+                    "3.3.1.10"
+                  ],
+                  "prefLabel": {
+                    "de": "produktive Methoden anwenden: z.B. Perspektivenwechsel: innerer Monolog, Brief in der Rolle einer literarischen Figur; szenische Umsetzung, Paralleltext, weiterschreiben, in eine andere Textsorte umschreiben,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/c2g",
+                  "notation": [
+                    "3.3.1.11"
+                  ],
+                  "prefLabel": {
+                    "de": "produktive Methoden anwenden: z.B. Perspektivenwechsel: innerer Monolog, Brief in der Rolle einer literarischen Figur; szenische Umsetzung, Paralleltext, weiterschreiben, in eine andere Textsorte umschreiben,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/z4q",
+                  "notation": [
+                    "3.3.1.12"
+                  ],
+                  "prefLabel": {
+                    "de": "Handlungen, Verhaltensweisen und Verhaltensmotive bewerten."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/t9c",
+              "notation": [
+                "3.3.2"
+              ],
+              "prefLabel": {
+                "de": "Sach- und Gebrauchstexte verstehen und nutzen"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/q4a",
+                  "notation": [
+                    "3.3.2.1"
+                  ],
+                  "prefLabel": {
+                    "de": "verschiedene Textfunktionen und Textsorten unterscheiden: z.B. informieren: Nachricht; appellieren: Kommentar, Rede; regulieren: Gesetz, Vertrag; instruieren: Gebrauchsanweisung,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/r2u",
+                  "notation": [
+                    "3.3.2.2"
+                  ],
+                  "prefLabel": {
+                    "de": "ein breites Spektrum auch längerer und komplexerer Texte verstehen und im Detail erfassen,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/x9a",
+                  "notation": [
+                    "3.3.2.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Informationen zielgerichtet entnehmen, ordnen, vergleichen, prüfen und ergänzen,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/d5z",
+                  "notation": [
+                    "3.3.2.4"
+                  ],
+                  "prefLabel": {
+                    "de": "nichtlineare Texte auswerten: z.B. Schaubilder,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/v7s",
+                  "notation": [
+                    "3.3.2.5"
+                  ],
+                  "prefLabel": {
+                    "de": "Intention(en) eines Textes erkennen, insbesondere Zusammenhang zwischen Autorintention(en), Textmerkmalen, Leseerwartungen und Wirkungen,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/d3x",
+                  "notation": [
+                    "3.3.2.6"
+                  ],
+                  "prefLabel": {
+                    "de": "aus Sach- und Gebrauchstexten begründete Schlussfolgerungen ziehen,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/b7u",
+                  "notation": [
+                    "3.3.2.7"
+                  ],
+                  "prefLabel": {
+                    "de": "Information und Wertung in Texten unterscheiden."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/y5q",
+              "notation": [
+                "3.3.3"
+              ],
+              "prefLabel": {
+                "de": "Medien verstehen und nutzen"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/z2c",
+                  "notation": [
+                    "3.3.3.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Informations- und Unterhaltungsfunktion unterscheiden,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/s3v",
+                  "notation": [
+                    "3.3.3.2"
+                  ],
+                  "prefLabel": {
+                    "de": "medienspezifische Formen kennen: z.B. Print- und Online-Zeitungen, Infotainment, Hypertexte, Werbekommunikation, Film,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/z7a",
+                  "notation": [
+                    "3.3.3.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Intentionen und Wirkungen erkennen und bewerten,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/u6f",
+                  "notation": [
+                    "3.3.3.4"
+                  ],
+                  "prefLabel": {
+                    "de": "wesentliche Darstellungsmittel kennen und deren Wirkungen einschätzen,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/h3s",
+                  "notation": [
+                    "3.3.3.5"
+                  ],
+                  "prefLabel": {
+                    "de": "zwischen eigentlicher Wirklichkeit und virtuellen Welten in Medien unterscheiden: z.B. Fernsehserien, Computerspiele,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/c2q",
+                  "notation": [
+                    "3.3.3.6"
+                  ],
+                  "prefLabel": {
+                    "de": "Informationsmöglichkeiten nutzen: z.B. Informationen zu einem Thema/Problem in unterschiedlichen Medien suchen, vergleichen, auswählen und bewerten (Suchstrategien),"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/q7q",
+                  "notation": [
+                    "3.3.3.7"
+                  ],
+                  "prefLabel": {
+                    "de": "Medien zur Präsentation und ästhetischen Produktion nutzen."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/p7t",
+              "notation": [
+                "3.3.4"
+              ],
+              "prefLabel": {
+                "de": "Methoden und Arbeitstechniken"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/r3f",
+                  "notation": [
+                    "3.3.4.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Exzerpieren, Zitieren, Quellen angeben,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/f4g",
+                  "notation": [
+                    "3.3.4.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Wesentliches hervorheben und Zusammenhänge verdeutlichen,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/u4u",
+                  "notation": [
+                    "3.3.4.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Nachschlagewerke zur Klärung von Fachbegriffen, Fremdwörtern und Sachfragen heranziehen,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/p2v",
+                  "notation": [
+                    "3.3.4.4"
+                  ],
+                  "prefLabel": {
+                    "de": "Texte zusammenfassen: z.B. im Nominalstil, mit Hilfe von Stichwörtern, Symbolen, Farbmarkierungen, Unterstreichungen,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/c5u",
+                  "notation": [
+                    "3.3.4.5"
+                  ],
+                  "prefLabel": {
+                    "de": "Inhalte mit eigenen Worten wiedergeben, Randbemerkungen setzen,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/v4c",
+                  "notation": [
+                    "3.3.4.6"
+                  ],
+                  "prefLabel": {
+                    "de": "Texte gliedern und Teilüberschriften finden,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/q6s",
+                  "notation": [
+                    "3.3.4.7"
+                  ],
+                  "prefLabel": {
+                    "de": "Inhalte veranschaulichen: z. B. durch Mindmap, Flussdiagramm,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/b7v",
+                  "notation": [
+                    "3.3.4.8"
+                  ],
+                  "prefLabel": {
+                    "de": "Präsentationstechniken anwenden: Medien zielgerichtet und sachbezogen einsetzen: z.B. Tafel, Folie, Plakat, PC-Präsentationsprogramm."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v31/k1/g7x",
+      "notation": [
+        "4"
+      ],
+      "prefLabel": {
+        "de": "Sprache und Sprachgebrauch untersuchen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v31/k1/y2x",
+          "notation": [
+            "4.1"
+          ],
+          "prefLabel": {
+            "de": "Äußerungen/Texte in Verwendungszusammenhängen reflektieren und bewusst gestalten"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v31/k1/t6d",
+              "notation": [
+                "4.1.1"
+              ],
+              "prefLabel": {
+                "de": "beim Sprachhandeln die Inhalts- und Beziehungsebene im Zusammenhang mit den Grundfaktoren sprachlicher Kommunikation erkennen und berücksichtigen: gelingende bzw. misslingende Kommunikation; öffentliche bzw. private Kommunikationssituationen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/d6h",
+              "notation": [
+                "4.1.2"
+              ],
+              "prefLabel": {
+                "de": "beim Sprachhandeln einen differenzierten Wortschatz gebrauchen einschließlich umgangssprachlicher und idiomatischer Wendungen in Kenntnis des jeweiligen Zusammenhangs,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/u6s",
+              "notation": [
+                "4.1.3"
+              ],
+              "prefLabel": {
+                "de": "grundlegende Textfunktionen erfassen, insbesondere Information (z.B. Zeitungsmeldung), Regulierung (z.B. Gesetzestext), Appell (z.B. Werbeanzeige), Kontakt (z.B. Beschwerde), Selbstdarstellung (z.B. Tagebuch); ästhetische Funktion (z.B. Gedicht),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/e5s",
+              "notation": [
+                "4.1.4"
+              ],
+              "prefLabel": {
+                "de": "„Sprachen in der Sprache“ kennen und in ihrer Funktion unterscheiden: z.B. Standardsprache, Umgangssprache, Dialekt; Gruppensprachen, Fachsprachen; gesprochene und geschriebene Sprache,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/f6e",
+              "notation": [
+                "4.1.5"
+              ],
+              "prefLabel": {
+                "de": "Mehrsprachigkeit (Schülerinnen und Schüler mit anderer Muttersprache und Fremdsprachenlernen) zur Entwicklung der Sprachbewusstheit und zum Sprachvergleich nutzen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/d6g",
+              "notation": [
+                "4.1.6"
+              ],
+              "prefLabel": {
+                "de": "Sprechweisen unterscheiden und beachten: z.B. gehoben, derb; abwertend, ironisch,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/x2t",
+              "notation": [
+                "4.1.7"
+              ],
+              "prefLabel": {
+                "de": "ausgewählte Erscheinungen des Sprachwandels kennen und bewerten: z.B. Bedeutungswandel, fremdsprachliche Einflüsse."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v31/k1/g9b",
+          "notation": [
+            "4.2"
+          ],
+          "prefLabel": {
+            "de": "Textbeschaffenheit analysieren und reflektieren"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v31/k1/x2a",
+              "notation": [
+                "4.2.1"
+              ],
+              "prefLabel": {
+                "de": "sprachliche Mittel zur Sicherung des Textzusammenhangs (Textkohärenz) kennen und anwenden:"
+              },
+              "narrower": [
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/u4s",
+                  "notation": [
+                    "4.2.1.1"
+                  ],
+                  "prefLabel": {
+                    "de": "Wortebene (morphologische Mittel): Beziehungswörter (z.B. Konjunktion, Adverb), Zusammensetzung und Ableitung von Wörtern,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/f3f",
+                  "notation": [
+                    "4.2.1.2"
+                  ],
+                  "prefLabel": {
+                    "de": "Satzebene (syntaktische Mittel): Satzarten; Satzreihe, Satzgefüge,"
+                  }
+                },
+                {
+                  "id": "https://w3id.org/iqb/v31/k1/t6x",
+                  "notation": [
+                    "4.2.1.3"
+                  ],
+                  "prefLabel": {
+                    "de": "Bedeutungsebene (semantische Mittel): z.B. Synonyme, Antonyme; Schlüsselwörter; Oberbegriff/Unterbegriff; ausgewählte rhetorische Mittel,"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/t3z",
+              "notation": [
+                "4.2.2"
+              ],
+              "prefLabel": {
+                "de": "Möglichkeiten der Textstrukturierung kennen und nutzen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v31/k1/a2p",
+          "notation": [
+            "4.3"
+          ],
+          "prefLabel": {
+            "de": "Leistungen von Sätzen und Wortarten kennen und für Sprechen, Schreiben und Textuntersuchung nutzen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v31/k1/v4h",
+              "notation": [
+                "4.3.1"
+              ],
+              "prefLabel": {
+                "de": "Satzstrukturen kennen und funktional verwenden: Hauptsatz, Nebensatz/Gliedsatz, Satzglied, Satzgliedteil,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/h7s",
+              "notation": [
+                "4.3.2"
+              ],
+              "prefLabel": {
+                "de": "Wortarten kennen und funktional gebrauchen: z.B. Verb: Zeitlichkeit, Modalität; Substantiv/Nomen: Benennung; Adjektiv: Qualität,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/h4f",
+              "notation": [
+                "4.3.3"
+              ],
+              "prefLabel": {
+                "de": "grammatische Kategorien und ihre Leistungen in situativen und funktionalen Zusammenhängen kennen und nutzen, insbesondere Tempus, Modus (Indikativ, Konjunktiv I/II), Aktiv/Passiv; Genus, Numerus, Kasus; Steigerung."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v31/k1/r4u",
+          "notation": [
+            "4.4"
+          ],
+          "prefLabel": {
+            "de": "Laut-Buchstaben-Beziehungen kennen und reflektieren"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v31/k1/q6v",
+              "notation": [
+                "4.4.1"
+              ],
+              "prefLabel": {
+                "de": "wichtige Regeln der Aussprache und der Orthografie kennen und beim Sprachhandeln berücksichtigen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v31/k1/r9q",
+          "notation": [
+            "4.5"
+          ],
+          "prefLabel": {
+            "de": "Methoden und Arbeitstechniken"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v31/k1/h4b",
+              "notation": [
+                "4.5.1"
+              ],
+              "prefLabel": {
+                "de": "grammatische Proben anwenden: Klang-, Weglass-, Ersatz- und Umstellprobe,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/p4y",
+              "notation": [
+                "4.5.2"
+              ],
+              "prefLabel": {
+                "de": "Rechtschreibstrategien anwenden: z.B. Ableitung vom Wortstamm, Wortverlängerung, Ähnlichkeitsschreibung,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v31/k1/p4b",
+              "notation": [
+                "4.5.3"
+              ],
+              "prefLabel": {
+                "de": "Nachschlagewerke nutzen."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

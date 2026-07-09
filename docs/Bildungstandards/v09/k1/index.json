@@ -1,0 +1,782 @@
+{
+  "id": "https://w3id.org/iqb/v09/k1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Mathematik Primar 2004 - Inhaltsbezogene Kompetenzen"
+  },
+  "description": {
+    "de": "Die Standards orientieren sich inhaltlich an mathematischen Leitideen, die für den gesamten Mathematikunterricht - für die Grundschule und für das weiterführende Lernen - von fundamentaler Bedeutung sind. \n\nFür Schülerinnen und Schüler am Ende der 4. Jahrgangsstufe lassen sich aus diesen Leitideen folgende Standards für inhaltsbezogene mathematische Kompetenzen ableiten, die im Unterricht aufeinander bezogen und miteinander verknüpft werden:"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v09/k1/u9v",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Zahlen und Operationen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v09/k1/a9y",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "Zahldarstellungen und Zahlbeziehungen verstehen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v09/k1/h5g",
+              "notation": [
+                "1.1.1"
+              ],
+              "prefLabel": {
+                "de": "den Aufbau des dezimalen Stellenwertsystems verstehen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/r2d",
+              "notation": [
+                "1.1.2"
+              ],
+              "prefLabel": {
+                "de": "Zahlen bis 1.000.000 auf verschiedene Weise darstellen und zueinander in Beziehung setzen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/q9u",
+              "notation": [
+                "1.1.3"
+              ],
+              "prefLabel": {
+                "de": "sich im Zahlenraum bis 1.000.000 orientieren (z. B. Zahlen der Größe nach ordnen, runden)."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v09/k1/v4z",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "Rechenoperationen verstehen und beherrschen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v09/k1/z4t",
+              "notation": [
+                "1.2.1"
+              ],
+              "prefLabel": {
+                "de": "die vier Grundrechenarten und ihre Zusammenhänge verstehen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/g2t",
+              "notation": [
+                "1.2.2"
+              ],
+              "prefLabel": {
+                "de": "die Grundaufgaben des Kopfrechnens (Einspluseins, Einmaleins, Zahlzerlegungen) gedächtnismäßig beherrschen, deren Umkehrungen sicher ableiten und diese Grundkenntnisse auf analoge Aufgaben in größeren Zahlenräumen übertragen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/s6u",
+              "notation": [
+                "1.2.3"
+              ],
+              "prefLabel": {
+                "de": "mündliche und halbschriftliche Rechenstrategien verstehen und bei geeigneten Aufgaben anwenden,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/t5y",
+              "notation": [
+                "1.2.4"
+              ],
+              "prefLabel": {
+                "de": "verschiedene Rechenwege vergleichen und bewerten; Rechenfehler finden, erklären und korrigieren,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/p7c",
+              "notation": [
+                "1.2.5"
+              ],
+              "prefLabel": {
+                "de": "Rechengesetze erkennen, erklären und benutzen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/e4b",
+              "notation": [
+                "1.2.6"
+              ],
+              "prefLabel": {
+                "de": "schriftliche Verfahren der Addition, Subtraktion und Multiplikation verstehen, geläufig ausführen und bei geeigneten Aufgaben anwenden,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/t6b",
+              "notation": [
+                "1.2.7"
+              ],
+              "prefLabel": {
+                "de": "Lösungen durch Überschlagsrechnungen und durch Anwenden der Umkehroperation kontrollieren."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v09/k1/p7e",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "in Kontexten rechnen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v09/k1/e3a",
+              "notation": [
+                "1.3.1"
+              ],
+              "prefLabel": {
+                "de": "Sachaufgaben lösen und dabei die Beziehungen zwischen der Sache und den einzelnen Lösungsschritten beschreiben,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/y6x",
+              "notation": [
+                "1.3.2"
+              ],
+              "prefLabel": {
+                "de": "das Ergebnis auf Plausibilität prüfen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/q3p",
+              "notation": [
+                "1.3.3"
+              ],
+              "prefLabel": {
+                "de": "bei Sachaufgaben entscheiden, ob eine Überschlagsrechnung ausreicht oder ein genaues Ergebnis nötig ist,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/y7t",
+              "notation": [
+                "1.3.4"
+              ],
+              "prefLabel": {
+                "de": "Sachaufgaben systematisch variieren,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/q6u",
+              "notation": [
+                "1.3.5"
+              ],
+              "prefLabel": {
+                "de": "einfache kombinatorische Aufgaben (z.B. Knobelaufgaben) durch Probieren bzw. systematisches Vorgehen lösen."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v09/k1/y9g",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Raum und Form"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v09/k1/f2z",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "sich im Raum orientieren"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v09/k1/q5b",
+              "notation": [
+                "2.1.1"
+              ],
+              "prefLabel": {
+                "de": "über räumliches Vorstellungsvermögen verfügen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/g3p",
+              "notation": [
+                "2.1.2"
+              ],
+              "prefLabel": {
+                "de": "räumliche Beziehungen erkennen, beschreiben und nutzen (Anordnungen, Wege, Pläne, Ansichten),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/c5g",
+              "notation": [
+                "2.1.3"
+              ],
+              "prefLabel": {
+                "de": "zwei- und dreidimensionale Darstellungen von Bauwerken (z.B. Würfelgebäuden) zueinander in Beziehung setzen (nach Vorlage bauen, zu Bauten Baupläne erstellen, Kantenmodelle und Netze untersuchen)."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v09/k1/g3q",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "geometrische Figuren erkennen, benennen und darstellen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v09/k1/r9c",
+              "notation": [
+                "2.2.1"
+              ],
+              "prefLabel": {
+                "de": "Körper und ebene Figuren nach Eigenschaften sortieren und Fachbegriffe zuordnen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/x6y",
+              "notation": [
+                "2.2.2"
+              ],
+              "prefLabel": {
+                "de": "Körper und ebene Figuren in der Umwelt wieder erkennen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/r4s",
+              "notation": [
+                "2.2.3"
+              ],
+              "prefLabel": {
+                "de": "Modelle von Körpern und ebenen Figuren herstellen und untersuchen (Bauen, Legen, Zerlegen, Zusammenfügen, Ausschneiden, Falten...),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/f7q",
+              "notation": [
+                "2.2.4"
+              ],
+              "prefLabel": {
+                "de": "Zeichnungen mit Hilfsmitteln sowie Freihandzeichnungen anfertigen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v09/k1/y3e",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "einfache geometrische Abbildungen erkennen, benennen und darstellen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v09/k1/z5b",
+              "notation": [
+                "2.3.1"
+              ],
+              "prefLabel": {
+                "de": "ebene Figuren in Gitternetzen abbilden (verkleinern und vergrößern),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/t2c",
+              "notation": [
+                "2.3.2"
+              ],
+              "prefLabel": {
+                "de": "Eigenschaften der Achsensymmetrie erkennen, beschreiben und nutzen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/a7c",
+              "notation": [
+                "2.3.3"
+              ],
+              "prefLabel": {
+                "de": "symmetrische Muster fortsetzen und selbst entwickeln."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v09/k1/p9h",
+          "notation": [
+            "2.4"
+          ],
+          "prefLabel": {
+            "de": "Flächen- und Rauminhalte vergleichen und messen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v09/k1/s2e",
+              "notation": [
+                "2.4.1"
+              ],
+              "prefLabel": {
+                "de": "die Flächeninhalte ebener Figuren durch Zerlegen vergleichen und durch Auslegen mit Einheitsflächen messen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/g7h",
+              "notation": [
+                "2.4.2"
+              ],
+              "prefLabel": {
+                "de": "Umfang und Flächeninhalt von ebenen Figuren untersuchen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/g7e",
+              "notation": [
+                "2.4.3"
+              ],
+              "prefLabel": {
+                "de": "Rauminhalte vergleichen und durch die enthaltene Anzahl von Einheitswürfeln bestimmen."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v09/k1/x4x",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Muster und Strukturen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v09/k1/u5v",
+          "notation": [
+            "3.1"
+          ],
+          "prefLabel": {
+            "de": "Gesetzmäßigkeiten erkennen, beschreiben und darstellen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v09/k1/x9h",
+              "notation": [
+                "3.1.1"
+              ],
+              "prefLabel": {
+                "de": "strukturierte Zahldarstellungen (z.B. Hunderter-Tafel) verstehen und nutzen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/t2e",
+              "notation": [
+                "3.1.2"
+              ],
+              "prefLabel": {
+                "de": "Gesetzmäßigkeiten in geometrischen und arithmetischen Mustern (z.B. in Zahlenfolgen oder strukturierten Aufgabenfolgen) erkennen, beschreiben und fortsetzen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/e7a",
+              "notation": [
+                "3.1.3"
+              ],
+              "prefLabel": {
+                "de": "arithmetische und geometrische Muster selbst entwickeln, systematisch verändern und beschreiben."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v09/k1/f5r",
+          "notation": [
+            "3.2"
+          ],
+          "prefLabel": {
+            "de": "funktionale Beziehungen erkennen, beschreiben und darstellen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v09/k1/s6e",
+              "notation": [
+                "3.2.1"
+              ],
+              "prefLabel": {
+                "de": "funktionale Beziehungen in Sachsituationen erkennen, sprachlich beschreiben (z.B. Menge – Preis) und entsprechende Aufgaben lösen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/u3s",
+              "notation": [
+                "3.2.2"
+              ],
+              "prefLabel": {
+                "de": "funktionale Beziehungen in Tabellen darstellen und untersuchen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/q4h",
+              "notation": [
+                "3.2.3"
+              ],
+              "prefLabel": {
+                "de": "einfache Sachaufgaben zur Proportionalität lösen."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v09/k1/z4r",
+      "notation": [
+        "4"
+      ],
+      "prefLabel": {
+        "de": "Größen und Messen"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v09/k1/d5t",
+          "notation": [
+            "4.1"
+          ],
+          "prefLabel": {
+            "de": "Größenvorstellungen besitzen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v09/k1/s9u",
+              "notation": [
+                "4.1.1"
+              ],
+              "prefLabel": {
+                "de": "Standardeinheiten aus den Bereichen Geldwerte, Längen, Zeitspannen, Gewichte und Rauminhalte kennen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/u3p",
+              "notation": [
+                "4.1.2"
+              ],
+              "prefLabel": {
+                "de": "Größen vergleichen, messen und schätzen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/s3s",
+              "notation": [
+                "4.1.3"
+              ],
+              "prefLabel": {
+                "de": "Repräsentanten für Standardeinheiten kennen, die im Alltag wichtig sind,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/x5d",
+              "notation": [
+                "4.1.4"
+              ],
+              "prefLabel": {
+                "de": "Größenangaben in unterschiedlichen Schreibweisen darstellen (umwandeln),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/g7b",
+              "notation": [
+                "4.1.5"
+              ],
+              "prefLabel": {
+                "de": "im Alltag gebräuchliche einfache Bruchzahlen im Zusammenhang mit Größen kennen und verstehen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v09/k1/t6q",
+          "notation": [
+            "4.2"
+          ],
+          "prefLabel": {
+            "de": "mit Größen in Sachsituationen umgehen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v09/k1/h3x",
+              "notation": [
+                "4.2.1"
+              ],
+              "prefLabel": {
+                "de": "mit geeigneten Einheiten und unterschiedlichen Messgeräten sachgerecht messen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/q6s",
+              "notation": [
+                "4.2.2"
+              ],
+              "prefLabel": {
+                "de": "wichtige Bezugsgrößen aus der Erfahrungswelt zum Lösen von Sachproblemen heranziehen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/x3d",
+              "notation": [
+                "4.2.3"
+              ],
+              "prefLabel": {
+                "de": "in Sachsituationen angemessen mit Näherungswerten rechnen, dabei Größen begründet schätzen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/p9c",
+              "notation": [
+                "4.2.4"
+              ],
+              "prefLabel": {
+                "de": "Sachaufgaben mit Größen lösen."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v09/k1/d5z",
+      "notation": [
+        "5"
+      ],
+      "prefLabel": {
+        "de": "Daten, Häufigkeit und Wahrscheinlichkeit"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v09/k1/d9e",
+          "notation": [
+            "5.1"
+          ],
+          "prefLabel": {
+            "de": "Daten erfassen und darstellen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v09/k1/x5f",
+              "notation": [
+                "5.1.1"
+              ],
+              "prefLabel": {
+                "de": "in Beobachtungen, Untersuchungen und einfachen Experimenten Daten sammeln, strukturieren und in Tabellen, Schaubildern und Diagrammen darstellen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/q2h",
+              "notation": [
+                "5.1.2"
+              ],
+              "prefLabel": {
+                "de": "aus Tabellen, Schaubildern und Diagrammen Informationen entnehmen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v09/k1/s5y",
+          "notation": [
+            "5.2"
+          ],
+          "prefLabel": {
+            "de": "Wahrscheinlichkeiten von Ereignissen in Zufallsexperimenten vergleichen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v09/k1/g9b",
+              "notation": [
+                "5.2.1"
+              ],
+              "prefLabel": {
+                "de": "Grundbegriffe kennen (z. B. sicher, unmöglich, wahrscheinlich),"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v09/k1/h7a",
+              "notation": [
+                "5.2.2"
+              ],
+              "prefLabel": {
+                "de": "Gewinnchancen bei einfachen Zufallsexperimenten (z. B. bei Würfelspielen) einschätzen."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

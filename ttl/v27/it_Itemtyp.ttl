@@ -1,0 +1,33 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v27/it/>. 
+
+n0:r7x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "offen"@de.
+n0:x6t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "halboffen"@de.
+n0:q9z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "geschlossen"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Itemformat - Itemtyp"@de;
+	dc:title "Itemformat - Itemtyp"@de;
+	dc:description "Itemformat - Itemtyp"@de;
+	skos:hasTopConcept
+		n0:r7x,
+		n0:x6t,
+		n0:q9z.

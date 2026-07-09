@@ -1,0 +1,224 @@
+{
+  "id": "https://w3id.org/iqb/v56/le/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Fremdsprachen Sek I 2023 - ESA Sprachlernkompetenz"
+  },
+  "description": {
+    "de": "Sprachlernkompetenz beinhaltet die Fähigkeit und Bereitschaft, das eigene Sprachenlernen selbst zu steuern bzw. zu regulieren, wobei die Schülerinnen und Schüler sowohl auf ihr potenzielles mehrsprachiges Wissen wie auch auf individuelle Sprachlernerfahrungen zurückgreifen und somit z. B. Kenntnisse aus anderen Sprachen und erlernte Strategien reflektieren und für den Erwerb anderer Sprachen nutzen. Sprachlernkompetenz zeigt sich erstens in der Beobachtung und Evaluation der eigenen Sprachlernmotivation, -prozesse und -ergebnisse sowie zweitens in der Bereitschaft und Fähigkeit, begründete Konsequenzen daraus zu ziehen. Sie zeigt sich drittens im Verfügen über konkrete sprachbezogene Lernstrategien und Techniken des reflexiven Lernens. Sprachlernkompetenz ist eine prozessbezogene Kompetenz zur Förderung funktionaler kommunikativer Kompetenz, Text- und Medienkompetenz, interkultureller Kompetenz sowie plurilingualer Kompetenz. \n\nDie Schülerinnen und Schüler sind/können"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v56/le/y4u",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "ihre sprachlichen Kompetenzen und ihre vorhandene Mehrsprachigkeit reflektieren und erweitern sowie dabei zielgerichtet ein Repertoire von Strategien und Techniken des reflexiven Sprachenlernens nutzen. Mitunter benötigen sie dabei Hinweise und Unterstützung."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v56/le/u5x",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "ihr Sprachlernverhalten und ihre Sprachlernprozesse (inklusive der genutzten Strategien) reflektieren und optimieren. Mitunter benötigen sie dabei Hinweise und Unterstützung."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v56/le/q2e",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "die ihnen zur Verfügung stehenden sprachlichen Mittel reflektieren und diese durch den Einsatz von Strategien erweitern und sichern. Mitunter benötigen sie dabei Hinweise und Unterstützung."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v56/le/q7d",
+      "notation": [
+        "4"
+      ],
+      "prefLabel": {
+        "de": "eigene rezeptive, produktive, interaktive und mittelnde Kompetenzen (inkl. des Verfügens über entsprechende sprachliche Mittel) selbst evaluieren und eigene Lernziele ggf. ändern und neu planen. Mitunter benötigen sie dabei Hinweise und Unterstützung."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v56/le/z4v",
+      "notation": [
+        "5"
+      ],
+      "prefLabel": {
+        "de": "sich ihrer Emotionen und Motivationen beim Fremdsprachenlernen bewusst und können diese regulieren. Mitunter benötigen sie dabei Hinweise und Unterstützung."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v56/le/p9b",
+      "notation": [
+        "6"
+      ],
+      "prefLabel": {
+        "de": "(digitale) Hilfsmittel zur Optimierung ihrer Sprachlernprozesse nutzen. Mitunter benötigen sie dabei Hinweise und Unterstützung."
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v56/le/y9v",
+      "notation": [
+        "7"
+      ],
+      "prefLabel": {
+        "de": "die in einer Sprache/anderen Sprachen verfügbaren Kenntnisse und Erfahrungen aus dem Erlernen anderer Sprachen zur Optimierung ihrer Sprachlernprozesse nutzen. Mitunter benötigen sie dabei Hinweise und Unterstützung."
+      }
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

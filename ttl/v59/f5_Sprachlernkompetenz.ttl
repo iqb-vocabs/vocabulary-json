@@ -1,0 +1,85 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v59/f5/>. 
+@prefix n1: <https://w3id.org/iqb/v59/f5/>. 
+
+n1:q7p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:e9b;
+	skos:prefLabel "ihr Sprachlernverhalten und ihre Sprachlernprozesse reflektieren und optimieren"@de.
+n1:b3q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:e9b;
+	skos:prefLabel "ihre rezeptiven und produktiven Kompetenzen prüfen und gezielt erweitern, z. B. durch die Nutzung geeigneter Strategien und Hilfsmittel (u. a. Nachschlagewerke, gezielte Nutzung des Internets)"@de.
+n1:p7p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:e9b;
+	skos:prefLabel "das Niveau ihrer Sprachbeherrschung einschätzen, durch Selbstevaluation in Grundzügen dokumentieren und die Ergebnisse für die Planung des weiteren Fremdsprachenlernens nutzen"@de.
+n1:c6b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4";
+	skos:broader n1:e9b;
+	skos:prefLabel "Begegnungen in der Fremdsprache für das eigene Sprachenlernen nutzen (z. B. persönliche Begegnungen, Internetforen, Radio, TV, Filme, Theateraufführungen, Bücher, Zeitschriften)"@de.
+n1:r6r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5";
+	skos:broader n1:e9b;
+	skos:prefLabel "durch Erproben sprachlicher Mittel die eigene sprachliche Kompetenz festigen und erweitern und in diesem Zusammenhang die an anderen Sprachen erworbenen Kompetenzen nutzen"@de.
+n1:e9b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Grundlegendes Niveau:"@de; 
+	skos:definition "Die Schülerinnen und Schüler können"@de;
+	skos:narrower 
+		n1:q7p,
+		n1:b3q,
+		n1:p7p,
+		n1:c6b,
+		n1:r6r.
+n1:q7h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:c7f;
+	skos:prefLabel "das Niveau ihrer eigenen Sprachbeherrschung einschätzen und selbstkritisch bewerten, durch Selbstevaluation angemessen dokumentieren und die Ergebnisse für die Planung des weiteren Sprachenlernens verwenden"@de.
+n1:s6r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:c7f;
+	skos:prefLabel "durch planvolles Erproben sprachlicher Mittel und kommunikativer sowie interkultureller Strategien die eigene Sprach- und Sprachhandlungskompetenz festigen und erweitern und in diesem Zusammenhang die an anderen Sprachen erworbenen Kompetenzen nutzen"@de.
+n1:c7f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Erhöhtes Niveau:"@de; 
+	skos:definition "Die Schülerinnen und Schüler können darüber hinaus"@de;
+	skos:narrower 
+		n1:q7h,
+		n1:s6r.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Fremdsprachen Sek II 2012 - Sprachlernkompetenz"@de;
+	dct:description """Sprachlernkompetenz beinhaltet die Fähigkeit und Bereitschaft, das eigene Sprachenlernen selbstständig zu analysieren und bewusst zu gestalten, wobei die Schülerinnen und Schüler auf ihr mehrsprachiges Wissen und auf individuelle Sprachlernerfahrungen zurückgreifen.
+
+Sprachlernkompetenz zeigt sich erstens im Verfügen über sprachbezogene Lernmethoden und in der Beherrschung daraus abgeleiteter, konkreter Strategien. Sie zeigt sich zweitens in der Beobachtung und Evaluation der eigenen Sprachlernmotivation, -prozesse und -ergebnisse sowie drittens in der Bereitschaft und Fähigkeit, begründete Konsequenzen daraus zu ziehen.
+
+Sprachbewusstheit und Sprachlernkompetenz haben überdies einen eigenen Bildungswert, sowohl im Hinblick auf die Persönlichkeitsbildung der jungen Erwachsenen als auch auf Berufs- und Wissenschaftspropädeutik. 
+
+Die Schülerinnen und Schüler können ihre sprachlichen Kompetenzen und ihre vorhandene Mehrsprachigkeit (Erstsprache, ggf. Zweitsprache, Fremdsprachen) selbstständig und reflektiert erweitern. Dabei nutzen sie zielgerichtet ein breites Repertoire von Strategien und Techniken des reflexiven Sprachenlernens."""@de;
+	skos:hasTopConcept
+		n1:e9b,
+		n1:c7f.

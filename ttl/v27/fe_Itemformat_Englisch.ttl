@@ -1,0 +1,61 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v27/fe/>. 
+
+n0:y9s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Multiple Choice (MC)"@de.
+n0:d4d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Complex Multiple Choice (CMC)"@de.
+n0:b7u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Multiple Matching (MM)"@de.
+n0:r7e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Short Answer Question"@de.
+n0:q6t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Table Completion (TC)"@de.
+n0:q4b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sentence Completion (SC)"@de.
+n0:h3u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Markieren"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Itemformat - Itemformat Englisch"@de;
+	dc:title "Itemformat - Itemformat Englisch"@de;
+	dc:description "Itemformat - Itemformat Englisch"@de;
+	skos:hasTopConcept
+		n0:y9s,
+		n0:d4d,
+		n0:b7u,
+		n0:r7e,
+		n0:q6t,
+		n0:q4b,
+		n0:h3u.

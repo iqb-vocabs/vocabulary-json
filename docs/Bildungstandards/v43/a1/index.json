@@ -1,0 +1,758 @@
+{
+  "id": "https://w3id.org/iqb/v43/a1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Biologie MSA 2004 - Anforderungsbereiche"
+  },
+  "description": {
+    "de": "Da noch keine empirisch abgesicherten Kompetenzstufenmodelle vorliegen, wird zunächst zur Einschätzung der in den Aufgabenbeispielen gestellten Anforderungen auf drei Bereiche zurückgegriffen, die sich in ihrer Beschreibung an den Einheitlichen Prüfungsanforderungen in der Abiturprüfung (EPA) orientieren. Dabei gilt, dass die Anforderungsbereiche nicht Ausprägungen oder Niveaustufen einer Kompetenz sind. Es handelt sich vielmehr um Merkmale von Aufgaben, die verschiedene Schwierigkeitsgrade innerhalb ein und derselben Kompetenz abbilden können. Die nachfolgenden Formulierungen zeigen deshalb zunächst charakterisierende Kriterien zur Einordnung in einen der Anforderungsbereiche auf.e"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v43/a1/q9u",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Anforderungsbereich I"
+      },
+      "definition": {
+        "de": "Sachverhalte, Methoden und Fertigkeiten reproduzieren.\\\n\\\nDieses Anspruchsniveau umfasst die Wiedergabe von Fachwissen und die Wiederverwendung von Methoden und Fertigkeiten."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v43/a1/c7u",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "Fachwissen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v43/a1/x5u",
+              "notation": [
+                "1.1.1"
+              ],
+              "prefLabel": {
+                "de": "Basiskonzepte kennen und mit bekannten Beispielen beschreiben,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/z5b",
+              "notation": [
+                "1.1.2"
+              ],
+              "prefLabel": {
+                "de": "Kenntnisse wiedergeben und mit Konzepten verknüpfen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/a1/a3t",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "Erkenntnisgewinnung"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v43/a1/p6e",
+              "notation": [
+                "1.2.1"
+              ],
+              "prefLabel": {
+                "de": "Versuche nach Anleitung durchführen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/r7x",
+              "notation": [
+                "1.2.2"
+              ],
+              "prefLabel": {
+                "de": "Versuche sachgerecht protokollieren,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/s3x",
+              "notation": [
+                "1.2.3"
+              ],
+              "prefLabel": {
+                "de": "Arbeitstechniken sachgerecht anwenden,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/a9u",
+              "notation": [
+                "1.2.4"
+              ],
+              "prefLabel": {
+                "de": "Untersuchungsmethoden und Modelle kennen und verwenden,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/e9c",
+              "notation": [
+                "1.2.5"
+              ],
+              "prefLabel": {
+                "de": "kriterienbezogene Vergleiche beschreiben,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/h7e",
+              "notation": [
+                "1.2.6"
+              ],
+              "prefLabel": {
+                "de": "Modelle sachgerecht nutzen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/b5t",
+              "notation": [
+                "1.2.7"
+              ],
+              "prefLabel": {
+                "de": "Modelle praktisch erstellen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/a1/a5e",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "Kommunikation"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v43/a1/r4r",
+              "notation": [
+                "1.3.1"
+              ],
+              "prefLabel": {
+                "de": "Eigene Kenntnisse und Arbeitsergebnisse kommunizieren,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/u9h",
+              "notation": [
+                "1.3.2"
+              ],
+              "prefLabel": {
+                "de": "Fachsprache benutzen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/e4f",
+              "notation": [
+                "1.3.3"
+              ],
+              "prefLabel": {
+                "de": "Informationen aus leicht erschließbaren Texten, Schemata und anderen Darstellungsformen entnehmen, verarbeiten und kommunizieren."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/a1/s9g",
+          "notation": [
+            "1.4"
+          ],
+          "prefLabel": {
+            "de": "Bewertung"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v43/a1/z9u",
+              "notation": [
+                "1.4.1"
+              ],
+              "prefLabel": {
+                "de": "Biologischen Sachverhalt in einem bekanntem Bewertungskontext wiedergeben,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/b3h",
+              "notation": [
+                "1.4.2"
+              ],
+              "prefLabel": {
+                "de": "Bewertungen nachvollziehen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/x5a",
+              "notation": [
+                "1.4.3"
+              ],
+              "prefLabel": {
+                "de": "bekannte Bewertungskriterien zu Gesundheit, Menschenwürde, intakte Umwelt, Nachhaltigkeit beschreiben."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v43/a1/a3g",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Anforderungsbereich II"
+      },
+      "definition": {
+        "de": "Sachverhalte, Methoden und Fertigkeiten in neuem Zusammenhang benutzen.\\\n\\\nDieses Niveau umfasst die Bearbeitung grundlegender bekannter Sachverhalte in neuen Kontexten, wobe1.das zugrunde liegende Fachwissen bzw. die Kompetenzen auch in anderen thematischen Zusammenhängen erworben sein können."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v43/a1/v7a",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "Fachwissen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v43/a1/a2f",
+              "notation": [
+                "2.1.1"
+              ],
+              "prefLabel": {
+                "de": "Biologisches Wissen in einfachen Kontexten verwenden,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/g2x",
+              "notation": [
+                "2.1.2"
+              ],
+              "prefLabel": {
+                "de": "neue Sachverhalte konzeptbezogen beschreiben und erklären,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/u5t",
+              "notation": [
+                "2.1.3"
+              ],
+              "prefLabel": {
+                "de": "biologische Sachverhalte auf verschiedenen Systemebenen erklären,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/e2z",
+              "notation": [
+                "2.1.4"
+              ],
+              "prefLabel": {
+                "de": "bekannte biologische Phänomene mit Basiskonzepten, Fakten und Prinzipien erläutern."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/a1/q7y",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "Erkenntnisgewinnung"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v43/a1/e7y",
+              "notation": [
+                "2.2.1"
+              ],
+              "prefLabel": {
+                "de": "Biologische Fachfragen stellen und Hypothesen formulieren,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/s2r",
+              "notation": [
+                "2.2.2"
+              ],
+              "prefLabel": {
+                "de": "Experimente planen, durchführen und deuten,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/g5x",
+              "notation": [
+                "2.2.3"
+              ],
+              "prefLabel": {
+                "de": "Beobachtungen und Daten auswerten,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/s3t",
+              "notation": [
+                "2.2.4"
+              ],
+              "prefLabel": {
+                "de": "biologiespezifische Arbeitstechniken in neuem Zusammenhang anwenden,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/y3e",
+              "notation": [
+                "2.2.5"
+              ],
+              "prefLabel": {
+                "de": "Unterschiede und Gemeinsamkeiten kriterienbezogen analysieren,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/h5c",
+              "notation": [
+                "2.2.6"
+              ],
+              "prefLabel": {
+                "de": "Sachverhalte mit Modellen erklären."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/a1/y9z",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "Kommunikation"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v43/a1/a6s",
+              "notation": [
+                "2.3.1"
+              ],
+              "prefLabel": {
+                "de": "Darstellungsformen wechseln,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/v6t",
+              "notation": [
+                "2.3.2"
+              ],
+              "prefLabel": {
+                "de": "Fachsprache in neuen Kontexten benutzen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/g4p",
+              "notation": [
+                "2.3.3"
+              ],
+              "prefLabel": {
+                "de": "Fachsprache in Alltagssprache und umgekehrt übersetzen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/z5s",
+              "notation": [
+                "2.3.4"
+              ],
+              "prefLabel": {
+                "de": "Alltagsvorstellungen und biologische Sachverhalte unterscheiden."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/a1/p5r",
+          "notation": [
+            "2.4"
+          ],
+          "prefLabel": {
+            "de": "Bewertung"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v43/a1/a7f",
+              "notation": [
+                "2.4.1"
+              ],
+              "prefLabel": {
+                "de": "Biologische Sachverhalte in einem neuen Bewertungskontext erläutern,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/v7p",
+              "notation": [
+                "2.4.2"
+              ],
+              "prefLabel": {
+                "de": "Entscheidungen bezüglich Mensch oder Natur in einem neuen Bewertungskontext erkennen und beschreiben,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/r2z",
+              "notation": [
+                "2.4.3"
+              ],
+              "prefLabel": {
+                "de": "Sachverhalt in Beziehung setzen mit Werten zu Gesundheit, Menschenwürde, intakte Umwelt, Nachhaltigkeit."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v43/a1/a4x",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Anforderungsbereich III"
+      },
+      "definition": {
+        "de": "Sachverhalte neu erarbeiten und reflektieren sowie Methoden und Fertigkeiten eigenständig anwenden.\\\n\\\nDieses Niveau umfasst die eigenständige Erarbeitung und Reflexion unbekannter Sachverhalte und Probleme auf der Grundlage des Vorwissens. Konzeptwissen und Kompetenzen werden u. a. genutzt für eigene Erklärungen, Untersuchungen, Modellbildungen oder Stellungnahmen."
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v43/a1/r6v",
+          "notation": [
+            "3.1"
+          ],
+          "prefLabel": {
+            "de": "Fachwissen"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v43/a1/c6s",
+              "notation": [
+                "3.1.1"
+              ],
+              "prefLabel": {
+                "de": "Biologisches Wissen in komplexeren Kontexten neu verwenden,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/d3c",
+              "notation": [
+                "3.1.2"
+              ],
+              "prefLabel": {
+                "de": "neue Sachverhalte aus verschiedenen biologischen oder naturwissenschaftlichen Perspektiven erklären,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/c6b",
+              "notation": [
+                "3.1.3"
+              ],
+              "prefLabel": {
+                "de": "Systemebenen eigenständig wechseln für Erklärungen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/a1/b9z",
+          "notation": [
+            "3.2"
+          ],
+          "prefLabel": {
+            "de": "Erkenntnisgewinnung"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v43/a1/c2e",
+              "notation": [
+                "3.2.1"
+              ],
+              "prefLabel": {
+                "de": "Eigenständig biologische Fragen und Hypothesen finden und formulieren,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/x7z",
+              "notation": [
+                "3.2.2"
+              ],
+              "prefLabel": {
+                "de": "Daten hypothesen- und fehlerbezogen auswerten und interpretieren,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/h2y",
+              "notation": [
+                "3.2.3"
+              ],
+              "prefLabel": {
+                "de": "Organismen ordnen anhand selbst gewählter Kriterien,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/p7h",
+              "notation": [
+                "3.2.4"
+              ],
+              "prefLabel": {
+                "de": "Arbeitstechniken zielgerichtet auswählen oder variieren,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/d4v",
+              "notation": [
+                "3.2.5"
+              ],
+              "prefLabel": {
+                "de": "Hypothesen erstellen mit einem Modell,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/p4r",
+              "notation": [
+                "3.2.6"
+              ],
+              "prefLabel": {
+                "de": "Modelle kritisch prüfen im Hinblick auf ihre Aussagekraft und Tragfähigkeit."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/a1/z5a",
+          "notation": [
+            "3.3"
+          ],
+          "prefLabel": {
+            "de": "Kommunikation"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v43/a1/d9y",
+              "notation": [
+                "3.3.1"
+              ],
+              "prefLabel": {
+                "de": "verschiedene Informationsquellen bei der Bearbeitung neuer Sachverhalte zielführend nutzen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/s3u",
+              "notation": [
+                "3.3.2"
+              ],
+              "prefLabel": {
+                "de": "eigenständig sach- und adressatengerecht argumentieren und debattieren sowie Lösungsvorschläge begründen."
+              }
+            }
+          ]
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/a1/f9s",
+          "notation": [
+            "3.4"
+          ],
+          "prefLabel": {
+            "de": "Bewertung"
+          },
+          "narrower": [
+            {
+              "id": "https://w3id.org/iqb/v43/a1/q3v",
+              "notation": [
+                "3.4.1"
+              ],
+              "prefLabel": {
+                "de": "Biologische Sachverhalte in einem neuem Bewertungskontext erklären,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/p6s",
+              "notation": [
+                "3.4.2"
+              ],
+              "prefLabel": {
+                "de": "Fremdperspektiven einnehmen und Verständnis entwickeln für andersartige Entscheidungen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/p4q",
+              "notation": [
+                "3.4.3"
+              ],
+              "prefLabel": {
+                "de": "eigenständig Stellung nehmen,"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v43/a1/f9g",
+              "notation": [
+                "3.4.4"
+              ],
+              "prefLabel": {
+                "de": "gesellschaftliche Verhandelbarkeit von Werten begründend erörtern"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

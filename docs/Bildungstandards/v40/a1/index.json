@@ -1,0 +1,338 @@
+{
+  "id": "https://w3id.org/iqb/v40/a1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Bildungsstandards Chemie MSA 2004 - Anforderungsbereiche"
+  },
+  "description": {
+    "de": "Da noch keine empirisch abgesicherten Kompetenzstufenmodelle vorliegen, wird zunächst zur Einschätzung der in den Aufgabenbeispielen gestellten Anforderungen auf drei Bereiche zurückgegriffen, die sich in ihrer Beschreibung an den Einheitlichen Prüfungsanforderungen in der Abiturprüfung (EPA) orientieren. Dabei gilt, dass die Anforderungsbereiche nicht Ausprägungen oder Niveaustufen einer Kompetenz sind. Es handelt sich vielmehr um Merkmale von Aufgaben, die verschiedene Schwierigkeitsgrade innerhalb ein und derselben Kompetenz abbilden können. Die nachfolgenden Formulierungen zeigen deshalb zunächst charakterisierende Kriterien zur Einordnung in einen der Anforderungsbereiche auf."
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v40/a1/a3d",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Anforderungsbereich I"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v40/a1/x4u",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "Fachwissen"
+          },
+          "definition": {
+            "de": "Kenntnisse und Konzepte zielgerichtet wiedergeben"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/a1/h7a",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "Erkenntnisgewinnung"
+          },
+          "definition": {
+            "de": "bekannte Untersuchungsmethoden und Modelle beschreiben, Untersuchungen nach Anleitung durchführen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/a1/a7f",
+          "notation": [
+            "1.3"
+          ],
+          "prefLabel": {
+            "de": "Kommunikation"
+          },
+          "definition": {
+            "de": "bekannte Informationen in verschiedenen fachlich relevanten Darstellungsformen erfassen und wiedergeben"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/a1/a4d",
+          "notation": [
+            "1.4"
+          ],
+          "prefLabel": {
+            "de": "Bewertung"
+          },
+          "definition": {
+            "de": "vorgegebene Argumente zur Bewertung eines Sachverhaltes erkennen und wiedergeben"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v40/a1/e9b",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Anforderungsbereich II"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v40/a1/u2f",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "Fachwissen"
+          },
+          "definition": {
+            "de": "Kenntnisse und Konzepte auswählen und anwenden"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/a1/a9z",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "Erkenntnisgewinnung"
+          },
+          "definition": {
+            "de": "geeignete Untersuchungsmethoden und Modelle zur Bearbeitung überschaubarer Sachverhalte auswählen und anwenden"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/a1/g7z",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "Kommunikation"
+          },
+          "definition": {
+            "de": "Informationen erfassen und in geeigneten Darstellungsformen situations- und adressatengerecht veranschaulichen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/a1/g2e",
+          "notation": [
+            "2.4"
+          ],
+          "prefLabel": {
+            "de": "Bewertung"
+          },
+          "definition": {
+            "de": "geeignete Argumente zur Bewertung eines Sachverhaltes auswählen und nutzen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v40/a1/t4z",
+      "notation": [
+        "3"
+      ],
+      "prefLabel": {
+        "de": "Anforderungsbereich III"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v40/a1/s2r",
+          "notation": [
+            "3.1"
+          ],
+          "prefLabel": {
+            "de": "Fachwissen"
+          },
+          "definition": {
+            "de": "komplexere Fragestellungen auf der Grundlage von Kenntnissen und Konzepten planmäßig und konstruktiv bearbeiten"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/a1/b3t",
+          "notation": [
+            "3.2"
+          ],
+          "prefLabel": {
+            "de": "Erkenntnisgewinnung"
+          },
+          "definition": {
+            "de": "geeignete Untersuchungsmethoden und Modelle zur Bearbeitung komplexer Sachverhalte begründet auswählen und anpassen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/a1/d3c",
+          "notation": [
+            "3.3"
+          ],
+          "prefLabel": {
+            "de": "Kommunikation"
+          },
+          "definition": {
+            "de": "Informationen auswerten, reflektieren und für eigene Argumentationen nutzen"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/a1/r7z",
+          "notation": [
+            "3.4"
+          ],
+          "prefLabel": {
+            "de": "Bewertung"
+          },
+          "definition": {
+            "de": "Argumente zur Bewertung eines Sachverhaltes aus verschiedenen Perspektiven abwägen und Entscheidungsprozesse reflekstieren"
+          }
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

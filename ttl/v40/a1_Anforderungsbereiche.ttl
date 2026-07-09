@@ -1,0 +1,132 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v40/a1/>. 
+@prefix n1: <https://w3id.org/iqb/v40/a1/>. 
+
+n1:x4u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:a3d;
+	skos:prefLabel "Fachwissen"@de; 
+	skos:definition "Kenntnisse und Konzepte zielgerichtet wiedergeben"@de.
+n1:h7a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:a3d;
+	skos:prefLabel "Erkenntnisgewinnung"@de; 
+	skos:definition "bekannte Untersuchungsmethoden und Modelle beschreiben, Untersuchungen nach Anleitung durchführen"@de.
+n1:a7f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:a3d;
+	skos:prefLabel "Kommunikation"@de; 
+	skos:definition "bekannte Informationen in verschiedenen fachlich relevanten Darstellungsformen erfassen und wiedergeben"@de.
+n1:a4d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4";
+	skos:broader n1:a3d;
+	skos:prefLabel "Bewertung"@de; 
+	skos:definition "vorgegebene Argumente zur Bewertung eines Sachverhaltes erkennen und wiedergeben"@de.
+n1:a3d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Anforderungsbereich I"@de;
+	skos:narrower 
+		n1:x4u,
+		n1:h7a,
+		n1:a7f,
+		n1:a4d.
+n1:u2f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:e9b;
+	skos:prefLabel "Fachwissen"@de; 
+	skos:definition "Kenntnisse und Konzepte auswählen und anwenden"@de.
+n1:a9z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:e9b;
+	skos:prefLabel "Erkenntnisgewinnung"@de; 
+	skos:definition "geeignete Untersuchungsmethoden und Modelle zur Bearbeitung überschaubarer Sachverhalte auswählen und anwenden"@de.
+n1:g7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n1:e9b;
+	skos:prefLabel "Kommunikation"@de; 
+	skos:definition "Informationen erfassen und in geeigneten Darstellungsformen situations- und adressatengerecht veranschaulichen"@de.
+n1:g2e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4";
+	skos:broader n1:e9b;
+	skos:prefLabel "Bewertung"@de; 
+	skos:definition "geeignete Argumente zur Bewertung eines Sachverhaltes auswählen und nutzen"@de.
+n1:e9b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Anforderungsbereich II"@de;
+	skos:narrower 
+		n1:u2f,
+		n1:a9z,
+		n1:g7z,
+		n1:g2e.
+n1:s2r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n1:t4z;
+	skos:prefLabel "Fachwissen"@de; 
+	skos:definition "komplexere Fragestellungen auf der Grundlage von Kenntnissen und Konzepten planmäßig und konstruktiv bearbeiten"@de.
+n1:b3t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2";
+	skos:broader n1:t4z;
+	skos:prefLabel "Erkenntnisgewinnung"@de; 
+	skos:definition "geeignete Untersuchungsmethoden und Modelle zur Bearbeitung komplexer Sachverhalte begründet auswählen und anpassen"@de.
+n1:d3c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.3";
+	skos:broader n1:t4z;
+	skos:prefLabel "Kommunikation"@de; 
+	skos:definition "Informationen auswerten, reflektieren und für eigene Argumentationen nutzen"@de.
+n1:r7z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.4";
+	skos:broader n1:t4z;
+	skos:prefLabel "Bewertung"@de; 
+	skos:definition "Argumente zur Bewertung eines Sachverhaltes aus verschiedenen Perspektiven abwägen und Entscheidungsprozesse reflekstieren"@de.
+n1:t4z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Anforderungsbereich III"@de;
+	skos:narrower 
+		n1:s2r,
+		n1:b3t,
+		n1:d3c,
+		n1:r7z.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Chemie MSA 2004 - Anforderungsbereiche"@de;
+	dct:description """Da noch keine empirisch abgesicherten Kompetenzstufenmodelle vorliegen, wird zunächst zur Einschätzung der in den Aufgabenbeispielen gestellten Anforderungen auf drei Bereiche zurückgegriffen, die sich in ihrer Beschreibung an den Einheitlichen Prüfungsanforderungen in der Abiturprüfung (EPA) orientieren. Dabei gilt, dass die Anforderungsbereiche nicht Ausprägungen oder Niveaustufen einer Kompetenz sind. Es handelt sich vielmehr um Merkmale von Aufgaben, die verschiedene Schwierigkeitsgrade innerhalb ein und derselben Kompetenz abbilden können. Die nachfolgenden Formulierungen zeigen deshalb zunächst charakterisierende Kriterien zur Einordnung in einen der Anforderungsbereiche auf."""@de;
+	skos:hasTopConcept
+		n1:a3d,
+		n1:e9b,
+		n1:t4z.

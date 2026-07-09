@@ -1,166 +1,371 @@
 {
   "v05": {
     "category": "Aufgaben und Items",
-    "subVocabs": ["r1"]
-  },
-  "v06": {
-    "category": "Aufgaben und Items",
-    "subVocabs": ["t1"]
+    "subVocabs": [
+      "r1"
+    ]
   },
   "v09": {
     "category": "Bildungstandards",
-    "subVocabs": ["a1", "k1", "n1"]
+    "subVocabs": [
+      "a1",
+      "k1",
+      "n1"
+    ]
   },
   "v10": {
     "category": "Bildungstandards",
-    "subVocabs": ["a1", "i1", "p1"]
+    "subVocabs": [
+      "a1",
+      "i1",
+      "p1"
+    ]
   },
   "v11": {
     "category": "Skalen",
-    "subVocabs": ["cw"]
+    "subVocabs": [
+      "cw"
+    ]
   },
   "v12": {
     "category": "Bildungstandards",
-    "subVocabs": ["a1", "s1"]
+    "subVocabs": [
+      "a1",
+      "s1"
+    ]
   },
   "v13": {
     "category": "Bildungstandards",
-    "subVocabs": ["a1", "k1"]
+    "subVocabs": [
+      "a1",
+      "k1"
+    ]
   },
   "v24": {
     "category": "Aufgaben und Items",
-    "subVocabs": ["kh"]
+    "subVocabs": [
+      "kh"
+    ]
   },
   "v25": {
     "category": "Aufgaben und Items",
-    "subVocabs": ["av", "fv", "le", "ne", "sa", "sp", "ta", "te", "th", "ve", "vf"]
+    "subVocabs": [
+      "av",
+      "fv",
+      "le",
+      "ne",
+      "sa",
+      "sp",
+      "ta",
+      "te",
+      "th",
+      "ve",
+      "vf"
+    ]
   },
   "v26": {
     "category": "Aufgaben und Items",
-    "subVocabs": ["ea", "kd", "lh", "nb", "ng"]
+    "subVocabs": [
+      "ea",
+      "kd",
+      "lh",
+      "nb",
+      "ng"
+    ]
   },
   "v27": {
     "category": "Aufgaben und Items",
-    "subVocabs": ["dp", "ds", "fe", "ff", "it", "mp", "ms", "ns", "ti"]
+    "subVocabs": [
+      "dp",
+      "ds",
+      "fe",
+      "ff",
+      "it",
+      "mp",
+      "ms",
+      "ns",
+      "ti"
+    ]
   },
   "v28": {
     "category": "Aufgaben und Items",
-    "subVocabs": ["aq", "dv", "ss", "ts"]
+    "subVocabs": [
+      "aq",
+      "dv",
+      "ss",
+      "ts"
+    ]
   },
   "v29": {
     "category": "Aufgaben und Items",
-    "subVocabs": ["ek", "ep"]
+    "subVocabs": [
+      "ek",
+      "ep"
+    ]
   },
   "v30": {
     "category": "Bildungstandards",
-    "subVocabs": ["k1", "n1"]
+    "subVocabs": [
+      "k1",
+      "n1"
+    ]
   },
   "v31": {
     "category": "Bildungstandards",
-    "subVocabs": ["k1", "n1"]
+    "subVocabs": [
+      "k1",
+      "n1"
+    ]
   },
   "v34": {
     "category": "Bildungstandards",
-    "subVocabs": ["a1", "se", "sm"]
+    "subVocabs": [
+      "a1",
+      "se",
+      "sm"
+    ]
   },
   "v36": {
     "category": "Bildungstandards",
-    "subVocabs": ["a1", "b1", "k1"]
+    "subVocabs": [
+      "a1",
+      "b1",
+      "k1"
+    ]
   },
   "v37": {
     "category": "Aufgaben und Items",
-    "subVocabs": ["zg"]
+    "subVocabs": [
+      "zg"
+    ]
   },
   "v40": {
     "category": "Bildungstandards",
-    "subVocabs": ["a1", "k1"]
+    "subVocabs": [
+      "a1",
+      "k1"
+    ]
   },
   "v41": {
     "category": "Bildungstandards",
-    "subVocabs": ["a1", "b1", "i1", "k1"]
+    "subVocabs": [
+      "a1",
+      "b1",
+      "i1",
+      "k1"
+    ]
   },
   "v42": {
     "category": "Bildungstandards",
-    "subVocabs": ["a1", "b1", "i1", "k1"]
+    "subVocabs": [
+      "a1",
+      "b1",
+      "i1",
+      "k1"
+    ]
   },
   "v43": {
     "category": "Bildungstandards",
-    "subVocabs": ["a1", "k1"]
+    "subVocabs": [
+      "a1",
+      "k1"
+    ]
   },
   "v44": {
     "category": "Bildungstandards",
-    "subVocabs": ["a1", "b1", "i1", "k1"]
+    "subVocabs": [
+      "a1",
+      "b1",
+      "i1",
+      "k1"
+    ]
   },
   "v45": {
     "category": "Bildungstandards",
-    "subVocabs": ["a1", "b1", "i1", "k1"]
+    "subVocabs": [
+      "a1",
+      "b1",
+      "i1",
+      "k1"
+    ]
   },
   "v46": {
     "category": "Bildungstandards",
-    "subVocabs": ["a1", "b1", "k1"]
+    "subVocabs": [
+      "a1",
+      "b1",
+      "k1"
+    ]
   },
   "v47": {
     "category": "Bildungstandards",
-    "subVocabs": ["a1", "b1", "i1", "k1"]
+    "subVocabs": [
+      "a1",
+      "b1",
+      "i1",
+      "k1"
+    ]
   },
   "v48": {
     "category": "Bildungstandards",
-    "subVocabs": ["a1", "b1", "i1", "k1"]
+    "subVocabs": [
+      "a1",
+      "b1",
+      "i1",
+      "k1"
+    ]
   },
   "v51": {
     "category": "Bildungstandards",
-    "subVocabs": ["a1", "p1", "ie", "im"]
+    "subVocabs": [
+      "a1",
+      "p1",
+      "ie",
+      "im"
+    ]
   },
   "v52": {
     "category": "Bildungstandards",
-    "subVocabs": ["a1", "k1", "n1"]
+    "subVocabs": [
+      "a1",
+      "k1",
+      "n1"
+    ]
   },
   "v53": {
     "category": "Bildungstandards",
-    "subVocabs": ["a1", "k1", "n1"]
+    "subVocabs": [
+      "a1",
+      "k1",
+      "n1"
+    ]
   },
   "v55": {
     "category": "Bildungstandards",
-    "subVocabs": ["a1", "k1", "l1"]
+    "subVocabs": [
+      "a1",
+      "k1",
+      "l1"
+    ]
   },
   "v56": {
     "category": "Bildungstandards",
-    "subVocabs": ["be", "bm", "fe", "fm", "ie", "im", "le", "lm", "te", "tm", "ve", "vm"]
+    "subVocabs": [
+      "be",
+      "bm",
+      "fe",
+      "fm",
+      "ie",
+      "im",
+      "le",
+      "lm",
+      "te",
+      "tm",
+      "ve",
+      "vm"
+    ]
   },
   "v57": {
     "category": "Bildungstandards",
-    "subVocabs": ["e1", "f1"]
+    "subVocabs": [
+      "e1",
+      "f1"
+    ]
   },
   "v58": {
     "category": "Bildungstandards",
-    "subVocabs": ["e1"]
+    "subVocabs": [
+      "e1"
+    ]
   },
   "v59": {
     "category": "Bildungstandards",
-    "subVocabs": ["f1", "f2", "f3", "f4", "f5", "f6"]
+    "subVocabs": [
+      "f1",
+      "f2",
+      "f3",
+      "f4",
+      "f5",
+      "f6"
+    ]
   },
   "v70": {
     "category": "Skalen",
-    "subVocabs": ["di1", "dh2", "dh3", "dm1", "dm2", "dm3", "dm4", "dm5", "dp1", "dp2", "dp3", "dp4", "eh1", "eh2", "em1", "em2", "fm1", "fm2", "mh1", "mm1", "mp1"]
+    "subVocabs": [
+      "di1",
+      "dh2",
+      "dh3",
+      "dm1",
+      "dm2",
+      "dm3",
+      "dm4",
+      "dm5",
+      "dp1",
+      "dp2",
+      "dp3",
+      "dp4",
+      "eh1",
+      "eh2",
+      "em1",
+      "em2",
+      "fm1",
+      "fm2",
+      "mh1",
+      "mm1",
+      "mp1"
+    ]
   },
   "v71": {
     "category": "Skalen",
-    "subVocabs": ["di1", "di2", "di3", "dm1", "dm2", "dp1", "dp2", "dp3", "dp4", "ei1", "ei2", "fm1", "fm2", "mi1", "mp1", "bm1", "bm2", "cm1", "cm2", "am1", "am2"]
+    "subVocabs": [
+      "di1",
+      "di2",
+      "di3",
+      "dm1",
+      "dm2",
+      "dp1",
+      "dp2",
+      "dp3",
+      "dp4",
+      "ei1",
+      "ei2",
+      "fm1",
+      "fm2",
+      "mi1",
+      "mp1",
+      "bm1",
+      "bm2",
+      "cm1",
+      "cm2",
+      "am1",
+      "am2"
+    ]
   },
   "v85": {
     "category": "Forschungsdaten",
-    "subVocabs": ["av", "df", "dt", "dt2", "ed", "ee", "em", "v1", "v2", "fd", "fg", "tb", "vf", "zu"]
+    "subVocabs": [
+      "av",
+      "df",
+      "dt",
+      "dt2",
+      "ed",
+      "ee",
+      "em",
+      "v1",
+      "v2",
+      "fd",
+      "fg",
+      "tb",
+      "vf",
+      "zu"
+    ]
   },
   "v87": {
     "category": "Forschungsdaten",
-    "subVocabs": ["ca", "cp", "cq"]
-  },
-  "v88": {
-    "category": "Aufgaben und Items",
-    "subVocabs": ["dv", "tt"]
-  },
-  "v99": {
-    "category": "Aufgaben und Items",
-    "subVocabs": ["pc", "sc"]
+    "subVocabs": [
+      "ca",
+      "cp",
+      "cq"
+    ]
   }
 }

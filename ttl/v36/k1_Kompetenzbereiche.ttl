@@ -1,0 +1,78 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v36/k1/>. 
+@prefix n1: <https://w3id.org/iqb/v36/k1/>. 
+
+n1:q6p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:a9v;
+	skos:prefLabel "Sich mit Texten und Medien auseinandersetzen"@de; 
+	skos:definition "sich literarische und pragmatische Texte unterschiedlicher medialer Form erschließen"@de.
+n1:a9v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Domänenspezifischer Kompetenzbereich"@de;
+	skos:narrower 
+		n1:q6p.
+n1:q7p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:t6a;
+	skos:prefLabel "Sprechen und Zuhören"@de; 
+	skos:definition " sich mithilfe der gesprochenen Sprache zu unterschiedlichen Zwecken über verschiedene Sachverhalte mit anderen verständigen"@de.
+n1:g5y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:t6a;
+	skos:prefLabel "Schreiben"@de; 
+	skos:definition "sich mithilfe selbst verfasster Texte über verschiedene Sachverhalte verständigen, sich Wissen aneignen und Identität ausdrücken"@de.
+n1:d4c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n1:t6a;
+	skos:prefLabel "Lesen"@de; 
+	skos:definition "Texte verstehen, sie mit externen Wissensbeständen verbinden und die eigene Lesekompetenz für den analytischen, interpretatorischen sowie kreativen Umgang mit Texten und zur persönlichen Entwicklung und gesellschaftlichen Teilhabe nutzen"@de.
+n1:t6a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Prozessbezogene Kompetenzbereiche"@de;
+	skos:narrower 
+		n1:q7p,
+		n1:g5y,
+		n1:d4c.
+n1:e7d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n1:e2a;
+	skos:prefLabel "Sprache und Sprachgebrauch reflektieren"@de; 
+	skos:definition "sich mit Sprache als System sowie als historisch gewordenem Kommunikationsmedium auseinandersetzen"@de.
+n1:e2a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Domänenspezifischer Kompetenzbereich"@de;
+	skos:narrower 
+		n1:e7d.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Bildungsstandards Deutsch Sek II 2012 - Kompetenzbereiche und ihre Struktur"@de;
+	dct:description """Die Bildungsstandards im Fach Deutsch für die Allgemeine Hochschulreife sind in fünf Kompetenzbereiche gegliedert, die in komplexer Weise miteinander verzahnt sind. In den Kompetenzbereichen „Sprechen und Zuhören“, „Schreiben“ und „Lesen“ werden dabei sowohl produktive als auch rezeptive Kompetenzen ausgewiesen. Diese prozessbezogenen Kompetenzen sind fachbezogen wie überfachlich bedeutsam. Sie knüpfen an die in den Bildungsstandards für den Mittleren Schulabschluss festgelegten Kompetenzen an, werden aber im Sinne der propädeutischen Zielsetzung der gymnasialen Oberstufe qualitativ weiterentwickelt. Die Kompetenzbereiche „Sich mit Texten und Medien auseinandersetzen“ und „Sprache und Sprachgebrauch reflektieren“ weisen die fachspezifischen Domänen aus, in denen die prozessbezogenen Kompetenzen verbindlich konkretisiert werden. Schülerinnen und Schüler sichern und erweitern die in der Sekundarstufe I erworbenen Kompetenzen in Bezug auf den Grad der Selbstständigkeit und Reflektiertheit, die Komplexität und den Voraussetzungsreichtum der
+produktiven und rezeptiven sprachlichen Handlungen. So werden die Grundlagen für fachliches und überfachliches
+Handeln mit Blick auf Anforderungen von Wissenschaft und beruflicher Bildung geschaffen."""@de;
+	skos:hasTopConcept
+		n1:a9v,
+		n1:t6a,
+		n1:e2a.
