@@ -1,0 +1,91 @@
+{
+  "id": "https://w3id.org/iqb/v06/t1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Test Tags - Example Tags"
+  },
+  "description": {
+    "de": "Kategorien für formatierte Texte als Teil der Unit-Daten"
+  },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v06/t1/transcript",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Transkript 2 für das Haupt-Audio"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v06/t1/original",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "Transkript 2 der Originalquelle"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v06/t1/adapted",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "Transkript 2 der angepassten Version für die Aufgabe"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v06/t1/didactical_guide",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Didaktische Handreichungen 2"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v06/t1/answering_full_credit",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "Richtige Antworten 2"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v06/t1/competence_level",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "Diskussion des Schwierigkeitsniveaus 2"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v06/t1/misconceptions",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "Typische Falschantworten 2"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v06/t1/problems",
+          "notation": [
+            "2.4"
+          ],
+          "prefLabel": {
+            "de": "Mögliche Probleme bei der Beantwortung 2"
+          }
+        }
+      ]
+    }
+  ]
+}
