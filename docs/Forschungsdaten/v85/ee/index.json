@@ -15,9 +15,6 @@
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v85/ee/1",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Auszubildende",
         "en": "Trainees"
@@ -25,9 +22,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/ee/23",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Babys",
         "en": "Babys"
@@ -39,9 +33,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/ee/2",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Behörden",
         "en": "Authorities"
@@ -49,9 +40,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/ee/3",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Berufsanfänger",
         "en": "Career Starters"
@@ -59,9 +47,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/ee/22",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Betriebe",
         "en": "Companies"
@@ -69,9 +54,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/ee/4",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Eltern",
         "en": "Parents"
@@ -79,9 +61,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/ee/19",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Erwachsene",
         "en": "Adults"
@@ -89,9 +68,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/ee/5",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Hochschulabsolventen",
         "en": "University Graduates"
@@ -99,9 +75,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/ee/6",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Jugendliche",
         "en": "Teenagers"
@@ -109,9 +82,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/ee/20",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Kindergartenkinder",
         "en": "Kindergarten Children"
@@ -119,9 +89,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/ee/7",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Lehrkräfte",
         "en": "Teachers"
@@ -129,9 +96,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/ee/8",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Pädagogisches Personal",
         "en": "Educational Staff"
@@ -139,9 +103,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/ee/21",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Promotionsberechtigte",
         "en": "Persons qualified for promotion"
@@ -149,9 +110,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/ee/18",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Promovierende",
         "en": "Doctoral Students"
@@ -159,9 +117,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/ee/9",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Referendare",
         "en": "Preservice Teachers"
@@ -169,9 +124,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/ee/10",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Schulabgänger",
         "en": "School Leavers"
@@ -179,9 +131,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/ee/11",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Schulen",
         "en": "Schools"
@@ -189,9 +138,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/ee/12",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Schüler",
         "en": "Students"
@@ -199,9 +145,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/ee/13",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Schulleitung",
         "en": "Principals"
@@ -209,9 +152,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/ee/17",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Studienzugangsberechtigte",
         "en": "Persons Qualified for University"
@@ -219,9 +159,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/ee/14",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Studierende",
         "en": "College Students"
@@ -229,9 +166,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/ee/15",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Vorschulkinder",
         "en": "Preschool Children"
@@ -239,9 +173,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/ee/16",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "wissenschaftliches Personal",
         "en": "Academic Staff"
@@ -249,13 +180,159 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/ee/40",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "sonstiges",
         "en": "others"
       }
     }
-  ]
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
 }

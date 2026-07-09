@@ -34,7 +34,11 @@ function buildHeader(): HTMLElement {
 
   const activeFile = activeFileIndex !== null ? vocabFiles[activeFileIndex] : null;
   const activeLabel = activeFile ? getLabel(activeFile.data.title, lang) : t('select_vocab', lang);
-  const showControls = activeFileIndex !== null;
+
+  const isTreeActive = activeFileIndex !== null && viewMode === 'tree';
+  const isCardsActive = activeFileIndex !== null && viewMode === 'cards';
+  const isBubbleActive = activeFileIndex !== null && viewMode === 'bubble';
+  const isSearchActive = viewMode === 'search';
 
   // Build two-level dropdown: category → files
   const dropdownContent = categories.map((cat, catIdx) => {
@@ -83,18 +87,17 @@ function buildHeader(): HTMLElement {
 
     <div class="header-spacer"></div>
 
-    ${showControls ? `
     <div class="view-toggle">
-      <button id="btn-tree"  class="${viewMode === 'tree'   ? 'active' : ''}" title="${t('tree_view', lang)}">
+      <button id="btn-tree"  class="${isTreeActive ? 'active' : ''}" title="${t('tree_view', lang)}">
         ${iconTree()} ${t('tree', lang)}
       </button>
-      <button id="btn-cards" class="${viewMode === 'cards'  ? 'active' : ''}" title="${t('card_view', lang)}">
+      <button id="btn-cards" class="${isCardsActive ? 'active' : ''}" title="${t('card_view', lang)}">
         ${iconCards()} ${t('cards', lang)}
       </button>
-      <button id="btn-bubble" class="${viewMode === 'bubble' ? 'active' : ''}" title="${t('ontology_graph', lang)}">
+      <button id="btn-bubble" class="${isBubbleActive ? 'active' : ''}" title="${t('ontology_graph', lang)}">
         ${iconBubble()} ${t('graph', lang)}
       </button>
-      <button id="btn-search" class="${viewMode === 'search' ? 'active' : ''}" title="${t('search', lang)}">
+      <button id="btn-search" class="${isSearchActive ? 'active' : ''}" title="${t('search', lang)}">
         ${iconSearch()} ${t('search', lang)}
       </button>
     </div>
@@ -102,7 +105,6 @@ function buildHeader(): HTMLElement {
       ${iconSearch()}
       <input id="global-search" type="search" placeholder="${t('search_concepts_placeholder', lang)}" value="${searchQuery}" />
     </div>
-    ` : ''}
 
     <div class="lang-toggle">
       <button class="lang-btn ${lang === 'de' ? 'active' : ''}" id="btn-lang-de">DE</button>
@@ -115,6 +117,7 @@ function buildHeader(): HTMLElement {
   logoBtn.addEventListener('click', (e) => {
     e.preventDefault();
     activeFileIndex = null;
+    viewMode = 'tree';
     searchQuery = '';
     openGroupIds.clear();
     rerender();
@@ -154,7 +157,9 @@ function buildHeader(): HTMLElement {
       const globalIdx = vocabFiles.indexOf(f);
       header.querySelector(`#vocab-drop-${globalIdx}`)!.addEventListener('click', () => {
         activeFileIndex = globalIdx;
-        viewMode = 'tree';
+        if (viewMode === 'search') {
+          viewMode = 'tree';
+        }
         openGroupIds.clear();
         dropdown.classList.remove('open');
         rerender();
@@ -162,20 +167,41 @@ function buildHeader(): HTMLElement {
     });
   });
 
-  // Listeners if control elements exist
-  if (showControls) {
-    header.querySelector('#btn-tree')!.addEventListener('click', () => setViewMode('tree'));
-    header.querySelector('#btn-cards')!.addEventListener('click', () => setViewMode('cards'));
-    header.querySelector('#btn-bubble')!.addEventListener('click', () => setViewMode('bubble'));
-    header.querySelector('#btn-search')!.addEventListener('click', () => setViewMode('search'));
+  // Listeners for view toggle buttons
+  header.querySelector('#btn-tree')!.addEventListener('click', () => {
+    if (activeFileIndex === null && vocabFiles.length > 0) {
+      activeFileIndex = 0;
+    }
+    setViewMode('tree');
+  });
+  header.querySelector('#btn-cards')!.addEventListener('click', () => {
+    if (activeFileIndex === null && vocabFiles.length > 0) {
+      activeFileIndex = 0;
+    }
+    setViewMode('cards');
+  });
+  header.querySelector('#btn-bubble')!.addEventListener('click', () => {
+    if (activeFileIndex === null && vocabFiles.length > 0) {
+      activeFileIndex = 0;
+    }
+    setViewMode('bubble');
+  });
+  header.querySelector('#btn-search')!.addEventListener('click', () => {
+    setViewMode('search');
+  });
 
-    const searchInput = header.querySelector<HTMLInputElement>('#global-search')!;
-    searchInput.addEventListener('input', (e) => {
-      searchQuery = (e.target as HTMLInputElement).value;
-      if (searchQuery.length > 0) setViewMode('search');
-      else rerender();
-    });
-  }
+  const searchInput = header.querySelector<HTMLInputElement>('#global-search')!;
+  searchInput.addEventListener('input', (e) => {
+    searchQuery = (e.target as HTMLInputElement).value;
+    if (searchQuery.length > 0) {
+      setViewMode('search');
+    } else {
+      if (activeFileIndex === null) {
+        viewMode = 'tree';
+      }
+      rerender();
+    }
+  });
 
   header.querySelector('#btn-lang-de')!.addEventListener('click', () => { lang = 'de'; rerender(); });
   header.querySelector('#btn-lang-en')!.addEventListener('click', () => { lang = 'en'; rerender(); });
@@ -189,6 +215,10 @@ function buildMain(): HTMLElement {
   main.className = 'main-content';
 
   if (activeFileIndex === null) {
+    if (viewMode === 'search' || searchQuery) {
+      main.appendChild(buildSearchView());
+      return main;
+    }
     main.appendChild(buildDashboard());
     return main;
   }
@@ -331,7 +361,91 @@ function buildCardsView(concepts: Concept[]): HTMLElement {
 
 function buildSearchView(): HTMLElement {
   const wrap = document.createElement('div');
-  const activeFile = activeFileIndex !== null ? vocabFiles[activeFileIndex] : null;
+  
+  if (activeFileIndex === null) {
+    if (!searchQuery) {
+      wrap.innerHTML = `
+        <div class="empty-state">
+          <div class="empty-state-icon">🔍</div>
+          <p>${t('search_prompt', lang)}</p>
+        </div>
+      `;
+      return wrap;
+    }
+
+    interface GlobalSearchResult {
+      fileIdx: number;
+      file: VocabFile;
+      concepts: Concept[];
+    }
+    const allResults: GlobalSearchResult[] = [];
+    let totalCount = 0;
+
+    vocabFiles.forEach((f, idx) => {
+      const res = searchConcepts(f.data.hasTopConcept, searchQuery, lang);
+      if (res.length > 0) {
+        allResults.push({
+          fileIdx: idx,
+          file: f,
+          concepts: res
+        });
+        totalCount += res.length;
+      }
+    });
+
+    const hdr = document.createElement('div');
+    hdr.className = 'search-results-header';
+    hdr.innerHTML = `
+      <span>${t('results_for', lang)} <strong>"${escapeHtml(searchQuery)}"</strong></span>
+      <span class="search-count">${totalCount}</span>
+    `;
+    wrap.appendChild(hdr);
+
+    if (totalCount === 0) {
+      const empty = document.createElement('div');
+      empty.className = 'empty-state';
+      empty.innerHTML = `<div class="empty-state-icon">😕</div><p>${t('no_results', lang)}</p>`;
+      wrap.appendChild(empty);
+      return wrap;
+    }
+
+    allResults.forEach((group, gIdx) => {
+      const groupSec = document.createElement('div');
+      groupSec.className = 'search-results-group';
+      
+      const groupTitle = document.createElement('h3');
+      groupTitle.className = 'search-results-group-title';
+      groupTitle.textContent = `${getLabel(group.file.data.title, lang)} (${group.file.category} · ${group.file.version})`;
+      groupSec.appendChild(groupTitle);
+
+      group.concepts.forEach((c, idx) => {
+        const item = document.createElement('div');
+        item.className = 'search-result-item animate-in';
+        item.style.animationDelay = `${(gIdx * 2 + idx) * 20}ms`;
+        
+        const label = getLabel(c.prefLabel, lang);
+        item.innerHTML = `
+          <div class="search-result-notation">${c.notation?.[0] ?? '?'}</div>
+          <div class="search-result-body">
+            <div class="search-result-label">${highlight(label, searchQuery)}</div>
+            <div class="search-result-id">${c.id}</div>
+          </div>
+        `;
+        item.addEventListener('click', () => {
+          activeFileIndex = group.fileIdx;
+          viewMode = 'tree';
+          rerender();
+          openDetail(c);
+        });
+        groupSec.appendChild(item);
+      });
+      wrap.appendChild(groupSec);
+    });
+
+    return wrap;
+  }
+
+  const activeFile = vocabFiles[activeFileIndex];
   if (!activeFile) return wrap;
   const results = searchQuery
     ? searchConcepts(activeFile.data.hasTopConcept, searchQuery, lang)
@@ -644,10 +758,12 @@ function buildDashboard(): HTMLElement {
         </div>
       `;
 
-      // Navigate to Tree mode on card click
+      // Navigate to selected view mode on card click
       card.addEventListener('click', () => {
         activeFileIndex = globalIdx;
-        viewMode = 'tree';
+        if (viewMode === 'search') {
+          viewMode = 'tree';
+        }
         rerender();
       });
 

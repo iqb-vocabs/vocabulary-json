@@ -733,6 +733,24 @@ body {
 }
 
 /* ── Search results ──────────────────────────────────────── */
+.search-results-group {
+  margin-bottom: 24px;
+}
+
+.search-results-group-title {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border-soft);
+  padding-bottom: 6px;
+  margin-top: 20px;
+}
+
+.search-results-group:first-child .search-results-group-title {
+  margin-top: 0;
+}
+
 .search-results-header {
   display: flex;
   align-items: center;
