@@ -180,12 +180,14 @@ body {
   top: calc(100% + 8px);
   left: 0;
   min-width: 320px;
+  max-height: 500px;
   background: var(--bg-surface);
   border: 1px solid var(--border);
   border-radius: var(--r-lg);
   box-shadow: var(--shadow-md);
   z-index: 500;
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
   display: none;
   animation: fadeInUp 150ms ease;
   padding: 8px 0;
@@ -549,6 +551,12 @@ body {
   font-size: 14px;
   font-weight: 600;
   color: var(--text-primary);
+  transition: color var(--t-fast);
+}
+
+.tree-group-label:hover {
+  color: var(--accent-1);
+  text-decoration: underline;
 }
 
 .tree-group-count {

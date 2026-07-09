@@ -305,7 +305,13 @@ function buildTreeView(concepts: Concept[]): HTMLElement {
       ${childCount ? `<svg class="tree-group-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>` : ''}
     `;
 
-    headerEl.addEventListener('click', () => {
+    headerEl.addEventListener('click', (e) => {
+      const target = e.target as HTMLElement;
+      if (target.classList.contains('tree-group-label')) {
+        e.stopPropagation();
+        openDetail(top);
+        return;
+      }
       if (openGroupIds.has(top.id)) openGroupIds.delete(top.id);
       else openGroupIds.add(top.id);
       headerEl.classList.toggle('expanded');
@@ -384,7 +390,7 @@ function buildCardsView(concepts: Concept[]): HTMLElement {
 
 function buildSearchView(): HTMLElement {
   const wrap = document.createElement('div');
-  
+
   if (activeFileIndex === null) {
     if (!searchQuery) {
       wrap.innerHTML = `
@@ -435,7 +441,7 @@ function buildSearchView(): HTMLElement {
     allResults.forEach((group, gIdx) => {
       const groupSec = document.createElement('div');
       groupSec.className = 'search-results-group';
-      
+
       const groupTitle = document.createElement('h3');
       groupTitle.className = 'search-results-group-title';
       groupTitle.textContent = `${getLabel(group.file.data.title, lang)} (${group.file.category} · ${group.file.version})`;
@@ -445,7 +451,7 @@ function buildSearchView(): HTMLElement {
         const item = document.createElement('div');
         item.className = 'search-result-item animate-in';
         item.style.animationDelay = `${(gIdx * 2 + idx) * 20}ms`;
-        
+
         const label = getLabel(c.prefLabel, lang);
         item.innerHTML = `
           <div class="search-result-notation">${c.notation?.[0] ?? '?'}</div>
@@ -637,7 +643,7 @@ function resolveColorWithOpacity(colorStr: string, opacity: number): string {
     const varName = colorStr.slice(4, -1).trim();
     actualColor = getComputedStyle(document.documentElement).getPropertyValue(varName).trim();
   }
-  
+
   if (!actualColor) {
     actualColor = '#b40036';
   }
@@ -954,14 +960,14 @@ function buildBubbleView(topConcepts: Concept[]): HTMLElement {
     const rect = container.getBoundingClientRect();
     const width = rect.width || 800;
     const height = 500;
-    
+
     const dpr = window.devicePixelRatio || 1;
     canvas.width = width * dpr;
     canvas.height = height * dpr;
     canvas.style.width = `${width}px`;
     canvas.style.height = `${height}px`;
     ctx.scale(dpr, dpr);
-    
+
     rebuildGraph();
   }
 
@@ -1006,7 +1012,7 @@ function buildBubbleView(topConcepts: Concept[]): HTMLElement {
       const dx = target.x - source.x;
       const dy = target.y - source.y;
       const dist = Math.hypot(dx, dy) || 1;
-      
+
       const targetLen = source.isRoot ? 110 : 85;
       const strength = 0.05;
       const diff = dist - targetLen;
@@ -1073,7 +1079,7 @@ function buildBubbleView(topConcepts: Concept[]): HTMLElement {
       const hovered = distToMouse < n.radius;
 
       ctx.save();
-      
+
       ctx.shadowColor = hovered ? 'rgba(0, 0, 0, 0.16)' : 'rgba(0, 0, 0, 0.05)';
       ctx.shadowBlur = hovered ? 18 : 8;
       ctx.shadowOffsetY = hovered ? 6 : 3;
@@ -1086,7 +1092,7 @@ function buildBubbleView(topConcepts: Concept[]): HTMLElement {
         ctx.fillStyle = hovered ? resolveColorWithOpacity(n.color, 0.08) : 'white';
       }
       ctx.fill();
-      
+
       ctx.lineWidth = (hovered || n.dragged) ? 3 : 1.5;
       ctx.strokeStyle = n.color;
       ctx.stroke();
