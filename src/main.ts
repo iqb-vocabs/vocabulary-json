@@ -258,8 +258,30 @@ function buildMain(): HTMLElement {
     <div class="scheme-header-meta">
       <span class="badge accent-1">SKOS ConceptScheme</span>
       <span class="badge accent-2">${activeFile.category} · ${activeFile.version}</span>
+      <button class="scheme-download-btn" id="scheme-download-json" title="Download JSON">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="margin-right: 6px;">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+          <polyline points="7 10 12 15 17 10"/>
+          <line x1="12" y1="15" x2="12" y2="3"/>
+        </svg>
+        Download JSON
+      </button>
     </div>
   `;
+  
+  const downloadBtn = schemeHeader.querySelector('#scheme-download-json')!;
+  downloadBtn.addEventListener('click', () => {
+    const jsonString = JSON.stringify(activeFile.data, null, 2);
+    const blob = new Blob([jsonString], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    const fileName = `${activeFile.versionFolder}_${activeFile.subVocabFolder}.json`;
+    link.download = fileName;
+    link.click();
+    URL.revokeObjectURL(url);
+  });
+
   main.appendChild(schemeHeader);
 
   const content = document.createElement('div');
