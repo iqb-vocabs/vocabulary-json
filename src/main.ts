@@ -40,16 +40,39 @@ function buildHeader(): HTMLElement {
   const isBubbleActive = activeFileIndex !== null && viewMode === 'bubble';
   const isSearchActive = viewMode === 'search';
 
-  // Build two-level dropdown: category → files
+  // Build three-level dropdown: category → subcategory → files
   const dropdownContent = categories.map((cat, catIdx) => {
-    const fileItems = cat.files.map((f) => {
-      const globalIdx = vocabFiles.indexOf(f);
-      const isActive = globalIdx === activeFileIndex;
+    const subGroupsMap = new Map<string, { name: string, versionFolder: string, files: VocabFile[] }>();
+    for (const f of cat.files) {
+      const key = f.subcategoryName;
+      if (!subGroupsMap.has(key)) {
+        subGroupsMap.set(key, { name: f.subcategoryName, versionFolder: f.versionFolder, files: [] });
+      }
+      subGroupsMap.get(key)!.files.push(f);
+    }
+
+    const subcategoryContent = Array.from(subGroupsMap.values()).map((subGroup) => {
+      const fileItems = subGroup.files.map((f) => {
+        const globalIdx = vocabFiles.indexOf(f);
+        const isActive = globalIdx === activeFileIndex;
+        return `
+          <button class="vocab-dropdown-file ${isActive ? 'active' : ''}" id="vocab-drop-${globalIdx}">
+            <span class="vocab-dropdown-file-title">${f.shortTitle}</span>
+            <span class="vocab-dropdown-file-version">${f.subVocabFolder}</span>
+          </button>
+        `;
+      }).join('');
+
       return `
-        <button class="vocab-dropdown-file ${isActive ? 'active' : ''}" id="vocab-drop-${globalIdx}">
-          <span class="vocab-dropdown-file-title">${getLabel(f.data.title, lang)}</span>
-          <span class="vocab-dropdown-file-version">${f.version}</span>
-        </button>
+        <div class="vocab-dropdown-subcategory">
+          <div class="vocab-dropdown-sub-header">
+            <span class="vocab-dropdown-sub-name">${subGroup.name}</span>
+            <span class="vocab-dropdown-sub-version">${subGroup.versionFolder}</span>
+          </div>
+          <div class="vocab-dropdown-sub-files">
+            ${fileItems}
+          </div>
+        </div>
       `;
     }).join('');
 
@@ -61,7 +84,7 @@ function buildHeader(): HTMLElement {
           <svg class="vocab-cat-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
         <div class="vocab-dropdown-cat-files" id="vocab-cat-files-${catIdx}">
-          ${fileItems}
+          ${subcategoryContent}
         </div>
       </div>
     `;
@@ -718,64 +741,60 @@ function buildDashboard(): HTMLElement {
     const grid = document.createElement('div');
     grid.className = 'dashboard-vocab-grid';
 
-    cat.files.forEach((f) => {
-      const globalIdx = vocabFiles.indexOf(f);
-      const card = document.createElement('div');
-      card.className = 'dashboard-vocab-card';
+    // Group files in this category by subcategoryName
+    const subGroupsMap = new Map<string, { name: string, versionFolder: string, files: VocabFile[] }>();
+    for (const f of cat.files) {
+      const key = f.subcategoryName;
+      if (!subGroupsMap.has(key)) {
+        subGroupsMap.set(key, { name: f.subcategoryName, versionFolder: f.versionFolder, files: [] });
+      }
+      subGroupsMap.get(key)!.files.push(f);
+    }
 
-      const topConcepts = f.data.hasTopConcept || [];
-      const subConceptsHTML = topConcepts.map((c, cIdx) => `
-        <button class="dashboard-subconcept-pill" data-concept-id="${c.id}" title="${t('click_to_view_in_tree', lang)}">
-          <span class="subconcept-notation">${c.notation?.[0] ?? (cIdx + 1)}</span>
-          <span class="subconcept-label">${getLabel(c.prefLabel, lang)}</span>
-        </button>
-      `).join('');
+    Array.from(subGroupsMap.values()).forEach((subGroup) => {
+      const card = document.createElement('div');
+      card.className = 'dashboard-subcategory-card';
+
+      const subVocabsListHTML = subGroup.files.map((f) => {
+        const globalIdx = vocabFiles.indexOf(f);
+        const topConcepts = f.data.hasTopConcept || [];
+        const count = countConceptsTotal(topConcepts);
+        return `
+          <button class="dashboard-subvocab-row" data-file-index="${globalIdx}" title="${t('explore_scheme', lang)}">
+            <div class="subvocab-row-left">
+              <span class="subvocab-row-badge">${f.subVocabFolder}</span>
+              <span class="subvocab-row-title">${f.shortTitle}</span>
+            </div>
+            <div class="subvocab-row-right">
+              <span class="subvocab-row-count">${count} ${count === 1 ? t('concept', lang) : t('concepts', lang)}</span>
+              <svg class="subvocab-row-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+            </div>
+          </button>
+        `;
+      }).join('');
 
       card.innerHTML = `
-        <div class="vocab-card-header">
-          <div class="vocab-card-meta">
-            <span class="vocab-card-version">${f.version}</span>
-            <span class="vocab-card-category">${f.category}</span>
+        <div class="subcategory-card-header">
+          <div class="subcategory-card-meta">
+            <span class="subcategory-card-version">${subGroup.versionFolder}</span>
           </div>
-          <h3>${getLabel(f.data.title, lang)}</h3>
+          <h3>${subGroup.name}</h3>
         </div>
-        ${f.data.description ? `<p class="vocab-card-description">${getLabel(f.data.description, lang)}</p>` : ''}
-        
-        ${topConcepts.length ? `
-        <div class="vocab-card-subconcepts">
-          <div class="subconcepts-title">${t('top_concepts', lang)} (${topConcepts.length})</div>
-          <div class="subconcepts-list">
-            ${subConceptsHTML}
+        <div class="subcategory-card-body">
+          <div class="subvocab-rows-list">
+            ${subVocabsListHTML}
           </div>
-        </div>
-        ` : ''}
-
-        <div class="vocab-card-footer">
-          <span class="vocab-card-count">
-            ${t('total_concepts', lang)}: <strong>${countConceptsTotal(topConcepts)}</strong>
-          </span>
-          <span class="badge accent-1">${t('explore_scheme', lang)}</span>
         </div>
       `;
 
-      // Navigate to selected view mode on card click
-      card.addEventListener('click', () => {
-        activeFileIndex = globalIdx;
-        if (viewMode === 'search') {
-          viewMode = 'tree';
-        }
-        rerender();
-      });
-
-      // Bind click handler to subconcept pills
-      card.querySelectorAll('.dashboard-subconcept-pill').forEach((pill, idx) => {
-        pill.addEventListener('click', (e) => {
-          e.stopPropagation();
-          activeFileIndex = globalIdx;
-          viewMode = 'tree';
-          openGroupIds.add(topConcepts[idx].id);
+      card.querySelectorAll('.dashboard-subvocab-row').forEach((row) => {
+        row.addEventListener('click', () => {
+          const fileIdxStr = row.getAttribute('data-file-index')!;
+          activeFileIndex = parseInt(fileIdxStr, 10);
+          if (viewMode === 'search') {
+            viewMode = 'tree';
+          }
           rerender();
-          openDetail(topConcepts[idx]);
         });
       });
 

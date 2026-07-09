@@ -31,6 +31,10 @@ export interface VocabFile {
   version: string;  // e.g. "v51/im"
   name: string;     // e.g. "v51 · im"
   data: ConceptScheme;
+  versionFolder: string;
+  subVocabFolder: string;
+  subcategoryName: string;
+  shortTitle: string;
 }
 
 /** A category groups one or more VocabFiles */

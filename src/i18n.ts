@@ -34,7 +34,9 @@ export const translations: Record<LangCode, Record<string, string>> = {
     go_to_dashboard: "Zum Dashboard",
     tree_view: "Baumansicht",
     card_view: "Kartenansicht",
-    click_to_view_in_tree: "Klicken, um Konzept in der Baumansicht anzuzeigen"
+    click_to_view_in_tree: "Klicken, um Konzept in der Baumansicht anzuzeigen",
+    concept: "Konzept",
+    concepts: "Konzepte"
   },
   en: {
     select_vocab: "Select vocabulary",
@@ -69,7 +71,9 @@ export const translations: Record<LangCode, Record<string, string>> = {
     go_to_dashboard: "Go to Dashboard",
     tree_view: "Tree view",
     card_view: "Card view",
-    click_to_view_in_tree: "Click to view concept in Tree view"
+    click_to_view_in_tree: "Click to view concept in Tree view",
+    concept: "Concept",
+    concepts: "Concepts"
   }
 };
 

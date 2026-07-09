@@ -17,14 +17,56 @@ export function loadVocabFiles(): VocabFile[] {
     const versionParts = segments.slice(1, -1); // everything between category and index.json
     const version = versionParts.join('/');      // e.g. "v51/im"
     const name = versionParts.join(' · ');       // e.g. "v51 · im"
+    const versionFolder = segments[1];
+    const subVocabFolder = segments[segments.length - 2];
+
+    const data = (mod as { default: ConceptScheme }).default;
+    const deTitle = data.title?.['de'] || data.title?.['en'] || Object.values(data.title || {})[0] || '';
+
+    let subcategoryName = versionFolder;
+    let shortTitle = deTitle;
+
+    const dashIdx = deTitle.indexOf(' - ');
+    if (dashIdx !== -1) {
+      subcategoryName = deTitle.substring(0, dashIdx).trim();
+      shortTitle = deTitle.substring(dashIdx + 3).trim();
+    } else {
+      const dashIdx2 = deTitle.indexOf(' – ');
+      if (dashIdx2 !== -1) {
+        subcategoryName = deTitle.substring(0, dashIdx2).trim();
+        shortTitle = deTitle.substring(dashIdx2 + 3).trim();
+      }
+    }
 
     files.push({
       path: path.replace('../', ''),
       category,
       version,
       name,
-      data: (mod as { default: ConceptScheme }).default,
+      data,
+      versionFolder,
+      subVocabFolder,
+      subcategoryName,
+      shortTitle,
     });
+  }
+
+  // Ensure all files in the same versionFolder have the exact same subcategoryName
+  const subcategoryMap = new Map<string, string>();
+  for (const f of files) {
+    const key = `${f.category}/${f.versionFolder}`;
+    const currentVal = subcategoryMap.get(key) || '';
+    if (f.subcategoryName !== f.versionFolder && f.subcategoryName.length > currentVal.length) {
+      subcategoryMap.set(key, f.subcategoryName);
+    }
+  }
+
+  for (const f of files) {
+    const key = `${f.category}/${f.versionFolder}`;
+    const alignedSubcategory = subcategoryMap.get(key);
+    if (alignedSubcategory) {
+      f.subcategoryName = alignedSubcategory;
+    }
   }
 
   // Sort by category then version
