@@ -9,9 +9,9 @@ on:
   workflow_dispatch:
     inputs:
       repo:
-        description: 'v* repo name to sync (e.g. v06)'
+        description: 'v* repo name to sync (e.g. v05)'
         required: true
-        default: 'v06'
+        default: 'v05'
 
 permissions:
   contents: write   # needed to commit updated docs/
