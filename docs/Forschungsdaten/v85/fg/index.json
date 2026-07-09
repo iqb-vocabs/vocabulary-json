@@ -15,9 +15,6 @@
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v85/fg/a6f",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Biologie",
         "en": "Biology"
@@ -25,9 +22,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/fg/f4b",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Chemie",
         "en": "Chemistry"
@@ -35,9 +29,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/fg/r7u",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Computer Science",
         "en": "Informatik"
@@ -45,9 +36,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/fg/c4a",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Ethnologie",
         "en": "Cultural studies / ethnology"
@@ -55,9 +43,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/fg/s2d",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Fachdidaktik",
         "en": "Pedagogical content knowledge (PCK)"
@@ -65,9 +50,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/fg/r4u",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Geowissenschaften",
         "en": "Geosciences / earth sciences"
@@ -75,9 +57,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/fg/t5g",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Geschichte",
         "en": "History"
@@ -85,9 +64,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/fg/r5z",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Kunst",
         "en": "Applied Arts"
@@ -95,9 +71,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/fg/g9s",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Mathematik",
         "en": "Mathematics"
@@ -105,9 +78,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/fg/c2c",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Medizin",
         "en": "Medicine"
@@ -115,9 +85,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/fg/d4x",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Musik",
         "en": "Music"
@@ -125,9 +92,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/fg/b4f",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Pädagogik",
         "en": "Education"
@@ -135,9 +99,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/fg/s4e",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Physik",
         "en": "Physics"
@@ -145,9 +106,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/fg/t6q",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Politikwissenschaft",
         "en": "Political Science"
@@ -155,9 +113,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/fg/p9s",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Psychologie",
         "en": "Psychology"
@@ -165,9 +120,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/fg/p3x",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Soziologie",
         "en": "Sociology"
@@ -175,9 +127,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/fg/y2z",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Sport",
         "en": "Physical Education / Sports"
@@ -185,9 +134,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/fg/e2u",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Sprach- / Literaturwissenschaft",
         "en": "Languages and literature"
@@ -195,9 +141,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/fg/x9x",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Wirtschaftswissenschaften",
         "en": "Business and Economics"
@@ -205,13 +148,159 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/fg/z9a",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Sonstige (Freitext)",
         "en": "Other"
       }
     }
-  ]
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
 }

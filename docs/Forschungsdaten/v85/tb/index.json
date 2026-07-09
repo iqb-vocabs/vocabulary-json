@@ -15,9 +15,6 @@
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v85/tb/8",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Arbeitsbedingungen",
         "en": "Working Conditions"
@@ -28,9 +25,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/tb/9",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Bestandsdaten/Institutioneller Hintergrund",
         "en": "Inventory Data/Institutional Background"
@@ -38,9 +32,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/tb/12",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Demographie individuell",
         "en": "Demography individual"
@@ -48,9 +39,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/tb/6",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Digitalisierung",
         "en": "Digitisation"
@@ -58,9 +46,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/tb/10",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Evaluation/Qualitätsentwicklung",
         "en": "Evaluation/Quality Development"
@@ -68,9 +53,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/tb/7",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Gleichstellung",
         "en": "Equality"
@@ -78,9 +60,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/tb/13",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Kognitive Fähigkeiten/Kompetenzen",
         "en": "Cognitive Ability/Achievement"
@@ -88,9 +67,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/tb/2",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Lebenschancen",
         "en": "Opportunities in Life"
@@ -98,9 +74,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/tb/4",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Lebenswelt/Lebensbedingungen",
         "en": "Living Environment/Living Conditions"
@@ -108,9 +81,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/tb/1",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Lehren und Lernen",
         "en": "Teaching and Learning"
@@ -118,9 +88,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/tb/5",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Migration",
         "en": "Migration"
@@ -128,9 +95,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/tb/11",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Qualifikation",
         "en": "Qualification"
@@ -138,9 +102,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/tb/15",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Testverfahren",
         "en": "Testing"
@@ -148,9 +109,6 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/tb/14",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Testverhalten",
         "en": "Test Behaviour"
@@ -158,13 +116,159 @@
     },
     {
       "id": "https://w3id.org/iqb/v85/tb/3",
-      "notation": [
-        ""
-      ],
       "prefLabel": {
         "de": "Werte",
         "en": " Values"
       }
     }
-  ]
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
 }
