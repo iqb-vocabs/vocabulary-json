@@ -1,0 +1,240 @@
+{
+  "id": "https://w3id.org/iqb/v06/t1/",
+  "type": "ConceptScheme",
+  "title": {
+    "de": "Test Tags - Example Tags"
+  },
+  "description": {
+    "de": "Kategorien für formatierte Texte als Teil der Unit-Daten"
+  },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
+  "hasTopConcept": [
+    {
+      "id": "https://w3id.org/iqb/v06/t1/transcript",
+      "notation": [
+        "1"
+      ],
+      "prefLabel": {
+        "de": "Transkript 2 für das Haupt-Audio"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v06/t1/original",
+          "notation": [
+            "1.1"
+          ],
+          "prefLabel": {
+            "de": "Transkript 2 der Originalquelle"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v06/t1/adapted",
+          "notation": [
+            "1.2"
+          ],
+          "prefLabel": {
+            "de": "Transkript 2 der angepassten Version für die Aufgabe"
+          }
+        }
+      ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v06/t1/didactical_guide",
+      "notation": [
+        "2"
+      ],
+      "prefLabel": {
+        "de": "Didaktische Handreichungen 2"
+      },
+      "narrower": [
+        {
+          "id": "https://w3id.org/iqb/v06/t1/answering_full_credit",
+          "notation": [
+            "2.1"
+          ],
+          "prefLabel": {
+            "de": "Richtige Antworten 2"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v06/t1/competence_level",
+          "notation": [
+            "2.2"
+          ],
+          "prefLabel": {
+            "de": "Diskussion des Schwierigkeitsniveaus 2"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v06/t1/misconceptions",
+          "notation": [
+            "2.3"
+          ],
+          "prefLabel": {
+            "de": "Typische Falschantworten 2"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v06/t1/problems",
+          "notation": [
+            "2.4"
+          ],
+          "prefLabel": {
+            "de": "Mögliche Probleme bei der Beantwortung 2"
+          }
+        }
+      ]
+    }
+  ],
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "@vocab": "http://www.w3.org/2004/02/skos/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dct": "http://purl.org/dc/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "schema": "https://schema.org/",
+    "vann": "http://purl.org/vocab/vann/",
+    "ldp": "http://www.w3.org/ns/ldp#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "title": {
+      "@id": "dct:title",
+      "@container": "@language"
+    },
+    "dc:title": {
+      "@id": "dc:title",
+      "@container": "@language"
+    },
+    "dc:description": {
+      "@id": "dc:description",
+      "@container": "@language"
+    },
+    "description": {
+      "@id": "dct:description",
+      "@container": "@language"
+    },
+    "license": {
+      "@id": "dct:license",
+      "@container": "@language"
+    },
+    "issued": {
+      "@id": "dct:issued",
+      "@type": "xsd:date"
+    },
+    "created": {
+      "@id": "dct:created",
+      "@type": "xsd:date"
+    },
+    "modified": {
+      "@id": "dct:modified",
+      "@type": "xsd:date"
+    },
+    "creator": "dct:creator",
+    "publisher": "dct:publisher",
+    "preferredNamespacePrefix": "vann:preferredNamespacePrefix",
+    "preferredNamespaceUri": "vann:preferredNamespaceUri",
+    "isBasedOn": "schema:isBasedOn",
+    "source": "dct:source",
+    "prefLabel": {
+      "@container": "@language"
+    },
+    "altLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "hiddenLabel": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "definition": {
+      "@container": "@language"
+    },
+    "note": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "changeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "editorialNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "historyNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "scopeNote": {
+      "@container": [
+        "@language",
+        "@set"
+      ]
+    },
+    "notation": {
+      "@container": "@set"
+    },
+    "example": {
+      "@container": "@language"
+    },
+    "narrower": {
+      "@container": "@set"
+    },
+    "related": {
+      "@container": "@set"
+    },
+    "relatedMatch": {
+      "@container": "@set"
+    },
+    "narrowerTransitive": {
+      "@container": "@set"
+    },
+    "broaderTransitive": {
+      "@container": "@set"
+    },
+    "broadMatch": {
+      "@container": "@set"
+    },
+    "narrowMatch": {
+      "@container": "@set"
+    },
+    "closeMatch": {
+      "@container": "@set"
+    },
+    "exactMatch": {
+      "@container": "@set"
+    },
+    "hasTopConcept": {
+      "@container": "@set"
+    },
+    "inScheme": {
+      "@container": "@set"
+    },
+    "topConceptOf": {
+      "@container": "@set"
+    },
+    "deprecated": {
+      "@id": "owl:deprecated",
+      "@type": "xsd:boolean"
+    },
+    "isReplacedBy": {
+      "@id": "dct:isReplacedBy",
+      "@container": "@set"
+    }
+  }
+}

@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "sync-vocab": "tsx scripts/sync-vocab.ts v06",
+    "ttl-to-json": "tsx scripts/ttl-to-json.ts"
   },
   "devDependencies": {
     "@emnapi/core": "^1.11.2",
