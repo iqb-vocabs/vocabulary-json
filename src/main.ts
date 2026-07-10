@@ -25,7 +25,7 @@ function defaultVocabIndex(): number {
 function init() {
   vocabFiles = loadVocabFiles();
   categories = groupByCategory(vocabFiles);
-  activeFileIndex = vocabFiles.length > 0 ? defaultVocabIndex() : null;
+  activeFileIndex = null; // default to dashboard
   renderApp();
 }
 
