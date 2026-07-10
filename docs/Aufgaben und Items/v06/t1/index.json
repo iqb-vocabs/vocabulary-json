@@ -84,6 +84,15 @@
           "prefLabel": {
             "de": "Mögliche Probleme bei der Beantwortung 2"
           }
+        },
+        {
+          "id": "https://w3id.org/iqb/v06/t1/sonstiges",
+          "notation": [
+            "2.5"
+          ],
+          "prefLabel": {
+            "de": "Sonstiges "
+          }
         }
       ]
     }

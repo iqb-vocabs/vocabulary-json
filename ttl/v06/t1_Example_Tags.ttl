@@ -47,6 +47,12 @@ n0:problems
 	skos:notation "2.4";
 	skos:broader n0:didactical_guide;
 	skos:prefLabel "Mögliche Probleme bei der Beantwortung 2"@de.
+n0:sonstiges
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.5";
+	skos:broader n0:didactical_guide;
+	skos:prefLabel "Sonstiges "@de.
 n0:didactical_guide
 	a skos:Concept;
 	skos:inScheme n0:;
@@ -56,7 +62,8 @@ n0:didactical_guide
 	skos:narrower n0:answering_full_credit,
 		n0:competence_level,
 		n0:misconceptions,
-		n0:problems.
+		n0:problems,
+		n0:sonstiges.
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
