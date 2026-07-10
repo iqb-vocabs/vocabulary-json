@@ -15,6 +15,9 @@ let openGroupIds = new Set<string>();
 function init() {
   vocabFiles = loadVocabFiles();
   categories = groupByCategory(vocabFiles);
+  // Default to the first v12 vocabulary instead of the dashboard
+  const defaultIdx = vocabFiles.findIndex(f => f.versionFolder === 'v12');
+  activeFileIndex = defaultIdx !== -1 ? defaultIdx : null;
   renderApp();
 }
 
