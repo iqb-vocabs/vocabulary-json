@@ -58,7 +58,7 @@ html {
 
 body {
   font-family: var(--font-sans);
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.6;
   color: var(--text-primary);
   background: var(--bg-base);
@@ -1337,6 +1337,29 @@ mark {
   height: 500px;
   cursor: pointer;
   display: block;
+}
+
+.bubble-view-container {
+  position: relative;
+}
+
+.bubble-tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-md);
+  padding: 6px 12px;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  z-index: 200;
+  animation: fadeInUp 100ms ease;
+  max-width: 320px;
+  white-space: normal;
 }
 
 /* ── Responsive ──────────────────────────────────────────── */

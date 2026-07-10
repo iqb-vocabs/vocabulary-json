@@ -854,6 +854,12 @@ function buildBubbleView(topConcepts: Concept[]): HTMLElement {
   canvas.className = 'bubble-canvas';
   container.appendChild(canvas);
 
+  // Floating tooltip for truncated labels
+  const tooltip = document.createElement('div');
+  tooltip.className = 'bubble-tooltip';
+  tooltip.style.display = 'none';
+  container.appendChild(tooltip);
+
   const activeFile = activeFileIndex !== null ? vocabFiles[activeFileIndex] : null;
   const schemeTitle = activeFile ? getLabel(activeFile.data.title, lang) : t('vocabulary', lang);
 
@@ -1220,6 +1226,44 @@ function buildBubbleView(topConcepts: Concept[]): HTMLElement {
       const hover = nodes.some(n => Math.hypot(mouseX - n.x, mouseY - n.y) < n.radius);
       canvas.style.cursor = hover ? 'pointer' : 'default';
     }
+
+    // Tooltip: show full label when hovered node's text is truncated
+    const hoveredNode = nodes.find(n => Math.hypot(mouseX - n.x, mouseY - n.y) < n.radius);
+    if (hoveredNode && !hoveredNode.isRoot) {
+      const maxWidth = hoveredNode.radius * 1.6;
+      // Measure whether the label fits in ≤2 lines at the rendered font size
+      ctx.save();
+      ctx.font = '600 12px var(--font-sans)';
+      const words = hoveredNode.label.split(' ');
+      let lineCount = 1;
+      let currentLine = words[0];
+      for (let i = 1; i < words.length; i++) {
+        if (ctx.measureText(currentLine + ' ' + words[i]).width < maxWidth) {
+          currentLine += ' ' + words[i];
+        } else {
+          lineCount++;
+          currentLine = words[i];
+        }
+      }
+      ctx.restore();
+
+      const isTruncated = lineCount > 2;
+      if (isTruncated) {
+        const parts = [hoveredNode.notation, hoveredNode.label].filter(Boolean);
+        tooltip.textContent = parts.join('  ·  ');
+        const containerRect = container.getBoundingClientRect();
+        // Position relative to container
+        const tx = (e.clientX - containerRect.left) + 14;
+        const ty = (e.clientY - containerRect.top) - 36;
+        tooltip.style.left = `${tx}px`;
+        tooltip.style.top  = `${ty}px`;
+        tooltip.style.display = 'block';
+      } else {
+        tooltip.style.display = 'none';
+      }
+    } else {
+      tooltip.style.display = 'none';
+    }
   });
 
   canvas.addEventListener('mouseup', () => {
@@ -1252,6 +1296,7 @@ function buildBubbleView(topConcepts: Concept[]): HTMLElement {
     mouseX = -1000;
     mouseY = -1000;
     canvas.style.cursor = 'default';
+    tooltip.style.display = 'none';
   });
 
   setTimeout(resizeCanvas, 0);
