@@ -890,18 +890,25 @@ function buildBubbleView(topConcepts: Concept[]): HTMLElement {
   let draggedNode: GraphNode | null = null;
   let isDragging = false;
 
-  function getConceptColor(notation: string | undefined): string {
-    const brandColors = [
-      'hsl(342, 85%, 45%)',  // IQB Red
-      'hsl(185, 80%, 35%)',  // IQB Teal
-      'hsl(38,  90%, 44%)',  // Warm Orange
-      'hsl(262, 70%, 50%)',  // Purple
-      'hsl(327, 75%, 48%)',  // Pink
+  interface HslColor { h: number; s: number; l: number; }
+
+  function getTopConceptColor(index: number): HslColor {
+    const palette: HslColor[] = [
+      { h: 342, s: 85, l: 45 },  // IQB Red
+      { h: 185, s: 80, l: 35 },  // IQB Teal
+      { h: 38,  s: 90, l: 44 },  // Warm Orange
+      { h: 262, s: 70, l: 50 },  // Purple
+      { h: 327, s: 75, l: 48 },  // Pink
     ];
-    if (!notation) return brandColors[0];
-    let sum = 0;
-    for (let i = 0; i < notation.length; i++) sum += notation.charCodeAt(i);
-    return brandColors[sum % brandColors.length];
+    return palette[index % palette.length];
+  }
+
+  function colorForDepth(base: HslColor, depth: number): string {
+    // depth 0 = top concept (full saturation/darkness)
+    // each level gets lighter (+12 L) and slightly less saturated (–8 S)
+    const l = Math.min(base.l + depth * 12, 72);
+    const s = Math.max(base.s - depth * 8,  40);
+    return `hsl(${base.h}, ${s}%, ${l}%)`;
   }
 
   function rebuildGraph() {
@@ -935,14 +942,14 @@ function buildBubbleView(topConcepts: Concept[]): HTMLElement {
       color: 'var(--accent-1)'
     });
 
-    function traverse(concept: Concept, parentId: string) {
+    function traverse(concept: Concept, parentId: string, baseColor: HslColor, depth: number) {
       const conceptId = concept.id;
       const prev = prevMap.get(conceptId);
 
       const childCount = concept.narrower?.length ?? 0;
       const radius = Math.max(35, Math.min(65, 35 + childCount * 3));
       const notation = concept.notation?.[0] ?? '';
-      const color = getConceptColor(notation);
+      const color = colorForDepth(baseColor, depth);
       const isExpanded = expandedNodes.has(conceptId);
 
       const node: GraphNode = {
@@ -964,11 +971,14 @@ function buildBubbleView(topConcepts: Concept[]): HTMLElement {
       links.push({ sourceId: parentId, targetId: conceptId });
 
       if (isExpanded && concept.narrower?.length) {
-        concept.narrower.forEach(child => traverse(child, conceptId));
+        concept.narrower.forEach(child => traverse(child, conceptId, baseColor, depth + 1));
       }
     }
 
-    topConcepts.forEach(c => traverse(c, rootId));
+    topConcepts.forEach((c, idx) => {
+      const baseColor = getTopConceptColor(idx);
+      traverse(c, rootId, baseColor, 0);
+    });
 
     nodesMap.clear();
     nodes.forEach(n => nodesMap.set(n.id, n));
