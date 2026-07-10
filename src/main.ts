@@ -12,12 +12,20 @@ let searchQuery = '';
 let openGroupIds = new Set<string>();
 
 // ── Bootstrap ────────────────────────────────────────────
+/** Returns the index of the preferred default vocab (v12 s1 first), falling back to 0. */
+function defaultVocabIndex(): number {
+  const idx = vocabFiles.findIndex(
+    f => f.versionFolder === 'v12' && f.subVocabFolder === 's1'
+  );
+  if (idx !== -1) return idx;
+  const fallback = vocabFiles.findIndex(f => f.versionFolder === 'v12');
+  return fallback !== -1 ? fallback : 0;
+}
+
 function init() {
   vocabFiles = loadVocabFiles();
   categories = groupByCategory(vocabFiles);
-  // Default to the first v12 vocabulary instead of the dashboard
-  const defaultIdx = vocabFiles.findIndex(f => f.versionFolder === 'v12');
-  activeFileIndex = defaultIdx !== -1 ? defaultIdx : null;
+  activeFileIndex = vocabFiles.length > 0 ? defaultVocabIndex() : null;
   renderApp();
 }
 
@@ -193,19 +201,19 @@ function buildHeader(): HTMLElement {
   // Listeners for view toggle buttons
   header.querySelector('#btn-tree')!.addEventListener('click', () => {
     if (activeFileIndex === null && vocabFiles.length > 0) {
-      activeFileIndex = 0;
+      activeFileIndex = defaultVocabIndex();
     }
     setViewMode('tree');
   });
   header.querySelector('#btn-cards')!.addEventListener('click', () => {
     if (activeFileIndex === null && vocabFiles.length > 0) {
-      activeFileIndex = 0;
+      activeFileIndex = defaultVocabIndex();
     }
     setViewMode('cards');
   });
   header.querySelector('#btn-bubble')!.addEventListener('click', () => {
     if (activeFileIndex === null && vocabFiles.length > 0) {
-      activeFileIndex = 0;
+      activeFileIndex = defaultVocabIndex();
     }
     setViewMode('bubble');
   });
@@ -266,7 +274,7 @@ function buildMain(): HTMLElement {
       </button>
     </div>
   `;
-  
+
   const downloadBtn = schemeHeader.querySelector('#scheme-download-json')!;
   downloadBtn.addEventListener('click', () => {
     const jsonString = JSON.stringify(activeFile.data, null, 2);
