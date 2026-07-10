@@ -39,7 +39,6 @@ function buildHeader(): HTMLElement {
   const isTreeActive = activeFileIndex !== null && viewMode === 'tree';
   const isCardsActive = activeFileIndex !== null && viewMode === 'cards';
   const isBubbleActive = activeFileIndex !== null && viewMode === 'bubble';
-  const isSearchActive = viewMode === 'search';
 
   // Build three-level dropdown: category → subcategory → files
   const dropdownContent = categories.map((cat, catIdx) => {
@@ -120,9 +119,6 @@ function buildHeader(): HTMLElement {
       </button>
       <button id="btn-bubble" class="${isBubbleActive ? 'active' : ''}" title="${t('ontology_graph', lang)}">
         ${iconBubble()} ${t('graph', lang)}
-      </button>
-      <button id="btn-search" class="${isSearchActive ? 'active' : ''}" title="${t('search', lang)}">
-        ${iconSearch()} ${t('search', lang)}
       </button>
     </div>
     <div class="search-wrap">
@@ -210,9 +206,7 @@ function buildHeader(): HTMLElement {
     }
     setViewMode('bubble');
   });
-  header.querySelector('#btn-search')!.addEventListener('click', () => {
-    setViewMode('search');
-  });
+
 
   const searchInput = header.querySelector<HTMLInputElement>('#global-search')!;
   searchInput.addEventListener('input', (e) => {
