@@ -59,7 +59,7 @@ function buildHeader(): HTMLElement {
         const globalIdx = vocabFiles.indexOf(f);
         const isActive = globalIdx === activeFileIndex;
         return `
-          <button class="vocab-dropdown-file ${isActive ? 'active' : ''}" id="vocab-drop-${globalIdx}">
+          <button class="vocab-dropdown-file ${isActive ? 'active' : ''}" id="vocab-drop-${globalIdx}" title="${getLabel(f.data.title, lang) || f.shortTitle}">
             <span class="vocab-dropdown-file-title">${f.shortTitle}</span>
             <span class="vocab-dropdown-file-version">${f.subVocabFolder}</span>
           </button>
@@ -68,7 +68,7 @@ function buildHeader(): HTMLElement {
 
       return `
         <div class="vocab-dropdown-subcategory">
-          <div class="vocab-dropdown-sub-header">
+          <div class="vocab-dropdown-sub-header" title="${subGroup.name}">
             <span class="vocab-dropdown-sub-name">${subGroup.name}</span>
             <span class="vocab-dropdown-sub-version">${subGroup.versionFolder}</span>
           </div>
