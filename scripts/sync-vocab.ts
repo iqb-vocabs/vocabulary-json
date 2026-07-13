@@ -105,7 +105,8 @@ async function fetchRepoFileContent(repo: string, filePath: string): Promise<str
 }
 
 // ── Main ──────────────────────────────────────────────────
-console.log(`\nSyncing ${org}/${repoName} → ttl/${repoName}/ & docs/${category}/${repoName}/`);
+console.log(`\nSyncing ${org}/${repoName} → ttl/${repoName}/ & docs/${repoName}/`);
+console.log(`  Category: ${category}`);
 console.log(`  Sub-vocabs in registry: ${subVocabs.join(', ')}\n`);
 
 const contents = await fetchRepoContents(repoName);
@@ -152,11 +153,11 @@ for (const file of ttlFiles) {
     console.log(`  Matching sub-vocab found: "${matchedSub}". Generating JSON...`);
     try {
       const jsonResult = convertTtlToJson(localTtlFile);
-      const localJsonDir = join(ROOT, 'docs', category, repoName, matchedSub);
+      const localJsonDir = join(ROOT, 'docs', repoName, matchedSub);
       const localJsonFile = join(localJsonDir, 'index.json');
       mkdirSync(localJsonDir, { recursive: true });
       writeFileSync(localJsonFile, JSON.stringify(jsonResult, null, 2) + '\n', 'utf8');
-      console.log(`  ✓ written JSON to docs/${category}/${repoName}/${matchedSub}/index.json`);
+      console.log(`  ✓ written JSON to docs/${repoName}/${matchedSub}/index.json`);
       synced++;
     } catch (err: any) {
       console.error(`  ✗ Error converting TTL to JSON for ${file.name}:`, err.message);

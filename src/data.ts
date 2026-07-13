@@ -3,22 +3,28 @@ import type { Concept, ConceptScheme, LocalizedString, VocabCategory, VocabFile 
 // Vite glob import — picks up every index.json under docs/ at any depth
 const jsonModules = import.meta.glob('../docs/**/index.json', { eager: true });
 
+// vocab-registry.json — maps vxx → { category, subVocabs }
+import registryRaw from '../vocab-registry.json';
+const registry = registryRaw as Record<string, { category: string; subVocabs: string[] }>;
+
 export function loadVocabFiles(): VocabFile[] {
   const files: VocabFile[] = [];
 
   for (const [path, mod] of Object.entries(jsonModules)) {
-    // path looks like: ../docs/Bildungstandards/v51/im/index.json
+    // path looks like: ../docs/v51/im/index.json
     const segments = path.replace('../docs/', '').split('/');
-    // segments: ["Bildungstandards", "v51", "im", "index.json"]
+    // segments: ["v51", "im", "index.json"]
 
-    if (segments.length < 3) continue; // need at least category + version + file
+    if (segments.length < 3) continue; // need at least vxx + sub + index.json
 
-    const category = segments[0];
-    const versionParts = segments.slice(1, -1); // everything between category and index.json
-    const version = versionParts.join('/');      // e.g. "v51/im"
-    const name = versionParts.join(' · ');       // e.g. "v51 · im"
-    const versionFolder = segments[1];
-    const subVocabFolder = segments[segments.length - 2];
+    const versionFolder = segments[0];          // e.g. "v51"
+    const subVocabFolder = segments[segments.length - 2]; // e.g. "im"
+    const versionParts = segments.slice(0, -1); // everything except index.json
+    const version = versionParts.join('/');     // e.g. "v51/im"
+    const name = versionParts.join(' · ');      // e.g. "v51 · im"
+
+    // Resolve category from registry; fall back to versionFolder if unknown
+    const category = registry[versionFolder]?.category ?? versionFolder;
 
     const data = (mod as { default: ConceptScheme }).default;
     const deTitle = data.title?.['de'] || data.title?.['en'] || Object.values(data.title || {})[0] || '';
