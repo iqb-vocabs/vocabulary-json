@@ -1418,7 +1418,15 @@ function buildFooter(): HTMLElement {
 
 // ── Icons ─────────────────────────────────────────────────
 function iconTree() {
-  return `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>`;
+  // Hierarchical tree: root node → vertical spine → two indented child rows
+  return `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="4" cy="5" r="2"/>
+    <line x1="4" y1="7" x2="4" y2="19"/>
+    <line x1="4" y1="12" x2="9" y2="12"/>
+    <line x1="4" y1="19" x2="9" y2="19"/>
+    <line x1="9" y1="12" x2="20" y2="12"/>
+    <line x1="9" y1="19" x2="20" y2="19"/>
+  </svg>`;
 }
 function iconCards() {
   return `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>`;
