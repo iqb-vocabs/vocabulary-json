@@ -98,8 +98,10 @@ body {
   padding: 0 24px;
   display: flex;
   align-items: center;
-  gap: 16px;
-  height: 100px;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  min-height: 64px;
+  height: auto;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -1363,7 +1365,60 @@ mark {
 }
 
 /* ── Responsive ──────────────────────────────────────────── */
-@media (max-width: 700px) {
+
+/* Medium: hide view-toggle text labels, keep icons only */
+@media (max-width: 900px) {
+  .view-toggle-label {
+    display: none;
+  }
+
+  .view-toggle button {
+    padding: 6px 10px;
+  }
+
+  .search-wrap {
+    width: 160px;
+  }
+}
+
+/* Small: wrap controls to second row */
+@media (max-width: 640px) {
+  .app-header {
+    padding: 8px 16px;
+    gap: 8px 12px;
+  }
+
+  .header-spacer {
+    display: none;
+  }
+
+  /* Logo + vocab-selector fill first row */
+  .header-logo-wrap {
+    flex: 0 0 auto;
+  }
+
+  .vocab-selector-wrap {
+    flex: 1 1 auto;
+  }
+
+  .vocab-selector-text {
+    max-width: 140px;
+  }
+
+  /* Controls wrap to second row */
+  .view-toggle {
+    flex: 0 0 auto;
+  }
+
+  .search-wrap {
+    flex: 1 1 120px;
+    width: auto;
+  }
+
+  .lang-toggle {
+    flex: 0 0 auto;
+  }
+
   .main-content {
     padding: 16px;
   }
@@ -1372,12 +1427,12 @@ mark {
     grid-template-columns: 1fr;
   }
 
-  .search-wrap {
-    width: 140px;
-  }
-
   .logo-active-vocab {
     display: none;
+  }
+
+  .iqb-logo-img {
+    height: 40px;
   }
 }
 

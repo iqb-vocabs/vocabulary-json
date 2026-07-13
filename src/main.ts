@@ -123,13 +123,13 @@ function buildHeader(): HTMLElement {
 
     <div class="view-toggle">
       <button id="btn-tree"  class="${isTreeActive ? 'active' : ''}" title="${t('tree_view', lang)}">
-        ${iconTree()} ${t('tree', lang)}
+        ${iconTree()} <span class="view-toggle-label">${t('tree', lang)}</span>
       </button>
       <button id="btn-cards" class="${isCardsActive ? 'active' : ''}" title="${t('card_view', lang)}">
-        ${iconCards()} ${t('cards', lang)}
+        ${iconCards()} <span class="view-toggle-label">${t('cards', lang)}</span>
       </button>
       <button id="btn-bubble" class="${isBubbleActive ? 'active' : ''}" title="${t('ontology_graph', lang)}">
-        ${iconBubble()} ${t('graph', lang)}
+        ${iconBubble()} <span class="view-toggle-label">${t('graph', lang)}</span>
       </button>
     </div>
     <div class="search-wrap">
