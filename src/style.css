@@ -96,16 +96,22 @@ body {
   background: var(--bg-surface);
   border-bottom: 1px solid var(--border);
   padding: 0 24px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(12px);
+}
+
+.header-inner {
+  max-width: 1134px;
+  margin: 0 auto;
+  width: 100%;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 10px 16px;
   min-height: 64px;
   height: auto;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  backdrop-filter: blur(12px);
 }
 
 /* Logo + dropdown wrapper */
@@ -1384,8 +1390,12 @@ mark {
 /* Small: wrap controls to second row */
 @media (max-width: 640px) {
   .app-header {
-    padding: 8px 16px;
+    padding: 0 16px;
+  }
+
+  .header-inner {
     gap: 8px 12px;
+    padding: 8px 0;
   }
 
   .header-spacer {
@@ -1650,7 +1660,7 @@ mark {
 }
 
 .footer-inner {
-  max-width: 1200px;
+  max-width: 1134px;
   margin: 0 auto;
   padding: 0 32px;
 }

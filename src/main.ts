@@ -102,44 +102,46 @@ function buildHeader(): HTMLElement {
   }).join('');
 
   header.innerHTML = `
-    <div class="header-logo-wrap">
-      <button class="header-logo" id="logo-btn" title="${t('go_to_dashboard', lang)}">
-        <img class="iqb-logo-img" src="${lang === 'de' ? 'https://www.iqb.hu-berlin.de/static/Img/Logo/iqb-logos/iqb-logo-red-name.fafaa6b5a6cb.svg' : 'https://www.iqb.hu-berlin.de/static/Img/Logo/iqb-logos/iqb-logo-red-name-en.d4d1e8c4550c.svg'}" alt="IQB Logo" />
-      </button>
-    </div>
-
-    <div class="vocab-selector-wrap">
-      <button class="vocab-selector-btn" id="vocab-selector-trigger" aria-haspopup="true" aria-expanded="false">
-        <span class="vocab-selector-text">${activeLabel}</span>
-        <svg class="logo-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
-      </button>
-      <div class="vocab-dropdown" id="vocab-dropdown" role="menu">
-        <div class="vocab-dropdown-label">${t('select_vocab', lang)}</div>
-        ${dropdownContent}
+    <div class="header-inner">
+      <div class="header-logo-wrap">
+        <button class="header-logo" id="logo-btn" title="${t('go_to_dashboard', lang)}">
+          <img class="iqb-logo-img" src="${lang === 'de' ? 'https://www.iqb.hu-berlin.de/static/Img/Logo/iqb-logos/iqb-logo-red-name.fafaa6b5a6cb.svg' : 'https://www.iqb.hu-berlin.de/static/Img/Logo/iqb-logos/iqb-logo-red-name-en.d4d1e8c4550c.svg'}" alt="IQB Logo" />
+        </button>
       </div>
-    </div>
 
-    <div class="header-spacer"></div>
+      <div class="vocab-selector-wrap">
+        <button class="vocab-selector-btn" id="vocab-selector-trigger" aria-haspopup="true" aria-expanded="false">
+          <span class="vocab-selector-text">${activeLabel}</span>
+          <svg class="logo-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="vocab-dropdown" id="vocab-dropdown" role="menu">
+          <div class="vocab-dropdown-label">${t('select_vocab', lang)}</div>
+          ${dropdownContent}
+        </div>
+      </div>
 
-    <div class="view-toggle">
-      <button id="btn-tree"  class="${isTreeActive ? 'active' : ''}" title="${t('tree_view', lang)}">
-        ${iconTree()} <span class="view-toggle-label">${t('tree', lang)}</span>
-      </button>
-      <button id="btn-cards" class="${isCardsActive ? 'active' : ''}" title="${t('card_view', lang)}">
-        ${iconCards()} <span class="view-toggle-label">${t('cards', lang)}</span>
-      </button>
-      <button id="btn-bubble" class="${isBubbleActive ? 'active' : ''}" title="${t('ontology_graph', lang)}">
-        ${iconBubble()} <span class="view-toggle-label">${t('graph', lang)}</span>
-      </button>
-    </div>
-    <div class="search-wrap">
-      ${iconSearch()}
-      <input id="global-search" type="search" placeholder="${t('search_concepts_placeholder', lang)}" value="${searchQuery}" />
-    </div>
+      <div class="header-spacer"></div>
 
-    <div class="lang-toggle">
-      <button class="lang-btn ${lang === 'de' ? 'active' : ''}" id="btn-lang-de">DE</button>
-      <button class="lang-btn ${lang === 'en' ? 'active' : ''}" id="btn-lang-en">EN</button>
+      <div class="view-toggle">
+        <button id="btn-tree"  class="${isTreeActive ? 'active' : ''}" title="${t('tree_view', lang)}">
+          ${iconTree()} <span class="view-toggle-label">${t('tree', lang)}</span>
+        </button>
+        <button id="btn-cards" class="${isCardsActive ? 'active' : ''}" title="${t('card_view', lang)}">
+          ${iconCards()} <span class="view-toggle-label">${t('cards', lang)}</span>
+        </button>
+        <button id="btn-bubble" class="${isBubbleActive ? 'active' : ''}" title="${t('ontology_graph', lang)}">
+          ${iconBubble()} <span class="view-toggle-label">${t('graph', lang)}</span>
+        </button>
+      </div>
+      <div class="search-wrap">
+        ${iconSearch()}
+        <input id="global-search" type="search" placeholder="${t('search_concepts_placeholder', lang)}" value="${searchQuery}" />
+      </div>
+
+      <div class="lang-toggle">
+        <button class="lang-btn ${lang === 'de' ? 'active' : ''}" id="btn-lang-de">DE</button>
+        <button class="lang-btn ${lang === 'en' ? 'active' : ''}" id="btn-lang-en">EN</button>
+      </div>
     </div>
   `;
 
