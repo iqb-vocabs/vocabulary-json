@@ -402,7 +402,7 @@ function buildCardsView(concepts: Concept[]): HTMLElement {
         <h2 class="concept-card-title">${getLabel(c.prefLabel, lang)}</h2>
         <span class="concept-card-notation">${notation}</span>
       </div>
-      ${def ? `<p class="concept-card-def">${def}</p>` : ''}
+      ${def ? `<p class="concept-card-def">${stripNewlines(def)}</p>` : ''}
       <div class="concept-card-footer">
         <span class="concept-card-children">
           ${childCount ? `${iconChildren()} ${childCount} ${t('sub_concepts', lang)}` : ''}
@@ -716,6 +716,11 @@ function rerender() {
 
 function escapeHtml(str: string): string {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+/** Replace newlines with spaces — used in clamped card previews where pre-wrap would break line-clamp. */
+function stripNewlines(str: string): string {
+  return str.replace(/\n+/g, ' ');
 }
 
 function highlight(text: string, query: string): string {

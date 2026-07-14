@@ -496,6 +496,7 @@ body {
   max-width: 680px;
   line-height: 1.65;
   margin-bottom: 14px;
+  white-space: pre-wrap;
 }
 
 .scheme-header-meta {
@@ -968,6 +969,7 @@ mark {
   border-left: 3px solid var(--accent-1);
   border-radius: 0 var(--r-md) var(--r-md) 0;
   padding: 14px 16px;
+  white-space: pre-wrap;
 }
 
 .detail-children-list {
