@@ -855,14 +855,23 @@ function findConceptById(concepts: Concept[], id: string): Concept | null {
 }
 
 /**
- * Escape HTML, then turn any http(s) URL into a clickable <a> that opens in a new tab.
- * Safe to use wherever text is injected via innerHTML.
+ * Escape HTML, then turn any http(s) URL into a clickable link.
+ * - IQB w3id.org URIs  →  local hash link (no new tab, uses the hash router)
+ * - All other URLs     →  external link opening in a new tab
  */
 function linkify(str: string): string {
   const escaped = escapeHtml(str);
   return escaped.replace(
     /(https?:\/\/[^\s<>"'()\u0029]+)/g,
-    '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>'
+    (url) => {
+      const hash = idToHash(url);
+      if (hash) {
+        // IQB URI → navigate inside the app
+        return `<a class="id-link" href="${hash}" title="Open in explorer">${url}</a>`;
+      }
+      // External URL → new tab
+      return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`;
+    }
   );
 }
 
