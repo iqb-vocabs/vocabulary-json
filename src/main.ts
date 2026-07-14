@@ -446,7 +446,7 @@ function buildTreeView(concepts: Concept[]): HTMLElement {
     groupEl.appendChild(headerEl);
 
     if (childCount) {
-      renderTreeItems(top.narrower!, childrenEl, 1);
+      renderTreeItems(sortByNotation(top.narrower!), childrenEl, 1);
       groupEl.appendChild(childrenEl);
     }
 
@@ -468,7 +468,7 @@ function renderTreeItems(concepts: Concept[], container: HTMLElement, depth: num
     container.appendChild(item);
 
     if (c.narrower?.length) {
-      renderTreeItems(c.narrower, container, depth + 1);
+      renderTreeItems(sortByNotation(c.narrower), container, depth + 1);
     }
   }
 }
@@ -721,7 +721,7 @@ function openDetail(concept: Concept) {
     const list = document.createElement('div');
     list.className = 'detail-children-list';
 
-    concept.narrower.forEach((child) => {
+    sortByNotation(concept.narrower).forEach((child) => {
       const item = document.createElement('div');
       item.className = 'detail-child-item';
       item.innerHTML = `
@@ -852,6 +852,29 @@ function findConceptById(concepts: Concept[], id: string): Concept | null {
     }
   }
   return null;
+}
+
+/**
+ * Natural-sort concepts by their notation (first element).
+ * Handles formats like "E 1", "E 10", "B 3", "K 12" correctly:
+ * splits into a letter prefix and a numeric suffix, sorts the prefix
+ * alphabetically and the number numerically so "E 2" < "E 10".
+ */
+function sortByNotation(concepts: Concept[]): Concept[] {
+  return [...concepts].sort((a, b) => {
+    const na = (a.notation?.[0] ?? '').trim();
+    const nb = (b.notation?.[0] ?? '').trim();
+    // Split "E 13" into prefix "E" and num 13
+    const ma = na.match(/^([A-Za-z]*)\s*(\d*)(.*)$/);
+    const mb = nb.match(/^([A-Za-z]*)\s*(\d*)(.*)$/);
+    if (!ma || !mb) return na.localeCompare(nb);
+    const letterCmp = ma[1].localeCompare(mb[1]);
+    if (letterCmp !== 0) return letterCmp;
+    const numA = ma[2] ? parseInt(ma[2], 10) : 0;
+    const numB = mb[2] ? parseInt(mb[2], 10) : 0;
+    if (numA !== numB) return numA - numB;
+    return (ma[3] ?? '').localeCompare(mb[3] ?? '');
+  });
 }
 
 /**
