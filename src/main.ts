@@ -959,10 +959,10 @@ function buildDashboard(): HTMLElement {
         const topConcepts = f.data.hasTopConcept || [];
         const count = countConceptsTotal(topConcepts);
         return `
-          <button class="dashboard-subvocab-row" data-file-index="${globalIdx}" title="${t('explore_scheme', lang)}">
+          <button class="dashboard-subvocab-row" data-file-index="${globalIdx}" title="${getLabel(f.data.title, lang) || f.shortTitle}">
             <div class="subvocab-row-left">
               <span class="subvocab-row-badge">${f.subVocabFolder}</span>
-              <span class="subvocab-row-title">${f.shortTitle}</span>
+              <span class="subvocab-row-title" data-tooltip="${getLabel(f.data.title, lang) || f.shortTitle}">${f.shortTitle}</span>
             </div>
             <div class="subvocab-row-right">
               <span class="subvocab-row-count">${count} ${count === 1 ? t('concept', lang) : t('concepts', lang)}</span>

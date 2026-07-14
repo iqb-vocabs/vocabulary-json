@@ -1592,6 +1592,34 @@ mark {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  position: relative;
+}
+
+/* Custom tooltip shown when title is clipped */
+.subvocab-row-title[data-tooltip]::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--text-primary);
+  color: var(--bg-surface);
+  font-size: 13px;
+  font-weight: 500;
+  white-space: normal;
+  max-width: 280px;
+  padding: 6px 10px;
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-md);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--t-fast);
+  z-index: 400;
+  line-height: 1.4;
+}
+
+.dashboard-subvocab-row:hover .subvocab-row-title[data-tooltip]::after {
+  opacity: 1;
 }
 
 .subvocab-row-right {
