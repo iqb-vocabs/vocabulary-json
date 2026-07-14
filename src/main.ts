@@ -96,14 +96,17 @@ function init() {
 /** Read the current URL and update app state accordingly. */
 function applyRouting(): void {
   const route = parseUrlHash();
-  if (!route) return;
+  if (!route) {
+    activeFileIndex = null;
+    closeDetail();
+    return;
+  }
 
   const idx = vocabFiles.findIndex(
     f => f.versionFolder === route.version && f.subVocabFolder === route.sub
   );
   if (idx !== -1) {
     activeFileIndex = idx;
-    viewMode = 'tree';
   }
 
   // Open concept detail after render if a suffix was given
@@ -116,6 +119,14 @@ function applyRouting(): void {
       const concept = findConceptById(activeFile.data.hasTopConcept, conceptId);
       if (concept) openDetail(concept);
     });
+  } else {
+    // If no concept suffix, make sure detail overlay is closed
+    const overlay = document.getElementById('detail-overlay');
+    const panel = document.getElementById('detail-panel');
+    if (overlay && panel) {
+      overlay.classList.remove('open');
+      panel.classList.remove('open');
+    }
   }
 }
 
@@ -239,11 +250,9 @@ function buildHeader(): HTMLElement {
   const logoBtn = header.querySelector<HTMLButtonElement>('#logo-btn')!;
   logoBtn.addEventListener('click', (e) => {
     e.preventDefault();
-    activeFileIndex = null;
-    viewMode = 'tree';
     searchQuery = '';
     openGroupIds.clear();
-    rerender();
+    window.location.hash = '';
   });
 
   // Selector dropdown
@@ -279,13 +288,12 @@ function buildHeader(): HTMLElement {
     cat.files.forEach((f) => {
       const globalIdx = vocabFiles.indexOf(f);
       header.querySelector(`#vocab-drop-${globalIdx}`)!.addEventListener('click', () => {
-        activeFileIndex = globalIdx;
         if (viewMode === 'search') {
           viewMode = 'tree';
         }
         openGroupIds.clear();
         dropdown.classList.remove('open');
-        rerender();
+        window.location.hash = `#${f.versionFolder}/${f.subVocabFolder}`;
       });
     });
   });
@@ -293,19 +301,22 @@ function buildHeader(): HTMLElement {
   // Listeners for view toggle buttons
   header.querySelector('#btn-tree')!.addEventListener('click', () => {
     if (activeFileIndex === null && vocabFiles.length > 0) {
-      activeFileIndex = defaultVocabIndex();
+      const f = vocabFiles[defaultVocabIndex()];
+      window.location.hash = `#${f.versionFolder}/${f.subVocabFolder}`;
     }
     setViewMode('tree');
   });
   header.querySelector('#btn-cards')!.addEventListener('click', () => {
     if (activeFileIndex === null && vocabFiles.length > 0) {
-      activeFileIndex = defaultVocabIndex();
+      const f = vocabFiles[defaultVocabIndex()];
+      window.location.hash = `#${f.versionFolder}/${f.subVocabFolder}`;
     }
     setViewMode('cards');
   });
   header.querySelector('#btn-bubble')!.addEventListener('click', () => {
     if (activeFileIndex === null && vocabFiles.length > 0) {
-      activeFileIndex = defaultVocabIndex();
+      const f = vocabFiles[defaultVocabIndex()];
+      window.location.hash = `#${f.versionFolder}/${f.subVocabFolder}`;
     }
     setViewMode('bubble');
   });
@@ -429,7 +440,8 @@ function buildTreeView(concepts: Concept[]): HTMLElement {
       const target = e.target as HTMLElement;
       if (target.classList.contains('tree-group-label')) {
         e.stopPropagation();
-        openDetail(top);
+        const hash = idToHash(top.id);
+        if (hash) window.location.hash = hash;
         return;
       }
       if (openGroupIds.has(top.id)) openGroupIds.delete(top.id);
@@ -440,7 +452,8 @@ function buildTreeView(concepts: Concept[]): HTMLElement {
 
     headerEl.addEventListener('dblclick', (e) => {
       e.stopPropagation();
-      openDetail(top);
+      const hash = idToHash(top.id);
+      if (hash) window.location.hash = hash;
     });
 
     groupEl.appendChild(headerEl);
@@ -464,7 +477,10 @@ function renderTreeItems(concepts: Concept[], container: HTMLElement, depth: num
       <span class="tree-item-notation">${c.notation?.[0] ?? ''}</span>
       <span class="tree-item-label">${getLabel(c.prefLabel, lang)}</span>
     `;
-    item.addEventListener('click', () => openDetail(c));
+    item.addEventListener('click', () => {
+      const hash = idToHash(c.id);
+      if (hash) window.location.hash = hash;
+    });
     container.appendChild(item);
 
     if (c.narrower?.length) {
@@ -501,7 +517,10 @@ function buildCardsView(concepts: Concept[]): HTMLElement {
       </div>
     `;
 
-    card.addEventListener('click', () => openDetail(c));
+    card.addEventListener('click', () => {
+      const hash = idToHash(c.id);
+      if (hash) window.location.hash = hash;
+    });
     wrap.appendChild(card);
   });
 
@@ -583,8 +602,8 @@ function buildSearchView(): HTMLElement {
         item.addEventListener('click', () => {
           activeFileIndex = group.fileIdx;
           viewMode = 'tree';
-          rerender();
-          openDetail(c);
+          const hash = idToHash(c.id);
+          if (hash) window.location.hash = hash;
         });
         groupSec.appendChild(item);
       });
@@ -639,7 +658,10 @@ function buildSearchView(): HTMLElement {
         <div class="search-result-id">${idLink(c.id)}</div>
       </div>
     `;
-    item.addEventListener('click', () => openDetail(c));
+    item.addEventListener('click', () => {
+      const hash = idToHash(c.id);
+      if (hash) window.location.hash = hash;
+    });
     wrap.appendChild(item);
   });
 
@@ -728,7 +750,10 @@ function openDetail(concept: Concept) {
         <span class="detail-child-notation">${child.notation?.[0] ?? ''}</span>
         <span class="detail-child-label">${getLabel(child.prefLabel, lang)}</span>
       `;
-      item.addEventListener('click', () => openDetail(child));
+      item.addEventListener('click', () => {
+        const hash = idToHash(child.id);
+        if (hash) window.location.hash = hash;
+      });
       list.appendChild(item);
     });
 
@@ -745,10 +770,17 @@ function openDetail(concept: Concept) {
 }
 
 function closeDetail() {
-  const overlay = document.getElementById('detail-overlay')!;
-  const panel = document.getElementById('detail-panel')!;
-  overlay.classList.remove('open');
-  panel.classList.remove('open');
+  const route = parseUrlHash();
+  if (route && route.conceptSuffix) {
+    window.location.hash = `#${route.version}/${route.sub}`;
+  } else {
+    const overlay = document.getElementById('detail-overlay');
+    const panel = document.getElementById('detail-panel');
+    if (overlay && panel) {
+      overlay.classList.remove('open');
+      panel.classList.remove('open');
+    }
+  }
 }
 
 // ── Helpers ───────────────────────────────────────────────
@@ -822,7 +854,11 @@ function rerender() {
   // Keep the URL hash in sync with current navigation state
   if (activeFileIndex !== null) {
     const f = vocabFiles[activeFileIndex];
-    pushHash(f.versionFolder, f.subVocabFolder);
+    const route = parseUrlHash();
+    const suffix = (route && route.version === f.versionFolder && route.sub === f.subVocabFolder)
+      ? route.conceptSuffix
+      : '';
+    pushHash(f.versionFolder, f.subVocabFolder, suffix);
   } else {
     pushHash();
   }
@@ -1467,7 +1503,8 @@ function buildBubbleView(topConcepts: Concept[]): HTMLElement {
 
       if (!isDragging) {
         if (!draggedNode.isRoot) {
-          openDetail(draggedNode.concept);
+          const hash = idToHash(draggedNode.concept.id);
+          if (hash) window.location.hash = hash;
           if (draggedNode.concept.narrower?.length) {
             if (expandedNodes.has(draggedNode.id)) {
               expandedNodes.delete(draggedNode.id);
