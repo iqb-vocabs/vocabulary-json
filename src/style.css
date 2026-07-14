@@ -58,7 +58,7 @@ html {
 
 body {
   font-family: var(--font-sans);
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.6;
   color: var(--text-primary);
   background: var(--bg-base);
@@ -162,7 +162,7 @@ body {
   color: var(--text-primary);
   font-family: var(--font-sans);
   font-weight: 600;
-  font-size: 13px;
+  font-size: 15px;
   transition: all var(--t-fast);
 }
 
@@ -206,7 +206,7 @@ body {
 }
 
 .vocab-dropdown-label {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: .08em;
   text-transform: uppercase;
@@ -241,13 +241,13 @@ body {
 }
 
 .vocab-dropdown-cat-name {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
   color: var(--text-primary);
 }
 
 .vocab-dropdown-cat-count {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
   background: var(--bg-active);
   color: var(--text-secondary);
@@ -308,14 +308,14 @@ body {
 }
 
 .vocab-dropdown-file-title {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   color: var(--text-primary);
   line-height: 1.4;
 }
 
 .vocab-dropdown-file-version {
-  font-size: 10px;
+  font-size: 12px;
   font-family: var(--font-mono);
   color: var(--text-muted);
 }
@@ -342,7 +342,7 @@ body {
   border: none;
   color: var(--text-secondary);
   font-family: var(--font-sans);
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
   cursor: pointer;
   transition: all var(--t-fast);
@@ -381,7 +381,7 @@ body {
   border-radius: var(--r-md);
   color: var(--text-primary);
   font-family: var(--font-sans);
-  font-size: 13px;
+  font-size: 15px;
   transition: all var(--t-fast);
   outline: none;
 }
@@ -408,7 +408,7 @@ body {
   border-radius: var(--r-sm);
   color: var(--text-secondary);
   font-family: var(--font-sans);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   cursor: pointer;
   transition: all var(--t-fast);
@@ -431,7 +431,7 @@ body {
   gap: 4px;
   padding: 2px 8px;
   border-radius: 99px;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
   background: var(--bg-active);
   color: var(--text-secondary);
@@ -476,7 +476,7 @@ body {
 
 .scheme-header-id {
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: 13px;
   color: var(--accent-2);
   margin-bottom: 8px;
   opacity: .85;
@@ -503,7 +503,7 @@ body {
 }
 
 .scheme-header-desc {
-  font-size: 13px;
+  font-size: 15px;
   color: var(--text-secondary);
   max-width: 680px;
   line-height: 1.65;
@@ -579,7 +579,7 @@ body {
   border-radius: var(--r-sm);
   display: grid;
   place-items: center;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   flex-shrink: 0;
   font-family: var(--font-mono);
@@ -587,7 +587,7 @@ body {
 
 .tree-group-label {
   flex: 1;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   color: var(--text-primary);
   transition: color var(--t-fast);
@@ -599,7 +599,7 @@ body {
 }
 
 .tree-group-count {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--text-muted);
   font-family: var(--font-mono);
 }
@@ -666,7 +666,7 @@ body {
 
 .tree-item-notation {
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
   color: var(--text-muted);
   flex-shrink: 0;
@@ -675,7 +675,7 @@ body {
 }
 
 .tree-item-label {
-  font-size: 13px;
+  font-size: 15px;
   color: var(--text-secondary);
   line-height: 1.5;
   flex: 1;
@@ -735,7 +735,7 @@ body {
 
 .concept-card-notation {
   font-family: var(--font-mono);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   padding: 2px 8px;
   border-radius: var(--r-sm);
@@ -745,7 +745,7 @@ body {
 }
 
 .concept-card-title {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   color: var(--text-primary);
   line-height: 1.4;
@@ -753,7 +753,7 @@ body {
 }
 
 .concept-card-def {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--text-secondary);
   line-height: 1.6;
   display: -webkit-box;
@@ -772,7 +772,7 @@ body {
 }
 
 .concept-card-children {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--text-muted);
   display: flex;
   align-items: center;
@@ -785,7 +785,7 @@ body {
 }
 
 .search-results-group-title {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 700;
   margin-bottom: 10px;
   color: var(--text-secondary);
@@ -804,7 +804,7 @@ body {
   gap: 12px;
   margin-bottom: 16px;
   color: var(--text-secondary);
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .search-count {
@@ -813,7 +813,7 @@ body {
   padding: 2px 10px;
   border-radius: 99px;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .search-result-item {
@@ -837,7 +837,7 @@ body {
 
 .search-result-notation {
   font-family: var(--font-mono);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   color: var(--accent-1);
   padding: 3px 8px;
@@ -854,7 +854,7 @@ body {
 }
 
 .search-result-label {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: var(--text-primary);
   margin-bottom: 4px;
@@ -863,7 +863,7 @@ body {
 
 .search-result-id {
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: 13px;
   color: var(--text-muted);
 }
 
@@ -923,7 +923,7 @@ mark {
 }
 
 .detail-panel-title {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 700;
   color: var(--text-primary);
 }
@@ -954,7 +954,7 @@ mark {
 }
 
 .detail-section-title {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: .07em;
   text-transform: uppercase;
@@ -964,7 +964,7 @@ mark {
 
 .detail-id {
   font-family: var(--font-mono);
-  font-size: 12px;
+  font-size: 14px;
   color: var(--accent-2);
   word-break: break-all;
   background: var(--bg-elevated);
@@ -996,7 +996,7 @@ mark {
 
 .detail-notation {
   font-family: var(--font-mono);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   color: var(--accent-1);
   background: hsl(262, 75%, 56%, .1);
@@ -1006,7 +1006,7 @@ mark {
 }
 
 .detail-definition {
-  font-size: 13px;
+  font-size: 15px;
   color: var(--text-secondary);
   line-height: 1.75;
   background: var(--bg-elevated);
@@ -1041,14 +1041,14 @@ mark {
 
 .detail-child-notation {
   font-family: var(--font-mono);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
   color: var(--accent-2);
   flex-shrink: 0;
 }
 
 .detail-child-label {
-  font-size: 13px;
+  font-size: 15px;
   color: var(--text-secondary);
   line-height: 1.4;
 }
@@ -1087,7 +1087,7 @@ mark {
 }
 
 .dashboard-hero p {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--text-secondary);
   max-width: 600px;
   margin: 0 auto;
@@ -1133,7 +1133,7 @@ mark {
 }
 
 .dashboard-cat-header h2 {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 700;
   color: var(--text-primary);
   letter-spacing: -0.01em;
@@ -1179,7 +1179,7 @@ mark {
 
 .vocab-card-version {
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
   background: hsl(262, 75%, 56%, .12);
   color: var(--accent-1);
@@ -1188,20 +1188,20 @@ mark {
 }
 
 .vocab-card-category {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
   color: var(--text-muted);
 }
 
 .dashboard-vocab-card h3 {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 700;
   color: var(--text-primary);
   line-height: 1.35;
 }
 
 .vocab-card-description {
-  font-size: 13px;
+  font-size: 15px;
   color: var(--text-secondary);
   line-height: 1.5;
   display: -webkit-box;
@@ -1220,7 +1220,7 @@ mark {
 }
 
 .subconcepts-title {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -1243,7 +1243,7 @@ mark {
   background: var(--bg-surface);
   border: 1px solid var(--border-soft);
   border-radius: var(--r-sm);
-  font-size: 11px;
+  font-size: 13px;
   font-family: var(--font-sans);
   color: var(--text-secondary);
   cursor: pointer;
@@ -1279,7 +1279,7 @@ mark {
 }
 
 .vocab-card-count {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--text-secondary);
 }
 
@@ -1300,7 +1300,7 @@ mark {
 }
 
 .empty-state p {
-  font-size: 14px;
+  font-size: 16px;
   max-width: 280px;
   color: var(--text-muted);
 }
@@ -1363,7 +1363,7 @@ mark {
   gap: 12px;
   border-bottom: 1px solid var(--border-soft);
   padding-bottom: 12px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .bubble-back-btn {
@@ -1406,7 +1406,7 @@ mark {
   box-shadow: var(--shadow-md);
   padding: 6px 12px;
   font-family: var(--font-sans);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: var(--text-secondary);
   white-space: nowrap;
@@ -1524,7 +1524,7 @@ mark {
 
 .subcategory-card-version {
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
   background: hsl(262, 75%, 56%, .12);
   color: var(--accent-1);
@@ -1533,7 +1533,7 @@ mark {
 }
 
 .dashboard-subcategory-card h3 {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 700;
   color: var(--text-primary);
   line-height: 1.35;
@@ -1576,7 +1576,7 @@ mark {
 
 .subvocab-row-badge {
   font-family: var(--font-mono);
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
   color: var(--accent-2);
   background: hsl(197, 85%, 40%, .1);
@@ -1586,7 +1586,7 @@ mark {
 }
 
 .subvocab-row-title {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
   color: var(--text-primary);
   white-space: nowrap;
@@ -1602,7 +1602,7 @@ mark {
 }
 
 .subvocab-row-count {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--text-muted);
 }
 
@@ -1637,7 +1637,7 @@ mark {
 }
 
 .vocab-dropdown-sub-name {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
   color: var(--text-secondary);
   text-transform: uppercase;
@@ -1650,7 +1650,7 @@ mark {
 
 .vocab-dropdown-sub-version {
   font-family: var(--font-mono);
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 700;
   color: var(--accent-1);
   background: hsl(262, 75%, 56%, .1);
@@ -1669,7 +1669,7 @@ mark {
 .scheme-download-btn {
   display: inline-flex;
   align-items: center;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
   background: var(--accent-2);
   color: var(--bg-surface);
@@ -1702,7 +1702,7 @@ mark {
   background: hsl(0, 2%, 14%);
   color: hsl(0, 0%, 80%);
   font-family: var(--font-sans);
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .footer-inner {
@@ -1742,7 +1742,7 @@ mark {
 }
 
 .footer-tagline {
-  font-size: 12px;
+  font-size: 14px;
   color: hsl(0, 0%, 55%);
   line-height: 1.6;
   max-width: 180px;
@@ -1761,7 +1761,7 @@ mark {
 }
 
 .footer-col-title {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: .08em;
   text-transform: uppercase;
@@ -1779,7 +1779,7 @@ mark {
 .footer-links a {
   color: hsl(0, 0%, 65%);
   text-decoration: none;
-  font-size: 13px;
+  font-size: 15px;
   transition: color var(--t-fast);
 }
 
@@ -1806,7 +1806,7 @@ mark {
 .footer-legal a {
   color: hsl(0, 0%, 55%);
   text-decoration: none;
-  font-size: 12px;
+  font-size: 14px;
   transition: color var(--t-fast);
 }
 
@@ -1839,7 +1839,7 @@ mark {
 
 .footer-copyright {
   width: 100%;
-  font-size: 11px;
+  font-size: 13px;
   color: hsl(0, 0%, 40%);
   text-align: center;
   padding-top: 6px;
