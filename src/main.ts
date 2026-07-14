@@ -262,7 +262,7 @@ function buildMain(): HTMLElement {
   schemeHeader.innerHTML = `
     <div class="scheme-header-id">${activeFile.data.id}</div>
     <h1>${getLabel(activeFile.data.title, lang)}</h1>
-    ${activeFile.data.description ? `<p class="scheme-header-desc">${getLabel(activeFile.data.description, lang)}</p>` : ''}
+    ${activeFile.data.description ? `<p class="scheme-header-desc">${linkify(getLabel(activeFile.data.description, lang))}</p>` : ''}
     <div class="scheme-header-meta">
       <span class="badge accent-1">SKOS ConceptScheme</span>
       <span class="badge accent-2">${activeFile.category} · ${activeFile.version}</span>
@@ -402,7 +402,7 @@ function buildCardsView(concepts: Concept[]): HTMLElement {
         <h2 class="concept-card-title">${getLabel(c.prefLabel, lang)}</h2>
         <span class="concept-card-notation">${notation}</span>
       </div>
-      ${def ? `<p class="concept-card-def">${stripNewlines(def)}</p>` : ''}
+      ${def ? `<p class="concept-card-def">${linkify(stripNewlines(def))}</p>` : ''}
       <div class="concept-card-footer">
         <span class="concept-card-children">
           ${childCount ? `${iconChildren()} ${childCount} ${t('sub_concepts', lang)}` : ''}
@@ -619,7 +619,7 @@ function openDetail(concept: Concept) {
     const defSection = document.createElement('div');
     defSection.innerHTML = `
       <div class="detail-section-title">${t('definition', lang)}</div>
-      <div class="detail-definition">${def}</div>
+      <div class="detail-definition">${linkify(def)}</div>
     `;
     body.appendChild(defSection);
   }
@@ -716,6 +716,18 @@ function rerender() {
 
 function escapeHtml(str: string): string {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+/**
+ * Escape HTML, then turn any http(s) URL into a clickable <a> that opens in a new tab.
+ * Safe to use wherever text is injected via innerHTML.
+ */
+function linkify(str: string): string {
+  const escaped = escapeHtml(str);
+  return escaped.replace(
+    /(https?:\/\/[^\s<>"'()\u0029]+)/g,
+    '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>'
+  );
 }
 
 /** Replace newlines with spaces — used in clamped card previews where pre-wrap would break line-clamp. */

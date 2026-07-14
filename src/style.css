@@ -499,6 +499,24 @@ body {
   white-space: pre-wrap;
 }
 
+/* Linkified URLs inside description / definition / card text */
+.scheme-header-desc a,
+.detail-definition a,
+.concept-card-def a {
+  color: var(--accent-2);
+  text-decoration: none;
+  word-break: break-all;
+  transition: color var(--t-fast), text-decoration var(--t-fast);
+}
+
+.scheme-header-desc a:hover,
+.detail-definition a:hover,
+.concept-card-def a:hover {
+  color: var(--accent-1);
+  text-decoration: underline;
+}
+
+
 .scheme-header-meta {
   display: flex;
   flex-wrap: wrap;
