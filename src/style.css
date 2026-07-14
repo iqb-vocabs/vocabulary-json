@@ -482,6 +482,18 @@ body {
   opacity: .85;
 }
 
+.scheme-header-id .id-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dashed currentColor;
+  transition: opacity var(--t-fast), border-bottom-style var(--t-fast);
+}
+
+.scheme-header-id .id-link:hover {
+  opacity: 1;
+  border-bottom-style: solid;
+}
+
 .scheme-header h1 {
   font-size: 22px;
   font-weight: 700;
@@ -959,6 +971,20 @@ mark {
   border: 1px solid var(--border-soft);
   border-radius: var(--r-md);
   padding: 10px 12px;
+}
+
+.detail-id .id-link,
+.search-result-id .id-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dashed currentColor;
+  transition: color var(--t-fast), border-bottom-style var(--t-fast);
+}
+
+.detail-id .id-link:hover,
+.search-result-id .id-link:hover {
+  color: var(--accent-1);
+  border-bottom-style: solid;
 }
 
 .detail-label {

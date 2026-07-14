@@ -1,0 +1,34 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+# ── IQB Vocabulary Explorer deep-links ───────────────────────────────────────
+#
+# These rules redirect persistent w3id.org URIs to the IQB Vocabulary Explorer
+# hosted on GitHub Pages.
+#
+# Pattern: https://w3id.org/iqb/{version}/{subVocab}/
+#   → https://iqb-vocabs.github.io/vocabulary-json/?vocab={version}/{subVocab}
+#
+# Pattern: https://w3id.org/iqb/{version}/{subVocab}/{conceptId}
+#   → https://iqb-vocabs.github.io/vocabulary-json/?vocab={version}/{subVocab}&concept=https://w3id.org/iqb/{version}/{subVocab}/{conceptId}
+#
+# Examples:
+#   https://w3id.org/iqb/v85/av/
+#     → https://iqb-vocabs.github.io/vocabulary-json/?vocab=v85/av
+#
+#   https://w3id.org/iqb/v85/av/1
+#     → https://iqb-vocabs.github.io/vocabulary-json/?vocab=v85/av&concept=https://w3id.org/iqb/v85/av/1
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Rule 1: Concept URI (version/subVocab/conceptId)
+#   Matches: /iqb/v85/av/1  or  /iqb/v85/av/SomeCode
+RewriteRule ^(v[^/]+)/([^/]+)/([^/]+)/?$ https://iqb-vocabs.github.io/vocabulary-json/?vocab=$1/$2&concept=https://w3id.org/iqb/$1/$2/$3 [R=303,L]
+
+# Rule 2: Scheme URI (version/subVocab only, trailing slash optional)
+#   Matches: /iqb/v85/av  or  /iqb/v85/av/
+RewriteRule ^(v[^/]+)/([^/]+)/?$ https://iqb-vocabs.github.io/vocabulary-json/?vocab=$1/$2 [R=303,L]
+
+# Rule 3: Version root (version only, trailing slash optional)
+#   Matches: /iqb/v85  or  /iqb/v85/
+#   Redirects to the explorer without a specific sub-vocab selected
+RewriteRule ^(v[^/]+)/?$ https://iqb-vocabs.github.io/vocabulary-json/?vocab=$1 [R=303,L]

@@ -22,11 +22,101 @@ function defaultVocabIndex(): number {
   return fallback !== -1 ? fallback : 0;
 }
 
+// ── URL / Hash routing ───────────────────────────────────
+/**
+ * Parse the current URL and return resolved routing state.
+ *
+ * Priority (highest → lowest):
+ *   1. Hash:         #v85/av        or  #v85/av/1
+ *   2. Query params: ?vocab=v85/av  and ?concept=URI  (w3id.org redirect fallback)
+ *
+ * Hash formats:
+ *   #v85/av           → open vocabulary v85 / av in tree view
+ *   #v85/av/1         → open vocabulary + slide in detail for concept with id ending in /1
+ */
+function parseUrlHash(): { version: string; sub: string; conceptSuffix: string } | null {
+  // 1. Try hash first
+  const hash = window.location.hash.replace(/^#\/?/, ''); // strip leading #/ or #
+  if (hash) {
+    const parts = hash.split('/');
+    if (parts.length >= 2) {
+      return {
+        version:       parts[0],                    // e.g. "v85"
+        sub:           parts[1],                    // e.g. "av"
+        conceptSuffix: parts.slice(2).join('/'),    // e.g. "1" or "" if absent
+      };
+    }
+  }
+
+  // 2. Fall back to ?vocab= query params (w3id.org redirects)
+  const params = new URLSearchParams(window.location.search);
+  const vocabParam   = params.get('vocab');    // e.g. "v85/av"
+  const conceptParam = params.get('concept');  // e.g. full URI
+  if (vocabParam) {
+    const parts = vocabParam.split('/');
+    let conceptSuffix = '';
+    if (conceptParam) {
+      // extract the suffix after the base vocab URI
+      const base = `https://w3id.org/iqb/${parts[0]}/${parts[1]}/`;
+      conceptSuffix = conceptParam.startsWith(base)
+        ? conceptParam.slice(base.length)
+        : '';
+    }
+    return { version: parts[0], sub: parts[1] ?? '', conceptSuffix };
+  }
+
+  return null;
+}
+
+/** Update the URL hash to reflect the current navigation state (no page reload). */
+function pushHash(version?: string, sub?: string, conceptSuffix?: string): void {
+  if (!version || !sub) {
+    history.replaceState(null, '', window.location.pathname + window.location.search + '#');
+    return;
+  }
+  const suffix = conceptSuffix ? `/${conceptSuffix}` : '';
+  history.replaceState(null, '', `#${version}/${sub}${suffix}`);
+}
+
 function init() {
   vocabFiles = loadVocabFiles();
   categories = groupByCategory(vocabFiles);
   activeFileIndex = null; // default to dashboard
+
+  applyRouting();
   renderApp();
+
+  // Enable browser back / forward navigation
+  window.addEventListener('hashchange', () => {
+    applyRouting();
+    rerender();
+  });
+}
+
+/** Read the current URL and update app state accordingly. */
+function applyRouting(): void {
+  const route = parseUrlHash();
+  if (!route) return;
+
+  const idx = vocabFiles.findIndex(
+    f => f.versionFolder === route.version && f.subVocabFolder === route.sub
+  );
+  if (idx !== -1) {
+    activeFileIndex = idx;
+    viewMode = 'tree';
+  }
+
+  // Open concept detail after render if a suffix was given
+  if (route.conceptSuffix && activeFileIndex !== null) {
+    const activeFile = vocabFiles[activeFileIndex];
+    // Reconstruct the full concept URI from the w3id.org base + suffix
+    const conceptId = `https://w3id.org/iqb/${route.version}/${route.sub}/${route.conceptSuffix}`;
+    // Defer until DOM is painted
+    requestAnimationFrame(() => {
+      const concept = findConceptById(activeFile.data.hasTopConcept, conceptId);
+      if (concept) openDetail(concept);
+    });
+  }
 }
 
 // ── Root render ──────────────────────────────────────────
@@ -260,7 +350,7 @@ function buildMain(): HTMLElement {
   const schemeHeader = document.createElement('div');
   schemeHeader.className = 'scheme-header animate-in';
   schemeHeader.innerHTML = `
-    <div class="scheme-header-id">${activeFile.data.id}</div>
+    <div class="scheme-header-id">${idLink(activeFile.data.id)}</div>
     <h1>${getLabel(activeFile.data.title, lang)}</h1>
     ${activeFile.data.description ? `<p class="scheme-header-desc">${linkify(getLabel(activeFile.data.description, lang))}</p>` : ''}
     <div class="scheme-header-meta">
@@ -487,7 +577,7 @@ function buildSearchView(): HTMLElement {
           ${c.notation?.[0] ? `<div class="search-result-notation">${c.notation[0]}</div>` : ''}
           <div class="search-result-body">
             <div class="search-result-label">${highlight(label, searchQuery)}</div>
-            <div class="search-result-id">${c.id}</div>
+            <div class="search-result-id">${idLink(c.id)}</div>
           </div>
         `;
         item.addEventListener('click', () => {
@@ -546,7 +636,7 @@ function buildSearchView(): HTMLElement {
       ${c.notation?.[0] ? `<div class="search-result-notation">${c.notation[0]}</div>` : ''}
       <div class="search-result-body">
         <div class="search-result-label">${highlight(label, searchQuery)}</div>
-        <div class="search-result-id">${c.id}</div>
+        <div class="search-result-id">${idLink(c.id)}</div>
       </div>
     `;
     item.addEventListener('click', () => openDetail(c));
@@ -600,7 +690,7 @@ function openDetail(concept: Concept) {
   const idSection = document.createElement('div');
   idSection.innerHTML = `
     <div class="detail-section-title">${t('identifier', lang)}</div>
-    <div class="detail-id">${concept.id}</div>
+    <div class="detail-id">${idLink(concept.id)}</div>
   `;
   body.appendChild(idSection);
 
@@ -667,6 +757,32 @@ function setViewMode(mode: 'tree' | 'cards' | 'bubble' | 'search') {
   rerender();
 }
 
+/**
+ * Convert a w3id.org IQB URI to a local app hash.
+ *
+ * Scheme URI:  https://w3id.org/iqb/v05/r1/           → #v05/r1
+ * Concept URI: https://w3id.org/iqb/v05/r1/transcript → #v05/r1/transcript
+ * Anything else: returns null (not an IQB link).
+ */
+function idToHash(uri: string): string | null {
+  const m = uri.match(/^https:\/\/w3id\.org\/iqb\/(v[^/]+)\/([^/]+)\/?(.*)$/);
+  if (!m) return null;
+  const [, version, sub, suffix] = m;
+  return suffix ? `#${version}/${sub}/${suffix}` : `#${version}/${sub}`;
+}
+
+/**
+ * Render a URI as a clickable in-app hash link.
+ * Falls back to a plain <span> if the URI is not a recognised IQB pattern.
+ */
+function idLink(uri: string): string {
+  const hash = idToHash(uri);
+  if (hash) {
+    return `<a class="id-link" href="${hash}" title="Open in explorer">${escapeHtml(uri)}</a>`;
+  }
+  return `<span>${escapeHtml(uri)}</span>`;
+}
+
 function resolveColorWithOpacity(colorStr: string, opacity: number): string {
   let actualColor = colorStr;
   if (colorStr.startsWith('var(')) {
@@ -703,6 +819,14 @@ function rerender() {
   app.appendChild(buildDetailPanel());
   app.appendChild(buildFooter());
 
+  // Keep the URL hash in sync with current navigation state
+  if (activeFileIndex !== null) {
+    const f = vocabFiles[activeFileIndex];
+    pushHash(f.versionFolder, f.subVocabFolder);
+  } else {
+    pushHash();
+  }
+
   if (viewMode === 'search' || searchQuery) {
     const input = document.querySelector<HTMLInputElement>('#global-search');
     if (input) {
@@ -716,6 +840,18 @@ function rerender() {
 
 function escapeHtml(str: string): string {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+/** Recursively find a concept by its URI within a concept tree. */
+function findConceptById(concepts: Concept[], id: string): Concept | null {
+  for (const c of concepts) {
+    if (c.id === id) return c;
+    if (c.narrower?.length) {
+      const found = findConceptById(c.narrower, id);
+      if (found) return found;
+    }
+  }
+  return null;
 }
 
 /**
