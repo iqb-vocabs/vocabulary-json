@@ -95,7 +95,8 @@ export function groupByCategory(files: VocabFile[]): VocabCategory[] {
 
 export function getLabel(obj: LocalizedString | undefined, lang = 'de'): string {
   if (!obj) return '';
-  return obj[lang] ?? obj['en'] ?? Object.values(obj)[0] ?? '';
+  const val = obj[lang] ?? obj['en'] ?? Object.values(obj)[0] ?? '';
+  return val.replace(/\\\s*\n/g, '\n');
 }
 
 export function searchConcepts(concepts: Concept[], query: string, lang = 'de'): Concept[] {
