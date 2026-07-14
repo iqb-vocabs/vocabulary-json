@@ -103,7 +103,7 @@ body {
 }
 
 .header-inner {
-  max-width: 1134px;
+  max-width: 1200px;
   margin: 0 auto;
   width: 100%;
   display: flex;
@@ -1660,7 +1660,7 @@ mark {
 }
 
 .footer-inner {
-  max-width: 1134px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 32px;
 }
