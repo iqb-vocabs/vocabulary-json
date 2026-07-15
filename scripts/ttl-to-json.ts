@@ -180,6 +180,54 @@ interface RDFObject {
 type RDFProperties = Record<string, RDFObject[]>;
 type RDFGraph = Record<string, RDFProperties>;
 
+function compareNotations(na: string, nb: string): number {
+  const tokenize = (s: string) => {
+    const tokens: (string | number)[] = [];
+    let i = 0;
+    while (i < s.length) {
+      if (/\d/.test(s[i])) {
+        let numStr = '';
+        while (i < s.length && /\d/.test(s[i])) {
+          numStr += s[i];
+          i++;
+        }
+        tokens.push(parseInt(numStr, 10));
+      } else {
+        let str = '';
+        while (i < s.length && !/\d/.test(s[i])) {
+          str += s[i];
+          i++;
+        }
+        tokens.push(str.toLowerCase());
+      }
+    }
+    return tokens;
+  };
+
+  const tokensA = tokenize(na);
+  const tokensB = tokenize(nb);
+  const minLen = Math.min(tokensA.length, tokensB.length);
+
+  for (let i = 0; i < minLen; i++) {
+    const a = tokensA[i];
+    const b = tokensB[i];
+    const typeA = typeof a;
+    const typeB = typeof b;
+
+    if (typeA === 'number' && typeB === 'number') {
+      const diff = (a as number) - (b as number);
+      if (diff !== 0) return diff;
+    } else if (typeA === 'string' && typeB === 'string') {
+      const cmp = (a as string).localeCompare(b as string);
+      if (cmp !== 0) return cmp;
+    } else {
+      return typeA === 'number' ? -1 : 1;
+    }
+  }
+
+  return tokensA.length - tokensB.length;
+}
+
 export function convertTtlToJson(ttlPath: string): ConceptScheme {
   const ttlContent = readFileSync(ttlPath, 'utf8');
 
@@ -486,16 +534,7 @@ export function convertTtlToJson(ttlPath: string): ConceptScheme {
       children.sort((a, b) => {
         const notA = a.notation?.[0] || '';
         const notB = b.notation?.[0] || '';
-        const partsA = notA.split('.').map(Number);
-        const partsB = notB.split('.').map(Number);
-        for (let i = 0; i < Math.max(partsA.length, partsB.length); i++) {
-          const aVal = isNaN(partsA[i]) ? 0 : partsA[i];
-          const bVal = isNaN(partsB[i]) ? 0 : partsB[i];
-          if (aVal !== bVal) {
-            return aVal - bVal;
-          }
-        }
-        return notA.localeCompare(notB);
+        return compareNotations(notA, notB);
       });
       concept.narrower = children;
     }
@@ -527,16 +566,7 @@ export function convertTtlToJson(ttlPath: string): ConceptScheme {
   topConcepts.sort((a, b) => {
     const notA = a.notation?.[0] || '';
     const notB = b.notation?.[0] || '';
-    const partsA = notA.split('.').map(Number);
-    const partsB = notB.split('.').map(Number);
-    for (let i = 0; i < Math.max(partsA.length, partsB.length); i++) {
-      const aVal = isNaN(partsA[i]) ? 0 : partsA[i];
-      const bVal = isNaN(partsB[i]) ? 0 : partsB[i];
-      if (aVal !== bVal) {
-        return aVal - bVal;
-      }
-    }
-    return notA.localeCompare(notB);
+    return compareNotations(notA, notB);
   });
 
   return {

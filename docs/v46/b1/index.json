@@ -80,15 +80,6 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v46/b1/h7r",
-          "notation": [
-            "E 10"
-          ],
-          "prefLabel": {
-            "de": "beurteilen die Gültigkeit empirischer Ergebnisse und deren Verallgemeinerung."
-          }
-        },
-        {
           "id": "https://w3id.org/iqb/v46/b1/d3f",
           "notation": [
             "E 2"
@@ -158,6 +149,15 @@
           ],
           "prefLabel": {
             "de": "werten gewonnene Daten aus, ggf. auch durch einfache Mathematisierungen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v46/b1/h7r",
+          "notation": [
+            "E 10"
+          ],
+          "prefLabel": {
+            "de": "beurteilen die Gültigkeit empirischer Ergebnisse und deren Verallgemeinerung."
           }
         }
       ]

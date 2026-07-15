@@ -107,42 +107,6 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v43/k1/b6y",
-          "notation": [
-            "E 10"
-          ],
-          "prefLabel": {
-            "de": "analysieren Wechselwirkungen mit Hilfe von Modellen,"
-          }
-        },
-        {
-          "id": "https://w3id.org/iqb/v43/k1/c2e",
-          "notation": [
-            "E 11"
-          ],
-          "prefLabel": {
-            "de": "beschreiben Speicherung und Weitergabe genetischer Information auch unter Anwendung geeigneter Modelle,"
-          }
-        },
-        {
-          "id": "https://w3id.org/iqb/v43/k1/a9f",
-          "notation": [
-            "E 12"
-          ],
-          "prefLabel": {
-            "de": "erklären dynamische Prozesse in Ökosystemen mithilfe von Modellvorstellungen,"
-          }
-        },
-        {
-          "id": "https://w3id.org/iqb/v43/k1/u7a",
-          "notation": [
-            "E 13"
-          ],
-          "prefLabel": {
-            "de": "beurteilen die Aussagekraft eines Modells."
-          }
-        },
-        {
           "id": "https://w3id.org/iqb/v43/k1/s9d",
           "notation": [
             "E 2"
@@ -212,6 +176,42 @@
           ],
           "prefLabel": {
             "de": "wenden Modelle zur Veranschaulichung von Struktur und Funktion an,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/b6y",
+          "notation": [
+            "E 10"
+          ],
+          "prefLabel": {
+            "de": "analysieren Wechselwirkungen mit Hilfe von Modellen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/c2e",
+          "notation": [
+            "E 11"
+          ],
+          "prefLabel": {
+            "de": "beschreiben Speicherung und Weitergabe genetischer Information auch unter Anwendung geeigneter Modelle,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/a9f",
+          "notation": [
+            "E 12"
+          ],
+          "prefLabel": {
+            "de": "erklären dynamische Prozesse in Ökosystemen mithilfe von Modellvorstellungen,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/u7a",
+          "notation": [
+            "E 13"
+          ],
+          "prefLabel": {
+            "de": "beurteilen die Aussagekraft eines Modells."
           }
         }
       ]
@@ -492,15 +492,6 @@
           }
         },
         {
-          "id": "https://w3id.org/iqb/v43/k1/z4q",
-          "notation": [
-            "K 10"
-          ],
-          "prefLabel": {
-            "de": "wenden idealtypische Darstellungen, Schemazeichnungen, Diagramme und Symbolsprache auf komplexe Sachverhalte an."
-          }
-        },
-        {
           "id": "https://w3id.org/iqb/v43/k1/a4c",
           "notation": [
             "K 2"
@@ -570,6 +561,15 @@
           ],
           "prefLabel": {
             "de": "beschreiben und erklären den Bedeutungsgehalt von fachsprachlichen bzw. alltagssprachlichen Texten und von Bildern in strukturierter sprachlicher Darstellung,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v43/k1/z4q",
+          "notation": [
+            "K 10"
+          ],
+          "prefLabel": {
+            "de": "wenden idealtypische Darstellungen, Schemazeichnungen, Diagramme und Symbolsprache auf komplexe Sachverhalte an."
           }
         }
       ]

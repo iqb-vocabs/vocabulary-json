@@ -254,30 +254,6 @@
           },
           "narrower": [
             {
-              "id": "https://w3id.org/iqb/v46/k1/v5d",
-              "notation": [
-                "F 4.1"
-              ],
-              "prefLabel": {
-                "de": "Nutzbare Energie kann aus erschöpfbaren und regenerativen Quellen gewonnen werden."
-              },
-              "definition": {
-                "de": "Beispiele: fossile Brennstoffe, Wind- und Sonnenenergie, Kernenergie"
-              }
-            },
-            {
-              "id": "https://w3id.org/iqb/v46/k1/r3x",
-              "notation": [
-                "F 4.2"
-              ],
-              "prefLabel": {
-                "de": "Für den Transport und bei der Nutzung von Energie kann ein Wechsel der Energieform bzw. des Energieträgers stattfinden. Dabei kann nur ein Teil der eingesetzten Energie genutzt werden"
-              },
-              "definition": {
-                "de": "Beispiele: Generator, Motor, Transformator, Wirkungsgrad, Entropie, Abwärme, Energieentwertung"
-              }
-            },
-            {
               "id": "https://w3id.org/iqb/v46/k1/s5c",
               "notation": [
                 "E 4.3"
@@ -299,6 +275,30 @@
               },
               "definition": {
                 "de": "Beispiele: Wärmeleitung, Strahlung"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v46/k1/v5d",
+              "notation": [
+                "F 4.1"
+              ],
+              "prefLabel": {
+                "de": "Nutzbare Energie kann aus erschöpfbaren und regenerativen Quellen gewonnen werden."
+              },
+              "definition": {
+                "de": "Beispiele: fossile Brennstoffe, Wind- und Sonnenenergie, Kernenergie"
+              }
+            },
+            {
+              "id": "https://w3id.org/iqb/v46/k1/r3x",
+              "notation": [
+                "F 4.2"
+              ],
+              "prefLabel": {
+                "de": "Für den Transport und bei der Nutzung von Energie kann ein Wechsel der Energieform bzw. des Energieträgers stattfinden. Dabei kann nur ein Teil der eingesetzten Energie genutzt werden"
+              },
+              "definition": {
+                "de": "Beispiele: Generator, Motor, Transformator, Wirkungsgrad, Entropie, Abwärme, Energieentwertung"
               }
             }
           ]

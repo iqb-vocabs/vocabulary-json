@@ -364,6 +364,15 @@
           },
           "narrower": [
             {
+              "id": "https://w3id.org/iqb/v40/k1/r6u",
+              "notation": [
+                "E 4.3"
+              ],
+              "prefLabel": {
+                "de": "beschreiben die Beeinflussbarkeit chemischer Reaktionen durch den Einsatz von Katalysatoren."
+              }
+            },
+            {
               "id": "https://w3id.org/iqb/v40/k1/q7u",
               "notation": [
                 "F 4.1"
@@ -379,15 +388,6 @@
               ],
               "prefLabel": {
                 "de": "führen energetische Erscheinungen bei chemischen Reaktionen auf die Umwandlung eines Teils der in Stoffen gespeicherten Energie in andere Energieformen zurück,"
-              }
-            },
-            {
-              "id": "https://w3id.org/iqb/v40/k1/r6u",
-              "notation": [
-                "E 4.3"
-              ],
-              "prefLabel": {
-                "de": "beschreiben die Beeinflussbarkeit chemischer Reaktionen durch den Einsatz von Katalysatoren."
               }
             }
           ]
@@ -413,15 +413,6 @@
           ],
           "prefLabel": {
             "de": "recherchieren zu einem chemischen Sachverhalt in unterschiedlichen Quellen,"
-          }
-        },
-        {
-          "id": "https://w3id.org/iqb/v40/k1/p6a",
-          "notation": [
-            "K 10"
-          ],
-          "prefLabel": {
-            "de": "planen, strukturieren, reflektieren und präsentieren ihre Arbeit als Team."
           }
         },
         {
@@ -494,6 +485,15 @@
           ],
           "prefLabel": {
             "de": "vertreten ihre Standpunkte zu chemischen Sachverhalten und reflektieren Einwände selbstkritisch,"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v40/k1/p6a",
+          "notation": [
+            "K 10"
+          ],
+          "prefLabel": {
+            "de": "planen, strukturieren, reflektieren und präsentieren ihre Arbeit als Team."
           }
         }
       ]
