@@ -88,7 +88,8 @@ body {
 #app {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
 }
 
 /* ── Header ──────────────────────────────────────────────── */
@@ -454,6 +455,7 @@ body {
   margin: 0 auto;
   width: 100%;
   flex: 1;
+  overflow-y: auto;
 }
 
 /* ── Scheme header ───────────────────────────────────────── */
@@ -1734,7 +1736,7 @@ mark {
   border-top: 1px solid var(--border-soft);
   background: var(--bg-elevated);
   padding: 14px 24px;
-  margin-top: auto;
+  flex-shrink: 0;
 }
 
 .footer-inner {
@@ -1763,4 +1765,43 @@ mark {
   background: hsl(262, 75%, 56%, .08);
 }
 
+.footer-nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
 
+.footer-nav-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  border: 1px solid var(--border-soft);
+  border-radius: var(--r-sm);
+  background: var(--bg-surface);
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 500;
+  font-family: var(--font-sans);
+  cursor: pointer;
+  transition: color var(--t-fast), border-color var(--t-fast), background var(--t-fast);
+  max-width: 160px;
+}
+
+.footer-nav-btn:hover:not(.disabled) {
+  color: var(--accent-1);
+  border-color: var(--accent-1);
+  background: hsl(262, 75%, 56%, .06);
+}
+
+.footer-nav-btn.disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.footer-nav-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 120px;
+}
