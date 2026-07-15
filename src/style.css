@@ -453,6 +453,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   width: 100%;
+  flex: 1;
 }
 
 /* ── Scheme header ───────────────────────────────────────── */
@@ -1727,4 +1728,39 @@ mark {
     justify-content: center;
   }
 }
+
+/* ── Footer ──────────────────────────────────────────────── */
+.app-footer {
+  border-top: 1px solid var(--border-soft);
+  background: var(--bg-elevated);
+  padding: 14px 24px;
+  margin-top: auto;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: var(--r-sm);
+  transition: color var(--t-fast), background var(--t-fast);
+}
+
+.footer-link:hover {
+  color: var(--accent-1);
+  background: hsl(262, 75%, 56%, .08);
+}
+
 
