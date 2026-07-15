@@ -886,6 +886,7 @@ mark {
   display: none;
   opacity: 0;
   transition: opacity var(--t-med);
+  pointer-events: none;
 }
 
 .detail-overlay.open {
@@ -906,6 +907,7 @@ mark {
   transform: translateX(100%);
   transition: transform var(--t-med);
   box-shadow: var(--shadow-lg);
+  pointer-events: auto;
 }
 
 .detail-panel.open {
@@ -1033,13 +1035,20 @@ mark {
   background: var(--bg-elevated);
   border: 1px solid var(--border-soft);
   border-radius: var(--r-md);
-  cursor: pointer;
   transition: all var(--t-fast);
 }
 
-.detail-child-item:hover {
+.detail-child-item.has-subconcepts {
+  cursor: pointer;
+}
+
+.detail-child-item.has-subconcepts:hover {
   border-color: var(--accent-1);
   background: var(--bg-hover);
+}
+
+.detail-child-item.no-subconcepts {
+  opacity: 0.85;
 }
 
 .detail-child-notation {

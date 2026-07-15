@@ -356,6 +356,10 @@ function buildMain(): HTMLElement {
   const main = document.createElement('main');
   main.className = 'main-content';
 
+  main.addEventListener('click', () => {
+    closeDetail();
+  });
+
   if (activeFileIndex === null) {
     if (viewMode === 'search' || searchQuery) {
       main.appendChild(buildSearchView());
@@ -389,7 +393,8 @@ function buildMain(): HTMLElement {
   `;
 
   const downloadBtn = schemeHeader.querySelector('#scheme-download-json')!;
-  downloadBtn.addEventListener('click', () => {
+  downloadBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
     const jsonString = JSON.stringify(activeFile.data, null, 2);
     const blob = new Blob([jsonString], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
@@ -458,6 +463,7 @@ function buildTreeView(concepts: Concept[]): HTMLElement {
       else openGroupIds.add(top.id);
       headerEl.classList.toggle('expanded');
       childrenEl.classList.toggle('open');
+      e.stopPropagation();
     });
 
     headerEl.addEventListener('dblclick', (e) => {
@@ -487,7 +493,8 @@ function renderTreeItems(concepts: Concept[], container: HTMLElement, depth: num
       <span class="tree-item-notation">${c.notation?.[0] ?? ''}</span>
       <span class="tree-item-label">${getLabel(c.prefLabel, lang)}</span>
     `;
-    item.addEventListener('click', () => {
+    item.addEventListener('click', (e) => {
+      e.stopPropagation();
       const hash = idToHash(c.id);
       if (hash) window.location.hash = hash;
     });
@@ -527,7 +534,8 @@ function buildCardsView(concepts: Concept[]): HTMLElement {
       </div>
     `;
 
-    card.addEventListener('click', () => {
+    card.addEventListener('click', (e) => {
+      e.stopPropagation();
       const hash = idToHash(c.id);
       if (hash) window.location.hash = hash;
     });
@@ -609,7 +617,8 @@ function buildSearchView(): HTMLElement {
             <div class="search-result-id">${idLink(c.id)}</div>
           </div>
         `;
-        item.addEventListener('click', () => {
+        item.addEventListener('click', (e) => {
+          e.stopPropagation();
           activeFileIndex = group.fileIdx;
           viewMode = 'tree';
           const hash = idToHash(c.id);
@@ -668,7 +677,8 @@ function buildSearchView(): HTMLElement {
         <div class="search-result-id">${idLink(c.id)}</div>
       </div>
     `;
-    item.addEventListener('click', () => {
+    item.addEventListener('click', (e) => {
+      e.stopPropagation();
       const hash = idToHash(c.id);
       if (hash) window.location.hash = hash;
     });
@@ -683,7 +693,6 @@ function buildDetailPanel(): HTMLElement {
   const overlay = document.createElement('div');
   overlay.className = 'detail-overlay';
   overlay.id = 'detail-overlay';
-  overlay.addEventListener('click', closeDetail);
 
   const panel = document.createElement('div');
   panel.className = 'detail-panel';
@@ -754,16 +763,20 @@ function openDetail(concept: Concept) {
     list.className = 'detail-children-list';
 
     sortByNotation(concept.narrower).forEach((child) => {
+      const hasSub = child.narrower && child.narrower.length > 0;
       const item = document.createElement('div');
-      item.className = 'detail-child-item';
+      item.className = `detail-child-item ${hasSub ? 'has-subconcepts' : 'no-subconcepts'}`;
       item.innerHTML = `
         <span class="detail-child-notation">${child.notation?.[0] ?? ''}</span>
         <span class="detail-child-label">${getLabel(child.prefLabel, lang)}</span>
       `;
-      item.addEventListener('click', () => {
-        const hash = idToHash(child.id);
-        if (hash) window.location.hash = hash;
-      });
+      if (hasSub) {
+        item.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const hash = idToHash(child.id);
+          if (hash) window.location.hash = hash;
+        });
+      }
       list.appendChild(item);
     });
 
@@ -1612,6 +1625,25 @@ function buildBubbleView(topConcepts: Concept[]): HTMLElement {
     mouseY = -1000;
     canvas.style.cursor = 'default';
     tooltip.style.display = 'none';
+  });
+
+  canvas.addEventListener('click', (e) => {
+    const rect = canvas.getBoundingClientRect();
+    const clickX = e.clientX - rect.left;
+    const clickY = e.clientY - rect.top;
+
+    const badgeHit = nodes.some(n => {
+      if (n.isRoot || !n.concept.narrower?.length) return false;
+      const badgeX = n.x + n.radius * 0.7;
+      const badgeY = n.y + n.radius * 0.7;
+      return Math.hypot(clickX - badgeX, clickY - badgeY) <= 14;
+    });
+
+    const nodeHit = nodes.some(n => Math.hypot(clickX - n.x, clickY - n.y) < n.radius);
+
+    if (badgeHit || nodeHit) {
+      e.stopPropagation();
+    }
   });
 
   setTimeout(resizeCanvas, 0);
