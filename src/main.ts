@@ -95,8 +95,11 @@ function init() {
 
   // Enable browser back / forward navigation
   window.addEventListener('hashchange', () => {
+    const prevActiveIndex = activeFileIndex;
     applyRouting();
-    rerender();
+    if (activeFileIndex !== prevActiveIndex) {
+      rerender();
+    }
   });
 }
 
