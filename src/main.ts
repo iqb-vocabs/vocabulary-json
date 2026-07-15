@@ -1466,6 +1466,26 @@ function buildBubbleView(topConcepts: Concept[]): HTMLElement {
     mouseX = e.clientX - rect.left;
     mouseY = e.clientY - rect.top;
 
+    // Check if clicked the "+" / "-" badge first
+    const badgeHit = nodes.find(n => {
+      if (n.isRoot || !n.concept.narrower?.length) return false;
+      const badgeX = n.x + n.radius * 0.7;
+      const badgeY = n.y + n.radius * 0.7;
+      return Math.hypot(mouseX - badgeX, mouseY - badgeY) <= 14; // badge radius is 9, 14 is generous hit area
+    });
+
+    if (badgeHit) {
+      if (expandedNodes.has(badgeHit.id)) {
+        expandedNodes.delete(badgeHit.id);
+      } else {
+        expandedNodes.add(badgeHit.id);
+      }
+      rebuildGraph();
+      draggedNode = null;
+      isDragging = false;
+      return;
+    }
+
     const hit = nodes.find(n => Math.hypot(mouseX - n.x, mouseY - n.y) < n.radius);
     if (hit) {
       draggedNode = hit;
@@ -1534,14 +1554,6 @@ function buildBubbleView(topConcepts: Concept[]): HTMLElement {
         if (!draggedNode.isRoot) {
           const hash = idToHash(draggedNode.concept.id);
           if (hash) window.location.hash = hash;
-          if (draggedNode.concept.narrower?.length) {
-            if (expandedNodes.has(draggedNode.id)) {
-              expandedNodes.delete(draggedNode.id);
-            } else {
-              expandedNodes.add(draggedNode.id);
-            }
-            rebuildGraph();
-          }
         }
       }
       draggedNode = null;
