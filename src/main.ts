@@ -11,6 +11,13 @@ let lang: 'de' | 'en' = 'de';
 let searchQuery = '';
 let openGroupIds = new Set<string>();
 
+// Tracking variables for scroll preservation
+let lastActiveFileIndex: number | null = null;
+let lastViewMode: 'tree' | 'cards' | 'bubble' | 'search' = 'tree';
+let lastLang: 'de' | 'en' = 'de';
+let lastSearchQuery = '';
+
+
 // ── Bootstrap ────────────────────────────────────────────
 /** Returns the index of the preferred default vocab (v12 s1 first), falling back to 0. */
 function defaultVocabIndex(): number {
@@ -844,12 +851,34 @@ function resolveColorWithOpacity(colorStr: string, opacity: number): string {
 }
 
 function rerender() {
+  const mainEl = document.querySelector('.main-content');
+  const scrollTop = mainEl ? mainEl.scrollTop : 0;
+
   const app = document.getElementById('app')!;
   app.innerHTML = '';
   app.appendChild(buildHeader());
   app.appendChild(buildMain());
   app.appendChild(buildDetailPanel());
   app.appendChild(buildFooter());
+
+  // Restore scroll position if the view state didn't change
+  if (
+    activeFileIndex === lastActiveFileIndex &&
+    viewMode === lastViewMode &&
+    lang === lastLang &&
+    searchQuery === lastSearchQuery
+  ) {
+    const newMainEl = document.querySelector('.main-content');
+    if (newMainEl && scrollTop > 0) {
+      newMainEl.scrollTop = scrollTop;
+    }
+  }
+
+  // Update tracking variables
+  lastActiveFileIndex = activeFileIndex;
+  lastViewMode = viewMode;
+  lastLang = lang;
+  lastSearchQuery = searchQuery;
 
   // Keep the URL hash in sync with current navigation state
   if (activeFileIndex !== null) {
