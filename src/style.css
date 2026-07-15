@@ -1774,18 +1774,18 @@ mark {
 .footer-nav-btn {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
-  padding: 4px 10px;
+  gap: 8px;
+  padding: 6px 16px;
   border: 1px solid var(--border-soft);
   border-radius: var(--r-sm);
   background: var(--bg-surface);
   color: var(--text-secondary);
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 500;
   font-family: var(--font-sans);
   cursor: pointer;
   transition: color var(--t-fast), border-color var(--t-fast), background var(--t-fast);
-  max-width: 160px;
+  max-width: 240px;
 }
 
 .footer-nav-btn:hover:not(.disabled) {
@@ -1803,5 +1803,5 @@ mark {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  max-width: 120px;
+  max-width: 180px;
 }
