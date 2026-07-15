@@ -770,13 +770,11 @@ function openDetail(concept: Concept) {
         <span class="detail-child-notation">${child.notation?.[0] ?? ''}</span>
         <span class="detail-child-label">${getLabel(child.prefLabel, lang)}</span>
       `;
-      if (hasSub) {
-        item.addEventListener('click', (e) => {
-          e.stopPropagation();
-          const hash = idToHash(child.id);
-          if (hash) window.location.hash = hash;
-        });
-      }
+      item.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const hash = idToHash(child.id);
+        if (hash) window.location.hash = hash;
+      });
       list.appendChild(item);
     });
 

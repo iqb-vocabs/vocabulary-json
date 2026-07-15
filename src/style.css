@@ -1035,20 +1035,13 @@ mark {
   background: var(--bg-elevated);
   border: 1px solid var(--border-soft);
   border-radius: var(--r-md);
+  cursor: pointer;
   transition: all var(--t-fast);
 }
 
-.detail-child-item.has-subconcepts {
-  cursor: pointer;
-}
-
-.detail-child-item.has-subconcepts:hover {
+.detail-child-item:hover {
   border-color: var(--accent-1);
   background: var(--bg-hover);
-}
-
-.detail-child-item.no-subconcepts {
-  opacity: 0.85;
 }
 
 .detail-child-notation {
