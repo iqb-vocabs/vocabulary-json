@@ -1,7 +1,9 @@
 {
   "name": "vocabulary-json",
-  "private": true,
-  "version": "0.1.0",
+  "author": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
+  "description": "An interactive web application for browsing, searching, and visualizing SKOS concept schemes",
+  "license": "MIT",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
