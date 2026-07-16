@@ -2,7 +2,7 @@
   "id": "https://w3id.org/iqb/v06/t1/",
   "type": "ConceptScheme",
   "title": {
-    "de": "Test Tags - Example Tags"
+    "de": "Beispiel Tags - Beispiel Tags"
   },
   "description": {
     "de": "Kategorien für formatierte Texte als Teil der Unit-Daten"
@@ -17,7 +17,7 @@
         "1"
       ],
       "prefLabel": {
-        "de": "Transkript 2 für das Haupt-Audio"
+        "de": "Transkript 3 für das Haupt-Audio"
       },
       "narrower": [
         {

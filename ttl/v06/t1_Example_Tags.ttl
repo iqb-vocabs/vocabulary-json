@@ -26,7 +26,7 @@ n0:transcript
 	skos:inScheme n0:;
 	skos:notation "1";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Transkript 2 für das Haupt-Audio"@de;
+	skos:prefLabel "Transkript 3 für das Haupt-Audio"@de;
 	skos:narrower n0:original,
 		n0:adapted,
 		n0:adapted1.
@@ -74,7 +74,7 @@ n0:didactical_guide
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
-	dct:title "Test Tags - Example Tags"@de;
+	dct:title "Beispiel Tags - Beispiel Tags"@de;
 	dct:description """Kategorien für formatierte Texte als Teil der Unit-Daten"""@de;
 	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
