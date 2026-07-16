@@ -1,14 +1,10 @@
 {
-  "v05": {
-    "category": "Aufgaben und Items",
+  "v10": {
+    "category": "Bildungstandards",
     "subVocabs": [
-      "r1"
-    ]
-  },
-  "v06": {
-    "category": "Aufgaben und Items",
-    "subVocabs": [
-      "t1"
+      "a1",
+      "i1",
+      "p1"
     ]
   },
   "v09": {
@@ -19,18 +15,37 @@
       "n1"
     ]
   },
-  "v10": {
+  "v51": {
     "category": "Bildungstandards",
     "subVocabs": [
       "a1",
-      "i1",
-      "p1"
+      "p1",
+      "ie",
+      "im"
     ]
   },
-  "v11": {
-    "category": "Skalen",
+  "v52": {
+    "category": "Bildungstandards",
     "subVocabs": [
-      "cw"
+      "a1",
+      "k1",
+      "n1"
+    ]
+  },
+  "v53": {
+    "category": "Bildungstandards",
+    "subVocabs": [
+      "a1",
+      "k1",
+      "n1"
+    ]
+  },
+  "v55": {
+    "category": "Bildungstandards",
+    "subVocabs": [
+      "a1",
+      "k1",
+      "l1"
     ]
   },
   "v12": {
@@ -145,13 +160,6 @@
       "zg"
     ]
   },
-  "v40": {
-    "category": "Bildungstandards",
-    "subVocabs": [
-      "a1",
-      "k1"
-    ]
-  },
   "v41": {
     "category": "Bildungstandards",
     "subVocabs": [
@@ -161,7 +169,23 @@
       "k1"
     ]
   },
+  "v40": {
+    "category": "Bildungstandards",
+    "subVocabs": [
+      "a1",
+      "k1"
+    ]
+  },
   "v42": {
+    "category": "Bildungstandards",
+    "subVocabs": [
+      "a1",
+      "b1",
+      "i1",
+      "k1"
+    ]
+  },
+  "v44": {
     "category": "Bildungstandards",
     "subVocabs": [
       "a1",
@@ -177,7 +201,7 @@
       "k1"
     ]
   },
-  "v44": {
+  "v45": {
     "category": "Bildungstandards",
     "subVocabs": [
       "a1",
@@ -186,7 +210,7 @@
       "k1"
     ]
   },
-  "v45": {
+  "v47": {
     "category": "Bildungstandards",
     "subVocabs": [
       "a1",
@@ -203,15 +227,6 @@
       "k1"
     ]
   },
-  "v47": {
-    "category": "Bildungstandards",
-    "subVocabs": [
-      "a1",
-      "b1",
-      "i1",
-      "k1"
-    ]
-  },
   "v48": {
     "category": "Bildungstandards",
     "subVocabs": [
@@ -219,39 +234,6 @@
       "b1",
       "i1",
       "k1"
-    ]
-  },
-  "v51": {
-    "category": "Bildungstandards",
-    "subVocabs": [
-      "a1",
-      "p1",
-      "ie",
-      "im"
-    ]
-  },
-  "v52": {
-    "category": "Bildungstandards",
-    "subVocabs": [
-      "a1",
-      "k1",
-      "n1"
-    ]
-  },
-  "v53": {
-    "category": "Bildungstandards",
-    "subVocabs": [
-      "a1",
-      "k1",
-      "n1"
-    ]
-  },
-  "v55": {
-    "category": "Bildungstandards",
-    "subVocabs": [
-      "a1",
-      "k1",
-      "l1"
     ]
   },
   "v56": {
@@ -321,6 +303,39 @@
       "mp1"
     ]
   },
+  "v87": {
+    "category": "Forschungsdaten",
+    "subVocabs": [
+      "ca",
+      "cp",
+      "cq"
+    ]
+  },
+  "v85": {
+    "category": "Forschungsdaten",
+    "subVocabs": [
+      "av",
+      "df",
+      "dt",
+      "dt2",
+      "ed",
+      "ee",
+      "em",
+      "v1",
+      "v2",
+      "fd",
+      "fg",
+      "tb",
+      "vf",
+      "zu"
+    ]
+  },
+  "v11": {
+    "category": "Skalen",
+    "subVocabs": [
+      "cw"
+    ]
+  },
   "v71": {
     "category": "Skalen",
     "subVocabs": [
@@ -347,31 +362,16 @@
       "am2"
     ]
   },
-  "v85": {
-    "category": "Forschungsdaten",
+  "v05": {
+    "category": "Aufgaben und Items",
     "subVocabs": [
-      "av",
-      "df",
-      "dt",
-      "dt2",
-      "ed",
-      "ee",
-      "em",
-      "v1",
-      "v2",
-      "fd",
-      "fg",
-      "tb",
-      "vf",
-      "zu"
+      "r1"
     ]
   },
-  "v87": {
-    "category": "Forschungsdaten",
+  "v06": {
+    "category": "Aufgaben und Items",
     "subVocabs": [
-      "ca",
-      "cp",
-      "cq"
+      "t1"
     ]
   }
 }

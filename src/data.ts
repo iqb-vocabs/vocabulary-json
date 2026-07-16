@@ -75,10 +75,49 @@ export function loadVocabFiles(): VocabFile[] {
     }
   }
 
-  // Sort by category then version
-  files.sort((a, b) =>
-    a.category.localeCompare(b.category) || a.version.localeCompare(b.version)
-  );
+  // Pre-calculate index maps to make the sort O(1) lookups instead of doing O(N) array scans in the loop
+  const registryKeys = Object.keys(registry);
+  const versionOrder = new Map<string, number>();
+  const subVocabOrder = new Map<string, Map<string, number>>();
+
+  registryKeys.forEach((key, idx) => {
+    versionOrder.set(key, idx);
+    const subMap = new Map<string, number>();
+    const subVocabs = registry[key]?.subVocabs || [];
+    subVocabs.forEach((sub, subIdx) => {
+      subMap.set(sub, subIdx);
+    });
+    subVocabOrder.set(key, subMap);
+  });
+
+  files.sort((a, b) => {
+    const idxA = versionOrder.has(a.versionFolder) ? versionOrder.get(a.versionFolder)! : -1;
+    const idxB = versionOrder.has(b.versionFolder) ? versionOrder.get(b.versionFolder)! : -1;
+
+    if (idxA !== -1 && idxB !== -1) {
+      if (idxA !== idxB) {
+        return idxA - idxB;
+      }
+      const subMap = subVocabOrder.get(a.versionFolder);
+      const subIdxA = subMap?.has(a.subVocabFolder) ? subMap.get(a.subVocabFolder)! : -1;
+      const subIdxB = subMap?.has(b.subVocabFolder) ? subMap.get(b.subVocabFolder)! : -1;
+      if (subIdxA !== -1 && subIdxB !== -1) {
+        return subIdxA - subIdxB;
+      }
+      if (subIdxA !== -1) return -1;
+      if (subIdxB !== -1) return 1;
+      return a.subVocabFolder.localeCompare(b.subVocabFolder);
+    }
+
+    if (idxA !== -1) return -1;
+    if (idxB !== -1) return 1;
+
+    return (
+      a.category.localeCompare(b.category) ||
+      a.versionFolder.localeCompare(b.versionFolder) ||
+      a.subVocabFolder.localeCompare(b.subVocabFolder)
+    );
+  });
 
   return files;
 }
