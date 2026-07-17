@@ -2,7 +2,11 @@
   "id": "https://w3id.org/iqb/v87/ca/",
   "type": "ConceptScheme",
   "title": {
-    "de": "Forschungsdatenzentrum Konstrukte - Tests (Leistungstests)"
+    "de": "Forschungsdatenzentrum am IQB - Tests (Leistungstests)",
+    "en": "FDZ at the IQB - Tests"
+  },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
   },
   "hasTopConcept": [
     {
@@ -11,7 +15,8 @@
         "1"
       ],
       "prefLabel": {
-        "de": "Domänespezifische kognitive Kompetenzen"
+        "de": "Domänespezifische kognitive Kompetenzen",
+        "en": "Domain-Specific Cognitive Competencies"
       },
       "narrower": [
         {
@@ -20,7 +25,8 @@
             "1.1"
           ],
           "prefLabel": {
-            "de": "Mathematische Kompetenz"
+            "de": "Mathematische Kompetenz",
+            "en": "Mathematics Achievement"
           }
         },
         {
@@ -29,7 +35,8 @@
             "1.2"
           ],
           "prefLabel": {
-            "de": "Naturwissenschaftliche Kompetenz"
+            "de": "Naturwissenschaftliche Kompetenz",
+            "en": "Natural Science Achievement"
           },
           "narrower": [
             {
@@ -38,7 +45,8 @@
                 "1.2.1"
               ],
               "prefLabel": {
-                "de": "Kompetenzen im Fach Biologie"
+                "de": "Kompetenzen im Fach Biologie",
+                "en": "Biology"
               }
             },
             {
@@ -47,7 +55,8 @@
                 "1.2.2"
               ],
               "prefLabel": {
-                "de": "Kompetenzen im Fach Chemie"
+                "de": "Kompetenzen im Fach Chemie",
+                "en": "Chemistry"
               }
             },
             {
@@ -56,7 +65,8 @@
                 "1.2.3"
               ],
               "prefLabel": {
-                "de": "Kompetenzen im Fach Physik"
+                "de": "Kompetenzen im Fach Physik",
+                "en": "Physics"
               }
             }
           ]
@@ -67,7 +77,8 @@
             "1.3"
           ],
           "prefLabel": {
-            "de": "Sprachliche Kompetenz"
+            "de": "Sprachliche Kompetenz",
+            "en": "Linguistic Competence"
           },
           "narrower": [
             {
@@ -76,7 +87,8 @@
                 "1.3.1"
               ],
               "prefLabel": {
-                "de": "Deutsch"
+                "de": "Deutsch",
+                "en": "German Language"
               },
               "narrower": [
                 {
@@ -85,7 +97,8 @@
                     "1.3.1.1"
                   ],
                   "prefLabel": {
-                    "de": "Rezeptiv"
+                    "de": "Rezeptiv",
+                    "en": "Receptive"
                   },
                   "narrower": [
                     {
@@ -94,7 +107,8 @@
                         "1.3.1.1.1"
                       ],
                       "prefLabel": {
-                        "de": "Lesen"
+                        "de": "Lesen",
+                        "en": "Reading"
                       }
                     },
                     {
@@ -103,7 +117,8 @@
                         "1.3.1.1.2"
                       ],
                       "prefLabel": {
-                        "de": "Hörverstehen"
+                        "de": "Hörverstehen",
+                        "en": "Listening Comprehension"
                       }
                     },
                     {
@@ -112,7 +127,8 @@
                         "1.3.1.1.3"
                       ],
                       "prefLabel": {
-                        "de": "Phonologische Bewusstheit"
+                        "de": "Phonologische Bewusstheit",
+                        "en": "Phonological Awareness"
                       }
                     },
                     {
@@ -121,7 +137,8 @@
                         "1.3.1.1.4"
                       ],
                       "prefLabel": {
-                        "de": "Wortschatz, passiv (Lexik)"
+                        "de": "Wortschatz, passiv (Lexik)",
+                        "en": "Vocabulary, passive (Lexicology)"
                       }
                     }
                   ]
@@ -132,7 +149,8 @@
                     "1.3.1.2"
                   ],
                   "prefLabel": {
-                    "de": "Produktiv"
+                    "de": "Produktiv",
+                    "en": "Productive"
                   },
                   "narrower": [
                     {
@@ -141,7 +159,8 @@
                         "1.3.1.2.1"
                       ],
                       "prefLabel": {
-                        "de": "Sprechen"
+                        "de": "Sprechen",
+                        "en": "Speaking"
                       }
                     },
                     {
@@ -150,7 +169,8 @@
                         "1.3.1.2.2"
                       ],
                       "prefLabel": {
-                        "de": "Schreiben"
+                        "de": "Schreiben",
+                        "en": "Writing"
                       }
                     },
                     {
@@ -159,7 +179,8 @@
                         "1.3.1.2.3"
                       ],
                       "prefLabel": {
-                        "de": "Orthographie (Rechtschreibung)"
+                        "de": "Orthographie (Rechtschreibung)",
+                        "en": "Spelling"
                       }
                     },
                     {
@@ -168,7 +189,8 @@
                         "1.3.1.2.4"
                       ],
                       "prefLabel": {
-                        "de": "Wortschatz, aktiv (Lexik)"
+                        "de": "Wortschatz, aktiv (Lexik)",
+                        "en": "Vocabulary, active (Lexicology)"
                       }
                     }
                   ]
@@ -181,7 +203,8 @@
                 "1.3.2"
               ],
               "prefLabel": {
-                "de": "Fremdsprachenkompetenzen"
+                "de": "Fremdsprachenkompetenzen",
+                "en": "Foreign Language Achievement"
               },
               "narrower": [
                 {
@@ -190,7 +213,8 @@
                     "1.3.2.1"
                   ],
                   "prefLabel": {
-                    "de": "Sprachkompetenzen Englisch"
+                    "de": "Sprachkompetenzen Englisch",
+                    "en": "English Language Achievement"
                   },
                   "narrower": [
                     {
@@ -199,7 +223,8 @@
                         "1.3.2.1.1"
                       ],
                       "prefLabel": {
-                        "de": "Hör-/ Hörsehverstehen"
+                        "de": "Hör-/ Hörsehverstehen",
+                        "en": "Listening/Audio-Visual Comprehension"
                       }
                     },
                     {
@@ -208,7 +233,8 @@
                         "1.3.2.1.2"
                       ],
                       "prefLabel": {
-                        "de": "Leseverstehen"
+                        "de": "Leseverstehen",
+                        "en": "Reading Comprehension"
                       }
                     },
                     {
@@ -217,7 +243,8 @@
                         "1.3.2.1.3"
                       ],
                       "prefLabel": {
-                        "de": "Schreiben"
+                        "de": "Schreiben",
+                        "en": "Writing"
                       }
                     },
                     {
@@ -226,7 +253,8 @@
                         "1.3.2.1.4"
                       ],
                       "prefLabel": {
-                        "de": "Sprechen"
+                        "de": "Sprechen",
+                        "en": "Speaking"
                       }
                     }
                   ]
@@ -237,7 +265,8 @@
                     "1.3.2.2"
                   ],
                   "prefLabel": {
-                    "de": "Sprachkompetenzen Französisch"
+                    "de": "Sprachkompetenzen Französisch",
+                    "en": "French Language Achievement"
                   },
                   "narrower": [
                     {
@@ -246,7 +275,8 @@
                         "1.3.2.2.1"
                       ],
                       "prefLabel": {
-                        "de": "Hör-/ Hörsehverstehen"
+                        "de": "Hör-/ Hörsehverstehen",
+                        "en": "Listening/Audio-Visual Comprehension"
                       }
                     },
                     {
@@ -255,7 +285,8 @@
                         "1.3.2.2.2"
                       ],
                       "prefLabel": {
-                        "de": "Leseverstehen"
+                        "de": "Leseverstehen",
+                        "en": "Reading Comprehension"
                       }
                     },
                     {
@@ -264,7 +295,8 @@
                         "1.3.2.2.3"
                       ],
                       "prefLabel": {
-                        "de": "Schreiben"
+                        "de": "Schreiben",
+                        "en": "Writing"
                       }
                     },
                     {
@@ -273,7 +305,8 @@
                         "1.3.2.2.4"
                       ],
                       "prefLabel": {
-                        "de": "Sprechen"
+                        "de": "Sprechen",
+                        "en": "Speaking"
                       }
                     }
                   ]
@@ -284,7 +317,8 @@
                     "1.3.2.3"
                   ],
                   "prefLabel": {
-                    "de": "Sonstige Fremdsprachenkompetenz"
+                    "de": "Sonstige Fremdsprachenkompetenz",
+                    "en": "Other Foreign Language Achievement"
                   }
                 }
               ]
@@ -292,27 +326,30 @@
           ]
         },
         {
-          "id": "https://w3id.org/iqb/v87/ca/c10",
+          "id": "https://w3id.org/iqb/v87/ca/c114",
           "notation": [
             "1.4"
           ],
           "prefLabel": {
-            "de": "Kompetenzen in weiteren Schulfächern"
+            "de": "Musikalische Kompetenzen",
+            "en": "Musical Achievement"
           },
           "definition": {
-            "de": "z. B.: Geschichte/Geschichtswissenschaften, Geografie, Sozialkunde, Politik/Politische Weltkunde"
+            "de": "Melodie, Rhythmus, Musik, Gesang, Metrum",
+            "en": "Melody, Rhythm, Music, Singing, Meter"
           }
         },
         {
-          "id": "https://w3id.org/iqb/v87/ca/c114",
+          "id": "https://w3id.org/iqb/v87/ca/c10",
           "notation": [
             "1.5"
           ],
           "prefLabel": {
-            "de": "Musikalische Kompetenzen"
+            "de": "Kompetenzen in weiteren Schulfächern",
+            "en": "Achievement in Other Subjects"
           },
           "definition": {
-            "de": "Melodie, Rhythmus, Musik, Gesang, Metrum"
+            "de": "z. B.: Geschichte/Geschichtswissenschaften, Geografie, Sozialkunde, Politik/Politische Weltkunde"
           }
         },
         {
@@ -321,7 +358,8 @@
             "1.6"
           ],
           "prefLabel": {
-            "de": "Computer- und informationsbezogene Kompetenzen"
+            "de": "Computer- und informationsbezogene Kompetenzen",
+            "en": "Computer Literacy, Information and Communication Technology (ICT)"
           },
           "definition": {
             "de": "Computer Literacy, Information and Communication Technology (ICT)"
@@ -335,7 +373,8 @@
         "2"
       ],
       "prefLabel": {
-        "de": "Domänenübergreifende kognitive Fähigkeiten"
+        "de": "Domänenübergreifende kognitive Fähigkeiten",
+        "en": "Cross-Domain Cognitive Skills"
       },
       "definition": {
         "de": "z. B.: Intelligenz, Gedächtnis, Kreativität, Reasoning, Aufmerksamkeit und Konzentrationsfähigkeit, Wahrnehmungs- und Informationsverarbeitungsgeschwindigkeit"
@@ -347,43 +386,38 @@
         "3"
       ],
       "prefLabel": {
-        "de": "Metakognitive und selbstregulative Fähigkeiten"
-      }
-    },
-    {
-      "id": "https://w3id.org/iqb/v87/ca/c13",
-      "notation": [
-        "4"
-      ],
-      "prefLabel": {
-        "de": "Sonstiges"
+        "de": "Metakognitive und selbstregulative Fähigkeiten",
+        "en": "Metacognitive and Self-Regulatory Skills"
       }
     },
     {
       "id": "https://w3id.org/iqb/v87/ca/c99",
       "notation": [
-        "5"
+        "4"
       ],
       "prefLabel": {
-        "de": "Handlungskompetenz"
+        "de": "Handlungskompetenz",
+        "en": "Action Competence"
       },
       "narrower": [
         {
           "id": "https://w3id.org/iqb/v87/ca/c100",
           "notation": [
-            "5.1"
+            "4.1"
           ],
           "prefLabel": {
-            "de": "Fachkompetenz (Lehrkräfte)"
+            "de": "Fachkompetenz (Lehrkräfte)",
+            "en": "Expertise (Teacher)"
           },
           "narrower": [
             {
               "id": "https://w3id.org/iqb/v87/ca/c112",
               "notation": [
-                "5.1.1"
+                "4.1.1"
               ],
               "prefLabel": {
-                "de": "diagnostische Kompetenz (Lehrkräfte)"
+                "de": "diagnostische Kompetenz (Lehrkräfte)",
+                "en": "Diagnostic Skills (Teacher)"
               }
             }
           ]
@@ -391,13 +425,24 @@
         {
           "id": "https://w3id.org/iqb/v87/ca/c101",
           "notation": [
-            "5.2"
+            "4.2"
           ],
           "prefLabel": {
-            "de": "Sozialkompetenz"
+            "de": "Sozialkompetenz",
+            "en": "Interpersonal Competence"
           }
         }
       ]
+    },
+    {
+      "id": "https://w3id.org/iqb/v87/ca/c13",
+      "notation": [
+        "5"
+      ],
+      "prefLabel": {
+        "de": "Sonstiges",
+        "en": "Other"
+      }
     }
   ],
   "@context": {

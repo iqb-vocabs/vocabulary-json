@@ -2,7 +2,11 @@
   "id": "https://w3id.org/iqb/v87/cp/",
   "type": "ConceptScheme",
   "title": {
-    "de": "Forschungsdatenzentrum Konstrukte - Prozessdaten (Logdaten)"
+    "de": "Forschungsdatenzentrum am IQB - Prozessdaten (Logdaten)",
+    "en": "FDZ at the IQB - Process Data"
+  },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
   },
   "hasTopConcept": [
     {
@@ -11,7 +15,8 @@
         "1"
       ],
       "prefLabel": {
-        "de": "Log-Event-Typen"
+        "de": "Log-Event-Typen",
+        "en": "Log event types"
       },
       "narrower": [
         {
@@ -20,7 +25,8 @@
             "1.1"
           ],
           "prefLabel": {
-            "de": "Geo-Tags"
+            "de": "Geo-Tags",
+            "en": "Geo tags"
           }
         },
         {
@@ -29,7 +35,8 @@
             "1.2"
           ],
           "prefLabel": {
-            "de": "Time-Stamps"
+            "de": "Time-Stamps",
+            "en": "Time Stamps"
           }
         }
       ]
@@ -40,7 +47,8 @@
         "2"
       ],
       "prefLabel": {
-        "de": "Indikatoren"
+        "de": "Indikatoren",
+        "en": "indicators"
       },
       "narrower": [
         {
@@ -49,7 +57,8 @@
             "2.1"
           ],
           "prefLabel": {
-            "de": "Item-Bearbeitungszeit"
+            "de": "Item-Bearbeitungszeit",
+            "en": "Item processing time"
           }
         },
         {
@@ -58,7 +67,8 @@
             "2.2"
           ],
           "prefLabel": {
-            "de": "Test-Bearbeitungszeit"
+            "de": "Test-Bearbeitungszeit",
+            "en": "Test processing time"
           }
         }
       ]

@@ -2,56 +2,64 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v87/cp/>. 
-@prefix n1: <https://w3id.org/iqb/v87/cp/>. 
 
-n1:c4
-	 a skos:Concept;
+n0:c4
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.1";
-	skos:broader n1:c1;
-	skos:prefLabel "Geo-Tags"@de.
-n1:c5
-	 a skos:Concept;
+	skos:broader n0:c1;
+	skos:prefLabel "Geo-Tags"@de,
+	"Geo tags"@en.
+n0:c5
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.2";
-	skos:broader n1:c1;
-	skos:prefLabel "Time-Stamps"@de.
-n1:c1
-	 a skos:Concept;
+	skos:broader n0:c1;
+	skos:prefLabel "Time-Stamps"@de,
+	"Time Stamps"@en.
+n0:c1
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Log-Event-Typen"@de;
-	skos:narrower 
-		n1:c4,
-		n1:c5.
-n1:c3
-	 a skos:Concept;
+	skos:prefLabel "Log-Event-Typen"@de,
+	"Log event types"@en;
+	skos:narrower n0:c4,
+		n0:c5.
+n0:c3
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.1";
-	skos:broader n1:c2;
-	skos:prefLabel "Item-Bearbeitungszeit"@de.
-n1:c6
-	 a skos:Concept;
+	skos:broader n0:c2;
+	skos:prefLabel "Item-Bearbeitungszeit"@de,
+	"Item processing time"@en.
+n0:c6
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.2";
-	skos:broader n1:c2;
-	skos:prefLabel "Test-Bearbeitungszeit"@de.
-n1:c2
-	 a skos:Concept;
+	skos:broader n0:c2;
+	skos:prefLabel "Test-Bearbeitungszeit"@de,
+	"Test processing time"@en.
+n0:c2
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Indikatoren"@de;
-	skos:narrower 
-		n1:c3,
-		n1:c6.
+	skos:prefLabel "Indikatoren"@de,
+	"indicators"@en;
+	skos:narrower n0:c3,
+		n0:c6.
 n0:
 	a skos:ConceptScheme;
-	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
-	dct:title "Forschungsdatenzentrum Konstrukte - Prozessdaten (Logdaten)"@de;
-	dc:title "Forschungsdatenzentrum Konstrukte - Prozessdaten (Logdaten)"@de;
-	dc:description "Forschungsdatenzentrum Konstrukte - Prozessdaten (Logdaten)"@de;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de,
+	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
+	dct:title "Forschungsdatenzentrum am IQB - Prozessdaten (Logdaten)"@de,
+	"FDZ at the IQB - Process Data"@en;
+	dc:title "Forschungsdatenzentrum am IQB - Prozessdaten (Logdaten)"@de,
+	"FDZ at the IQB - Process Data"@en;
+	dc:description "Forschungsdatenzentrum am IQB - Prozessdaten (Logdaten)"@de,
+	"FDZ at the IQB - Process Data"@en;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
-		n1:c1,
-		n1:c2.
+		n0:c1,
+		n0:c2.
