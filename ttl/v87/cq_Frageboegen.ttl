@@ -9,35 +9,35 @@ n0:c3
 	skos:notation "1.1.1";
 	skos:broader n0:c2;
 	skos:prefLabel "Migrationshintergrund"@de,
-	"Migration Background"@de.
+	"Migration Background"@en.
 n0:c4
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.1.2";
 	skos:broader n0:c2;
 	skos:prefLabel "Kulturelles Kapital"@de,
-	"Cultural Capital"@de.
+	"Cultural Capital"@en.
 n0:c5
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.1.3";
 	skos:broader n0:c2;
 	skos:prefLabel "Individuelle Merkmale"@de,
-	"Individual Characteristics"@de.
+	"Individual Characteristics"@en.
 n0:c6
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.1.4";
 	skos:broader n0:c2;
 	skos:prefLabel "Familiärer Hintergrund"@de,
-	"Family Background"@de.
+	"Family Background"@en.
 n0:c2
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.1";
 	skos:broader n0:c1;
 	skos:prefLabel "Soziodemografischer Hintergrund"@de,
-	"Socio-demographic Background"@de;
+	"Socio-demographic Background"@en;
 	skos:narrower n0:c3,
 		n0:c4,
 		n0:c5,
@@ -48,42 +48,42 @@ n0:c8
 	skos:notation "1.2.1";
 	skos:broader n0:c7;
 	skos:prefLabel "Selbstbezogene Einstellungen"@de,
-	"Self-Related Attitudes"@de.
+	"Self-Related Attitudes"@en.
 n0:c9
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.2.2";
 	skos:broader n0:c7;
 	skos:prefLabel "Lern- und leistungsbezogene Einstellungen"@de,
-	"Learning and Performance-related Attitudes"@de.
+	"Learning and Performance-related Attitudes"@en.
 n0:c10
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.2.3";
 	skos:broader n0:c7;
 	skos:prefLabel "Schulbezogene Einstellungen und Verhaltensweisen"@de,
-	"School-related Attitudes and Behaviors"@de.
+	"School-related Attitudes and Behaviors"@en.
 n0:c11
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.2.4";
 	skos:broader n0:c7;
 	skos:prefLabel "Politische und soziale Einstellungen"@de,
-	"Political and Social Attitudes"@de.
+	"Political and Social Attitudes"@en.
 n0:c86
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.2.5";
 	skos:broader n0:c7;
 	skos:prefLabel "Persönlichkeit"@de,
-	"Personality"@de.
+	"Personality"@en.
 n0:c7
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.2";
 	skos:broader n0:c1;
 	skos:prefLabel "Personale Merkmale"@de,
-	"Personal Characteristics"@de;
+	"Personal Characteristics"@en;
 	skos:narrower n0:c8,
 		n0:c9,
 		n0:c10,
@@ -95,42 +95,42 @@ n0:c13
 	skos:notation "1.3.1";
 	skos:broader n0:c12;
 	skos:prefLabel "Berufliche Situation"@de,
-	"Occupational Situation"@de.
+	"Occupational Situation"@en.
 n0:c14
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.3.2";
 	skos:broader n0:c12;
 	skos:prefLabel "Professionelles Selbstverständnis"@de,
-	"Professional Self Concept"@de.
+	"Professional Self Concept"@en.
 n0:c15
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.3.3";
 	skos:broader n0:c12;
 	skos:prefLabel "Fachlich-pädagogisches Wissen"@de,
-	"Pedagogical Content Knowledge"@de.
+	"Pedagogical Content Knowledge"@en.
 n0:c16
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.3.4";
 	skos:broader n0:c12;
 	skos:prefLabel "Berufserfahrung"@de,
-	"Professional Experience"@de.
+	"Professional Experience"@en.
 n0:c17
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.3.5";
 	skos:broader n0:c12;
 	skos:prefLabel "Ausbildung"@de,
-	"Professional Education"@de.
+	"Professional Education"@en.
 n0:c12
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.3";
 	skos:broader n0:c1;
 	skos:prefLabel "Beruflicher Hintergrund"@de,
-	"Professional Background"@de;
+	"Professional Background"@en;
 	skos:narrower n0:c13,
 		n0:c14,
 		n0:c15,
@@ -142,70 +142,70 @@ n0:c19
 	skos:notation "1.4.1";
 	skos:broader n0:c18;
 	skos:prefLabel "Ausstattung der Schule"@de,
-	"Educational Resources"@de.
+	"Educational Resources"@en.
 n0:c20
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.4.2";
 	skos:broader n0:c18;
 	skos:prefLabel "Standort der Schule"@de,
-	"School Location"@de.
+	"School Location"@en.
 n0:c21
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.4.3";
 	skos:broader n0:c18;
 	skos:prefLabel "Organisation des Schulbetriebs"@de,
-	"Organization of School Operations"@de.
+	"Organization of School Operations"@en.
 n0:c22
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.4.4";
 	skos:broader n0:c18;
 	skos:prefLabel "Organisation des Lehrbetriebs"@de,
-	"Organization of Teaching Operations"@de.
+	"Organization of Teaching Operations"@en.
 n0:c23
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.4.5";
 	skos:broader n0:c18;
 	skos:prefLabel "Organisation des Ganztagsbetriebs"@de,
-	"Organization of all-day Operation"@de.
+	"Organization of all-day Operation"@en.
 n0:c24
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.4.6";
 	skos:broader n0:c18;
 	skos:prefLabel "Schulische ICT Nutzung"@de,
-	"School ICT Usage"@de.
+	"School ICT Usage"@en.
 n0:c25
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.4.7";
 	skos:broader n0:c18;
 	skos:prefLabel "Lerngelegenheiten"@de,
-	"Learning Opportunities"@de.
+	"Learning Opportunities"@en.
 n0:c26
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.4.8";
 	skos:broader n0:c18;
 	skos:prefLabel "Zusammensetzung der Schülerschaft"@de,
-	"Composition of the Student Body"@de.
+	"Composition of the Student Body"@en.
 n0:c27
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.4.9";
 	skos:broader n0:c18;
 	skos:prefLabel "Zusammensetzung des Kollegiums"@de,
-	"Composition of the Faculty"@de.
+	"Composition of the Faculty"@en.
 n0:c18
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.4";
 	skos:broader n0:c1;
 	skos:prefLabel "Institutionelle Hintergrundmerkmale"@de,
-	"Institutional Characteristics"@de;
+	"Institutional Characteristics"@en;
 	skos:narrower n0:c19,
 		n0:c20,
 		n0:c21,
@@ -221,42 +221,42 @@ n0:c28
 	skos:notation "1.5";
 	skos:broader n0:c1;
 	skos:prefLabel "Bildungsbiografie"@de,
-	"Educational Biography"@de.
+	"Educational Biography"@en.
 n0:c30
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.6.1";
 	skos:broader n0:c29;
 	skos:prefLabel "Private ICT-Nutzung"@de,
-	"Private ICT Usage"@de.
+	"Private ICT Usage"@en.
 n0:c31
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.6.2";
 	skos:broader n0:c29;
 	skos:prefLabel "TV-Konsum"@de,
-	"TV Consumption"@de.
+	"TV Consumption"@en.
 n0:c32
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.6.3";
 	skos:broader n0:c29;
 	skos:prefLabel "Lese- und Schreibgewohnheiten"@de,
-	"Reading and Writing Habits"@de.
+	"Reading and Writing Habits"@en.
 n0:c33
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.6.4";
 	skos:broader n0:c29;
 	skos:prefLabel "Freizeitaktivitäten und Peergruppe"@de,
-	"Leisure Activities and Peer Group"@de.
+	"Leisure Activities and Peer Group"@en.
 n0:c29
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.6";
 	skos:broader n0:c1;
 	skos:prefLabel "Freizeitverhalten und Mediennutzung"@de,
-	"Leisure Time Behavior and Media Use"@de;
+	"Leisure Time Behavior and Media Use"@en;
 	skos:narrower n0:c30,
 		n0:c31,
 		n0:c32,
@@ -267,42 +267,42 @@ n0:c35
 	skos:notation "1.7.1";
 	skos:broader n0:c34;
 	skos:prefLabel "Häusliche Lernunterstützung"@de,
-	"Home Learning Support"@de.
+	"Home Learning Support"@en.
 n0:c36
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.7.2";
 	skos:broader n0:c34;
 	skos:prefLabel "Nachhilfeunterricht"@de,
-	"Tutoring"@de.
+	"Tutoring"@en.
 n0:c37
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.7.3";
 	skos:broader n0:c34;
 	skos:prefLabel "Elterliches Erziehungshandeln"@de,
-	"Parental Educational Practices"@de.
+	"Parental Educational Practices"@en.
 n0:c38
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.7.4";
 	skos:broader n0:c34;
 	skos:prefLabel "Elterliche Bildungsaspiration"@de,
-	"Parental Educational Aspirations"@de.
+	"Parental Educational Aspirations"@en.
 n0:c39
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.7.5";
 	skos:broader n0:c34;
 	skos:prefLabel "Elterliches Fachwissen und Weltbilder"@de,
-	"Parental Knowledge and Beliefs"@de.
+	"Parental Knowledge and Beliefs"@en.
 n0:c34
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.7";
 	skos:broader n0:c1;
 	skos:prefLabel "Häusliche Lernumwelt"@de,
-	"Home Learning Environment"@de;
+	"Home Learning Environment"@en;
 	skos:narrower n0:c35,
 		n0:c36,
 		n0:c37,
@@ -314,7 +314,7 @@ n0:c1
 	skos:notation "1";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Individueller und institutioneller Hintergrund"@de,
-	"Individual and Institutional Background"@de;
+	"Individual and Institutional Background"@en;
 	skos:narrower n0:c2,
 		n0:c7,
 		n0:c12,
@@ -328,42 +328,42 @@ n0:c41
 	skos:notation "2.1";
 	skos:broader n0:c40;
 	skos:prefLabel "Schulleitungshandeln"@de,
-	"School Leadership Practices"@de.
+	"School Leadership Practices"@en.
 n0:c42
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.2";
 	skos:broader n0:c40;
 	skos:prefLabel "Kollegialität"@de,
-	"Collegiality"@de.
+	"Collegiality"@en.
 n0:c44
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.3.1";
 	skos:broader n0:c43;
 	skos:prefLabel "Programmatische Entwicklungsarbeit"@de,
-	"Programmatic Development Work"@de.
+	"Programmatic Development Work"@en.
 n0:c45
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.3.2";
 	skos:broader n0:c43;
 	skos:prefLabel "Evaluation und Leistungsmessung"@de,
-	"Evaluation and Achievement Measurement"@de.
+	"Evaluation and Achievement Measurement"@en.
 n0:c46
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.3.3";
 	skos:broader n0:c43;
 	skos:prefLabel "Maßnahmen der Qualitätsentwicklung"@de,
-	"Measures of Quality Development"@de.
+	"Measures of Quality Development"@en.
 n0:c43
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.3";
 	skos:broader n0:c40;
 	skos:prefLabel "Qualitätsentwicklung und Evaluation"@de,
-	"Quality Development and Evaluation"@de;
+	"Quality Development and Evaluation"@en;
 	skos:narrower n0:c44,
 		n0:c45,
 		n0:c46.
@@ -373,49 +373,49 @@ n0:c47
 	skos:notation "2.4";
 	skos:broader n0:c40;
 	skos:prefLabel "Elternarbeit"@de,
-	"Parental Involvement"@de.
+	"Parental Involvement"@en.
 n0:c49
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.5.1";
 	skos:broader n0:c48;
 	skos:prefLabel "Wahrnehmung der Schule als Lebensort"@de,
-	"Perception of School as a Living Environment"@de.
+	"Perception of School as a Living Environment"@en.
 n0:c50
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.5.2";
 	skos:broader n0:c48;
 	skos:prefLabel "Wahrnehmung der Schule als Lernort"@de,
-	"Perception of the School as a Place of Learning"@de.
+	"Perception of the School as a Place of Learning"@en.
 n0:c51
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.5.3";
 	skos:broader n0:c48;
 	skos:prefLabel "Soziales Klima"@de,
-	"Social Climate"@de.
+	"Social Climate"@en.
 n0:c52
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.5.4";
 	skos:broader n0:c48;
 	skos:prefLabel "Deviantes Verhalten"@de,
-	"Deviant Behavior"@de.
+	"Deviant Behavior"@en.
 n0:c53
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.5.5";
 	skos:broader n0:c48;
 	skos:prefLabel "Partizipatives Schulklima"@de,
-	"Participative School Climate"@de.
+	"Participative School Climate"@en.
 n0:c48
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.5";
 	skos:broader n0:c40;
 	skos:prefLabel "Schulklima"@de,
-	"School Atmosphere"@de;
+	"School Atmosphere"@en;
 	skos:narrower n0:c49,
 		n0:c50,
 		n0:c51,
@@ -427,21 +427,21 @@ n0:c55
 	skos:notation "2.6.1";
 	skos:broader n0:c54;
 	skos:prefLabel "Schulinterne Kooperation"@de,
-	"Intra-school Cooperation"@de.
+	"Intra-school Cooperation"@en.
 n0:c56
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.6.2";
 	skos:broader n0:c54;
 	skos:prefLabel "Schulexterne Kooperation"@de,
-	"Cooperation Outside the School"@de.
+	"Cooperation Outside the School"@en.
 n0:c54
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.6";
 	skos:broader n0:c40;
 	skos:prefLabel "Kooperation"@de,
-	"Cooperation"@de;
+	"Cooperation"@en;
 	skos:narrower n0:c55,
 		n0:c56.
 n0:c40
@@ -450,7 +450,7 @@ n0:c40
 	skos:notation "2";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Prozesse auf Schulebene"@de,
-	"School Level Processes"@de;
+	"School Level Processes"@en;
 	skos:narrower n0:c41,
 		n0:c42,
 		n0:c43,
@@ -463,42 +463,42 @@ n0:c59
 	skos:notation "3.1.1";
 	skos:broader n0:c58;
 	skos:prefLabel "Einsatz und Variation verschiedener Unterrichtsmethoden"@de,
-	"Use and Variation of Different Teaching Methods"@de.
+	"Use and Variation of Different Teaching Methods"@en.
 n0:c60
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.1.2";
 	skos:broader n0:c58;
 	skos:prefLabel "Klarheit und Strukturiertheit"@de,
-	"Clarity and Structuredness"@de.
+	"Clarity and Structuredness"@en.
 n0:c61
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.1.3";
 	skos:broader n0:c58;
 	skos:prefLabel "Kognitive Aktivierung"@de,
-	"Cognitive Activation"@de.
+	"Cognitive Activation"@en.
 n0:c62
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.1.4";
 	skos:broader n0:c58;
 	skos:prefLabel "Umgang mit Hausaufgaben"@de,
-	"Handling Homework"@de.
+	"Handling Homework"@en.
 n0:c63
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.1.5";
 	skos:broader n0:c58;
 	skos:prefLabel "Unterrichtsvorbereitung und Unterrichtsinhalte"@de,
-	"Lesson Preparation and Lesson Content"@de.
+	"Lesson Preparation and Lesson Content"@en.
 n0:c58
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.1";
 	skos:broader n0:c57;
 	skos:prefLabel "Unterrichtsgestaltung/Unterrichtspraxis"@de,
-	"Lesson Design/ Teaching Practice"@de;
+	"Lesson Design/ Teaching Practice"@en;
 	skos:narrower n0:c59,
 		n0:c60,
 		n0:c61,
@@ -510,42 +510,42 @@ n0:c65
 	skos:notation "3.2.1";
 	skos:broader n0:c64;
 	skos:prefLabel "Fachliche Unterstützung/individuelle Förderung"@de,
-	"Professional Support/ Individual Support"@de.
+	"Professional Support/ Individual Support"@en.
 n0:c66
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.2.2";
 	skos:broader n0:c64;
 	skos:prefLabel "Effektive Zeitnutzung/Disziplin im Unterricht"@de,
-	"Effective Use of Time/ Discipline in the Classroom"@de.
+	"Effective Use of Time/ Discipline in the Classroom"@en.
 n0:c67
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.2.3";
 	skos:broader n0:c64;
 	skos:prefLabel "Leistungsbeurteilung/Diagnostische Kompetenz"@de,
-	"Performance Assessment/ Diagnostic Competence"@de.
+	"Performance Assessment/ Diagnostic Competence"@en.
 n0:c68
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.2.4";
 	skos:broader n0:c64;
 	skos:prefLabel "Schülerorientierung/Soziale Unterstützung"@de,
-	"Student Orientation/ Social Support"@de.
+	"Student Orientation/ Social Support"@en.
 n0:c69
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.2.5";
 	skos:broader n0:c64;
 	skos:prefLabel "Bezugsnormorientierung"@de,
-	"Reference Norm Orientation"@de.
+	"Reference Norm Orientation"@en.
 n0:c64
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.2";
 	skos:broader n0:c57;
 	skos:prefLabel "Klassenführung"@de,
-	"Class Management"@de;
+	"Class Management"@en;
 	skos:narrower n0:c65,
 		n0:c66,
 		n0:c67,
@@ -557,42 +557,42 @@ n0:c70
 	skos:notation "3.3";
 	skos:broader n0:c57;
 	skos:prefLabel "Qualität von Ganztagsangeboten"@de,
-	"Quality of all-day Programs"@de.
+	"Quality of all-day Programs"@en.
 n0:c71
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.4";
 	skos:broader n0:c57;
 	skos:prefLabel "Angebotsklima"@de,
-	"Instructional Offerings"@de.
+	"Instructional Offerings"@en.
 n0:c73
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.5.1";
 	skos:broader n0:c72;
 	skos:prefLabel "Lernklima"@de,
-	"Learning Climate"@de.
+	"Learning Climate"@en.
 n0:c74
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.5.2";
 	skos:broader n0:c72;
 	skos:prefLabel "Klassenklima"@de,
-	"Classroom Climate"@de.
+	"Classroom Climate"@en.
 n0:c85
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.5.3";
 	skos:broader n0:c72;
 	skos:prefLabel "Zusammensetzung der Schülerschaft"@de,
-	"Composition of the Student Body"@de.
+	"Composition of the Student Body"@en.
 n0:c72
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3.5";
 	skos:broader n0:c57;
 	skos:prefLabel "Lernatmosphäre im Unterricht und Klassenverband"@de,
-	"Learning Atmosphere in the Classroom and in the Class Group"@de;
+	"Learning Atmosphere in the Classroom and in the Class Group"@en;
 	skos:narrower n0:c73,
 		n0:c74,
 		n0:c85.
@@ -602,7 +602,7 @@ n0:c57
 	skos:notation "3";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Lehr-Lernarrangements"@de,
-	"Teaching-Learning Arrangements"@de;
+	"Teaching-Learning Arrangements"@en;
 	skos:narrower n0:c58,
 		n0:c64,
 		n0:c70,
@@ -614,49 +614,49 @@ n0:c76
 	skos:notation "4.1";
 	skos:broader n0:c75;
 	skos:prefLabel "Kognitive Lernergebnisse"@de,
-	"Cognitive Learning Outcomes"@de.
+	"Cognitive Learning Outcomes"@en.
 n0:c77
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.2";
 	skos:broader n0:c75;
 	skos:prefLabel "Metakognitive Lernergebnisse"@de,
-	"Metacognitive Learning Outcomes"@de.
+	"Metacognitive Learning Outcomes"@en.
 n0:c79
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.3.1";
 	skos:broader n0:c78;
 	skos:prefLabel "Selbstbezogene Einstellungen (Lernergebnis)"@de,
-	"Self-Related Attitudes (Learning Outcome)"@de.
+	"Self-Related Attitudes (Learning Outcome)"@en.
 n0:c80
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.3.2";
 	skos:broader n0:c78;
 	skos:prefLabel "Lern- und leistungsbezogene Einstellungen (Lernergebnis)"@de,
-	"Learning and Performance-related Attitudes (Learning Outcome)"@de.
+	"Learning and Performance-related Attitudes (Learning Outcome)"@en.
 n0:c81
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.3.3";
 	skos:broader n0:c78;
 	skos:prefLabel "Politische und soziale Einstellungen (Lernergebnis)"@de,
-	"Political and Social Attitudes (Learning Outcome)"@de.
+	"Political and Social Attitudes (Learning Outcome)"@en.
 n0:c82
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.3.4";
 	skos:broader n0:c78;
 	skos:prefLabel "Schulbezogene Einstellungen und Verhaltensweisen (Lernergebnis)"@de,
-	"School-related Attitudes and Behaviors (Learning Outcome)"@de.
+	"School-related Attitudes and Behaviors (Learning Outcome)"@en.
 n0:c78
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.3";
 	skos:broader n0:c75;
 	skos:prefLabel "Nichtkognitive Lernergebnisse"@de,
-	"Non-cognitive Learning Outcomes"@de;
+	"Non-cognitive Learning Outcomes"@en;
 	skos:narrower n0:c79,
 		n0:c80,
 		n0:c81,
@@ -667,7 +667,7 @@ n0:c75
 	skos:notation "4";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Schulische Wirkungen"@de,
-	"School Effects"@de;
+	"School Effects"@en;
 	skos:narrower n0:c76,
 		n0:c77,
 		n0:c78.
@@ -677,25 +677,25 @@ n0:c84
 	skos:notation "5.1";
 	skos:broader n0:c83;
 	skos:prefLabel "Sonstiges"@de,
-	"Other"@de.
+	"Other"@en.
 n0:c83
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "5";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Sonstiges"@de,
-	"Other"@de;
+	"Other"@en;
 	skos:narrower n0:c84.
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de,
-	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
 	dct:title "Forschungsdatenzentrum am IQB - Fragebögen (Konstruktliste)"@de,
-	"FDZ at the IQB - Questionnaire"@de;
+	"FDZ at the IQB - Questionnaire"@en;
 	dc:title "Forschungsdatenzentrum am IQB - Fragebögen (Konstruktliste)"@de,
-	"FDZ at the IQB - Questionnaire"@de;
+	"FDZ at the IQB - Questionnaire"@en;
 	dc:description "Forschungsdatenzentrum am IQB - Fragebögen (Konstruktliste)"@de,
-	"FDZ at the IQB - Questionnaire"@de;
+	"FDZ at the IQB - Questionnaire"@en;
 	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
 		n0:c1,

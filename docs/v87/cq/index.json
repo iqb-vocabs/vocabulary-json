@@ -2,7 +2,8 @@
   "id": "https://w3id.org/iqb/v87/cq/",
   "type": "ConceptScheme",
   "title": {
-    "de": "FDZ at the IQB - Questionnaire"
+    "de": "Forschungsdatenzentrum am IQB - Fragebögen (Konstruktliste)",
+    "en": "FDZ at the IQB - Questionnaire"
   },
   "license": {
     "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
@@ -14,7 +15,8 @@
         "1"
       ],
       "prefLabel": {
-        "de": "Individual and Institutional Background"
+        "de": "Individueller und institutioneller Hintergrund",
+        "en": "Individual and Institutional Background"
       },
       "narrower": [
         {
@@ -23,7 +25,8 @@
             "1.1"
           ],
           "prefLabel": {
-            "de": "Socio-demographic Background"
+            "de": "Soziodemografischer Hintergrund",
+            "en": "Socio-demographic Background"
           },
           "narrower": [
             {
@@ -32,7 +35,8 @@
                 "1.1.1"
               ],
               "prefLabel": {
-                "de": "Migration Background"
+                "de": "Migrationshintergrund",
+                "en": "Migration Background"
               }
             },
             {
@@ -41,7 +45,8 @@
                 "1.1.2"
               ],
               "prefLabel": {
-                "de": "Cultural Capital"
+                "de": "Kulturelles Kapital",
+                "en": "Cultural Capital"
               }
             },
             {
@@ -50,7 +55,8 @@
                 "1.1.3"
               ],
               "prefLabel": {
-                "de": "Individual Characteristics"
+                "de": "Individuelle Merkmale",
+                "en": "Individual Characteristics"
               }
             },
             {
@@ -59,7 +65,8 @@
                 "1.1.4"
               ],
               "prefLabel": {
-                "de": "Family Background"
+                "de": "Familiärer Hintergrund",
+                "en": "Family Background"
               }
             }
           ]
@@ -70,7 +77,8 @@
             "1.2"
           ],
           "prefLabel": {
-            "de": "Personal Characteristics"
+            "de": "Personale Merkmale",
+            "en": "Personal Characteristics"
           },
           "narrower": [
             {
@@ -79,7 +87,8 @@
                 "1.2.1"
               ],
               "prefLabel": {
-                "de": "Self-Related Attitudes"
+                "de": "Selbstbezogene Einstellungen",
+                "en": "Self-Related Attitudes"
               }
             },
             {
@@ -88,7 +97,8 @@
                 "1.2.2"
               ],
               "prefLabel": {
-                "de": "Learning and Performance-related Attitudes"
+                "de": "Lern- und leistungsbezogene Einstellungen",
+                "en": "Learning and Performance-related Attitudes"
               }
             },
             {
@@ -97,7 +107,8 @@
                 "1.2.3"
               ],
               "prefLabel": {
-                "de": "School-related Attitudes and Behaviors"
+                "de": "Schulbezogene Einstellungen und Verhaltensweisen",
+                "en": "School-related Attitudes and Behaviors"
               }
             },
             {
@@ -106,7 +117,8 @@
                 "1.2.4"
               ],
               "prefLabel": {
-                "de": "Political and Social Attitudes"
+                "de": "Politische und soziale Einstellungen",
+                "en": "Political and Social Attitudes"
               }
             },
             {
@@ -115,7 +127,8 @@
                 "1.2.5"
               ],
               "prefLabel": {
-                "de": "Personality"
+                "de": "Persönlichkeit",
+                "en": "Personality"
               }
             }
           ]
@@ -126,7 +139,8 @@
             "1.3"
           ],
           "prefLabel": {
-            "de": "Professional Background"
+            "de": "Beruflicher Hintergrund",
+            "en": "Professional Background"
           },
           "narrower": [
             {
@@ -135,7 +149,8 @@
                 "1.3.1"
               ],
               "prefLabel": {
-                "de": "Occupational Situation"
+                "de": "Berufliche Situation",
+                "en": "Occupational Situation"
               }
             },
             {
@@ -144,7 +159,8 @@
                 "1.3.2"
               ],
               "prefLabel": {
-                "de": "Professional Self Concept"
+                "de": "Professionelles Selbstverständnis",
+                "en": "Professional Self Concept"
               }
             },
             {
@@ -153,7 +169,8 @@
                 "1.3.3"
               ],
               "prefLabel": {
-                "de": "Pedagogical Content Knowledge"
+                "de": "Fachlich-pädagogisches Wissen",
+                "en": "Pedagogical Content Knowledge"
               }
             },
             {
@@ -162,7 +179,8 @@
                 "1.3.4"
               ],
               "prefLabel": {
-                "de": "Professional Experience"
+                "de": "Berufserfahrung",
+                "en": "Professional Experience"
               }
             },
             {
@@ -171,7 +189,8 @@
                 "1.3.5"
               ],
               "prefLabel": {
-                "de": "Professional Education"
+                "de": "Ausbildung",
+                "en": "Professional Education"
               }
             }
           ]
@@ -182,7 +201,8 @@
             "1.4"
           ],
           "prefLabel": {
-            "de": "Institutional Characteristics"
+            "de": "Institutionelle Hintergrundmerkmale",
+            "en": "Institutional Characteristics"
           },
           "narrower": [
             {
@@ -191,7 +211,8 @@
                 "1.4.1"
               ],
               "prefLabel": {
-                "de": "Educational Resources"
+                "de": "Ausstattung der Schule",
+                "en": "Educational Resources"
               }
             },
             {
@@ -200,7 +221,8 @@
                 "1.4.2"
               ],
               "prefLabel": {
-                "de": "School Location"
+                "de": "Standort der Schule",
+                "en": "School Location"
               }
             },
             {
@@ -209,7 +231,8 @@
                 "1.4.3"
               ],
               "prefLabel": {
-                "de": "Organization of School Operations"
+                "de": "Organisation des Schulbetriebs",
+                "en": "Organization of School Operations"
               }
             },
             {
@@ -218,7 +241,8 @@
                 "1.4.4"
               ],
               "prefLabel": {
-                "de": "Organization of Teaching Operations"
+                "de": "Organisation des Lehrbetriebs",
+                "en": "Organization of Teaching Operations"
               }
             },
             {
@@ -227,7 +251,8 @@
                 "1.4.5"
               ],
               "prefLabel": {
-                "de": "Organization of all-day Operation"
+                "de": "Organisation des Ganztagsbetriebs",
+                "en": "Organization of all-day Operation"
               }
             },
             {
@@ -236,7 +261,8 @@
                 "1.4.6"
               ],
               "prefLabel": {
-                "de": "School ICT Usage"
+                "de": "Schulische ICT Nutzung",
+                "en": "School ICT Usage"
               }
             },
             {
@@ -245,7 +271,8 @@
                 "1.4.7"
               ],
               "prefLabel": {
-                "de": "Learning Opportunities"
+                "de": "Lerngelegenheiten",
+                "en": "Learning Opportunities"
               }
             },
             {
@@ -254,7 +281,8 @@
                 "1.4.8"
               ],
               "prefLabel": {
-                "de": "Composition of the Student Body"
+                "de": "Zusammensetzung der Schülerschaft",
+                "en": "Composition of the Student Body"
               }
             },
             {
@@ -263,7 +291,8 @@
                 "1.4.9"
               ],
               "prefLabel": {
-                "de": "Composition of the Faculty"
+                "de": "Zusammensetzung des Kollegiums",
+                "en": "Composition of the Faculty"
               }
             }
           ]
@@ -274,7 +303,8 @@
             "1.5"
           ],
           "prefLabel": {
-            "de": "Educational Biography"
+            "de": "Bildungsbiografie",
+            "en": "Educational Biography"
           }
         },
         {
@@ -283,7 +313,8 @@
             "1.6"
           ],
           "prefLabel": {
-            "de": "Leisure Time Behavior and Media Use"
+            "de": "Freizeitverhalten und Mediennutzung",
+            "en": "Leisure Time Behavior and Media Use"
           },
           "narrower": [
             {
@@ -292,7 +323,8 @@
                 "1.6.1"
               ],
               "prefLabel": {
-                "de": "Private ICT Usage"
+                "de": "Private ICT-Nutzung",
+                "en": "Private ICT Usage"
               }
             },
             {
@@ -301,7 +333,8 @@
                 "1.6.2"
               ],
               "prefLabel": {
-                "de": "TV Consumption"
+                "de": "TV-Konsum",
+                "en": "TV Consumption"
               }
             },
             {
@@ -310,7 +343,8 @@
                 "1.6.3"
               ],
               "prefLabel": {
-                "de": "Reading and Writing Habits"
+                "de": "Lese- und Schreibgewohnheiten",
+                "en": "Reading and Writing Habits"
               }
             },
             {
@@ -319,7 +353,8 @@
                 "1.6.4"
               ],
               "prefLabel": {
-                "de": "Leisure Activities and Peer Group"
+                "de": "Freizeitaktivitäten und Peergruppe",
+                "en": "Leisure Activities and Peer Group"
               }
             }
           ]
@@ -330,7 +365,8 @@
             "1.7"
           ],
           "prefLabel": {
-            "de": "Home Learning Environment"
+            "de": "Häusliche Lernumwelt",
+            "en": "Home Learning Environment"
           },
           "narrower": [
             {
@@ -339,7 +375,8 @@
                 "1.7.1"
               ],
               "prefLabel": {
-                "de": "Home Learning Support"
+                "de": "Häusliche Lernunterstützung",
+                "en": "Home Learning Support"
               }
             },
             {
@@ -348,7 +385,8 @@
                 "1.7.2"
               ],
               "prefLabel": {
-                "de": "Tutoring"
+                "de": "Nachhilfeunterricht",
+                "en": "Tutoring"
               }
             },
             {
@@ -357,7 +395,8 @@
                 "1.7.3"
               ],
               "prefLabel": {
-                "de": "Parental Educational Practices"
+                "de": "Elterliches Erziehungshandeln",
+                "en": "Parental Educational Practices"
               }
             },
             {
@@ -366,7 +405,8 @@
                 "1.7.4"
               ],
               "prefLabel": {
-                "de": "Parental Educational Aspirations"
+                "de": "Elterliche Bildungsaspiration",
+                "en": "Parental Educational Aspirations"
               }
             },
             {
@@ -375,7 +415,8 @@
                 "1.7.5"
               ],
               "prefLabel": {
-                "de": "Parental Knowledge and Beliefs"
+                "de": "Elterliches Fachwissen und Weltbilder",
+                "en": "Parental Knowledge and Beliefs"
               }
             }
           ]
@@ -388,7 +429,8 @@
         "2"
       ],
       "prefLabel": {
-        "de": "School Level Processes"
+        "de": "Prozesse auf Schulebene",
+        "en": "School Level Processes"
       },
       "narrower": [
         {
@@ -397,7 +439,8 @@
             "2.1"
           ],
           "prefLabel": {
-            "de": "School Leadership Practices"
+            "de": "Schulleitungshandeln",
+            "en": "School Leadership Practices"
           }
         },
         {
@@ -406,7 +449,8 @@
             "2.2"
           ],
           "prefLabel": {
-            "de": "Collegiality"
+            "de": "Kollegialität",
+            "en": "Collegiality"
           }
         },
         {
@@ -415,7 +459,8 @@
             "2.3"
           ],
           "prefLabel": {
-            "de": "Quality Development and Evaluation"
+            "de": "Qualitätsentwicklung und Evaluation",
+            "en": "Quality Development and Evaluation"
           },
           "narrower": [
             {
@@ -424,7 +469,8 @@
                 "2.3.1"
               ],
               "prefLabel": {
-                "de": "Programmatic Development Work"
+                "de": "Programmatische Entwicklungsarbeit",
+                "en": "Programmatic Development Work"
               }
             },
             {
@@ -433,7 +479,8 @@
                 "2.3.2"
               ],
               "prefLabel": {
-                "de": "Evaluation and Achievement Measurement"
+                "de": "Evaluation und Leistungsmessung",
+                "en": "Evaluation and Achievement Measurement"
               }
             },
             {
@@ -442,7 +489,8 @@
                 "2.3.3"
               ],
               "prefLabel": {
-                "de": "Measures of Quality Development"
+                "de": "Maßnahmen der Qualitätsentwicklung",
+                "en": "Measures of Quality Development"
               }
             }
           ]
@@ -453,7 +501,8 @@
             "2.4"
           ],
           "prefLabel": {
-            "de": "Parental Involvement"
+            "de": "Elternarbeit",
+            "en": "Parental Involvement"
           }
         },
         {
@@ -462,7 +511,8 @@
             "2.5"
           ],
           "prefLabel": {
-            "de": "School Atmosphere"
+            "de": "Schulklima",
+            "en": "School Atmosphere"
           },
           "narrower": [
             {
@@ -471,7 +521,8 @@
                 "2.5.1"
               ],
               "prefLabel": {
-                "de": "Perception of School as a Living Environment"
+                "de": "Wahrnehmung der Schule als Lebensort",
+                "en": "Perception of School as a Living Environment"
               }
             },
             {
@@ -480,7 +531,8 @@
                 "2.5.2"
               ],
               "prefLabel": {
-                "de": "Perception of the School as a Place of Learning"
+                "de": "Wahrnehmung der Schule als Lernort",
+                "en": "Perception of the School as a Place of Learning"
               }
             },
             {
@@ -489,7 +541,8 @@
                 "2.5.3"
               ],
               "prefLabel": {
-                "de": "Social Climate"
+                "de": "Soziales Klima",
+                "en": "Social Climate"
               }
             },
             {
@@ -498,7 +551,8 @@
                 "2.5.4"
               ],
               "prefLabel": {
-                "de": "Deviant Behavior"
+                "de": "Deviantes Verhalten",
+                "en": "Deviant Behavior"
               }
             },
             {
@@ -507,7 +561,8 @@
                 "2.5.5"
               ],
               "prefLabel": {
-                "de": "Participative School Climate"
+                "de": "Partizipatives Schulklima",
+                "en": "Participative School Climate"
               }
             }
           ]
@@ -518,7 +573,8 @@
             "2.6"
           ],
           "prefLabel": {
-            "de": "Cooperation"
+            "de": "Kooperation",
+            "en": "Cooperation"
           },
           "narrower": [
             {
@@ -527,7 +583,8 @@
                 "2.6.1"
               ],
               "prefLabel": {
-                "de": "Intra-school Cooperation"
+                "de": "Schulinterne Kooperation",
+                "en": "Intra-school Cooperation"
               }
             },
             {
@@ -536,7 +593,8 @@
                 "2.6.2"
               ],
               "prefLabel": {
-                "de": "Cooperation Outside the School"
+                "de": "Schulexterne Kooperation",
+                "en": "Cooperation Outside the School"
               }
             }
           ]
@@ -549,7 +607,8 @@
         "3"
       ],
       "prefLabel": {
-        "de": "Teaching-Learning Arrangements"
+        "de": "Lehr-Lernarrangements",
+        "en": "Teaching-Learning Arrangements"
       },
       "narrower": [
         {
@@ -558,7 +617,8 @@
             "3.1"
           ],
           "prefLabel": {
-            "de": "Lesson Design/ Teaching Practice"
+            "de": "Unterrichtsgestaltung/Unterrichtspraxis",
+            "en": "Lesson Design/ Teaching Practice"
           },
           "narrower": [
             {
@@ -567,7 +627,8 @@
                 "3.1.1"
               ],
               "prefLabel": {
-                "de": "Use and Variation of Different Teaching Methods"
+                "de": "Einsatz und Variation verschiedener Unterrichtsmethoden",
+                "en": "Use and Variation of Different Teaching Methods"
               }
             },
             {
@@ -576,7 +637,8 @@
                 "3.1.2"
               ],
               "prefLabel": {
-                "de": "Clarity and Structuredness"
+                "de": "Klarheit und Strukturiertheit",
+                "en": "Clarity and Structuredness"
               }
             },
             {
@@ -585,7 +647,8 @@
                 "3.1.3"
               ],
               "prefLabel": {
-                "de": "Cognitive Activation"
+                "de": "Kognitive Aktivierung",
+                "en": "Cognitive Activation"
               }
             },
             {
@@ -594,7 +657,8 @@
                 "3.1.4"
               ],
               "prefLabel": {
-                "de": "Handling Homework"
+                "de": "Umgang mit Hausaufgaben",
+                "en": "Handling Homework"
               }
             },
             {
@@ -603,7 +667,8 @@
                 "3.1.5"
               ],
               "prefLabel": {
-                "de": "Lesson Preparation and Lesson Content"
+                "de": "Unterrichtsvorbereitung und Unterrichtsinhalte",
+                "en": "Lesson Preparation and Lesson Content"
               }
             }
           ]
@@ -614,7 +679,8 @@
             "3.2"
           ],
           "prefLabel": {
-            "de": "Class Management"
+            "de": "Klassenführung",
+            "en": "Class Management"
           },
           "narrower": [
             {
@@ -623,7 +689,8 @@
                 "3.2.1"
               ],
               "prefLabel": {
-                "de": "Professional Support/ Individual Support"
+                "de": "Fachliche Unterstützung/individuelle Förderung",
+                "en": "Professional Support/ Individual Support"
               }
             },
             {
@@ -632,7 +699,8 @@
                 "3.2.2"
               ],
               "prefLabel": {
-                "de": "Effective Use of Time/ Discipline in the Classroom"
+                "de": "Effektive Zeitnutzung/Disziplin im Unterricht",
+                "en": "Effective Use of Time/ Discipline in the Classroom"
               }
             },
             {
@@ -641,7 +709,8 @@
                 "3.2.3"
               ],
               "prefLabel": {
-                "de": "Performance Assessment/ Diagnostic Competence"
+                "de": "Leistungsbeurteilung/Diagnostische Kompetenz",
+                "en": "Performance Assessment/ Diagnostic Competence"
               }
             },
             {
@@ -650,7 +719,8 @@
                 "3.2.4"
               ],
               "prefLabel": {
-                "de": "Student Orientation/ Social Support"
+                "de": "Schülerorientierung/Soziale Unterstützung",
+                "en": "Student Orientation/ Social Support"
               }
             },
             {
@@ -659,7 +729,8 @@
                 "3.2.5"
               ],
               "prefLabel": {
-                "de": "Reference Norm Orientation"
+                "de": "Bezugsnormorientierung",
+                "en": "Reference Norm Orientation"
               }
             }
           ]
@@ -670,7 +741,8 @@
             "3.3"
           ],
           "prefLabel": {
-            "de": "Quality of all-day Programs"
+            "de": "Qualität von Ganztagsangeboten",
+            "en": "Quality of all-day Programs"
           }
         },
         {
@@ -679,7 +751,8 @@
             "3.4"
           ],
           "prefLabel": {
-            "de": "Instructional Offerings"
+            "de": "Angebotsklima",
+            "en": "Instructional Offerings"
           }
         },
         {
@@ -688,7 +761,8 @@
             "3.5"
           ],
           "prefLabel": {
-            "de": "Learning Atmosphere in the Classroom and in the Class Group"
+            "de": "Lernatmosphäre im Unterricht und Klassenverband",
+            "en": "Learning Atmosphere in the Classroom and in the Class Group"
           },
           "narrower": [
             {
@@ -697,7 +771,8 @@
                 "3.5.1"
               ],
               "prefLabel": {
-                "de": "Learning Climate"
+                "de": "Lernklima",
+                "en": "Learning Climate"
               }
             },
             {
@@ -706,7 +781,8 @@
                 "3.5.2"
               ],
               "prefLabel": {
-                "de": "Classroom Climate"
+                "de": "Klassenklima",
+                "en": "Classroom Climate"
               }
             },
             {
@@ -715,7 +791,8 @@
                 "3.5.3"
               ],
               "prefLabel": {
-                "de": "Composition of the Student Body"
+                "de": "Zusammensetzung der Schülerschaft",
+                "en": "Composition of the Student Body"
               }
             }
           ]
@@ -728,7 +805,8 @@
         "4"
       ],
       "prefLabel": {
-        "de": "School Effects"
+        "de": "Schulische Wirkungen",
+        "en": "School Effects"
       },
       "narrower": [
         {
@@ -737,7 +815,8 @@
             "4.1"
           ],
           "prefLabel": {
-            "de": "Cognitive Learning Outcomes"
+            "de": "Kognitive Lernergebnisse",
+            "en": "Cognitive Learning Outcomes"
           }
         },
         {
@@ -746,7 +825,8 @@
             "4.2"
           ],
           "prefLabel": {
-            "de": "Metacognitive Learning Outcomes"
+            "de": "Metakognitive Lernergebnisse",
+            "en": "Metacognitive Learning Outcomes"
           }
         },
         {
@@ -755,7 +835,8 @@
             "4.3"
           ],
           "prefLabel": {
-            "de": "Non-cognitive Learning Outcomes"
+            "de": "Nichtkognitive Lernergebnisse",
+            "en": "Non-cognitive Learning Outcomes"
           },
           "narrower": [
             {
@@ -764,7 +845,8 @@
                 "4.3.1"
               ],
               "prefLabel": {
-                "de": "Self-Related Attitudes (Learning Outcome)"
+                "de": "Selbstbezogene Einstellungen (Lernergebnis)",
+                "en": "Self-Related Attitudes (Learning Outcome)"
               }
             },
             {
@@ -773,7 +855,8 @@
                 "4.3.2"
               ],
               "prefLabel": {
-                "de": "Learning and Performance-related Attitudes (Learning Outcome)"
+                "de": "Lern- und leistungsbezogene Einstellungen (Lernergebnis)",
+                "en": "Learning and Performance-related Attitudes (Learning Outcome)"
               }
             },
             {
@@ -782,7 +865,8 @@
                 "4.3.3"
               ],
               "prefLabel": {
-                "de": "Political and Social Attitudes (Learning Outcome)"
+                "de": "Politische und soziale Einstellungen (Lernergebnis)",
+                "en": "Political and Social Attitudes (Learning Outcome)"
               }
             },
             {
@@ -791,7 +875,8 @@
                 "4.3.4"
               ],
               "prefLabel": {
-                "de": "School-related Attitudes and Behaviors (Learning Outcome)"
+                "de": "Schulbezogene Einstellungen und Verhaltensweisen (Lernergebnis)",
+                "en": "School-related Attitudes and Behaviors (Learning Outcome)"
               }
             }
           ]
@@ -804,7 +889,8 @@
         "5"
       ],
       "prefLabel": {
-        "de": "Other"
+        "de": "Sonstiges",
+        "en": "Other"
       },
       "narrower": [
         {
@@ -813,7 +899,8 @@
             "5.1"
           ],
           "prefLabel": {
-            "de": "Other"
+            "de": "Sonstiges",
+            "en": "Other"
           }
         }
       ]
