@@ -435,7 +435,7 @@ function buildTreeView(concepts: Concept[]): HTMLElement {
     groupEl.className = 'tree-group';
 
     const isOpen = openGroupIds.has(top.id);
-    const notation = top.notation?.[0] ?? String(idx + 1);
+    const notation = top.notation?.[0];
     const childCount = top.narrower?.length ?? 0;
     const depthClass = `depth-color-${idx % 4}`;
 
@@ -445,7 +445,7 @@ function buildTreeView(concepts: Concept[]): HTMLElement {
     const headerEl = document.createElement('div');
     headerEl.className = `tree-group-header ${isOpen ? 'expanded' : ''}`;
     headerEl.innerHTML = `
-      <div class="tree-group-number ${depthClass}">${notation}</div>
+      ${notation ? `<div class="tree-group-number ${depthClass}">${notation}</div>` : ''}
       <div class="tree-group-label">${getLabel(top.prefLabel, lang)}</div>
       ${childCount ? `<span class="tree-group-count">${childCount} ${t('sub', lang)}</span>` : ''}
       ${childCount ? `<svg class="tree-group-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>` : ''}
@@ -517,13 +517,13 @@ function buildCardsView(concepts: Concept[]): HTMLElement {
     (card as HTMLElement).style.animationDelay = `${idx * 40}ms`;
 
     const childCount = c.narrower?.length ?? 0;
-    const notation = c.notation?.[0] ?? String(idx + 1);
+    const notation = c.notation?.[0];
     const def = getLabel(c.definition, lang);
 
     card.innerHTML = `
       <div class="concept-card-header">
         <h2 class="concept-card-title">${getLabel(c.prefLabel, lang)}</h2>
-        <span class="concept-card-notation">${notation}</span>
+        ${notation ? `<span class="concept-card-notation">${notation}</span>` : ''}
       </div>
       ${def ? `<p class="concept-card-def">${linkify(stripNewlines(def))}</p>` : ''}
       <div class="concept-card-footer">
