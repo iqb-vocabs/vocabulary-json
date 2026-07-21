@@ -4,7 +4,7 @@
 @prefix n0: <https://w3id.org/iqb/v85/fd/>. 
 
 n0:3
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -13,7 +13,7 @@ n0:3
 	skos:definition "Ein Beobachtungsdesign (auch ,Ex-post-facto-Design') zeichnet sich dadurch aus, dass der Forscher keinen Stimulus manipuliert und auch keine Randomisierung der Untersuchungseinheiten auf die Ausprägungen der unabhängigen Variablen stattfindet."@de,
 	"The observational design is characterized by the fact that the researcher is neither manipulating an independent variable nor does he (randomly) assign units of analysis to different groups. This design is also called ex-post-facto-Design (after the fact)."@en.
 n0:1
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -22,7 +22,7 @@ n0:1
 	skos:definition "Ein experimentelles Design ist dadurch gekennzeichnet, dass (1) mindestens zwei experimentelle Gruppen gebildet werden (Kontroll- und Experimentalgruppe), (2) die Untersuchungseinheiten den Gruppen durch ein Zufallsverfahren (Randomisierung) zugewiesen werden und (3) die unabhängige Variable vom Forscher gezielt ,manipuliert' wird (experimenteller Stimulus)."@de,
 	"The true experimental design is characterized by (1) the establishment of at least two groups (control and treatment group), (2) the random assignment of the units of analysis to different groups and (3) the controlled manipulation of the independent variable by the researcher (experimental stimulus)."@en.
 n0:4
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -31,7 +31,7 @@ n0:4
 	skos:definition "Ein Design bei dem eine einzelne Untersuchungseinheit, bzw. ein ,Fall' (dies können z. B. Einzelpersonen, Personengruppen, Organisationen, Kulturen aber auch soziale Prozesse, einzelne Situationen o. Ä. sein) zu einem bestimmten Zeitpunkt analysiert werden soll."@de,
 	"The in-depth examination of a single unit of analysis, such as a village, a family, or a juvenile gang or even a single person at a specific point of time."@en.
 n0:2
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -40,7 +40,7 @@ n0:2
 	skos:definition "Im Unterschied zum experimentellen Design erfolgt die Zuordnung der Untersuchungseinheiten zu den Experimental- und Kontrollgruppen nicht durch Randomisierung, sondern aufgrund bereits vorhandener Merkmale der Untersuchungseinheiten bzw. erfolgt durch die Untersuchungseinheiten selbst. Der Stimulus wird jedoch wie bei einem echten Experiment gesetzt."@de,
 	"In contrast to the true experimental design the units of analysis are not assigned randomly to treatment and control groups. Instead, group membership occurs naturally or is based on pre-experimental characteristics of the participants. In other words, they assign themselves to the groups. However, similar to the true experimental design, the independent variable is manipulated by the researcher."@en.
 n0:5
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -49,7 +49,7 @@ n0:5
 	skos:definition "Die Sekundäranalyse ist eine Forschungsstrategie, die bereits existierende quantitative oder qualitative Daten nutzt, um neue Fragestellungen zu untersuchen oder vorherige Studien zu reanalysieren/ zu überprüfen. (nach Heaton)"@de,
 	"Secondary analysis is a research strategy which makes use of pre-existing quantitative data or pre-existing qualitative research data for the purposes of investigating new questions or verifying previous studies. (Janet Heaton 2004, Reworking Qualitative Data S. 16)"@en.
 n0:40
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;

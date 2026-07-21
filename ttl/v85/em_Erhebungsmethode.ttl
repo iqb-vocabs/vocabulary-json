@@ -4,84 +4,84 @@
 @prefix n0: <https://w3id.org/iqb/v85/em/>. 
 
 n0:1
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Interview: Rezeptives Interview"@de,
 	"Interview: Receptive interview"@en.
 n0:2
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Interview: Problemzentriertes Interview"@de,
 	"Interview: Problem-centred interview"@en.
 n0:3
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Interview: Leitfadeninterview"@de,
 	"Interview: Guide interview"@en.
 n0:4
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Interview: Narratives Interview"@de,
 	"Interview: Narrative interview"@en.
 n0:5
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Interview: Tiefeninterview"@de,
 	"Interview: In-depth interview"@en.
 n0:6
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Interview: Episodisches Interview"@de,
 	"Interview: Episodic interview"@en.
 n0:7
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Interview: Halbstandardisiertes Interview"@de,
 	"Interview: Semi-standardised interview"@en.
 n0:8
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Interview: Erzählgenerierendes Interview"@de,
 	"Interview: Story-telling interview"@en.
 n0:9
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Interview: Ethnografisches Interview"@de,
 	"Interview: Ethnographic interview"@en.
 n0:10
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Interview: Fokussiertes Interview"@de,
 	"Interview: Focused interview"@en.
 n0:11
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Interview: Ero-episches Gespräch"@de,
 	"Interview: Ero-epic conversation"@en.
 n0:12
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;

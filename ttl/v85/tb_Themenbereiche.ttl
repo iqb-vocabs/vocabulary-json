@@ -4,7 +4,7 @@
 @prefix n0: <https://w3id.org/iqb/v85/tb/>. 
 
 n0:8
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -12,98 +12,98 @@ n0:8
 	"Working Conditions"@en; 
 	skos:definition "Working Conditions"@de.
 n0:9
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Bestandsdaten/Institutioneller Hintergrund"@de,
 	"Inventory Data/Institutional Background"@en.
 n0:12
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Demographie individuell"@de,
 	"Demography individual"@en.
 n0:6
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Digitalisierung"@de,
 	"Digitisation"@en.
 n0:10
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Evaluation/Qualitätsentwicklung"@de,
 	"Evaluation/Quality Development"@en.
 n0:7
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Gleichstellung"@de,
 	"Equality"@en.
 n0:13
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Kognitive Fähigkeiten/Kompetenzen"@de,
 	"Cognitive Ability/Achievement"@en.
 n0:2
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Lebenschancen"@de,
 	"Opportunities in Life"@en.
 n0:4
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Lebenswelt/Lebensbedingungen"@de,
 	"Living Environment/Living Conditions"@en.
 n0:1
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Lehren und Lernen"@de,
 	"Teaching and Learning"@en.
 n0:5
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Migration"@de,
 	"Migration"@en.
 n0:11
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Qualifikation"@de,
 	"Qualification"@en.
 n0:15
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Testverfahren"@de,
 	"Testing"@en.
 n0:14
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Testverhalten"@de,
 	"Test Behaviour"@en.
 n0:3
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;

@@ -4,68 +4,67 @@
 @prefix n0: <https://w3id.org/iqb/v85/dt2/>. 
 
 n0:1
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Kompetenz- und Leistungsdaten"@de,
 	"Skills Measurement / Performance Measurement"@en.
 n0:2
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Qualitatives, nicht oder gering standardisiertes Datenmaterial"@de,
 	"Qualitative, non-standardized or poorly standardized data material"@en.
 n0:3
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Umfrage- und Aggregatedaten"@de,
 	"Survey Data"@en.
 n0:41
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.1";
 	skos:broader n0:4;
 	skos:prefLabel "Fragebogenskalen"@de,
 	"Questionnaire Scales"@en.
 n0:42
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.2";
 	skos:broader n0:4;
 	skos:prefLabel "Kompetenztest oder Wissenstest"@de,
 	"Competency Test or Knowledge Test"@en.
 n0:43
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.3";
 	skos:broader n0:4;
 	skos:prefLabel "Ratingmanual"@de,
 	"Rating Manual"@en.
 n0:44
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4.4";
 	skos:broader n0:4;
 	skos:prefLabel "Lerntagebuch"@de,
 	"Learning Diary"@en.
 n0:4
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Forschungsinstrument"@de,
 	"Research Tool"@en;
-	skos:narrower 
-		n0:41,
+	skos:narrower n0:41,
 		n0:42,
 		n0:43,
 		n0:44.
 n0:99
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "5";
 	skos:topConceptOf n0:;

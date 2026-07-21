@@ -4,7 +4,7 @@
 @prefix n0: <https://w3id.org/iqb/v85/zu/>. 
 
 n0:1
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -13,7 +13,7 @@ n0:1
 	skos:definition "Es existieren keinerlei Zugangsbeschränkungen. Die Daten sind frei zugänglich. "@de,
 	"There are no access restrictions. The data is freely accessible."@en.
 n0:2
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -22,7 +22,7 @@ n0:2
 	skos:definition "Eine Registrierung, unter Abfrage spezifischer Nutzer*innenangaben, die vom FDZ festgelegt werden, ist Bedingung, um auf Daten zugreifen zu können. Die Registrierung ist je nach Bestimmungen des FDZ für jedermann offen oder auf einen bestimmten Nutzer*innenkreis (z. B. Forschende, Angehörige einer Hochschule etc.) eingeschränkt. Die Registrierung ist ein eigenständiger Schritt im Verfahren, um auf Daten zugreifen zu können und mit dem Anlegen eines Nutzer*innenkontos verbunden. Im Falle von Campus Files ist hingegen eine vereinfachte Registrierung via E-Mail möglich. Voraussetzung hierfür ist eine wissenschaftliche/universitäre Institutszugehörigkeit."@de,
 	"Registration is a prerequisite for accessing data and requires specific user information, which is defined by the FDZ. Depending on the regulations of the FDZ, registration is open to everyone or restricted to a certain group of users (e.g. researchers, members of a university, etc.). Registration is an independent step in the process of accessing data and is linked to the creation of a user account. In the case of Campus Files, however, a simplified registration via e-mail is possible. The prerequisite for this is an academic/university institute affiliation."@en.
 n0:3
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -31,7 +31,7 @@ n0:3
 	skos:definition "Für den Zugriff auf Daten muss ein Antrag gestellt werden (online oder schriftlich). Im Antrag muss u. a. der Nutzungszweck oder - falls die Nutzung auf Forschung und Lehre eingeschränkt ist - das Forschungsinteresse und der wissenschaftliche Nutzungszweck der Daten dargestellt werden. "@de,
 	"An application must be submitted (online or in writing) for access to data. The application must state, among other things, the purpose of use or - if the use is restricted to research and teaching - the research interest and the scientific purpose of use of the data. "@en.
 n0:4
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -40,7 +40,7 @@ n0:4
 	skos:definition "Off-Site-Nutzung – Übermittlung der Daten zum*r Nutzer*in"@de,
 	"Off-site use - transmission of the user's data"@en.
 n0:5
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -49,7 +49,7 @@ n0:5
 	skos:definition "On-Site-Nutzung – Keine Übermittlung der Daten zum*r Nutzer*in"@de,
 	"On-site use - no transmission of data to the user"@en.
 n0:6
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;

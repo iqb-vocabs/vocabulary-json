@@ -4,14 +4,14 @@
 @prefix n0: <https://w3id.org/iqb/v85/df/>. 
 
 n0:1
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Audiovisuell"@de,
 	"Audiovisual"@en.
 n0:2
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -20,14 +20,14 @@ n0:2
 	skos:definition "=Sammlung"@de,
 	"=Collection"@en.
 n0:3
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "DataPaper"@de,
 	"Data Paper"@en.
 n0:4
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -36,77 +36,77 @@ n0:4
 	skos:definition "Hierunter fallen auch Logdaten (Hinweis: Im Metadatenschema daIra 4.0 kann bei der Auswahl des Resource Type 'Datensatz' als Spezifizierung bei Resource Tpe Free 'Logdaten' eingetragen werden.)."@de,
 	"This also includes logfiles (Note: In the metadata schema daIra 4.0, when selecting the Resource Type 'Dataset', 'logfiles' can be entered as a specification for Resource Type Free)."@en.
 n0:5
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Event"@de,
 	"Event"@en.
 n0:6
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Bild"@de,
 	"Image"@en.
 n0:7
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Interaktives Objekt"@de,
 	"Interactive Resource"@en.
 n0:8
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Modell"@de,
 	"Model"@en.
 n0:9
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Physisches Objekt"@de,
 	"Physical Object"@en.
 n0:10
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Service"@de,
 	"Service"@en.
 n0:11
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Software"@de,
 	"Software"@en.
 n0:12
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Audio"@de,
 	"Sound"@en.
 n0:13
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Text"@de,
 	"Text"@en.
 n0:14
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Workflow"@de,
 	"Workflow"@en.
 n0:15
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;

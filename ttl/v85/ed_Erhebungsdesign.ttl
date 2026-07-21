@@ -4,7 +4,7 @@
 @prefix n0: <https://w3id.org/iqb/v85/ed/>. 
 
 n0:2
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.1";
 	skos:broader n0:1;
@@ -13,7 +13,7 @@ n0:2
 	skos:definition "Daten, die an mehreren Zeitpunkten einer gleichbleibenden Kohorte erhoben wurden. Die Individuen der Kohorte sind in einer spezifischen Art und Weise miteinander verbunden oder teilen besondere Erfahrungen innerhalb eines bestimmten Zeitraums. In manchen Fällen können die Stichproben zwischen den Wellen variieren, werden jedoch aus der derselben Kohorte gezogen. Beispiele: Geburtsjahr, Krankheit (klinische Studien), gemeinsames Problem (Interventionsstudien), Bildung, Beschäftigung, Familiengründung, Teilnahme an einer Veranstaltung"@de,
 	"Data collected over time from the same cohort of respondents. The individuals in the cohort are connected in some way  or have shared some significant experience within a given period. In some cases, the samples may differ between waves but are drawn from the same cohort. Examples: birth year, disease (clinical trials), common  problem (intervention studies), education, employment, family formation, participation in an event."@en.
 n0:3
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.2";
 	skos:broader n0:1;
@@ -22,7 +22,7 @@ n0:3
 	skos:definition "Daten, die an mehreren Zeitpunkten aus unterschiedlichen Stichproben oder Personengruppen einer gleichen Population erhoben wurden, wobei zumindest teilweise die gleichen Fragen oder Variablen verwendet wurden. Die Schlussfolgerungen beziehen sich auf die Gesamtpopulation. Beispiele: European Social Survey (ESS), Nationale Längsschnittstudien über Kriminalität"@de,
 	"Data collected from different samples or different groups of people from the same population at several points in time, using at least partly the same set of questions/variables. Conclusions are drawn for the population. Examples: European Social Survey (ESS), national longitudinal crime surveys."@en.
 n0:4
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.3";
 	skos:broader n0:1;
@@ -31,7 +31,7 @@ n0:4
 	skos:definition "Daten, die an mehreren Zeitpunkten von einer gleichbleibenden Stichprobe erhoben wurden. Der Unterschied zu Kohorten- bzw. ereignisbezogenen Daten liegt darin, dass die Befragten keine Verbindung aufweisen oder bedeutende Erfahrungen teilen."@de,
 	"Data collected over time from, or about, the same sample of respondents. Differs from cohort/event-based data in that the selection of respondents is not based on their being connected in some way or having shared some significant experience."@en.
 n0:1
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1";
 	skos:topConceptOf n0:;
@@ -39,12 +39,11 @@ n0:1
 	"Longitudinal"@en; 
 	skos:definition "Daten, die an mehreren Zeitpunkten erhoben wurden, um Veränderungen innerhalb einer Population zu untersuchen. Mindestens einige der Fragen oder Module werden dabei in Wellen wiederholt abgefragt. Verwenden Sie diesen breit gefassten Begriff, wenn sich keiner der Unterterme eignet."@de,
 	"Data collected repeatedly over time to allow studying change in a population. At least some of the questions or modules are repeated over waves. Use the broad term when none of the subterms is suitable."@en;
-	skos:narrower 
-		n0:2,
+	skos:narrower n0:2,
 		n0:3,
 		n0:4.
 n0:5
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2";
 	skos:topConceptOf n0:;
@@ -53,7 +52,7 @@ n0:5
 	skos:definition "Daten, die in wiederholten Zeitabständen gesammelt wurden, um Veränderungen der Untersuchungseinheit zu untersuchen. Diese sind typischerweise „objektive“ Messungen von Phänomenen, die durch externe Beobachtung erhoben werden können, im Gegensatz zu Einstellungen/Meinungen oder Emotionen. Beispiele sind ökonomische/finanzielle Indikatoren, natürliche/meteorologische Phänomene, Bevölkerungsstatistik etc."@de,
 	"Data collected repeatedly over time to study change in observations. These are typically 'objective' measurements of phenomena that can be observed externally, as opposed to attitudes/opinions or feelings. Examples may include economic/financial indicators, natural/meteorological phenomena, vital statistics, etc."@en.
 n0:6
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3";
 	skos:topConceptOf n0:;
@@ -62,7 +61,7 @@ n0:6
 	skos:definition "Daten, die zu einem Zeitpunkt erhoben wurden, ohne bei den Untersuchungseinheiten Veränderungen über die Zeit zu berücksichtigen. Dabei kann die Erhebung auch mehrere „Erhebungsereignisse“ umfassen, z. B. an mehreren Tagen innerhalb der Feldzeit durchgeführt werden. Die Analyse der Querschnittsdaten besteht häufig in der Untersuchung von Unterschieden und Gemeinsamkeiten der Befragten."@de,
 	"Data collected by observing subjects within the study period, without regard to changes over time. May include more than one collection event. Analysis of cross-sectional data often consists in comparing the differences and similarities among subjects."@en.
 n0:40
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4";
 	skos:topConceptOf n0:;
@@ -80,14 +79,14 @@ n0:
 
 Zitation: VerbundFDB: Erhebungsdesign Bildungsforschung. Version 1.0. Verfügbar unter https://w3id.org/iqb/v85/ed/.
 
-Provenienz: basierend auf DDI Alliance (2015): DDI Controlled Vocabulary for Time Method. Verfügbar unter from http://www.ddialliance.org/Specification/DDI-CV/TimeMethod_1.2.html German Translation: Jedinger, Alexander and Eisentraut, Marcus (2016). GESIS. DDI Kontrollierte Vokabulare: Erhebungsdesign 1.3 Englisch-Deutsche Fassung 12.12.2016 Dr. Alexander Jedinger (GESIS /DDI Vocabulary Group), Marcus Eisentraut (VerbundFDB, GESIS)
+Provenienz: basierend auf DDI Alliance (2015): DDI Controlled Vocabulary for Time Method. Verfügbar unter from https://rdf-vocabulary.ddialliance.org/ddi-cv/TimeMethod/1.2.0/TimeMethod.html German Translation: Jedinger, Alexander and Eisentraut, Marcus (2016). GESIS. DDI Kontrollierte Vokabulare: Erhebungsdesign 1.3 Englisch-Deutsche Fassung 12.12.2016 Dr. Alexander Jedinger (GESIS /DDI Vocabulary Group), Marcus Eisentraut (VerbundFDB, GESIS)
 
 Lizenz: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de) """@de,
 	"""This is a controlled vocabulary for methodological information on the study and describes the time dimension of the data collection.
 
 Citation: VerbundFDB: Time Method Educational Research. Version 1.0. Retrieved from https://w3id.org/iqb/v85/ed/ 
 
-Provenance: Based on DDI Alliance (2015): DDI Controlled Vocabulary for Time Method. Retrieved from http://www.ddialliance.org/Specification/DDI-CV/TimeMethod_1.2.html German Translation: Jedinger, Alexander and Eisentraut, Marcus (2016). GESIS. DDI Controlled Vocabularies: Time Method 1.3 Englisch-Deutsche Fassung 12.12.2016 Dr. Alexander Jedinger (GESIS /DDI Vocabulary Group), Marcus Eisentraut (VerbundFDB, GESIS)
+Provenance: Based on DDI Alliance (2015): DDI Controlled Vocabulary for Time Method. Retrieved from https://rdf-vocabulary.ddialliance.org/ddi-cv/TimeMethod/1.2.0/TimeMethod.html German Translation: Jedinger, Alexander and Eisentraut, Marcus (2016). GESIS. DDI Controlled Vocabularies: Time Method 1.3 Englisch-Deutsche Fassung 12.12.2016 Dr. Alexander Jedinger (GESIS /DDI Vocabulary Group), Marcus Eisentraut (VerbundFDB, GESIS)
 
 License: CC0 1.0 Universell (CC0 1.0) / Public Domain Dedication (https://creativecommons.org/publicdomain/zero/1.0/deed.de) """@en;
 	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;

@@ -4,28 +4,28 @@
 @prefix n0: <https://w3id.org/iqb/v85/dt/>. 
 
 n0:1
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Kompetenz- und Leistungsdaten"@de,
 	"Skills Measurement / Performance Measurement"@en.
 n0:2
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Qualitatives, nicht oder gering standardisiertes Datenmaterial"@de,
 	"Qualitative, non-standardized or poorly standardized data material"@en.
 n0:3
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Umfrage- und Aggregatedaten"@de,
 	"Survey Data"@en.
 n0:99
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
