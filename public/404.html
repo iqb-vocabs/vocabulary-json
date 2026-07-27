@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IQB Vocabulary Explorer</title>
+    <script>
+      // GitHub Pages custom 404 handler.
+      // When a path like /vocabulary-json/v24/kh/r5f is requested and no file
+      // exists, GitHub Pages serves this 404.html. We parse the path and
+      // redirect to the explorer SPA with the appropriate hash route.
+      //
+      // Examples:
+      //   /vocabulary-json/v24/kh/r5f   → /vocabulary-json/#v24/kh/r5f
+      //   /vocabulary-json/v24/kh/      → /vocabulary-json/#v24/kh
+      //   /vocabulary-json/v85/av/1     → /vocabulary-json/#v85/av/1
+
+      (function () {
+        var path = window.location.pathname;
+
+        // Strip the GitHub Pages base path (/vocabulary-json/)
+        var base = '/vocabulary-json/';
+        var idx = path.indexOf(base);
+        var relative = idx !== -1
+          ? path.slice(idx + base.length)
+          : path.replace(/^\//, '');
+
+        // Remove trailing slash
+        relative = relative.replace(/\/+$/, '');
+
+        // Only redirect if the path looks like a vocabulary route (starts with v + digits)
+        if (/^v\d+\//.test(relative)) {
+          window.location.replace(base + '#' + relative);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <p>Page not found. If you are not redirected, go to the <a href="/vocabulary-json/">Vocabulary Explorer</a>.</p>
+  </body>
+</html>
