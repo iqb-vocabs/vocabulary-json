@@ -2,24 +2,23 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v53/n1/>. 
-@prefix n1: <https://w3id.org/iqb/v53/n1/>. 
 
-n1:z7x
-	 a skos:Concept;
+n0:z7x
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1";
 	skos:topConceptOf n0:;
 	skos:prefLabel "I Reproduzieren"@de; 
 	skos:definition "Dieser Bereich umfasst die Wiedergabe und direkte Anwendung von grundlegenden Begriffen, Sätzen und Verfahren in einem abgegrenzten Gebiet und einem wiederholenden Zusammenhang."@de.
-n1:c3h
-	 a skos:Concept;
+n0:c3h
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2";
 	skos:topConceptOf n0:;
 	skos:prefLabel "II Zusammenhänge herstellen"@de; 
 	skos:definition "Dieser Bereich umfasst das Bearbeiten bekannter Sachverhalte, indem Kenntnisse, Fertigkeiten und Fähigkeiten verknüpft werden, die in der Auseinandersetzung mit Mathematik auf verschiedenen Gebieten erworben wurden."@de.
-n1:x6g
-	 a skos:Concept;
+n0:x6g
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3";
 	skos:topConceptOf n0:;
@@ -32,7 +31,8 @@ n0:
 	dct:description """Zum Lösen mathematischer Aufgaben werden die allgemeinen mathematischen Kompetenzen in unterschiedlicher Ausprägung benötigt. Diesbezüglich lassen sich drei Anforderungsbereiche unterscheiden: Reproduzieren, Zusammenhänge herstellen sowie Verallgemeinern und Reflektieren. Im Allgemeinen nehmen Anspruch und kognitive Komplexität von Anforderungsbereich zu Anforderungsbereich zu. 
 
 Die Anforderungsbereiche sind für alle allgemeinen mathematischen Kompetenzen wie folgt charakterisiert:"""@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
-		n1:z7x,
-		n1:c3h,
-		n1:x6g.
+		n0:z7x,
+		n0:c3h,
+		n0:x6g.

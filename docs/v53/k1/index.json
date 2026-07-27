@@ -7,6 +7,9 @@
   "description": {
     "de": "Die oben beschriebenen allgemeinen mathematischen Kompetenzen werden von Schülerinnen und Schülern in der Auseinandersetzung mit mathematischen Inhalten erworben. Dementsprechend lassen sich die allgemeinen mathematischen Kompetenzen als Dispositionen von Schülerinnen und Schülern vielfältig inhaltsbezogen konkretisieren. Im Folgenden werden Standards für inhaltsbezogene mathematische Kompetenzen benannt.\n\nSie sind jeweils ausgewählten mathematischen Leitideen zugeordnet, um Verständnis von grundlegenden mathematischen Konzepten zu erreichen, Besonderheiten mathematischen Denkens zu verdeutlichen sowie Bedeutung und Funktion der Mathematik für die Gestaltung und Erkenntnis der Welt erfahren zu lassen."
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v53/k1/e7u",
