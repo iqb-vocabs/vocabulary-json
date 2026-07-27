@@ -2,46 +2,45 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v28/dv/>. 
-@prefix n1: <https://w3id.org/iqb/v28/dv/>. 
 
-n1:d6y
-	 a skos:Concept;
+n0:d6y
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Standardsprache"@de.
-n1:d3b
-	 a skos:Concept;
+n0:d3b
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "norddeutsch"@de.
-n1:q4y
-	 a skos:Concept;
+n0:q4y
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "süddeutsch"@de.
-n1:d2q
-	 a skos:Concept;
+n0:d2q
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "ostdeutsch"@de.
-n1:h6t
-	 a skos:Concept;
+n0:h6t
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "westdeutsch"@de.
-n1:d5x
-	 a skos:Concept;
+n0:d5x
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Berlinerisch"@de.
-n1:s4p
-	 a skos:Concept;
+n0:s4p
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -52,11 +51,12 @@ n0:
 	dct:title "Deutsch - Variante"@de;
 	dc:title "Deutsch - Variante"@de;
 	dc:description "Deutsch - Variante"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
-		n1:d6y,
-		n1:d3b,
-		n1:q4y,
-		n1:d2q,
-		n1:h6t,
-		n1:d5x,
-		n1:s4p.
+		n0:d6y,
+		n0:d3b,
+		n0:q4y,
+		n0:d2q,
+		n0:h6t,
+		n0:d5x,
+		n0:s4p.

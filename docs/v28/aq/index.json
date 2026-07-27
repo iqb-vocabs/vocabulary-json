@@ -4,6 +4,9 @@
   "title": {
     "de": "Deutsch - Art der Quelle(n)"
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v28/aq/r4c",
