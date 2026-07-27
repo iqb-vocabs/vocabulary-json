@@ -7,6 +7,9 @@
   "description": {
     "de": "Text- und Medienkompetenz umfasst rezeptive, produktive, interaktive und mittelnde Aktivitäten in der Auseinandersetzung mit kontinuierlichen und diskontinuierlichen Texten in ihren unterschiedlichen sprachlichen Repräsentationsformen (phonisch, graphisch, Mischformen) und medialen Erscheinungen. Text- und Medienkompetenz beinhaltet entsprechend auf der rezeptiven Ebene die Fähigkeit, Texte selbstständig, zielbezogen sowie in ihren historischen, sozialen und medialen Kontexten zu verstehen, und auf der produktiven Ebene die Fähigkeit, Texte zu analysieren und zu interpretieren. Text- und Medienkompetenz umfasst überdies die Fähigkeit, eigene Texte zu produzieren und dabei auf medienspezifisches Wissen über die Texterstellung, deren Bedingungen und Techniken sowie auf Wissen über die Wirkung von Texten und die ihrer medialen Gestaltung zurückzugreifen. Text- und Medienkompetenz ist eine komplexe, integrative Kompetenz, zu deren Vermittlung und zu deren Aneignung alle Schulfächer – und damit auch der Fremdsprachenunterricht – beitragen. Die literarisch-ästhetische Kompetenz erfährt im Zusammenhang mit dem Fremdsprachenunterricht eine besondere Bedeutung, die sich u.a. aus dem Auftrag des Fremdsprachenunterrichts ergibt, zur kulturellen Bildung beizutragen. Die sprachspezifische Ausprägung der Text- und Medienkompetenz ist u.a. abhängig vom jeweils erreichten Kompetenzniveau in der funktionalen kommunikativen Kompetenz in dieser Sprache. Text- und Medienkompetenz ist eng mit der Sprachbewusstheit und der digitalen Kompetenz in fremdsprachenspezifischen Anwendungskontexten verbunden.\n\n Die Schülerinnen und Schüler können"
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v56/te/x5r",

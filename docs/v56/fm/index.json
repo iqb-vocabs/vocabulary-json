@@ -7,6 +7,9 @@
   "description": {
     "de": "Bis zum Mittleren Schulabschluss erreichen die Schülerinnen und Schüler im Wesentlichen das Niveau B1 des Gemeinsamen europäischen Referenzrahmens."
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v56/fm/x9t",

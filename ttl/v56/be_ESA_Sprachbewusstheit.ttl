@@ -2,40 +2,39 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v56/be/>. 
-@prefix n1: <https://w3id.org/iqb/v56/be/>. 
 
-n1:u5q
-	 a skos:Concept;
+n0:u5q
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1";
 	skos:topConceptOf n0:;
 	skos:prefLabel "einfache grammatische Strukturen anhand von Beispielen erkennen und benennen."@de.
-n1:c6p
-	 a skos:Concept;
+n0:c6p
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2";
 	skos:topConceptOf n0:;
 	skos:prefLabel "wenige sozial und regional geprägte Varietäten der Fremdsprache wahrnehmen und reflektieren."@de.
-n1:d4b
-	 a skos:Concept;
+n0:d4b
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Mitteilungsabsichten in vertrauten mündlichen und schriftlichen Kommunikationsformen situations-, adressaten- und zweckangemessen umsetzen. Mitunter benötigen sie dabei Hinweise und Unterstützung."@de.
-n1:t9d
-	 a skos:Concept;
+n0:t9d
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4";
 	skos:topConceptOf n0:;
 	skos:prefLabel "sprachliche Fehler im Bereich einfacher, vertrauter morphologisch-syntaktischer Regelungen erkennen und korrigieren. Mitunter benötigen sie dabei Hinweise und Unterstützung."@de.
-n1:r4y
-	 a skos:Concept;
+n0:r4y
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "5";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Gemeinsamkeiten, Unterschiede und Beziehungen zwischen Sprachen, z. B. zwischen der ersten Fremdsprache und Deutsch, erkennen und reflektieren. Mitunter benötigen sie dabei Hinweise und Unterstützung."@de.
-n1:x2a
-	 a skos:Concept;
+n0:x2a
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "6";
 	skos:topConceptOf n0:;
@@ -49,10 +48,11 @@ n0:
 Die Schülerinnen und Schüler können ihr Wissen über Struktur und Gebrauch der Fremdsprache und anderer Sprachen nutzen, um mündliche und schriftliche Kommunikationsformen situationsangemessen zu gestalten, auch wenn sie dabei bisweilen noch sprachliche Fehler machen. 
 
 Die Schülerinnen und Schüler können """@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
-		n1:u5q,
-		n1:c6p,
-		n1:d4b,
-		n1:t9d,
-		n1:r4y,
-		n1:x2a.
+		n0:u5q,
+		n0:c6p,
+		n0:d4b,
+		n0:t9d,
+		n0:r4y,
+		n0:x2a.

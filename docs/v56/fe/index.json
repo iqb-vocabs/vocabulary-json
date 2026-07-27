@@ -7,6 +7,9 @@
   "description": {
     "de": "Bis zum Ersten Schulabschluss erreichen die Schülerinnen und Schüler im Wesentlichen das Niveau A2 des Gemeinsamen europäischen Referenzrahmens."
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v56/fe/s4e",

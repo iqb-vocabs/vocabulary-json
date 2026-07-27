@@ -7,6 +7,9 @@
   "description": {
     "de": "Die sprachlichen Mittel – Wortschatz, Grammatik, Aussprache, Prosodie und Orthographie – sind Kompetenz bildende, funktionale Bestandteile des sprachlichen Systems und der Kommunikation. In der Vermittlung und bei der Aneignung der funktionalen kommunikativen Kompetenz haben die sprachlichen Mittel allerdings grundsätzlich dienende Funktion, da die gelingende Kommunikation im Vordergrund steht. Die kommunikativen Ziele können – u.a. abhängig vom erreichten Kompetenzniveau und der Kooperationsbereitschaft der Kommunikationspartnerinnen und -partner – mit unterschiedlichen sprachlichen Mitteln erreicht werden. Bei der Auswahl der zu vermittelnden sprachlichen Mittel sollte daher von einer kommunikativen Progression ausgegangen werden, während die sprachstrukturelle Progression eine nachgeordnete, dienende Funktion hat. Die Vermittlung und die Aneignung von Wortschatz im Sinne komplexer lexiko-grammatischer Einheiten sind mit Blick auf die funktionale kommunikative Kompetenz zentral."
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v56/vm/y2p",
