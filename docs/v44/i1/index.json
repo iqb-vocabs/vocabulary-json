@@ -7,6 +7,9 @@
   "description": {
     "de": "Die Liste verbindlicher inhaltlicher Aspekte dient dazu, einen einheitlichen Grundstock an Inhalten zu benennen, mithilfe derer die in den Bildungsstandards für das Fach Biologie definierten Kompetenzen erworben und überprüft werden. Diese Inhalte sollen in Grundzügen behandelt oder an Beispielen ausgewählt zum Kompetenzaufbau beitragen. Entsprechende Präzisierungen können landesspezifisch vorgenommen werden."
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v44/i1/f6y",
