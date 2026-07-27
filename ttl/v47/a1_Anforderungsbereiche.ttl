@@ -2,24 +2,23 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v47/a1/>. 
-@prefix n1: <https://w3id.org/iqb/v47/a1/>. 
 
-n1:f2c
-	 a skos:Concept;
+n0:f2c
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Anforderungsbereich I"@de; 
 	skos:definition "umfasst das Wiedergeben von Sachverhalten und Kenntnissen im gelernten Zusammenhang sowie das Anwenden und Beschreiben geübter Arbeitstechniken und Verfahren."@de.
-n1:f9s
-	 a skos:Concept;
+n0:f9s
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Anforderungsbereich II"@de; 
 	skos:definition "umfasst das selbstständige Auswählen, Anordnen, Verarbeiten, Erklären und Darstellen bekannter Sachverhalte unter vorgegebenen Gesichtspunkten in einem durch Übung bekannten Zusammenhang und das selbstständige Übertragen und Anwenden des Gelernten auf vergleichbare neue Zusammenhänge und Sachverhalte."@de.
-n1:d5r
-	 a skos:Concept;
+n0:d5r
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -30,7 +29,8 @@ n0:
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
 	dct:title "Bildungsstandards Physik MSA 2024 - Anforderungsbereiche"@de;
 	dct:description """Mit Blick auf die unterrichtliche Einbindung von Aufgaben werden folgende Anforderungsbereiche unterschieden:"""@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
-		n1:f2c,
-		n1:f9s,
-		n1:d5r.
+		n0:f2c,
+		n0:f9s,
+		n0:d5r.

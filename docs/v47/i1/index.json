@@ -7,6 +7,9 @@
   "description": {
     "de": "Im Folgenden werden verbindliche Inhalte definiert, an denen die in Kapitel Kompetenzbereiche des Faches Physik beschriebenen Kompetenzen aller vier Kompetenzbereiche erlernt und überprüft werden. Für die Strukturierung wurden fünf Bereiche gewählt, die jedoch Überschneidungen aufweisen und daher nicht getrennt voneinander zu betrachten sind. Die inhaltlichen Aspekte sind so gewählt, dass landesspezifische Ergänzungen und Präzisierungen vorgenommen werden können. Dabei sind regionale und zeitgemäße Kontexte zu berücksichtigen.\n\nDie in den Klammern angegebenen Konkretisierungen sind Teil der verbindlichen Inhalte. Wenn im Folgenden Formeln angewandt, Rechnungen durchgeführt oder aus Diagrammen Gesetzmäßigkeiten abgeleitet werden sollen, wird dies durch die Angabe „quantitativ“ angezeigt."
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v47/i1/f9r",
