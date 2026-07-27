@@ -4,6 +4,9 @@
   "title": {
     "de": "Bildungsstandards Deutsch Sek I 2022 - Kompetenzbereiche des Faches Deutsch MSA"
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v34/sm/q5x",
