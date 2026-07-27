@@ -3,39 +3,374 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/vocabulary-json/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300..900;1,300..900&family=Source+Code+Pro:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet" />
     <title>IQB Vocabulary Explorer</title>
     <script>
       // GitHub Pages custom 404 handler.
-      // When a path like /vocabulary-json/v24/kh/r5f is requested and no file
-      // exists, GitHub Pages serves this 404.html. We parse the path and
-      // redirect to the explorer SPA with the appropriate hash route.
-      //
-      // Examples:
-      //   /vocabulary-json/v24/kh/r5f   → /vocabulary-json/#v24/kh/r5f
-      //   /vocabulary-json/v24/kh/      → /vocabulary-json/#v24/kh
-      //   /vocabulary-json/v85/av/1     → /vocabulary-json/#v85/av/1
-
+      // When a vocabulary path like /vocabulary-json/v24/kh/r5f is requested
+      // and no static file exists, GitHub Pages serves this 404.html.
+      // We parse the path and redirect to the SPA with the appropriate hash route.
       (function () {
         var path = window.location.pathname;
-
-        // Strip the GitHub Pages base path (/vocabulary-json/)
         var base = '/vocabulary-json/';
         var idx = path.indexOf(base);
         var relative = idx !== -1
           ? path.slice(idx + base.length)
           : path.replace(/^\//, '');
-
-        // Remove trailing slash
         relative = relative.replace(/\/+$/, '');
 
-        // Only redirect if the path looks like a vocabulary route (starts with v + digits)
         if (/^v\d+\//.test(relative)) {
           window.location.replace(base + '#' + relative);
         }
       })();
     </script>
+    <style>
+      :root {
+        --bg-base: hsl(0, 2%, 96%);
+        --bg-surface: hsl(0, 0%, 100%);
+        --bg-elevated: hsl(0, 2%, 93%);
+        --bg-hover: hsl(0, 2%, 90%);
+        --accent-1: hsl(342, 100%, 35%);
+        --accent-2: hsl(185, 100%, 28%);
+        --border: hsl(0, 0%, 84%);
+        --border-soft: hsl(0, 0%, 89%);
+        --text-primary: hsl(0, 0%, 12%);
+        --text-secondary: hsl(0, 0%, 36%);
+        --text-muted: hsl(0, 0%, 55%);
+        --font-sans: 'Source Sans 3', system-ui, sans-serif;
+        --font-mono: 'Source Code Pro', monospace;
+        --r-md: 8px;
+        --r-lg: 12px;
+        --r-xl: 16px;
+        --shadow-sm: 0 1px 3px rgba(0,0,0,.08), 0 1px 2px rgba(0,0,0,.04);
+        --shadow-md: 0 4px 12px rgba(0,0,0,.05), 0 2px 4px rgba(0,0,0,.03);
+        --t-fast: 150ms ease;
+        --t-med: 250ms ease;
+      }
+
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+      body {
+        font-family: var(--font-sans);
+        font-size: 17px;
+        line-height: 1.6;
+        color: var(--text-primary);
+        background: var(--bg-base);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      /* ── Header ─────────────────────────────────── */
+      .app-header {
+        background: var(--bg-surface);
+        border-bottom: 1px solid var(--border);
+        padding: 0 24px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+      }
+
+      .header-inner {
+        max-width: 1200px;
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        min-height: 64px;
+      }
+
+      .header-logo {
+        display: flex;
+        align-items: center;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 4px;
+        border-radius: 4px;
+        transition: background var(--t-fast);
+        text-decoration: none;
+      }
+      .header-logo:hover { background: var(--bg-hover); }
+
+      .iqb-logo-img { height: 60px; display: block; }
+
+      .header-spacer { flex: 1; }
+
+      .lang-toggle { display: flex; gap: 4px; }
+
+      .lang-btn {
+        padding: 5px 10px;
+        background: var(--bg-elevated);
+        border: 1px solid var(--border);
+        border-radius: 4px;
+        color: var(--text-secondary);
+        font-family: var(--font-sans);
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all var(--t-fast);
+      }
+      .lang-btn:hover { color: var(--text-primary); }
+      .lang-btn.active {
+        color: var(--accent-2);
+        border-color: var(--accent-2);
+        background: hsl(197, 85%, 40%, .08);
+      }
+
+      /* ── Main content ───────────────────────────── */
+      .error-content {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 48px 24px;
+      }
+
+      .error-card {
+        max-width: 560px;
+        width: 100%;
+        background: var(--bg-surface);
+        border: 1px solid var(--border);
+        border-radius: var(--r-xl);
+        padding: 48px 40px;
+        text-align: center;
+        box-shadow: var(--shadow-md);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .error-card::before {
+        content: '';
+        position: absolute;
+        top: 0; left: 0; right: 0;
+        height: 4px;
+        background: linear-gradient(90deg, var(--accent-1), var(--accent-2));
+      }
+
+      .error-code {
+        font-family: var(--font-mono);
+        font-size: 72px;
+        font-weight: 700;
+        background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        line-height: 1;
+        margin-bottom: 16px;
+      }
+
+      .error-title {
+        font-size: 22px;
+        font-weight: 700;
+        color: var(--text-primary);
+        margin-bottom: 12px;
+      }
+
+      .error-message {
+        font-size: 16px;
+        color: var(--text-secondary);
+        line-height: 1.65;
+        margin-bottom: 8px;
+      }
+
+      .error-path {
+        font-family: var(--font-mono);
+        font-size: 14px;
+        color: var(--accent-2);
+        background: var(--bg-elevated);
+        border: 1px solid var(--border-soft);
+        border-radius: var(--r-md);
+        padding: 10px 16px;
+        margin: 20px 0 28px;
+        word-break: break-all;
+      }
+
+      .error-actions {
+        display: flex;
+        gap: 12px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 24px;
+        border-radius: var(--r-md);
+        font-family: var(--font-sans);
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all var(--t-fast);
+        text-decoration: none;
+        border: none;
+      }
+
+      .btn-primary {
+        background: var(--accent-1);
+        color: #fff;
+      }
+      .btn-primary:hover {
+        filter: brightness(1.1);
+        transform: translateY(-1px);
+        box-shadow: var(--shadow-sm);
+      }
+
+      .btn-secondary {
+        background: var(--bg-elevated);
+        color: var(--text-primary);
+        border: 1px solid var(--border);
+      }
+      .btn-secondary:hover {
+        background: var(--bg-hover);
+        border-color: var(--text-muted);
+      }
+
+      /* ── Footer ─────────────────────────────────── */
+      .app-footer {
+        background: var(--bg-surface);
+        border-top: 1px solid var(--border);
+        padding: 16px 24px;
+        text-align: center;
+      }
+
+      .footer-inner {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        flex-wrap: wrap;
+        font-size: 14px;
+        color: var(--text-muted);
+      }
+
+      .footer-inner a {
+        color: var(--accent-2);
+        text-decoration: none;
+        transition: color var(--t-fast);
+      }
+      .footer-inner a:hover {
+        color: var(--accent-1);
+        text-decoration: underline;
+      }
+
+      .footer-sep {
+        color: var(--border);
+      }
+
+      /* ── Animations ─────────────────────────────── */
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(12px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+
+      .error-card { animation: fadeIn 400ms ease; }
+    </style>
   </head>
   <body>
-    <p>Page not found. If you are not redirected, go to the <a href="/vocabulary-json/">Vocabulary Explorer</a>.</p>
+    <!-- ── Header ────────────────────────────────────── -->
+    <header class="app-header">
+      <div class="header-inner">
+        <a class="header-logo" href="/vocabulary-json/" id="logo-link">
+          <img class="iqb-logo-img" id="logo-img"
+               src="https://www.iqb.hu-berlin.de/static/Img/Logo/iqb-logos/iqb-logo-red-name.fafaa6b5a6cb.svg"
+               alt="IQB Logo" />
+        </a>
+        <div class="header-spacer"></div>
+        <div class="lang-toggle">
+          <button class="lang-btn active" id="btn-lang-de">DE</button>
+          <button class="lang-btn" id="btn-lang-en">EN</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- ── Main ──────────────────────────────────────── -->
+    <main class="error-content">
+      <div class="error-card">
+        <div class="error-code">404</div>
+        <h1 class="error-title" id="error-title"></h1>
+        <p class="error-message" id="error-message"></p>
+        <div class="error-path" id="error-path"></div>
+        <div class="error-actions">
+          <a class="btn btn-primary" id="btn-home" href="/vocabulary-json/"></a>
+          <button class="btn btn-secondary" id="btn-back" onclick="history.back()"></button>
+        </div>
+      </div>
+    </main>
+
+    <!-- ── Footer ────────────────────────────────────── -->
+    <footer class="app-footer">
+      <div class="footer-inner">
+        <span>© <span id="footer-year"></span></span>
+        <a href="https://www.iqb.hu-berlin.de/" target="_blank" rel="noopener">
+          Institut zur Qualitätsentwicklung im Bildungswesen
+        </a>
+        <span class="footer-sep">·</span>
+        <a href="https://www.hu-berlin.de/" target="_blank" rel="noopener">
+          Humboldt-Universität zu Berlin
+        </a>
+        <span class="footer-sep">·</span>
+        <a href="https://github.com/iqb-vocabs/vocabulary-json" target="_blank" rel="noopener">
+          GitHub
+        </a>
+      </div>
+    </footer>
+
+    <script>
+      // ── i18n ────────────────────────────────────────
+      var i18n = {
+        de: {
+          title: 'Seite nicht gefunden',
+          message: 'Die angeforderte Seite existiert nicht oder wurde verschoben.',
+          home: 'Zum Vokabular-Explorer',
+          back: 'Zurück',
+          requested: 'Angefordert'
+        },
+        en: {
+          title: 'Page not found',
+          message: 'The requested page does not exist or has been moved.',
+          home: 'Go to Vocabulary Explorer',
+          back: 'Go back',
+          requested: 'Requested'
+        }
+      };
+
+      var lang = (navigator.language || 'de').startsWith('en') ? 'en' : 'de';
+
+      function setLang(newLang) {
+        lang = newLang;
+        var strings = i18n[lang];
+
+        document.getElementById('error-title').textContent = strings.title;
+        document.getElementById('error-message').textContent = strings.message;
+        document.getElementById('btn-home').textContent = strings.home;
+        document.getElementById('btn-back').textContent = strings.back;
+        document.getElementById('error-path').textContent = window.location.pathname;
+
+        document.getElementById('btn-lang-de').className = 'lang-btn' + (lang === 'de' ? ' active' : '');
+        document.getElementById('btn-lang-en').className = 'lang-btn' + (lang === 'en' ? ' active' : '');
+
+        document.getElementById('logo-img').src = lang === 'de'
+          ? 'https://www.iqb.hu-berlin.de/static/Img/Logo/iqb-logos/iqb-logo-red-name.fafaa6b5a6cb.svg'
+          : 'https://www.iqb.hu-berlin.de/static/Img/Logo/iqb-logos/iqb-logo-red-name-en.d4d1e8c4550c.svg';
+
+        document.documentElement.lang = lang;
+      }
+
+      // Init
+      document.getElementById('footer-year').textContent = new Date().getFullYear();
+      setLang(lang);
+
+      document.getElementById('btn-lang-de').addEventListener('click', function () { setLang('de'); });
+      document.getElementById('btn-lang-en').addEventListener('click', function () { setLang('en'); });
+    </script>
   </body>
 </html>
