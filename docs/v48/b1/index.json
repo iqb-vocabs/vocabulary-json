@@ -7,6 +7,9 @@
   "description": {
     "de": "Der Beschreibung von physikalischen Sachverhalten liegen fachspezifische Gemeinsamkeiten zugrunde, die sich in Form von Basiskonzepten strukturieren lassen. Die Basiskonzepte im Fach Physik ermöglichen somit die Vernetzung fachlicher Inhalte und deren Betrachtung aus verschiedenen Perspektiven. Die Basiskonzepte werden übergreifend auf alle Kompetenzbereiche bezogen. Sie können kumulatives Lernen, den Aufbau von strukturiertem Wissen und die Erschließung neuer Inhalte fördern.\n\nBasiskonzepte werden in Lehr-Lernprozessen wiederholt thematisiert und ausdifferenziert. Den Lernenden wird aufgezeigt, dass diese grundlegenden Konzepte in vielen verschiedenen Lernbereichen einsetzbar sind und einen systematischen Wissensaufbau und somit den Erwerb eines strukturierten und mit anderen Natur- und Ingenieurwissenschaften vernetzten Wissens unterstützen. In der folgenden Beschreibung der Basiskonzepte werden illustrierende Beispiele genannt."
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v48/b1/y9e",
