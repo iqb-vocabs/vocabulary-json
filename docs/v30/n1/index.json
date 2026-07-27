@@ -7,6 +7,9 @@
   "description": {
     "de": "Die folgenden drei Anforderungsbereiche lassen sich unterscheiden und beschreiben:"
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v30/n1/s7e",
