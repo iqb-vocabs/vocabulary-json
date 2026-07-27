@@ -4,6 +4,9 @@
   "title": {
     "de": "Itemformat - Itemformat Deutsch Sek I"
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v27/ds/y9s",

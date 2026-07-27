@@ -4,61 +4,61 @@
 @prefix n0: <https://w3id.org/iqb/v27/ti/>. 
 
 n0:h9s
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Bild"@de.
 n0:e2e
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Audio"@de.
 n0:p3y
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Video"@de.
 n0:b3t
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Optionsfelder"@de.
 n0:s5g
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Kontrollkästchen"@de.
 n0:b5v
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Sortierliste"@de.
 n0:q6p
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Rechenkästchen"@de.
 n0:a2u
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "GeoGebra"@de.
 n0:d9q
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Tabellenkalkulation"@de.
 n0:d7u
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -69,6 +69,7 @@ n0:
 	dct:title "Itemformat - Technische Itemkategorie"@de;
 	dc:title "Itemformat - Technische Itemkategorie"@de;
 	dc:description "Itemformat - Technische Itemkategorie"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
 		n0:h9s,
 		n0:e2e,

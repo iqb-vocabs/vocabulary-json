@@ -4,6 +4,9 @@
   "title": {
     "de": "Itemformat - Itemformat Deutsch Primar"
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v27/dp/y9s",

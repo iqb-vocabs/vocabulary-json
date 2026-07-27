@@ -4,6 +4,9 @@
   "title": {
     "de": "Itemformat - Itemformat NaWi Sek I"
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v27/ns/a9z",

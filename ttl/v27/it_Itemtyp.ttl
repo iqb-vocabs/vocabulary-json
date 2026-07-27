@@ -4,19 +4,19 @@
 @prefix n0: <https://w3id.org/iqb/v27/it/>. 
 
 n0:r7x
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "offen"@de.
 n0:x6t
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "halboffen"@de.
 n0:q9z
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -27,6 +27,7 @@ n0:
 	dct:title "Itemformat - Itemtyp"@de;
 	dc:title "Itemformat - Itemtyp"@de;
 	dc:description "Itemformat - Itemtyp"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
 		n0:r7x,
 		n0:x6t,

@@ -1,71 +1,47 @@
 {
-  "id": "https://w3id.org/iqb/v27/mp/",
+  "id": "https://w3id.org/iqb/v27/ff/",
   "type": "ConceptScheme",
   "title": {
-    "de": "Itemformat - Itemformat Mathematik Primar"
+    "de": "Itemformat - Itemformat Französisch"
   },
   "license": {
     "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
   },
   "hasTopConcept": [
     {
-      "id": "https://w3id.org/iqb/v27/mp/y9s",
+      "id": "https://w3id.org/iqb/v27/ff/c9r",
       "prefLabel": {
-        "de": "Multiple Choice (MC)"
+        "de": "Mehrfachwahlaufgabe"
       }
     },
     {
-      "id": "https://w3id.org/iqb/v27/mp/d4d",
+      "id": "https://w3id.org/iqb/v27/ff/u3s",
       "prefLabel": {
-        "de": "Complex Multiple Choice (CMC)"
+        "de": "Zuordnungsaufgabe"
       }
     },
     {
-      "id": "https://w3id.org/iqb/v27/mp/r9x",
+      "id": "https://w3id.org/iqb/v27/ff/t3f",
       "prefLabel": {
-        "de": "Zuordnen"
+        "de": "Kurzantwortaufgabe"
       }
     },
     {
-      "id": "https://w3id.org/iqb/v27/mp/a9e",
+      "id": "https://w3id.org/iqb/v27/ff/y3r",
       "prefLabel": {
-        "de": "Umordnen"
+        "de": "Ergänzungsaufgabe"
       }
     },
     {
-      "id": "https://w3id.org/iqb/v27/mp/a2z",
+      "id": "https://w3id.org/iqb/v27/ff/q3s",
+      "prefLabel": {
+        "de": "Satzergänzung"
+      }
+    },
+    {
+      "id": "https://w3id.org/iqb/v27/ff/z9q",
       "prefLabel": {
         "de": "Markieren"
-      }
-    },
-    {
-      "id": "https://w3id.org/iqb/v27/mp/e4g",
-      "prefLabel": {
-        "de": "Einfärben"
-      }
-    },
-    {
-      "id": "https://w3id.org/iqb/v27/mp/p5h",
-      "prefLabel": {
-        "de": "Zeichnen / Konstruieren"
-      }
-    },
-    {
-      "id": "https://w3id.org/iqb/v27/mp/b4y",
-      "prefLabel": {
-        "de": "numerische Kurzantwort"
-      }
-    },
-    {
-      "id": "https://w3id.org/iqb/v27/mp/c6c",
-      "prefLabel": {
-        "de": "verbale Kurzantwort"
-      }
-    },
-    {
-      "id": "https://w3id.org/iqb/v27/mp/q3r",
-      "prefLabel": {
-        "de": "Langantwort"
       }
     }
   ],

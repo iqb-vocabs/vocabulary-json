@@ -4,43 +4,43 @@
 @prefix n0: <https://w3id.org/iqb/v27/fe/>. 
 
 n0:y9s
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Multiple Choice (MC)"@de.
 n0:d4d
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Complex Multiple Choice (CMC)"@de.
 n0:b7u
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Multiple Matching (MM)"@de.
 n0:r7e
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Short Answer Question"@de.
 n0:q6t
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Table Completion (TC)"@de.
 n0:q4b
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Sentence Completion (SC)"@de.
 n0:h3u
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -51,6 +51,7 @@ n0:
 	dct:title "Itemformat - Itemformat Englisch"@de;
 	dc:title "Itemformat - Itemformat Englisch"@de;
 	dc:description "Itemformat - Itemformat Englisch"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
 		n0:y9s,
 		n0:d4d,
