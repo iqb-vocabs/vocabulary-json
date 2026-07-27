@@ -4,6 +4,9 @@
   "title": {
     "de": "NaWi - ESNaS kognitiver Prozess"
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v29/ep/s3b",

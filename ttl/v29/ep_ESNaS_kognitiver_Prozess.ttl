@@ -4,13 +4,13 @@
 @prefix n0: <https://w3id.org/iqb/v29/ep/>. 
 
 n0:s3b
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Reproduzieren/Selegieren"@de.
 n0:z9v
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -21,6 +21,7 @@ n0:
 	dct:title "NaWi - ESNaS kognitiver Prozess"@de;
 	dc:title "NaWi - ESNaS kognitiver Prozess"@de;
 	dc:description "NaWi - ESNaS kognitiver Prozess"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
 		n0:s3b,
 		n0:z9v.

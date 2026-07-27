@@ -1,0 +1,125 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v29/me/>. 
+
+n0:q9u
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Animation"@de.
+n0:v5u
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Anleitung"@de.
+n0:d9g
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Artikel"@de.
+n0:p6v
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Bild"@de.
+n0:z7u
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Chemische Formel"@de.
+n0:t7q
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Comic"@de.
+n0:a3d
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Diagramm"@de.
+n0:p4f
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kurznachricht"@de.
+n0:u9f
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Mathematische Formel"@de.
+n0:c5t
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Modell"@de.
+n0:a4t
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Podcast"@de.
+n0:a3c
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Simulation"@de.
+n0:t7y
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Tabelle"@de.
+n0:z4v
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Text"@de.
+n0:d7v
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Video"@de.
+n0:c6x
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Weitere"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "NaWi - Medien (Stimulus)"@de;
+	dc:title "NaWi - Medien (Stimulus)"@de;
+	dc:description "NaWi - Medien (Stimulus)"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
+	skos:hasTopConcept
+		n0:q9u,
+		n0:v5u,
+		n0:d9g,
+		n0:p6v,
+		n0:z7u,
+		n0:t7q,
+		n0:a3d,
+		n0:p4f,
+		n0:u9f,
+		n0:c5t,
+		n0:a4t,
+		n0:a3c,
+		n0:t7y,
+		n0:z4v,
+		n0:d7v,
+		n0:c6x.

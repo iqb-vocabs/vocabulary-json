@@ -4,19 +4,19 @@
 @prefix n0: <https://w3id.org/iqb/v29/ek/>. 
 
 n0:p6z
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Fakt/-en"@de.
 n0:s2e
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Zusammenhang/-hänge"@de.
 n0:b5y
-	 a skos:Concept;
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -27,6 +27,7 @@ n0:
 	dct:title "NaWi - ESNaS Komplexität"@de;
 	dc:title "NaWi - ESNaS Komplexität"@de;
 	dc:description "NaWi - ESNaS Komplexität"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
 		n0:p6z,
 		n0:s2e,
