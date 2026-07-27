@@ -7,6 +7,9 @@
   "description": {
     "de": "Prozessbezogene Kompetenzen zeigen sich in der lebendigen Auseinandersetzung mit Mathematik und auf die gleiche Weise – in der tätigen Auseinandersetzung – werden sie erworben. Die angestrebten Formen der Nutzung von Mathematik müssen daher auch regelmäßig genutzte Formen des Mathematiklernens sein. Von zentraler Bedeutung für eine erfolgreiche Nutzung und Aneignung von Mathematik sind vor allem die folgenden sechs prozessbezogenen Kompetenzen.Abbildung 2: Grafische Darstellung des Zusammenwirkens von prozessbezogenen und inhaltsbezogenen Kompetenzen; Diese lassen sich für Schülerinnen und Schüler am Ende von Jahrgangsstufe 4 wie folgt konkretisieren (die Reihenfolge der Auflistung gibt keine Gewichtung vor):"
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v10/p1/v9q",

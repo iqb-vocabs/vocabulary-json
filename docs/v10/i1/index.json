@@ -7,6 +7,9 @@
   "description": {
     "de": "Die inhaltsbezogenen Kompetenzen orientieren sich an fünf mathematischen Leitideen, die für den gesamten Mathematikunterricht – für den Primarbereich und für das weiterführende Lernen – bedeutsam sind und einen stringenten Aufbau der Inhalte über die Schulstufen hinweg ermöglichen.Abbildung 3: Grafische Darstellung des Zusammenwirkens von prozessbezogenen und inhaltsbezogenen Kompetenzen mit Fokussierung auf die Inhaltsbezogenen Kompetenzen. Die Leitidee „Muster, Strukturen und funktionaler Zusammenhang“ nimmt eine besondere Rolle unter den Leitideen ein. Sie greift den Wesenskern der Mathematik auf, grundlegende Regel- und Gesetzmäßigkeiten inhaltlich zu erfassen, zu erklären und zur Problemlösung zu nutzen. Zugleich hat das Erkennen von Mustern, Strukturen und funktionalen Zusammenhängen eine übergeordnete Bedeutung für die Leitideen „Zahl und Operation“, „Raum und Form“, „Größen und Messen“ sowie „Daten und Zufall“, denn Mathematik wird in der aktiven Erkundung von vielschichtigen Beziehungen in unterschiedlichen inhaltsbezogenen Bereichen gelernt. Muster, Strukturen und funktionale Zusammenhänge stehen deshalb beim Erwerb aller inhaltsbezogenen Kompetenzen regelmäßig im Mittelpunkt der Auseinandersetzung mit den Inhalten. Innerhalb der Leitideen „Zahl und Operation“, „Raum und Form“, „Größen und Messen“ sowie „Daten und Zufall“ werden deshalb inhaltsbezogene Kompetenzen mit einem engen Bezug zur Leitidee „Muster, Strukturen und funktionaler Zusammenhang“ im Folgenden explizit ausgewiesen (gelbe Schattierung). Am Ende von Jahrgangsstufe 4 sollen die Schülerinnen und Schüler über folgende inhaltsbezogene mathematische Kompetenzen verfügen (die Reihenfolge der Auflistung gibt keine Gewichtung vor):"
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v10/i1/t6h",

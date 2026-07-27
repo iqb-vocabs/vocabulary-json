@@ -7,6 +7,9 @@
   "description": {
     "de": "Der Erwerb prozess- und inhaltsbezogener Kompetenzen erfolgt in der aktiven Auseinandersetzung mit mathematischen Aufgabenstellungen und Anforderungen. Diesbezüglich lassen sich drei Anforderungsbereiche unterscheiden: Reproduzieren, Zusammenhänge herstellen sowie Verallgemeinern und Reflektieren. Im Allgemeinen nehmen Anspruch und kognitive Komplexität von Anforderungsbereich I bis Anforderungsbereich III zu. Die Auseinandersetzung mit Aufgabenstellungen zu allen drei Anforderungsbereichen ist für alle Schülerinnen und Schüler – unabhängig vom mathematischen Leistungsvermögen – von zentraler Bedeutung, um erfolgreich und nachhaltig prozessbezogene und inhaltsbezogene Kompetenzen auf- und auszubauen. Die Anforderungsbereiche sind wie folgt charakterisiert:"
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v10/a1/f3q",
