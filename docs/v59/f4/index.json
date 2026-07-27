@@ -7,6 +7,9 @@
   "description": {
     "de": "Sprachbewusstheit bedeutet Sensibilität für und Nachdenken über Sprache und sprachlich vermittelte Kommunikation. Sie ermöglicht Schülerinnen und Schülern, die Ausdrucksmittel und Varianten einer Sprache bewusst zu nutzen; dies schließt eine Sensibilität für Stil und Register sowie für kulturell bestimmte Formen des Sprachgebrauchs, z. B. Formen der Höflichkeit, ein. Die Reflexion über Sprache richtet sich auch auf die Rolle und Verwendung von Sprachen in der Welt, z. B. im Kontext kultureller und politischer Einflüsse. Da Sprache stets soziokulturell geprägt ist, führt Sprachbewusstheit darüber hinaus zu einer sensiblen Gestaltung der sprachlich-diskursiven Beziehungen mit anderen Menschen. Damit leistet die Entwicklung von Sprachbewusstheit einen wichtigen Beitrag zum Aufbau fremdsprachiger Kompetenz und über diese hinaus zum interkulturellen Lernen sowie zur Persönlichkeitsbildung.\n\nDie Schülerinnen und Schüler können ihre Einsichten in Struktur und Gebrauch der Zielsprache und anderer Sprachen nutzen, um mündliche und schriftliche Kommunikationsprozesse sicher zu bewältigen. "
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v59/f4/g9e",

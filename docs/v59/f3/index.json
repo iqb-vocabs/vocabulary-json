@@ -7,6 +7,9 @@
   "description": {
     "de": "Text- und Medienkompetenz umfasst die Fähigkeit, Texte selbstständig, zielbezogen sowie in ihren historischen und sozialen Kontexten zu verstehen, zu deuten und eine Interpretation zu begründen. Text- und Medienkompetenz schließt überdies die Fähigkeit mit ein, die gewonnenen Erkenntnisse über die Bedingungen und Techniken der Erstellung von Texten zur Produktion eigener Texte unterschiedlicher Textsorten zu nutzen. Alle mündlich, schriftlich und medial vermittelten Produkte, die Schülerinnen und Schüler rezipieren, produzieren oder austauschen, werden als „Text“ verstanden. Der Medienbegriff umfasst alle Mittel und Verfahren der Informationsverarbeitung und verbreitung.\n\nAls komplexe, integrative Kompetenz geht die Text- und Medienkompetenz über die in den zugrunde liegenden funktionalen kommunikativen Kompetenzen definierten Anforderungen hinaus (insbesondere im Vergleich zum Lese- und Hör-/Hörsehverstehen). Dies entspricht dem zentralen Stellenwert von Texten und Medien für alle Zielsetzungen des gymnasialen Oberstufenunterrichts. Die Schülerinnen und Schüler greifen im Sinne des vernetzenden Lernens auf Wissen zurück, das sie in schulischen Lernangeboten und außerhalb der Schule erworben haben, und entwickeln es weiter.\n\nText- und Medienkompetenz ermöglicht das Verstehen und Deuten von kontinuierlichen und diskontinuierlichen –auch audio- und audiovisuellen – Texten in ihren Bezügen und Voraussetzungen. Sie umfasst das Erkennen konventionalisierter, kulturspezifisch geprägter Charakteristika von Texten und Medien, die Verwendung dieser Charakteristik bei der Produktion eigener Texte sowie die Reflektion des individuellen Rezeptions- und Produktionsprozesses."
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v59/f3/h9x",

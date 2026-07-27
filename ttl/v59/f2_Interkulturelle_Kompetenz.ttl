@@ -2,64 +2,63 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v59/f2/>. 
-@prefix n1: <https://w3id.org/iqb/v59/f2/>. 
 
-n1:e2r
-	 a skos:Concept;
+n0:e2r
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1";
 	skos:topConceptOf n0:;
 	skos:prefLabel "ihr Orientierungswissen über die Zielkulturen in vielfältigen Situationen anwenden: Aspekte der Alltagskultur und Berufswelt, Themen und Probleme junger Erwachsener, gegenwärtige politische und soziale Bedingungen, historische und kulturelle Entwicklungen einschließlich literarischer Aspekte sowie Themen von globaler Bedeutung"@de.
-n1:v2h
-	 a skos:Concept;
+n0:v2h
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2";
 	skos:topConceptOf n0:;
 	skos:prefLabel "ihr Wissen über Kommunikation anwenden und fremdsprachige Konventionen beachten, u. a. zur Signalisierung von Distanz und Nähe"@de.
-n1:s5a
-	 a skos:Concept;
+n0:s5a
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "3";
 	skos:topConceptOf n0:;
 	skos:prefLabel "ihre Wahrnehmungen und (Vor-)Urteile erkennen, hinterfragen, relativieren und ggf. revidieren"@de.
-n1:r3v
-	 a skos:Concept;
+n0:r3v
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "4";
 	skos:topConceptOf n0:;
 	skos:prefLabel "einen Perspektivenwechsel vollziehen sowie verschiedene Perspektiven vergleichen und abwägen"@de.
-n1:t2c
-	 a skos:Concept;
+n0:t2c
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "5";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Werte, Haltungen und Einstellungen ihrer zielsprachigen Kommunikationspartner erkennen und unter Berücksichtigung des fremdkulturellen Hintergrundes einordnen"@de.
-n1:g7g
-	 a skos:Concept;
+n0:g7g
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "6";
 	skos:topConceptOf n0:;
 	skos:prefLabel "fremdsprachige Texte und Diskurse in ihrer fremdkulturellen Dimension erfassen, deuten und bewerten"@de.
-n1:u6h
-	 a skos:Concept;
+n0:u6h
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "7";
 	skos:topConceptOf n0:;
 	skos:prefLabel "fremde und eigene Werte, Haltungen und Einstellungen im Hinblick auf international gültige Konventionen (z. B. die Menschenrechte) einordnen"@de.
-n1:d7g
-	 a skos:Concept;
+n0:d7g
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "8";
 	skos:topConceptOf n0:;
 	skos:prefLabel "ihr strategisches Wissen nutzen, um Missverständnisse und sprachlich-kulturell bedingte Konfliktsituationen zu erkennen und zu klären"@de.
-n1:b7p
-	 a skos:Concept;
+n0:b7p
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "9";
 	skos:topConceptOf n0:;
 	skos:prefLabel "sich trotz des Wissens um die eigenen begrenzten kommunikativen Mittel auf interkulturelle Kommunikationssituationen einlassen und ihr eigenes sprachliches Verhalten in seiner Wirkung reflektieren und bewerten"@de.
-n1:t9y
-	 a skos:Concept;
+n0:t9y
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "10";
 	skos:topConceptOf n0:;
@@ -85,14 +84,15 @@ Die Standards zu diesem Kompetenzbereich sind für den Fremdsprachenunterricht d
  Die Schülerinnen und Schüler können in direkten und in medial vermittelten interkulturellen Situationen kommunikativ handeln. Dies bezieht sich auf personale Begegnungen sowie das Verstehen, Deuten und Produzieren fremdsprachiger Texte. Die Schülerinnen und Schüler greifen dazu auf ihr interkulturelles kommunikatives Wissen zurück und beachten kulturell geprägte Konventionen. Dabei sind sie in der Lage, eigene Vorstellungen und Erwartungen im Wechselspiel mit den an sie herangetragenen zu reflektieren und die eigene Position zum Ausdruck zu bringen.
 
  Die Schülerinnen und Schüler sind/können"""@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
-		n1:e2r,
-		n1:v2h,
-		n1:s5a,
-		n1:r3v,
-		n1:t2c,
-		n1:g7g,
-		n1:u6h,
-		n1:d7g,
-		n1:b7p,
-		n1:t9y.
+		n0:e2r,
+		n0:v2h,
+		n0:s5a,
+		n0:r3v,
+		n0:t2c,
+		n0:g7g,
+		n0:u6h,
+		n0:d7g,
+		n0:b7p,
+		n0:t9y.

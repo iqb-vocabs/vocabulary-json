@@ -7,6 +7,9 @@
   "description": {
     "de": "Am Ende der gymnasialen Oberstufe wird von Schülerinnen und Schülern im Bereich der funktionalen kommunikativen Kompetenz das Niveau B2 des GeR (Englisch: in rezeptiven Teilkompetenzen auch das Niveau C1) erwartet. Sprachlicher Orientierungspunkt sind Standardsprache(n) sowie Register, Varietäten und Akzente, deren Färbung ein Verstehen nicht generell behindert. In den Bildungsstandards werden die Teilkompetenzen der funktionalen kommunikativen Kompetenz nach dem Muster des GeR jeweils getrennt aufgeführt. In der Sprachverwendung kommen die einzelnen Kompetenzen hingegen vorwiegend integrativ zum Tragen. Die Schülerinnen und Schüler bringen situationsangemessen thematisches Wissen und interkulturelle Kompetenz ein. \n\nZu differenziertem kommunikativem Sprachhandeln gehört der angemessene Gebrauch sprachlicher Mittel – Wortschatz, Grammatik, Aussprache, Prosodie und Orthografie – und kommunikativer Strategien. Sprachliche Mittel und kommunikative Strategien haben in allen Kompetenzbereichen dienende Funktion. Die kommunikativen Strategien sind jeweils bei den sprachlichen Teilkompetenzen mitberücksichtigt, die sprachlichen Mittel im Anschluss an die funktionalen kommunikativen Teilkompetenzen dargestellt."
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v59/f1/y9x",

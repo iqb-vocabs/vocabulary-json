@@ -7,6 +7,9 @@
   "description": {
     "de": "Sprachlernkompetenz beinhaltet die Fähigkeit und Bereitschaft, das eigene Sprachenlernen selbstständig zu analysieren und bewusst zu gestalten, wobei die Schülerinnen und Schüler auf ihr mehrsprachiges Wissen und auf individuelle Sprachlernerfahrungen zurückgreifen.\n\nSprachlernkompetenz zeigt sich erstens im Verfügen über sprachbezogene Lernmethoden und in der Beherrschung daraus abgeleiteter, konkreter Strategien. Sie zeigt sich zweitens in der Beobachtung und Evaluation der eigenen Sprachlernmotivation, -prozesse und -ergebnisse sowie drittens in der Bereitschaft und Fähigkeit, begründete Konsequenzen daraus zu ziehen.\n\nSprachbewusstheit und Sprachlernkompetenz haben überdies einen eigenen Bildungswert, sowohl im Hinblick auf die Persönlichkeitsbildung der jungen Erwachsenen als auch auf Berufs- und Wissenschaftspropädeutik. \n\nDie Schülerinnen und Schüler können ihre sprachlichen Kompetenzen und ihre vorhandene Mehrsprachigkeit (Erstsprache, ggf. Zweitsprache, Fremdsprachen) selbstständig und reflektiert erweitern. Dabei nutzen sie zielgerichtet ein breites Repertoire von Strategien und Techniken des reflexiven Sprachenlernens."
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v59/f5/e9b",
