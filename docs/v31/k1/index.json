@@ -4,6 +4,9 @@
   "title": {
     "de": "Bildungsstandards Deutsch MSA 2003 - Standards für die Kompetenzbereiche im Fach Deutsch"
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v31/k1/f2z",
