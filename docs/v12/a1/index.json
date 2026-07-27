@@ -4,6 +4,9 @@
   "title": {
     "de": "Bildungsstandards Deutsch Primar 2022 - Anforderungsbereiche"
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v12/a1/z7p",
