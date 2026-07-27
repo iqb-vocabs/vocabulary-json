@@ -7,6 +7,9 @@
   "description": {
     "de": "Die folgenden Aufgabenbeispiele zeigen die Bandbreite unterschiedlicher Anforderungen. Zur Einschätzung der in den Aufgabenbeispielen gestellten Anforderungen wird auf drei Anforderungsbereiche zurückgegriffen, die hier exemplarisch anhand von Aufgabenstellungen aus zwei Aufgabenbeispielen zum Lesen und zum Schreiben konkretisiert werden."
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v13/a1/d7b",

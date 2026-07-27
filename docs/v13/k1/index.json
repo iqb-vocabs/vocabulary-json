@@ -4,6 +4,9 @@
   "title": {
     "de": "Bildungsstandards Deutsch Primar 2004 - Standards für die Kompetenzbereiche des Faches Deutsch"
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v13/k1/t2d",
