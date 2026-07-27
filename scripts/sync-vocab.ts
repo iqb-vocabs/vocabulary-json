@@ -155,9 +155,28 @@ for (const file of ttlFiles) {
       const jsonResult = convertTtlToJson(localTtlFile);
       const localJsonDir = join(ROOT, 'docs', repoName, matchedSub);
       const localJsonFile = join(localJsonDir, 'index.json');
+      const localHtmlFile = join(localJsonDir, 'index.html');
       mkdirSync(localJsonDir, { recursive: true });
       writeFileSync(localJsonFile, JSON.stringify(jsonResult, null, 2) + '\n', 'utf8');
       console.log(`  ✓ written JSON to docs/${repoName}/${matchedSub}/index.json`);
+      
+      const htmlContent = `<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IQB Vocabulary Explorer</title>
+    <script>
+      window.location.replace("../../#${repoName}/${matchedSub}");
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to <a href="../../#${repoName}/${matchedSub}">Vocabulary Explorer</a>...</p>
+  </body>
+</html>
+`;
+      writeFileSync(localHtmlFile, htmlContent, 'utf8');
+      console.log(`  ✓ written Redirect HTML to docs/${repoName}/${matchedSub}/index.html`);
       synced++;
     } catch (err: any) {
       console.error(`  ✗ Error converting TTL to JSON for ${file.name}:`, err.message);

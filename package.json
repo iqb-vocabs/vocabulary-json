@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build && tsx scripts/generate-redirects.ts",
     "preview": "vite preview",
     "sync-vocab": "tsx scripts/sync-vocab.ts v06",
     "ttl-to-json": "tsx scripts/ttl-to-json.ts"
