@@ -2,22 +2,21 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v25/ve/>. 
-@prefix n1: <https://w3id.org/iqb/v25/ve/>. 
 
-n1:h5v
-	 a skos:Concept;
+n0:h5v
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "durchgängig vertraut"@de.
-n1:y4g
-	 a skos:Concept;
+n0:y4g
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "weitestgehend vertraut"@de.
-n1:g6q
-	 a skos:Concept;
+n0:g6q
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -28,7 +27,8 @@ n0:
 	dct:title "Textvorgabe Fremdsprachen - Thematischer Vertrautheitsgrad"@de;
 	dc:title "Textvorgabe Fremdsprachen - Thematischer Vertrautheitsgrad"@de;
 	dc:description "Textvorgabe Fremdsprachen - Thematischer Vertrautheitsgrad"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
-		n1:h5v,
-		n1:y4g,
-		n1:g6q.
+		n0:h5v,
+		n0:y4g,
+		n0:g6q.

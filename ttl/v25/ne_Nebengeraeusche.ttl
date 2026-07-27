@@ -2,22 +2,21 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v25/ne/>. 
-@prefix n1: <https://w3id.org/iqb/v25/ne/>. 
 
-n1:d7q
-	 a skos:Concept;
+n0:d7q
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "keine"@de.
-n1:f6v
-	 a skos:Concept;
+n0:f6v
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "unterstützende Funktion"@de.
-n1:v4h
-	 a skos:Concept;
+n0:v4h
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -28,7 +27,8 @@ n0:
 	dct:title "Textvorgabe Fremdsprachen - Nebengeräusche"@de;
 	dc:title "Textvorgabe Fremdsprachen - Nebengeräusche"@de;
 	dc:description "Textvorgabe Fremdsprachen - Nebengeräusche"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
-		n1:d7q,
-		n1:f6v,
-		n1:v4h.
+		n0:d7q,
+		n0:f6v,
+		n0:v4h.

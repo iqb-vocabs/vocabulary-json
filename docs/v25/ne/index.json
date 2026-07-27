@@ -4,6 +4,9 @@
   "title": {
     "de": "Textvorgabe Fremdsprachen - Nebengeräusche"
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v25/ne/d7q",

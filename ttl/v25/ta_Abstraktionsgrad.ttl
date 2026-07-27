@@ -2,22 +2,21 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v25/ta/>. 
-@prefix n1: <https://w3id.org/iqb/v25/ta/>. 
 
-n1:t2q
-	 a skos:Concept;
+n0:t2q
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "durchgängig konkret"@de.
-n1:y2z
-	 a skos:Concept;
+n0:y2z
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "einzelne abstrakte Elemente"@de.
-n1:t9x
-	 a skos:Concept;
+n0:t9x
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -28,7 +27,8 @@ n0:
 	dct:title "Textvorgabe Fremdsprachen - Abstraktionsgrad"@de;
 	dc:title "Textvorgabe Fremdsprachen - Abstraktionsgrad"@de;
 	dc:description "Textvorgabe Fremdsprachen - Abstraktionsgrad"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
-		n1:t2q,
-		n1:y2z,
-		n1:t9x.
+		n0:t2q,
+		n0:y2z,
+		n0:t9x.

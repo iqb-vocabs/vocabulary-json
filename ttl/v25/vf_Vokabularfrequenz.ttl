@@ -2,28 +2,27 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v25/vf/>. 
-@prefix n1: <https://w3id.org/iqb/v25/vf/>. 
 
-n1:r5t
-	 a skos:Concept;
+n0:r5t
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "ausschließlich frequent"@de.
-n1:f5h
-	 a skos:Concept;
+n0:f5h
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "hauptsächlich frequent"@de.
-n1:f5r
-	 a skos:Concept;
+n0:f5r
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "wenig frequent"@de.
-n1:a2a
-	 a skos:Concept;
+n0:a2a
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -34,8 +33,9 @@ n0:
 	dct:title "Textvorgabe Fremdsprachen - Vokabularfrequenz"@de;
 	dc:title "Textvorgabe Fremdsprachen - Vokabularfrequenz"@de;
 	dc:description "Textvorgabe Fremdsprachen - Vokabularfrequenz"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
-		n1:r5t,
-		n1:f5h,
-		n1:f5r,
-		n1:a2a.
+		n0:r5t,
+		n0:f5h,
+		n0:f5r,
+		n0:a2a.

@@ -2,22 +2,21 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v25/sa/>. 
-@prefix n1: <https://w3id.org/iqb/v25/sa/>. 
 
-n1:r2p
-	 a skos:Concept;
+n0:r2p
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Text"@de.
-n1:u9h
-	 a skos:Concept;
+n0:u9h
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Audio"@de.
-n1:y3p
-	 a skos:Concept;
+n0:y3p
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -28,7 +27,8 @@ n0:
 	dct:title "Textvorgabe Fremdsprachen - Stimulusart"@de;
 	dc:title "Textvorgabe Fremdsprachen - Stimulusart"@de;
 	dc:description "Textvorgabe Fremdsprachen - Stimulusart"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
-		n1:r2p,
-		n1:u9h,
-		n1:y3p.
+		n0:r2p,
+		n0:u9h,
+		n0:y3p.

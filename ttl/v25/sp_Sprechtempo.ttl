@@ -2,22 +2,21 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v25/sp/>. 
-@prefix n1: <https://w3id.org/iqb/v25/sp/>. 
 
-n1:d6z
-	 a skos:Concept;
+n0:d6z
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "langsam"@de.
-n1:a6b
-	 a skos:Concept;
+n0:a6b
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "normal"@de.
-n1:y7b
-	 a skos:Concept;
+n0:y7b
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -28,7 +27,8 @@ n0:
 	dct:title "Textvorgabe Fremdsprachen - Sprechtempo"@de;
 	dc:title "Textvorgabe Fremdsprachen - Sprechtempo"@de;
 	dc:description "Textvorgabe Fremdsprachen - Sprechtempo"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
-		n1:d6z,
-		n1:a6b,
-		n1:y7b.
+		n0:d6z,
+		n0:a6b,
+		n0:y7b.

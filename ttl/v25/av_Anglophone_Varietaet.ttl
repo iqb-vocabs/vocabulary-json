@@ -2,70 +2,69 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v25/av/>. 
-@prefix n1: <https://w3id.org/iqb/v25/av/>. 
 
-n1:y9a
-	 a skos:Concept;
+n0:y9a
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Standardsprache"@de.
-n1:r7h
-	 a skos:Concept;
+n0:r7h
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Amerikanisch"@de.
-n1:g3p
-	 a skos:Concept;
+n0:g3p
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Australisch"@de.
-n1:d7r
-	 a skos:Concept;
+n0:d7r
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Irisch"@de.
-n1:q4s
-	 a skos:Concept;
+n0:q4s
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Kanadisch"@de.
-n1:c9p
-	 a skos:Concept;
+n0:c9p
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Kreolisch"@de.
-n1:p4p
-	 a skos:Concept;
+n0:p4p
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Nigerianisch"@de.
-n1:y5a
-	 a skos:Concept;
+n0:y5a
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Neuseeländisch"@de.
-n1:t6y
-	 a skos:Concept;
+n0:t6y
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Schottisch"@de.
-n1:a4f
-	 a skos:Concept;
+n0:a4f
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Südafrikanisch"@de.
-n1:c9c
-	 a skos:Concept;
+n0:c9c
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -76,15 +75,16 @@ n0:
 	dct:title "Textvorgabe Fremdsprachen - Anglophone Varietät"@de;
 	dc:title "Textvorgabe Fremdsprachen - Anglophone Varietät"@de;
 	dc:description "Textvorgabe Fremdsprachen - Anglophone Varietät"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
-		n1:y9a,
-		n1:r7h,
-		n1:g3p,
-		n1:d7r,
-		n1:q4s,
-		n1:c9p,
-		n1:p4p,
-		n1:y5a,
-		n1:t6y,
-		n1:a4f,
-		n1:c9c.
+		n0:y9a,
+		n0:r7h,
+		n0:g3p,
+		n0:d7r,
+		n0:q4s,
+		n0:c9p,
+		n0:p4p,
+		n0:y5a,
+		n0:t6y,
+		n0:a4f,
+		n0:c9c.
