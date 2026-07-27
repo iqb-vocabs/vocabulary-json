@@ -7,6 +7,9 @@
   "description": {
     "de": "Die Liste verbindlicher inhaltlicher Aspekte dient dazu, einen einheitlichen Grundstock an Inhalten und Konzepten zu benennen, an denen die in den Bildungsstandards für das Fach Chemie definierten Kompetenzen erlernt und überprüft werden können. Da die Basiskonzepte des Fachs Chemie in allen Kompetenzbereichen bedeutsam sind, wurden sie zur Strukturierung der verbindlichen inhaltlichen Aspekte gewählt. Die Liste der inhaltlichen Aspekte ist bewusst auf einem mittleren Grad der Detailliertheit formuliert, so dass Aufgaben zur Überprüfung der Bildungsstandards ableitbar sind. Mit den aufgeführten inhaltlichen Aspekten ist dabei immer der einfachste Fall gemeint; landesspezifische Ergänzungen und Präzisierungen können vorgenommen werden."
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v41/i1/x3u",
