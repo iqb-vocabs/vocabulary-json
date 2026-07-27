@@ -7,6 +7,9 @@
   "description": {
     "de": "Mit Blick auf die unterrichtliche Einbindung von Aufgaben werden folgende Anforderungsbereiche unterschieden:"
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v45/a1/x7r",

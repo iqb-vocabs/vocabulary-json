@@ -7,6 +7,9 @@
   "description": {
     "de": "Der Beschreibung von biologischen Sachverhalten liegen fachspezifische Gemeinsamkeiten zugrunde, die sich in Form von Basiskonzepten strukturieren lassen. Die Basiskonzepte im Fach Biologie ermöglichen somit die Vernetzung fachlicher Inhalte und deren Betrachtung aus verschiedenen Perspektiven. Die Basiskonzepte werden übergreifend auf alle Kompetenzbereiche bezogen. Sie können kumulatives Lernen, den Aufbau von strukturiertem Wissen und die Erschließung neuer Inhalte fördern.\n\nLebewesen sind offene Systeme, die in stofflichen, energetischen und informatorischen Wechselwirkungen mit ihrer Umwelt stehen, zu Selbstregulation fähig sind und sich individuell und evolutiv entwickeln. Daraus werden folgende Basiskonzepte für den Biologieunterricht abgeleitet: Struktur und Funktion, Stoff- und Energieumwandlung, Information und Kommunikation, Steuerung und Regelung sowie individuelle und evolutive Entwicklung. Diese Basiskonzepte ermöglichen eine mehrperspektivische, vernetzte und vertiefte Herangehensweise an Themen und Problemstellungen des Biologieunterrichts und eine Fokussierung auf zentrale Aspekte innerhalb der Vielfalt biologischer Phänomene. Basiskonzepte lassen sich auf verschiedenen Systemebenen betrachten.\n\nBasiskonzepte unterstützen durch das Entdecken gleicher Erklärungsmuster zum einen die Vertiefung der bis zum Mittleren Schulabschluss erworbenen Kompetenzen, zum anderen erleichtern sie den Aufbau neuer Kompetenzen, indem sie einen nachhaltigen und vernetzten Wissenserwerb fördern."
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v45/b1/f9p",
