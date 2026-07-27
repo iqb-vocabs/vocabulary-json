@@ -4,6 +4,9 @@
   "title": {
     "de": "Bildungsstandards Mathematik HSA 2004 - Inhaltsbezogene Kompetenzen"
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v52/k1/u3z",

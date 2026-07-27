@@ -7,6 +7,9 @@
   "description": {
     "de": "Zum Lösen mathematischer Aufgaben werden die allgemeinen mathematischen Kompetenzen in unterschiedlicher Ausprägung benötigt. Diesbezüglich lassen sich drei Anforderungsbereiche unterscheiden: Reproduzieren, Zusammenhänge herstellen sowie Verallgemeinern und Reflektieren. Im Allgemeinen nehmen Anspruch und kognitive Komplexität von Anforderungsbereich zu Anforderungsbereich zu. \n\nDie Anforderungsbereiche sind für alle allgemeinen mathematischen Kompetenzen wie folgt charakterisiert:"
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v52/n1/z7x",
