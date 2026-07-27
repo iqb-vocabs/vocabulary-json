@@ -1,0 +1,195 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v88/tt/>. 
+
+n0:v7f
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Anleitung"@de.
+n0:z3d
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Auszug aus einer Novelle"@de.
+n0:u7a
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Bericht"@de.
+n0:x4q
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Biopic"@de.
+n0:a5f
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Doku-Drama"@de.
+n0:b3c
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Dokumentation"@de.
+n0:s5q
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Drama"@de.
+n0:f7z
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Erklärvideo"@de.
+n0:s5s
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Erzählung"@de.
+n0:d3r
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Fabel"@de.
+n0:x3g
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Feature"@de.
+n0:z3u
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Hörbuch"@de.
+n0:a6c
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Hörspiel"@de.
+n0:a3f
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "(Buch-)Kritik"@de.
+n0:z3t
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kommentar"@de.
+n0:u6s
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kurzgeschichte"@de.
+n0:q2z
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Lesung"@de.
+n0:f5a
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Nachricht"@de.
+n0:y3g
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Podcast"@de.
+n0:g6y
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Reportage"@de.
+n0:h9b
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "(Jugend-)Romanauszug"@de.
+n0:q5d
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Schulordnung"@de.
+n0:y9b
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Tutorial"@de.
+n0:r7v
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Webinar"@de.
+n0:u7g
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Wissenssendung"@de.
+n0:t2g
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "weitere"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Deutsch Sek I - Texttyp"@de;
+	dc:title "Deutsch Sek I - Texttyp"@de;
+	dc:description "Deutsch Sek I - Texttyp"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
+	skos:hasTopConcept
+		n0:v7f,
+		n0:z3d,
+		n0:u7a,
+		n0:x4q,
+		n0:a5f,
+		n0:b3c,
+		n0:s5q,
+		n0:f7z,
+		n0:s5s,
+		n0:d3r,
+		n0:x3g,
+		n0:z3u,
+		n0:a6c,
+		n0:a3f,
+		n0:z3t,
+		n0:u6s,
+		n0:q2z,
+		n0:f5a,
+		n0:y3g,
+		n0:g6y,
+		n0:h9b,
+		n0:q5d,
+		n0:y9b,
+		n0:r7v,
+		n0:u7g,
+		n0:t2g.

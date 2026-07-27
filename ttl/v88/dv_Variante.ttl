@@ -1,0 +1,55 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v88/dv/>. 
+
+n0:d3b
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "norddeutsch"@de.
+n0:q4y
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "süddeutsch"@de.
+n0:d2q
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "ostdeutsch"@de.
+n0:h6t
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "westdeutsch"@de.
+n0:d5x
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Berlinerisch"@de.
+n0:s4p
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Deutsch als Zweitesprache"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Deutsch Sek I - Deutsch Variante"@de;
+	dc:title "Deutsch Sek I - Deutsch Variante"@de;
+	dc:description "Deutsch Sek I - Deutsch Variante"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
+	skos:hasTopConcept
+		n0:d3b,
+		n0:q4y,
+		n0:d2q,
+		n0:h6t,
+		n0:d5x,
+		n0:s4p.
