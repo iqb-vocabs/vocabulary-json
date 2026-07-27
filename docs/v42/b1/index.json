@@ -7,6 +7,9 @@
   "description": {
     "de": "Der Beschreibung von chemischen Sachverhalten liegen fachspezifische Gemeinsamkeiten zugrunde, die sich in Form von Basiskonzepten strukturieren lassen. Die Basiskonzepte im Fach Chemie ermöglichen somit die Vernetzung fachlicher Inhalte und deren Betrachtung aus verschiedenen Perspektiven. Die Basiskonzepte werden übergreifend auf alle Kompetenzbereiche bezogen. Sie können kumulatives Lernen, den Aufbau von strukturiertem Wissen und die Erschließung neuer Inhalte fördern.\n\nDas Fach Chemie ist im Besonderen durch eine Betrachtung der Analyse und Synthese von Stoffen, der Beschreibung ihres Aufbaus und ihrer Eigenschaften und energetischer Zusammenhänge gekennzeichnet, woraus die folgenden drei Basiskonzepte resultieren. Sie beziehen sich auf die Struktur der Stoffe, deren Umwandlungen durch chemische Reaktionen und die damit einhergehenden energetischen Prozesse."
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v42/b1/u2f",
