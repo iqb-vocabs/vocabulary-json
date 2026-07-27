@@ -7,6 +7,9 @@
   "description": {
     "de": "Kompetenzen werden an Inhalten erworben. Die Breite der Fachwissenschaft Biologie und ihr hoher Wissensstand sowie die gegenwärtige Dynamik der Biologie erfordern für den Biologieunterricht eine Reduktion der Inhalte auf den Kern von biologischem Wissen und ein exemplarisches Vorgehen. Dieses Wissen wird auf der Grundlage von drei in sich vernetzten Basiskonzepten erarbeitet, die ein systemisches und multiperspektivisches Denken sowie eine Beschränkung auf das Wesentliche fördern. \n\nFür den Mittleren Schulabschluss werden die Inhalte im Fach Biologie in den folgenden drei Basiskonzepten strukturiert:\n\nSystem, Struktur und Funktion, Entwicklung"
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v43/k1/r9d",
