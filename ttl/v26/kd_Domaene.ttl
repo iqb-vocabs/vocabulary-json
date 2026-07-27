@@ -2,16 +2,15 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v26/kd/>. 
-@prefix n1: <https://w3id.org/iqb/v26/kd/>. 
 
-n1:y6h
-	 a skos:Concept;
+n0:y6h
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Hörverstehen"@de.
-n1:s3z
-	 a skos:Concept;
+n0:s3z
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -22,6 +21,7 @@ n0:
 	dct:title "Allgemeine Kompetenzen Fremdsprachen - Kompetenzbereich/Domäne"@de;
 	dc:title "Allgemeine Kompetenzen Fremdsprachen - Kompetenzbereich/Domäne"@de;
 	dc:description "Allgemeine Kompetenzen Fremdsprachen - Kompetenzbereich/Domäne"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
-		n1:y6h,
-		n1:s3z.
+		n0:y6h,
+		n0:s3z.

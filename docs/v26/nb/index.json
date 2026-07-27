@@ -4,6 +4,9 @@
   "title": {
     "de": "Allgemeine Kompetenzen Fremdsprachen - Niveaustufe Bista"
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v26/nb/x5r",

@@ -2,34 +2,33 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v26/ea/>. 
-@prefix n1: <https://w3id.org/iqb/v26/ea/>. 
 
-n1:e6g
-	 a skos:Concept;
+n0:e6g
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "sehr gering"@de.
-n1:g9z
-	 a skos:Concept;
+n0:g9z
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "gering"@de.
-n1:b9r
-	 a skos:Concept;
+n0:b9r
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "mittel"@de.
-n1:t2c
-	 a skos:Concept;
+n0:t2c
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "hoch"@de.
-n1:s9f
-	 a skos:Concept;
+n0:s9f
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -40,9 +39,10 @@ n0:
 	dct:title "Allgemeine Kompetenzen Fremdsprachen - Geschätzte Schwierigkeit"@de;
 	dc:title "Allgemeine Kompetenzen Fremdsprachen - Geschätzte Schwierigkeit"@de;
 	dc:description "Allgemeine Kompetenzen Fremdsprachen - Geschätzte Schwierigkeit"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
-		n1:e6g,
-		n1:g9z,
-		n1:b9r,
-		n1:t2c,
-		n1:s9f.
+		n0:e6g,
+		n0:g9z,
+		n0:b9r,
+		n0:t2c,
+		n0:s9f.
