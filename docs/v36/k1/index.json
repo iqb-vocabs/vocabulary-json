@@ -7,6 +7,9 @@
   "description": {
     "de": "Die Bildungsstandards im Fach Deutsch für die Allgemeine Hochschulreife sind in fünf Kompetenzbereiche gegliedert, die in komplexer Weise miteinander verzahnt sind. In den Kompetenzbereichen „Sprechen und Zuhören“, „Schreiben“ und „Lesen“ werden dabei sowohl produktive als auch rezeptive Kompetenzen ausgewiesen. Diese prozessbezogenen Kompetenzen sind fachbezogen wie überfachlich bedeutsam. Sie knüpfen an die in den Bildungsstandards für den Mittleren Schulabschluss festgelegten Kompetenzen an, werden aber im Sinne der propädeutischen Zielsetzung der gymnasialen Oberstufe qualitativ weiterentwickelt. Die Kompetenzbereiche „Sich mit Texten und Medien auseinandersetzen“ und „Sprache und Sprachgebrauch reflektieren“ weisen die fachspezifischen Domänen aus, in denen die prozessbezogenen Kompetenzen verbindlich konkretisiert werden. Schülerinnen und Schüler sichern und erweitern die in der Sekundarstufe I erworbenen Kompetenzen in Bezug auf den Grad der Selbstständigkeit und Reflektiertheit, die Komplexität und den Voraussetzungsreichtum der\nproduktiven und rezeptiven sprachlichen Handlungen. So werden die Grundlagen für fachliches und überfachliches\nHandeln mit Blick auf Anforderungen von Wissenschaft und beruflicher Bildung geschaffen."
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v36/k1/a9v",
