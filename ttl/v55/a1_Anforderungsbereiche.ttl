@@ -2,24 +2,23 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v55/a1/>. 
-@prefix n1: <https://w3id.org/iqb/v55/a1/>. 
 
-n1:e3e
-	 a skos:Concept;
+n0:e3e
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Anforderungsbereich I"@de; 
 	skos:definition " umfasst das Wiedergeben von Sachverhalten und Kenntnissen im gelernten Zusammenhang, die Verständnissicherung sowie das Anwenden und Beschreiben geübter Arbeitstechniken und Verfahren."@de.
-n1:c7x
-	 a skos:Concept;
+n0:c7x
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Anforderungsbereich II"@de; 
 	skos:definition "umfasst das selbstständige Auswählen, Anordnen, Verarbeiten, Erklären und Darstellen bekannter Sachverhalte unter vorgegebenen Gesichtspunkten in einem durch Übung bekannten Zusammenhang und das selbstständige Übertragen und Anwenden des Gelernten auf vergleichbare neue Zusammenhänge und Sachverhalte."@de.
-n1:c2p
-	 a skos:Concept;
+n0:c2p
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -30,7 +29,8 @@ n0:
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
 	dct:title "Bildungsstandards Mathematik Sek II 2012 - Anforderungsbereiche"@de;
 	dct:description "Die Prüfungsaufgabe ist so zu stellen, dass sie Leistungen in den folgenden drei Anforderungsbereichen erfordert:"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
-		n1:e3e,
-		n1:c7x,
-		n1:c2p.
+		n0:e3e,
+		n0:c7x,
+		n0:c2p.

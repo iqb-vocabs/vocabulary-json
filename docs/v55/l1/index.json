@@ -7,6 +7,9 @@
   "description": {
     "de": "Die Bewältigung mathematischer Problemsituationen erfordert das permanente Zusammenspiel von prozess- und inhaltsbezogenen Kompetenzen. Insofern sind die folgenden – in der Sekundarstufe II verbindlichen – Inhalte immer im Kontext allgemeiner mathematischer Kompetenzen und deren Anforderungsbereichen zu sehen. Unter „Inhalten“ werden dabei insbesondere auch adäquate Grundvorstellungen verstanden, die ein Verständnis dieser Inhalte erst konstituieren. Die inhaltsbezogenen Kompetenzen werden jeweils übergreifenden Leitideen zugeordnet, die nicht auf bestimmte klassische mathematische Sachgebiete (Analysis, Lineare Algebra/Analytische Geometrie, Stochastik) begrenzt sind. Die Leitideen tragen damit zur Vernetzung dieser traditionellen klassischen Sachgebiete bei.\n\nBei allen Leitideen wird zuerst ein inhaltlicher Kernbereich beschrieben, der das grundlegende Anforderungsniveau charakterisiert. Danach werden die zusätzlichen Inhalte für das erhöhte Anforderungsniveau aufgeführt.\n\nInnerhalb der Leitideen können die Länder den Schwerpunkt alternativ auf die Beschreibung mathematischer Prozesse durch Matrizen (Alternative A1) oder die vektorielle Analytische Geometrie (Alternative A2) setzen.\n\nEbenso können die Länder den Schwerpunkt auf die Schätzung von Parametern (Alternative B1) oder auf die Testung von Hypothesen (Alternative B2) setzen."
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v55/l1/s5r",

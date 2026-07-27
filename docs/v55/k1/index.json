@@ -7,6 +7,9 @@
   "description": {
     "de": "In den Bildungsstandards im Fach Mathematik für die Allgemeine Hochschulreife werden sechs allgemeine mathematische Kompetenzen unterschieden, die das Spektrum mathematischen Arbeitens in der Sekundarstufe II in hinreichender Breite erfassen. Dabei ist es weder möglich noch beabsichtigt, diese Kompetenzen scharf voneinander abzugrenzen. Es ist vielmehr typisch für mathematisches Arbeiten, dass mehrere Kompetenzen im Verbund benötigt werden. Dies trifft auch auf die Aufgabenbeispiele zu.\n\nIm Folgenden werden die sechs allgemeinen mathematischen Kompetenzen näher beschrieben, insbesondere auch durch ihre jeweiligen Ausprägungen in den drei Anforderungsbereichen. Wie in Textfassung 1.2 betont, sind diese Kompetenzen immer untrennbar mit den – in den Leitideen konkretisierten – mathematischen Inhalten verbunden."
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v55/k1/a6h",
