@@ -7,6 +7,9 @@
   "description": {
     "de": "Mit dem Erwerb des Mittleren Schulabschlusses verfügen die Schülerinnen und Schüler über naturwissenschaftliche Kompetenzen im Allgemeinen sowie physikalische Kompetenzen im Besonderen. Kompetenzen sind nach Weinert „die bei Individuen verfügbaren oder durch sie erlernbaren kognitiven Fähigkeiten und Fertigkeiten, um bestimmte Probleme zu lösen, sowie die damit verbundenen motivationalen, volitionalen und sozialen Bereitschaften und Fähigkeiten, um die Problemlösungen in variablen Situationen erfolgreich und verantwortungsvoll nutzen zu können“.\n\nDie in vier Kompetenzbereichen festgelegten Standards beschreiben die notwendige physikalische Grundbildung. Die im Kompetenzbereich Fachwissen vorgenommene vertikale Vernetzung durch die übergeordneten vier Basiskonzepte Materie, Wechselwirkung, System und Energie soll den Schülerinnen und Schülern kumulatives Lernen erleichtern. Zugleich wird auf Basis des Fachwissens der Kompetenzerwerb in den Bereichen Erkenntnisgewinnung, Kommunikation und Bewerten ermöglicht und das Fachwissen in gesellschaftlichen und alltagsrelevanten Kontexten angewandt. Darüber hinaus bieten die Kompetenzen Anknüpfungspunkte für fachübergreifendes und fächerverbindendes Arbeiten."
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v46/k1/r6x",

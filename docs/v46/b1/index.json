@@ -7,6 +7,9 @@
   "description": {
     "de": "Im Folgenden werden für die vier Kompetenzbereiche Regelstandards formuliert, die von Schülerinnen und Schülern mit Erreichen des Mittleren Schulabschlusses zu erwerben sind. Eine Zuordnung konkreter Inhalte erfolgt exemplarisch in den Aufgabenbeispielen. Die Standards sind nach den im Kapitel 2 beschriebenen Kompetenzbereichen geordnet."
   },
+  "license": {
+    "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  },
   "hasTopConcept": [
     {
       "id": "https://w3id.org/iqb/v46/b1/h4r",
