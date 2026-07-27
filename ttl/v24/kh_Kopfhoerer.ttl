@@ -2,22 +2,21 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix n0: <https://w3id.org/iqb/v24/kh/>. 
-@prefix n1: <https://w3id.org/iqb/v24/kh/>. 
 
-n1:r5f
-	 a skos:Concept;
+n0:r5f
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "nein"@de.
-n1:b6h
-	 a skos:Concept;
+n0:b6h
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "optional"@de.
-n1:d3q
-	 a skos:Concept;
+n0:d3q
+	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
@@ -28,7 +27,8 @@ n0:
 	dct:title "Audio - Kopfhörereinsatz"@de;
 	dc:title "Audio - Kopfhörereinsatz"@de;
 	dc:description "Audio - Kopfhörereinsatz"@de;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
-		n1:r5f,
-		n1:b6h,
-		n1:d3q.
+		n0:r5f,
+		n0:b6h,
+		n0:d3q.
