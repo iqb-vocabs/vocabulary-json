@@ -84,6 +84,33 @@
           "prefLabel": {
             "de": "Mögliche Probleme bei der Beantwortung"
           }
+        },
+        {
+          "id": "https://w3id.org/iqb/v05/r1/required_skills",
+          "notation": [
+            "2.5"
+          ],
+          "prefLabel": {
+            "de": "Kompetenzanforderung der Aufgabe"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v05/r1/difficulties",
+          "notation": [
+            "2.6"
+          ],
+          "prefLabel": {
+            "de": "Mögliche Schwierigkeiten"
+          }
+        },
+        {
+          "id": "https://w3id.org/iqb/v05/r1/ideas",
+          "notation": [
+            "2.7"
+          ],
+          "prefLabel": {
+            "de": "Anregungen für den Unterricht"
+          }
         }
       ]
     }

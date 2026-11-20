@@ -47,6 +47,24 @@ n0:problems
 	skos:notation "2.4";
 	skos:broader n0:didactical_guide;
 	skos:prefLabel "Mögliche Probleme bei der Beantwortung"@de.
+n0:required_skills
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.5";
+	skos:broader n0:didactical_guide;
+	skos:prefLabel "Kompetenzanforderung der Aufgabe"@de.
+n0:difficulties
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.6";
+	skos:broader n0:didactical_guide;
+	skos:prefLabel "Mögliche Schwierigkeiten"@de.
+n0:ideas
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.7";
+	skos:broader n0:didactical_guide;
+	skos:prefLabel "Anregungen für den Unterricht"@de.
 n0:didactical_guide
 	a skos:Concept;
 	skos:inScheme n0:;
@@ -56,7 +74,10 @@ n0:didactical_guide
 	skos:narrower n0:answering_full_credit,
 		n0:competence_level,
 		n0:misconceptions,
-		n0:problems.
+		n0:problems,
+		n0:required_skills,
+		n0:difficulties,
+		n0:ideas.
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
