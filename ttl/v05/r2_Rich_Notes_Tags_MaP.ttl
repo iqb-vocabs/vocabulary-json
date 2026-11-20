@@ -6,21 +6,30 @@
 n0:required_skills
 	a skos:Concept;
 	skos:inScheme n0:;
-	skos:notation "3";
-	skos:topConceptOf n0:;
+	skos:notation "2.5";
+	skos:broader n0:didactical_guide;
 	skos:prefLabel "Kompetenzanforderung der Aufgabe"@de.
 n0:issues
 	a skos:Concept;
 	skos:inScheme n0:;
-	skos:notation "4";
-	skos:topConceptOf n0:;
+	skos:notation "2.6";
+	skos:broader n0:didactical_guide;
 	skos:prefLabel "Mögliche Schwierigkeiten"@de.
 n0:ideas
 	a skos:Concept;
 	skos:inScheme n0:;
-	skos:notation "5";
-	skos:topConceptOf n0:;
+	skos:notation "2.7";
+	skos:broader n0:didactical_guide;
 	skos:prefLabel "Anregungen für den Unterricht"@de.
+n0:didactical_guide
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Didaktische Handreichungen"@de;
+	skos:narrower n0:required_skills,
+		n0:issues,
+		n0:ideas.
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
@@ -28,6 +37,4 @@ n0:
 	dct:description """Kategorien für formatierte Texte als Teil der Unit-Daten. VERA Mathematik Primar"""@de;
 	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
-		n0:required_skills,
-		n0:issues,
-		n0:ideas.
+		n0:didactical_guide.
