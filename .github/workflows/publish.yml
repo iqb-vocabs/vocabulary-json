@@ -123,6 +123,9 @@ jobs:
   # listed yet. This is the layout of GitHub's official Pages workflow.
   deploy:
     needs: build
+    # Explicit condition: the default success() would skip this job
+    # whenever the upstream sync job was skipped
+    if: ${{ !cancelled() && needs.build.result == 'success' }}
     runs-on: ubuntu-latest
     permissions:
       pages: write
