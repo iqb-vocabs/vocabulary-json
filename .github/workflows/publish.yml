@@ -1,29 +1,105 @@
-name: Deploy to GitHub Pages
+name: Sync vocabularies and deploy to GitHub Pages
 
 on:
-  workflow_dispatch:
+  # Sent by an iqb-vocabs/v* repo (trigger-sync.yml) after its build finished
+  repository_dispatch:
+    types: [vocab-updated]
+
+  # Code changes in this repo: deploy only, no sync
   push:
     branches:
       - master
 
+  # Manual run: give a repo to sync it first, leave empty to just redeploy
+  workflow_dispatch:
+    inputs:
+      repo:
+        description: 'v* repo to sync before deploying (e.g. v05); empty = deploy only'
+        required: false
+        default: ''
+
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: "pages"
+  group: "vocab-sync-pages"
   cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  # ── 1. Sync ─────────────────────────────────────────────
+  sync:
+    if: ${{ github.event.client_payload.repo || inputs.repo }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # commit updated docs/ and ttl/
+    outputs:
+      sha: ${{ steps.commit.outputs.sha }}
+
+    steps:
+      - name: Checkout vocabulary-json
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Resolve repo name
+        id: resolve
+        env:
+          REPO: ${{ github.event.client_payload.repo || inputs.repo }}
+        run: |
+          if [[ ! "$REPO" =~ ^v[0-9]+$ ]]; then
+            echo "::error::Invalid repo name: '$REPO'"
+            exit 1
+          fi
+          echo "repo=$REPO" >> "$GITHUB_OUTPUT"
+          echo "Syncing: $REPO"
+
+      - name: Fetch updated vocabularies from ${{ steps.resolve.outputs.repo }}
+        run: npx tsx scripts/sync-vocab.ts "${{ steps.resolve.outputs.repo }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit updated docs/ and ttl/ if anything changed
+        id: commit
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/ ttl/
+          if git diff --cached --quiet; then
+            echo "No changes to commit — already up to date."
+          else
+            # [skip ci] keeps this push from starting the workflow again
+            git commit -m "chore: sync ${{ steps.resolve.outputs.repo }} vocabularies [skip ci]"
+            git push
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  # ── 2. Build & deploy ───────────────────────────────────
+  deploy:
+    needs: sync
+    # Run after a successful sync, or directly when no sync was requested
+    if: ${{ !cancelled() && (needs.sync.result == 'success' || needs.sync.result == 'skipped') }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # Build the commit the sync job just pushed (if any)
+          ref: ${{ needs.sync.outputs.sha || github.sha }}
 
       - name: Set up Node
         uses: actions/setup-node@v4
