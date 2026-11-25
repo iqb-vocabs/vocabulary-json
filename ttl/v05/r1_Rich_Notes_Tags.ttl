@@ -8,19 +8,22 @@ n0:original
 	skos:inScheme n0:;
 	skos:notation "1.1";
 	skos:broader n0:transcript;
-	skos:prefLabel "Transkript der Originalquelle"@de.
+	skos:prefLabel "Transkript der Originalquelle"@de,
+	"Transcript of the original source"@en.
 n0:adapted
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.2";
 	skos:broader n0:transcript;
-	skos:prefLabel "Transkript der angepassten Version für die Aufgabe"@de.
+	skos:prefLabel "Transkript der angepassten Version für die Aufgabe"@de,
+	"Transcript of the version adapted for the unit"@en.
 n0:transcript
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Transkript für das Haupt-Audio"@de;
+	skos:prefLabel "Transkript für das Haupt-Audio"@de,
+	"Transcript of the main audio"@en;
 	skos:narrower n0:original,
 		n0:adapted.
 n0:answering_full_credit
@@ -28,49 +31,57 @@ n0:answering_full_credit
 	skos:inScheme n0:;
 	skos:notation "2.1";
 	skos:broader n0:didactical_guide;
-	skos:prefLabel "Richtige Antworten"@de.
+	skos:prefLabel "Richtige Antworten"@de,
+	"Correct answers"@en.
 n0:competence_level
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.2";
 	skos:broader n0:didactical_guide;
-	skos:prefLabel "Diskussion des Schwierigkeitsniveaus"@de.
+	skos:prefLabel "Diskussion des Schwierigkeitsniveaus"@de,
+	"Discussion of the difficulty level"@en.
 n0:misconceptions
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.3";
 	skos:broader n0:didactical_guide;
-	skos:prefLabel "Typische Falschantworten"@de.
+	skos:prefLabel "Typische Falschantworten"@de,
+	"Typical wrong answers"@en.
 n0:problems
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.4";
 	skos:broader n0:didactical_guide;
-	skos:prefLabel "Mögliche Probleme bei der Beantwortung"@de.
+	skos:prefLabel "Mögliche Probleme bei der Beantwortung"@de,
+	"Possible problems in answering"@en.
 n0:required_skills
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.5";
 	skos:broader n0:didactical_guide;
-	skos:prefLabel "Kompetenzanforderung der Aufgabe"@de.
+	skos:prefLabel "Kompetenzanforderung der Aufgabe"@de,
+	"Competence requirements of the unit"@en.
 n0:difficulties
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.6";
 	skos:broader n0:didactical_guide;
-	skos:prefLabel "Mögliche Schwierigkeiten"@de.
+	skos:prefLabel "Mögliche Schwierigkeiten"@de,
+	"Possible difficulties"@en.
 n0:ideas
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2.7";
 	skos:broader n0:didactical_guide;
-	skos:prefLabel "Anregungen für den Unterricht"@de.
+	skos:prefLabel "Anregungen für den Unterricht"@de,
+	"Suggestions for teaching"@en.
 n0:didactical_guide
 	a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "2";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Didaktische Handreichungen"@de;
+	skos:prefLabel "Didaktische Handreichungen"@de,
+	"Didactic guidance"@en;
 	skos:narrower n0:answering_full_credit,
 		n0:competence_level,
 		n0:misconceptions,
@@ -80,9 +91,12 @@ n0:didactical_guide
 		n0:ideas.
 n0:
 	a skos:ConceptScheme;
-	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
-	dct:title "Tags - Rich Notes Tags"@de;
-	dct:description """Kategorien für formatierte Texte als Teil der Unit-Daten"""@de;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de,
+	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
+	dct:title "Tags - Rich Notes Tags"@de,
+	"Tags - Categories for supplementary material"@en;
+	dct:description """Kategorien für formatierte Texte als Teil der Unit-Daten"""@de,
+	"""Categories for formatted texts as part of the unit data"""@en;
 	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
 	skos:hasTopConcept
 		n0:transcript,

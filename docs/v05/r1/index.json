@@ -2,10 +2,12 @@
   "id": "https://w3id.org/iqb/v05/r1/",
   "type": "ConceptScheme",
   "title": {
-    "de": "Tags - Rich Notes Tags"
+    "de": "Tags - Rich Notes Tags",
+    "en": "Tags - Categories for supplementary material"
   },
   "description": {
-    "de": "Kategorien für formatierte Texte als Teil der Unit-Daten"
+    "de": "Kategorien für formatierte Texte als Teil der Unit-Daten",
+    "en": "Categories for formatted texts as part of the unit data"
   },
   "license": {
     "id": "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
@@ -17,7 +19,8 @@
         "1"
       ],
       "prefLabel": {
-        "de": "Transkript für das Haupt-Audio"
+        "de": "Transkript für das Haupt-Audio",
+        "en": "Transcript of the main audio"
       },
       "narrower": [
         {
@@ -26,7 +29,8 @@
             "1.1"
           ],
           "prefLabel": {
-            "de": "Transkript der Originalquelle"
+            "de": "Transkript der Originalquelle",
+            "en": "Transcript of the original source"
           }
         },
         {
@@ -35,7 +39,8 @@
             "1.2"
           ],
           "prefLabel": {
-            "de": "Transkript der angepassten Version für die Aufgabe"
+            "de": "Transkript der angepassten Version für die Aufgabe",
+            "en": "Transcript of the version adapted for the unit"
           }
         }
       ]
@@ -46,7 +51,8 @@
         "2"
       ],
       "prefLabel": {
-        "de": "Didaktische Handreichungen"
+        "de": "Didaktische Handreichungen",
+        "en": "Didactic guidance"
       },
       "narrower": [
         {
@@ -55,7 +61,8 @@
             "2.1"
           ],
           "prefLabel": {
-            "de": "Richtige Antworten"
+            "de": "Richtige Antworten",
+            "en": "Correct answers"
           }
         },
         {
@@ -64,7 +71,8 @@
             "2.2"
           ],
           "prefLabel": {
-            "de": "Diskussion des Schwierigkeitsniveaus"
+            "de": "Diskussion des Schwierigkeitsniveaus",
+            "en": "Discussion of the difficulty level"
           }
         },
         {
@@ -73,7 +81,8 @@
             "2.3"
           ],
           "prefLabel": {
-            "de": "Typische Falschantworten"
+            "de": "Typische Falschantworten",
+            "en": "Typical wrong answers"
           }
         },
         {
@@ -82,7 +91,8 @@
             "2.4"
           ],
           "prefLabel": {
-            "de": "Mögliche Probleme bei der Beantwortung"
+            "de": "Mögliche Probleme bei der Beantwortung",
+            "en": "Possible problems in answering"
           }
         },
         {
@@ -91,7 +101,8 @@
             "2.5"
           ],
           "prefLabel": {
-            "de": "Kompetenzanforderung der Aufgabe"
+            "de": "Kompetenzanforderung der Aufgabe",
+            "en": "Competence requirements of the unit"
           }
         },
         {
@@ -100,7 +111,8 @@
             "2.6"
           ],
           "prefLabel": {
-            "de": "Mögliche Schwierigkeiten"
+            "de": "Mögliche Schwierigkeiten",
+            "en": "Possible difficulties"
           }
         },
         {
@@ -109,7 +121,8 @@
             "2.7"
           ],
           "prefLabel": {
-            "de": "Anregungen für den Unterricht"
+            "de": "Anregungen für den Unterricht",
+            "en": "Suggestions for teaching"
           }
         }
       ]
