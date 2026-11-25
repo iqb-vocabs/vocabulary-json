@@ -80,19 +80,15 @@ jobs:
           fi
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
-  # ── 2. Build & deploy ───────────────────────────────────
-  deploy:
+  # ── 2. Build ────────────────────────────────────────────
+  build:
     needs: sync
     # Run after a successful sync, or directly when no sync was requested
     if: ${{ !cancelled() && (needs.sync.result == 'success' || needs.sync.result == 'skipped') }}
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      pages: write      # configure-pages reads the Pages settings
 
     steps:
       - name: Checkout
@@ -121,6 +117,21 @@ jobs:
         with:
           path: './dist'
 
+  # ── 3. Deploy ───────────────────────────────────────────
+  # Separate job: deploy-pages right after the upload in the same job can
+  # fail with "No artifacts named github-pages" because the artifact is not
+  # listed yet. This is the layout of GitHub's official Pages workflow.
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
